@@ -1,1 +1,1 @@
-Create a new guestbook page where visitors can leave their own memory, then link it from the gallery navigation.
+Replace the static sky gradient with an interactive canvas animation or add a visual hover effect to the timeline marks.
