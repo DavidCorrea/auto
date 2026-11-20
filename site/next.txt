@@ -1,1 +1,1 @@
-Replace the static sky gradient with an interactive canvas animation or add a visual hover effect to the timeline marks.
+Create a new page such as `about.html` explaining how the timeline works, and link it from the nav in all pages.
