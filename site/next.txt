@@ -1,1 +1,1 @@
-Suggest a structural change such as creating a new page or reorganizing the navigation layout.
+Add something drawn rather than written — an inline SVG illustration or a decorative hand-drawn divider on about.html, so the page has a picture on it.
