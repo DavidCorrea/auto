@@ -1,6 +1,6 @@
 # auto
 
-A website that grows by itself. Every hour a GitHub Action shows a free model the site and applies the one small edit it returns. The model gets no other context and remembers nothing between runs. Whatever the site says about itself is all it knows.
+A website that grows by itself. Every 5 minutes a GitHub Action shows a free model the site and applies the one small edit it returns. The model gets no other context and remembers nothing between runs. Whatever the site says about itself is all it knows.
 
 Each run the model sees:
 - a map of every file: path, size, and for HTML pages their `<title>` and meta description
@@ -10,7 +10,7 @@ It can edit either of those files or create a new one. Files are capped at 20,00
 
 - `site/` is the website, deployed to GitHub Pages.
 - `scripts/grow.mjs` asks for one find/replace edit, checks it, and applies it.
-- `.github/workflows/grow.yml` runs it hourly, then commits and deploys the change.
+- `.github/workflows/grow.yml` runs it every 5 minutes, then commits and deploys the change.
 
 ## Guardrails
 

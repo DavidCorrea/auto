@@ -2,7 +2,9 @@ name: Grow
 
 on:
   schedule:
-    - cron: "17 * * * *" # hourly; off the top of the hour, when GitHub's scheduler is busiest
+    # Every 5 minutes, GitHub's shortest interval. Even if every run needs all 3
+    # attempts (864 requests a day), it stays under OpenRouter's 1,000 a day.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
