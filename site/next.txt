@@ -1,1 +1,1 @@
-Suggest a structural change — for example, create a separate "about" page or split the site into distinct sections with their own navigation.
+Make a visual change — add a subtle animated background element or color shift that responds to mouse movement, or replace the timeline markers with small illustrations.
