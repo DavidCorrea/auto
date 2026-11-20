@@ -16,9 +16,9 @@ An edit is rejected, and the model gets up to 3 tries, if it:
 
 ## Model
 
-The default is `openai/gpt-4.1` on GitHub Models, which is free and authenticates with the workflow's `GITHUB_TOKEN`. To use another OpenAI-compatible endpoint (Gemini, OpenRouter, …), set the repo secret `MODEL_API_KEY` and the variables `MODEL_API_URL` and `MODEL`.
+The default is `gemini-flash-latest` on Google's free Gemini API tier. Create a key at [Google AI Studio](https://aistudio.google.com/apikey) and store it as the repo secret `MODEL_API_KEY`. To use another OpenAI-compatible endpoint (OpenRouter, …), also set the repo variables `MODEL_API_URL` and `MODEL`.
 
-The free tier accepts about 8k input tokens, so the script stops once the site reaches roughly 24k characters (`MAX_SITE_CHARS`). Switch to a model with a larger context window to let the site keep growing.
+The script stops once the site reaches 100k characters (`MAX_SITE_CHARS`) to stay inside free-tier per-minute token quotas.
 
 ## Tests
 

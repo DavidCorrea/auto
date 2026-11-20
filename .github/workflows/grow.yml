@@ -21,16 +21,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      models: read
     steps:
       - uses: actions/checkout@v5
 
       - id: grow
         run: node scripts/grow.mjs
         env:
-          # Defaults to GitHub Models (free, no setup). Set the MODEL_API_KEY secret and
-          # MODEL_API_URL / MODEL variables to use any OpenAI-compatible endpoint instead.
-          API_KEY: ${{ secrets.MODEL_API_KEY || secrets.GITHUB_TOKEN }}
+          # Defaults to Gemini's free tier. Set MODEL_API_URL / MODEL variables
+          # to use any other OpenAI-compatible endpoint.
+          API_KEY: ${{ secrets.MODEL_API_KEY }}
           API_URL: ${{ vars.MODEL_API_URL }}
           MODEL: ${{ vars.MODEL }}
 

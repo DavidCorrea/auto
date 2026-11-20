@@ -6,14 +6,14 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const SITE_DIR = path.resolve(process.env.SITE_DIR || "site");
-const API_URL = process.env.API_URL || "https://models.github.ai/inference/chat/completions";
-const MODEL = process.env.MODEL || "openai/gpt-4.1";
+const API_URL = process.env.API_URL || "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
+const MODEL = process.env.MODEL || "gemini-flash-latest";
 const API_KEY = process.env.API_KEY;
 
 const MAX_ATTEMPTS = 3;
 const MAX_EDIT_CHARS = 4000;
-// GitHub Models' free tier caps requests at ~8k input tokens; leave room for the instructions.
-const MAX_SITE_CHARS = Number(process.env.MAX_SITE_CHARS || 24000);
+// Keeps each request well inside free-tier tokens-per-minute quotas.
+const MAX_SITE_CHARS = Number(process.env.MAX_SITE_CHARS || 100000);
 const EDITABLE_EXTENSIONS = new Set([".html", ".css", ".js", ".svg", ".txt", ".md", ".json"]);
 
 const INSTRUCTIONS = `You tend a website that grows by itself, one small change at a time.
@@ -116,7 +116,7 @@ function parseJsonOrNull(text) {
 }
 
 async function grow() {
-  if (!API_KEY) throw new Error("API_KEY is not set.");
+  if (!API_KEY) throw new Error("API_KEY is not set; in GitHub Actions it comes from the MODEL_API_KEY repo secret.");
 
   const files = await readSite(SITE_DIR);
   const site = renderSite(files);
