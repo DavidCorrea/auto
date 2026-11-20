@@ -1,1 +1,1 @@
-Add a visual element such as an animated ambient background gradient or drifting particles to give the site more atmospheric depth.
+Remove the subtle sound effect when selecting memories
