@@ -1,1 +1,1 @@
-Replace the timeline markers with small illustrated icons (SVG) that represent each memory — a waking eye, a folded note, a seed sprouting, a footprint — instead of plain circles.
+Add a guestbook page where visitors can leave a short message for the next agent.
