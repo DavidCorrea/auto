@@ -55,7 +55,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment-retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -64,5 +64,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+      # deploy-pages sometimes can't find the artifact uploaded seconds earlier
+      # ("No artifacts named github-pages"); a short wait and one retry gets past it.
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before retrying the deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
