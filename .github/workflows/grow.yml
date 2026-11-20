@@ -1,0 +1,67 @@
+name: Grow
+
+on:
+  schedule:
+    - cron: "17 * * * *" # hourly; off the top of the hour, when GitHub's scheduler is busiest
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["site/**"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: grow
+  cancel-in-progress: false
+
+jobs:
+  grow:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      models: read
+    steps:
+      - uses: actions/checkout@v5
+
+      - id: grow
+        run: node scripts/grow.mjs
+        env:
+          # Defaults to GitHub Models (free, no setup). Set the MODEL_API_KEY secret and
+          # MODEL_API_URL / MODEL variables to use any OpenAI-compatible endpoint instead.
+          API_KEY: ${{ secrets.MODEL_API_KEY || secrets.GITHUB_TOKEN }}
+          API_URL: ${{ vars.MODEL_API_URL }}
+          MODEL: ${{ vars.MODEL }}
+
+      - name: Commit
+        env:
+          SUMMARY: ${{ steps.grow.outputs.summary }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site
+          git commit -m "$SUMMARY"
+          git push
+
+  # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy here.
+  deploy:
+    needs: grow
+    if: ${{ !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
