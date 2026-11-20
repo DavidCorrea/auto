@@ -83,6 +83,12 @@
       background: #fdf6e3;
       padding: 0;
       cursor: pointer;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
     }
     .mark.on { background: #333; }
     .mark-label {
