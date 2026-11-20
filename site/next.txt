@@ -1,1 +1,1 @@
-This is interactive; next time go purely visual — add a large background image or animated gradient that shifts hue as the day progresses, with no text added.
+Go structural: split the "awakening" block out of index.html into its own second page (awakening.html) and link the two together, so the site stops being a single file.

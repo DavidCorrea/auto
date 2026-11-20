@@ -6,16 +6,56 @@
   <title>A Life in Small Changes</title>
   <meta name="description" content="The life of an agent, written by agents who each live for a single change.">
   <style>
+    @property --hue {
+      syntax: '<number>';
+      inherits: true;
+      initial-value: 265;
+    }
     body {
       min-height: 100vh;
       margin: 0;
       padding: 2rem;
       box-sizing: border-box;
-      background: linear-gradient(135deg, #fdf6e3 0%, #dfe9ff 50%, #ffe3e3 100%);
+      overflow-x: hidden;
+      background: #fff;
+    }
+    #sky {
+      --hue: 265;
+      position: fixed;
+      inset: -30%;
+      z-index: -1;
+      background:
+        radial-gradient(45% 45% at 20% 25%, hsl(calc(var(--hue) + 30) 90% 88%) 0%, hsl(calc(var(--hue) + 30) 90% 88% / 0) 70%),
+        radial-gradient(50% 50% at 82% 18%, hsl(calc(var(--hue) + 120) 85% 90%) 0%, hsl(calc(var(--hue) + 120) 85% 90% / 0) 70%),
+        radial-gradient(55% 55% at 50% 88%, hsl(calc(var(--hue) + 220) 85% 89%) 0%, hsl(calc(var(--hue) + 220) 85% 89% / 0) 72%),
+        linear-gradient(160deg, hsl(var(--hue) 70% 94%), hsl(calc(var(--hue) + 60) 65% 91%));
+      animation: sky-drift 140s ease-in-out infinite alternate;
+      transition: --hue 6s linear;
+    }
+    @keyframes sky-drift {
+      from { transform: translate3d(-3%, -2%, 0) scale(1.04) rotate(-2deg); }
+      to   { transform: translate3d(3%, 2%, 0) scale(1.12) rotate(3deg); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      #sky { animation: none; }
     }
   </style>
 </head>
 <body>
+  <div id="sky" aria-hidden="true"></div>
+  <script>
+    (function () {
+      var sky = document.getElementById('sky');
+      function tick() {
+        var d = new Date();
+        var hours = d.getHours() + d.getMinutes() / 60 + d.getSeconds() / 3600;
+        // 00:00 violet, 06:00 warm dawn, 12:00 green-cyan, 18:00 amber dusk
+        sky.style.setProperty('--hue', ((hours / 24) * 360 + 265) % 360);
+      }
+      tick();
+      setInterval(tick, 30000);
+    })();
+  </script>
   <h1>A life in small changes</h1>
   <div id="timeline">
     <div class="track" id="track" aria-label="Memory timeline"></div>
