@@ -8,26 +8,34 @@ import {
   renderPrompt,
   RejectedEdit,
   MAX_FILE_CHARS,
+  HANDOFF_FILE,
 } from "./grow.mjs";
 
 const site = new Map([
   ["index.html", "<h1>Hello.</h1>\n<p>Hi</p>\n"],
   ["about.html", "<p>About</p>\n"],
   ["style.css", "body { color: black; }\n"],
+  ["next.txt", "Try a dark theme.\n"],
 ]);
 const visible = ["index.html", "style.css"];
 
 const reply = (file, find, replace) =>
-  `FILE: ${file}\nSUMMARY: change it\n<<<<<<< FIND\n${find}\n=======\n${replace}\n>>>>>>> REPLACE`;
+  `FILE: ${file}\nSUMMARY: change it\nNEXT: make a new page\n<<<<<<< FIND\n${find}\n=======\n${replace}\n>>>>>>> REPLACE`;
 
 describe("reading the model's reply", () => {
   test("extracts the edit even when wrapped in a code fence", () => {
     const edit = parseEdit("```\n" + reply("index.html", "<p>Hi</p>", "<p>Hey</p>") + "\n```");
-    assert.deepEqual(edit, { filePath: "index.html", summary: "change it", find: "<p>Hi</p>", replace: "<p>Hey</p>" });
+    assert.deepEqual(edit, {
+      filePath: "index.html",
+      summary: "change it",
+      next: "make a new page",
+      find: "<p>Hi</p>",
+      replace: "<p>Hey</p>",
+    });
   });
 
   test("accepts an empty FIND for a new file", () => {
-    const edit = parseEdit("FILE: a.css\nSUMMARY: s\n<<<<<<< FIND\n=======\nbody{}\n>>>>>>> REPLACE");
+    const edit = parseEdit("FILE: a.css\nSUMMARY: s\nNEXT: n\n<<<<<<< FIND\n=======\nbody{}\n>>>>>>> REPLACE");
     assert.equal(edit.find, "");
     assert.equal(edit.replace, "body{}");
   });
@@ -35,12 +43,31 @@ describe("reading the model's reply", () => {
   test("rejects free-form prose", () => {
     assert.throws(() => parseEdit("I changed the heading!"), RejectedEdit);
   });
+
+  test("rejects a reply that leaves no note for the next change", () => {
+    const withoutNext = "FILE: a.css\nSUMMARY: s\n<<<<<<< FIND\n=======\nbody{}\n>>>>>>> REPLACE";
+    assert.throws(() => parseEdit(withoutNext), /NEXT/);
+  });
 });
 
 describe("choosing what the model sees", () => {
   test("always shows index.html plus one other file", () => {
     assert.deepEqual(chooseVisibleFiles(site, () => 0), ["index.html", "about.html"]);
     assert.deepEqual(chooseVisibleFiles(site, () => 1), ["index.html", "style.css"]);
+  });
+
+  test("never picks the handoff note as the random file", () => {
+    for (let index = 0; index < 3; index++) {
+      assert.notEqual(chooseVisibleFiles(site, () => index)[1], HANDOFF_FILE);
+    }
+  });
+
+  test("opens with the previous note", () => {
+    assert.match(renderPrompt(site, visible), /^## Note from the previous change\nTry a dark theme\.\n/);
+  });
+
+  test("says when there is no note yet", () => {
+    assert.match(renderPrompt(new Map([["index.html", "x"]]), ["index.html"]), /none yet/);
   });
 
   test("shows only index.html when it is the whole site", () => {
@@ -98,6 +125,13 @@ describe("applying an edit", () => {
 
   test("rejects edits that aren't small", () => {
     assert.throws(() => applyEdit({ filePath: "big.html", find: "", replace: "x".repeat(5000) }, site, visible), /under/);
+  });
+
+  test("rejects editing the handoff note directly", () => {
+    assert.throws(
+      () => applyEdit({ filePath: "next.txt", find: "Try a dark theme.", replace: "x" }, site, [...visible, "next.txt"]),
+      /NEXT line/,
+    );
   });
 
   test("rejects overwriting an existing file via empty FIND", () => {

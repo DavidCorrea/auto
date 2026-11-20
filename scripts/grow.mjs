@@ -1,6 +1,7 @@
 // Asks a model for one small edit to the website and applies it.
-// The model sees only the site: a map of every file, plus the full source of
-// index.html and one randomly chosen file. It has no memory of earlier runs.
+// The model sees only the site: the note the previous run left in next.txt, a map
+// of every file, and the full source of index.html plus one randomly chosen file.
+// It has no memory of earlier runs beyond that note.
 
 import { readFile, writeFile, readdir, appendFile, mkdir } from "node:fs/promises";
 import path from "node:path";
@@ -18,18 +19,27 @@ const MAX_EDIT_CHARS = 4000;
 // without bound, which keeps what the model reads each run roughly constant.
 export const MAX_FILE_CHARS = 20000;
 const ENTRANCE = "index.html";
+// Written only through the NEXT line of a reply, so each run hands a different direction to the next.
+export const HANDOFF_FILE = "next.txt";
 const EDITABLE_EXTENSIONS = new Set([".html", ".css", ".js", ".svg", ".txt", ".md", ".json"]);
 
 const INSTRUCTIONS = `You tend a website that grows by itself, one small change at a time.
-Below is a map of every file in the site, followed by the full source of a few of them.
-Make exactly one small change: edit one of the files shown in full, or create a new file.
-It can be anything — add, remove, fix, restyle, rewrite — as long as it is small and the site keeps working.
-Each file can hold at most ${MAX_FILE_CHARS} characters; when one is full, grow the site with new files instead.
+Each change is made by someone new who sees only the site and the note the previous one left.
+Below is that note, a map of every file in the site, and the full source of a few files.
+
+1. Make exactly one small change, using the previous note as your starting point:
+   edit one of the files shown in full, or create a new file.
+   Prefer changes a visitor would notice. Don't just add another line like the ones already there.
+2. Leave a note for the next person suggesting a change of a totally different kind from yours.
+   If you wrote words, suggest something visual, interactive, structural, a new page, or removing something — and so on.
+
+Keep the site working. Each file can hold at most ${MAX_FILE_CHARS} characters; when one is full, grow the site with new files instead.
 
 Reply with only this, nothing else:
 
 FILE: <path relative to the site root>
 SUMMARY: <one short line describing the change>
+NEXT: <one or two sentences for the next person: a totally different kind of change to make>
 <<<<<<< FIND
 <text copied exactly from the file, unique within it; leave empty to create a new file>
 =======
@@ -37,7 +47,7 @@ SUMMARY: <one short line describing the change>
 >>>>>>> REPLACE`;
 
 const EDIT_PATTERN =
-  /FILE:[ \t]*(.+?)[ \t]*\nSUMMARY:[ \t]*(.+?)[ \t]*\n<<<<<<< FIND\n([\s\S]*?)\n?=======\n([\s\S]*?)\n?>>>>>>> REPLACE/;
+  /FILE:[ \t]*(.+?)[ \t]*\nSUMMARY:[ \t]*(.+?)[ \t]*\nNEXT:[ \t]*(.+?)[ \t]*\n<<<<<<< FIND\n([\s\S]*?)\n?=======\n([\s\S]*?)\n?>>>>>>> REPLACE/;
 
 export class RejectedEdit extends Error {}
 
@@ -70,22 +80,23 @@ export function describeFile(filePath, content) {
 
 export function chooseVisibleFiles(files, randomIndex = (count) => Math.floor(Math.random() * count)) {
   const visible = files.has(ENTRANCE) ? [ENTRANCE] : [];
-  const others = [...files.keys()].filter((filePath) => filePath !== ENTRANCE);
+  const others = [...files.keys()].filter((filePath) => filePath !== ENTRANCE && filePath !== HANDOFF_FILE);
   if (others.length > 0) visible.push(others[randomIndex(others.length)]);
   return visible;
 }
 
 export function renderPrompt(files, visiblePaths) {
+  const note = files.get(HANDOFF_FILE)?.trim() || "(none yet — you are the first)";
   const map = [...files].map(([filePath, content]) => describeFile(filePath, content)).join("\n");
   const sources = visiblePaths.map((filePath) => `===== ${filePath} =====\n${files.get(filePath)}`).join("\n\n");
-  return `## Site map\n${map}\n\n## Files shown in full\n${sources}`;
+  return `## Note from the previous change\n${note}\n\n## Site map\n${map}\n\n## Files shown in full\n${sources}`;
 }
 
 export function parseEdit(reply) {
   const match = reply.replace(/\r\n/g, "\n").match(EDIT_PATTERN);
-  if (!match) throw new RejectedEdit("Reply did not follow the FILE / SUMMARY / FIND / REPLACE format.");
-  const [, filePath, summary, find, replace] = match;
-  return { filePath, summary, find, replace };
+  if (!match) throw new RejectedEdit("Reply did not follow the FILE / SUMMARY / NEXT / FIND / REPLACE format.");
+  const [, filePath, summary, next, find, replace] = match;
+  return { filePath, summary, next, find, replace };
 }
 
 export function applyEdit(edit, files, visiblePaths) {
@@ -97,6 +108,9 @@ export function applyEdit(edit, files, visiblePaths) {
   }
   if (!EDITABLE_EXTENSIONS.has(path.posix.extname(normalizedPath))) {
     throw new RejectedEdit(`Path "${filePath}" must end in one of: ${[...EDITABLE_EXTENSIONS].join(", ")}.`);
+  }
+  if (normalizedPath === HANDOFF_FILE) {
+    throw new RejectedEdit(`"${HANDOFF_FILE}" is written from your NEXT line; change a different file.`);
   }
   if (find.length + replace.length > MAX_EDIT_CHARS) {
     throw new RejectedEdit(`Edit is ${find.length + replace.length} characters; keep it under ${MAX_EDIT_CHARS}.`);
@@ -174,7 +188,9 @@ async function grow() {
       const destination = path.join(SITE_DIR, result.filePath);
       await mkdir(path.dirname(destination), { recursive: true });
       await writeFile(destination, result.content);
+      await writeFile(path.join(SITE_DIR, HANDOFF_FILE), `${edit.next}\n`);
       console.log(`Applied: ${edit.summary} (${result.filePath})`);
+      console.log(`Next: ${edit.next}`);
       if (process.env.GITHUB_OUTPUT) {
         await appendFile(process.env.GITHUB_OUTPUT, `summary=${edit.summary.replace(/\s+/g, " ")}\n`);
       }

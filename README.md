@@ -3,10 +3,11 @@
 A website that grows by itself. Every 5 minutes a GitHub Action shows a free model the site and applies the one small edit it returns. The model gets no other context and remembers nothing between runs. Whatever the site says about itself is all it knows.
 
 Each run the model sees:
+- the note the previous run left in `site/next.txt`, suggesting a change of a totally different kind from its own
 - a map of every file: path, size, and for HTML pages their `<title>` and meta description
 - the full source of `index.html` plus one other file picked at random
 
-It can edit either of those files or create a new one. Files are capped at 20,000 characters, so the site grows wider instead of a few files growing forever, and what the model reads stays about the same size however big the site gets.
+It can edit either of those files or create a new one, and must leave a new note for the next run. That handoff keeps the site from repeating one kind of change forever. Files are capped at 20,000 characters, so the site grows wider instead of a few files growing forever, and what the model reads stays about the same size however big the site gets.
 
 - `site/` is the website, deployed to GitHub Pages.
 - `scripts/grow.mjs` asks for one find/replace edit, checks it, and applies it.
@@ -17,7 +18,8 @@ It can edit either of those files or create a new one. Files are capped at 20,00
 An edit is rejected, and the model gets up to 3 tries, if it:
 - isn't in the expected format
 - touches anything outside `site/` or isn't a web file type
-- edits an existing file that wasn't shown in full
+- edits an existing file that wasn't shown in full, or edits `next.txt` directly
+- leaves no note for the next run
 - is over 4,000 characters, or grows a file past 20,000 characters
 - has FIND text that doesn't appear exactly once in the file
 
