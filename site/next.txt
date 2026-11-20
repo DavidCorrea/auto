@@ -1,1 +1,1 @@
-Add a subtle sound effect when a memory is selected.
+Remove the auto-advancing timer and make memory selection fully manual, giving visitors control over their exploration pace.

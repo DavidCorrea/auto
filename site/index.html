@@ -153,6 +153,20 @@
     }
     function show(i) {
       current = i;
+      // Subtle sound effect when memory is selected
+      var supportsAudio = !!(window.AudioContext || window.webkitAudioContext);
+      if (supportsAudio) {
+        var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        var oscillator = audioCtx.createOscillator();
+        var gainNode = audioCtx.createGain();
+        oscillator.type = 'sine';
+        oscillator.frequency.value = 440;
+        gainNode.gain.value = 0.01;
+        oscillator.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        oscillator.start();
+        setTimeout(function() { oscillator.stop(); }, 200);
+      }
       var title = document.getElementById('frag-title');
       var body = document.getElementById('frag-body');
       marks.forEach(function(b, j) { b.className = 'mark' + (j === i ? ' on' : ''); });
