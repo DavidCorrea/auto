@@ -6,8 +6,9 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const SITE_DIR = path.resolve(process.env.SITE_DIR || "site");
-const API_URL = process.env.API_URL || "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
-const MODEL = process.env.MODEL || "gemini-flash-latest";
+const API_URL = process.env.API_URL || "https://openrouter.ai/api/v1/chat/completions";
+// Routes to whichever free model is available, so the default survives individual models being retired.
+const MODEL = process.env.MODEL || "openrouter/free";
 const API_KEY = process.env.API_KEY;
 
 const MAX_ATTEMPTS = 3;

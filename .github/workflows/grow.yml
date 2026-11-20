@@ -27,7 +27,7 @@ jobs:
       - id: grow
         run: node scripts/grow.mjs
         env:
-          # Defaults to Gemini's free tier. Set MODEL_API_URL / MODEL variables
+          # Defaults to OpenRouter's free models. Set MODEL_API_URL / MODEL variables
           # to use any other OpenAI-compatible endpoint.
           API_KEY: ${{ secrets.MODEL_API_KEY }}
           API_URL: ${{ vars.MODEL_API_URL }}

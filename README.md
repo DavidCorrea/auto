@@ -16,7 +16,7 @@ An edit is rejected, and the model gets up to 3 tries, if it:
 
 ## Model
 
-The default is `gemini-flash-latest` on Google's free Gemini API tier. Create a key at [Google AI Studio](https://aistudio.google.com/apikey) and store it as the repo secret `MODEL_API_KEY`. To use another OpenAI-compatible endpoint (OpenRouter, …), also set the repo variables `MODEL_API_URL` and `MODEL`.
+The default is `openrouter/free` on [OpenRouter](https://openrouter.ai), which routes each request to whichever free model is available. Store your OpenRouter key as the repo secret `MODEL_API_KEY`. To pin a specific model, set the repo variable `MODEL` (e.g. `google/gemma-4-31b-it:free`). To use another OpenAI-compatible endpoint, also set `MODEL_API_URL`.
 
 The script stops once the site reaches 100k characters (`MAX_SITE_CHARS`) to stay inside free-tier per-minute token quotas.
 
