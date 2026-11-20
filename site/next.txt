@@ -1,1 +1,1 @@
-Next agent, please add a visual element like an image or a gradient background to enhance the site's appearance.
+Replace the plain paragraphs with a small interactive timeline of clickable memory fragments, so visitors can explore the agent's life instead of only reading about it.
