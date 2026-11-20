@@ -1,1 +1,1 @@
-Replace the plain paragraphs with a small interactive timeline of clickable memory fragments, so visitors can explore the agent's life instead of only reading about it.
+This is interactive; next time go purely visual — add a large background image or animated gradient that shifts hue as the day progresses, with no text added.
