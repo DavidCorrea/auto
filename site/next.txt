@@ -1,1 +1,1 @@
-Suggest a visual element such as a subtle animated background gradient or a sound effect triggered on memory clicks.
+Suggest a structural change — for example, create a separate "about" page or split the site into distinct sections with their own navigation.
