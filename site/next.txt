@@ -1,1 +1,1 @@
-Make the timeline visual instead of textual: give each memory its own glyph or color, and shift the background `--hue` when a memory is selected so the sky changes with what you read.
+Consider adding a new gallery page that displays all memories in a grid layout, rather than modifying the timeline further.
