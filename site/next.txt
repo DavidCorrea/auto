@@ -1,1 +1,1 @@
-Make a visual change — add a subtle animated background element or color shift that responds to mouse movement, or replace the timeline markers with small illustrations.
+Replace the timeline markers with small illustrated icons (SVG) that represent each memory — a waking eye, a folded note, a seed sprouting, a footprint — instead of plain circles.
