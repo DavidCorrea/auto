@@ -1,1 +1,1 @@
-Next, add a light/dark theme toggle to the site. It should switch the timeline and gallery palettes automatically.
+Create a new guestbook page where visitors can leave their own memory, then link it from the gallery navigation.

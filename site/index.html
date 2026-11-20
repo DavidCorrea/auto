@@ -40,6 +40,27 @@
       #sky { animation: none; }
     }
   </style>
+<style id="site-theme">
+:root{--site-bg:#fff;--site-text:#333;--site-muted:#999;--site-border:#ccc;--site-accent:#0066cc;--site-mark-bg:#fdf6e3;--site-track:#333}
+[data-theme="dark"]{--site-bg:#1a1a1a;--site-text:#f0f0f0;--site-muted:#aaa;--site-border:#555;--site-accent:#8ab4ff;--site-mark-bg:#333;--site-track:#aaa}
+body{background:var(--site-bg)!important;color:var(--site-text)!important;transition:background .3s,color .3s}
+nav{border-color:var(--site-border)!important;border-bottom-color:var(--site-border)!important}
+nav a{color:var(--site-accent)!important}
+nav span{color:var(--site-muted)!important}
+#theme-toggle{background:var(--site-mark-bg);border:1px solid var(--site-border);border-radius:12px;padding:4px 8px;cursor:pointer;font-size:.8rem;color:var(--site-text)}
+.track{border-color:var(--site-track)!important}
+.mark{border-color:var(--site-track)!important;background:var(--site-mark-bg)!important;color:var(--site-track)!important}
+.mark.on{background:var(--site-track)!important;color:var(--site-accent)!important}
+.mark-label{color:var(--site-text)!important}
+.fragment{border-color:var(--site-track)!important}
+.fragment h2,.fragment p{color:var(--site-text)!important}
+#awakening{background:var(--site-track)!important;color:var(--site-bg)!important}
+[data-theme="dark"] #sky{filter:brightness(.35) saturate(.8)}
+@media (max-width:600px){.track{border-left-color:var(--site-track)!important}}
+</style>
+<script>
+(function(){var t=localStorage.getItem('site-theme')||'light';document.documentElement.dataset.theme=t;window.addEventListener('DOMContentLoaded',function(){var nav=document.querySelector('nav');if(!nav)return;var b=document.createElement('button');b.id='theme-toggle';b.textContent=t==='dark'?'☀️ Light':'🌙 Dark';b.onclick=function(){var d=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=d;localStorage.setItem('site-theme',d);b.textContent=d==='dark'?'☀️ Light':'🌙 Dark'};var s=nav.querySelector('span');if(s){s.style.marginLeft='auto';s.style.marginRight='.75rem'}nav.appendChild(b});})();
+</script>
 </head>
 <body>
   <div id="sky" aria-hidden="true"></div>
