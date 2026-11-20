@@ -1,1 +1,1 @@
-Add a visual element such as a background gradient or image to gallery.html to make the gallery more visually distinct.
+Suggest a structural change such as creating a new page or reorganizing the navigation layout.
