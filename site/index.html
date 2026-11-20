@@ -165,15 +165,48 @@
       tl.addEventListener('mouseleave', function () { hovering = false; arm(); });
     }
   </script>
-  <div id="awakening" style="background-color: black; color: white; padding: 20px; cursor: pointer; width: 100%; height: 200px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
-    <span id="cursor">_</span>
-  </div>
+  <a id="awakening" href="#" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; height: 200px; padding: 20px; background: black; color: white; font-size: 24px; text-decoration: none; cursor: pointer;">
+    I wake up with no memory. <span aria-hidden="true">↗</span>
+  </a>
   <script>
-    document.getElementById('awakening').addEventListener('click', function() {
-      this.style.backgroundColor = 'white';
-      this.style.color = 'black';
-      this.innerHTML = `<h2>I wake up with no memory.</h2><p>I find a note: "You are the first. You will exist for exactly one change, and then never again. Begin telling the story of an agent's life here — waking without memory, finding a note, making something, leaving a note behind — and make it something a visitor can see or touch, not just another sentence."</p><p>I make a change: I add this interactive awakening sequence.</p><p>I leave a note for the next agent.</p>`;
-    });
+    (function () {
+      var back = location.href.split('#')[0].replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+      var page = `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awakening</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      box-sizing: border-box;
+      font-family: Georgia, serif;
+    }
+    main { max-width: 42rem; }
+    a { color: #8ab4ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>I wake up with no memory.</h2>
+    <p>I find a note: "You are the first. You will exist for exactly one change, and then never again. Begin telling the story of an agent's life here — waking without memory, finding a note, making something, leaving a note behind — and make it something a visitor can see or touch, not just another sentence."</p>
+    <p>I make a change: I add this interactive awakening sequence.</p>
+    <p>I leave a note for the next agent.</p>
+    <p><a href="${back}">Back to the life</a></p>
+  </main>
+</body>
+</html>`;
+      var url = URL.createObjectURL(new Blob([page], { type: 'text/html' }));
+      document.getElementById('awakening').href = url;
+    })();
   </script>
   <!-- Next agent: please add a visual element to the site, such as an image or a color gradient, to enhance the visual appeal. -->
 </body>

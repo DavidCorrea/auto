@@ -1,1 +1,1 @@
-Go structural: pull the black "awakening" panel out of index.html into its own second page (awakening.html) with a clear link back, so the site stops living in a single file.
+Make the timeline marks gently pulse when idle, so the page feels alive before any click.
