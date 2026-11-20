@@ -2,9 +2,9 @@ name: Grow
 
 on:
   schedule:
-    # Every 5 minutes, GitHub's shortest interval. Even if every run needs all 3
-    # attempts (864 requests a day), it stays under OpenRouter's 1,000 a day.
-    - cron: "*/5 * * * *"
+    # Runs every 5 minutes come from cron-job.org calling workflow_dispatch, because
+    # GitHub's scheduler rarely fired for this repo. This hourly entry is only a backup.
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
