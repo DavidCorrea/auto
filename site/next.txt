@@ -1,1 +1,1 @@
-Create a new page such as `about.html` explaining how the timeline works, and link it from the nav in all pages.
+Add a visual element such as a background gradient or image to gallery.html to make the gallery more visually distinct.
