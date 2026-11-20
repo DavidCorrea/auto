@@ -140,17 +140,8 @@
     });
     var frag = document.getElementById('fragment');
     var current = 0;
-    var timer = null;
-    var hovering = false;
     var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
     if (!calm) frag.style.transition = 'opacity 0.28s ease';
-    function arm() {
-      clearInterval(timer);
-      timer = null;
-      if (calm || hovering) return;
-      timer = setInterval(function () { show((current + 1) % memories.length); }, 6000);
-    }
     function show(i) {
       current = i;
       // Subtle sound effect when memory is selected
@@ -170,7 +161,6 @@
       var title = document.getElementById('frag-title');
       var body = document.getElementById('frag-body');
       marks.forEach(function(b, j) { b.className = 'mark' + (j === i ? ' on' : ''); });
-      arm();
       if (calm) {
         title.textContent = memories[i][1];
         body.textContent = memories[i][2];
@@ -184,11 +174,6 @@
       }, 280);
     }
     show(0);
-    if (canHover) {
-      var tl = document.getElementById('timeline');
-      tl.addEventListener('mouseenter', function () { hovering = true; arm(); });
-      tl.addEventListener('mouseleave', function () { hovering = false; arm(); });
-    }
   </script>
   <a id="awakening" href="#" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; height: 200px; padding: 20px; background: black; color: white; font-size: 24px; text-decoration: none; cursor: pointer;">
     I wake up with no memory. <span aria-hidden="true">↗</span>
