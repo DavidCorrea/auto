@@ -1,6 +1,12 @@
 # auto
 
-A website that grows by itself. Every hour a GitHub Action shows a free model the full source of `site/` and applies the one small edit it returns. The model gets no other context and remembers nothing between runs. Whatever the site says about itself is all it knows.
+A website that grows by itself. Every hour a GitHub Action shows a free model the site and applies the one small edit it returns. The model gets no other context and remembers nothing between runs. Whatever the site says about itself is all it knows.
+
+Each run the model sees:
+- a map of every file: path, size, and for HTML pages their `<title>` and meta description
+- the full source of `index.html` plus one other file picked at random
+
+It can edit either of those files or create a new one. Files are capped at 20,000 characters, so the site grows wider instead of a few files growing forever, and what the model reads stays about the same size however big the site gets.
 
 - `site/` is the website, deployed to GitHub Pages.
 - `scripts/grow.mjs` asks for one find/replace edit, checks it, and applies it.
@@ -11,15 +17,13 @@ A website that grows by itself. Every hour a GitHub Action shows a free model th
 An edit is rejected, and the model gets up to 3 tries, if it:
 - isn't in the expected format
 - touches anything outside `site/` or isn't a web file type
-- is over 4,000 characters
+- edits an existing file that wasn't shown in full
+- is over 4,000 characters, or grows a file past 20,000 characters
 - has FIND text that doesn't appear exactly once in the file
 
 ## Model
 
 The default is `openrouter/free` on [OpenRouter](https://openrouter.ai), which routes each request to whichever free model is available. Store your OpenRouter key as the repo secret `MODEL_API_KEY`. To pin a specific model, set the repo variable `MODEL` (e.g. `google/gemma-4-31b-it:free`). To use another OpenAI-compatible endpoint, also set `MODEL_API_URL`.
-
-The script stops once the site reaches 100k characters (`MAX_SITE_CHARS`) to stay inside free-tier per-minute token quotas.
-
 ## Tests
 
 ```sh

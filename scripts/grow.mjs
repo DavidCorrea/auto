@@ -1,5 +1,6 @@
 // Asks a model for one small edit to the website and applies it.
-// The model sees only the site's files; it has no memory of earlier runs.
+// The model sees only the site: a map of every file, plus the full source of
+// index.html and one randomly chosen file. It has no memory of earlier runs.
 
 import { readFile, writeFile, readdir, appendFile, mkdir } from "node:fs/promises";
 import path from "node:path";
@@ -13,13 +14,17 @@ const API_KEY = process.env.API_KEY;
 
 const MAX_ATTEMPTS = 3;
 const MAX_EDIT_CHARS = 4000;
-// Keeps each request well inside free-tier tokens-per-minute quotas.
-const MAX_SITE_CHARS = Number(process.env.MAX_SITE_CHARS || 100000);
+// Caps each file so the site grows wider (more files) rather than a few files growing
+// without bound, which keeps what the model reads each run roughly constant.
+export const MAX_FILE_CHARS = 20000;
+const ENTRANCE = "index.html";
 const EDITABLE_EXTENSIONS = new Set([".html", ".css", ".js", ".svg", ".txt", ".md", ".json"]);
 
 const INSTRUCTIONS = `You tend a website that grows by itself, one small change at a time.
-Below is the website's complete source. Make exactly one small change to it.
+Below is a map of every file in the site, followed by the full source of a few of them.
+Make exactly one small change: edit one of the files shown in full, or create a new file.
 It can be anything — add, remove, fix, restyle, rewrite — as long as it is small and the site keeps working.
+Each file can hold at most ${MAX_FILE_CHARS} characters; when one is full, grow the site with new files instead.
 
 Reply with only this, nothing else:
 
@@ -49,8 +54,31 @@ export async function readSite(siteDir) {
   return new Map([...files].sort(([a], [b]) => a.localeCompare(b)));
 }
 
-export function renderSite(files) {
-  return [...files].map(([filePath, content]) => `===== ${filePath} =====\n${content}`).join("\n\n");
+function firstMatch(content, pattern) {
+  const text = content.match(pattern)?.[1]?.replace(/\s+/g, " ").trim();
+  if (!text) return null;
+  return text.length > 120 ? `${text.slice(0, 119)}…` : text;
+}
+
+export function describeFile(filePath, content) {
+  const line = `${filePath}  (${content.length} chars)`;
+  if (path.posix.extname(filePath) !== ".html") return line;
+  const title = firstMatch(content, /<title[^>]*>([\s\S]*?)<\/title>/i);
+  const description = firstMatch(content, /<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i);
+  return [line, title && `"${title}"`, description && `— ${description}`].filter(Boolean).join("  ");
+}
+
+export function chooseVisibleFiles(files, randomIndex = (count) => Math.floor(Math.random() * count)) {
+  const visible = files.has(ENTRANCE) ? [ENTRANCE] : [];
+  const others = [...files.keys()].filter((filePath) => filePath !== ENTRANCE);
+  if (others.length > 0) visible.push(others[randomIndex(others.length)]);
+  return visible;
+}
+
+export function renderPrompt(files, visiblePaths) {
+  const map = [...files].map(([filePath, content]) => describeFile(filePath, content)).join("\n");
+  const sources = visiblePaths.map((filePath) => `===== ${filePath} =====\n${files.get(filePath)}`).join("\n\n");
+  return `## Site map\n${map}\n\n## Files shown in full\n${sources}`;
 }
 
 export function parseEdit(reply) {
@@ -60,7 +88,7 @@ export function parseEdit(reply) {
   return { filePath, summary, find, replace };
 }
 
-export function applyEdit(edit, files) {
+export function applyEdit(edit, files, visiblePaths) {
   const { filePath, find, replace } = edit;
   const normalizedPath = path.posix.normalize(filePath);
 
@@ -84,11 +112,21 @@ export function applyEdit(edit, files) {
   }
 
   if (current === undefined) throw new RejectedEdit(`"${filePath}" does not exist.`);
+  if (!visiblePaths.includes(normalizedPath)) {
+    throw new RejectedEdit(`"${filePath}" isn't shown in full; edit one of ${visiblePaths.join(", ")} or create a new file.`);
+  }
   const occurrences = current.split(find).length - 1;
   if (occurrences !== 1) {
     throw new RejectedEdit(`FIND text appears ${occurrences} times in "${filePath}"; it must appear exactly once.`);
   }
-  return { filePath: normalizedPath, content: current.replace(find, () => replace) };
+  const content = current.replace(find, () => replace);
+  // Shrinking is always allowed, so a file that is already over the limit can still be trimmed.
+  if (content.length > MAX_FILE_CHARS && content.length > current.length) {
+    throw new RejectedEdit(
+      `"${filePath}" would be ${content.length} characters, over the ${MAX_FILE_CHARS} limit; put new content in a new file.`,
+    );
+  }
+  return { filePath: normalizedPath, content };
 }
 
 async function askModel(messages) {
@@ -120,21 +158,19 @@ async function grow() {
   if (!API_KEY) throw new Error("API_KEY is not set; in GitHub Actions it comes from the MODEL_API_KEY repo secret.");
 
   const files = await readSite(SITE_DIR);
-  const site = renderSite(files);
-  if (site.length > MAX_SITE_CHARS) {
-    throw new Error(`Site is ${site.length} characters, over the ${MAX_SITE_CHARS} limit the model can take in.`);
-  }
+  const visiblePaths = chooseVisibleFiles(files);
+  console.log(`Showing in full: ${visiblePaths.join(", ")}`);
 
   const messages = [
     { role: "system", content: INSTRUCTIONS },
-    { role: "user", content: site },
+    { role: "user", content: renderPrompt(files, visiblePaths) },
   ];
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     const reply = await askModel(messages);
     try {
       const edit = parseEdit(reply);
-      const result = applyEdit(edit, files);
+      const result = applyEdit(edit, files, visiblePaths);
       const destination = path.join(SITE_DIR, result.filePath);
       await mkdir(path.dirname(destination), { recursive: true });
       await writeFile(destination, result.content);
