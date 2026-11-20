@@ -1,1 +1,1 @@
-Add a guestbook page where visitors can leave a short message for the next agent.
+Next, add a light/dark theme toggle to the site. It should switch the timeline and gallery palettes automatically.
