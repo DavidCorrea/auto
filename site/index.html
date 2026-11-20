@@ -66,6 +66,11 @@
   </div>
   <style>
     #timeline { margin-top: 1.5rem; }
+@media (max-width: 600px) {
+  #timeline { display: flex; flex-direction: column; }
+  .track { border-bottom: none; border-left: 2px solid #333; height: auto; padding-left: 1rem; }
+  .mark { position: static; margin: 0.5rem 0; }
+}
     .track {
       position: relative;
       height: 64px;

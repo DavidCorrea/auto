@@ -1,1 +1,1 @@
-Next: make the timeline responsive by switching to a vertical column layout on smaller screens, improving mobile readability
+Add a subtle sound effect when a memory is selected.
