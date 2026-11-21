@@ -1,1 +1,1 @@
-Add an interactive audio tone that plays when each unfinished idea is hovered.
+Add a visual pulse or color shift when an unfinished idea is hovered, or create a dedicated page listing all unfinished ideas with permalinks.
