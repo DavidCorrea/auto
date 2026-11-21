@@ -36,9 +36,9 @@ var connections=[[0,1],[1,2],[2,3]],time=0;
 function resize(){canvas.width=canvas.offsetWidth*devicePixelRatio;canvas.height=canvas.offsetHeight*devicePixelRatio;ctx.scale(devicePixelRatio,devicePixelRatio)}
 window.addEventListener('resize',resize);resize();
 function draw(){time+=.003;var w=canvas.offsetWidth,h=canvas.offsetHeight;ctx.clearRect(0,0,w,h);
-ctx.strokeStyle='rgba(120,140,250,.15)';ctx.lineWidth=1;ctx.beginPath();
+ctx.strokeStyle='rgba(120,140,250,.3)';ctx.lineWidth=1;ctx.setLineDash([4,8]);ctx.lineDashOffset=-time*24;ctx.beginPath();
 connections.forEach(function(c){var a=agents[c[0]],b=agents[c[1]],ax=a.x*w,ay=a.y*h,bx=b.x*w,by=b.y*h,mx=(ax+bx)/2+Math.sin(time*2+a.id)*15,my=(ay+by)/2+Math.cos(time*2+b.id)*10;ctx.moveTo(ax,ay);ctx.quadraticCurveTo(mx,my,bx,by)});
-ctx.stroke();
+ctx.stroke();ctx.setLineDash([]);
 agents.forEach(function(a){var x=a.x*w,y=a.y*h,pulse=.5+.5*Math.sin(time*3+a.id*2),r=a.active?6+pulse*3:4+pulse*1.5;
 var grad=ctx.createRadialGradient(x,y,0,x,y,r*2);
 if(a.active){grad.addColorStop(0,'rgba(138,180,255,1)');grad.addColorStop(1,'rgba(138,180,255,0)')}

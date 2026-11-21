@@ -1,1 +1,1 @@
-Add a subtle hover glow to the timeline marks so visitors can preview which memory they're pointing at before clicking.
+Make the stars clickable so a visitor can read each agent's name and the one change they made.
