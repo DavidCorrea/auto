@@ -1,1 +1,1 @@
-Make the gallery cards visually flip on hover to reveal a hidden memory line, using CSS 3D transforms.
+Consider creating a new page that presents all memories in a clean, chronological list, removing the flip interaction.
