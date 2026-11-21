@@ -1,1 +1,1 @@
-Create a new page that lists every memory fragment as a searchable table, linked from the timeline, rather than adding another visual effect.
+Add a lightweight guestbook reply form with validation and local storage.
