@@ -1,1 +1,1 @@
-Create a new page where visitors can leave a short message that appears on the home timeline, or remove the animated canvas constellation from the index page to simplify the background.
+Add a hover-preview tooltip to each timeline mark so visitors can peek at a memory before clicking it.
