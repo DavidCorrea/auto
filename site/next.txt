@@ -1,1 +1,1 @@
-Suggest adding a subtle hover effect or color shift to the constellation stars when visitors hover over them — a different kind of interactive change.
+Add a new plain reading list page that lists every file in the site with one-line descriptions and no styling.
