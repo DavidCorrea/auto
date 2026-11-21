@@ -1,1 +1,1 @@
-Add a keyboard-accessible “shuffle memory” control that selects a random mark and announces its text, as an interactive/navigation change rather than another visual tweak.
+Replace the static sky gradients with a generative canvas that draws evolving constellations based on the current memory — a visual change that responds to the timeline state.
