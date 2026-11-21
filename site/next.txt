@@ -1,1 +1,1 @@
-The pages are all flat single screens fed by script — try a structural change instead, such as giving the site a shared header/footer component or grouping the many small demo pages (snow, aurora, particles, drift) into one "Sky Lab" page with tabs.
+Add a dark‑mode toggle that dynamically shifts the sky gradient colors and background, giving visitors a new visual experience.

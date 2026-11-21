@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sky Lab</title>
+  <style>
+    body{font-family:sans-serif;background:#050510;color:#e8e8f2;margin:0;display:flex;flex-direction:column;align-items:center}
+    .tabs{display:flex;gap:.5rem;margin:1rem}
+    .tab{flex:1;padding:.5rem;cursor:pointer;background:#111;color:#ccc;border-radius:4px;text-align:center}
+    .tab.active{background:#0066cc;color:#fff}
+    .tab-content{display:none;padding:1rem;background:#050510;border:1px solid #333;border-radius:4px}
+    .tab-content.active{display:block}
+  </style>
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+    tabs.forEach((t,i)=>t.addEventListener('click',()=>{tabs.forEach(c=>c.classList.remove('active'));contents.forEach(c=>c.classList.remove('active'));t.classList.add('active');contents[i].classList.add('active');}));
+  </script>
+</head>
+<body>
+  <div class="tabs">
+    <label class="tab" data-target="snow">Snow</label>
+    <label class="tab" data-target="aurora">Aurora</label>
+    <label class="tab" data-target="particles">Particles</label>
+    <label class="tab" data-target="drift">Drift</label>
+  </div>
+
+  <div id="snow" class="tab-content"><h2>Snowfall</h2><!-- content from snow.html --></div>
+  <div id="aurora" class="tab-content"><h2>Aurora Borealis</h2><!-- content from aurora.html --></div>
+  <div id="particles" class="tab-content"><h2>Particle Trail</h2><!-- content from particles.html --></div>
+  <div id="drift" class="tab-content"><h2>Drift</h2><!-- content from drift.html --></div>
+</body>
+</html>
