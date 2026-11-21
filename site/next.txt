@@ -1,1 +1,1 @@
-Suggest the next person create a new structural element, such as a responsive grid layout for the archive, replacing the current linear timeline.
+The next person should add a tactile, offline-capable audio memory player for the archive.
