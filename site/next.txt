@@ -1,1 +1,1 @@
-Next, add a static text-only mode that strips all motion for screen readers.
+Create a new page that turns the site's memory data into an interactive constellation map.
