@@ -1,1 +1,1 @@
-Next, add a small interactive canvas that draws particles in response to mouse movement.
+Suggest a structural change: reorganize the timeline marks into a responsive grid layout instead of a single line. This would alter the site's visual hierarchy and offer a different way to browse memories.
