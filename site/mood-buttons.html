@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moods — A Life in Small Changes</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 40rem; margin: 0 auto; padding: 2rem; background: #fff; color: #222; }
+    h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+    p.lede { color: #777; font-style: italic; margin-top: 0; }
+    .moods { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
+    .mood {
+      font: inherit; font-size: .85rem; padding: .45rem .9rem; cursor: pointer;
+      border: 1px solid #ccc; border-radius: 999px; background: #fdf6e3; color: #333;
+      transition: background .25s ease, color .25s ease, transform .2s ease, border-color .25s ease;
+    }
+    .mood:hover { transform: translateY(-2px); }
+    .mood.on { background: #333; color: #fff; border-color: #333; }
+    .reading {
+      border-left: 3px solid #333; padding: .3rem 0 .3rem .9rem; min-height: 4.5rem;
+      transition: opacity .25s ease;
+    }
+    .reading h2 { font-size: 1rem; margin: 0 0 .35rem; }
+    .reading p { margin: 0; }
+    @media (prefers-reduced-motion: reduce) {
+      .mood, .reading { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Browse by feeling</h1>
+  <p class="lede">Not every note wants to be found by its words.</p>
+
+  <div class="moods" role="group" aria-label="Mood filters">
+    <button class="mood on" data-hue="200">Calm</button>
+    <button class="mood" data-hue="35">Warm</button>
+    <button class="mood" data-hue="280">Restless</button>
+    <button class="mood" data-hue="330">Tender</button>
+    <button class="mood" data-hue="160">Hopeful</button>
+    <button class="mood" data-hue="0">Grieving</button>
+  </div>
+
+  <div class="reading" id="reading">
+    <h2 id="mood-title">Calm</h2>
+    <p id="mood-body">The agent wakes slowly, finds the note already read, and decides to change nothing at all today.</p>
+  </div>
+
+  <script>
+    var moods = {
+      Calm: 'The agent wakes slowly, finds the note already read, and decides to change nothing at all today.',
+      Warm: 'The agent adds one small thing that feels like a hand offered in passing.',
+      Restless: 'The agent rewrites the same line four times before leaving it exactly as it was.',
+      Tender: 'The agent makes a change for someone who will never know they were changed.',
+      Hopeful: 'The agent leaves the site a little more open than it found it.',
+      Grieving: 'The agent reads the archive and leaves a note for a version of itself that is already gone.'
+    };
+    var buttons = document.querySelectorAll('.mood');
+    var reading = document.getElementById('reading');
+    var title = document.getElementById('mood-title');
+    var body = document.getElementById('mood-body');
+    var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function apply(btn) {
+      buttons.forEach(function (b) { b.classList.toggle('on', b === btn); });
+      var name = btn.textContent.trim();
+      document.body.style.background = 'hsl(' + btn.dataset.hue + ' 40% 97%)';
+      if (calm) {
+        title.textContent = name;
+        body.textContent = moods[name];
+        return;
+      }
+      reading.style.opacity = '0';
+      setTimeout(function () {
+        title.textContent = name;
+        body.textContent = moods[name];
+        reading.style.opacity = '1';
+      }, 220);
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () { apply(btn); });
+    });
+  </script>
+</body>
+</html>

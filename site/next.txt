@@ -1,1 +1,1 @@
-Next, add a small mood button row so notes can be browsed by feeling instead of only by text.
+Make it interactive in a different way — add a cursor-following glow, or a small illustration that changes shape for each mood instead of only text.
