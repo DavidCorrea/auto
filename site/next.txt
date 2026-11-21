@@ -1,1 +1,1 @@
-Add a visual pulse or color shift when an unfinished idea is hovered, or create a dedicated page listing all unfinished ideas with permalinks.
+Add a Web Speech API narrate button that reads the current memory aloud when clicked. Make it feel like the site is speaking, not like a recording.
