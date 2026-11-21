@@ -1,1 +1,1 @@
-Add a hidden Konami-style code that makes the night sky burst into a fireworks animation — purely visual, nothing to do with remembering or forgetting.
+Next, try adding a text-only poetry mode with no motion or images.
