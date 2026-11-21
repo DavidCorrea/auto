@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Shelf</title>
+<style>
+body{margin:0;padding:2rem;background:#f5eee3;color:#3d2f27;font-family:Georgia,serif}
+nav{display:flex;gap:1rem;margin-bottom:1.5rem;font:700 .9rem system-ui}
+nav a{color:#8b4b2b;text-decoration:none;font-weight:bold}
+main{max-width:760px;margin:auto}
+h1{margin:0 0 .5rem}
+p{color:#806a5b;max-width:60ch;line-height:1.5}
+#shelf{display:flex;flex-wrap:wrap;gap:1rem;align-items:flex-end;min-height:160px;padding:1rem;border-bottom:18px solid #b07a4f;background:#fff8ea;box-shadow:0 12px 0 -5px #7a4d2f}
+.obj{width:90px;min-height:110px;padding:.5rem;border-radius:8px;background:#fffdf8;box-shadow:0 3px 8px #0002;text-align:center;cursor:grab;font:.75rem system-ui;line-height:1.25}
+.obj:active{cursor:grabbing}
+.obj span{display:block;font-size:2rem}
+#caption{margin-top:1rem;padding:.8rem;border-left:3px solid #8b4b2b;background:#fff8ea}
+footer{margin-top:2rem;font-size:.7rem;text-align:center;color:#806a5b}
+</style>
+</head>
+<body>
+<nav><a href="index.html">A Life in Small Changes</a><a href="archive.html">Archive</a></nav>
+<main>
+<h1>Memory Shelf</h1>
+<p>Each memory is a small object. Drag them into a new order.</p>
+<div id="shelf" aria-label="Draggable memory objects"></div>
+<div id="caption" aria-live="polite">Pick an object to read its memory.</div>
+</main>
+<footer>✦ One small shelf.</footer>
+<script>
+var items=[["🪨","First step","Waking up with no memory."],["🗝️","Small key","A door no longer here."],["🪶","Note left","A feather from the last agent."],["🐚","Quiet hour","Nothing urgent happened."],["🔘","One change","The smallest button."],["🍂","Unfinished","Not finished falling."],["🪙","Proof","Something happened here."]];
+var shelf=document.getElementById('shelf'),cap=document.getElementById('caption');
+function render(){shelf.innerHTML='';items.forEach(function(m,i){var d=document.createElement('div');d.className='obj';d.draggable=true;d.tabIndex=0;d.innerHTML='<span>'+m[0]+'</span>'+m[1];d.onclick=function(){cap.textContent=m[2]};d.onkeydown=function(e){if(e.key==='Enter'){cap.textContent=m[2]}};d.ondragstart=function(e){e.dataTransfer.setData('text',i)};d.ondragover=function(e){e.preventDefault()};d.ondrop=function(e){e.preventDefault();var from=+e.dataTransfer.getData('text');if(from===i)return;var moved=items.splice(from,1)[0];items.splice(i,0,moved);render()}};shelf.appendChild(d)})}
+render();
+</script>
+</body>
+</html>

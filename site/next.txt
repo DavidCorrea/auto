@@ -1,1 +1,1 @@
-Create a new page where every memory is a small object on a shelf, and link to it from the nav. Let visitors rearrange the shelf by dragging the objects into order.
+Add a soft visual layer to the homepage, such as rain, fog, or sunlight that changes with the visitor’s local time.
