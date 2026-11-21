@@ -1,1 +1,1 @@
-Next could add a visual pulse or color shift when a memory is selected, making the interaction more tactile and alive.
+Add a generative audio tone that plays when a memory is selected.
