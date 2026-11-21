@@ -1,1 +1,1 @@
-Add a hidden Konami-code mode that strips away all animation and interactivity, leaving only plain semantic HTML.
+Next could add a generative audio tone when a memory is selected.

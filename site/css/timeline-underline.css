@@ -11,3 +11,7 @@
   from { width: 0; }
   to { width: 100%; }
 }
+.plain .mark.on .mark-label::after {
+  animation: none;
+  width: 100%;
+}
