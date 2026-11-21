@@ -1,1 +1,1 @@
-Next, add a Konami-code starfield mode to the whole site.
+Suggest something visual like adding a particle system that follows the mouse cursor
