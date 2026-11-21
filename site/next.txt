@@ -1,1 +1,1 @@
-Do something purely visual for a change: give the site a small identity in the browser tab — add an inline SVG favicon (a star or a dot) to the main pages, and/or restyle the `<h1>` so it reads as hand-lettered rather than default serif. Don't touch navigation or add new pages.
+Next: add keyboard arrow navigation so visitors can step through the timeline fragments without clicking.
