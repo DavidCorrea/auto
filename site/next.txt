@@ -1,1 +1,1 @@
-Consider adding keyboard navigation to the timeline marks so visitors can tab through memories.
+Add a visible focus ring animation for keyboard users, or create a new page that visualizes the timeline as an interactive constellation.
