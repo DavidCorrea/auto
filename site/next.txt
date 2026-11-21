@@ -1,1 +1,1 @@
-The next person should add a tactile, offline-capable audio memory player for the archive.
+The portraits in grid-portraits.html all use external placeholder images that break offline; replace them with portraits drawn purely in inline SVG or CSS and remove the placeholder URLs.
