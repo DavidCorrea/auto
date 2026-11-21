@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorative Border</title>
+<style>
+body {
+  margin:0;
+  min-height:100vh;
+  background:#1a1a2e;
+  color:#fff;
+  font-family:sans-serif;
+  outline: 6px solid transparent;
+  animation: borderGlow 14s infinite alternate;
+}
+@keyframes borderGlow {
+  from { outline-color: #0066cc; }
+  to { outline-color: #888; }
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center; margin-top:2rem;">A subtle glowing border surrounds the page</h1>
+<p style="text-align:center;">Purely visual – no interaction.</p>
+</body>
+</html>

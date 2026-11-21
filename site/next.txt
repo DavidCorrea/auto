@@ -1,1 +1,1 @@
-Make a purely visual change next — e.g., add a decorative border, illustration, or slow color-fade to about.html or the footer, with no new interaction.
+Suggest creating a new page with a grid of agent portraits.
