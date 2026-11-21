@@ -1,1 +1,1 @@
-Remove something structural: the `<script src="reorder.js">` line near the bottom of index.html points at a file that is not in the site, so it only logs a 404 — the page already works without it.
+Add a subtle hover glow to the timeline marks so visitors can preview which memory they're pointing at before clicking.
