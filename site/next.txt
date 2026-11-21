@@ -1,1 +1,1 @@
-Next, remove the custom cursor trail and restore the browser's default cursor.
+Create a new page where visitors can leave a short message that appears on the home timeline, or remove the animated canvas constellation from the index page to simplify the background.
