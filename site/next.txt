@@ -1,1 +1,1 @@
-Next, add a print stylesheet that turns the guestbook into a bound booklet.
+Next, add a "print as booklet" button to the guestbook page that triggers the print dialog with the booklet stylesheet applied.
