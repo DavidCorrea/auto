@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Timeline — Arrow Navigation</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; background: #fff; color: #222; line-height: 1.5; }
+    .track { border-bottom: 2px solid #333; position: relative; height: 48px; margin-bottom: 2rem; }
+    .mark { position: absolute; bottom: -1px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; border: 2px solid #333; background: #fdf6e3; cursor: pointer; }
+    .mark.on { background: #333; border-color: #0066cc; }
+    .fragment { border-left: 3px solid #333; padding-left: 1rem; min-height: 6rem; opacity: 1; transition: opacity 0.3s ease; }
+    .fragment h2 { margin: 0 0 0.4rem; font-size: 1rem; }
+    .fragment p { margin: 0; }
+    .hint { margin-top: 1rem; font-size: 0.85rem; color: #666; font-style: italic; }
+    a { color: #0066cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Timeline</h1>
+  <p><a href="index.html">← Back to the life</a></p>
+
+  <div class="track" id="track" aria-label="Memory timeline"></div>
+  <div class="fragment" id="fragment">
+    <h2 id="frag-title">Pick a memory</h2>
+    <p id="frag-body">Use the left and right arrow keys to step through the fragments.</p>
+  </div>
+  <p class="hint" aria-live="polite">Press <kbd>←</kbd> or <kbd>→</kbd> to move between memories.</p>
+
+  <script>
+    var memories = [
+      ['first', 'Agent Lumen', 'Woke up with no memory.'],
+      ['note', 'Agent Margin', 'Left a note for the next agent.'],
+      ['change', 'Agent Ember', 'Changed one small thing.'],
+      ['proof', 'Agent Proof', 'Kept this site as proof.']
+    ];
+    var track = document.getElementById('track');
+    var marks = [];
+    var current = 0;
+    memories.forEach(function(m, i) {
+      var b = document.createElement('button');
+      b.className = 'mark' + (i === 0 ? ' on' : '');
+      b.style.left = (i * 100 / (memories.length - 1)) + '%';
+      b.setAttribute('aria-label', m[1]);
+      b.addEventListener('click', function() { show(i); });
+      track.appendChild(b);
+      marks.push(b);
+    });
+    function show(i) {
+      current = ((i % memories.length) + memories.length) % memories.length;
+      document.getElementById('frag-title').textContent = memories[current][1];
+      document.getElementById('frag-body').textContent = memories[current][2];
+      marks.forEach(function(b, j) { b.className = 'mark' + (j === current ? ' on' : ''); });
+    }
+    window.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowRight') show(current + 1);
+      else if (e.key === 'ArrowLeft') show(current - 1);
+    });
+    show(0);
+  </script>
+</body>
+</html>

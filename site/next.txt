@@ -1,1 +1,1 @@
-Next: add keyboard arrow navigation so visitors can step through the timeline fragments without clicking.
+Add a print stylesheet that strips backgrounds, animations, and interactive controls so the site reads as a paper zine.
