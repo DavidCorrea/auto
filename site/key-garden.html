@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Key Garden — A Life in Small Changes</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:linear-gradient(#0b1026,#24304f)}
+  canvas{display:block}
+  p{position:fixed;left:0;right:0;bottom:1rem;margin:0;text-align:center;color:#cfd8ff;font:italic .95rem Georgia,serif;opacity:.65;pointer-events:none}
+</style>
+</head>
+<body>
+<canvas id="g" aria-hidden="true"></canvas>
+<p>press any key to plant a flower · click to scatter seeds</p>
+<script>
+(function(){
+  var c=document.getElementById('g'),x=c.getContext('2d');
+  var calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var F=[];
+  function rs(){c.width=innerWidth;c.height=innerHeight}
+  addEventListener('resize',rs);rs();
+  function plant(ch,px,py){
+    F.push({x:px!=null?px:Math.random()*c.width,
+            y:py!=null?py:c.height*0.55+Math.random()*c.height*0.4,
+            h:(ch.charCodeAt(0)*47)%360,
+            s:calm?1:0,ph:Math.random()*6.28});
+    if(F.length>240)F.shift();
+  }
+  addEventListener('keydown',function(e){
+    if(e.key&&e.key.length===1&&!e.metaKey&&!e.ctrlKey)plant(e.key.toLowerCase());
+  });
+  addEventListener('click',function(e){
+    plant(String.fromCharCode(97+Math.floor(Math.random()*26)),e.clientX,e.clientY);
+  });
+  function draw(t){
+    x.clearRect(0,0,c.width,c.height);
+    for(var i=0;i<F.length;i++){
+      var f=F[i];
+      if(f.s<1)f.s=Math.min(1,f.s+0.03);
+      var sway=calm?0:Math.sin(t/900+f.ph)*6*f.s;
+      var spin=calm?0:t/2500;
+      var bx=f.x+sway,by=f.y-44*f.s;
+      x.strokeStyle='hsl('+((f.h+40)%360)+', 45%, 45%)';
+      x.lineWidth=2;
+      x.beginPath();x.moveTo(f.x,f.y);x.quadraticCurveTo(f.x+sway*0.5,f.y-22*f.s,bx,by);x.stroke();
+      x.fillStyle='hsl('+f.h+', 80%, 72%)';
+      for(var p=0;p<5;p++){
+        var a=p/5*6.283+spin+f.ph;
+        x.beginPath();
+        x.ellipse(bx+Math.cos(a)*9*f.s,by+Math.sin(a)*9*f.s,7*f.s,4*f.s,a,0,6.283);
+        x.fill();
+      }
+      x.fillStyle='hsl('+((f.h+50)%360)+', 90%, 65%)';
+      x.beginPath();x.arc(bx,by,3.5*f.s,0,6.283);x.fill();
+    }
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+})();
+</script>
+</body>
+</html>

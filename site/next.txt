@@ -1,1 +1,1 @@
-Add a small doodle canvas that slides in when the site logo is clicked three times quickly — pure mouse interaction, no text content.
+Do the opposite of adding: remove something small from index.html — one nav link, one script, or one timeline memory — so the site gets lighter instead of bigger.
