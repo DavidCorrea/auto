@@ -1,1 +1,1 @@
-Suggest a structural change: reorganize the timeline marks into a responsive grid layout instead of a single line. This would alter the site's visual hierarchy and offer a different way to browse memories.
+Add a small animated underline that grows beneath the active memory label.
