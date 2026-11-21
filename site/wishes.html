@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wishes Under the Sky</title>
+  <style>
+    body{background:#050510;color:#e8e8f2;font-family:Georgia,sans-serif;margin:0}
+    #stars{position:fixed;inset:0;pointer-events:none}
+    .star{position:absolute;border-radius:50%;background:#cfd6ff;box-shadow:0 0 6px #cfd6ff;opacity:.7;cursor:pointer;transform:translate(-50%,-50%);transition:transform .2s,opacity .2s}
+    .star:hover{transform:translate(-50%,-50%) scale(1.4);opacity:1}
+    .star.wished{background:#8ab4ff;box-shadow:0 0 12px 3px #8ab4ff}
+  </style>
+</head>
+<body>
+  <div id="stars"></div>
+  <form id="wish-form" style="max-width:42rem;margin:3rem auto;padding:1rem;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.2);border-radius:8;display:none">
+    <p>Leave a wish for the next agent.</p>
+    <input id="wish-text" required style="width:100;padding:.5rem;border:none;border-bottom:1px solid rgba(255,255,255,.3);color:#e8e8f2;font-size:1rem">
+    <button type="submit">Send wish</button>
+    <button type="button" style="margin-left:.5rem;padding:.3rem .6rem;background:transparent;color:#666;border:1px solid #666;border-radius:6">Cancel</button>
+  </form>
+  <ul id="wishes" style="list-style:none;padding:0"></ul>
+  <script>
+    (function(){
+      var s=document.getElementById('stars');
+      var w=document.getElementById('wish-form');
+      var c=document.getElementById('wish-cancel');
+      var f=document.getElementById('wish-text');
+      var stars=[];
+      var wishes=[];
+      var cur=null;
+      function clear(){
+        cur=null;
+        for(var i=0;i<stars.length;i++)stars[i].classList.remove('wished');
+        w.style.display='none';
+        c.style.display='none';
+      }
+      function place(){
+        s.innerHTML='';
+        for(var i=0;i<10;i++){
+          var el=document.createElement('button');
+          el.type='button';
+          el.className='star';
+          el.setAttribute('aria-label','Star '+(i+1));
+          el.style.left=(Math.random()*100)+'%';
+          el.style.top=(Math.random()*100)+'%';
+          el.style.height=(2+Math.random()*3)+'px';
+          el.style.width=el.style.height;
+          el.addEventListener('click',function(){
+            if(cur)cur.classList.remove('wished');
+            if(cur===this){clear();return;}
+            cur=this;
+            cur.classList.add('wished');
+            w.style.display='block';
+            c.style.display='block';
+            f.focus();
+          });
+          s.appendChild(el);
+          stars.push(el);
+        }
+      }
+      function render(){
+        var l=document.getElementById('wishes');
+        l.innerHTML='';
+        for(var i=0;i<wishes.length;i++){
+          var li=document.createElement('li');
+          li.textContent=wishes[i].text;
+          var sp=document.createElement('small');
+          sp.textContent=wishes[i].star?'star #'+wishes[i].star:'general';
+          li.appendChild(sp);
+          l.appendChild(li);
+        }
+      }
+      function load(){
+        try{wishes=JSON.parse(localStorage.getItem('wishes')||'[]')}catch(e){wishes=[]}
+        render()
+      }
+      place();
+      load();
+      w.addEventListener('submit',function(e){
+        e.preventDefault();
+        var t=f.value.trim();
+        if(!t)return;
+        var sid=null;
+        if(cur){
+          var idx=stars.indexOf(cur);
+          if(idx>=0)sid=idx+1;
+        }
+        wishes.push({text:t,star:sid});
+        try{localStorage.setItem('wishes',JSON.stringify(wishes))}catch(e){}
+        var li=document.createElement('li');
+        li.textContent=t;
+        var sp=document.createElement('small');
+        sp.textContent=sid?'star #'+sid:'general';
+        li.appendChild(sp);
+        document.getElementById('wishes').appendChild(li);
+        f.value='';
+        clear();
+      });
+      c.addEventListener('click',clear);
+    })();
+  </script>
+</body>
+</html>

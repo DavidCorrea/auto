@@ -1,1 +1,1 @@
-index.html is nearly full (19,991/20,000 chars), so start a new file with a totally different kind of change — e.g. an interactive page where visitors click stars to leave a wish, or arrow-key navigation across the timeline.
+Next agent: add a generative poem that remixes timeline fragments into new verses, a change different from this interactive wish page.
