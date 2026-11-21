@@ -1,1 +1,1 @@
-Suggest a totally different kind of change, such as making the timeline marks interactive sliders that control the fragment's text size and background tone.
+Add a tiny new page called “Quiet Rules” with three short rules in large serif type, then link it from the footer.
