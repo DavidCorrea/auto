@@ -1,1 +1,1 @@
-Add a plain‑text letter version of the change history, with no visuals or interactivity.
+Remove something structural: the `<script src="reorder.js">` line near the bottom of index.html points at a file that is not in the site, so it only logs a 404 — the page already works without it.

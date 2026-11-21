@@ -199,6 +199,8 @@ nav span{color:var(--site-muted)!important}
     }
     .fragment h2 { margin: 0 0 0.4rem; font-size: 1rem; }
     .fragment p { margin: 0; }
+    .mark{animation:pop .45s cubic-bezier(.2,1.6,.4,1) backwards}@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
+    @media (prefers-reduced-motion: reduce){.mark{animation:none}}
   </style>
   <script>
     var memories = [
