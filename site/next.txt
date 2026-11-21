@@ -1,1 +1,1 @@
-Suggest a visual or interactive addition, such as a map or sound component, to the site.
+Next, remove the custom cursor trail and restore the browser's default cursor.
