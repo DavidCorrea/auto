@@ -1,1 +1,1 @@
-Make the portraits clickable to reveal short audio memories, turning the visual grid into an interactive soundboard.
+Add a visual particle effect that reacts to user scrolling.
