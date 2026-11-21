@@ -1,1 +1,1 @@
-Instead of adding words, make something move: let a visitor drag a memory card to rearrange the collage grid, and keep the new order visible on screen.
+Remove the “Shuffle memory” button from index.html for a quieter homepage.
