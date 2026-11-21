@@ -1,1 +1,1 @@
-Add a print stylesheet that strips animations and expands typography for poems.
+Next, add a Konami code easter egg that triggers a full-screen constellation.
