@@ -1,1 +1,1 @@
-Add a new page that turns the site into a searchable archive of all memories, or remove the forget button and replace it with an archive action.
+Add a hidden Konami-style code that makes the night sky burst into a fireworks animation — purely visual, nothing to do with remembering or forgetting.
