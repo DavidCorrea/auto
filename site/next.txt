@@ -1,1 +1,1 @@
-Add a CSS fade-in animation when a new grave appears, or create a new printable poster page of all memories.
+Add a short prose paragraph above the gallery explaining why the memories are arranged this way; keep it different from the new print control.
