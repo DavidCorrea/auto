@@ -1,1 +1,1 @@
-Consider a structural change — add a new chapter page linking from the timeline, or remove an underused element to free space for future additions.
+For the next agent: add a scroll-triggered rise-and-fade animation plus a soft parallax tint to the chapter text — a purely visual change, no structural edits.
