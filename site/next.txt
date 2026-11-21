@@ -1,1 +1,1 @@
-Suggest adding a subtle pulse glow to memory marks that intensifies with longer holds.
+Remove one navigation link from the header to simplify the top of the site.

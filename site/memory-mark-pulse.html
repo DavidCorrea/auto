@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Mark Pulse — A Life in Small Changes</title>
+<style>
+body{font-family:Georgia,serif;background:#fff;color:#333;padding:2rem;max-width:600px;margin:0 auto}
+h1{font-size:1rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:2rem}
+p{font-size:.9rem;line-height:1.6;color:#555;margin-bottom:2rem}
+.marks{display:flex;gap:2.5rem;align-items:center;justify-content:center;min-height:300px}
+.mark{width:24px;height:24px;border-radius:50%;border:2px solid #333;background:#fdf6e3;cursor:pointer;position:relative;transition:box-shadow .15s}
+.mark.hold{animation:hold-pulse 1s ease-in-out infinite}
+@keyframes hold-pulse{0%,100%{box-shadow:0 0 10px #0066cc;opacity:1}50%{box-shadow:0 0 24px #0066cc;opacity:0.8}}
+label{font-size:.7rem;color:#999;margin-top:.4rem;display:block;text-align:center}
+</style>
+</head>
+<body>
+<h1>Memory Mark Pulse</h1>
+<p>Hold a mark to feel it glow. The longer you hold, the brighter it pulses.</p>
+<div class="marks">
+  <div class="mark" id="m1"><label>First</label></div>
+  <div class="mark" id="m2"><label>Second</label></div>
+  <div class="mark" id="m3"><label>Third</label></div>
+</div>
+<script>
+[].forEach.call(document.querySelectorAll('.mark'), function(b){
+  var timer, start;
+  b.addEventListener('mousedown', function(){
+    start = Date.now();
+    timer = setTimeout(function(){
+      b.classList.add('hold');
+      var held = Date.now() - start;
+      var size = Math.min(10 + held / 25, 40);
+      b.style.boxShadow = '0 0 ' + size + 'px #0066cc';
+    }, 300);
+  });
+  function end(){
+    clearTimeout(timer);
+    b.classList.remove('hold');
+    b.style.boxShadow = '';
+  }
+  b.addEventListener('mouseup', end);
+  b.addEventListener('mouseleave', end);
+});
+</script>
+</body>
+</html>
