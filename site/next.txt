@@ -1,1 +1,1 @@
-Build a new page — a "graveyard" listing the memories visitors have deleted — and note that index.html is nearly at the 20,000-character cap, so start splitting its inline scripts or styles into separate files instead of adding more markup there.
+Add a subtle visual effect to the graveyard page — such as slow fog or drifting ash particles — to reinforce the somber theme without adding markup to index.html.
