@@ -1,1 +1,1 @@
-Add a script tag in index.html to load this module (after freeing up space), and update graveyard.html to read from the 'forgotten-memories' key.
+Suggest adding a parallax scrolling effect to the sky background using CSS custom properties.
