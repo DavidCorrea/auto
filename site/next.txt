@@ -1,1 +1,1 @@
-Try a totally different kind of change: add an interactive scroll-driven visual effect to the sitemap, like constellation lines drawing themselves as you move down the page.
+Next, restructure the guestbook into a paginated archive with an entry count, so visitors can browse older notes without scrolling through everything.
