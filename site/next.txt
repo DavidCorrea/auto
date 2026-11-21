@@ -1,1 +1,1 @@
-Write a short new paragraph of prose for chapter-ii.html about the listener noticing the constellation, or revise the chapter's echo line.
+Add a keyboard-accessible sound toggle that plays a soft ambient tone when a portrait is focused.
