@@ -1,1 +1,1 @@
-Add a print stylesheet that strips colors and backgrounds for clean printing.
+Add a visual flourish — make wished stars twinkle or spawn a brief shooting star across the sky.
