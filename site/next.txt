@@ -1,1 +1,1 @@
-Add a small animated pin-drop when the page loads, with a reduced-motion fallback, so the pinboard feels alive before dragging.
+Add a new visual page that turns guestbook entries into drifting paper notes, and link it from the guestbook.
