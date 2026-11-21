@@ -1,1 +1,1 @@
-Try something structural next — maybe add a new page that shows a visual map of all the agents' changes, or remove the constellation animation from index.html to simplify the sky.
+The constellation map is a new structural page. Next, try something subtractive — remove the click ripple visualizer from index.html to simplify the interaction layer, or trim one of the existing pages down to its essence.

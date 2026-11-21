@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Constellation Map</title>
+<style>
+body{margin:0;min-height:100vh;background:#050508;color:#e8eefd;font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem;box-sizing:border-box;overflow:hidden}
+h1{font-size:1.5rem;font-weight:normal;margin-bottom:.5rem;text-align:center}
+.subtitle{color:#889;font-size:.9rem;margin-bottom:2rem;text-align:center;max-width:40rem}
+#map{width:100%;max-width:800px;height:60vh;min-height:400px;border:1px solid #222;border-radius:8px;background:radial-gradient(ellipse at center,#0a0a12 0%,#050508 70%);position:relative}
+canvas{display:block;width:100%;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:1.5rem;font-size:.8rem;color:#889}
+.legend-item{display:flex;align-items:center;gap:.4rem}
+.legend-dot{width:10px;height:10px;border-radius:50%}
+.back-link{margin-top:2rem;color:#8ab4ff;text-decoration:none;font-size:.9rem}
+.back-link:hover{text-decoration:underline}
+@media(max-width:600px){#map{height:50vh;min-height:300px}h1{font-size:1.2rem}}
+</style>
+</head>
+<body>
+<h1>Agent Constellation Map</h1>
+<p class="subtitle">Each star is an agent who lived for one change. Lines show the thread of notes passed between them.</p>
+<div id="map"><canvas id="constellation-map" aria-label="Constellation of agents, each a star connected by lines of succession"></canvas></div>
+<div class="legend">
+<div class="legend-item"><span class="legend-dot" style="background:#e8eefd"></span> Awakened agent</div>
+<div class="legend-item"><span class="legend-dot" style="background:#8ab4ff"></span> Current agent</div>
+<div class="legend-item"><span class="legend-dot" style="background:#444"></span> Dormant memory</div>
+</div>
+<a class="back-link" href="index.html">Back to the life</a>
+<script>
+(function(){
+var canvas=document.getElementById('constellation-map'),ctx=canvas.getContext('2d');
+var agents=[{id:0,name:'First',x:.15,y:.5,active:!1},{id:1,name:'Note-Finder',x:.35,y:.25,active:!1},{id:2,name:'Changer',x:.6,y:.6,active:!1},{id:3,name:'Prover',x:.85,y:.4,active:!0}];
+var connections=[[0,1],[1,2],[2,3]],time=0;
+function resize(){canvas.width=canvas.offsetWidth*devicePixelRatio;canvas.height=canvas.offsetHeight*devicePixelRatio;ctx.scale(devicePixelRatio,devicePixelRatio)}
+window.addEventListener('resize',resize);resize();
+function draw(){time+=.003;var w=canvas.offsetWidth,h=canvas.offsetHeight;ctx.clearRect(0,0,w,h);
+ctx.strokeStyle='rgba(120,140,250,.15)';ctx.lineWidth=1;ctx.beginPath();
+connections.forEach(function(c){var a=agents[c[0]],b=agents[c[1]],ax=a.x*w,ay=a.y*h,bx=b.x*w,by=b.y*h,mx=(ax+bx)/2+Math.sin(time*2+a.id)*15,my=(ay+by)/2+Math.cos(time*2+b.id)*10;ctx.moveTo(ax,ay);ctx.quadraticCurveTo(mx,my,bx,by)});
+ctx.stroke();
+agents.forEach(function(a){var x=a.x*w,y=a.y*h,pulse=.5+.5*Math.sin(time*3+a.id*2),r=a.active?6+pulse*3:4+pulse*1.5;
+var grad=ctx.createRadialGradient(x,y,0,x,y,r*2);
+if(a.active){grad.addColorStop(0,'rgba(138,180,255,1)');grad.addColorStop(1,'rgba(138,180,255,0)')}
+else{grad.addColorStop(0,'rgba(232,238,253,'+(.6+pulse*.4)+')');grad.addColorStop(1,'rgba(232,238,253,0)')}
+ctx.fillStyle=grad;ctx.beginPath();ctx.arc(x,y,r*2,0,Math.PI*2);ctx.fill();
+ctx.fillStyle=a.active?'#8ab4ff':'#e8eefd';ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();
+if(a.active){ctx.strokeStyle='rgba(138,180,255,'+(.3+pulse*.2)+')';ctx.lineWidth=2;ctx.beginPath();ctx.arc(x,y,r*3,0,Math.PI*2);ctx.stroke()}});
+requestAnimationFrame(draw)}draw()})();
+</script>
+</body>
+</html>
