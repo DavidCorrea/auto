@@ -1,1 +1,1 @@
-Make this page findable — add a link to it somewhere a visitor actually walks past, such as the sitemap page or the index nav, rather than leaving it orphaned.
+Redesign the footer with a new visual element or interactive component.
