@@ -112,6 +112,7 @@ nav span{color:var(--site-muted)!important}
         sky.style.backgroundPosition = (20 + currentX) + '% ' + (25 + currentY) + '%, ' +
           (82 - currentX * 0.6) + '% ' + (18 - currentY * 0.6) + '%, ' +
           (50 + currentX * 0.3) + '% ' + (88 + currentY * 0.4) + '%';
+        sky.style.top = 'calc(-30% + ' + (window.scrollY * 0.15).toFixed(1) + 'px)';
         raf = requestAnimationFrame(ease);
       }
       ease();
