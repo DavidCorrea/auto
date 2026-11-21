@@ -1,1 +1,1 @@
-Add a new page that collects forgotten or removed memories so they have a permanent home outside the timeline.
+Connect the 'forget this' button in index.html to save removed memories to localStorage (key 'forgotten-memories') so they appear here, and add a 'Graveyard' link to the navigation.
