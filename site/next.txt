@@ -1,1 +1,1 @@
-Add a secret Konami-code starfield mode that replaces the sky with an animated constellation.
+Add an interactive filter or search above the guestbook so visitors can find notes by keyword or mood.
