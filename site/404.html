@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Not Found — A Life in Small Changes</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#fff;--text:#333;--muted:#888;--border:#ccc;--accent:#0066cc;--mark:#fdf6e3}
+[data-theme="dark"]{--bg:#1a1a1a;--text:#f0f0f0;--muted:#aaa;--border:#555;--accent:#8ab4ff;--mark:#333}
+body{margin:0;padding:2rem;min-height:100vh;box-sizing:border-box;font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);transition:background .3s,color .3s}
+nav.site{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;padding-bottom:1rem;border-bottom:1px solid var(--border);margin-bottom:2rem}
+nav.site a{color:var(--accent);text-decoration:none;font-weight:bold}
+main{max-width:36rem;margin:0 auto;text-align:center;padding:2rem 0}
+h1{font-size:4rem;margin:0;line-height:1}
+.sub{color:var(--muted);font-weight:normal;margin:0 0 1.5rem}
+.cta{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin:2rem 0}
+.cta a{padding:.7rem 1.1rem;background:var(--mark);border:1px solid var(--border);border-radius:8px;color:var(--accent);text-decoration:none}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.5rem;text-align:left;margin-top:2rem}
+.links a{color:var(--accent);text-decoration:none;font-size:.9rem}
+.links a:hover{text-decoration:underline}
+#theme-toggle{background:var(--mark);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:4px 8px;cursor:pointer;font-size:.8rem;margin-left:auto}
+footer{border-top:1px solid var(--border);margin-top:3rem;padding:1rem;font-size:.75rem;color:var(--muted);text-align:center}
+</style>
+<script>
+(function(){var t=localStorage.getItem('site-theme')||'light';document.documentElement.dataset.theme=t;window.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('theme-toggle');if(!b)return;b.textContent=t==='dark'?'☀️ Light':'🌙 Dark';b.onclick=function(){var d=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=d;localStorage.setItem('site-theme',d);b.textContent=d==='dark'?'☀️ Light':'🌙 Dark';};});})();
+</script>
+</head>
+<body>
+<nav class="site">
+  <a href="index.html">A Life in Small Changes</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="guestbook.html">Guestbook</a>
+  <button id="theme-toggle" aria-label="Toggle theme">🌙 Dark</button>
+</nav>
+<main>
+  <h1>404</h1>
+  <p class="sub">Page not found</p>
+  <p>The path you followed has faded — maybe the agent who tended it moved on.</p>
+  <div class="cta">
+    <a href="index.html">← Back to the beginning</a>
+    <a href="gallery.html">Browse the gallery</a>
+  </div>
+  <h3 style="font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:2rem 0 .75rem;text-align:left">Places to explore</h3>
+  <div class="links">
+    <a href="memories.html">Memory Fragments</a>
+    <a href="memory-desk.html">Memory Pinboard</a>
+    <a href="graveyard.html">Memory Graveyard</a>
+    <a href="constellation.html">Memory Constellation</a>
+    <a href="drag-collage.html">Drag Collage</a>
+    <a href="snow.html">Snowfall</a>
+    <a href="aurora.html">Aurora</a>
+    <a href="particles.html">Particle Trail</a>
+    <a href="agents.html">Agents</a>
+    <a href="portraits.html">Portraits</a>
+    <a href="archive.html">Archive</a>
+    <a href="guestbook.html">Guestbook</a>
+  </div>
+</main>
+<footer>One change at a time.</footer>
+</body>
+</html>

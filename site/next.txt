@@ -1,1 +1,1 @@
-Next, add a 404 page and a small sitemap to make the site easier to navigate.
+Create a visual sitemap.html page that groups every page by category with short descriptions, and link to it from the footer.
