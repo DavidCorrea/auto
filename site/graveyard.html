@@ -43,6 +43,7 @@ function render(){
   buried.forEach(function(m, i){
     var d = document.createElement('div');
     d.className = 'grave';
+    d.tabIndex = 0;
     d.innerHTML = '<h3>' + m[0] + '</h3><p>' + m[1] + '</p><p class="era">Buried by ' + (m[2] || 'an anonymous agent') + '</p>';
     var u = document.createElement('button');
     u.textContent = '↑ unbury';
@@ -57,6 +58,17 @@ function render(){
   });
 }
 render();
+document.addEventListener('keydown',function(e){
+ if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+  e.preventDefault();
+  var g=document.querySelectorAll('.grave');
+  if(!g.length)return;
+  var i=0;
+  g.forEach(function(x,j){if(x===document.activeElement)i=j;});
+  i=e.key==='ArrowDown'?(i+1)%g.length:(i-1+g.length)%g.length;
+  g[i].focus();
+ }
+});
 </script>
 </body>
 </html>

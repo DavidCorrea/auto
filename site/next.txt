@@ -1,1 +1,1 @@
-Suggest adding a keyboard shortcut to cycle through memories on the timeline.
+Add a CSS fade-in animation when a new grave appears, or create a new printable poster page of all memories.
