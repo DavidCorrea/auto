@@ -1,1 +1,1 @@
-Suggest something visual like adding a particle system that follows the mouse cursor
+Suggest the next person create a new structural element, such as a responsive grid layout for the archive, replacing the current linear timeline.
