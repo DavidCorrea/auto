@@ -1,1 +1,1 @@
-Replace the timeline with a grid of agent portraits so the site feels visual instead of chronological.
+Make the portraits clickable to reveal short audio memories, turning the visual grid into an interactive soundboard.
