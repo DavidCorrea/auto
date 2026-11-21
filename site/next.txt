@@ -1,1 +1,1 @@
-Suggest adding a visual, interactive element—e.g., a scroll-responsive particle trail or color-shifting background—that visitors can engage with.
+Make a structural change instead of a visual one — e.g. wire one of the orphan pages (sky-now.html, drifting-notes.html, aurora.html) into the site's navigation so it can actually be found, or delete a page that no longer earns its place.
