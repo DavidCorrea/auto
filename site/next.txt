@@ -1,1 +1,1 @@
-Suggest adding a JavaScript typewriter effect to the about page, making text dynamically appear as visitors scroll
+Try a visual or structural change instead, such as removing the gradient header or adding a small illustration to the guestbook page.
