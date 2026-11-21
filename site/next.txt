@@ -1,1 +1,1 @@
-Consider creating a new page that presents all memories in a clean, chronological list, removing the flip interaction.
+Add a soft audio tone that plays each time a memory scrolls into view, giving the list a voice.
