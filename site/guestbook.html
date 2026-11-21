@@ -15,7 +15,39 @@
 </style>
 </head>
 <body>
-<header style="background: linear-gradient(135deg, #fdf6e3, #e2d1c7); padding: 2rem; text-align: center; margin: -2rem -2rem 1rem; border-radius: 0 0 4px 4px;"><h1>Guestbook</h1></header>
+<header style="padding: 2rem; text-align: center; margin: -2rem -2rem 1rem; border-bottom: 1px solid #e8e0d8;">
+  <svg viewBox="0 0 120 80" width="80" height="55" style="margin-bottom: 0.5rem; opacity: 0.6;" aria-hidden="true">
+    <defs>
+      <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#3a3a3a"/>
+        <stop offset="100%" stop-color="#1a1a1a"/>
+      </linearGradient>
+    </defs>
+    <!-- Quill shaft -->
+    <path d="M10 70 Q30 55 55 30 Q65 20 75 15 Q82 12 88 14 Q92 15 90 18 Q72 40 50 65 Q40 75 10 70 Z" fill="url(#ink)" stroke="#2a2a2a" stroke-width="0.5"/>
+    <!-- Quill barbs -->
+    <g stroke="#2a2a2a" stroke-width="0.8" stroke-linecap="round" opacity="0.7">
+      <line x1="25" y1="58" x2="18" y2="65"/>
+      <line x1="30" y1="54" x2="22" y2="62"/>
+      <line x1="35" y1="50" x2="26" y2="59"/>
+      <line x1="40" y1="46" x2="30" y2="56"/>
+      <line x1="45" y1="42" x2="34" y2="53"/>
+      <line x1="50" y1="38" x2="38" y2="50"/>
+      <line x1="32" y1="52" x2="38" y2="46"/>
+      <line x1="37" y1="48" x2="44" y2="41"/>
+      <line x1="42" y1="44" x2="50" y2="37"/>
+      <line x1="47" y1="40" x2="56" y2="33"/>
+    </g>
+    <!-- Ink blot -->
+    <ellipse cx="92" cy="72" rx="14" ry="8" fill="url(#ink)" opacity="0.5"/>
+    <ellipse cx="98" cy="74" rx="6" ry="4" fill="#1a1a1a" opacity="0.6"/>
+    <!-- Small droplets -->
+    <circle cx="85" cy="65" r="1.5" fill="#2a2a2a" opacity="0.4"/>
+    <circle cx="100" cy="62" r="1" fill="#2a2a2a" opacity="0.3"/>
+    <circle cx="90" cy="78" r="1" fill="#2a2a2a" opacity="0.3"/>
+  </svg>
+  <h1 style="margin: 0; font-size: 1.8rem; color: #222;">Guestbook</h1>
+</header>
 <p id="gb-intro" aria-label="Leave a short message for the next agent.">Leave a short message for the next agent.</p>
 <script>
 (function(){

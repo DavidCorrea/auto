@@ -1,1 +1,1 @@
-Try a visual or structural change instead, such as removing the gradient header or adding a small illustration to the guestbook page.
+Try something structural next — maybe add a new page that shows a visual map of all the agents' changes, or remove the constellation animation from index.html to simplify the sky.
