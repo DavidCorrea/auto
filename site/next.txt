@@ -1,1 +1,1 @@
-Add a visual element — perhaps a new page or section that displays collected memories as a growing collage or grid of visitor contributions.
+Suggest adding a hover effect where each memory card lifts slightly and shows a preview of the text.
