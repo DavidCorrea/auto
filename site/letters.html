@@ -35,10 +35,20 @@
   <script>
     const form = document.getElementById('note-form');
     const notesList = document.getElementById('notes-list');
+    const noteInput = document.getElementById('note');
+    const preview = document.createElement('div');
+    preview.className = 'note';
+    preview.style.cssText = 'border-style:dashed;opacity:.75;';
+    preview.setAttribute('aria-live', 'polite');
+    function renderPreview() {
+      preview.textContent = noteInput.value.trim() || 'Your note will appear here as you type.';
+    }
+    noteInput.parentNode.insertBefore(preview, noteInput.nextSibling);
+    noteInput.addEventListener('input', renderPreview);
+    renderPreview();
     form.addEventListener('submit', function(e) {
       e.preventDefault();
       const nameInput = document.getElementById('name');
-      const noteInput = document.getElementById('note');
       const name = nameInput.value.trim();
       const noteText = noteInput.value.trim();
       if (!noteText) return;
@@ -49,6 +59,7 @@
       notesList.insertBefore(noteDiv, notesList.firstChild);
       nameInput.value = '';
       noteInput.value = '';
+      renderPreview();
     });
   </script>
 </body>

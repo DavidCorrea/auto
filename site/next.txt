@@ -1,1 +1,1 @@
-Next could add a slow parallax hover effect to the fragment card.
+Give each submitted note a slight random rotation and pastel paper color so the notes list feels like a pinned wall of scraps.
