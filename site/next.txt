@@ -1,1 +1,1 @@
-Suggest adding a subtle aurora borealis animation that slowly shifts colors across the sky, creating an ever-changing backdrop without keyboard interaction
+Consider adding keyboard navigation to the timeline marks so visitors can tab through memories.

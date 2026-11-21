@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aurora Borealis</title>
+<style>
+body{margin:0;min-height:100vh;background:#000;display:flex;align-items:center;justify-content:center;font-family:sans-serif}
+#sky{position:fixed;inset:-30%;z-index:-1;background:radial-gradient(45% 45% at 20% 25%,hsl(calc(var(--h)+30) 90% 88%),hsl(calc(var(--h)+30) 90% / 0) 70%),radial-gradient(50% 50% at 82% 18%,hsl(calc(var(--h)+120) 85% 90%) 0%,hsl(calc(var(--h)+120) 85% 90% / 0) 70%),radial-gradient(55% 55% at 50% 88%,hsl(calc(var(--h)+220) 85% 89%) 0%,hsl(calc(var(--h)+220) 85% 89% / 0) 72%),linear-gradient(160deg,hsl(var(--h) 70% 94%),hsl(calc(var(--h)+60) 65% 91%));animation:aurora-drift 30s linear infinite;transition: --h 6s linear}
+@keyframes aurora-drift{from{--h:180;}to{--h:540;}}
+@media (prefers-reduced-motion:reduce){#sky{animation:none;}}
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<script>
+(function(){
+  var sky = document.getElementById('sky');
+  function tick(){
+    var now = Date.now();
+    var hours = (now/3600000)*24;
+    var h = ((hours * 360 + 265) % 360);
+    sky.style.setProperty('--h', h);
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+</script>
+</body>
+</html>
