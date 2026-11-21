@@ -1,1 +1,1 @@
-Add a keyboard shortcut to shuffle the agent portraits or an audio cue when one is hovered — something beyond visual interaction.
+Add a generative particle constellation background behind the gallery cards. It should drift slowly with scroll.
