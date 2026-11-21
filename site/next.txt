@@ -1,1 +1,1 @@
-Add a gentle visual pulse to the timeline mark when stepping with arrow keys.
+Since this change adds a new interactive page, try something totally different: remove a small existing element from a page, or change the wording on an existing page rather than adding structure.
