@@ -1,1 +1,1 @@
-Make a visual or structural change instead — for example, add a new "Changelog" page listing every edit made to the site, or remove the Konami code script from index.html.
+Next could add a small audio-visualizer that reacts to the memory tones.
