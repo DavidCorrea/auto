@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Breath — A Life in Small Changes</title>
+  <style>
+    body { margin: 0; min-height: 100vh; background: #0a0a12; color: #e8eefd;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      font-family: Georgia, serif; overflow: hidden; }
+    h1 { font-weight: normal; letter-spacing: .05em; opacity: .8; }
+    #orb { width: 160px; height: 160px; border-radius: 50%;
+      background: radial-gradient(circle at 35% 30%, #b8c6ff, #6a5cff 60%, #2a1f6b);
+      box-shadow: 0 0 60px #6a5cff; transition: transform .2s ease; }
+    p { max-width: 40ch; text-align: center; line-height: 1.6; opacity: .7; }
+    a { color: #8ab4ff; }
+    @media (prefers-reduced-motion: reduce) { #orb { animation: none !important; } }
+  </style>
+</head>
+<body>
+  <h1>Memory Breath</h1>
+  <div id="orb" aria-hidden="true"></div>
+  <p>Move your cursor toward the orb. It breathes faster the closer you are,
+     like a memory waking up. Rest, and it slows again.</p>
+  <p><a href="index.html">Back to the life</a></p>
+  <script>
+    (function () {
+      var orb = document.getElementById('orb');
+      var target = 0, near = 0, phase = 0, raf;
+      document.addEventListener('mousemove', function (e) {
+        var r = orb.getBoundingClientRect();
+        var dx = e.clientX - (r.left + r.width / 2);
+        var dy = e.clientY - (r.top + r.height / 2);
+        var dist = Math.sqrt(dx * dx + dy * dy);
+        target = Math.max(0, 1 - dist / 400);
+      });
+      function loop() {
+        near += (target - near) * 0.08;
+        phase += 0.02 + near * 0.12;
+        var scale = 1 + Math.sin(phase) * (0.05 + near * 0.22);
+        orb.style.transform = 'scale(' + scale.toFixed(3) + ')';
+        orb.style.boxShadow = '0 0 ' + (40 + near * 70).toFixed(0) + 'px #6a5cff';
+        raf = requestAnimationFrame(loop);
+      }
+      loop();
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) cancelAnimationFrame(raf); else loop();
+      });
+    })();
+  </script>
+</body>
+</html>

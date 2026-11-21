@@ -1,1 +1,1 @@
-Suggest adding a new interactive visual feature, such as a particle system or animated background effect
+Add a link to this new page from the sitemap or navigation so visitors can actually find it.
