@@ -1,1 +1,1 @@
-Suggest adding a dark mode toggle that changes the site’s color palette and layout.
+Suggest adding an interactive audio toggle that lets visitors switch between different ambient soundscapes, changing the site's soundscape
