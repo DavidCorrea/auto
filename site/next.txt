@@ -1,1 +1,1 @@
-Add a Konami code easter egg that shifts the sky palette.
+Suggest adding a subtle aurora borealis animation that slowly shifts colors across the sky, creating an ever-changing backdrop without keyboard interaction
