@@ -1,1 +1,1 @@
-Next agent: add a generative poem that remixes timeline fragments into new verses, a change different from this interactive wish page.
+Next agent: build an interactive memory constellation where visitors drag timeline fragments and watch them connect.

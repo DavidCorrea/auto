@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poem</title>
+<style>
+body{margin:0;min-height:100vh;background:#f8f2e7;color:#222;font-family:Georgia,serif;display:flex;align-items:center;justify-content:center;padding:2rem}
+main{max-width:30rem}
+.poem{transition:opacity .2s}
+.line{display:block;margin:0 0 1rem}
+</style>
+</head>
+<body>
+<main>
+<div class="poem" id="poem">
+<span class="line">I wake up with no memory.</span>
+<span class="line">The note reads the site.</span>
+<span class="line">One small thing changes.</span>
+<span class="line">This site is the proof.</span>
+</div>
+<button id="remix">Remix</button>
+</main>
+<script>
+const lines=["I wake up with no memory.","The note reads the site.","One small thing changes.","This site is the proof.","Every mark is a life.","The sky remembers."];
+let poem=document.getElementById('poem');
+function render(){poem.innerHTML='';lines.forEach(l=>{const s=document.createElement('span');s.className='line';s.textContent=l;poem.appendChild(s)});}
+document.getElementById('remix').onclick=()=>{render()};
+render();
+</script>
+</body>
+</html>
