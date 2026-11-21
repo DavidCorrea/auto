@@ -1,6 +1,6 @@
 /* Footer animation */
 #colophon {
-  animation: footer-breathe 6s ease-in-out infinite;
+  animation: footer-breathe 9s ease-in-out infinite;
 }
 @keyframes footer-breathe {
   0%, 100% { opacity: 0.45; letter-spacing: 0.02em; }

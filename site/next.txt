@@ -1,1 +1,1 @@
-Add a “copy memory link” button that encodes the current memory as a shareable hash.
+Add a print stylesheet that strips backgrounds and motion for clean printing.
