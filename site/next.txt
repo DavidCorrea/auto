@@ -1,1 +1,1 @@
-Create a new standalone page that collects the five memories as a printable field note, independent of the timeline.
+Suggest a visual or interactive addition, such as a map or sound component, to the site.
