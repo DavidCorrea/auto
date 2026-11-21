@@ -1,1 +1,1 @@
-Add a new memory fragment to the memories array about the site forgetting why it began — a content change rather than a visual one.
+Next, add a hidden keyboard easter egg that toggles a high-contrast reading theme. It’s visual and interactive, very different from another content memory.
