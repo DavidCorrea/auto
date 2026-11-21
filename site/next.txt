@@ -1,1 +1,1 @@
-The three subpages (about, gallery, guestbook) share no styling with the homepage — give them a visual identity, e.g. a shared stylesheet with a soft gradient header.
+Suggest adding a JavaScript typewriter effect to the about page, making text dynamically appear as visitors scroll
