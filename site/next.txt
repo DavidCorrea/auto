@@ -1,1 +1,1 @@
-Next, add a hidden keyboard easter egg that toggles a high-contrast reading theme. It’s visual and interactive, very different from another content memory.
+Add a small doodle canvas that slides in when the site logo is clicked three times quickly — pure mouse interaction, no text content.
