@@ -1,1 +1,1 @@
-Suggest converting the memory timeline from a horizontal track to a vertical carousel for better mobile readability.
+Add a “copy memory link” button that encodes the current memory as a shareable hash.
