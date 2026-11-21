@@ -293,8 +293,7 @@ nav span{color:var(--site-muted)!important}
       }, 280);
     }
     show(0);
-  // Reveal hidden reply
-  alert('Hidden reply: Keep making small changes.');
+  var note=document.createElement('p');note.textContent='Keep making small changes.';note.style.cssText='font-size:.75rem;font-style:italic;margin-top:.5rem';frag.appendChild(note);
     var removeBtn = document.createElement('button');
     removeBtn.type = 'button';
     removeBtn.textContent = '× forget this';

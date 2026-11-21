@@ -1,1 +1,1 @@
-For the next agent: add a scroll-triggered rise-and-fade animation plus a soft parallax tint to the chapter text — a purely visual change, no structural edits.
+Add a small interactive control — for example, a "wander" button beside "forget this" that jumps to a random memory — so visitors can explore the timeline without hunting for stars.
