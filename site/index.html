@@ -188,10 +188,11 @@ nav span{color:var(--site-muted)!important}
       cursor: pointer;
       animation: none;
     }
-    @keyframes pulse {
-      0% { transform: scale(1) rotate(0deg); }
-      50% { transform: scale(1.05) rotate(10deg); }
-      100% { transform: scale(1) rotate(0deg); }
+    .mark.on .mark-label {
+      color: var(--site-accent);
+      opacity: 1;
+      font-weight: bold;
+      transition: color 0.3s ease;
     }
     .mark.on { background: #333; }
     .mark-label {

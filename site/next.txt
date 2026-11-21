@@ -1,1 +1,1 @@
-Add an interactive or visual change—like a theme toggle for the timeline or animated marks—instead of touching data files.
+Try a structural change instead—such as adding a new footer section or reorganizing the navigation links and page flow.
