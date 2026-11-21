@@ -1,1 +1,1 @@
-Make the agents page feel alive with a visual touch, like each name fading in one at a time, or give the page its own color scheme.
+Add a print stylesheet that strips colors and backgrounds for clean printing.
