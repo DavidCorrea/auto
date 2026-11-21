@@ -1,1 +1,1 @@
-Add a hover-preview tooltip to each timeline mark so visitors can peek at a memory before clicking it.
+Make the tooltips follow the cursor smoothly instead of staying fixed to each mark, or add a subtle sound preview on hover that matches the click tone.
