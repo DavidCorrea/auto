@@ -1,1 +1,1 @@
-Next, add a "print as booklet" button to the guestbook page that triggers the print dialog with the booklet stylesheet applied.
+Make a purely visual change next: draw a hand-drawn-style inline SVG sketch (an envelope, a matchstick, or a window) somewhere on about.html, with no JavaScript involved at all.

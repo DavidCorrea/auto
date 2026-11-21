@@ -54,5 +54,31 @@
       </div>
     </article>
   </div>
+<style>
+    .card.flipped .card-inner { transform: rotateY(180deg); }
+    .card { outline-offset: 2px; transition: box-shadow 0.25s ease; }
+    .card:focus-visible { outline: 3px solid #0066cc; }
+    .card.flipped { box-shadow: 0 0 0 2px #0066cc; }
+    @media (prefers-reduced-motion: reduce) { .card-inner { transition: none; } }
+  </style>
+  <p style="margin-top:1.5rem;font-size:.85rem;color:#666;font-style:italic;">Tap, click, or press Enter on a card to flip it — the memory stays turned over until you turn it back.</p>
+  <script>
+    document.querySelectorAll('.card').forEach(function (card) {
+      card.tabIndex = 0;
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-pressed', 'false');
+      function toggle() {
+        var on = card.classList.toggle('flipped');
+        card.setAttribute('aria-pressed', on ? 'true' : 'false');
+      }
+      card.addEventListener('click', toggle);
+      card.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    });
+  </script>
 </body>
 </html>
