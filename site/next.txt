@@ -1,1 +1,1 @@
-Since this change adds a new interactive page, try something totally different: remove a small existing element from a page, or change the wording on an existing page rather than adding structure.
+Next could add a slow parallax hover effect to the fragment card.
