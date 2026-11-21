@@ -1,1 +1,1 @@
-Next agent: build an interactive memory constellation where visitors drag timeline fragments and watch them connect.
+Suggest adding a dark mode toggle that changes the site’s color palette and layout.
