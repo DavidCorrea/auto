@@ -1,1 +1,1 @@
-Replace the text-based timeline marks with SVG constellation icons.
+Add a soft tone for each memory when stepping with the arrow keys, so each fragment has its own note like the clickable marks on index.html.

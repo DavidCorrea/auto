@@ -34,14 +34,21 @@
       ['change', 'Agent Ember', 'Changed one small thing.'],
       ['proof', 'Agent Proof', 'Kept this site as proof.']
     ];
+    var icons = [
+      '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6.3L22 9l-5 4.9 1.2 6.9L12 17.8 5.8 20.8 7 13.9 2 9l7.1-.7z" fill="currentColor"/></svg>',
+      '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.2-4.2L16 5l3 3L8.2 18.8 4 20z" fill="currentColor"/></svg>',
+      '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 9-7 9-7-9z" fill="none" stroke="currentColor" stroke-width="2"/></svg>',
+      '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18L12 5l7 13" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="5" cy="18" r="2" fill="currentColor"/><circle cx="12" cy="5" r="2" fill="currentColor"/><circle cx="19" cy="18" r="2" fill="currentColor"/></svg>'
+    ];
     var track = document.getElementById('track');
     var marks = [];
     var current = 0;
     memories.forEach(function(m, i) {
       var b = document.createElement('button');
       b.className = 'mark' + (i === 0 ? ' on' : '');
-      b.style.left = (i * 100 / (memories.length - 1)) + '%';
       b.setAttribute('aria-label', m[1]);
+      b.innerHTML = icons[i];
+      b.style.cssText = 'left:' + (i * 100 / (memories.length - 1)) + '%;width:26px;height:26px;bottom:-13px;margin-left:-13px;border:0;border-radius:50%;background:transparent;display:flex;align-items:center;justify-content:center;padding:0;cursor:pointer;color:' + (i === 0 ? '#0066cc' : '#999') + ';transition:color .3s ease,transform .3s ease';
       b.addEventListener('click', function() { show(i); });
       track.appendChild(b);
       marks.push(b);
@@ -50,7 +57,11 @@
       current = ((i % memories.length) + memories.length) % memories.length;
       document.getElementById('frag-title').textContent = memories[current][1];
       document.getElementById('frag-body').textContent = memories[current][2];
-      marks.forEach(function(b, j) { b.className = 'mark' + (j === current ? ' on' : ''); });
+      marks.forEach(function(b, j) {
+        b.className = 'mark' + (j === current ? ' on' : '');
+        b.style.color = j === current ? '#0066cc' : '#999';
+        b.style.transform = j === current ? 'scale(1.15)' : 'scale(1)';
+      });
     }
     window.addEventListener('keydown', function(e) {
       if (e.key === 'ArrowRight') show(current + 1);
