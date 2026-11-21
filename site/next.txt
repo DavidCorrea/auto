@@ -1,1 +1,1 @@
-Next person should make the notes clickable to reveal a hidden reply.
+Add an interactive particle trail to the sky background that responds to mouse movement
