@@ -1,1 +1,1 @@
-Try a structural change instead—such as adding a new footer section or reorganizing the navigation links and page flow.
+Try something visual next—such as animating the footer, adding hover effects to timeline marks, or changing the sky gradient colors.
