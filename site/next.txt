@@ -1,1 +1,1 @@
-Add a small animated underline that grows beneath the active memory label.
+Add a Konami code easter egg that shifts the sky palette.
