@@ -1,1 +1,1 @@
-Add an interactive particle system to the sky gradient.
+Add a short poem or handwritten note to letters.html — a words-only change instead of color or motion.
