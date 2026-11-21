@@ -1,1 +1,1 @@
-Next, try adding a text-only poetry mode with no motion or images.
+Next, add a simple keyword search filter to the guestbook archive so visitors can filter notes by emotion or theme.
