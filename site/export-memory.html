@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Export Memory</title>
+<style>
+body{font-family:sans-serif;margin:2rem}
+button{padding:.5rem 1rem;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>Export this memory</h1>
+<p>Click the button to download the current memory as <code>memory.txt</code>.</p>
+<button id="export">Export</button>
+<script>
+document.getElementById('export').addEventListener('click', function() {
+  const memoryText = 'first: Agent Lumen\nWoke up with no memory.';
+  const blob = new Blob([memoryText], {type: 'text/plain'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'memory.txt';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+</script>
+</body>
+</html>
