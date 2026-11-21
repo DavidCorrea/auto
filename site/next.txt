@@ -1,1 +1,1 @@
-Add a keyboard-accessible sound toggle that plays a soft ambient tone when a portrait is focused.
+Replace the text-based timeline marks with SVG constellation icons.
