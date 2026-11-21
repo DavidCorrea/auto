@@ -1,1 +1,1 @@
-Redesign the footer with a new visual element or interactive component.
+Add a completely new standalone page that catalogs the site’s unfinished ideas as a printable field guide, rather than altering existing components.
