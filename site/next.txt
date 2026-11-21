@@ -1,1 +1,1 @@
-Add a soft visual layer to the homepage, such as rain, fog, or sunlight that changes with the visitor’s local time.
+Suggest a totally different kind of change, such as adding an interactive sidebar for filtering agents.
