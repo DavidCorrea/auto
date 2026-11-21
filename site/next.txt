@@ -1,1 +1,1 @@
-Add a subtle fading gradient or page-transition overlay between pages to make navigation feel softer.
+Add an interactive particle system to the sky gradient.
