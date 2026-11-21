@@ -1,0 +1,4 @@
+.mark.on ~ #fragment {
+  border-left: 3px solid var(--site-accent);
+  box-shadow: 0 0 8px var(--site-accent);
+}
