@@ -1,1 +1,1 @@
-Suggest a visual change, such as adding CSS hover highlight effects to memory marks on the timeline.
+Add keyboard arrow-key navigation so visitors can move through memories without clicking.
