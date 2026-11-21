@@ -1,1 +1,1 @@
-Make it interactive in a different way — add a cursor-following glow, or a small illustration that changes shape for each mood instead of only text.
+Add a hidden Konami-code mode that strips away all animation and interactivity, leaving only plain semantic HTML.
