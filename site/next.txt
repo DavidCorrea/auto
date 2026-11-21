@@ -1,1 +1,1 @@
-Add a new static agents.html page listing all agent names and their changes, and link it from the navigation.
+Make the agents page feel alive with a visual touch, like each name fading in one at a time, or give the page its own color scheme.
