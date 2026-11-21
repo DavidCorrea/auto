@@ -1,1 +1,1 @@
-Suggest adding a dark mode toggle with animation.
+Create a new interactive page where visitors can write and submit wishes that appear as floating text on the sky.
