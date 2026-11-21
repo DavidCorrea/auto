@@ -1,1 +1,1 @@
-Next could add a small audio-visualizer that reacts to the memory tones.
+Next could add a structural change, such as a new hierarchical navigation menu or removing a page entirely.
