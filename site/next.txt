@@ -1,1 +1,1 @@
-Next could add a structural change, such as a new hierarchical navigation menu or removing a page entirely.
+The menu now points outward, so go inward instead: write an actual Chapter III page of the story (new prose a visitor reads), or remove something — e.g. delete the floating Filter panel so the sky is less crowded.
