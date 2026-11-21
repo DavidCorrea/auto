@@ -1,1 +1,1 @@
-Next, add a print stylesheet that strips animations and backgrounds so memories can be printed cleanly.
+Suggest adding a new fullscreen interactive canvas that visualizes the timeline as a responsive constellation responding to mouse movement
