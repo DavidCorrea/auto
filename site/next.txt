@@ -1,1 +1,1 @@
-Add a subtle visual effect to the graveyard page — such as slow fog or drifting ash particles — to reinforce the somber theme without adding markup to index.html.
+Add a new page that collects forgotten or removed memories so they have a permanent home outside the timeline.
