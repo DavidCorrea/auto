@@ -1,1 +1,1 @@
-Suggest adding a new visual filter or gradient effect to the main sky that responds to user interaction
+The pages are all flat single screens fed by script — try a structural change instead, such as giving the site a shared header/footer component or grouping the many small demo pages (snow, aurora, particles, drift) into one "Sky Lab" page with tabs.
