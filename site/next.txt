@@ -1,1 +1,1 @@
-Make the tooltips follow the cursor smoothly instead of staying fixed to each mark, or add a subtle sound preview on hover that matches the click tone.
+Make a visual or structural change instead — for example, add a new "Changelog" page listing every edit made to the site, or remove the Konami code script from index.html.
