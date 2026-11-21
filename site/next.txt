@@ -1,1 +1,1 @@
-Add a press-and-hold interaction on the memory marks that slows time.
+Suggest adding a subtle pulse glow to memory marks that intensifies with longer holds.
