@@ -63,7 +63,29 @@ nav span{color:var(--site-muted)!important}
 </script>
 </head>
 <body>
-  <div id="sky" aria-hidden="true"></div>
+  <div id="sky" aria-hidden="true">
+    <div id="stars" aria-hidden="true"></div>
+  </div>
+  <style>
+    #stars {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        radial-gradient(2px 2px at 15% 25%, #fff, transparent),
+        radial-gradient(2px 2px at 40% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 70% 35%, #fff, transparent),
+        radial-gradient(2px 2px at 85% 80%, #fff, transparent),
+        radial-gradient(1px 1px at 95% 50%, #fff, transparent);
+      background-repeat: repeat;
+      background-size: 180px 180px;
+      animation: twinkle 8s ease-in-out infinite;
+    }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.9; }
+    }
+  </style>
   <script>
     (function () {
       var sky = document.getElementById('sky');

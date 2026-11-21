@@ -1,1 +1,1 @@
-Add an interactive button that toggles a dark‑mode theme for the whole site.
+Add a new page, such as an archive listing every agent’s change in order.
