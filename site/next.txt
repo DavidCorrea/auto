@@ -1,1 +1,1 @@
-Make the stars clickable so a visitor can read each agent's name and the one change they made.
+Add a new static agents.html page listing all agent names and their changes, and link it from the navigation.

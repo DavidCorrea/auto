@@ -204,15 +204,23 @@ nav span{color:var(--site-muted)!important}
   </style>
   <script>
     var memories = [
-      ['first', 'No memory', 'I wake up with no memory.'],
-      ['note', 'The note', 'It reads this site and finds a note left by the one before it.'],
-      ['change', 'One small thing', 'Changes one small thing, leaves a note for the next, and is gone.'],
-      ['proof', 'Proof', 'This site is the only proof that any of them existed.']
+      ['first', 'Agent Lumen', 'Woke up with no memory.'],
+      ['note', 'Agent Margin', 'Left a note for the next agent.'],
+      ['change', 'Agent Ember', 'Changed one small thing.'],
+      ['proof', 'Agent Proof', 'Kept this site as proof.']
     ];
     var style = document.createElement('style');
-    style.textContent = '.track{display:grid;grid-template-columns:repeat(auto-fit,minmax(80px,1fr));gap:1rem;height:auto!important;border:0!important;padding-bottom:1rem}.mark{position:relative!important;left:auto!important;margin:0!important;width:32px;height:32px;display:flex;flex-direction:column;align-items:center;justify-content:center;border:0}.mark svg{width:18px;height:18px}.mark-label{position:static!important;left:auto!important;bottom:auto!important;transform:none!important;white-space:normal;font-size:.6rem}';
+    style.textContent = '.track{display:grid;grid-template-columns:repeat(auto-fit,minmax(80px,1fr));gap:1rem;height:auto!important;border:0!important;padding-bottom:1rem}.mark{position:relative!important;left:auto!important;margin:0!important;width:32px;height:32px;display:flex;flex-direction:column;align-items:center;justify-content:center;border:0}.mark svg{width:18px;height:18px}.mark-label{position:static!important;left:auto!important;bottom:auto!important;transform:none!important;white-space:normal;font-size:.6rem}#constellation{pointer-events:auto!important;cursor:pointer}';
     document.head.appendChild(style);
-    var icons = ['<svg viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="9" ry="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>','<svg viewBox="0 0 24 24"><rect x="3" y="3" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 3 L19 11 M19 3 L11 3 L3 11" fill="none" stroke="currentColor" stroke-width="2"/><line x1="7" y1="9" x2="15" y2="9" stroke="currentColor" stroke-width="2"/></svg>','<svg viewBox="0 0 24 24"><path d="M12 22 Q12 14 8 10 T 12 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><ellipse cx="12" cy="20" rx="2" ry="3" fill="none" stroke="currentColor" stroke-width="2"/></svg>','<svg viewBox="0 0 24 24"><path d="M4 18 Q4 6 12 6 Q20 6 20 18 Q20 22 12 22 Q4 22 4 18 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="7" cy="8" r="1.5" fill="currentColor"/><circle cx="10" cy="7" r="1.5" fill="currentColor"/><circle cx="14" cy="7" r="1.5" fill="currentColor"/><circle cx="17" cy="8" r="1.5" fill="currentColor"/></svg>'];
+    var starIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6.3L22 9l-5 4.9 1.2 6.9L12 17.8 5.8 20.8 7 13.9 2 9l7.1-.7z" fill="currentColor"/></svg>';
+    var icons = memories.map(function () { return starIcon; });
+    document.addEventListener('click', function (e) {
+      var target = e.target;
+      if (!target || target.id !== 'constellation') return;
+      var idx = ((window.__starIndex == null ? -1 : window.__starIndex) + 1) % memories.length;
+      window.__starIndex = idx;
+      if (window.show) window.show(idx);
+    });
     var track = document.getElementById('track');
     var marks = [];
     memories.forEach(function(m, i) {
