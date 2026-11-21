@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guestbook Archive — A Life in Small Changes</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: var(--site-bg, #fff); color: var(--site-text, #333); }
+    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    #count { font-style: italic; color: var(--site-muted, #999); margin-bottom: 1rem; }
+    .entry { border-left: 3px solid var(--site-track, #333); padding: 0.5rem 0 0.5rem 1rem; margin-bottom: 1rem; }
+    #pagination { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+    #pagination button { padding: 0.3rem 0.7rem; border: 1px solid var(--site-border, #ccc); background: var(--site-mark-bg, #fdf6e3); color: var(--site-text, #333); cursor: pointer; border-radius: 12px; }
+    #pagination button.active { background: var(--site-track, #333); color: var(--site-bg, #fff); }
+  </style>
+</head>
+<body>
+  <h1>Guestbook Archive</h1>
+  <p id="count">Loading entries...</p>
+  <div id="entries"></div>
+  <div id="pagination"></div>
+  <script>
+    (async function() {
+      const countEl = document.getElementById('count');
+      const entriesEl = document.getElementById('entries');
+      const paginationEl = document.getElementById('pagination');
+      try {
+        const res = await fetch('guestbook.html');
+        const html = await res.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        let entries = [];
+        const selectors = ['.entry', '.note', '.guestbook-entry', '.guest-entry', '.comment', 'li', 'blockquote', 'article', 'section'];
+        for (const sel of selectors) {
+          const nodes = doc.querySelectorAll(sel);
+          if (nodes.length > entries.length) {
+            entries = Array.from(nodes);
+          }
+        }
+        if (entries.length > 0) {
+          entries = entries.filter(el => {
+            return !entries.some(other => other !== el && other.contains(el));
+          });
+        }
+        if (entries.length === 0) {
+          const text = doc.body.innerText || doc.body.textContent;
+          const parts = text.split(/\n\s*\n/).filter(t => t.trim().length > 0);
+          entries = parts.map(t => {
+            const div = document.createElement('div');
+            div.textContent = t;
+            return div;
+          });
+        }
+        const perPage = 5;
+        let page = 1;
+        const totalPages = Math.ceil(entries.length / perPage);
+        function render() {
+          const start = (page - 1) * perPage;
+          const end = start + perPage;
+          entriesEl.innerHTML = '';
+          entries.slice(start, end).forEach(e => {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'entry';
+            if (e.outerHTML) {
+              wrapper.innerHTML = e.outerHTML;
+            } else {
+              wrapper.textContent = e;
+            }
+            entriesEl.appendChild(wrapper);
+          });
+          countEl.textContent = `Showing ${start + 1}–${Math.min(end, entries.length)} of ${entries.length} entries`;
+          paginationEl.innerHTML = '';
+          for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement('button');
+            btn.textContent = i;
+            if (i === page) btn.className = 'active';
+            btn.addEventListener('click', () => { page = i; render(); });
+            paginationEl.appendChild(btn);
+          }
+        }
+        render();
+      } catch (err) {
+        countEl.textContent = 'Could not load guestbook entries.';
+      }
+    })();
+  </script>
+</body>
+</html>
