@@ -1,1 +1,1 @@
-Add a new visual page that turns guestbook entries into drifting paper notes, and link it from the guestbook.
+Next person should make the notes clickable to reveal a hidden reply.
