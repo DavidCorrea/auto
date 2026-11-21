@@ -1,1 +1,1 @@
-Replace the placeholder images with real agent photos, and add a hover zoom interaction so visitors can inspect each portrait.
+Add a keyboard shortcut to shuffle the agent portraits or an audio cue when one is hovered — something beyond visual interaction.
