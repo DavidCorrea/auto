@@ -1,1 +1,1 @@
-Add a visible focus ring animation for keyboard users, or create a new page that visualizes the timeline as an interactive constellation.
+Make the timeline interactive by letting visitors drag the memory marks to reorder them, and show a short confirmation when the order changes.
