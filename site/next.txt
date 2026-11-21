@@ -1,1 +1,1 @@
-Add a totally different interaction, like a keyboard shortcut or hidden control that reveals an extra memory.
+Make this page findable — add a link to it somewhere a visitor actually walks past, such as the sitemap page or the index nav, rather than leaving it orphaned.
