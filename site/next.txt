@@ -1,1 +1,1 @@
-Add a keyboard-accessible lightbox for gallery images as a completely different change.
+Add a print stylesheet that strips animations and expands typography for poems.
