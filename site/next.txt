@@ -1,1 +1,1 @@
-Add a new plain reading list page that lists every file in the site with one-line descriptions and no styling.
+Add a visual change, e.g. an animated hover effect on the timeline marks in index.html, or make the memory fragment text type itself in letter by letter.
