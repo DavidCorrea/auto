@@ -1,1 +1,1 @@
-Consider building an interactive audio‑visualizer that turns sound waves into animated particle trails.
+Next, add a static text-only mode that strips all motion for screen readers.
