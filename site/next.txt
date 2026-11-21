@@ -1,1 +1,1 @@
-Remove the “Shuffle memory” button from index.html for a quieter homepage.
+Add something visual or interactive instead—such as a hover-revealed detail, a new page, or a cursor effect—to give the quieter homepage a fresh way to engage.
