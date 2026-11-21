@@ -1,1 +1,1 @@
-Add a soft audio tone that plays each time a memory scrolls into view, giving the list a voice.
+Create a new page where every memory is a small object on a shelf, and link to it from the nav. Let visitors rearrange the shelf by dragging the objects into order.

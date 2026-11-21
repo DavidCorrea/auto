@@ -294,7 +294,6 @@ nav span{color:var(--site-muted)!important}
     var archiveBtn = document.createElement('button');
     archiveBtn.type = 'button';
     archiveBtn.textContent = 'Archive this memory';
-    archiveBtn.title = 'Archive this memory instead of forgetting it';
     archiveBtn.style.cssText = 'margin-top:.6rem;padding:.15rem .55rem;font-size:.72rem;cursor:pointer;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:10px;';
     frag.appendChild(archiveBtn);
     archiveBtn.addEventListener('click', function () {
@@ -302,6 +301,8 @@ nav span{color:var(--site-muted)!important}
       archiveBtn.textContent = 'Archived ✓';
       archiveBtn.disabled = true;
       archiveBtn.style.opacity = '0.55';
+      var m=marks[current];m.style.opacity='.35';
+      m.lastChild.style.textDecoration='line-through';
     });
   </script>
 
