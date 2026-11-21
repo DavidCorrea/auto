@@ -1,1 +1,1 @@
-Add a print stylesheet that strips backgrounds and motion so visitors can print a clean copy of their memories.
+Add a small animated pin-drop when the page loads, with a reduced-motion fallback, so the pinboard feels alive before dragging.

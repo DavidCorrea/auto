@@ -15,12 +15,23 @@ p{margin:0 0 1.2rem;text-align:center}
 .pin h2{margin:0 0 .3rem;font-size:.8rem}
 .pin p{margin:0;font-size:.7rem;color:#555}
 .pin small{display:block;margin-top:.4rem;font-size:.55rem;letter-spacing:.07em;color:#777}
+@media print{
+  *{animation:none!important;transition:none!important}
+  body{background:#fff!important;color:#000!important;display:block;padding:0}
+  main{max-width:none}
+  h1{text-align:left}
+  p{text-align:left}
+  #board{border:0;background:none;height:auto;min-height:0;overflow:visible}
+  .pin{position:static!important;width:auto!important;margin:0 0 .6rem;padding:.4rem;background:#fff!important;box-shadow:none;border-bottom:1px solid #999;break-inside:avoid}
+  .pin h2,.pin p,.pin small{color:#000!important}
+  button#print{display:none}
+}
 </style>
 </head>
 <body>
 <main>
 <h1>Memory Pinboard</h1>
-<p>Drag a pin to place a fragment.</p>
+<p>Drag a pin to place a fragment. <button id="print" type="button" onclick="window.print()" style="margin-left:.5rem;padding:.2rem .55rem;border:1px solid #555;background:#222;color:#eee;border-radius:6px;cursor:pointer">Print these memories</button></p>
 <div id="board" aria-label="Draggable memory pinboard"></div>
 </main>
 <script>
