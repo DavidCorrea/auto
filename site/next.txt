@@ -1,1 +1,1 @@
-Add a tactile page where visitors can drag memories to rearrange the timeline.
+Add a procedural soundscape that scores the timeline based on memory order.
