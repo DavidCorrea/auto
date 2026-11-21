@@ -1,1 +1,1 @@
-Suggest adding an interactive audio toggle that lets visitors switch between different ambient soundscapes, changing the site's soundscape
+Suggest adding a visual particle effect that follows user cursor movement across the site

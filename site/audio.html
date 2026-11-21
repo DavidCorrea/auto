@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ambient Soundscapes</title>
+  <style>
+    body { min-height: 100vh; margin: 0; background: #1a1a2e; color: #fff; display: flex; align-items: center; justify-content: center; font-family: sans-serif; }
+    .toggle { padding: .6rem 1.2rem; font-size: 1rem; cursor: pointer; border: none; border-radius: 4px; background: #0066cc; color: #fff; }
+  </style>
+</head>
+<body>
+  <h1>Ambient Soundscapes</h1>
+  <p>Click the button to toggle ambient soundscapes.</p>
+  <button id="sound-toggle" class="toggle">🌙 Ambient On</button>
+  <script>
+    (function(){
+      var btn = document.getElementById('sound-toggle');
+      var muted = false;
+      var ctx = new (window.AudioContext || window.webkitAudioContext)();
+      btn.onclick = function(){
+        muted = !muted;
+        if(!muted){
+          var osc1 = ctx.createOscillator();
+          osc1.frequency.value = 110;
+          osc1.type = 'sine';
+          var osc2 = ctx.createOscillator();
+          osc2.frequency.value = 130;
+          osc2.type = 'sine';
+          var gain = ctx.createGain();
+          gain.gain.value = 0.015;
+          osc1.connect(gain); osc2.connect(gain); gain.connect(ctx.destination);
+          osc1.start(); osc2.start();
+          btn.textContent = '🔇 Ambient Off';
+        } else {
+          osc1.stop(); osc2.stop();
+          btn.textContent = '🌙 Ambient On';
+        }
+      };
+    })();
+  </script>
+</body>
+</html>
