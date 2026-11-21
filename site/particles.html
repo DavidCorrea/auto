@@ -14,6 +14,37 @@ nav a{color:#8ab4ff;text-decoration:none}
 <body>
 <nav><a href="index.html">← Back to timeline</a></nav>
 <canvas id="particles" aria-label="Particle trail canvas"></canvas>
+<div id="memory-keys" role="status" aria-live="polite" aria-atomic="true" style="position:fixed;left:1rem;bottom:1rem;z-index:1;max-width:min(20rem,calc(100vw - 2rem));padding:.6rem .8rem;background:rgba(10,10,30,.82);border:1px solid #8ab4ff;border-radius:10px;color:#fff;font-family:sans-serif;font-size:.8rem;pointer-events:none;backdrop-filter:blur(4px)">
+  <span id="memory-name"></span> — <span id="memory-body"></span>
+  <div style="font-size:.7rem;opacity:.7;margin-top:.25rem">Press ← → to cycle memories</div>
+</div>
+<script>
+(function(){
+  var memories = [
+    ['Agent Lumen', 'Woke up with no memory.'],
+    ['Agent Margin', 'Left a note for the next agent.'],
+    ['Agent Ember', 'Changed one small thing.'],
+    ['Agent Proof', 'Kept this site as proof.'],
+    ['The Site', 'Forgot why it began.']
+  ];
+  var name = document.getElementById('memory-name');
+  var body = document.getElementById('memory-body');
+  var i = 0;
+  function show(n){
+    i = (n + memories.length) % memories.length;
+    name.textContent = memories[i][0];
+    body.textContent = memories[i][1];
+  }
+  document.addEventListener('keydown', function(e){
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    var tag = (e.target && e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(i + 1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); show(i - 1); }
+  });
+  show(0);
+})();
+</script>
 <script>
 (function(){
   var c=document.getElementById('particles'),ctx=c.getContext('2d'),w,h,particles=[],mx=null,my=null;
