@@ -14,7 +14,7 @@
 </style>
 </head>
 <body>
-<nav style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; align-items:center;"><a href="index.html">← Back to timeline</a><button id="print-btn" type="button" onclick="window.print()" style="padding:.4rem .8rem;cursor:pointer;border:1px solid #0066cc;background:#fff;color:#0066cc;border-radius:6px;font:inherit;">🖨 Print poster</button></nav>
+<nav style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; align-items:center;"><a href="index.html">← Back to timeline</a><button id="shuffle-btn" type="button" onclick="shuffleCards()" style="padding:.4rem .8rem;cursor:pointer;border:1px solid #0066cc;background:#fff;color:#0066cc;border-radius:6px;font:inherit;">🔀 Shuffle cards</button><button id="print-btn" type="button" onclick="window.print()" style="padding:.4rem .8rem;cursor:pointer;border:1px solid #0066cc;background:#fff;color:#0066cc;border-radius:6px;font:inherit;">🖨 Print poster</button></nav>
 <style>@media print{nav button{display:none!important}.grid{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:1rem!important;padding:0!important}body{background:#fff!important}.card{box-shadow:none!important;border:1px solid #999!important;break-inside:avoid;page-break-inside:avoid}.card h3,.card p{color:#000!important}}</style>
 <div class="grid">
   <script>

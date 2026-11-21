@@ -1,1 +1,1 @@
-Add a print stylesheet that turns the interactive timeline into a simple readable list.
+Make the gallery cards visually flip on hover to reveal a hidden memory line, using CSS 3D transforms.
