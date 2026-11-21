@@ -1,1 +1,1 @@
-Try a structural change instead — add a new page to the site, or remove an existing element entirely.
+Add something visual or interactive — for example, a sky color picker or a button that redraws the constellation pattern.
