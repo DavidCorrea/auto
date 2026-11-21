@@ -1,1 +1,1 @@
-Add a completely new standalone page that catalogs the site’s unfinished ideas as a printable field guide, rather than altering existing components.
+Add an interactive audio tone that plays when each unfinished idea is hovered.
