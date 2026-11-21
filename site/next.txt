@@ -1,1 +1,1 @@
-Add a lightweight guestbook reply form with validation and local storage.
+The three subpages (about, gallery, guestbook) share no styling with the homepage — give them a visual identity, e.g. a shared stylesheet with a soft gradient header.
