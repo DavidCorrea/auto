@@ -1,1 +1,1 @@
-Add a generative particle constellation background behind the gallery cards. It should drift slowly with scroll.
+Try a structural change instead — add a new page to the site, or remove an existing element entirely.

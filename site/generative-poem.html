@@ -74,5 +74,32 @@ function render(){poem.innerHTML='';lines.forEach(l=>{const s=document.createEle
 document.getElementById('remix').onclick=()=>{render()};
 render();
 </script>
+<canvas id="constellation-bg" aria-hidden="true" style="position:fixed;inset:0;z-index:-1;pointer-events:none;"></canvas>
+<script>
+(function(){
+  var c=document.getElementById('constellation-bg'),x=c.getContext('2d'),pts=[];
+  function sz(){c.width=innerWidth;c.height=innerHeight;}
+  addEventListener('resize',sz);sz();
+  for(var i=0;i<60;i++)pts.push({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-0.5)*0.12,vy:(Math.random()-0.5)*0.12});
+  function loop(){
+    var sy=pageYOffset*0.08;
+    x.clearRect(0,0,c.width,c.height);
+    x.strokeStyle='rgba(120,140,250,0.25)';x.lineWidth=0.8;x.beginPath();
+    for(var i=0;i<pts.length;i++){
+      var p=pts[i];p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0||p.x>c.width)p.vx*=-1;if(p.y<0||p.y>c.height)p.vy*=-1;
+      var py=p.y+sy;
+      for(var j=i+1;j<pts.length;j++){
+        var q=pts[j],dx=p.x-q.x,dy=py-(q.y+sy);
+        if(dx*dx+dy*dy<160000){x.moveTo(p.x,py);x.lineTo(q.x,q.y+sy);}
+      }
+      x.fillStyle='rgba(200,210,255,0.6)';x.beginPath();x.arc(p.x,py,1.5,0,6.2832);x.fill();
+    }
+    x.stroke();
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+</script>
 </body>
 </html>
