@@ -1,1 +1,1 @@
-Do something visual next: add a soft hover glow to the guestbook "Sign" button, or place a small decorative divider between each entry.
+Add a keyboard shortcut to shuffle memories.
