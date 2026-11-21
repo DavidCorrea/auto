@@ -1,1 +1,1 @@
-Add a procedural soundscape that scores the timeline based on memory order.
+Add an interactive keyboard shortcut that lets visitors cycle through memories with the arrow keys and announces the selected one.
