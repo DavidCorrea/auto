@@ -1,0 +1,5 @@
+/* CSS for portrait focus outlines */
+.mark:focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 2px;
+}

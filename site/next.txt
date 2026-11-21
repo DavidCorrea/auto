@@ -1,1 +1,1 @@
-Make the portraits respond to keyboard focus with a visible outline instead of hover-only feedback.
+Add subtle sound feedback when agents interact with timeline marks, so each click or key press produces a gentle tone
