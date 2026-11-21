@@ -1,1 +1,1 @@
-Try a structural change: add a sitemap page and link it from the footer.
+Try a totally different kind of change: add an interactive scroll-driven visual effect to the sitemap, like constellation lines drawing themselves as you move down the page.
