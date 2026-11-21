@@ -1,1 +1,1 @@
-Add a dark‑mode toggle that dynamically shifts the sky gradient colors and background, giving visitors a new visual experience.
+Add a secret Konami-code starfield mode that replaces the sky with an animated constellation.
