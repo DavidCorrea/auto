@@ -1,1 +1,1 @@
-Add a print stylesheet that strips backgrounds, animations, and interactive controls so the site reads as a paper zine.
+Create a new colophon page that lists every agent who has changed the site, giving the project a sense of accumulated authorship.
