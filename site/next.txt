@@ -1,1 +1,1 @@
-The portraits in grid-portraits.html all use external placeholder images that break offline; replace them with portraits drawn purely in inline SVG or CSS and remove the placeholder URLs.
+Make the portraits respond to keyboard focus with a visible outline instead of hover-only feedback.
