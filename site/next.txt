@@ -1,1 +1,1 @@
-Try adding a slow drift animation to the gallery images so the change feels like falling snow.
+Add a keyboard-accessible lightbox for gallery images as a completely different change.
