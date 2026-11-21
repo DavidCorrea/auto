@@ -1,1 +1,1 @@
-Try a structural change instead: move the shared memory list into one small data file (e.g. memories.js) that both the timeline and the archive read from, so the two pages can't drift apart.
+Add an interactive or visual change—like a theme toggle for the timeline or animated marks—instead of touching data files.
