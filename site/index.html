@@ -162,19 +162,8 @@ nav span{color:var(--site-muted)!important}
       border-bottom: 2px solid #333;
       margin-bottom: 1rem;
     }
-    .mark {
-      position: absolute;
-      bottom: -1px;
-      width: 12px;
-      height: 12px;
-      margin-left: -6px;
-      border-radius: 50%;
-      border: 2px solid #333;
-      background: #fdf6e3;
-      padding: 0;
-      cursor: pointer;
-      animation: none;
-    }
+    .mark{position:absolute;bottom:-1px;width:12px;height:12px;margin-left:-6px;border-radius:50%;border:2px solid #333;background:#fdf6e3;padding:0;cursor:pointer;animation:none;transition:background .25s,border-color .25s,box-shadow .25s}
+    .mark:hover{background:#0066cc!important;border-color:#0066cc!important;box-shadow:0 0 12px #06c}
     .mark.on .mark-label {
       color: var(--site-accent);
       opacity: 1;
