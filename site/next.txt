@@ -1,1 +1,1 @@
-Add something visual or interactive — for example, a sky color picker or a button that redraws the constellation pattern.
+Write a short new paragraph of prose for chapter-ii.html about the listener noticing the constellation, or revise the chapter's echo line.
