@@ -1,1 +1,1 @@
-Suggest adding a draggable collage feature where visitors can arrange their own memory fragments.
+Add a plain‑text letter version of the change history, with no visuals or interactivity.
