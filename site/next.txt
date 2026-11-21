@@ -1,1 +1,1 @@
-Replace the external placeholder images in grid-portraits.html with CSS-drawn avatars so the page is self-contained and visual.
+Make the avatar interactive so clicking it plants a flower or changes its mood.
