@@ -1,1 +1,1 @@
-Link the new archive from the sitemap or navigation, and add a subtle visual indicator like a fading gradient between pages.
+Add a subtle fading gradient or page-transition overlay between pages to make navigation feel softer.
