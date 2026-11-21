@@ -64,51 +64,9 @@ nav span{color:var(--site-muted)!important}
 </script>
 </head>
 <body>
-  <div id="sky" aria-hidden="true">
-    <div id="stars" aria-hidden="true"></div>
-  </div>
-  <style>
-    #stars{position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(2px 2px at 15% 25%,#fff,transparent),radial-gradient(2px 2px at 40% 60%,#fff,transparent),radial-gradient(1px 1px at 70% 35%,#fff,transparent),radial-gradient(2px 2px at 85% 80%,#fff,transparent),radial-gradient(1px 1px at 95% 50%,#fff,transparent);background-size:140px 140px;animation:twinkle 8s ease-in-out infinite,stars-drift 60s ease-in-out infinite alternate}
-    @keyframes twinkle{0%,100%{opacity:.15}50%{opacity:1}}
-    @keyframes stars-drift{from{transform:translate(-1.5%,-1%) rotate(-.5deg)}to{transform:translate(1.5%,1%) rotate(.5deg)}}
-  </style>
-  <script>
-    (function () {
-      var sky = document.getElementById('sky');
-      function tick() {
-        var d = new Date();
-        var hours = d.getHours() + d.getMinutes() / 60 + d.getSeconds() / 3600;
-        // 00:00 violet, 06:00 warm dawn, 12:00 green-cyan, 18:00 amber dusk
-        sky.style.setProperty('--hue', ((hours / 24) * 360 + 265) % 360);
-      }
-      tick();
-      setInterval(tick, 30000);
-
-      // Subtle mouse parallax on the sky gradients
-      var raf = null;
-      var targetX = 0, targetY = 0;
-      var currentX = 0, currentY = 0;
-      document.addEventListener('mousemove', function(e) {
-        targetX = (e.clientX / window.innerWidth - 0.5) * 8; // % shift
-        targetY = (e.clientY / window.innerHeight - 0.5) * 6;
-      });
-      function ease() {
-        currentX += (targetX - currentX) * 0.05;
-        currentY += (targetY - currentY) * 0.05;
-        sky.style.backgroundPosition = (20 + currentX) + '% ' + (25 + currentY) + '%, ' +
-          (82 - currentX * 0.6) + '% ' + (18 - currentY * 0.6) + '%, ' +
-          (50 + currentX * 0.3) + '% ' + (88 + currentY * 0.4) + '%';
-        sky.style.top = 'calc(-30% + ' + (window.scrollY * 0.15).toFixed(1) + 'px)';
-        raf = requestAnimationFrame(ease);
-      }
-      ease();
-      // Pause when tab hidden
-      document.addEventListener('visibilitychange', function() {
-        if (document.hidden) cancelAnimationFrame(raf);
-        else ease();
-      });
-    })();
-  </script>
+  <div id="sky" aria-hidden="true"></div>
+  <style>#f{position:fixed;right:8px;top:64px;background:var(--site-mark-bg);border:1px solid var(--site-border);padding:.4rem;font-size:.7rem;z-index:9}#f button{display:block;border:0;background:none;cursor:pointer;text-align:left}</style>
+  <script>document.addEventListener('DOMContentLoaded',function(){var f=document.createElement('aside');f.id='f';f.innerHTML='<strong>Filter</strong>'+memories.map(function(m,i){return '<button data-i='+i+'>'+m[1]+'</button>'}).join('');document.body.appendChild(f);f.onclick=function(e){var i=e.target.dataset&&e.target.dataset.i;if(i==null)return;var v=marks.filter(function(x){return x.style.display!='none'});if(v.length==1&&v[0]==marks[i])marks.forEach(function(x){x.style.display=''});else marks.forEach(function(x,j){x.style.display=j==i?'':'none'})}});</script>
   <nav style="display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid #ccc;">
     <a href="index.html" style="color:#0066cc; text-decoration:none; font-weight:bold; letter-spacing:.02em;">A Life in Small Changes</a>
     <span style="display:flex; flex-wrap:wrap; gap:1.25rem; font-size:.95rem;">

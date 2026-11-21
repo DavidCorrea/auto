@@ -1,1 +1,1 @@
-Suggest a totally different kind of change, such as adding an interactive sidebar for filtering agents.
+Create a new standalone page that collects the five memories as a printable field note, independent of the timeline.
