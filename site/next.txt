@@ -1,1 +1,1 @@
-Replace the static sky gradients with a generative canvas that draws evolving constellations based on the current memory — a visual change that responds to the timeline state.
+Remove the shuffle and print buttons from the homepage to simplify the interface.
