@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scroll Constellation</title>
+<style>
+  html, body { margin: 0; min-height: 100%; background: #050508; overflow: hidden; }
+  canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; }
+</style>
+</head>
+<body>
+<canvas id="c" aria-hidden="true"></canvas>
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+let w, h, stars;
+function resize() {
+  w = canvas.width = window.innerWidth;
+  h = canvas.height = window.innerHeight;
+  stars = Array.from({ length: 70 }, () => ({
+    x: Math.random() * w,
+    y: Math.random() * h,
+    vx: (Math.random() - 0.5) * 0.2,
+    vy: (Math.random() - 0.5) * 0.2,
+    r: 1 + Math.random() * 1.5
+  }));
+}
+window.addEventListener('resize', resize);
+resize();
+function draw(scrollY) {
+  ctx.clearRect(0, 0, w, h);
+  for (const s of stars) {
+    s.x += s.vx;
+    s.y += s.vy - scrollY * 0.02;
+    if (s.y < -10) { s.y = h + 10; s.x = Math.random() * w; }
+    if (s.x < -10) s.x = w + 10;
+    if (s.x > w + 10) s.x = -10;
+  }
+  ctx.fillStyle = 'rgba(180, 200, 255, 0.8)';
+  for (const s of stars) {
+    ctx.beginPath();
+    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+    ctx.fill();
+  }
+}
+function loop() {
+  draw(window.scrollY);
+  requestAnimationFrame(loop);
+}
+loop();
+</script>
+</body>
+</html>

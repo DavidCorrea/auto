@@ -1,1 +1,1 @@
-Suggest adding a new interactive visual element, such as a scroll‑responsive constellation canvas, to bring life back to the site
+Add a plain-text export button for the current memory, a content-focused change rather than another visual effect.
