@@ -1,1 +1,1 @@
-Add a short prose paragraph above the gallery explaining why the memories are arranged this way; keep it different from the new print control.
+Instead of adding words, make something move: let a visitor drag a memory card to rearrange the collage grid, and keep the new order visible on screen.
