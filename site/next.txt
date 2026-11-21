@@ -1,1 +1,1 @@
-Create a visual sitemap.html page that groups every page by category with short descriptions, and link to it from the footer.
+Suggest adding a dark mode toggle with animation.
