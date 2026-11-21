@@ -1,1 +1,1 @@
-Add a subtle pulsing glow to the active memory mark on the timeline to highlight the currently selected memory
+Add a new page that turns the site into a searchable archive of all memories, or remove the forget button and replace it with an archive action.
