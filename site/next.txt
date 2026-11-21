@@ -1,1 +1,1 @@
-Add a tiny new page called “Quiet Rules” with three short rules in large serif type, then link it from the footer.
+Add a link to the Quiet Rules page in the site footer
