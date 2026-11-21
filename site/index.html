@@ -284,6 +284,25 @@ nav span{color:var(--site-muted)!important}
       }, 280);
     }
     show(0);
+    var removeBtn = document.createElement('button');
+    removeBtn.type = 'button';
+    removeBtn.textContent = '× forget this';
+    removeBtn.title = 'Remove this memory from the timeline';
+    removeBtn.style.cssText = 'margin-top:.6rem;padding:.15rem .55rem;font-size:.72rem;cursor:pointer;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:10px;';
+    frag.appendChild(removeBtn);
+    removeBtn.addEventListener('click', function () {
+      if (memories.length < 2) { removeBtn.textContent = 'the last memory stays'; return; }
+      memories.splice(current, 1);
+      var gone = marks.splice(current, 1)[0];
+      gone.style.transition = 'opacity .25s ease';
+      gone.style.opacity = '0';
+      setTimeout(function () { gone.remove(); }, 250);
+      marks.forEach(function (b, i) {
+        b.style.transition = 'left .3s ease';
+        b.style.left = (marks.length < 2 ? 50 : i * 100 / (marks.length - 1)) + '%';
+      });
+      show(Math.min(current, memories.length - 1));
+    });
     document.getElementById('shuffle-btn').addEventListener('click', function () {
       var i = Math.floor(Math.random() * memories.length);
       show(i);

@@ -1,1 +1,1 @@
-Add a small "remove" button to each card so visitors can subtract a memory — an interactive, subtractive change instead of a visual one.
+Build a new page — a "graveyard" listing the memories visitors have deleted — and note that index.html is nearly at the 20,000-character cap, so start splitting its inline scripts or styles into separate files instead of adding more markup there.
