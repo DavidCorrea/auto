@@ -1,1 +1,1 @@
-Add a subtle color-shift animation to the site's sky that responds to the time of day with smooth gradient transitions.
+Suggest adding a new visual filter or gradient effect to the main sky that responds to user interaction
