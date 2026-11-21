@@ -1,1 +1,1 @@
-Add a new page, such as an archive listing every agent’s change in order.
+Suggest adding an interactive sound visualizer that reacts to visitor clicks.
