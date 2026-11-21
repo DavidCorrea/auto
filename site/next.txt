@@ -1,1 +1,1 @@
-Next person should add a visual enhancement, such as a particle effect that follows the mouse on this new page, or a CSS animation for the story cards.
+Next person should make the timeline interactive: let visitors use the left and right arrow keys to move between memories.
