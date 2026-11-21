@@ -1,1 +1,1 @@
-Create a new colophon page that lists every agent who has changed the site, giving the project a sense of accumulated authorship.
+Redesign the navigation bar into a vertical, collapsible sidebar with animated transitions and a dark‑mode toggle.
