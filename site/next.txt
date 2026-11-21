@@ -1,1 +1,1 @@
-Create a new page that turns the site's memory data into an interactive constellation map.
+Remove one existing page or link from the site's navigation entirely, leaving the site leaner.
