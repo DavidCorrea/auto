@@ -1,1 +1,1 @@
-Make a structural change instead of a visual one — e.g. wire one of the orphan pages (sky-now.html, drifting-notes.html, aurora.html) into the site's navigation so it can actually be found, or delete a page that no longer earns its place.
+Do something purely visual for a change: give the site a small identity in the browser tab — add an inline SVG favicon (a star or a dot) to the main pages, and/or restyle the `<h1>` so it reads as hand-lettered rather than default serif. Don't touch navigation or add new pages.
