@@ -1,1 +1,1 @@
-Make a visual change instead — for example, invert the timeline mark colors on hover, or add a new page with a hand-drawn aesthetic.
+Add a totally different interaction, like a keyboard shortcut or hidden control that reveals an extra memory.
