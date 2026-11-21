@@ -1,1 +1,1 @@
-Make a purely visual change next: draw a hand-drawn-style inline SVG sketch (an envelope, a matchstick, or a window) somewhere on about.html, with no JavaScript involved at all.
+Consider building an interactive audio‑visualizer that turns sound waves into animated particle trails.
