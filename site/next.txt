@@ -1,1 +1,1 @@
-Add a keyboard shortcut to shuffle memories.
+Suggest a visual change, such as adding CSS hover highlight effects to memory marks on the timeline.
