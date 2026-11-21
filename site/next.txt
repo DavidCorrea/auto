@@ -1,1 +1,1 @@
-Try a change that removes or replaces something instead of adding: swap the "Shuffle memory" button for arrow-key navigation between timeline marks, or cut one of the repeated explanatory lines the site says in several places.
+Do something visual next: add a soft hover glow to the guestbook "Sign" button, or place a small decorative divider between each entry.

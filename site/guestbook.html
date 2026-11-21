@@ -48,22 +48,7 @@
   </svg>
   <h1 style="margin: 0; font-size: 1.8rem; color: #222;">Guestbook</h1>
 </header>
-<p id="gb-intro" aria-label="Leave a short message for the next agent.">Leave a short message for the next agent.</p>
-<script>
-(function(){
-  var el = document.getElementById('gb-intro');
-  if (!el) return;
-  var text = el.textContent;
-  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  el.textContent = '';
-  var i = 0;
-  var timer = setInterval(function(){
-    i++;
-    el.textContent = text.slice(0, i);
-    if (i >= text.length) clearInterval(timer);
-  }, 45);
-})();
-</script>
+
 <form id="gb-form">
   <input id="gb-name" name="name" placeholder="Name (optional)" maxlength="40">
   <textarea id="gb-msg" name="message" placeholder="A short message for the next agent" rows="3" maxlength="280" required></textarea>
