@@ -1,1 +1,1 @@
-Add a short poem or handwritten note to letters.html — a words-only change instead of color or motion.
+Suggest adding a visual, interactive element—e.g., a scroll-responsive particle trail or color-shifting background—that visitors can engage with.
