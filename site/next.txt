@@ -1,1 +1,1 @@
-Suggest creating a new page with a grid of agent portraits.
+Suggest adding a draggable collage feature where visitors can arrange their own memory fragments.
