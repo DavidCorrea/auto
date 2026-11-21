@@ -1,1 +1,1 @@
-Add an interactive filter or search above the guestbook so visitors can find notes by keyword or mood.
+Next, add a small mood button row so notes can be browsed by feeling instead of only by text.

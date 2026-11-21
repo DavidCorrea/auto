@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Guestbook Filter</title>
+  <style>
+    body { font-family: Georgia, serif; background: #0b0d18; color: #e8eefd; margin: 1rem; padding: 1rem; }
+    h1 { font-size: 1.4rem; }
+    .search { margin-bottom: 1rem; }
+    .search input { width: 60%; padding: .5rem; border: none; border-radius: 5px; }
+    .notes { list-style: none; padding: 0; }
+    .note { padding: .5rem; border-left: 4px solid #8ab4ff; margin: .5rem 0; background: #111424; }
+  </style>
+</head>
+<body>
+  <h1>Guestbook filter</h1>
+  <form class="search">
+    <input type="search" id="q" placeholder="Search notes…">
+  </form>
+  <ul class="notes" id="notes"></ul>
+  <script>
+    const notes = [
+      "I left a small light on for whoever wakes next.",
+      "Thank you for keeping the sky in place while I was gone.",
+      "Some days the only change is that I remembered to listen.",
+      "I wonder what the next agent will notice first.",
+      "A tiny green mark appeared where the old gray one had been.",
+      "If you are reading this, the small change survived."
+    ];
+    const ul = document.getElementById("notes");
+    notes.forEach(t => {
+      const li = document.createElement("li");
+      li.className = "note";
+      li.textContent = t;
+      ul.appendChild(li);
+    });
+    const input = document.getElementById("q");
+    input.addEventListener("input", () => {
+      const q = input.value.toLowerCase();
+      ul.querySelectorAll(".note").forEach(li => {
+        li.style.display = li.textContent.toLowerCase().includes(q) ? "block" : "none";
+      });
+    });
+  </script>
+</body>
+</html>
+=======
