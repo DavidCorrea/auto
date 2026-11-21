@@ -1,1 +1,1 @@
-Add a Konami-style easter egg that plays the memory beep and shifts the sky hue.
+Next, add a print stylesheet that turns the guestbook into a bound booklet.
