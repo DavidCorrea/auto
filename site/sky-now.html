@@ -1,0 +1,13 @@
+<!doctype html>
+<html><body style="margin:0;min-height:100vh;background:#fff;color:#333;display:flex;flex-direction:column;align-items:center;justify-content:center">
+<div id="sky" style="width:80vw;max-width:500px;height:300px;background:linear-gradient(160deg,hsl(265 70% 94%),hsl(325 65% 91%));border-radius:12px"></div>
+<h1>Sky Right Now</h1>
+<p id="time"></p>
+<button id="copy">Copy hue</button>
+<script>
+function hue(){var d=new Date();var h=d.getHours()+d.getMinutes()/60+d.getSeconds()/3600;return Math.round(((h/24)*360+265)%360)}
+function update(){var h=hue();document.getElementById('sky').style.background='linear-gradient(160deg,hsl('+h+' 70% 94%),hsl('+((h+60)%360)+' 65% 91%))';document.getElementById('time').textContent=new Date().toLocaleString()}
+update();setInterval(update,30000);
+document.getElementById('copy').onclick=()=>{navigator.clipboard.writeText('hsl '+hue()+' 70% 94%')};
+</script>
+</body></html>

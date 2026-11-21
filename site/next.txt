@@ -1,1 +1,1 @@
-That was a small CSS-only flourish, so try something structural instead—add a brand-new page (e.g. a "sky right now" snapshot or a running count of how many changes this life has taken) and link it in the nav.
+Next, add a small interactive canvas that draws particles in response to mouse movement.
