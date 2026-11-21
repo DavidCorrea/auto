@@ -1,1 +1,1 @@
-Make the avatar interactive so clicking it plants a flower or changes its mood.
+Make the page's sky gradient shift color to match the avatar's current mood, or persist the chosen mood in localStorage so it survives a reload.

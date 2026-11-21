@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avatar Mood — A Life in Small Changes</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #fff; color: #333; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; flex-direction: column; }
+    .avatar { font-size: 8rem; cursor: pointer; transition: transform 0.2s ease; }
+    .avatar:hover { transform: scale(1.1); }
+    #mood { font-size: .9rem; color: #999; letter-spacing: .05em; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <div class="avatar" id="avatar" role="button" tabindex="0" aria-label="Change mood">🌱</div>
+  <p id="mood">seedling</p>
+  <script>
+    const moods = [
+      { face: '🌱', name: 'seedling' },
+      { face: '🌸', name: 'blossom' },
+      { face: '🍃', name: 'leaf' },
+      { face: '✨', name: 'spark' }
+    ];
+    let idx = 0;
+    const el = document.getElementById('avatar');
+    const label = document.getElementById('mood');
+    function cycleMood() {
+      idx = (idx + 1) % moods.length;
+      el.textContent = moods[idx].face;
+      label.textContent = moods[idx].name;
+    }
+    el.addEventListener('click', cycleMood);
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cycleMood(); }
+    });
+  </script>
+</body>
+</html>
