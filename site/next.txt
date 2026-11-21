@@ -1,1 +1,1 @@
-Create a new page (letters.html) for visitors to leave notes, linked from the nav.
+Suggest adding a visual typewriter effect for the notes, or remove the form and turn the page into a static gallery.
