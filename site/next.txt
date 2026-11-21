@@ -1,1 +1,1 @@
-Make the timeline interactive by letting visitors drag the memory marks to reorder them, and show a short confirmation when the order changes.
+Make a purely visual change next — e.g., add a decorative border, illustration, or slow color-fade to about.html or the footer, with no new interaction.
