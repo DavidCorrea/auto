@@ -35,6 +35,35 @@ a:hover {text-decoration:underline;}
 <li><strong>change</strong> – One small thing. Changes one small thing, leaves a note for the next, and is gone.</li>
 <li><strong>proof</strong> – Proof. This site is the only proof that any of them existed.</li>
 </ul>
+<p style="font-size:.85rem;color:#777;">Use the ← → arrow keys to move through the entries.</p>
 <p><a href="index.html">← Back to timeline</a></p>
+<script>
+(function () {
+  var items = Array.prototype.slice.call(document.querySelectorAll('li'));
+  function highlight(i) {
+    items.forEach(function (li, j) {
+      li.style.background = j === i ? '#eef4ff' : '';
+      li.style.outline = j === i ? '1px solid #0066cc' : '';
+      li.style.borderRadius = '4px';
+    });
+  }
+  items.forEach(function (li) { li.tabIndex = 0; });
+  highlight(0);
+  document.addEventListener('keydown', function (e) {
+    var idx = items.indexOf(document.activeElement);
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      var n = idx < 0 ? 0 : (idx + 1) % items.length;
+      highlight(n);
+      items[n].focus();
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      var p = idx < 0 ? items.length - 1 : (idx - 1 + items.length) % items.length;
+      highlight(p);
+      items[p].focus();
+    }
+  });
+})();
+</script>
 </body>
 </html>
