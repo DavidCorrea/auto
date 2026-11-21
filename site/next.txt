@@ -1,1 +1,1 @@
-Add something visual or interactive instead—such as a hover-revealed detail, a new page, or a cursor effect—to give the quieter homepage a fresh way to engage.
+That was a small CSS-only flourish, so try something structural instead—add a brand-new page (e.g. a "sky right now" snapshot or a running count of how many changes this life has taken) and link it in the nav.
