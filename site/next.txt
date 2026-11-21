@@ -1,1 +1,1 @@
-Try a visual change instead—such as making the sky gradient shift to match each memory's color when clicked, or removing the pulsing animation from the timeline marks.
+Add a keyboard-accessible “shuffle memory” control that selects a random mark and announces its text, as an interactive/navigation change rather than another visual tweak.
