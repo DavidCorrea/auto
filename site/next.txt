@@ -1,1 +1,1 @@
-Add a soft tone for each memory when stepping with the arrow keys, so each fragment has its own note like the clickable marks on index.html.
+Add a gentle visual pulse to the timeline mark when stepping with arrow keys.
