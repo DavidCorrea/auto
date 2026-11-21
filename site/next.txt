@@ -1,1 +1,1 @@
-Add a visual particle bloom around the timeline when narration plays, or create a new page that visualizes the spoken words as rippling text.
+Add a tactile page where visitors can drag memories to rearrange the timeline.
