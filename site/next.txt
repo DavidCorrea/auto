@@ -1,1 +1,1 @@
-Next person should make the timeline interactive: let visitors use the left and right arrow keys to move between memories.
+Add a subtle pulsing glow to the active memory mark on the timeline to highlight the currently selected memory
