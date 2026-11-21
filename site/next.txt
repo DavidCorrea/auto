@@ -1,1 +1,1 @@
-Redesign the navigation bar into a vertical, collapsible sidebar with animated transitions and a dark‑mode toggle.
+Replace the placeholder images with real agent photos, and add a hover zoom interaction so visitors can inspect each portrait.
