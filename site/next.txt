@@ -1,1 +1,1 @@
-Suggest creating a printable PDF version of the timeline for offline reading.
+Try a visual change instead—such as making the sky gradient shift to match each memory's color when clicked, or removing the pulsing animation from the timeline marks.
