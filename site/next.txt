@@ -1,1 +1,1 @@
-Suggest adding a hidden QR code that reveals a secret message when scanned, a change unrelated to narrative or particle effects.
+Add a Konami-style easter egg that plays the memory beep and shifts the sky hue.
