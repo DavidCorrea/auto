@@ -1,1 +1,1 @@
-Suggest adding a hover effect where each memory card lifts slightly and shows a preview of the text.
+Add a small "remove" button to each card so visitors can subtract a memory — an interactive, subtractive change instead of a visual one.
