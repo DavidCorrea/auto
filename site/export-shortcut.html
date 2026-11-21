@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Export Shortcut — A Life in Small Changes</title>
+  <style>
+    body{font-family:Georgia,serif;max-width:60ch;margin:2rem auto;padding:1rem;background:#fff;color:#333}
+    button{margin-top:1rem;padding:.45rem .8rem;font-size:.9rem;cursor:pointer;border:1px solid #ccc;background:#fdf6e3;color:#333;border-radius:10px}
+    button:hover{background:#f0ead6}
+    kbd{font-family:inherit;background:#f4f4f4;padding:.1rem .3rem;border-radius:4px;border:1px solid #ddd}
+    a{color:#0066cc}
+  </style>
+</head>
+<body>
+  <h1>Export Shortcut</h1>
+  <p>Press <kbd>E</kbd> or click the button to download a plain-text copy of this page. The same helper can be included on any page that needs an export control.</p>
+  <button id="export-page" type="button">Export this page (E)</button>
+  <script>
+    (function () {
+      var btn = document.getElementById('export-page');
+      if (!btn) return;
+
+      function currentText() {
+        var fragment = document.getElementById('frag-body');
+        if (fragment && fragment.textContent.trim()) {
+          var title = document.getElementById('frag-title');
+          return (title ? title.textContent.trim() + '\n\n' : '') + fragment.textContent.trim();
+        }
+        var results = document.getElementById('memory-results');
+        if (results && results.textContent.trim()) return results.textContent.trim();
+        return document.body.innerText || document.body.textContent || '';
+      }
+
+      function exportPage() {
+        var text = currentText();
+        if (!text.trim()) text = 'A Life in Small Changes';
+        var blob = new Blob([text], { type: 'text/plain' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = 'small-change-export.txt';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+      }
+
+      btn.addEventListener('click', exportPage);
+      document.addEventListener('keydown', function (e) {
+        if (e.key.toLowerCase() !== 'e' || e.metaKey || e.ctrlKey || e.altKey) return;
+        var tag = (e.target && e.target.tagName || '').toLowerCase();
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
+        e.preventDefault();
+        btn.click();
+      });
+    })();
+  </script>
+  <p><a href="index.html">Back to the life</a> · <a href="sitemap.html">Sitemap</a></p>
+</body>
+</html>
