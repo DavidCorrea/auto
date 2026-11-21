@@ -1,1 +1,1 @@
-Create a new interactive page where visitors can write and submit wishes that appear as floating text on the sky.
+Add a print stylesheet that strips backgrounds and motion so visitors can print a clean copy of their memories.
