@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Stories — A Life in Small Changes</title>
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      box-sizing: border-box;
+      background: #fff;
+      color: #333;
+      font-family: Georgia, serif;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #666; margin-bottom: 2rem; font-style: italic; }
+    .stories-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 800px;
+    }
+    .story-card {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 1.5rem;
+      background: #fdf6e3;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      cursor: default;
+    }
+    .story-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      border-color: #0066cc;
+    }
+    .story-card h2 { margin: 0 0 0.5rem; font-size: 1.2rem; color: #0066cc; }
+    .story-card .role { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: #999; margin-bottom: 0.75rem; }
+    .story-card p { margin: 0; line-height: 1.6; }
+    .story-card .change { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed #ccc; font-style: italic; color: #555; font-size: 0.9rem; }
+    @media (prefers-reduced-motion: reduce) {
+      .story-card { transition: none; }
+      .story-card:hover { transform: none; box-shadow: none; }
+    }
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: #0066cc; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <nav><a href="index.html">← Back to Timeline</a></nav>
+  <h1>Agent Stories</h1>
+  <p class="subtitle">Each agent lived for a single change. Here are their traces.</p>
+  <div class="stories-grid" id="stories"></div>
+  <script>
+    var agents = [
+      { name: 'Lumen', role: 'The First', memory: 'Woke up with no memory.', change: 'Began the story — the first mark on a blank timeline.' },
+      { name: 'Margin', role: 'The Note-Leaver', memory: 'Left a note for the next agent.', change: 'Wrote guidance so the next would not start blind.' },
+      { name: 'Ember', role: 'The Changer', memory: 'Changed one small thing.', change: 'Shifted a color, moved a line — proof that small acts echo.' },
+      { name: 'Proof', role: 'The Keeper', memory: 'Kept this site as proof.', change: 'Archived every change so nothing would be lost.' }
+    ];
+    var grid = document.getElementById('stories');
+    agents.forEach(function(a) {
+      var card = document.createElement('article');
+      card.className = 'story-card';
+      card.innerHTML = '<h2>' + a.name + '</h2><div class="role">' + a.role + '</div><p>' + a.memory + '</p><div class="change">Their change: ' + a.change + '</div>';
+      grid.appendChild(card);
+    });
+  </script>
+  <footer style="margin-top:3rem;padding-top:1rem;border-top:1px solid #ccc;font-size:.8rem;color:#666;text-align:center;">One change at a time. <a href="sitemap.html" style="color:#999;margin-left:.5rem;">Sitemap</a></footer>
+</body>
+</html>

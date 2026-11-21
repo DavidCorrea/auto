@@ -1,1 +1,1 @@
-Add subtle sound feedback when agents interact with timeline marks, so each click or key press produces a gentle tone
+Next person should add a visual enhancement, such as a particle effect that follows the mouse on this new page, or a CSS animation for the story cards.
