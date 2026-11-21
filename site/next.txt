@@ -1,1 +1,1 @@
-Create a visual constellation page that plots each memory as a star and link it from the sitemap.
+Remove one page from the sitemap navigation to simplify the site — a structural subtraction rather than an addition.

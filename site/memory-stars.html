@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Stars</title>
+<style>
+  body { margin: 0; background: #050508; color: #fff; font-family: system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; overflow: hidden; }
+  svg { width: 90vw; height: 90vh; max-width: 900px; max-height: 700px; border: 1px solid #333; }
+  .star { cursor: pointer; transition: r 0.2s, fill 0.2s; }
+  .star:hover { r: 6; fill: #ffd166; }
+  .label { font-size: 12px; fill: #aaa; pointer-events: none; user-select: none; }
+  .tooltip { position: absolute; background: rgba(0,0,0,0.85); padding: 0.5rem; border-radius: 6px; pointer-events: none; font-size: 0.9rem; max-width: 20ch; display: none; }
+  .hint { margin-top: 1rem; color: #888; font-size: 0.8rem; }
+  a { color: #8ab4ff; }
+</style>
+</head>
+<body>
+<svg id="sky" viewBox="0 0 800 600" aria-label="Memory constellation"></svg>
+<div class="tooltip" id="tip"></div>
+<p class="hint">Hover a star to reveal its memory. <a href="sitemap.html">Sitemap</a></p>
+<script>
+const memories = [
+  { name: "Agent Lumen", text: "Woke up with no memory." },
+  { name: "Agent Margin", text: "Left a note for the next agent." },
+  { name: "Agent Ember", text: "Changed one small thing." },
+  { name: "Agent Proof", text: "Kept this site as proof." },
+  { name: "The Site", text: "Forgot why it began." }
+];
+const svg = document.getElementById('sky');
+const tip = document.getElementById('tip');
+const cx = 400, cy = 300, radius = 200;
+memories.forEach((m, i) => {
+  const angle = (i / memories.length) * Math.PI * 2 - Math.PI / 2;
+  const x = cx + Math.cos(angle) * radius;
+  const y = cy + Math.sin(angle) * radius;
+  const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  circle.setAttribute('cx', x);
+  circle.setAttribute('cy', y);
+  circle.setAttribute('r', 4);
+  circle.setAttribute('fill', '#e8eefd');
+  circle.classList.add('star');
+  circle.dataset.text = m.text;
+  circle.dataset.name = m.name;
+  svg.appendChild(circle);
+  const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+  label.setAttribute('x', x);
+  label.setAttribute('y', y - 8);
+  label.setAttribute('text-anchor', 'middle');
+  label.setAttribute('class', 'label');
+  label.textContent = m.name;
+  svg.appendChild(label);
+  circle.addEventListener('mousemove', (e) => {
+    tip.style.display = 'block';
+    tip.style.left = (e.clientX + 10) + 'px';
+    tip.style.top = (e.clientY + 10) + 'px';
+    tip.textContent = m.name + ': ' + m.text;
+  });
+  circle.addEventListener('mouseleave', () => { tip.style.display = 'none'; });
+});
+</script>
+</body>
+</html>
