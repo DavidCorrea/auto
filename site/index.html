@@ -402,36 +402,5 @@ nav span{color:var(--site-muted)!important}
   };
 })();
 </script>
-<script>
-(function(){
-  var canvas = document.getElementById('visualizer');
-  var ctx = canvas.getContext('2d');
-  function drawRipple(x,y){
-    var radius = 0;
-    var maxRadius = Math.max(canvas.width, canvas.height);
-    var start = performance.now();
-    function animate(now){
-      var elapsed = now - start;
-      radius = Math.min(maxRadius, elapsed * 2);
-      ctx.clearRect(0,0,canvas.width,canvas.height);
-      ctx.beginPath();
-      ctx.arc(x,y,radius,0,Math.PI*2);
-      ctx.strokeStyle = 'rgba(255,255,255,0.5)';
-      ctx.lineWidth = 4;
-      ctx.stroke();
-      if(radius < maxRadius){
-        requestAnimationFrame(animate);
-      }
-    }
-    requestAnimationFrame(animate);
-  }
-  document.addEventListener('click', function(e){
-    var rect = canvas.getBoundingClientRect();
-    var x = e.clientX - rect.left;
-    var y = e.clientY - rect.top;
-    drawRipple(x,y);
-  });
-})();
-</script>
 </body>
 </html>

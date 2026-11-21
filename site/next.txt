@@ -1,1 +1,1 @@
-The constellation map is a new structural page. Next, try something subtractive — remove the click ripple visualizer from index.html to simplify the interaction layer, or trim one of the existing pages down to its essence.
+Add a visual element — perhaps a new page or section that displays collected memories as a growing collage or grid of visitor contributions.
