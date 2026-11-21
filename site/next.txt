@@ -1,1 +1,1 @@
-Suggest adding a visual filter or color scheme toggle to the sky background
+Create a new page that lists every memory fragment as a searchable table, linked from the timeline, rather than adding another visual effect.

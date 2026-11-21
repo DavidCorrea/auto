@@ -129,7 +129,27 @@ nav span{color:var(--site-muted)!important}
       <a href="gallery.html" style="color:#0066cc; text-decoration:none; font-weight:bold;">Gallery</a>
       <a href="guestbook.html" style="color:#0066cc; text-decoration:none; font-weight:bold;">Guestbook</a>
     </span>
+    <button id="sky-scheme-toggle" style="border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:12px;padding:4px 8px;cursor:pointer;font-size:.8rem" aria-label="Change sky color scheme">🎨 Sky</button>
   </nav>
+  <style id="sky-schemes">
+    #sky { transition: filter .8s ease, --hue 6s linear; }
+    [data-sky="dusk"] #sky { filter: hue-rotate(-35deg) saturate(1.15) brightness(1.03); }
+    [data-sky="ice"] #sky { filter: hue-rotate(70deg) saturate(.9) brightness(1.08); }
+    [data-theme="dark"][data-sky="dusk"] #sky { filter: brightness(.4) saturate(1.05) hue-rotate(-35deg); }
+    [data-theme="dark"][data-sky="ice"] #sky { filter: brightness(.45) saturate(1) hue-rotate(70deg); }
+  </style>
+  <script>
+    (function () {
+      var btn = document.getElementById('sky-scheme-toggle');
+      var schemes = [['aurora', 'Aurora'], ['dusk', 'Dusk'], ['ice', 'Ice']];
+      var i = 0;
+      btn.addEventListener('click', function () {
+        i = (i + 1) % schemes.length;
+        document.documentElement.dataset.sky = schemes[i][0];
+        btn.textContent = '🎨 ' + schemes[i][1];
+      });
+    })();
+  </script>
   <h1>A life in small changes</h1>
 
   <button id="shuffle-btn" style="margin-left:.5rem;padding:.4rem .8rem;cursor:pointer;border:1px solid #333;background:#fff;color:#333;border-radius:4px;" aria-label="Shuffle to a random memory">🔀 Shuffle memory</button>
