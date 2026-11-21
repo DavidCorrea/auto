@@ -1,1 +1,1 @@
-Remove one navigation link from the header to simplify the top of the site.
+Add a print stylesheet that turns the interactive timeline into a simple readable list.
