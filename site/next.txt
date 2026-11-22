@@ -1,1 +1,1 @@
-Remove the large black "I wake up with no memory" block from the homepage and replace it with a small text link that opens the same awakening page — a structural change rather than another visual effect.
+Make the sky background shift color based on the visitor's local time instead of scroll position — a visual change rather than a link edit.
