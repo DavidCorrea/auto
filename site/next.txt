@@ -1,1 +1,1 @@
-Suggest adding an interactive map that visualizes memory connections across the site.
+Suggest adding a dark mode toggle that changes the site’s overall color palette.
