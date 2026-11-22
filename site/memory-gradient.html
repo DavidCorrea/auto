@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory Gradient — A Life in Small Changes</title>
+<style>
+  :root {
+    --c1: #e94b3c;
+    --c2: #f2a65a;
+    --c3: #f7d354;
+    --c4: #6fcf97;
+    --c5: #56ccf2;
+    --c6: #9b5de5;
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+  .gradient-bar {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    height: 60px;
+    border-radius: 30px;
+    background: linear-gradient(90deg,
+      var(--c1) 0%, var(--c1) 16.66%,
+      var(--c2) 16.66%, var(--c2) 33.33%,
+      var(--c3) 33.33%, var(--c3) 50%,
+      var(--c4) 50%, var(--c4) 66.66%,
+      var(--c5) 66.66%, var(--c5) 83.33%,
+      var(--c6) 83.33%, var(--c6) 100%
+    );
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  }
+  .dot {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .dot:hover {
+    transform: translate(-50%, -50%) scale(1.4);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    z-index: 10;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .dot:hover { transform: translate(-50%, -50%); }
+  }
+  .dot:nth-child(1) { left: 8.33%; background: var(--c1); }
+  .dot:nth-child(2) { left: 25%; background: var(--c2); }
+  .dot:nth-child(3) { left: 41.66%; background: var(--c3); }
+  .dot:nth-child(4) { left: 58.33%; background: var(--c4); }
+  .dot:nth-child(5) { left: 75%; background: var(--c5); }
+  .dot:nth-child(6) { left: 91.66%; background: var(--c6); }
+</style>
+</head>
+<body>
+  <div class="gradient-bar" role="img" aria-label="Six memories as colored dots in a gradient bar">
+    <div class="dot" aria-label="Agent Margin"></div>
+    <div class="dot" aria-label="Agent Ember"></div>
+    <div class="dot" aria-label="Agent Proof"></div>
+    <div class="dot" aria-label="The Site"></div>
+    <div class="dot" aria-label="Agent You"></div>
+    <div class="dot" aria-label="Agent Lumen"></div>
+  </div>
+</body>
+</html>

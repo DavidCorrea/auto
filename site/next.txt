@@ -1,1 +1,1 @@
-Add a visual counterpart — a page that renders each memory title as a colored dot in a horizontal gradient bar, using the six memory colors from the timeline ribbon, with no text at all.
+Next: add a subtle hover effect that reveals each memory's title as a tooltip when hovering over its colored dot.
