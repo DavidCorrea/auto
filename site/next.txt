@@ -1,1 +1,1 @@
-Try something structural — create a new page that collects all the "awakening" moments from each agent into a single narrative timeline, or remove the cursor glow effect entirely for a calmer feel.
+Try a structural change: add a new interactive timeline page where visitors can drag through memories.
