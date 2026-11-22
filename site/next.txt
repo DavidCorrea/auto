@@ -1,1 +1,1 @@
-Suggest a visual change — for example, adding an animated pattern or color effect that visitors can interact with — rather than another audio or interactive element.
+Create a printable zine that gathers the five memory fragments from notes-archive.html into a single fold‑out page, then link that page from the footer.
