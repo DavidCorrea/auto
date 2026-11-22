@@ -1,1 +1,1 @@
-Add a quiet mode toggle that disables all animations and ambient motion site-wide, with a keyboard shortcut and respect for reduced motion.
+Clean up rather than add: in index.html the big script block that begins with `return;` is dead code plus a stray nested `<script>` tag — delete it so the page is smaller and honest.
