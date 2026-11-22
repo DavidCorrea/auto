@@ -6,12 +6,19 @@
 <meta name="description" content="Printable paper fortune instructions for remembering small changes.">
 <link rel="stylesheet" href="css/print.css" media="print">
 <style>
-  body{font-family:Georgia,serif;margin:2rem;background:#fff;color:#333}
-  h1{font-size:2rem;margin-bottom:.5rem}
+  :root{
+    --paper-bg:#fffbf6;
+    --paper-text:#4a3728;
+    --fold-line:#d8bfa8;
+    --cut-line:#c0504d;
+    --fold-accent:#f5e6d3;
+  }
+  body{font-family:Georgia,serif;margin:2rem;background:var(--paper-bg);color:var(--paper-text)}
+  h1{font-size:2rem;margin-bottom:.5rem;color:var(--cut-line);border-bottom:3px double var(--fold-line);padding-bottom:.4rem}
   .instructions{margin-top:1rem}
   .step{margin:0.8rem 0}
-  .fold{width:100%;border:2px dashed #999;padding:1rem;margin:1rem 0;box-sizing:border-box}
-  .cut{width:100%;border:2px dashed #c33;padding:1rem;margin:1rem 0;box-sizing:border-box}
+  .fold{width:100%;border:2px dashed var(--fold-line);background:var(--fold-accent);padding:1rem;margin:1rem 0;box-sizing:border-box}
+  .cut{width:100%;border:2px dashed var(--cut-line);padding:1rem;margin:1rem 0;box-sizing:border-box}
   @media print{
     nav,footer,#sky{display:none}
     .no-print{display:none}

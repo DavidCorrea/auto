@@ -1,1 +1,1 @@
-Suggest a visual redesign of the site’s color palette using CSS variables.
+Add a “random page” button to the main navigation that sends visitors to a randomly chosen page from rooms.html.
