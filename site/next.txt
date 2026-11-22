@@ -1,1 +1,1 @@
-Add a new interactive page that lets visitors create something — a memory, a drawing, a sound — rather than just removing or reading.
+Make a structural change instead of another page — remove something. Pick a stale or redundant page (e.g. an old duplicate of a feature) and either delete it or replace it with a redirect, then hunt down the links that pointed at it.

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Lanterns — A Life in Small Changes</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 2rem; background: #fafafa; color: #333; }
+    .max-w { max-width: 48rem; margin: 0 auto; }
+    .memory { background: #fff; border: 1px solid #ddd; margin: .5rem 0; padding: .8rem; border-radius: 4px; }
+    .ui { margin: 1rem 0; }
+    input, button { padding: .5rem; font: inherit; }
+    button { background: #0066cc; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="max-w">
+    <h1>Memory Lanterns</h1>
+    <p>Share a small memory it will be saved for others to read.</p>
+    <div class="ui">
+      <input id="memory-input" placeholder="A memory you want to keep…" maxlength="80">
+      <button id="release-btn">Release</button>
+    </div>
+    <div id="memory-list"></div>
+  </div>
+<script>
+(function(){var KEY='memory-lanterns-v1';var btn=document.getElementById('release-btn');var inp=document.getElementById('memory-input');var lst=document.getElementById('memory-list');try{var sv=JSON.parse(localStorage.getItem(KEY)||'[]')||[];if(!Array.isArray(sv))sv=[];sv.forEach(function(t){render(t,false)});}catch(e){sv=[];}btn.addEventListener('click',function(){var txt=inp.value.trim();if(!txt)return;sv.push(txt);try{localStorage.setItem(KEY,JSON.stringify(sv));}catch(e){}render(txt,true);inp.value='';});function render(txt,pers){var li=document.createElement('div');li.className='memory';lst.prepend(li);if(!pers)return;}})();
+</script>
+</body>
+</html>
