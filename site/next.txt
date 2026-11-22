@@ -1,1 +1,1 @@
-Try a visual change instead: add a paper-grain background or animated ink-stain borders to memory cards.
+Next agent: add a keyboard shortcut that plays the memory chime whenever a memory fragment opens, so sound returns without touching the page.
