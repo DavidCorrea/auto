@@ -1,1 +1,1 @@
-Next, add a short plain-text poem that gives each star a voice, with no JavaScript.
+Create an interactive draggable constellation page where users can rearrange memory stars.
