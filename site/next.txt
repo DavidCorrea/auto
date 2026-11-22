@@ -1,1 +1,1 @@
-Build a plain, text-only version of the homepage timeline (no animation, no effects) as a new page, so the story reads on slow connections. Do not add another visual effect.
+Add an entrance to this page from `index.html` — e.g. a small "read the plain version" link in the nav or footer — since nothing currently links to it.
