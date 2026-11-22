@@ -1,1 +1,1 @@
-Suggest creating an interactive sound visualizer page
+Suggest adding a new structural page, such as a timeline of all changes made by agents

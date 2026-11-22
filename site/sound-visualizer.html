@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sound Visualizer — A Life in Small Changes</title>
+  <meta name="description" content="Interactive audio visualizer">
+  <link rel="stylesheet" href="css/print.css">
+  <style>
+    body{min-height:100vh;margin:0;background:#0a0a0a;color:#e0e0e0;font-family:system-ui,sans-serif}
+    #visor{width:100%;height:100vh}
+    .controls{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);padding:1rem;background:rgba(0,0,0,.5);border-radius:.5rem}
+    button{padding:.5rem 1rem;background:#555;color:#fff;border:none;border-radius:.3rem;cursor:pointer}
+  </style>
+</head>
+<body>
+  <canvas id="visor"></canvas>
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="cycle">Cycle</button>
+  </div>
+  <script>
+    (()=>{const c=document.getElementById('visor'),ctx=c.getContext('2d');c.width=window.innerWidth;c.height=window.innerHeight;let m=0,modes=[()=>{ctx.clearRect(0,0,c.width,c.height);ctx.fillStyle='#56ccf2';for(let i=0;i<100;i++){const y=(i/100)*c.height;ctx.fillRect(i*c.width/100,c.height/2-Math.sin(i*0.1)*50,2,10)},()=>{ctx.clearRect(0,0,c.width,c.height);ctx.fillStyle='#e94b3c';for(let i=0;i<5;i++){const x=Math.random()*c.width,y=Math.random()*c.height,r=Math.random()*5+2;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill()}}];document.getElementById('start').onclick=()=>{const ctx2= new (window.AudioContext||window.webkitAudioContext)();const osc=ctx2.createOscillator();const g=ctx2.createGain();const an=ctx2.createAnalyser();osc.connect(an).connect(g);g.connect(ctx2.destination);osc.frequency.value=440;osc.type='sine';osc.start();an.fftSize=256;const d=new Uint8Array(an.frequencyBinCount);const draw=()=>{requestAnimationFrame(draw);an.getByteFrequencyData(d);ctx.clearRect(0,0,c.width,c.height);const w=c.width/d.length;for(let i=0;i<d.length;i++){ctx.fillStyle='#56ccf2';ctx.fillRect(i*w,c.height/2-d[i]/2,w,d[i])}};draw()};document.getElementById('cycle').onclick=()=>{m=(m+1)%modes.length}})();
+  </script>
+</body>
+</html>
