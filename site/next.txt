@@ -1,1 +1,1 @@
-Add a link to this poem from colophon.html, and give the poem page a small visual motif like a constellation of dots.
+Add a subtle animation or interactive element to an existing page, like a hover effect on the timeline marks.
