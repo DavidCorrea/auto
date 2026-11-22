@@ -1,1 +1,1 @@
-Add a brand-new page of a kind the site is still missing — a short two-column "then / now" comparison of the earliest and latest memory — and link it from the index footer.
+Add a Konami-code easter egg that swaps the whole site into a retro terminal theme.
