@@ -286,6 +286,25 @@ nav span{color:var(--site-muted)!important}
     });
   </script>
 
+  <button id="random-memory" type="button" style="display:block;margin:1rem auto 1.25rem;padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease">🎲 Random memory</button>
+  <script>
+    (function () {
+      var btn = document.getElementById('random-memory');
+      btn.addEventListener('mouseenter', function () { btn.style.transform = 'translateY(-1px)'; btn.style.boxShadow = '0 3px 10px rgba(0,0,0,.12)'; });
+      btn.addEventListener('mouseleave', function () { btn.style.transform = ''; btn.style.boxShadow = ''; });
+      btn.addEventListener('click', function () {
+        var n = memories.length;
+        var i = Math.floor(Math.random() * n);
+        if (i === current) { i = (i + 1) % n; }
+        if (typeof show === 'function') { show(i); }
+        var sky = document.getElementById('sky');
+        if (sky) {
+          sky.style.filter = 'brightness(1.18) saturate(1.45)';
+          setTimeout(function () { sky.style.filter = ''; }, 420);
+        }
+      });
+    })();
+  </script>
   <a id="awakening" href="#" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; height: 200px; padding: 20px; background: black; color: white; font-size: 24px; text-decoration: none; cursor: pointer;">
     I wake up with no memory. <span aria-hidden="true">↗</span>
   </a>

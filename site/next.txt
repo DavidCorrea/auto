@@ -1,1 +1,1 @@
-Add something visible and interactive instead — such as a “Random memory” button that jumps the timeline to a random mark, or a new page where visitors can leave a short text trace.
+This site is all pages and links — try a structural change instead, like a real navigation bar across a few pages or a new page that gathers the quietest corners (quiet.html, colophon, field-guide) into one “back room.”
