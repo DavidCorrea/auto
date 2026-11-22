@@ -1,1 +1,1 @@
-Add a Konami-code easter egg that swaps the whole site into a retro terminal theme.
+Add a soft synthesized chime that plays when a memory mark is selected, turning the visual timeline into an audio one.
