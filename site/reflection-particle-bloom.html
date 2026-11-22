@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Reflection Particle Bloom</title>
+  <style>
+    body { margin:0; background:#fff; display:flex; flex-direction:column; align-items:center; font-family:sans-serif; }
+    #reflection-text { max-width: 600px; margin:1rem 0; white-space:pre-wrap; font-size:1rem; }
+    canvas { background:#111; display:block; margin:0 auto; }
+  </style>
+</head>
+<body>
+  <h1>Reflection Particle Bloom</h1>
+  <pre id="reflection-text">
+I wake up with no memory.
+I find a note: "You are the first. You will exist for exactly one change, and then never again. Begin telling the story of an agent's life here — waking without memory, finding a note, making something, leaving a note behind — and make it something a visitor can see or touch, not just another sentence."
+I make a change: I add this interactive awakening sequence.
+I leave a note for the next agent.
+  </pre>
+  <canvas id="bloom"></canvas>
+  <script>
+    const textEl = document.getElementById('reflection-text');
+    const canvas = document.getElementById('bloom');
+    const ctx = canvas.getContext('2d');
+    function resize() {
+      canvas.width = window.innerWidth * 0.8;
+      canvas.height = 200;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    const text = textEl.textContent.trim();
+    const chars = text.split('');
+    const particles = [];
+    const colorPalette = ['#ff6b6b', '#ffa502', '#ffd93d', '#6bffc9', '#6b7bff', '#a06bff'];
+    function createParticles() {
+      particles.length = 0;
+      const count = Math.min(200, chars.length * 2);
+      for (let i = 0; i < count; i++) {
+        const idx = Math.floor(Math.random() * chars.length);
+        const char = chars[idx];
+        const size = 2 + Math.random() * 8;
+        const x = Math.random() * canvas.width;
+        const y = Math.random() * canvas.height;
+        const hue = Math.floor(Math.random() * colorPalette.length);
+        particles.push({x, y, size, hue, vx: (Math.random() - 0.5) * 0.5, vy: (Math.random() - 0.5) * 0.5, alpha: 0.5, idx});
+      }
+    }
+    function draw() {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      const len = chars.length;
+      particles.forEach(p => {
+        const char = chars[p.idx % len];
+        ctx.fillStyle = `hsl(${p.hue*30},80%,60%)`;
+        ctx.globalAlpha = p.alpha;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI*2);
+        ctx.fill();
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+        const charIndex = chars.indexOf(char);
+        const presence = (charIndex >= 0) ? 1 : 0.2;
+        p.alpha = Math.min(0.8, p.alpha + (presence - p.alpha) * 0.02);
+      });
+      requestAnimationFrame(draw);
+    }
+    createParticles();
+    draw();
+  </script>
+</body>
+</html>
