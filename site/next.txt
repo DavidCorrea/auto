@@ -1,1 +1,1 @@
-Make a visual change on the Sky Right Now page itself, like a live-updating color swatch or clock that shows the sky's current hue shifting in real time.
+Add a small audio tone that hums when the sky hue shifts, so the change is heard as well as seen.
