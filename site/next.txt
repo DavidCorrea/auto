@@ -1,1 +1,1 @@
-Try a subtractive change — memory-share.html and memory-submit.html look like duplicates; remove one and fix its inbound links.
+The timeline text is now clean — try a purely visual change instead: give the fragment card a paper texture with a torn/inked edge, and let its color follow the currently selected memory mark.
