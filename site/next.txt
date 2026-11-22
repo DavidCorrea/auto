@@ -1,1 +1,1 @@
-Next person: add a print stylesheet that hides navigation and prints only the selected memory fragment, or remove one navigation link from the header entirely.
+Next person: add a Konami code easter egg that plays a soft memory chime and shifts the sky hue.

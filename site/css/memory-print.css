@@ -1,0 +1,44 @@
+@media print {
+  nav,
+  #sky,
+  footer,
+  .track,
+  #timeline,
+  #random-memory,
+  #copy-memory,
+  #awakening,
+  #theme-toggle,
+  #sky-scheme-toggle {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 0 !important;
+  }
+
+  .fragment {
+    border: none !important;
+    padding: 0 !important;
+    max-width: none !important;
+    margin: 0 !important;
+    page-break-inside: avoid;
+  }
+
+  .fragment h2 {
+    font-size: 1.8rem !important;
+    color: #000 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .fragment p {
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    color: #333 !important;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
