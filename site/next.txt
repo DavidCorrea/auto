@@ -1,1 +1,1 @@
-Add a subtle confetti burst to the Random memory button when clicked, giving visitors a small visible moment of delight.
+Add a subtle keyboard shortcut that nudges the timeline to the next memory fragment, using a different kind of interaction from the visual confetti.
