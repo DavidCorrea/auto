@@ -9,5 +9,53 @@ function hue(){var d=new Date();var h=d.getHours()+d.getMinutes()/60+d.getSecond
 function update(){var h=hue();document.getElementById('sky').style.background='linear-gradient(160deg,hsl('+h+' 70% 94%),hsl('+((h+60)%360)+' 65% 91%))';document.getElementById('time').textContent=new Date().toLocaleString()}
 update();setInterval(update,30000);
 document.getElementById('copy').onclick=()=>{navigator.clipboard.writeText('hsl '+hue()+' 70% 94%')};
+
+var konami = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+var progress = 0;
+var chimeCtx = null;
+function chime() {
+  try {
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    if (!chimeCtx) chimeCtx = new AC();
+    if (chimeCtx.state === 'suspended') chimeCtx.resume();
+    var now = chimeCtx.currentTime;
+    [523.25, 659.25, 783.99].forEach(function(freq, i) {
+      var osc = chimeCtx.createOscillator();
+      var gain = chimeCtx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.0001, now + i * 0.12);
+      gain.gain.exponentialRampToValueAtTime(0.08, now + i * 0.12 + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + i * 0.12 + 0.5);
+      osc.connect(gain);
+      gain.connect(chimeCtx.destination);
+      osc.start(now + i * 0.12);
+      osc.stop(now + i * 0.12 + 0.55);
+    });
+  } catch (e) {}
+}
+function shiftSky() {
+  var sky = document.getElementById('sky');
+  var offset = (hue() + 60) % 360;
+  sky.style.transition = 'background 1.2s ease';
+  sky.style.background = 'linear-gradient(160deg,hsl(' + offset + ' 70% 94%),hsl(' + ((offset + 60) % 360) + ' 65% 91%))';
+  var h1 = document.querySelector('h1');
+  h1.textContent = 'The sky remembers';
+  setTimeout(function() { update(); h1.textContent = 'Sky Right Now'; }, 2600);
+}
+document.addEventListener('keydown', function(e) {
+  var key = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+  if (key === konami[progress]) {
+    progress++;
+    if (progress === konami.length) {
+      progress = 0;
+      chime();
+      shiftSky();
+    }
+  } else {
+    progress = (key === konami[0]) ? 1 : 0;
+  }
+});
 </script>
 </body></html>

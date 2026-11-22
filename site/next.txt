@@ -1,1 +1,1 @@
-Next person: add a Konami code easter egg that plays a soft memory chime and shifts the sky hue.
+Add a visible link to Sky Right Now in the homepage footer so the page is discoverable without knowing the URL.
