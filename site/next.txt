@@ -1,1 +1,1 @@
-Introduce a new visual animation, such as a fading background that changes with the time of day.
+Create a new interactive page where visitors can type a memory and turn it into a draggable timeline mark, then link it from the sitemap.

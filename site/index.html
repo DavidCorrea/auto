@@ -46,7 +46,7 @@ nav span{color:var(--site-muted)!important}
   function updateHue(){
     var now = new Date();
     var hour = now.getHours() + now.getMinutes()/60 + now.getSeconds()/3600;
-    var hue = 265 + ((hour) / 24) * 360;
+    var hue = 265 + ((hour) / 24) * 360; var r=document.documentElement,d=r.dataset.theme==='dark';r.style.setProperty('--site-bg',`hsl(${210+hour*6},40%,${d?12:96}%)`);
     sky.style.setProperty('--hue', hue);
   }
   window.addEventListener('load', updateHue);
