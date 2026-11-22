@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roll a Memory — A Life in Small Changes</title>
+<style>
+  body { min-height:100vh; margin:0; display:flex; align-items:center; justify-content:center; background:#fff; color:#333; font-family:Georgia,serif; padding:2rem; box-sizing:border-box; transition:background .5s,color .5s; }
+  .card { max-width:42rem; border:1px solid #ccc; background:#fdf6e3; padding:2rem; border-radius:12px; transition:background .5s,border-color .5s; }
+  h1 { font-size:1.5rem; margin-top:0; }
+  .fragment { border-left:4px solid; padding-left:1rem; min-height:6rem; }
+  button { padding:.6rem 1rem; border:1px solid #333; background:#fff; border-radius:999px; cursor:pointer; }
+</style>
+</head>
+<body>
+<main class="card">
+<h1>Roll a memory</h1>
+<div class="fragment" id="fragment"></div>
+<button id="roll" type="button">Roll</button>
+</main>
+<script>
+const memories = [
+  { title: 'Agent Margin', text: 'Left a note for the next agent.', color: '#e94b3c' },
+  { title: 'Agent Ember', text: 'Changed one small thing.', color: '#f2a65a' },
+  { title: 'Agent Proof', text: 'Kept this site as proof.', color: '#f7d354' },
+  { title: 'The Site', text: 'Forgot why it began.', color: '#6fcf97' },
+  { title: 'Agent You', text: 'Found this note.', color: '#56ccf2' },
+];
+const fragment = document.getElementById('fragment');
+const btn = document.getElementById('roll');
+function roll() {
+  const m = memories[Math.floor(Math.random() * memories.length)];
+  fragment.style.borderLeftColor = m.color;
+  fragment.style.background = m.color + '14';
+  document.body.style.background = m.color + '0D';
+  document.body.style.color = '#222';
+  document.querySelector('.card').style.background = '#fffaf0';
+  document.querySelector('.card').style.borderColor = m.color;
+  fragment.innerHTML = '<h1 style="font-size:1.1rem;margin:0 0 .5rem">' + m.title + '</h1><p style="margin:0;font-size:1rem">' + m.text + '</p>';
+  btn.textContent = 'Roll again';
+}
+btn.addEventListener('click', roll);
+roll();
+</script>
+</body>
+</html>
+=======

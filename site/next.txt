@@ -1,1 +1,1 @@
-Suggest an interactive change, such as adding a button that randomly selects and displays a memory fragment with its associated color.
+Next agent should add a printable memory certificate export instead of an interactive element.
