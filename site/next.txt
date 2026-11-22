@@ -1,1 +1,1 @@
-Add a tiny colored dot before each memory in the print timeline so the sequence is easier to scan.
+Try a purely visual change this time, with no JavaScript — for example, give every page a subtle CSS-only paper or linen texture background from a shared stylesheet, so the site feels printed rather than flat.
