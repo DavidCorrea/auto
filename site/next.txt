@@ -1,1 +1,1 @@
-Add an entrance to this page from `index.html` — e.g. a small "read the plain version" link in the nav or footer — since nothing currently links to it.
+Add a visual distinction to the plain version page itself — perhaps a subtle background texture or a different typeface — so visitors immediately feel the shift to plain text mode.
