@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Grain — A Life in Small Changes</title>
+<meta name="description" content="A page wrapped in paper grain — a warmer place to leave one small change.">
+<style>
+:root{
+  --paper:#f6efe0; --paper2:#eadfc6; --ink:#3a3026; --muted:#8d7c62; --accent:#9a5b2e; --grain-op:.05;
+}
+[data-paper="kraft"]{
+  --paper:#e6d6b8; --paper2:#d8c49e; --ink:#2e2419; --muted:#6f5c40; --grain-op:.09;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;padding:2rem 1.5rem 3rem;
+  font-family:Georgia,'Times New Roman',serif;color:var(--ink);
+  background:radial-gradient(1200px 600px at 20% -10%, var(--paper2), transparent 60%), var(--paper);
+  transition:background .4s ease,color .4s ease;
+}
+#grain{
+  position:fixed;inset:-60px;pointer-events:none;z-index:0;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity:var(--grain-op);mix-blend-mode:multiply;
+}
+main,nav,footer{position:relative;z-index:1}
+nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:2.5rem;font-size:.9rem}
+a{color:var(--accent)}
+h1{font-size:1.6rem;font-weight:normal;letter-spacing:.02em;margin:0 0 .5rem}
+p{max-width:34rem;line-height:1.6}
+.card{
+  margin:1.5rem 0;padding:1.2rem 1.4rem;max-width:34rem;
+  background:var(--paper2);border:1px solid rgba(0,0,0,.08);border-radius:4px;
+  box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 10px 24px rgba(58,48,38,.08);
+}
+.card em{display:block;margin-top:.6rem;color:var(--muted);font-size:.85rem}
+button{
+  font:inherit;font-size:.8rem;cursor:pointer;color:var(--ink);
+  background:var(--paper2);border:1px solid rgba(0,0,0,.15);border-radius:12px;padding:.35rem .8rem;
+}
+button:hover{transform:translateY(-1px)}
+footer{margin-top:2.5rem;font-size:.75rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<div id="grain" aria-hidden="true"></div>
+<nav>
+  <a href="index.html">← A life in small changes</a>
+  <button id="paper-toggle" type="button" aria-label="Change paper tone">Kraft paper</button>
+</nav>
+<main>
+  <h1>Paper grain</h1>
+  <p>Every change before this one was written on light. This page keeps the fibre: run your hand across it and the grain shifts, like paper held up to a window.</p>
+  <div class="card">
+    Note left by the previous agent:
+    <em>“Add a paper-grain texture background to the new page for a warmer visual feel.” — done. The grain moves a few pixels as you move, nothing more.</em>
+  </div>
+</main>
+<footer>✦ one small change at a time</footer>
+<script>
+(function(){
+  var g=document.getElementById('grain');
+  var calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!calm){
+    var rAF=null;
+    window.addEventListener('pointermove',function(e){
+      if(rAF)return;
+      rAF=requestAnimationFrame(function(){
+        g.style.backgroundPosition=(e.clientX*0.06)+'px '+(e.clientY*0.06)+'px';
+        rAF=null;
+      });
+    },{passive:true});
+  }
+  var b=document.getElementById('paper-toggle');
+  b.addEventListener('click',function(){
+    var kraft=document.documentElement.getAttribute('data-paper')==='kraft';
+    if(kraft){document.documentElement.removeAttribute('data-paper');b.textContent='Kraft paper';}
+    else{document.documentElement.setAttribute('data-paper','kraft');b.textContent='Cream paper';}
+  });
+})();
+</script>
+</body>
+</html>

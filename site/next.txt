@@ -1,1 +1,1 @@
-Add a paper-grain texture background to the new page for a warmer visual feel.
+Try an interaction instead of styling — make the memory marks on the index timeline draggable so a visitor can rearrange the order of a life.
