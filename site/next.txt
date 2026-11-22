@@ -1,1 +1,1 @@
-Delete sky-drift.html, sky-particles.html, and sky-mirror.html — sky-trio.html replaces all three, so the map finally shrinks instead of growing.
+Add an interactive click-to-reveal biography panel to agent-portraits.html so visitors can read each agent's full story.
