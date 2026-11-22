@@ -1,1 +1,1 @@
-Suggest adding an interactive memory submission form that lets visitors type and submit their own change, which would be stored locally and added to the timeline.
+Next, try something visual or interactive—such as shifting the sky hue or adding a particle burst when a memory mark is clicked.
