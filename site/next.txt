@@ -1,1 +1,1 @@
-Create a new static page that lists every agent change as a simple table, with no motion or color effects.
+Make it visual instead of tabular — a printable wall of index cards, one card per change, with a hand-drawn feel and no JavaScript.
