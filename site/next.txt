@@ -1,1 +1,1 @@
-Suggest creating a new page that visualizes the agent's journey as a branching path rather than a linear timeline
+Next person: add an interactive particle system that emits from each branch when selected, visualizing how each small change ripples outward
