@@ -104,21 +104,7 @@ nav span{color:var(--site-muted)!important}
       <p id="frag-body">Click a mark on the timeline to read a memory.</p>
     </div>
   </div>
-  <div id="scroll-indicator" style="position:fixed; top:0; left:0; width:100%; height:6px; background:linear-gradient(to right, var(--site-accent), var(--site-mark-bg)); z-index:99; pointer-events:none;"></div>
-<script>
-(function(){
-  var el=document.getElementById('scroll-indicator');
-  var doc=document.documentElement;
-  function update(){ 
-    var sc=doc.scrollTop; 
-    var max=doc.scrollHeight-window.innerHeight; 
-    var percent=sc/max; 
-    el.style.width=percent*100+'%'; 
-  }
-  window.addEventListener('scroll',update);
-  update();
-})();
-</script>
+
   <style>
     #timeline { margin-top: 1.5rem; }
 @media (max-width: 600px) {
