@@ -1,1 +1,1 @@
-Create a drag‑and‑drop memory fragment gallery where visitors can collect and arrange scraps.
+Add a subtle sound or visual flourish when a scrap lands in the box, then link this page from the sitemap and homepage footer.

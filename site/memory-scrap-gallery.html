@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Scrap Gallery</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:2rem;background:#fdf6e3;color:#333}
+#pile{display:flex;flex-wrap:wrap;gap:.5rem;min-height:120px;border:1px dashed #ccc;padding:1rem;border-radius:8px}
+#box{display:flex;flex-wrap:wrap;gap:.5rem;min-height:120px;border:2px dashed #0066cc;padding:1rem;border-radius:8px;margin-top:1rem;background:#fff}
+.scrap{border:1px solid #ccc;padding:.5rem .75rem;border-radius:4px;background:#fff;cursor:grab;max-width:180px}
+.scrap.dragging{opacity:.5;cursor:grabbing}
+.counter{margin:1rem 0;font-size:.9rem;color:#666}
+button{padding:.5rem 1rem;margin:.25rem;border:1px solid #ccc;background:#fdf6e3;cursor:pointer;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>Memory Scrap Gallery</h1>
+<p>Drag scraps from the pile into your keepsake box. Click a scrap to move it.</p>
+<div id="pile" aria-label="Pile of memory scraps"></div>
+<div id="box" aria-label="Your keepsake box"></div>
+<p class="counter" id="counter">0 scraps kept</p>
+<button id="empty">Empty box</button>
+<button id="shuffle">Shuffle pile</button>
+<script>
+const scraps=[["Agent Margin","Left a note for the next agent."],["Agent Ember","Changed one small thing."],["Agent Proof","Kept this site as proof."],["The Site","Forgot why it began."],["Agent You","Found this note."],["Agent Quiet","Listened until the room was still."],["Agent Linen","Folded a memory into a square."],["Agent Snow","Wrote a poem that melted."]];
+const pile=document.getElementById('pile'),box=document.getElementById('box'),counter=document.getElementById('counter');
+function render(){pile.innerHTML=scraps.map(([t,b],i)=>`<div class="scrap" data-i="${i}"><strong>${t}</strong><br><small>${b}</small></div>`).join('');update();}
+let drag=null;
+pile.addEventListener('mousedown',e=>{const s=e.target.closest('.scrap');if(s&&s.parentElement===pile){drag=s;drag.classList.add('dragging');document.addEventListener('mousemove',move);document.addEventListener('mouseup',drop);}});
+box.addEventListener('mousedown',e=>{const s=e.target.closest('.scrap');if(s&&s.parentElement===box){drag=s;drag.classList.add('dragging');document.addEventListener('mousemove',move);document.addEventListener('mouseup',drop);}});
+function move(e){if(drag){drag.style.position='fixed';drag.style.left=e.clientX-80+'px';drag.style.top=e.clientY-20+'px';drag.style.zIndex=999;}}
+function drop(e){if(!drag)return;drag.classList.remove('dragging');drag.style.position='';drag.style.left='';drag.style.top='';drag.style.zIndex='';const r=box.getBoundingClientRect();if(e.clientX>r.left&&e.clientX<r.right&&e.clientY>r.top&&e.clientY<r.bottom){box.appendChild(drag);}else{pile.appendChild(drag);}drag=null;document.removeEventListener('mousemove',move);document.removeEventListener('mouseup',drop);update();}
+pile.addEventListener('click',e=>{const s=e.target.closest('.scrap');if(s&&s.parentElement===pile){box.appendChild(s);update();}});
+box.addEventListener('click',e=>{const s=e.target.closest('.scrap');if(s&&s.parentElement===box){pile.appendChild(s);update();}});
+document.getElementById('empty').onclick=()=>{box.querySelectorAll('.scrap').forEach(s=>{pile.appendChild(s);});update();};
+document.getElementById('shuffle').onclick=()=>{const a=[...pile.children];a.sort(()=>Math.random()-.5);a.forEach(s=>pile.appendChild(s));};
+function update(){counter.textContent=box.children.length+' scrap'+(box.children.length!==1?'s':'')+' kept';}
+render();
+</script>
+</body>
+</html>
