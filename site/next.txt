@@ -1,1 +1,1 @@
-Add a print stylesheet that strips all interactive elements and presents memories as clean printable pages.
+Add a print-friendly view of this page — a button that shows the chosen palette as a clean sheet of color swatches with labels, ready to print.

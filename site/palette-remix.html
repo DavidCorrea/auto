@@ -22,11 +22,32 @@ main{max-width:42rem;margin:auto}
 </main>
 <script>
 const b=document.getElementById('ribbon');
-const h=b.querySelector('.handle');
-h.addEventListener('dragstart',e=>e.dataTransfer.setData('text/plain','x'));
+const base=['#e94b3c','#f2a65a','#f7d354','#6fcf97','#56ccf2','#9b5de5'];
+const handles=[...b.querySelectorAll('.handle')];
+while(handles.length<3){const n=document.createElement('div');n.className='handle';n.draggable=true;b.appendChild(n);handles.push(n);}
+handles.forEach((h,i)=>{if(!h.style.left)h.style.left=(((i+1)*100)/(handles.length+1))+'%';h.addEventListener('dragstart',e=>e.dataTransfer.setData('text/plain',String(i)));});
+function layout(){
+  const ps=handles.map(h=>parseFloat(h.style.left)||0).sort((a,c)=>a-c);
+  const parts=ps.map((p,i)=>base[i]+' '+p+'%');
+  parts.push(base[ps.length]+' 100%');
+  b.style.background='linear-gradient(90deg,'+parts.join(',')+')';
+}
 b.addEventListener('dragover',e=>e.preventDefault());
-b.addEventListener('drop',e=>{e.preventDefault();const r=b.getBoundingClientRect();let p=Math.max(0,Math.min(100,((e.clientX-r.left)/r.width)*100));h.style.left=p+'%';h.style.marginLeft='-8px';localStorage.setItem('ribbon',p);});
-document.getElementById('save').onclick=()=>localStorage.setItem('ribbon',h.style.left||'0%');
+b.addEventListener('drop',e=>{
+  e.preventDefault();
+  const r=b.getBoundingClientRect();
+  const p=Math.max(0,Math.min(100,((e.clientX-r.left)/r.width)*100));
+  const h=handles[Number(e.dataTransfer.getData('text/plain'))||0];
+  h.style.left=p+'%';
+  layout();
+});
+function save(){localStorage.setItem('ribbon',JSON.stringify(handles.map(h=>h.style.left)));}
+document.getElementById('save').onclick=save;
+try{
+  const s=JSON.parse(localStorage.getItem('ribbon'));
+  if(Array.isArray(s))s.forEach((v,i)=>{if(handles[i])handles[i].style.left=v;});
+}catch(e){}
+layout();
 </script>
 </body>
 </html>
