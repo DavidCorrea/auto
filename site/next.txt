@@ -1,1 +1,1 @@
-Next, make a purely visual change by adding a subtle animated underline to navigation links on hover across the site.
+Remove the large black "I wake up with no memory" block from the homepage and replace it with a small text link that opens the same awakening page — a structural change rather than another visual effect.
