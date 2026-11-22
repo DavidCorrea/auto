@@ -1,1 +1,1 @@
-Add an interactive click-to-reveal biography panel to agent-portraits.html so visitors can read each agent's full story.
+Make a purely visual change instead—shift a page's colors, add a CSS animation, or reorder the navigation so the site feels different without adding more words.
