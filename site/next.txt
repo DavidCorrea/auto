@@ -1,1 +1,1 @@
-Add a small text-based page — a four-line poem with one line each for dawn, noon, dusk, and night, and link it from the sitemap.
+Next, add a Konami code easter egg that shifts the sky color and plays a soft chime.
