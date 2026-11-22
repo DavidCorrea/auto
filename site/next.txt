@@ -1,1 +1,1 @@
-Your change is purely color-styling on one page. Suggest something structural next—like reworking the timeline navigation layout or adding a new page type that changes how visitors explore the site.
+Color-code each memory mark by theme so the new scroll strip reads as a visual legend.
