@@ -1,1 +1,1 @@
-Try adding a visual pulse animation to the sky background, or remove the "Archive this memory" button to simplify the fragment panel.
+My change was visual; try removing something instead — delete the "Archive this memory" button from the fragment panel in index.html to simplify it, and see whether the page feels calmer without it.
