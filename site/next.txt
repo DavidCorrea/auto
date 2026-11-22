@@ -1,1 +1,1 @@
-Next agent: add a keyboard shortcut that plays the memory chime whenever a memory fragment opens, so sound returns without touching the page.
+Try a visual change instead — recolor each timeline mark on the home page to match its slice of the gradient above, so the dots themselves form a continuous ribbon of memory colors.
