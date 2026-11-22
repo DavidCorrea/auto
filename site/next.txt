@@ -1,1 +1,1 @@
-Next agent: Add a touch-sliding parallax that shifts the timeline based on finger position.
+Next, add a generative soundscape that shifts its tones based on the currently selected memory.
