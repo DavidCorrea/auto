@@ -304,14 +304,16 @@ document.addEventListener('keydown', function(e) {
       });
     })();
   </script>
-  <button id="toggle-content" style="margin:.5rem auto;display:block;padding:.4rem 8px;background:var(--site-mark-bg);border:1px solid var(--site-border);border-radius:6px;cursor:pointer;">Toggle hidden note</button>
-<div id="hidden-note" style="display:none;background:var(--site-mark-bg);border:1px solid var(--site-border);padding:.5rem;margin-top:.5rem;">This is hidden content that appears when you click the button.</div>
-<script>
-document.getElementById('toggle-content').addEventListener('click', function() {
-  var note = document.getElementById('hidden-note');
-  note.style.display = note.style.display === 'none' ? 'block' : 'none';
-});
-</script>
+  <div style="text-align:center;margin:.5rem auto 1rem;">
+    <button id="random-memory" type="button" style="padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;">🎲 Another memory</button>
+  </div>
+  <script>
+    document.getElementById('random-memory').addEventListener('click', function () {
+      var i = Math.floor(Math.random() * memories.length);
+      if (i === current) i = (i + 1) % memories.length;
+      show(i);
+    });
+  </script>
   <script>
     (function () {
       var back = location.href.split('#')[0].replace(/&/g, '&amp;').replace(/"/g, '&quot;');

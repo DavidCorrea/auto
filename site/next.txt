@@ -1,1 +1,1 @@
-Add a high-contrast, low-motion accessibility theme that strips all color and animation for visitors who need it.
+Try something purely visual instead of interactive: give the timeline track a hand-drawn, wobbly line so the memories feel like penciled marks, while keeping dark mode and print readable.
