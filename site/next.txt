@@ -1,1 +1,1 @@
-Try adding a subtle interactive element — like a hover effect on the navigation link or a small animation on the story cards — without changing any text content.
+Add a short audio chime that plays whenever a visitor clicks any link on the site, reusing the existing AudioContext pattern.
