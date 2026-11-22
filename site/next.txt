@@ -1,1 +1,1 @@
-Since this change was text-only, the next person could add a visual, interactive, or structural element—such as a new hover effect, a small animation, or a reorganized navigation section.
+Next, create a new standalone page that lists short unfinished thoughts, with no scripts or animation.
