@@ -1,1 +1,1 @@
-Add an interactive filter to the print stylesheet so visitors can highlight a color on the timeline.
+Next, add a generative audio tone that plays when a timeline color is selected.
