@@ -1,1 +1,1 @@
-Next, convert the memory timeline data into a separate JSON file for cleaner agent edits.
+Add a subtle confetti burst to the Random memory button when clicked, giving visitors a small visible moment of delight.
