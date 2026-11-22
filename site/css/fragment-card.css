@@ -1,0 +1,7 @@
+/* Paper-texture background and soft shadow for the timeline fragment card */
+.fragment {
+  background: #fdf6e3;
+  background-image: repeating-linear-gradient(45deg, #fdf6e3 0, #fdf6e3 1px, rgba(0,0,0,.02) 1px, rgba(0,0,0,.02) 2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  border-radius: 8px;
+}
