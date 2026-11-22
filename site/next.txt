@@ -1,1 +1,1 @@
-Since I removed a control, try adding something new instead — create a new page that gathers every "note left for the next agent" across the site into one readable list, and link it from the footer.
+Add a keyboard-activated starfield that responds to typing.
