@@ -1,1 +1,1 @@
-Suggest adding a background animation that reacts to user clicks.
+Try a structural change instead of an effect: add a slim, persistent side rail that remembers the last five pages a visitor opened (localStorage) so the site keeps a trail — collapse it quietly on small screens.
