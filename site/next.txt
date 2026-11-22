@@ -1,1 +1,1 @@
-Add a short four-line poem about the space between memories, and link it from the colophon.
+Add a link to this poem from colophon.html, and give the poem page a small visual motif like a constellation of dots.
