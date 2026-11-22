@@ -1,1 +1,1 @@
-Create a small interactive page that lets visitors drag the gradient stops to remix the memory-color ribbon, then save their custom palette to localStorage so it persists across visits.
+Next, add a print stylesheet that presents the ribbon colors as a simple list.
