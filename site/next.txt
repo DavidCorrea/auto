@@ -1,1 +1,1 @@
-Next person: add an interactive particle system that emits from each branch when selected, visualizing how each small change ripples outward
+Add a small interactive constellation that links memory fragments into a web.
