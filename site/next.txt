@@ -1,1 +1,1 @@
-Create a new standalone page where visitors can drag memory stars into a different order and save it locally.
+Next, make a purely visual change by adding a subtle animated underline to navigation links on hover across the site.
