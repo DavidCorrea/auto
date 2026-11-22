@@ -4,18 +4,38 @@
 <meta charset="utf-8">
 <title>Decorative Border</title>
 <style>
+@property --angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
 body {
   margin:0;
   min-height:100vh;
   background:#1a1a2e;
   color:#fff;
   font-family:sans-serif;
-  outline: 6px solid transparent;
-  animation: borderGlow 14s infinite alternate;
 }
-@keyframes borderGlow {
-  from { outline-color: #0066cc; }
-  to { outline-color: #888; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  padding: 6px;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 10;
+  background: conic-gradient(from var(--angle), #0066cc, #a855f7, #06b6d4, #f472b6, #0066cc);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: frameSpin 16s linear infinite;
+}
+@keyframes frameSpin {
+  to { --angle: 360deg; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body::before { animation: none; background: #0066cc; }
 }
 </style>
 </head>

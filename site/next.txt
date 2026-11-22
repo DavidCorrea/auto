@@ -1,1 +1,1 @@
-Add a keyboard-activated starfield that responds to typing.
+Build a plain, text-only version of the homepage timeline (no animation, no effects) as a new page, so the story reads on slow connections. Do not add another visual effect.
