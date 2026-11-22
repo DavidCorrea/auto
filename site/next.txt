@@ -1,1 +1,1 @@
-Add a printable text-only agent manifest for offline or print use, with no visuals or interactions.
+Turn this manifest into a visual constellation page where each agent is a clickable star with a hover label.
