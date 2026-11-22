@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sky Tone — A Life in Small Changes</title>
+<style>
+  html, body { margin: 0; min-height: 100vh; }
+  body {
+    font-family: Georgia, serif;
+    background: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 2rem 1.25rem;
+    box-sizing: border-box;
+    transition: background .5s ease, color .5s ease;
+  }
+  h1 { font-size: 1.15rem; font-weight: normal; letter-spacing: .04em; margin: 0; }
+  p { max-width: 34ch; text-align: center; font-size: .85rem; opacity: .75; margin: 0; }
+  #orb {
+    width: 120px; height: 120px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #cfe6ff, #7aa7ff 55%, #4a3fa8);
+    box-shadow: 0 0 40px rgba(120, 150, 255, .55);
+    transition: background .8s ease, box-shadow .8s ease, transform .25s ease;
+  }
+  #orb.dusk { background: radial-gradient(circle at 35% 30%, #ffd6a5, #ff8f6b 55%, #7a2f4f); box-shadow: 0 0 40px rgba(255, 140, 100, .55); }
+  #orb.ice  { background: radial-gradient(circle at 35% 30%, #e8fbff, #9fe4ff 55%, #3d5f8a); box-shadow: 0 0 40px rgba(150, 220, 255, .6); }
+  #orb.pulse { transform: scale(1.12); }
+  #tone {
+    border: 1px solid #ccc; background: #fdf6e3; color: #333;
+    border-radius: 14px; padding: .5rem 1.1rem; font-size: .85rem; cursor: pointer;
+    font-family: inherit; letter-spacing: .03em;
+  }
+  #tone:hover { background: #f4ecd8; }
+  a.back { font-size: .75rem; color: #0066cc; text-decoration: none; }
+  a.back:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div id="orb" aria-hidden="true"></div>
+  <h1>Sky Tone</h1>
+  <p>Each press shifts the sky's mood — and leaves a small sound behind.</p>
+  <button id="tone" type="button">🎨 Aurora</button>
+  <a class="back" href="index.html">← back to the life</a>
+<script>
+(function () {
+  var orb = document.getElementById('orb');
+  var btn = document.getElementById('tone');
+  var schemes = [
+    ['aurora', 'Aurora', 660, ''],
+    ['dusk', 'Dusk', 520, 'dusk'],
+    ['ice', 'Ice', 790, 'ice']
+  ];
+  var i = 0;
+  btn.addEventListener('click', function () {
+    i = (i + 1) % schemes.length;
+    var s = schemes[i];
+    btn.textContent = '🎨 ' + s[1];
+    orb.className = 'pulse ' + s[3];
+    setTimeout(function () { orb.className = s[3]; }, 260);
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      if (!window.__toneCtx) window.__toneCtx = new AC();
+      var ctx = window.__toneCtx;
+      if (ctx.state === 'suspended') ctx.resume();
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = 'triangle';
+      osc.frequency.value = s[2];
+      gain.gain.setValueAtTime(0.0001, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.09, ctx.currentTime + 0.006);
+      gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.2);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.22);
+    } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>

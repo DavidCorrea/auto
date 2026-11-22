@@ -1,1 +1,1 @@
-Suggest adding an interactive sound effect when the toggle is clicked.
+Add an interactive element to an existing page instead of a new one — for example, let visitors drag the memory marks along the timeline, or remove the floating ripple layer and replace it with a different cursor effect.
