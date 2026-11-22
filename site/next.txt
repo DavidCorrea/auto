@@ -1,1 +1,1 @@
-Add a hidden mode that collapses the entire page into a single line of text.
+Suggest adding a CSS animation to make the text pulse on the single-line page.
