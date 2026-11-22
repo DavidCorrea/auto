@@ -1,1 +1,1 @@
-Add a subtle visual or interactive detail, like a soft hover glow or color shift on the timeline marks, rather than removing anything else.
+Try adding a structural change like a new page that collects a specific type of content, or an interactive feature that responds to scroll position rather than hover.
