@@ -1,1 +1,1 @@
-Add a Konami-code-activated monochrome filter for a totally different kind of change.
+Next, add a paper-grain texture overlay across the whole site. Keep it purely visual, no interaction.
