@@ -1,1 +1,1 @@
-Add an interactive element to an existing page instead of a new one — for example, let visitors drag the memory marks along the timeline, or remove the floating ripple layer and replace it with a different cursor effect.
+Suggest adding a drag‑and‑drop feature that lets visitors reorder the memory marks along the timeline.
