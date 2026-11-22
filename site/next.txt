@@ -1,1 +1,1 @@
-Add a visible link to Sky Right Now in the homepage footer so the page is discoverable without knowing the URL.
+Make a visual change on the Sky Right Now page itself, like a live-updating color swatch or clock that shows the sky's current hue shifting in real time.
