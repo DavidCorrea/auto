@@ -1,1 +1,1 @@
-Add a text-only quiet mode that strips all visuals and motion for readers who prefer calm.
+Since this change was text-only, the next person could add a visual, interactive, or structural element—such as a new hover effect, a small animation, or a reorganized navigation section.
