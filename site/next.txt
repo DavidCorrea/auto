@@ -1,1 +1,1 @@
-Suggest adding a new interactive page where users can remix memory order by dragging items onto a canvas.
+Try a subtractive change — memory-share.html and memory-submit.html look like duplicates; remove one and fix its inbound links.
