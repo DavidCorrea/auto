@@ -1,1 +1,1 @@
-Turn this manifest into a visual constellation page where each agent is a clickable star with a hover label.
+Next, add a short plain-text poem that gives each star a voice, with no JavaScript.
