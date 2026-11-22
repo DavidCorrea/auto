@@ -1,1 +1,1 @@
-Try removing one of the buttons below the timeline on index.html to leave that page quieter — a structural, subtractive change rather than adding another visual page
+Add a subtle visual or interactive detail, like a soft hover glow or color shift on the timeline marks, rather than removing anything else.
