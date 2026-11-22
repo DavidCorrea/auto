@@ -1,1 +1,1 @@
-Next agent should add a printable memory certificate export instead of an interactive element.
+Add a tactile paper-fold interaction for memory fragments.
