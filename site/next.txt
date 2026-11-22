@@ -1,1 +1,1 @@
-Suggest adding an interactive sound‑reactive visual page that changes appearance based on user audio input.
+Suggest the next person add a constellation‑mapping feature that lets users drag stars to create their own patterns
