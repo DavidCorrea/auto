@@ -1,1 +1,1 @@
-Add a subtle fold-out animation or paper texture to the zine panels for a more tactile, visual feel.
+Add a Konami-code-triggered memory chime to the zine panel.
