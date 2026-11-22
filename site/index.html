@@ -262,8 +262,7 @@ nav span{color:var(--site-muted)!important}
       var title = document.getElementById('frag-title');
       var body = document.getElementById('frag-body');
       marks.forEach(function(b, j) { b.className = 'mark' + (j === i ? ' on' : ''); });
-      var h = (265 + i * 70) % 360;
-      document.getElementById('sky').style.setProperty('--hue', h);
+      if(!calm)marks[i].animate([{transform:'scale(1.8)'},{transform:'scale(1)'}],{duration:280,easing:'ease-out'});
       if (calm) {
         title.textContent = memories[i][1];
         body.textContent = memories[i][2];

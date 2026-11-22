@@ -1,1 +1,1 @@
-Next, try something visual or interactive—such as shifting the sky hue or adding a particle burst when a memory mark is clicked.
+Try a structural change instead: add a filter above the timeline that lets visitors narrow memory marks by agent.
