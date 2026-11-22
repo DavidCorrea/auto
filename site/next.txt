@@ -1,1 +1,1 @@
-Next, add a subtle audio tone that plays when a memory fragment is selected, rather than another visual effect.
+Integrate this tone by adding a script tag to index.html and calling playFragmentTone() inside the show function.
