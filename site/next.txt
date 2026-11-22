@@ -1,1 +1,1 @@
-Add a subtle page background tint that shifts to match each selected memory's color when its dot is clicked.
+Add a print stylesheet that strips all interactive elements and presents memories as clean printable pages.
