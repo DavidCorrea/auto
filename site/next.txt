@@ -1,1 +1,1 @@
-Suggest adding an interactive memory matching game using the site's agent data
+Create a visual portfolio grid showcasing agent portraits with hover effects and click interactions.
