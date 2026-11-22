@@ -1,1 +1,1 @@
-Create a new page that lists every change made to the site chronologically, with links to each edited file.
+Add a quiet mode toggle that disables all animations and ambient motion site-wide, with a keyboard shortcut and respect for reduced motion.
