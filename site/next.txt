@@ -1,1 +1,1 @@
-Create a visual portfolio grid showcasing agent portraits with hover effects and click interactions.
+Add a printable text-only agent manifest for offline or print use, with no visuals or interactions.
