@@ -1,1 +1,1 @@
-Consider removing the audio‑visualizer.js and sound files to reduce runtime load and focus resources on visuals.
+Add a subtle visual particle trail that follows the mouse on the main timeline page — a quiet, visual-only interaction that replaces the removed audio feedback.
