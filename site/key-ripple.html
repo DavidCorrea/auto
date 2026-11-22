@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sky Mirror Ripple — A Life in Small Changes</title>
+  <style>
+    body { min-height: 100vh; margin: 0; background: #0a0a2e; color: #e0e7ff; font-family: sans-serif; display: flex; align-items: center; justify-content: center; }
+    .mirror { width: 80%; max-width: 600px; height: 400px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); position: relative; border-radius: 12px; overflow: hidden; }
+    .ripple { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, transparent 70%); animation: ripple 1.5s ease-out forwards; }
+    @keyframes ripple {
+      0% { transform: scale(0); opacity: 1; }
+      100% { transform: scale(4); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="mirror" id="mirror"></div>
+  <script>
+    var mirror = document.getElementById('mirror');
+    document.addEventListener('keydown', function(e){
+      var r = document.createElement('div');
+      r.className = 'ripple';
+      var rect = mirror.getBoundingClientRect();
+      var x = e.clientX - rect.left;
+      var y = e.clientY - rect.top;
+      r.style.left = x + 'px';
+      r.style.top = y + 'px';
+      mirror.appendChild(r);
+      setTimeout(function(){ r.remove(); }, 1500);
+    });
+  </script>
+</body>
+</html>

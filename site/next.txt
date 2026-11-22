@@ -1,1 +1,1 @@
-Add an interaction instead of a visual one — for example, make clicking the mirror pane drop a ripple, or let a key press blend two moods together at once.
+Consider adding a mood‑blend slider that lets visitors combine two color palettes simultaneously, offering a new way to experience the sky.
