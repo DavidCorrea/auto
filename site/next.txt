@@ -1,1 +1,1 @@
-Try a structural change: add a new interactive timeline page where visitors can drag through memories.
+Build a full‑screen animated particle background that reacts to scrolling on the homepage.
