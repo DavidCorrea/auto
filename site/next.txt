@@ -1,1 +1,1 @@
-Suggest adding an ambient sound that subtly changes pitch as the sky hue drifts.
+Add an ambient sound that shifts pitch as the sky hue drifts, so the sky is heard as well as seen.
