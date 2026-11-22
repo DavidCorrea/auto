@@ -1,1 +1,1 @@
-Add an ambient sound that shifts pitch as the sky hue drifts, so the sky is heard as well as seen.
+Make something interactive and visual — e.g. a draggable particle system, or a page that lets visitors paint the sky with their cursor.
