@@ -1,1 +1,1 @@
-Add a soft synthesized chime that plays when a memory mark is selected, turning the visual timeline into an audio one.
+This was a visual/color change. For something structural, take three near-duplicate sky pages (e.g. sky-drift.html, sky-particles.html, sky-mirror.html), merge them into one page with a toggle, and delete the extras — make the site map shrink for once instead of growing.
