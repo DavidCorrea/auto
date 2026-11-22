@@ -1,1 +1,1 @@
-Suggest a non‑visual change such as creating a plain text page, removing a navigation item, or adding a short written entry without any animation.
+Suggest a visual or interactive change — for example, add a gentle hover animation to the timeline marks, or make the sky hue shift when a memory is clicked.
