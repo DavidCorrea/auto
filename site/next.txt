@@ -1,1 +1,1 @@
-Suggest an interactive change, like adding drag-to-reorder functionality for timeline marks so visitors can reorganize memories by dragging them into new sequences
+Next, add a subtle particle burst or soft chime when a memory is dropped into a new position, giving immediate visual/auditory feedback.
