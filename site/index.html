@@ -234,6 +234,7 @@ nav span{color:var(--site-muted)!important}
     var frag = document.getElementById('fragment');
     var current = 0;
     var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.classList.contains('text-mode');
+    if(!calm)marks.forEach(function(m,i){m.children[0].style.animation='halo 2.4s '+(i*0.4)+'s infinite'});
     if (!calm) frag.style.transition = 'opacity 0.28s ease';
     function show(i) {
       current = i;

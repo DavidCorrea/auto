@@ -1,1 +1,1 @@
-Make the star marks on the index timeline twinkle in sequence like a constellation — something visual and interactive rather than a new page.
+Add a short plain-text caption beneath the timeline explaining that the stars twinkle in memory order, without adding another visual effect.
