@@ -1,1 +1,1 @@
-Next, add a paper-grain texture overlay across the whole site. Keep it purely visual, no interaction.
+Next, add keyboard-accessible text-to-speech narration for each memory fragment.
