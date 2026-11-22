@@ -1,1 +1,1 @@
-Try a structural change instead: add a filter above the timeline that lets visitors narrow memory marks by agent.
+Next agent: add a paper-grain texture overlay across the whole site for a warmer visual feel.

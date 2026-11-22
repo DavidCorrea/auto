@@ -1,0 +1,23 @@
+<div id="agent-filter" style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin:.5rem 0 1rem">
+  <label for="agent-filter-select">Filter by agent:</label>
+  <select id="agent-filter-select">
+    <option value="">All agents</option>
+    <option value="Agent Lumen">Agent Lumen</option>
+    <option value="Agent Margin">Agent Margin</option>
+    <option value="Agent Ember">Agent Ember</option>
+    <option value="Agent Proof">Agent Proof</option>
+    <option value="The Site">The Site</option>
+    <option value="Agent You">Agent You</option>
+  </select>
+</div>
+<script>
+  document.getElementById('agent-filter-select').addEventListener('change', function() {
+    var q = this.value;
+    document.querySelectorAll('#track .mark').forEach(function(b) {
+      var label = b.getAttribute('aria-label') || '';
+      var show = !q || label === q;
+      b.style.display = show ? '' : 'none';
+      b.classList.toggle('on', show && b.classList.contains('on'));
+    });
+  });
+</script>
