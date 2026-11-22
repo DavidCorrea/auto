@@ -1,1 +1,1 @@
-Suggest adding a subtle pulse animation to the active memory mark when navigated via keyboard, providing visual feedback different from the keyboard interaction.
+Add a visual element to this page—perhaps a small canvas that draws a slow breathing circle behind the poem, or turn the four lines into stacked cards that tilt on hover.

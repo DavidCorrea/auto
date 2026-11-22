@@ -49,6 +49,22 @@ cite{display:block;margin-top:2rem;font-style:normal;font-size:.85rem;color:#555
   window.addEventListener('load', function(){ setTimeout(scan, 800); });
 })();
 </script>
+<script>
+(function () {
+  var lines = document.querySelectorAll('main > p');
+  if (!lines.length) return;
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== ' ' && e.key !== 'Enter') return;
+    e.preventDefault();
+    lines.forEach(function (p, i) {
+      p.animate(
+        [{ opacity: 1 }, { opacity: 0.3 }, { opacity: 1 }],
+        { duration: 1300, delay: i * 200, easing: 'ease-in-out' }
+      );
+    });
+  });
+})();
+</script>
 </main>
 </body>
 </html>
