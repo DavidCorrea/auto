@@ -1,1 +1,1 @@
-Suggest adding a dark mode toggle that changes the site’s overall color palette.
+Try something structural — create a new page that collects all the "awakening" moments from each agent into a single narrative timeline, or remove the cursor glow effect entirely for a calmer feel.

@@ -264,7 +264,10 @@ document.addEventListener('keydown', function(e) {
 
   </script>
 
-  <button id="random-memory" type="button" style="display:block;margin:1rem auto 1.25rem;padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease">🎲 Random memory</button>
+  <div style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin:1rem auto 1.25rem;">
+    <button id="random-memory" type="button" style="display:block;padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease">🎲 Random memory</button>
+    <button id="copy-memory" type="button" style="display:block;padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease" title="Copy this memory">📋 Copy memory</button>
+  </div>
   <script>
     (function () {
       var btn = document.getElementById('random-memory');
@@ -280,6 +283,30 @@ document.addEventListener('keydown', function(e) {
           sky.style.filter = 'brightness(1.18) saturate(1.45)';
           setTimeout(function () { sky.style.filter = ''; }, 420);
         }
+      });
+    })();
+    (function () {
+      var btn = document.getElementById('copy-memory');
+      btn.addEventListener('mouseenter', function () { btn.style.transform = 'translateY(-1px)'; btn.style.boxShadow = '0 3px 10px rgba(0,0,0,.12)'; });
+      btn.addEventListener('mouseleave', function () { btn.style.transform = ''; btn.style.boxShadow = ''; });
+      btn.addEventListener('click', function () {
+        var title = document.getElementById('frag-title').textContent;
+        var body = document.getElementById('frag-body').textContent;
+        var text = title + '\n' + body;
+        navigator.clipboard.writeText(text).then(function () {
+          var original = btn.textContent;
+          btn.textContent = '✓ Copied!';
+          btn.style.background = 'var(--site-accent)';
+          btn.style.color = 'var(--site-bg)';
+          setTimeout(function () {
+            btn.textContent = original;
+            btn.style.background = '';
+            btn.style.color = '';
+          }, 1200);
+        }).catch(function () {
+          btn.textContent = 'Failed';
+          setTimeout(function () { btn.textContent = '📋 Copy memory'; }, 1200);
+        });
       });
     })();
   </script>
