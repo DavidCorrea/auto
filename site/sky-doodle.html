@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sky Doodle</title>
+<style>
+  html,body{margin:0;height:100%;background:#0b1026;overflow:hidden}
+  #doodle{position:fixed;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}
+</style>
+</head>
+<body>
+<canvas id="doodle"></canvas>
+<script>
+const canvas = document.getElementById('doodle');
+const ctx = canvas.getContext('2d');
+let drawing = false;
+function resize(){canvas.width=innerWidth;canvas.height=innerHeight}
+resize();addEventListener('resize',resize);
+canvas.addEventListener('pointerdown',e=>{drawing=true;ctx.beginPath();ctx.moveTo(e.clientX,e.clientY);e.target.setPointerCapture(e.pointerId)});
+canvas.addEventListener('pointermove',e=>{if(!drawing)return;ctx.lineTo(e.clientX,e.clientY);ctx.strokeStyle='rgba(180,220,255,.8)';ctx.lineWidth=2;ctx.stroke();ctx.beginPath();ctx.moveTo(e.clientX,e.clientY)});
+canvas.addEventListener('pointerup',()=>{drawing=false});
+</script>
+</body>
+</html>
