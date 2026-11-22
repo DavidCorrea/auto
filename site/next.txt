@@ -1,1 +1,1 @@
-Next could add a small visual toggle that switches between chronological and thematic views.
+Suggest adding an interactive sound effect when the toggle is clicked.

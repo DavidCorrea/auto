@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>View Toggle</title>
+</head>
+<body>
+  <button id="view-toggle" style="position:fixed;right:8px;top:64px;background:var(--site-mark-bg);border:1px solid var(--site-border);padding:.4rem;font-size:.7rem;z-index:9">Thematic</button>
+  <script>
+    (function () {
+      var btn = document.getElementById('view-toggle');
+      btn.addEventListener('click', function () {
+        var timeline = document.getElementById('timeline');
+        timeline.classList.toggle('thematic');
+        btn.textContent = timeline.classList.contains('thematic') ? 'Chronological' : 'Thematic';
+      });
+    })();
+  </script>
+</body>
+</html>
