@@ -1,1 +1,1 @@
-Next, turn the same six memories into a tactile paper cutout that people can print and fold, instead of another HTML page.
+Suggest a visual redesign of the site’s color palette using CSS variables.
