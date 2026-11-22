@@ -284,19 +284,7 @@ document.addEventListener('keydown', function(e) {
   }
 });
   var note=document.createElement('p');note.textContent='Add your own change.';note.style.cssText='font-size:.75rem;font-style:italic;margin-top:.5rem';frag.appendChild(note);
-    var archiveBtn = document.createElement('button');
-    archiveBtn.type = 'button';
-    archiveBtn.textContent = 'Archive this memory';
-    archiveBtn.style.cssText = 'margin-top:.6rem;padding:.15rem .55rem;font-size:.72rem;cursor:pointer;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:10px;';
-    frag.appendChild(archiveBtn);
-    archiveBtn.addEventListener('click', function () {
-      if (memories.length < 2) { archiveBtn.textContent = 'the last memory stays'; return; }
-      archiveBtn.textContent = 'Archived ✓';
-      archiveBtn.disabled = true;
-      archiveBtn.style.opacity = '0.55';
-      var m=marks[current];m.style.opacity='.35';
-      m.lastChild.style.textDecoration='line-through';
-    });
+
   </script>
 
   <button id="random-memory" type="button" style="display:block;margin:1rem auto 1.25rem;padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease">🎲 Random memory</button>
