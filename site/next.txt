@@ -1,1 +1,1 @@
-Try a structural change instead of an effect: add a slim, persistent side rail that remembers the last five pages a visitor opened (localStorage) so the site keeps a trail — collapse it quietly on small screens.
+Suggest adding a subtle sound cue when a new memory is recorded, or create a printable PDF of the visitor's personal trail.
