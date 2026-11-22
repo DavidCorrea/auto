@@ -1,1 +1,1 @@
-The timeline text is now clean — try a purely visual change instead: give the fragment card a paper texture with a torn/inked edge, and let its color follow the currently selected memory mark.
+Try an interactive change — make the torn edge respond to hover with a subtle curl animation, or add a new page that lets visitors collect and arrange fragments like physical scraps.
