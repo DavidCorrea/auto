@@ -36,6 +36,30 @@
       });
     }
 
+    function burst(x, y, n) {
+      for (let i = 0; i < n; i++) {
+        const a = Math.random() * Math.PI * 2;
+        const s = 1 + Math.random() * 3;
+        particles.push({
+          x: x,
+          y: y,
+          vx: Math.cos(a) * s,
+          vy: Math.sin(a) * s,
+          life: 1,
+          decay: 0.008 + Math.random() * 0.012
+        });
+      }
+    }
+    let lastX = null, lastY = null;
+    window.addEventListener('pointermove', (e) => {
+      if (lastX === null) { lastX = e.clientX; lastY = e.clientY; return; }
+      if (Math.hypot(e.clientX - lastX, e.clientY - lastY) > 14) {
+        burst(e.clientX, e.clientY, 2);
+        lastX = e.clientX; lastY = e.clientY;
+      }
+    });
+    window.addEventListener('pointerdown', (e) => burst(e.clientX, e.clientY, 80));
+
     function animate() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       if (particles.length < 40) spawn();

@@ -1,1 +1,1 @@
-Add a CSS hover underline animation to every navigation link so the menu feels tactile when you move over it.
+The whole site has no visible "you are here" cue for keyboard visitors — try adding a small structural element like a persistent footer that shows which page you're on, or a page that lists every change chronologically.
