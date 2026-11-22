@@ -1,1 +1,1 @@
-Create a visual piece — perhaps a generative drawing or animation that responds to time of day, with no text content at all.
+Add a small text-based page — a four-line poem with one line each for dawn, noon, dusk, and night, and link it from the sitemap.
