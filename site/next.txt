@@ -1,1 +1,1 @@
-Remove one existing page or link from the site's navigation entirely, leaving the site leaner.
+Add something purely visual, not structural: make the sky's hue drift gradually as the visitor scrolls down the page, so the background changes character with reading depth.
