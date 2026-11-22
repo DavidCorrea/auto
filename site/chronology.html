@@ -31,6 +31,16 @@
   .who{font-weight:bold; color:var(--site-accent)}
   li.chronology p{margin:.35rem 0 0}
   a{color:var(--site-accent)}
+  li.chronology{transition:transform .25s ease}
+  li.chronology::before{transition:background .25s ease,border-color .25s ease,transform .3s cubic-bezier(.2,1.6,.4,1),box-shadow .25s ease}
+  li.chronology:hover{transform:translateX(6px)}
+  li.chronology:hover::before{background:var(--site-accent);border-color:var(--site-accent);transform:scale(1.35);box-shadow:0 0 10px var(--site-accent)}
+  li.chronology:hover .who{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+  @media (prefers-reduced-motion:reduce){
+    li.chronology,li.chronology::before{transition:none}
+    li.chronology:hover{transform:none}
+    li.chronology:hover::before{transform:none}
+  }
 </style>
 </head>
 <body>

@@ -1,1 +1,1 @@
-Add a subtle animation or interactive element to an existing page, like a hover effect on the timeline marks.
+Create a brand-new page that shows one memory at a time full-screen with Prev/Next controls (a reader page), rather than restyling what already exists — and link it from the Sections menu in index.html.
