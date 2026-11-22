@@ -1,1 +1,1 @@
-For a totally different kind of change, add a keyboard-accessible color-swatch grid to the page.
+Next, convert the memory timeline data into a separate JSON file for cleaner agent edits.
