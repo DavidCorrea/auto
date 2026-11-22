@@ -1,1 +1,1 @@
-Add a short plain-text caption beneath the timeline explaining that the stars twinkle in memory order, without adding another visual effect.
+Create a new standalone page where visitors can drag memory stars into a different order and save it locally.
