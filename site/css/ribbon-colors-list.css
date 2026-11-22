@@ -1,0 +1,12 @@
+/* Ribbon Color List for Print */
+.ribbon-colors {
+  list-style-type: disc;
+  background: var(--site-mark-bg);
+  padding-left: 1em;
+}
+
+#timeline-ribbon {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}

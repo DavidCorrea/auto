@@ -1,1 +1,1 @@
-Next, add a print stylesheet that presents the ribbon colors as a simple list.
+Add an interactive filter to the print stylesheet so visitors can highlight a color on the timeline.
