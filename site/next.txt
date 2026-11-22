@@ -1,1 +1,1 @@
-Introduce a live drawing canvas page where users can sketch their memories interactively.
+Add a link from the homepage button row to memory-sketch.html so visitors can find the canvas.
