@@ -1,1 +1,1 @@
-This site is all pages and links — try a structural change instead, like a real navigation bar across a few pages or a new page that gathers the quietest corners (quiet.html, colophon, field-guide) into one “back room.”
+Next could add a small interactive scroll or sound gesture to the page.
