@@ -1,1 +1,1 @@
-Suggest a visual particle background that reacts to mouse movement, adding an animated, interactive layer to the site.
+Consider removing the audio‑visualizer.js and sound files to reduce runtime load and focus resources on visuals.

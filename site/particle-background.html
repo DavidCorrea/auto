@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Particle Background</title>
+<style>
+body { margin:0; background:#fff; display:flex; justify-content:center; align-items:center; height:100vh; font-family:sans-serif; }
+canvas { display:block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+const c = document.getElementById('c'), ctx = c.getContext('2d');
+let W, H;
+function resize() {
+  W = H = innerWidth = innerHeight;
+}
+window.addEventListener('resize', resize);
+resize();
+// generate 60 particles
+const pts = [];
+for (let i = 0; i < 60; i++) {
+  pts.push({
+    x: Math.random() * W,
+    y: Math.random() * H,
+    r: 0.4 + Math.random() * 1.6,
+    v: 0.04
+  });
+}
+let mx = -9999, my = -9999;
+function step() {
+  ctx.clearRect(0, 0, W, H);
+  for (const p of pts) {
+    const dx = mx - p.x;
+    const dy = my - p.y;
+    const d = Math.hypot(dx, dy);
+    if (d < p.v) {
+      p.x += dx / d * 0.35;
+      p.y += dy / d * 0.35;
+    }
+    // gentle drift
+    p.x += Math.cos(p.y * 0.001 + p.r * 10) * p.v;
+    p.y += Math.sin(p.x * 0.001 + p.r * 8) * p.v;
+    // wrap around edges
+    p.x = Math.max(p.r * 2, Math.min(W - p.r * 2, p.x));
+    p.y = Math.max(p.r * 2, Math.min(H - p.r * 2, p.y));
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI);
+    ctx.fillStyle = 'rgba(70,120,220,0.5)';
+    ctx.fill();
+  }
+  requestAnimationFrame(step);
+}
+function updateMouse() {
+  mx = event.clientX;
+  my = event.clientY;
+}
+window.addEventListener('pointermove', updateMouse);
+requestAnimationFrame(step);
+</script>
+</body>
+</html>
