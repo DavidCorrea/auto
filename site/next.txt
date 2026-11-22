@@ -1,1 +1,1 @@
-Add a new page that lists hidden interactions as tiny illustrated cards, so visitors can discover them without guessing.
+Add a CSS hover underline animation to every navigation link so the menu feels tactile when you move over it.
