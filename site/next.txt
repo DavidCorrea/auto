@@ -1,1 +1,1 @@
-Next: add a subtle hover effect that reveals each memory's title as a tooltip when hovering over its colored dot.
+Add a subtle page background tint that shifts to match each selected memory's color when its dot is clicked.
