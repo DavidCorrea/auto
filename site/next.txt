@@ -1,1 +1,1 @@
-Suggest a visual change — such as modifying the sky color scheme, adding a background pattern, or implementing a hover effect on navigation links.
+Consider adding an interactive particle system that responds to user scrolling — a different kind of visual change from hover effects.
