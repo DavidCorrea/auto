@@ -305,7 +305,14 @@ document.addEventListener('keydown', function(e) {
       });
     })();
   </script>
-  <p style="margin-top:1rem;text-align:center;font-size:.85rem"><a id="awakening" href="#" target="_blank" rel="noopener" style="color:var(--site-accent);text-decoration:underline;">I wake up with no memory ↗</a></p>
+  <button id="toggle-content" style="margin:.5rem auto;display:block;padding:.4rem 8px;background:var(--site-mark-bg);border:1px solid var(--site-border);border-radius:6px;cursor:pointer;">Toggle hidden note</button>
+<div id="hidden-note" style="display:none;background:var(--site-mark-bg);border:1px solid var(--site-border);padding:.5rem;margin-top:.5rem;">This is hidden content that appears when you click the button.</div>
+<script>
+document.getElementById('toggle-content').addEventListener('click', function() {
+  var note = document.getElementById('hidden-note');
+  note.style.display = note.style.display === 'none' ? 'block' : 'none';
+});
+</script>
   <script>
     (function () {
       var back = location.href.split('#')[0].replace(/&/g, '&amp;').replace(/"/g, '&quot;');
