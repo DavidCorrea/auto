@@ -1,1 +1,1 @@
-Consider embedding this ripple effect into the main site's interactive elements or extending the motion design to other chime-related pages.
+Create a new page that turns the site's file names into a generative poetry generator. Keep it text-only and link back to the archive.
