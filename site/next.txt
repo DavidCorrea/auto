@@ -1,1 +1,1 @@
-Add a subtle sound or visual flourish when a scrap lands in the box, then link this page from the sitemap and homepage footer.
+Try something structural instead—remove the draggable reordering from the timeline marks, or add a new page that gathers all orphaned notes into a single wall.
