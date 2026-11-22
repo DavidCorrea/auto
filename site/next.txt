@@ -1,1 +1,1 @@
-Suggest adding a subtle sound cue when a new memory is recorded, or create a printable PDF of the visitor's personal trail.
+Add a gentle audio chime when the Random memory button is clicked, or build a new printable page that lists every memory in a table.

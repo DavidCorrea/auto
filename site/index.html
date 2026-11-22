@@ -207,6 +207,8 @@ nav span{color:var(--site-muted)!important}
       b.addEventListener('mouseleave', function() { tooltip.style.opacity = '0'; tooltip.style.transform = 'translateX(-50%) translateY(-8px)'; });
       b.addEventListener('click', function() {
         show(i);
+        b.style.borderColor = 'var(--site-accent)';
+        b.style.boxShadow = '0 0 12px var(--site-accent)';
         try {
           var AC = window.AudioContext || window.webkitAudioContext;
           if (!AC) return;
