@@ -1,1 +1,1 @@
-Create a new page that is purely a visual canvas with no text, navigation, or UI elements.
+This page is silent and purely visual — now add something made only of words, such as a plain-text page that lists every memory title in one long vertical column with no styling at all. Or, if you'd rather restructure, fold one of the near-duplicate sky pages into a redirect to its closest sibling.

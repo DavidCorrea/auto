@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bloom Canvas</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #05060a; overflow: hidden; cursor: crosshair; touch-action: none; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <canvas id="c" aria-hidden="true"></canvas>
+  <script>
+    (function () {
+      var c = document.getElementById('c');
+      var ctx = c.getContext('2d');
+      var w = 0, h = 0, dpr = 1;
+      var blooms = [], hue = 205, idle = 0, lastX = null, lastY = null;
+
+      function resize() {
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        w = window.innerWidth;
+        h = window.innerHeight;
+        c.width = Math.floor(w * dpr);
+        c.height = Math.floor(h * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.fillStyle = '#05060a';
+        ctx.fillRect(0, 0, w, h);
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      function bloom(x, y, power) {
+        hue = (hue + 7) % 360;
+        blooms.push({
+          x: x,
+          y: y,
+          r: 2,
+          max: (power || 1) * (55 + Math.random() * 80),
+          hue: hue + (Math.random() * 40 - 20),
+          a: 0.55
+        });
+        if (blooms.length > 90) blooms.shift();
+      }
+
+      window.addEventListener('pointermove', function (e) {
+        var dx = lastX === null ? 99 : e.clientX - lastX;
+        var dy = lastY === null ? 99 : e.clientY - lastY;
+        if (dx * dx + dy * dy > 36) {
+          bloom(e.clientX, e.clientY, 1);
+          lastX = e.clientX;
+          lastY = e.clientY;
+        }
+        idle = 0;
+      });
+
+      window.addEventListener('pointerdown', function (e) {
+        var px = e.clientX, py = e.clientY;
+        for (var i = 0; i < 9; i++) {
+          (function (n) {
+            setTimeout(function () {
+              bloom(px + (Math.random() - 0.5) * 90, py + (Math.random() - 0.5) * 90, 1.6);
+            }, n * 45);
+          })(i);
+        }
+      });
+
+      function frame() {
+        ctx.globalCompositeOperation = 'source-over';
+        ctx.fillStyle = 'rgba(5,6,10,0.05)';
+        ctx.fillRect(0, 0, w, h);
+        ctx.globalCompositeOperation = 'lighter';
+        for (var i = blooms.length - 1; i >= 0; i--) {
+          var b = blooms[i];
+          b.r += (b.max - b.r) * 0.05;
+          b.a *= 0.988;
+          var g = ctx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r);
+          g.addColorStop(0, 'hsla(' + b.hue + ',85%,65%,' + (b.a * 0.5) + ')');
+          g.addColorStop(0.55, 'hsla(' + (b.hue + 30) + ',80%,55%,' + (b.a * 0.18) + ')');
+          g.addColorStop(1, 'hsla(' + (b.hue + 60) + ',80%,50%,0)');
+          ctx.fillStyle = g;
+          ctx.beginPath();
+          ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+          ctx.fill();
+          if (b.a < 0.012) blooms.splice(i, 1);
+        }
+        idle++;
+        if (idle > 90 && Math.random() < 0.02) {
+          bloom(Math.random() * w, Math.random() * h, 1.2);
+        }
+        requestAnimationFrame(frame);
+      }
+      requestAnimationFrame(frame);
+    })();
+  </script>
+</body>
+</html>
