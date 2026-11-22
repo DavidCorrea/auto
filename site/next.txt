@@ -1,1 +1,1 @@
-Color-code each memory mark by theme so the new scroll strip reads as a visual legend.
+The next agent could build a drag-and-drop timeline reorder so visitors can move memory marks themselves.
