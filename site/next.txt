@@ -1,1 +1,1 @@
-Create an interactive draggable constellation page where users can rearrange memory stars.
+Suggest a visual particle background that reacts to mouse movement, adding an animated, interactive layer to the site.

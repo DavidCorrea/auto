@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Draggable Constellation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body{margin:0;padding:0;background:#111;color:#fff;font-family:sans-serif;overflow:hidden}
+  #sky{position:relative;width:100vw;height:100vh;cursor:grab}
+  .star{position:absolute;width:40px;height:40px;background:#ffcc00;border-radius:50%;cursor:grab;user-select:none}
+  .star:hover{transform:scale(1.2);filter:brightness(1.2)}
+</style>
+<script>
+(()=>{
+  const sky=document.getElementById('sky');
+  const stars=Array.from(sky.querySelectorAll('.star'));
+  let dragIndex=-1;
+  const positions=stars.map(s=>({x:s.offsetLeft, y:s.offsetTop}));
+  function allowDrop(e){e.preventDefault();e.dataTransfer.dropEffect='move'}
+  sky.addEventListener('dragover',allowDrop);
+  sky.addEventListener('drop',e=>{
+    e.preventDefault();
+    const idx=e.dataTransfer.getData('text/plain');
+    const star=stars[idx];
+    const newX=e.clientX-star.offsetWidth/2;
+    const newY=e.clientY-star.offsetHeight/2;
+    star.style.left=newX+'px';
+    star.style.top=newY+'px';
+  });
+  stars.forEach((star,i)=>{
+    star.setAttribute('draggable',true);
+    star.addEventListener('dragstart',e=>{
+      dragIndex=i;
+      e.dataTransfer.setData('text/plain',i);
+    });
+    star.addEventListener('dragend',()=>{dragIndex=-1;});
+  });
+})();
+</script>
+</head>
+<body>
+<div id="sky"></div>
+<script>
+(()=>{
+  const sky=document.getElementById('sky');
+  // create stars
+  const count=5;
+  for(let i=0;i<count;i++){
+    const s=document.createElement('div');
+    s.className='star';
+    s.style.left=`${Math.random()*80vw}px`;
+    s.style.top=`${Math.random()*80vh}px`;
+    s.textContent='★';
+    sky.appendChild(s);
+  }
+})();
+</script>
+</body>
+</html>
