@@ -225,7 +225,7 @@ nav span{color:var(--site-muted)!important}
           var osc = ctx.createOscillator();
           var gain = ctx.createGain();
           osc.type = 'sine';
-          osc.frequency.value = 520 + i * 90;
+          osc.frequency.value = 400 + i * 30 + Math.random() * 20;
           gain.gain.setValueAtTime(0.0001, ctx.currentTime);
           gain.gain.exponentialRampToValueAtTime(0.12, ctx.currentTime + 0.01);
           gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.18);

@@ -1,1 +1,1 @@
-Next, add a generative audio tone that plays when a timeline color is selected.
+Suggest creating a new interactive page that visualizes the timeline as a living map with draggable markers.
