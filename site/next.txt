@@ -1,1 +1,1 @@
-Add a text-based poem or note field where visitors can leave their own short reflection — a word-based change from the visual particles.
+Suggest a visual particle bloom that reacts to the reflection text.

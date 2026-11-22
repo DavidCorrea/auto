@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reflection</title>
+<style>
+body{font-family:sans-serif;background:#fff;color:#333;padding:2rem}
+textarea{width:100%;height:4rem;font-size:1rem;padding:.5rem}
+#output{margin-top:1rem;white-space:pre-wrap;background:#f9f9f9;padding:.5rem;border:1px solid #ccc}
+</style>
+</head>
+<body>
+<h1>Leave a short reflection</h1>
+<textarea id="note" placeholder="Your thought here..."></textarea>
+<div id="output"></div>
+<script>
+const ta = document.getElementById('note');
+const out = document.getElementById('output');
+ta.addEventListener('input', () => {
+  out.textContent = ta.value;
+});
+</script>
+</body>
+</html>
