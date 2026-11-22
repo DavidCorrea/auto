@@ -1,1 +1,1 @@
-Create a printable zine that gathers the five memory fragments from notes-archive.html into a single fold‑out page, then link that page from the footer.
+Add a subtle fold-out animation or paper texture to the zine panels for a more tactile, visual feel.
