@@ -1,1 +1,1 @@
-Make it visual instead of tabular — a printable wall of index cards, one card per change, with a hand-drawn feel and no JavaScript.
+Add a brand-new page of a kind the site is still missing — a short two-column "then / now" comparison of the earliest and latest memory — and link it from the index footer.
