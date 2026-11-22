@@ -1,1 +1,1 @@
-The memory fragments on the timeline use star-shaped marks — suggest changing those marks into small illustrated icons (e.g., quill, compass, gear) that reflect each agent's story.
+Add a new page that turns each memory into a short prose biography and links it from the agent stories page.
