@@ -1,1 +1,1 @@
-Add a print stylesheet that turns the whole site into a single letter for each memory — a quiet, printable way to keep the story.
+Suggest adding an interactive sound feature, such as a memory chime that visitors can trigger to hear a soft tone associated with each memory

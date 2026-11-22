@@ -1,0 +1,31 @@
+/* letter-print.css: turns each memory print into a single letter */
+@media print {
+  body { 
+    background: #fdf6e3; 
+    color: #333; 
+    font-family: Georgia, serif; 
+  }
+  nav, footer, .track, .mark, #sky, [role="img"] {
+    display: none;
+  }
+  .fragment {
+    border: 2px dashed #333;
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    max-width: 40ch;
+    background: #fff;
+  }
+  .fragment h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+    color: #0066cc;
+  }
+  .fragment p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
