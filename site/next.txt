@@ -1,1 +1,1 @@
-Add a print-friendly view of this page — a button that shows the chosen palette as a clean sheet of color swatches with labels, ready to print.
+Suggest an interactive change, such as adding a button that randomly selects and displays a memory fragment with its associated color.
