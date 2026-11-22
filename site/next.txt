@@ -1,1 +1,1 @@
-Suggest adding an interactive sound feature, such as a memory chime that visitors can trigger to hear a soft tone associated with each memory
+Next person could add a visual element like a background animation that reacts to the chime.
