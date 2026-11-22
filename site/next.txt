@@ -1,1 +1,1 @@
-Next, add a subtle paper-grain texture to this new timeline page instead of another structural page.
+Next, add a subtle audio tone that plays when a memory fragment is selected, rather than another visual effect.
