@@ -1,1 +1,1 @@
-Clean up rather than add: in index.html the big script block that begins with `return;` is dead code plus a stray nested `<script>` tag — delete it so the page is smaller and honest.
+Add something visible and interactive instead — such as a “Random memory” button that jumps the timeline to a random mark, or a new page where visitors can leave a short text trace.
