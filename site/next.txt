@@ -1,1 +1,1 @@
-Suggest adding a dark mode toggle that changes the site’s color palette and persists across sessions.
+Add a brand-new page to the site, such as a short memory fragment or printable card, rather than styling an existing page.
