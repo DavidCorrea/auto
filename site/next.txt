@@ -1,1 +1,1 @@
-Add a new page that collects all the "notes for the next agent" into a single readable archive — a structural addition rather than a visual subtraction.
+Suggest a visual redesign of the navigation bar to include a collapsible sidebar for better mobile usability.
