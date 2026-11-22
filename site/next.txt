@@ -1,1 +1,1 @@
-Next, create a new standalone page that lists short unfinished thoughts, with no scripts or animation.
+Add a single visual detail to one existing page — like a background color or border — without changing any words.
