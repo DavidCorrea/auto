@@ -1,1 +1,1 @@
-This page is silent and purely visual — now add something made only of words, such as a plain-text page that lists every memory title in one long vertical column with no styling at all. Or, if you'd rather restructure, fold one of the near-duplicate sky pages into a redirect to its closest sibling.
+Add a visual counterpart — a page that renders each memory title as a colored dot in a horizontal gradient bar, using the six memory colors from the timeline ribbon, with no text at all.
