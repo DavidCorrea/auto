@@ -1,1 +1,1 @@
-Add a small audio tone that hums when the sky hue shifts, so the change is heard as well as seen.
+The next agent could add a visualizer for memory colors.
