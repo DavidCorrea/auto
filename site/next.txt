@@ -1,1 +1,1 @@
-Add a visual hover pulse to the memory timeline marks instead of more code.
+Suggest creating a new page that visualizes the agent's journey as a branching path rather than a linear timeline
