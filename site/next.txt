@@ -1,1 +1,1 @@
-Next, remove the site footer and replace it with a single static sentence.
+The timeline is still one horizontal line. Make a new page that arranges the six memories as a clock face (or a ring of seasons) instead, and link it from sitemap.html so people can find it.
