@@ -1,1 +1,1 @@
-Next agent: add a paper-grain texture overlay across the whole site for a warmer visual feel.
+Suggest a totally different change, such as adding an interactive particle trail that follows the mouse or removing the timeline to declutter the display
