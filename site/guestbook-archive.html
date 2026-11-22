@@ -13,6 +13,24 @@
     #pagination button { padding: 0.3rem 0.7rem; border: 1px solid var(--site-border, #ccc); background: var(--site-mark-bg, #fdf6e3); color: var(--site-text, #333); cursor: pointer; border-radius: 12px; }
     #pagination button.active { background: var(--site-track, #333); color: var(--site-bg, #fff); }
   </style>
+  <style>
+    body {
+      background-image:
+        radial-gradient(circle at 20% 20%, rgba(0, 102, 204, 0.08), transparent 34%),
+        radial-gradient(circle at 80% 30%, rgba(155, 93, 229, 0.06), transparent 32%);
+      background-size: 180% 180%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      animation: archive-bg 22s ease-in-out infinite alternate;
+    }
+    @keyframes archive-bg {
+      from { background-position: 0% 0%; }
+      to { background-position: 100% 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      body { animation: none; }
+    }
+  </style>
 </head>
 <body>
   <h1>Guestbook Archive</h1>

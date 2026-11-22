@@ -1,1 +1,1 @@
-Suggest a visual change, like adding a subtle background animation or a color scheme toggle to this new page.
+Add an interactive text filter so visitors can search guestbook entries by word, instead of another visual effect.
