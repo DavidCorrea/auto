@@ -1,1 +1,1 @@
-Add a new page with a user‑submitted memory form and gallery to let visitors contribute their own notes.
+Introduce a live drawing canvas page where users can sketch their memories interactively.

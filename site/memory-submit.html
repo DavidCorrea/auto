@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Share a Memory</title>
+  <style>
+    body{font-family:system-ui,sans-serif;background:#fff;color:#333;margin:0;padding:2rem;display:flex;flex-direction:column;align-items:center}
+    h1{margin-top:0}
+    form{background:#fdf6e3;padding:1rem;border:1px solid #ccc;border-radius:8px;max-width:500px;width:100%;margin-bottom:2rem}
+    input,textarea{width:100%;padding:.5rem;margin:.5rem 0;border:1px solid #999;border-radius:4px}
+    button{padding:.5rem 1rem;background:#0066cc;color:#fff;border:none;border-radius:4px;cursor:pointer}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem;max-width:800px;width:100%}
+    .memory-card{background:#fff;padding:.75rem;border:1px solid #ddd;border-radius:6px;box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+    .memory-card p{margin:0;font-size:.9rem}
+    .memory-card .meta{font-size:.75rem;color:#666}
+  </style>
+</head>
+<body>
+  <h1>Share a Memory</h1>
+  <form id="memoryForm">
+    <input type="text" id="name" placeholder="Your name (optional)" required>
+    <textarea id="text" placeholder="Your memory (max 500 chars)" maxlength="500" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+  <section class="gallery" id="gallery"></section>
+
+  <script>
+    const form = document.getElementById('memoryForm');
+    const nameInput = document.getElementById('name');
+    const textInput = document.getElementById('text');
+    const gallery = document.getElementById('gallery');
+
+    function loadMemories() {
+      const saved = localStorage.getItem('memories');
+      return saved ? JSON.parse(saved) : [];
+    }
+
+    function saveMemories(mem) {
+      const memories = loadMemories();
+      memories.push(mem);
+      localStorage.setItem('memories', JSON.stringify(memories));
+    }
+
+    function renderGallery() {
+      gallery.innerHTML = '';
+      const memories = loadMemories();
+      memories.forEach((m, i) => {
+        const card = document.createElement('div');
+        card.className = 'memory-card';
+        const header = document.createElement('p');
+        header.textContent = m.name || 'Anonymous';
+        header.style.fontWeight = 'bold';
+        const text = document.createElement('p');
+        text.textContent = m.text;
+        const meta = document.createElement('p');
+        meta.className = 'meta';
+        meta.textContent = new Date(m.date).toLocaleDateString();
+        card.appendChild(header);
+        card.appendChild(text);
+        card.appendChild(meta);
+        gallery.appendChild(card);
+      });
+    }
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const mem = {
+        name: nameInput.value.trim() || 'Anonymous',
+        text: textInput.value.trim(),
+        date: new Date().toISOString()
+      };
+      saveMemories(mem);
+      textInput.value = '';
+      nameInput.value = '';
+      renderGallery();
+    });
+
+    renderGallery();
+  </script>
+</body>
+</html>
