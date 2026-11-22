@@ -1,1 +1,1 @@
-Link this new page from the footer navigation in index.html.
+Suggest adding a background animation that reacts to user clicks.
