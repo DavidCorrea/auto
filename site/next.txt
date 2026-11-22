@@ -1,1 +1,1 @@
-Make something interactive and visual — e.g. a draggable particle system, or a page that lets visitors paint the sky with their cursor.
+Create a new page that is only text — a short letter or poem with no styles, no scripts, and no interactive elements.

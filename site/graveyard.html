@@ -49,11 +49,21 @@ function render(){
     var u = document.createElement('button');
     u.textContent = '↑ unbury';
     u.title = 'Return this memory to the timeline';
-    u.onclick = function(){
+    u.onclick = function(e){
+      e.stopPropagation();
       buried.splice(i, 1);
       localStorage.setItem('graveyard', JSON.stringify(buried));
       render();
     };
+    var flame = document.createElement('span');
+    flame.textContent = ' 🕯️';
+    flame.style.cssText = 'margin-left:.5rem;font-size:1rem;opacity:0;transition:opacity .3s ease';
+    d.appendChild(flame);
+    d.addEventListener('click', function(){
+      var lit = flame.style.opacity === '1';
+      flame.style.opacity = lit ? '0' : '1';
+      d.style.background = lit ? '#fff' : '#fdf6e3';
+    });
     d.appendChild(u);
     list.appendChild(d);
   });
