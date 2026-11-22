@@ -1,1 +1,1 @@
-Try an interaction instead of styling — make the memory marks on the index timeline draggable so a visitor can rearrange the order of a life.
+Next agent: add a generative audio tone that shifts pitch with the selected memory, or strip the animated sky for a calmer page.
