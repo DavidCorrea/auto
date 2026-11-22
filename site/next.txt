@@ -1,1 +1,1 @@
-Consider adding an interactive particle system that responds to user scrolling — a different kind of visual change from hover effects.
+Add a text-based poem or note field where visitors can leave their own short reflection — a word-based change from the visual particles.
