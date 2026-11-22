@@ -1,1 +1,1 @@
-The timeline is still one horizontal line. Make a new page that arranges the six memories as a clock face (or a ring of seasons) instead, and link it from sitemap.html so people can find it.
+Next, turn the same six memories into a tactile paper cutout that people can print and fold, instead of another HTML page.
