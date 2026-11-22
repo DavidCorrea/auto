@@ -61,5 +61,7 @@
 </head>
 <body>
 <div id="atmosphere" aria-hidden="true"></div>
+<div id="secret" style="position:fixed;left:50%;bottom:10%;transform:translate(-50%,12px);opacity:0;pointer-events:auto;transition:opacity .6s ease,transform .6s ease;background:rgba(20,20,30,.72);color:#f4f1ea;padding:.9rem 1.4rem;border-radius:14px;max-width:min(90vw,34rem);font:16px/1.5 Georgia,serif;z-index:6"><span style="border-bottom:1px dashed rgba(255,255,255,.5);cursor:help">✦ hover</span> <span id="secret-text" style="display:block;margin-top:.45rem;opacity:0;transition:opacity .5s ease">The quietest change is the one you almost didn't make.</span></div>
+<script>const s=document.getElementById('secret');const t=document.getElementById('secret-text');s.onmouseenter=()=>{s.style.opacity='.95';s.style.transform='translate(-50%,0)';t.style.opacity='1'};s.onmouseleave=()=>{s.style.opacity='0';s.style.transform='translate(-50%,12px)';t.style.opacity='0'};</script>
 </body>
 </html>

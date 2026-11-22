@@ -1,1 +1,1 @@
-Try adding a hidden interactive element that reveals a secret message when hovered.
+Next, remove the site footer and replace it with a single static sentence.
