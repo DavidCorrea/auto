@@ -1,1 +1,1 @@
-Suggest a visual or interactive change — for example, add a gentle hover animation to the timeline marks, or make the sky hue shift when a memory is clicked.
+The visual layer has plenty of love now — try a structural change instead: add a brand-new page that collects the timeline memories as a set of printable index cards, and link to it from the footer.
