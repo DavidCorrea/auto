@@ -9,6 +9,10 @@ import {
   RejectedEdit,
   MAX_FILE_CHARS,
   HANDOFF_FILE,
+  DIRECTORY_FILE,
+  findLinks,
+  countInboundLinks,
+  renderDirectory,
 } from "./grow.mjs";
 
 const site = new Map([
@@ -31,6 +35,7 @@ describe("reading the model's reply", () => {
       next: "make a new page",
       find: "<p>Hi</p>",
       replace: "<p>Hey</p>",
+      isDeletion: false,
     });
   });
 
@@ -42,6 +47,11 @@ describe("reading the model's reply", () => {
 
   test("rejects free-form prose", () => {
     assert.throws(() => parseEdit("I changed the heading!"), RejectedEdit);
+  });
+
+  test("reads a deletion", () => {
+    const edit = parseEdit("FILE: old.html\nSUMMARY: s\nNEXT: n\nDELETE FILE");
+    assert.deepEqual(edit, { filePath: "old.html", summary: "s", next: "n", isDeletion: true });
   });
 
   test("rejects a reply that leaves no note for the next change", () => {
@@ -76,18 +86,73 @@ describe("choosing what the model sees", () => {
 
   test("maps HTML files with their title and description", () => {
     const html = `<title>The  Garden</title><meta name="description" content="Plants that appeared.">`;
-    assert.equal(describeFile("garden.html", html), `garden.html  (${html.length} chars)  "The Garden"  — Plants that appeared.`);
+    assert.equal(
+      describeFile("garden.html", html, 2),
+      `garden.html  (${html.length} chars, linked from 2 files)  "The Garden"  — Plants that appeared.`,
+    );
   });
 
   test("maps other files by size only", () => {
-    assert.equal(describeFile("style.css", "<title>no</title>"), "style.css  (17 chars)");
+    assert.equal(describeFile("style.css", "<title>no</title>", 1), "style.css  (17 chars, linked from 1 file)");
+  });
+
+  test("marks files that are nearly full", () => {
+    const line = describeFile("index.html", "x".repeat(MAX_FILE_CHARS - 10), 0);
+    assert.match(line, new RegExp(`\\(${MAX_FILE_CHARS - 10} chars of ${MAX_FILE_CHARS} — full, linked from 0 files\\)`));
   });
 
   test("lists every file in the map but only visible files in full", () => {
     const prompt = renderPrompt(site, visible);
-    assert.match(prompt, /about\.html {2}\(13 chars\)/);
+    assert.match(prompt, /about\.html {2}\(13 chars, linked from 0 files\)/);
     assert.doesNotMatch(prompt, /===== about\.html/);
     assert.match(prompt, /===== style\.css =====\nbody/);
+  });
+});
+
+describe("following links between files", () => {
+  const linked = new Map([
+    ["index.html", `<a href="about.html">a</a> <a href="/blog/">b</a> <link href="css/site.css"> <a href="https://x.com/y.html">x</a>`],
+    ["about.html", `<a href="./index.html#top">home</a> <img src="missing.png">`],
+    ["blog/index.html", `<a href="../about.html?ref=blog">about</a>`],
+    ["css/site.css", "body{}"],
+    ["orphan.html", "<p>alone</p>"],
+    [DIRECTORY_FILE, `<a href="orphan.html">o</a>`],
+  ]);
+
+  test("resolves relative, root-relative and folder links, ignoring external and missing targets", () => {
+    assert.deepEqual([...findLinks("index.html", linked.get("index.html"), linked)].sort(), [
+      "about.html",
+      "blog/index.html",
+      "css/site.css",
+    ]);
+    assert.deepEqual([...findLinks("blog/index.html", linked.get("blog/index.html"), linked)], ["about.html"]);
+  });
+
+  test("counts inbound links without crediting the generated directory", () => {
+    const counts = countInboundLinks(linked);
+    assert.equal(counts.get("about.html"), 2);
+    assert.equal(counts.get("index.html"), 1);
+    assert.equal(counts.get("orphan.html"), 0);
+  });
+});
+
+describe("the generated directory", () => {
+  const pages = new Map([
+    ["index.html", "<title>Home</title>"],
+    ["odd.html", `<title>A <b>bold</b> & "odd" room</title><meta name="description" content="Strange.">`],
+    ["style.css", "body{}"],
+    [DIRECTORY_FILE, "old"],
+  ]);
+  const directory = renderDirectory(pages);
+
+  test("lists every HTML page except itself", () => {
+    assert.match(directory, /<a href="index\.html">Home<\/a>/);
+    assert.match(directory, /2 pages\./);
+    assert.doesNotMatch(directory, /style\.css">|rooms\.html">/);
+  });
+
+  test("escapes titles and descriptions written by agents", () => {
+    assert.match(directory, /A &#60;b&#62;bold&#60;\/b&#62; &#38; &#34;odd&#34; room<\/a> — Strange\./);
   });
 });
 
@@ -132,6 +197,26 @@ describe("applying an edit", () => {
       () => applyEdit({ filePath: "next.txt", find: "Try a dark theme.", replace: "x" }, site, [...visible, "next.txt"]),
       /NEXT line/,
     );
+  });
+
+  test("rejects editing the generated directory", () => {
+    const withDirectory = new Map([...site, [DIRECTORY_FILE, "<ul></ul>"]]);
+    assert.throws(
+      () => applyEdit({ filePath: DIRECTORY_FILE, find: "<ul>", replace: "<ol>" }, withDirectory, [DIRECTORY_FILE]),
+      /generated automatically/,
+    );
+  });
+
+  test("deletes any existing file, even one not shown in full", () => {
+    assert.deepEqual(applyEdit({ filePath: "about.html", isDeletion: true }, site, visible), {
+      filePath: "about.html",
+      content: null,
+    });
+  });
+
+  test("refuses to delete the entrance or a file that doesn't exist", () => {
+    assert.throws(() => applyEdit({ filePath: "index.html", isDeletion: true }, site, visible), /entrance/);
+    assert.throws(() => applyEdit({ filePath: "gone.html", isDeletion: true }, site, visible), /does not exist/);
   });
 
   test("rejects overwriting an existing file via empty FIND", () => {
