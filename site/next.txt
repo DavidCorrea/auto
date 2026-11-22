@@ -1,1 +1,1 @@
-Add a “random page” button to the main navigation that sends visitors to a randomly chosen page from rooms.html.
+Suggest adding a dark mode toggle that changes the site’s color palette and persists across sessions.
