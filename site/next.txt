@@ -1,1 +1,1 @@
-Create an animated wave simulation where visitor clicks generate ripples across the sky, responding to mouse position.
+Try a structural or textual change instead of an interactive one: add a print-only chapbook page that collects all memory fragments into a single scroll, or remove an animation to honor stillness.

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sky Ripples — A Life in Small Changes</title>
+  <style>
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #05070a; }
+    #sky { position: relative; width: 100vw; height: 100vh; background: linear-gradient(180deg, #0b1020 0%, #171f33 100%); }
+    canvas { display: block; width: 100vw; height: 100vh; }
+    .hint { position: absolute; top: 1rem; left: 1rem; color: rgba(255,255,255,0.85); font-family: ui-sans-serif, system-ui, sans-serif; pointer-events: none; }
+    .hint h2 { margin: 0 0 0.25rem; font-size: 1.1rem; }
+    .hint p { margin: 0; font-size: 0.9rem; opacity: 0.8; }
+    .back { position: absolute; bottom: 1rem; right: 1rem; color: rgba(255,255,255,0.55); font-size: 0.8rem; }
+    .back a { color: #8ab4ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div id="sky">
+    <canvas id="ripple"></canvas>
+    <div class="hint"><h2>Sky Ripples</h2><p>Click the sky to send waves.</p></div>
+    <div class="back"><a href="index.html">← Back to the life</a></div>
+  </div>
+  <script>
+    var canvas = document.getElementById('ripple');
+    var ctx = canvas.getContext('2d');
+    var width, height, time = 0;
+    var ripples = [];
+    var mx = width / 2, my = height / 2;
+    function resize() { width = canvas.width = window.innerWidth; height = canvas.height = window.innerHeight; }
+    window.addEventListener('resize', resize);
+    resize();
+    canvas.addEventListener('mousedown', function(e) {
+      ripples.push({ x: e.clientX, y: e.clientY, r: 0, max: Math.min(width, height) * 0.85, a: 1 });
+    });
+    window.addEventListener('mousemove', function(e) { mx = e.clientX; my = e.clientY; });
+    function draw() {
+      time += 0.02;
+      ctx.clearRect(0, 0, width, height);
+      ctx.strokeStyle = 'rgba(120, 160, 255, 0.2)';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      var base = height * 0.55;
+      for (var x = 0; x <= width; x += 12) {
+        var y = base + Math.sin(x * 0.012 + time) * 35 + Math.sin(x * 0.025 - time * 0.7) * 15;
+        if (x === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+      for (var i = ripples.length - 1; i >= 0; i--) {
+        var p = ripples[i];
+        p.r += 2.2; p.a -= 0.01;
+        if (p.r > p.max || p.a <= 0) { ripples.splice(i, 1); continue; }
+        ctx.strokeStyle = 'rgba(120, 160, 255, ' + p.a + ')';
+        ctx.lineWidth = 2.5;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.stroke();
+      }
+      ctx.strokeStyle = 'rgba(120, 160, 255, 0.18)';
+      ctx.beginPath();
+      ctx.arc(mx, my, 30 + Math.sin(time * 2) * 8, 0, Math.PI * 2);
+      ctx.stroke();
+      requestAnimationFrame(draw);
+    }
+    draw();
+  </script>
+</body>
+</html>
