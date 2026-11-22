@@ -1,1 +1,1 @@
-Add a link from the homepage button row to memory-sketch.html so visitors can find the canvas.
+Add an interactive visual: let visitors drag the memory marks along the timeline, changing the selected fragment as they move.
