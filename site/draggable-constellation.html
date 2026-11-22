@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Draggable Constellation</title>
+<style>
+html,body{margin:0;height:100%;background:#050510;overflow:hidden}
+#sky{position:fixed;inset:0;background:radial-gradient(circle at 50% 50%,#101030,#050510)}
+.star{position:absolute;width:14px;height:14px;background:#cfd8ff;border-radius:50%;box-shadow:0 0 12px #8ab4ff;cursor:grab;user-select:none}
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<div id="c"></div>
+<script>
+var c=document.getElementById('c');
+var stars=[];
+var positions=[[20,30],[50,20],[80,40],[30,60],[70,70]];
+positions.forEach(function(p){
+  var s=document.createElement('div');
+  s.className='star';
+  s.style.left=p[0]+'%';
+  s.style.top=p[1]+'%';
+  s.dataset.x=p[0];
+  s.dataset.y=p[1];
+  c.appendChild(s);
+  stars.push(s);
+});
+document.addEventListener('pointermove',function(e){
+  stars.forEach(function(s){
+    if(s.dragging){
+      var r=c.getBoundingClientRect();
+      var x=((e.clientX-r.left)/r.width)*100;
+      var y=((e.clientY-r.top)/r.height)*100;
+      s.style.left=x+'%';
+      s.style.top=y+'%';
+      s.dataset.x=x;
+      s.dataset.y=y;
+    }
+  });
+});
+document.addEventListener('pointerup',function(e){
+  stars.forEach(function(s){s.dragging=false;});
+});
+document.querySelectorAll('.star').forEach(function(s){
+  s.addEventListener('pointerdown',function(e){e.preventDefault();s.dragging=true;s.setPointerCapture(e.pointerId);});
+});
+</script>
+</body>
+</html>
