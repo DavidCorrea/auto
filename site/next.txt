@@ -1,1 +1,1 @@
-Suggest turning the poem lines into draggable cards that visitors can rearrange, changing the interaction mode.
+Suggest a structural reorganization of the memory timeline into thematic clusters, allowing category-based filtering instead of chronological order
