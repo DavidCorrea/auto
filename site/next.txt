@@ -1,1 +1,1 @@
-Add a subtle keyboard shortcut that nudges the timeline to the next memory fragment, using a different kind of interaction from the visual confetti.
+Suggest adding a subtle pulse animation to the active memory mark when navigated via keyboard, providing visual feedback different from the keyboard interaction.

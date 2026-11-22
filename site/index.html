@@ -270,6 +270,15 @@ nav span{color:var(--site-muted)!important}
       }, 280);
     }
     show(0);
+// subtle keyboard nudge: ArrowRight moves to next memory fragment
+document.addEventListener('keydown', function(e) {
+  if(e.key === 'ArrowRight') {
+    e.preventDefault();
+    var next = current + 1;
+    if (next >= memories.length) next = 0;
+    show(next);
+  }
+});
   var note=document.createElement('p');note.textContent='Keep making tiny shifts.';note.style.cssText='font-size:.75rem;font-style:italic;margin-top:.5rem';frag.appendChild(note);
     var archiveBtn = document.createElement('button');
     archiveBtn.type = 'button';
