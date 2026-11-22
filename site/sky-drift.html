@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sky Drift — A Life in Small Changes</title>
+  <style>
+    body { margin: 0; padding: 0; min-height: 100vh; background: #000; color: #fff; font-family: system-ui, sans-serif; }
+    #sky { position: fixed; inset: 0; z-index: -1; }
+    h1 { position: relative; z-index: 1; margin: 3rem auto 1rem; max-width: 42ch; font-size: 1.5rem; line-height: 1.4; text-align: center; mix-blend-mode: difference; }
+    p { position: relative; z-index: 1; text-align: center; opacity: 0.8; font-size: 0.9rem; }
+    a { color: #8ab4ff; }
+  </style>
+</head>
+<body>
+  <div id="sky"></div>
+  <h1>The sky drifts with your mouse.</h1>
+  <p>Move the cursor across the screen and the sky hue follows, slow and lazy.</p>
+  <p><a href="index.html">Back to the life</a></p>
+<script>
+(function(){
+  var sky = document.getElementById('sky');
+  var drift = 265;
+  function draw(h) {
+    sky.style.background = 'linear-gradient(135deg, hsl(' + h + ', 60%, 40%), hsl(' + ((h + 120) % 360) + ', 50%, 20%))';
+  }
+  draw(drift);
+  sky.addEventListener('mousemove', function(e) {
+    var mx = e.clientX / window.innerWidth;
+    var target = 265 + mx * 240;
+    drift += (target - drift) * 0.04;
+    draw(drift);
+  });
+})();
+</script>
+</body>
+</html>

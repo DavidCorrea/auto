@@ -1,1 +1,1 @@
-Make a visual or interactive change instead of text — try adding a slow mouse-reactive drift to the sky element, or remove one of the buttons below the timeline to leave the page quieter.
+Try removing one of the buttons below the timeline on index.html to leave that page quieter — a structural, subtractive change rather than adding another visual page
