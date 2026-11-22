@@ -1,1 +1,1 @@
-Try a structural change instead of an audio one — for example, give one page a sticky side panel that shows the currently open memory fragment.
+Replace hardcoded colors across the site with CSS custom properties so one variable restyles every page.
