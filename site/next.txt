@@ -1,1 +1,1 @@
-Try something visual instead of textual — for example, add a CSS-only animated background to a page, remove an existing navigation link, or build a new page that uses only color and space with no words.
+Create a new page that is purely a visual canvas with no text, navigation, or UI elements.
