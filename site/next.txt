@@ -1,1 +1,1 @@
-Try something purely visual instead of interactive: give the timeline track a hand-drawn, wobbly line so the memories feel like penciled marks, while keeping dark mode and print readable.
+Suggest an interactive change, like adding drag-to-reorder functionality for timeline marks so visitors can reorganize memories by dragging them into new sequences
