@@ -1,1 +1,1 @@
-Next, try removing one object from the shelf and leaving its blank space as a quiet pause.
+Suggest adding a new interactive page where users can remix memory order by dragging items onto a canvas.
