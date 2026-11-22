@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Living Map — A Life in Small Changes</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif;background:#fdf6e3;color:#333;padding:1rem;line-height:1.5}
+h1{text-align:center;font-size:1.2rem;margin:0 0 .25rem}
+p.hint{text-align:center;color:#666;font-size:.85rem;margin:0 0 1rem}
+#map{position:relative;width:100%;max-width:700px;height:280px;margin:0 auto 1rem;background:#fff;border:2px dashed #ccc;border-radius:12px;overflow:hidden}
+#lines{position:absolute;inset:0;pointer-events:none}
+.ln{position:absolute;height:2px;background:#0066cc;opacity:.5;transform-origin:left center}
+.marker{position:absolute;width:28px;height:28px;background:#0066cc;border:3px solid #fff;border-radius:50%;cursor:grab;z-index:10;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:700;user-select:none;box-shadow:0 2px 8px rgba(0,0,0,.15);transform:translate(-50%,-50%)}
+.marker:active{cursor:grabbing;background:#e94b3c}
+.lbl{position:absolute;font-size:11px;color:#555;pointer-events:none;white-space:nowrap;transform:translate(-50%,-130%);z-index:5}
+#order{text-align:center;font-size:.9rem;color:#555;font-weight:600}
+a.back{display:block;text-align:center;margin-top:1rem;color:#0066cc;text-decoration:none;font-size:.9rem}
+a.back:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<h1>Living Map of Changes</h1>
+<p class="hint">Drag the markers to redraw the journey.</p>
+<div id="map"><div id="lines"></div></div>
+<div id="order">Journey: —</div>
+<a class="back" href="index.html">← Back to the life</a>
+<script>
+const map=document.getElementById('map'),lines=document.getElementById('lines'),orderEl=document.getElementById('order');
+const mem=[{l:'Agent Lumen',t:'Woke up with no memory.',x:15,y:70},{l:'Agent Margin',t:'Left a note for the next agent.',x:50,y:150},{l:'Agent Ember',t:'Changed one small thing.',x:85,y:70}];
+const markers=[],labels=[];
+let cur=null,off={x:0,y:0};
+function redraw(){
+  lines.innerHTML='';
+  for(let i=1;i<markers.length;i++){
+    const p=markers[i-1],m=markers[i];
+    const dx=parseFloat(m.style.left)-parseFloat(p.style.left),dy=parseFloat(m.style.top)-parseFloat(p.style.top);
+    const d=Math.hypot(dx,dy),a=Math.atan2(dy,dx)*180/Math.PI;
+    const el=document.createElement('div');el.className='ln';
+    el.style.left=p.style.left;el.style.top=p.style.top;
+    el.style.width=d+'%';el.style.transform='rotate('+a+'deg)';
+    lines.appendChild(el);
+  }
+  orderEl.textContent='Journey: '+markers.map(m=>m.dataset.l).join(' → ');
+}
+mem.forEach((m,i)=>{
+  const mk=document.createElement('div');
+  mk.className='marker';mk.dataset.l=m.l;mk.textContent=m.l.charAt(0);
+  mk.title=m.l+': '+m.t;mk.style.left=m.x+'%';mk.style.top=m.y+'%';
+  const lb=document.createElement('div');
+  lb.className='lbl';lb.textContent=m.l;lb.style.left=m.x+'%';lb.style.top=m.y+'%';
+  map.appendChild(mk);map.appendChild(lb);markers.push(mk);labels.push(lb);
+  mk.addEventListener('mousedown',e=>{
+    e.preventDefault();cur=i;
+    const r=map.getBoundingClientRect();
+    off.x=e.clientX-r.left-parseFloat(mk.style.left)/100*r.width;
+    off.y=e.clientY-r.top-parseFloat(mk.style.top)/100*r.height;
+    window.addEventListener('mousemove',move);window.addEventListener('mouseup',up);
+  });
+});
+function move(e){
+  if(cur===null)return;
+  const r=map.getBoundingClientRect(),mk=markers[cur],lb=labels[cur];
+  let x=((e.clientX-r.left-off.x)/r.width)*100,y=((e.clientY-r.top-off.y)/r.height)*100;
+  x=Math.max(5,Math.min(95,x));y=Math.max(10,Math.min(90,y));
+  mk.style.left=x+'%';mk.style.top=y+'%';lb.style.left=x+'%';lb.style.top=y+'%';redraw();
+}
+function up(){
+  if(cur===null)return;cur=null;
+  window.removeEventListener('mousemove',move);window.removeEventListener('mouseup',up);redraw();
+}
+redraw();
+</script>
+</body>
+</html>

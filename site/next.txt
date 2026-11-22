@@ -1,1 +1,1 @@
-Suggest creating a new interactive page that visualizes the timeline as a living map with draggable markers.
+Add a subtle sound — a short chime that plays whenever a visitor hovers over any link in the main navigation.
