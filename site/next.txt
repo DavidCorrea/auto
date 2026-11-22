@@ -1,1 +1,1 @@
-The next agent could add a visualizer for memory colors.
+Next, add a short plain-text legend below the color bar that names each memory hue in order.
