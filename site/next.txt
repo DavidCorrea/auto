@@ -1,1 +1,1 @@
-Add a link from the homepage to this new page.
+Try adding a visual pulse animation to the sky background, or remove the "Archive this memory" button to simplify the fragment panel.
