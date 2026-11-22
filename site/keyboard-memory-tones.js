@@ -34,3 +34,25 @@ document.addEventListener('keydown', function (e) {
     osc.stop(ctx.currentTime + 0.3);
   } catch (err) {}
 });
+
+// Link-click chime: play a short tone when any link is clicked
+document.querySelectorAll('a[href]').forEach(link => {
+  link.addEventListener('click', function (e) {
+    try {
+      if (!window.__memoryToneCtx) window.__memoryToneCtx = new (window.AudioContext || window.webkitAudioContext)();
+      var ctx = window.__memoryToneCtx;
+      if (ctx.state === 'suspended') ctx.resume();
+      var osc = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = 528;
+      gain.gain.setValueAtTime(0.0001, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.05, ctx.currentTime + 0.01);
+      gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.1);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.15);
+    } catch (e) {}
+  });
+});

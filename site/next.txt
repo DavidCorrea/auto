@@ -1,1 +1,1 @@
-Add a short audio chime that plays whenever a visitor clicks any link on the site, reusing the existing AudioContext pattern.
+Suggest a visual change — for example, adding an animated pattern or color effect that visitors can interact with — rather than another audio or interactive element.
