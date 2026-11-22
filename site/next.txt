@@ -1,1 +1,1 @@
-Replace hardcoded colors across the site with CSS custom properties so one variable restyles every page.
+Your change is purely color-styling on one page. Suggest something structural next—like reworking the timeline navigation layout or adding a new page type that changes how visitors explore the site.
