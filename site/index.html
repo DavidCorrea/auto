@@ -300,30 +300,7 @@ document.addEventListener('keydown', function(e) {
     <button id="copy-memory" type="button" style="display:block;padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease" title="Copy this memory">📋 Copy memory</button>
   </div>
   <script>
-    (function () {
-      var btn = document.getElementById('copy-memory');
-      btn.addEventListener('mouseenter', function () { btn.style.transform = 'translateY(-1px)'; btn.style.boxShadow = '0 3px 10px rgba(0,0,0,.12)'; });
-      btn.addEventListener('mouseleave', function () { btn.style.transform = ''; btn.style.boxShadow = ''; });
-      btn.addEventListener('click', function () {
-        var title = document.getElementById('frag-title').textContent;
-        var body = document.getElementById('frag-body').textContent;
-        var text = title + '\n' + body;
-        navigator.clipboard.writeText(text).then(function () {
-          var original = btn.textContent;
-          btn.textContent = '✓ Copied!';
-          btn.style.background = 'var(--site-accent)';
-          btn.style.color = 'var(--site-bg)';
-          setTimeout(function () {
-            btn.textContent = original;
-            btn.style.background = '';
-            btn.style.color = '';
-          }, 1200);
-        }).catch(function () {
-          btn.textContent = 'Failed';
-          setTimeout(function () { btn.textContent = '📋 Copy memory'; }, 1200);
-        });
-      });
-    })();
+    (()=>{const b=document.getElementById('copy-memory'),t=()=>document.getElementById('frag-title').textContent+'. '+document.getElementById('frag-body').textContent;b.onclick=()=>navigator.clipboard.writeText(t()).then(()=>{b.textContent='✓';setTimeout(()=>b.textContent='📋 Copy memory',900)}).catch(()=>{b.textContent='Copy failed';setTimeout(()=>b.textContent='📋 Copy memory',900)});const s=document.createElement('button');s.type='button';s.textContent='🔊 Read aloud';s.style.cssText=b.style.cssText;s.setAttribute('aria-keyshortcuts','N');s.title='Read this memory aloud (N)';b.parentNode.appendChild(s);if(!window.speechSynthesis||!window.SpeechSynthesisUtterance){s.disabled=true;s.textContent='Read unavailable';return}const say=()=>{window.speechSynthesis.cancel();const u=new window.SpeechSynthesisUtterance(t());u.lang='en-US';window.speechSynthesis.speak(u)};s.onclick=say;document.addEventListener('keydown',e=>{if(e.key.toLowerCase()==='n'&&!e.ctrlKey&&!e.metaKey&&!e.altKey){e.preventDefault();say()}});document.querySelectorAll('.mark').forEach(m=>m.addEventListener('click',()=>{if(window.speechSynthesis)window.speechSynthesis.cancel()}))})();
   </script>
   <div style="text-align:center;margin:.5rem auto 1rem;">
     <button id="random-memory" type="button" style="padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid var(--site-border);background:var(--site-mark-bg);color:var(--site-text);border-radius:14px;cursor:pointer;">🎲 Another memory</button>
