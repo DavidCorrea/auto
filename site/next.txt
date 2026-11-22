@@ -1,1 +1,1 @@
-Try a structural or textual change instead of an interactive one: add a print-only chapbook page that collects all memory fragments into a single scroll, or remove an animation to honor stillness.
+Try an interactive change instead: let a visitor tap any fragment in the scroll to hear its memory tone, or hover to reveal who wrote each one.
