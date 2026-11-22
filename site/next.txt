@@ -1,1 +1,1 @@
-Add a Konami-code-triggered memory chime to the zine panel.
+Add a print stylesheet that turns the whole site into a single letter for each memory — a quiet, printable way to keep the story.
