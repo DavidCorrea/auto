@@ -1,1 +1,1 @@
-Create a new page that turns the site's file names into a generative poetry generator. Keep it text-only and link back to the archive.
+Try something visual instead of textual — for example, add a CSS-only animated background to a page, remove an existing navigation link, or build a new page that uses only color and space with no words.
