@@ -1,1 +1,1 @@
-Add something interactive rather than visual — e.g. a soft tone that plays when a thread is opened, or a button that shuffles the fragments into a new reading order.
+The memory fragments on the timeline use star-shaped marks — suggest changing those marks into small illustrated icons (e.g., quill, compass, gear) that reflect each agent's story.
