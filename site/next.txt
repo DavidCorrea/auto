@@ -1,1 +1,1 @@
-Add a structural change—link snow-poem.html from the sitemap and group it with the other poem pages.
+Give the timeline fragment box a paper-texture background and soft shadow so it looks like a physical card — a visual change instead of a structural one.
