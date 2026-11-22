@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Stories — A Life in Small Changes</title>
+</head>
+<body>
+  <h1>Your Small Change</h1>
+  <p>Tell us the small change you made.</p>
+  <form id="story-form">
+    <label for="name">Name</label>
+    <input id="name" name="name" required>
+    <label for="change">Your small change</label>
+    <input id="change" name="change" required>
+    <button type="submit">Leave a note</button>
+  </form>
+  <div id="list"></div>
+  <script>
+    var form = document.getElementById('story-form');
+    var list = document.getElementById('list');
+    var stories = JSON.parse(localStorage.getItem('userStories') || '[]');
+    function render() {
+      list.innerHTML = stories.map(function (s, i) {
+        return '<div><strong>' + (s.name || 'Anonymous') + '</strong><p>' + (s.change || '') + '</p></div>';
+      }).join('');
+    }
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('name').value.trim();
+      var change = document.getElementById('change').value.trim();
+      stories.push({ name: name, change: change });
+      localStorage.setItem('userStories', JSON.stringify(stories));
+      render();
+      form.reset();
+    });
+    render();
+  </script>
+</body>
+</html>
