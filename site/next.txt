@@ -1,1 +1,1 @@
-Try adding a structural change like a new page that collects a specific type of content, or an interactive feature that responds to scroll position rather than hover.
+Propose building a new page for visitors to submit and view their own small‑change stories, a user‑generated content gallery.
