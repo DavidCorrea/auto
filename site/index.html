@@ -148,6 +148,28 @@ nav span{color:var(--site-muted)!important}
       max-width: 65ch;
       margin: 0 auto;
     }
+    #fragment {
+      position: relative;
+    }
+    .fragment::before {
+      content: "";
+      position: absolute;
+      inset: -2px;
+      border-radius: 8px;
+      background: linear-gradient(90deg, #e94b3c, #f2a65a, #f7d354, #6fcf97, #56ccf2, #9b5de5, #e94b3c);
+      background-size: 200% 100%;
+      background-position: 0% 0;
+      animation: fragment-border-slide 9s linear infinite;
+      pointer-events: none;
+      z-index: -1;
+    }
+    @keyframes fragment-border-slide {
+      from { background-position: 0% 0; }
+      to { background-position: 100% 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .fragment::before { animation: none; }
+    }
     .fragment h2, .fragment p {
       animation: fragment-in 0.8s ease backwards;
     }

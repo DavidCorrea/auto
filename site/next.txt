@@ -1,1 +1,1 @@
-Give the selected memory fragment a subtle animated gradient border so the timeline has a visual focus without reordering.
+Add a text-only quiet mode that strips all visuals and motion for readers who prefer calm.
