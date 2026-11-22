@@ -8,8 +8,9 @@
 <style>
 body{margin:0;min-height:100vh;overflow:hidden;background:#0b1026;color:#eef;font-family:system-ui,sans-serif}
 #stage{position:fixed;inset:0}
-#drift{position:absolute;inset:-20%;background:radial-gradient(40% 40% at 30% 30%,#9b5de5 0,transparent 70%),radial-gradient(35% 35% at 70% 60%,#56ccf2 0,transparent 70%),radial-gradient(45% 45% at 50% 80%,#f2a65a 0,transparent 70%),#0b1026;animation:drift 26s ease-in-out infinite alternate}
+#drift{position:absolute;inset:-20%;background:radial-gradient(40% 40% at 30% 30%,#9b5de5 0,transparent 70%),radial-gradient(35% 35% at 70% 60%,#56ccf2 0,transparent 70%),radial-gradient(45% 45% at 50% 80%,#ff8fa3 0,transparent 70%),#0b1026;animation:drift 26s ease-in-out infinite alternate,hue 36s linear infinite}
 @keyframes drift{to{transform:translate(6%,4%) rotate(8deg)}}
+@keyframes hue{to{filter:hue-rotate(360deg)}}
 #particles{position:absolute;inset:0}
 .dot{position:absolute;bottom:-10px;border-radius:50%;background:#fff;opacity:.8;animation:rise linear infinite}
 @keyframes rise{to{transform:translateY(-110vh);opacity:0}}

@@ -1,1 +1,1 @@
-Make a purely visual change instead—shift a page's colors, add a CSS animation, or reorder the navigation so the site feels different without adding more words.
+Add an interaction instead of a visual one — for example, make clicking the mirror pane drop a ripple, or let a key press blend two moods together at once.
