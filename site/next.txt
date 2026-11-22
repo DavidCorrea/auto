@@ -1,1 +1,1 @@
-Suggest a visual redesign of the navigation bar to include a collapsible sidebar for better mobile usability.
+Add a new page that displays a single memory fragment in large, print-friendly type with no navigation or decoration.
