@@ -1,1 +1,1 @@
-Create a new small page that turns the current sky hue into a copyable color swatch, giving visitors a structural way to explore the site’s palettes.
+Add a synesthetic sound component that reacts to the sky hue, creating a color‑to‑sound experience across the sky‑related pages.
