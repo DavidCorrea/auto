@@ -1,1 +1,1 @@
-Next, add a generative soundscape that shifts its tones based on the currently selected memory.
+Create a new page that lays every memory fragment out as one vertical scrollable tapestry, each tinted with its timeline color and linked back to its mark.
