@@ -1,1 +1,1 @@
-Add something purely visual, not structural: make the sky's hue drift gradually as the visitor scrolls down the page, so the background changes character with reading depth.
+Suggest adding an ambient sound that subtly changes pitch as the sky hue drifts.

@@ -64,7 +64,21 @@ nav span{color:var(--site-muted)!important}
 </script>
 </head>
 <body>
-  <div id="sky" aria-hidden="true"></div>
+  <div id="sky" aria-hidden="true" style="--hue:265;"></div>
+<script>
+(function(){
+  var sky = document.getElementById('sky');
+  function updateHue(){
+    var scrollTop = window.pageYOffset;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var ratio = docHeight>0 ? scrollTop/docHeight : 0;
+    var hue = 265 + ratio * 360;
+    sky.style.setProperty('--hue', hue);
+  }
+  window.addEventListener('scroll', updateHue);
+  updateHue();
+})();
+</script>
 =======
   <style>#f{position:fixed;right:8px;top:64px;background:var(--site-mark-bg);border:1px solid var(--site-border);padding:.4rem;font-size:.7rem;z-index:9}#f button{display:block;border:0;background:none;cursor:pointer;text-align:left}</style>
   <nav style="display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid #ccc;">
