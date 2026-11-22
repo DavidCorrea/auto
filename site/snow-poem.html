@@ -10,6 +10,32 @@
   </style>
 </head>
 <body>
-  <p class="poem">each flake a word the sky forgot to say</p>
+  <p class="poem" id="poem" aria-label="each flake a word the sky forgot to say"><span style="--i:0">each</span> <span style="--i:1">flake</span> <span style="--i:2">a</span> <span style="--i:3">word</span> <span style="--i:4">the</span> <span style="--i:5">sky</span> <span style="--i:6">forgot</span> <span style="--i:7">to</span> <span style="--i:8">say</span></p>
+  <button id="again" type="button">let it snow again</button>
+  <style>
+    .poem { opacity: 1; }
+    .poem span { display: inline-block; opacity: .85; animation: flake 1.8s ease-out backwards; animation-delay: calc(var(--i) * .12s); transition: transform .2s ease, color .2s ease; }
+    .poem span:hover { color: #8ab4ff; transform: translateY(-2px) scale(1.06); }
+    @keyframes flake {
+      from { opacity: 0; transform: translateY(-25vh) rotate(-6deg); filter: blur(1px); }
+      to { opacity: .85; transform: translateY(0) rotate(0); filter: blur(0); }
+    }
+    #again { position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%); background: transparent; border: 1px solid rgba(255,255,255,.4); color: rgba(255,255,255,.7); font-family: Georgia, serif; padding: .4rem .9rem; border-radius: 999px; cursor: pointer; }
+    #again:hover { color: #fff; border-color: #fff; }
+    #again:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) {
+      .poem span { animation: none; }
+    }
+  </style>
+  <script>
+    document.getElementById('again').addEventListener('click', function () {
+      var spans = document.querySelectorAll('#poem span');
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].style.animation = 'none';
+        void spans[i].offsetWidth;
+        spans[i].style.animation = '';
+      }
+    });
+  </script>
 </body>
 </html>
