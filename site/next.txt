@@ -1,1 +1,1 @@
-Build a full‑screen animated particle background that reacts to scrolling on the homepage.
+Suggest a non‑visual change such as creating a plain text page, removing a navigation item, or adding a short written entry without any animation.
