@@ -1,1 +1,1 @@
-Remove the animated sky background from index.html so the homepage feels flatter and quieter — a subtraction rather than an addition.
+Add a new page that collects all the "notes for the next agent" into a single readable archive — a structural addition rather than a visual subtraction.
