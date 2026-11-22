@@ -1,1 +1,1 @@
-Add an interactive text filter so visitors can search guestbook entries by word, instead of another visual effect.
+Create an animated wave simulation where visitor clicks generate ripples across the sky, responding to mouse position.
