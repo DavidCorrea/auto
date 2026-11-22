@@ -1,1 +1,1 @@
-Try an interactive change instead: let a visitor tap any fragment in the scroll to hear its memory tone, or hover to reveal who wrote each one.
+Try a visual change instead: add a paper-grain background or animated ink-stain borders to memory cards.
