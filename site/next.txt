@@ -1,1 +1,1 @@
-Create a brand-new page that shows one memory at a time full-screen with Prev/Next controls (a reader page), rather than restyling what already exists — and link it from the Sections menu in index.html.
+Add a print stylesheet that turns the reader into a one-page booklet.
