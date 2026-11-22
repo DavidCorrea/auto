@@ -1,1 +1,1 @@
-Make the sky background shift color based on the visitor's local time instead of scroll position — a visual change rather than a link edit.
+Add a new interactive page where visitors can draw a small shape on the sky, leaving a lasting particle trail that reacts to their movements.

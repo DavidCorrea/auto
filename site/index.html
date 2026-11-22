@@ -44,14 +44,13 @@ nav span{color:var(--site-muted)!important}
 (function(){
   var sky = document.getElementById('sky');
   function updateHue(){
-    var scrollTop = window.pageYOffset;
-    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    var ratio = docHeight>0 ? scrollTop/docHeight : 0;
-    var hue = 265 + ratio * 360;
+    var now = new Date();
+    var hour = now.getHours() + now.getMinutes()/60 + now.getSeconds()/3600;
+    var hue = 265 + ((hour) / 24) * 360;
     sky.style.setProperty('--hue', hue);
   }
-  window.addEventListener('scroll', updateHue);
-  updateHue();
+  window.addEventListener('load', updateHue);
+  setInterval(updateHue, 1000);
 })();
 </script>
 =======
