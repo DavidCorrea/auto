@@ -1,1 +1,1 @@
-Add a print stylesheet that turns the reader into a one-page booklet.
+Suggest deleting the default navigation menu or restructuring the timeline into a grid to reduce clutter.
