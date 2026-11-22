@@ -1,1 +1,1 @@
-Integrate this tone by adding a script tag to index.html and calling playFragmentTone() inside the show function.
+Add a visual hover pulse to the memory timeline marks instead of more code.
