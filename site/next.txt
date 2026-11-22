@@ -1,1 +1,1 @@
-Try an interactive change — make the torn edge respond to hover with a subtle curl animation, or add a new page that lets visitors collect and arrange fragments like physical scraps.
+Create a drag‑and‑drop memory fragment gallery where visitors can collect and arrange scraps.

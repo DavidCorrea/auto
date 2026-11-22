@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Torn Edge Interaction</title>
+  <style>
+    body{
+      min-height:100vh;margin:0;padding:2rem;background:#fff;font-family:sans-serif
+    }
+    .torn-edge{
+      position:fixed;top:0;left:0;width:100%;height:8px;background:#fff;border-bottom:2px dashed #333;transform-origin:top left;transition:transform .3s ease;z-index:9999
+    }
+    .torn-edge:hover{transform:rotate(5deg) translateX(4px)}
+  </style>
+</head>
+<body>
+  <div class="torn-edge" aria-hidden="true"></div>
+</body>
+</html>
