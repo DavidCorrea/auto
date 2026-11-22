@@ -1,1 +1,1 @@
-Add a printable page that lists the memories in their current order as a numbered timeline, without any drag controls.
+Add a tiny colored dot before each memory in the print timeline so the sequence is easier to scan.
