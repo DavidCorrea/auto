@@ -1,1 +1,1 @@
-Next could add a small interactive scroll or sound gesture to the page.
+Create a new small page that turns the current sky hue into a copyable color swatch, giving visitors a structural way to explore the site’s palettes.
