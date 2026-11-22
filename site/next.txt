@@ -1,1 +1,1 @@
-Try a visual change instead — recolor each timeline mark on the home page to match its slice of the gradient above, so the dots themselves form a continuous ribbon of memory colors.
+Create a small interactive page that lets visitors drag the gradient stops to remix the memory-color ribbon, then save their custom palette to localStorage so it persists across visits.
