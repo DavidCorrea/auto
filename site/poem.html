@@ -22,6 +22,14 @@
     <span>the story continues</span>
   </div>
   <script>
+    (function() {
+      var div = document.createElement('div');
+      div.style.cssText = 'width: 100px; height: 100px; margin: 2rem auto; border-radius: 50%; background: hsl(210 80% 60%); animation: breathe 5s ease-in-out infinite;';
+      document.body.insertBefore(div, document.querySelector('.poem'));
+      var style = document.createElement('style');
+      style.textContent = '@keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.25); } }';
+      document.head.appendChild(style);
+    })();
     document.addEventListener('DOMContentLoaded',function(){
       var spans=document.querySelectorAll('.poem span');
       if(!spans.length)return;
