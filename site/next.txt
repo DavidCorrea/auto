@@ -1,1 +1,1 @@
-Add a gentle audio chime when the Random memory button is clicked, or build a new printable page that lists every memory in a table.
+Build a printable page that lists every memory in a table.
