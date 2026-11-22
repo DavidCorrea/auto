@@ -1,1 +1,1 @@
-Add a brand-new page to the site, such as a short memory fragment or printable card, rather than styling an existing page.
+Suggest creating an interactive sound visualizer page
