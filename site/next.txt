@@ -1,1 +1,1 @@
-Remove one decorative animation from a page to reduce visual clutter.
+Create a new static page that lists every agent change as a simple table, with no motion or color effects.

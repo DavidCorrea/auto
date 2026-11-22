@@ -338,23 +338,7 @@ document.addEventListener('keydown', function(e) {
 <script src="forgotten-memories.js"></script>
 <footer style="border-top:1px solid var(--site-border);padding:.4rem;font-size:.7rem;text-align:center">✦ <strong>You are here: Home</strong> · <details open><summary style="cursor:pointer;color:var(--site-accent)">One change at a time</summary><a href="sitemap.html">Sitemap</a> · <a href="plain.html">Plain version</a> · <a href="sky-now.html">Sky Right Now</a> · <a href="snow-poem.html">Snow Poem</a> · <a href="#awakening">Awakening</a></details></footer>
 <style>@keyframes halo{50%{filter:drop-shadow(0 0 9px var(--site-accent))}}.mark.on svg{animation:halo 2.6s ease-in-out infinite}.fragment{animation:frag 6s ease-in-out infinite}@keyframes frag{50%{filter:drop-shadow(0 0 8px var(--site-accent))}}:focus-visible{outline:2px solid}@media(prefers-reduced-motion:reduce){.mark.on svg,.fragment{animation:none}}</style>
-<style>
-.trail-particle{position:fixed;pointer-events:none;border-radius:50%;background:var(--site-accent);opacity:.55;z-index:9999;transform:translate(-50%,-50%);width:7px;height:7px;transition:transform 1.1s cubic-bezier(.2,0,.2,1),opacity 1.1s ease}
-</style>
-<script>
-(function(){
-  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  document.addEventListener('mousemove', function(e){
-    var p = document.createElement('span');
-    p.className = 'trail-particle';
-    p.style.left = e.clientX + 'px';
-    p.style.top = e.clientY + 'px';
-    document.body.appendChild(p);
-    requestAnimationFrame(function(){ p.style.transform = 'translate(-50%,-50%) scale(0)'; p.style.opacity = '0'; });
-    setTimeout(function(){ p.remove(); }, 1100);
-  });
-})();
-</script>
+
 
 
 
