@@ -1,1 +1,1 @@
-Suggest a visual redesign of the navigation bar to incorporate animated arrows that pulse with each memory.
+Make the pulsing arrow an interactive control that scrolls to the currently selected memory mark.
