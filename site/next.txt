@@ -1,1 +1,1 @@
-Try something structural instead—remove the draggable reordering from the timeline marks, or add a new page that gathers all orphaned notes into a single wall.
+Give the selected memory fragment a subtle animated gradient border so the timeline has a visual focus without reordering.
