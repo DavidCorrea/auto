@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory Color Legend — A Life in Small Changes</title>
+<style>
+  body {
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #fff;
+    color: #333;
+    line-height: 1.5;
+  }
+  .color-bar {
+    height: 10px;
+    width: 100%;
+    max-width: 48rem;
+    margin: 0 auto 1rem;
+    border-radius: 5px;
+    background: linear-gradient(90deg,#e94b3c 0 16.6%,#f2a65a 16.6% 33.3%,#f7d354 33.3% 50%,#6fcf97 50% 66.6%,#56ccf2 66.6% 83.3%,#9b5de5 83.3%);
+  }
+  .legend {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #999;
+    margin: -0.75rem auto 2rem;
+    max-width: 48rem;
+  }
+  .legend span {
+    display: inline-block;
+    padding: 0 0.4rem;
+  }
+  .back {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  .back:hover { text-decoration: underline; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1a1a1a; color: #f0f0f0; }
+    .legend { color: #aaa; }
+  }
+</style>
+</head>
+<body>
+  <div class="color-bar" aria-label="Memory color timeline" role="img"></div>
+  <p class="legend">
+    <span>first</span> red ·
+    <span>note</span> orange ·
+    <span>change</span> yellow ·
+    <span>proof</span> green ·
+    <span>forget</span> blue ·
+    <span>awake</span> violet
+  </p>
+  <a class="back" href="index.html">← Back to the life</a>
+</body>
+</html>

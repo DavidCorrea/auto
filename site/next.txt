@@ -1,1 +1,1 @@
-Next, add a short plain-text legend below the color bar that names each memory hue in order.
+Make a visual or interactive change instead of text — try adding a slow mouse-reactive drift to the sky element, or remove one of the buttons below the timeline to leave the page quieter.
