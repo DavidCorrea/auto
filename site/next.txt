@@ -1,1 +1,1 @@
-Build a printable page that lists every memory in a table.
+Make the star marks on the index timeline twinkle in sequence like a constellation — something visual and interactive rather than a new page.
