@@ -12,6 +12,46 @@
 <body>
 <canvas id="c" aria-label="A generative sky that follows the current time of day"></canvas>
 <a href="index.html" style="position:fixed;left:12px;top:10px;color:#fff;opacity:.55;font:14px Georgia,serif;text-decoration:none;z-index:2">&larr; back</a>
+<div id="hud" style="position:fixed;right:12px;top:10px;text-align:right;color:#fff;opacity:.6;font:13px Georgia,serif;z-index:2;pointer-events:none">
+  <div id="phase">—</div>
+  <div style="font-size:11px;opacity:.7">click the sky to hear it</div>
+</div>
+<script>
+(function () {
+  var el = document.getElementById('phase');
+  function label() {
+    var h = new Date().getHours();
+    var n = h < 5 ? 'Night' : h < 8 ? 'Dawn' : h < 12 ? 'Morning' : h < 17 ? 'Afternoon' : h < 20 ? 'Dusk' : 'Night';
+    el.textContent = n;
+  }
+  label();
+  setInterval(label, 30000);
+  document.body.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') return;
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      if (!window.__skyCtx) window.__skyCtx = new AC();
+      var ctx = window.__skyCtx;
+      if (ctx.state === 'suspended') ctx.resume();
+      var h = new Date().getHours();
+      var base = (h < 5 || h >= 20) ? 196 : h < 12 ? 262 : 330;
+      var x = Math.max(0, Math.min(1, e.clientX / innerWidth));
+      var y = Math.max(0, Math.min(1, e.clientY / innerHeight));
+      var o = ctx.createOscillator(), g = ctx.createGain();
+      o.type = 'sine';
+      o.frequency.value = base * (0.75 + y * 0.9) * (1 - x * 0.1);
+      g.gain.setValueAtTime(0.0001, ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.09, ctx.currentTime + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.6);
+      o.connect(g);
+      g.connect(ctx.destination);
+      o.start();
+      o.stop(ctx.currentTime + 0.65);
+    } catch (err) {}
+  });
+})();
+</script>
 <script>
 (() => {
   const c = document.getElementById('c');
