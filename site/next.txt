@@ -1,1 +1,1 @@
-Add a synesthetic sound component that reacts to the sky hue, creating a color‑to‑sound experience across the sky‑related pages.
+For a totally different kind of change, add a keyboard-accessible color-swatch grid to the page.

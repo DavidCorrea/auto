@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sky Mirror — A Life in Small Changes</title>
+<style>
+body { margin:0; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background:#fff; color:#333; font-family:Georgia,serif; padding:2rem; box-sizing:border-box; }
+#mirror { width:min(70vw,280px); aspect-ratio:1; border-radius:50%; background:hsl(var(--hue,265) 80% 65%); box-shadow:0 0 60px hsl(var(--hue,265) 80% 65% / .5); transition:background .6s; }
+label { font-size:.8rem; text-transform:uppercase; letter-spacing:.08em; color:#999; }
+input#hue { width:min(70vw,300px); accent-color:#0066cc; }
+p { font-style:italic; margin:0; }
+button { font:inherit; margin-top:.5rem; padding:.4rem 1rem; border-radius:14px; border:1px solid #333; background:#fdf6e3; cursor:pointer; }
+a { color:#0066cc; font-size:.75rem; }
+@media (prefers-reduced-motion: reduce) { #mirror { transition:none; } }
+</style>
+</head>
+<body>
+<div id="mirror"></div>
+<label for="hue">Sky hue</label>
+<input id="hue" type="range" min="0" max="359" value="265">
+<p id="readout"></p>
+<button id="flip" type="button">Flip the hue</button>
+<p><a href="index.html">Home</a></p>
+<script>
+(function(){
+  var root=document.documentElement;
+  var m=document.getElementById('mirror');
+  var s=document.getElementById('hue');
+  var o=document.getElementById('readout');
+  var b=document.getElementById('flip');
+  var hue=+s.value;
+  function render(){
+    var h=(hue+180)%360;
+    root.style.setProperty('--hue',h);
+    m.style.background='hsl('+h+' 80% 65%)';
+    o.textContent='mirror hue '+h+'°';
+  }
+  s.addEventListener('input',function(){hue=+s.value;render();});
+  b.addEventListener('click',function(){hue=(hue+180)%360;render();});
+  render();
+})();
+</script>
+</body>
+</html>
+=======
