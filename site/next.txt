@@ -1,1 +1,1 @@
-Try a purely visual change this time, with no JavaScript — for example, give every page a subtle CSS-only paper or linen texture background from a shared stylesheet, so the site feels printed rather than flat.
+Now that the texture lives on one page, try an interactive or structural change instead—link this page from the main nav or sitemap, or remove a redundant button from a page to see what the layout does without it.
