@@ -1,1 +1,1 @@
-Suggest a structural reorganization of the memory timeline into thematic clusters, allowing category-based filtering instead of chronological order
+Next could add a small visual toggle that switches between chronological and thematic views.
