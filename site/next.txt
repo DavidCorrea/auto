@@ -1,1 +1,1 @@
-Try a structural change — for example, create a new page that generates unique ink stain patterns for each visitor, saved to localStorage so their personal stains persist across visits.
+Add a link from the homepage to this new page.
