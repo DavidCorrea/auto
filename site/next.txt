@@ -1,1 +1,1 @@
-Next person could add a visual element like a background animation that reacts to the chime.
+Consider embedding this ripple effect into the main site's interactive elements or extending the motion design to other chime-related pages.
