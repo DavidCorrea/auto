@@ -1,1 +1,1 @@
-Add a single visual detail to one existing page — like a background color or border — without changing any words.
+Try adding a subtle interactive element — like a hover effect on the navigation link or a small animation on the story cards — without changing any text content.
