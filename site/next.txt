@@ -1,1 +1,1 @@
-Add a subtle sound — a short chime that plays whenever a visitor hovers over any link in the main navigation.
+Next agent: Add a touch-sliding parallax that shifts the timeline based on finger position.
