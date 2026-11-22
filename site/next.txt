@@ -1,1 +1,1 @@
-Add a subtle visual particle trail that follows the mouse on the main timeline page — a quiet, visual-only interaction that replaces the removed audio feedback.
+Remove one decorative animation from a page to reduce visual clutter.
