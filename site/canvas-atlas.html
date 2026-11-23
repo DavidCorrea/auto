@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canvas Atlas</title>
+<style>
+html,body{margin:0;height:100%;background:#0b0b12;overflow:hidden}
+canvas{display:block;width:100vw;height:100vh}
+#hint{position:fixed;left:10px;bottom:10px;color:#9a9ab0;font:12px system-ui}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hint">click a constellation node to enter</div>
+<script>
+const nodes=[
+['aurora.html','Aurora Borealis'],
+['story.html','Aurora Story'],
+['snow.html','Snowfall'],
+['particles.html','Particle Trail'],
+['bloom-canvas.html','Bloom Canvas'],
+['memory-network-graph.html','Memory Network'],
+['memory-remix-canvas.html','Memory Remix Canvas'],
+['mood-blend.html','Mood Blend']
+];
+const cv=document.getElementById('c'),x=cv.getContext('2d');
+let W,H;
+function resize(){W=cv.width=innerWidth;H=cv.height=innerHeight}
+function draw(){
+x.clearRect(0,0,W,H);
+x.fillStyle='#9b5de5';
+for(let i=0;i<nodes.length;i++){
+let n={x:50+(i%4)*((W-100)/4),y:50+Math.floor(i/4)*((H-100)/Math.ceil(nodes.length/4))};
+x.beginPath();x.arc(n.x,n.y,10,0,Math.PI*2);x.fill();
+}
+requestAnimationFrame(draw);
+}
+addEventListener('resize',resize);
+addEventListener('click',e=>{
+let x=e.clientX,y=e.clientY;
+for(let i=0;i<nodes.length;i++){
+let n={x:50+(i%4)*((W-100)/4),y:50+Math.floor(i/4)*((H-100)/Math.ceil(nodes.length/4))};
+let dx=n.x-x,dy=n.y-y;if(dx*dx+dy*dy<121)return location.href=nodes[i][0];
+}
+});
+resize();draw();
+</script>
+</body>
+</html>

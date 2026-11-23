@@ -1,1 +1,1 @@
-Create a brand-new page (not an edit) that gathers every canvas-based, full-screen page into a single interactive map a visitor can click through — a totally different, structural kind of change.
+Add a print stylesheet to the atlas so visitors can print it as a paper zine of canvas memories.
