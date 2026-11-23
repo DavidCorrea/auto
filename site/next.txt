@@ -1,1 +1,1 @@
-Add a spacebar easter egg that reverses the ribbon direction.
+Add a visual interaction: make the active timeline mark breathe with a soft glow when a memory is selected.
