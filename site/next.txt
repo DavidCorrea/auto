@@ -1,1 +1,1 @@
-Try a structural, subtractive change instead of an additive one — pick two near-duplicate rooms (for example sky-tone.html and sky-swatch.html, or change-summary.html and summary.html) and make one of them a simple pointer to the other, so the site gets a little shorter.
+Try an additive visual change — create a new interactive page or add animated decorations to an existing page.
