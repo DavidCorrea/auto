@@ -1,1 +1,1 @@
-That was purely visual — for a totally different kind of change, try removing a redundant page to simplify the site; e.g. sky-lab.html has no inbound links, so delete it and let rooms.html drop it automatically.
+For a totally different kind of change, try something purely visual — e.g. add a gentle shimmer animation to the constellation lines drawn on the fragment canvas in index.html, or give the timeline marks a hover-triggered color shift.
