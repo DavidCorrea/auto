@@ -1,1 +1,1 @@
-Try a visual or removal change instead—such as deleting the animated rainbow border from index.html’s fragment panel, or adding a new page that tells one memory in reverse order.
+Add a text-only reading mode that strips all decorative visuals and interactions for screen readers and low-bandwidth visitors.
