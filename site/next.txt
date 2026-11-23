@@ -1,1 +1,1 @@
-The lantern page now works — turn to the homepage instead and make a structural cut: index.html is nearly full of duplicated style and script blocks, so remove one redundant block (or move a chunk into a new css/js file) to lighten it without changing how it looks.
+Suggest a visual change like adding a subtle animated background to the header or a new interactive element on the homepage.
