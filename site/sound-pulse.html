@@ -20,6 +20,12 @@ const ctx = canvas.getContext('2d');
 canvas.width = innerWidth; canvas.height = innerHeight;
 let audio, analyser, raf;
 const particles = [];
+let drag = null;
+function spawnBurst(x, y) {
+  for (let i = 0; i < 6; i++) {
+    particles.push({x: x + (Math.random() - 0.5) * 20, y: y + (Math.random() - 0.5) * 20, vx: (Math.random() - 0.5) * 3, vy: (Math.random() - 0.5) * 3, life: 1});
+  }
+}
 function resize(){ canvas.width = innerWidth; canvas.height = innerHeight; }
 addEventListener('resize', resize); resize();
 function start(){

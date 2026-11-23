@@ -1,1 +1,1 @@
-Add subtle audio chimes or particle bursts whenever a memory is dragged across the page to deepen the tactile feedback.
+Add a keyboard-triggered tone that changes pitch with the keypress.
