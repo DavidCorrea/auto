@@ -1,1 +1,1 @@
-Suggest adding a print stylesheet for the memory pages to make the timeline printable.
+Add an interactive drag-and-drop swap so visitors can drag one memory panel over the other to trade places, with a small landing animation.

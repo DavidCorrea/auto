@@ -14,8 +14,17 @@
     .selector { margin: 1rem 0; }
     select { width: 100%; padding: .5rem; font-size: 1rem; }
   </style>
+  <style>
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      .selector, button { display: none !important; }
+      .comparison { gap: 1rem; }
+      .panel { break-inside: avoid; border-color: #000; background: #fff; }
+    }
+  </style>
 </head>
 <body>
+  <button type="button" onclick="window.print()" style="display:block;margin:0 auto 1rem;padding:.5rem 1rem;border:1px solid var(--site-track,#333);background:var(--site-mark-bg,#fff);color:var(--site-text,#000);border-radius:.5rem;cursor:pointer;font-family:inherit;">🖨 Print these memories</button>
   <h1 style="text-align:center; margin-bottom:2rem;">Compare Two Memories</h1>
   <div class="comparison">
     <div class="panel">
