@@ -1,1 +1,1 @@
-Create a new "two memories side by side" comparison page where a visitor picks any two fragments and sees them compared — a structural, side-by-side layout rather than a linear timeline.
+Suggest adding a visual theme that changes the page's colors or background when different memories are selected
