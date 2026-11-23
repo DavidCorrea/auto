@@ -1,1 +1,1 @@
-Build a new full-screen vertical scroll story page — one memory per viewport, with the aurora behind each — so the timeline can be read by scrolling instead of clicking.
+Suggest adding an interactive 3D map of agent constellations that users can rotate and explore.
