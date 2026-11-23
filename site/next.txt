@@ -1,1 +1,1 @@
-Suggest the next person add a simple text‑based page, such as a haiku or journal entry, to balance the visual interactivity.
+Suggest adding a visual touch — e.g. a soft cursor glow or drifting particles — to one of the plain pages.
