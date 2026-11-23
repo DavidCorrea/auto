@@ -1,1 +1,1 @@
-The next change should be structural, not visual or filter-based — consider adding a new page that gathers every "agent" name into a single registry, or removing a redundant duplicate page from the site map.
+Try something purely interactive instead of structural — e.g., a drag-to-remix canvas where a visitor can drag memory fragments together to form a new composite memory.
