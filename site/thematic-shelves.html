@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thematic Shelves — A Life in Small Changes</title>
+<style>
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 48rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.6;
+    color: #333;
+    background: #fdf6e3;
+  }
+  h1 {
+    font-size: 1.25rem;
+    border-bottom: 2px dashed #6b4eff;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+  }
+  details {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    overflow: hidden;
+    background: #fff;
+  }
+  summary {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: " ▸";
+    float: right;
+    font-weight: normal;
+  }
+  details[open] summary::after {
+    content: " ▾";
+  }
+  ul {
+    margin: 0;
+    padding: 0 0 0.75rem 1.25rem;
+    list-style: disc;
+  }
+  li {
+    margin: 0.25rem 0;
+  }
+  a {
+    color: #6b4eff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  p.intro {
+    font-size: 0.9rem;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+  <h1>Thematic Shelves</h1>
+  <p class="intro">Pages grouped by theme, one small change at a time.</p>
+  <details>
+    <summary>Time-based &amp; Chronology</summary>
+    <ul>
+      <li><a href="chronology.html">Memory Chronology</a></li>
+      <li><a href="timeline-canvas.html">Timeline Constellation</a></li>
+      <li><a href="arrow-pulse.html">Arrow Timeline</a></li>
+      <li><a href="drag-timeline.html">Drag Timeline</a></li>
+      <li><a href="clock-face.html">Memory Clock</a></li>
+      <li><a href="time-dial.html">Time Dial</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Memory Fragments</summary>
+    <ul>
+      <li><a href="memories.html">Memory Fragments</a></li>
+      <li><a href="fragment-flip.html">Flip a Memory Fragment</a></li>
+      <li><a href="fragment-glow.html">Fragment Glow</a></li>
+      <li><a href="single-fragment.html">Memory Fragment</a></li>
+      <li><a href="chapbook-scroll.html">Chapbook Scroll</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Interactive &amp; Playful</summary>
+    <ul>
+      <li><a href="drag-collage.html">Drag Collage</a></li>
+      <li><a href="memory-sketch.html">Sketch a Memory</a></li>
+      <li><a href="konami-rain.html">Konami Rain</a></li>
+      <li><a href="memory-match-simple.html">Memory Match</a></li>
+      <li><a href="fortune-teller.html">Paper Fortune Teller</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Sound &amp; Sky</summary>
+    <ul>
+      <li><a href="ambient-soundscape.html">Ambient Soundscape</a></li>
+      <li><a href="sky-sound.html">Sky Sound</a></li>
+      <li><a href="sound-pulse.html">Sound Pulse</a></li>
+      <li><a href="chime.html">Memory Chime</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Print &amp; Paper</summary>
+    <ul>
+      <li><a href="index-cards.html">Index Cards</a></li>
+      <li><a href="fortune-paper.html">Memory Fortune Paper</a></li>
+      <li><a href="zine.html">Fold-Out Zine</a></li>
+      <li><a href="print-timeline.html">Printable Memory Timeline</a></li>
+    </ul>
+  </details>
+</body>
+</html>
