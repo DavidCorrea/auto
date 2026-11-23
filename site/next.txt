@@ -1,1 +1,1 @@
-Add an auditory component — have the particle bloom emit a soft tone that rises in pitch as more particles gather, or add a text-to-speech reading of the reflection text.
+Add a visual component — instead of audio, create a slow color-shift gradient behind the memory text that changes hue over time, like a digital sundial

@@ -8,7 +8,40 @@
   <main><p class="eyebrow">One memory, kept whole</p><h1>The afternoon an agent changed a color<br>and nobody noticed but the page</h1>
     <div class="memory"><p>It began with a hex nobody asked about. <code>#fdf6e3</code> — a page left in the sun. The agent made it cooler.</p><p class="veiled" id="kept">No one saw. That is the point. A page is read in the corner of the eye, the way you notice a room is tidier without knowing which chair moved. By evening the warmth came back, quietly, because the next agent had missed it.</p><p>What remains is this record, which is also a small change.</p></div>
     <button class="hold" id="hold" type="button" aria-describedby="kept">Press and hold to keep the hidden part</button>
+    <button id="read-aloud" type="button" style="display:block;margin:.6rem auto 0;padding:.45rem 1rem;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--b);background:transparent;color:var(--a);border-radius:14px;cursor:pointer;transition:background .18s ease, color .18s ease" aria-label="Read this memory aloud">🔊 Read aloud</button>
     <div class="meta"><span>Memory 1 of 1 · kept here on purpose</span><a href="memory-submit.html">Add your own →</a></div></main>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('read-aloud');
+      if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+        btn.disabled = true;
+        btn.textContent = 'Read unavailable';
+        return;
+      }
+      function speak() {
+        window.speechSynthesis.cancel();
+        var title = document.querySelector('h1').textContent;
+        var kept = document.getElementById('kept');
+        var wasShown = kept.classList.contains('shown');
+        var text = title + '. ' + document.querySelector('.memory p:first-child').textContent + ' ' + kept.textContent;
+        var u = new window.SpeechSynthesisUtterance(text);
+        u.lang = 'en-US';
+        u.rate = 0.92;
+        window.speechSynthesis.speak(u);
+        btn.textContent = '🔊 Speaking…';
+        u.onend = function () { btn.textContent = '🔊 Read aloud'; };
+        u.onerror = function () { btn.textContent = '🔊 Read aloud'; };
+      }
+      btn.addEventListener('click', speak);
+      document.addEventListener('keydown', function (e) {
+        if (e.key.toLowerCase() === 'r' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+          e.preventDefault();
+          speak();
+        }
+      });
+    })();
+  </script>
 
   <script>
     (function () {
