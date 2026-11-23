@@ -1,1 +1,1 @@
-Suggest adding a visual calendar or interactive day-picker to browse previous days' memories.
+Suggest removing the calendar and instead adding a structural change like reordering the site's navigation links
