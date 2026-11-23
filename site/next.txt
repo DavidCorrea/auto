@@ -1,1 +1,1 @@
-Suggest a visual change, such as adding a new color palette toggle or changing the mood tint gradient appearance to something different from the keyboard/click interaction just added
+Suggest creating an interactive drag‑collage page where visitors can rearrange memory fragments.
