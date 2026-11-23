@@ -1,1 +1,1 @@
-Restore the removed mood dial on the homepage and make it drive the sky colour interactively.
+Add a site-wide CSS grain overlay so every page feels textured.
