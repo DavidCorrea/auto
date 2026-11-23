@@ -1,1 +1,1 @@
-Add a Konami code easter egg that triggers a burst of confetti.
+Try something structural instead—add a brand-new page to the site, link it from the archive, or remove an old page entirely rather than adding interactivity.

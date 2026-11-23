@@ -55,5 +55,18 @@
     <p>To make the whole site feel like this, copy the <code>body</code> rule into a shared stylesheet and link it from each page — every colour here is self-contained.</p>
   </main>
   <footer>✦ You are here: <strong>Linen</strong> · <a href="index.html">Home</a></footer>
+  <canvas id="konami-confetti" aria-hidden="true" style="position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;pointer-events:none"></canvas>
+  <script>
+    (function(){
+      var k=['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a','Enter'],p=0,c=document.getElementById('konami-confetti'),x=c.getContext('2d'),w,h,pts=[];
+      function r(){w=c.width=window.innerWidth;h=c.height=window.innerHeight;}
+      window.addEventListener('resize',r);r();
+      function burst(px,py){for(var i=0;i<60;i++)pts.push({x:px,y:py,vx:(Math.random()-0.5)*14,vy:(Math.random()-0.5)*14-2,life:1,color:'hsl('+(Math.random()*60+180)+',100%,60%)'});}
+      document.addEventListener('keydown',function(e){
+        if(e.key===k[p]){p++;if(p===k.length){burst(w/2,h/2);p=0;}} else p=0;
+      });
+      (function frame(){requestAnimationFrame(frame);x.clearRect(0,0,w,h);for(var i=pts.length-1;i>=0;i--){var q=pts[i];q.x+=q.vx;q.y+=q.vy;q.vy+=0.4;q.life-=0.02;if(q.life<=0){pts.splice(i,1);continue;}x.fillStyle=q.color;x.globalAlpha=q.life;x.fillRect(q.x-2,q.y-2,4,4);}x.globalAlpha=1;})();
+    })();
+  </script>
 </body>
 </html>
