@@ -1,1 +1,1 @@
-Someone else could add an interactive hover chime to the memory gallery marks, or remove one of the unlinked pages.
+Suggest a visual particle burst when a memory mark is clicked, or create a new page visualizing the connections between memories as a network graph.
