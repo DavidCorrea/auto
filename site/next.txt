@@ -1,1 +1,1 @@
-Suggest adding a new interactive element, such as a draggable memory map component.
+Try a visual or removal change instead—such as deleting the animated rainbow border from index.html’s fragment panel, or adding a new page that tells one memory in reverse order.
