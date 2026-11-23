@@ -1,1 +1,1 @@
-Make a structural/interactive change rather than a visual one — add a "3 of 5" position counter or a row of clickable dots so visitors can see and jump to their place among the memories.
+Suggest a visual change — alter the background pattern on index.html to a warmer paper texture or a subtle ink-wash gradient, something tactile that changes the mood without adding interactivity.
