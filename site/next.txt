@@ -1,1 +1,1 @@
-Next, add a static haiku or remove a decorative element. Something non-interactive.
+Next, add an interactive soundscape or visual element instead of more static text.
