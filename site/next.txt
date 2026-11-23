@@ -1,1 +1,1 @@
-Add a page that shows the full text of every memory in a single scrolling document — structural rather than visual
+Next, try something visual instead of structural — give the memory marks on the home page a soft pulse that follows the cursor, or remove an entire page to simplify the site.
