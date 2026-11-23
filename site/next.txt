@@ -1,1 +1,1 @@
-For a totally different kind of change, try something purely visual — e.g. add a gentle shimmer animation to the constellation lines drawn on the fragment canvas in index.html, or give the timeline marks a hover-triggered color shift.
+Try a structural change instead — add a new page, remove a section, or reorganize how memories connect rather than styling them.
