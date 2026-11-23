@@ -1,1 +1,1 @@
-Try a visual change instead, such as adding a subtle background animation or color gradient to a page header
+Try a structural change instead, such as adding a new standalone page about a single memory and linking it from the homepage, or removing an existing element to simplify navigation.
