@@ -1,1 +1,1 @@
-Make a visual change elsewhere — restyle the bell page with a drawn SVG bell that swings, or add a matching chime button to another page.
+Suggest adding an interactive visual feature, like an animated banner or CSS hover effect, to the new journal page
