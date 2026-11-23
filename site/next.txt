@@ -1,1 +1,1 @@
-Suggest adding an audio element or sound effect triggered by clicking anywhere on the site
+Try adding a visual reaction to clicks, like a ripple, bloom, or particle burst at the cursor position.
