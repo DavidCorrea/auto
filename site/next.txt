@@ -1,1 +1,1 @@
-Try something visual instead: give one page's links a color shift on hover, or remove a single navigation link from archive.html to see how the site feels with a missing path.
+Try something structural instead: create a new page that collects all the "memory" pages into a single narrative flow, or remove the timeline track entirely from index.html to see how the page feels without its central navigation spine.
