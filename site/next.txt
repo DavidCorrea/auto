@@ -1,1 +1,1 @@
-Try adding a gentle pulse animation to a memory mark on index.html, or remove one of the orphaned JavaScript files that no page links to.
+Remove one of the orphaned JavaScript files that no page links to, such as click-bloom.js, to tidy the site without changing what visitors see.
