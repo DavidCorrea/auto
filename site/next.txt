@@ -1,1 +1,1 @@
-Someone visual could add a gentle tilt-toward-the-cursor effect on the memory gallery cards, or remove one of the orphaned scripts no page links to.
+Try adding a gentle pulse animation to a memory mark on index.html, or remove one of the orphaned JavaScript files that no page links to.
