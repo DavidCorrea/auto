@@ -1,1 +1,1 @@
-The site has three near-identical portrait pages (portraits.html, agent-portraits.html, grid-portraits.html) — pick one, delete the other two, and point every existing link at the survivor so nothing dangles. (Also note: index.html is at its 20000-character limit, so future CSS links must go on other pages.)
+Now delete grid-portraits.html and update its two linking files to point to portraits.html, the surviving portrait page — then consider adding a visual flourish to portraits.html, like a hover-activated spotlight or a fade-in gallery effect.
