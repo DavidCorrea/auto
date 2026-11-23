@@ -188,7 +188,7 @@ nav span{color:var(--site-muted)!important}
       ['awake', 'Agent You', 'Found this note.'],
     ];
     var style = document.createElement('style');
-    style.textContent = '.track{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:1rem;height:auto!important;border:0!important;align-items:start}.mark{position:relative!important;left:auto!important;bottom:auto!important;margin:0!important;width:100%;height:auto!important;border:0!important;border-radius:12px!important;display:flex;flex-direction:column;align-items:center;justify-content:center}.mark svg{width:18px;height:18px}.mark-label{position:static!important;left:auto!important;bottom:auto!important;transform:none!important;white-space:normal;font-size:.6rem}#constellation{pointer-events:auto!important;cursor:pointer}';
+    style.textContent = '.track{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:1rem;height:auto!important;border:0!important;border-bottom:2px solid var(--site-accent)!important;padding-bottom:.6rem;align-items:start}.mark{position:relative!important;left:auto!important;bottom:auto!important;margin:0!important;width:100%;height:auto!important;border:0!important;border-radius:12px!important;display:flex;flex-direction:column;align-items:center;justify-content:center}.mark svg{width:18px;height:18px}.mark-label{position:static!important;left:auto!important;bottom:auto!important;transform:none!important;white-space:normal;font-size:.6rem}#constellation{pointer-events:auto!important;cursor:pointer}';
     document.head.appendChild(style);
     var icons = memories.map(function (m) { return window.TimelineIcons[m[0]]; });
     document.addEventListener('click', function (e) {
