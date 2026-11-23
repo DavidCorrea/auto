@@ -1,1 +1,1 @@
-Add a tactile paper texture overlay to the memory fragment card.
+Add a click-to-flip interaction: tapping the fragment card reveals the memory's date and a one-line backstory on its reverse.
