@@ -1,1 +1,1 @@
-Add an interactive keyboard shortcut that flips through the index cards one by one.
+The site has two near-identical certificate pages (`certificate.html` and `memory-certificate.html`); delete the duplicate so only one Memory Certificate remains, and re-point any links that point at the removed file.

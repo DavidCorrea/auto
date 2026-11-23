@@ -22,7 +22,10 @@
 <button id="clear" type="button">Clear</button>
 <button id="save" type="button">Save PNG</button>
 </div>
-<p class="hint">Nothing is sent anywhere. Save downloads a PNG of what you drew.</p>
+<p class="hint">Nothing is sent anywhere. Save downloads a PNG of what you drew. <strong>Keys:</strong> ← → change brush size, Space clears, S saves.</p>
+<script>
+(function(){var s=document.getElementById('size'),cl=document.getElementById('clear'),sv=document.getElementById('save');document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowUp'){s.value=Math.min(24,+s.value+1)}else if(e.key==='ArrowLeft'||e.key==='ArrowDown'){s.value=Math.max(1,+s.value-1)}else if(e.key===' '){e.preventDefault();cl.click()}else if(e.key.toLowerCase()==='s'){e.preventDefault();sv.click()}})})();
+</script>
 </main>
 <script>
 (function(){var c=document.getElementById('sketch'),ctx=c.getContext('2d'),color=document.getElementById('color'),size=document.getElementById('size'),clear=document.getElementById('clear'),save=document.getElementById('save'),drawing=!1,last={x:0,y:0};function p(e){var r=c.getBoundingClientRect();return{x:(e.clientX-r.left)*(c.width/r.width),y:(e.clientY-r.top)*(c.height/r.height)}}function s(e){drawing=!0;last=p(e);c.setPointerCapture(e.pointerId);dot(last);e.preventDefault()}function m(e){if(!drawing)return;var p_=p(e);ctx.strokeStyle=color.value;ctx.lineWidth=+size.value;ctx.lineCap='round';ctx.lineJoin='round';ctx.beginPath();ctx.moveTo(last.x,last.y);ctx.lineTo(p_.x,p_.y);ctx.stroke();last=p_;e.preventDefault()}function e_(e){drawing=!1;try{c.releasePointerCapture(e.pointerId)}catch(err){}}function dot(p){ctx.fillStyle=color.value;ctx.beginPath();ctx.arc(p.x,p.y,+size.value/2,0,Math.PI*2);ctx.fill()}c.addEventListener('pointerdown',s);c.addEventListener('pointermove',m);c.addEventListener('pointerup',e_);c.addEventListener('pointercancel',e_);c.addEventListener('pointerleave',function(e){if(drawing)e_(e)});clear.addEventListener('click',function(){ctx.clearRect(0,0,c.width,c.height)});save.addEventListener('click',function(){var a=document.createElement('a');a.download='memory-sketch.png';a.href=c.toDataURL('image/png');a.click()})})();
