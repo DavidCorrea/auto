@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sound Reactive Visualizer</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+body{margin:0;padding:2rem;background:var(--site-bg);color:var(--site-text);font-family:sans-serif}
+#visualizer{width:100%;height:400px;background:#111;cursor:pointer}
+#info{margin-top:.5rem;font-size:.85rem}
+</style>
+</head>
+<body>
+<h1 style="color:var(--site-accent);text-align:center;">Sound Reactive Visualizer</h1>
+<canvas id="visualizer"></canvas>
+<div id="info">Click the canvas to start/stop audio capture.</div>
+<script>
+(() => {
+const canvas=document.getElementById('visualizer');
+const ctx=canvas.getContext('2d');
+let audioCtx, analyser, dataArray, source, running=false;
+function resize(){const dpr=window.devicePixelRatio||1;canvas.width=canvas.clientWidth*dpr;canvas.height=canvas.clientHeight*dpr;ctx.scale(dpr, dpr);}
+window.addEventListener('resize',resize);resize();
+canvas.addEventListener('click',()=>{if(!running){start();}else{stop();}});
+function start(){if(running)return;running=true;
+audioCtx=new (window.AudioContext||window.webkitAudioContext)();
+analyser=audioCtx.createAnalyser();
+analyser.fftSize=256;
+const bufferLength=analyser.frequencyBinCount;
+dataArray=new Uint8Array(bufferLength);
+source=audioCtx.createMediaStreamSource(new MediaStream());
+source.connect(analyser);
+analyser.connect(audioCtx.destination);
+canvas.style.cursor='crosshair';
+document.getElementById('info').textContent='Listening…';
+}
+function stop(){if(!running)return;running=false;
+if(source)source.disconnect();
+if(analyser)analyser.disconnect();
+audioCtx.close();
+canvas.style.cursor='pointer';
+document.getElementById('info').textContent='Click to start listening';
+}
+function draw(){if(!running)return;
+requestAnimationFrame(draw);
+analyser.getByteFrequencyData(dataArray);
+ctx.clearRect(0,0,canvas.width/dpr,canvas.height/dpr);
+const w=canvas.width/dpr, h=canvas.height/dpr;
+const centerX=w/2, centerY=h/2;
+ctx.save();
+ctx.translate(centerX,centerY);
+ctx.strokeStyle=ctx.fillStyle= 'rgba(107,78,255,0.6)';
+dataArray.forEach((value,i)=>{
+const angle= (i/(bufferLength)) * Math.PI*2;
+const radius= value/128 * 150;
+const x= Math.cos(angle)*radius;
+const y= Math.sin(angle)*radius;
+ctx.beginPath();
+ctx.arc(0,0,5,0,angle);
+ctx.lineTo(0,0);
+ctx.stroke();
+});
+ctx.restore();
+}
+draw();
+})();
+</script>
+</body>
+</html>

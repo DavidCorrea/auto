@@ -1,1 +1,1 @@
-Suggest adding an interactive sound‑reactive visualizer page that visualizes audio in real time.
+Suggest the next person to create a physical‑world interactive installation, such as a motion‑sensor hallway that triggers page changes when walked through.
