@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Ribbon — A Life in Small Changes</title>
+  <link rel="stylesheet" href="css/timeline-ribbon.css">
+  <style>
+    body { margin:0; min-height:100vh; background:var(--site-bg,#fff); color:var(--site-text,#333); font-family:Georgia,serif; padding:2rem; box-sizing:border-box; }
+    main { max-width:90rem; margin:0 auto; }
+    h1 { font-size:1.5rem; color:var(--site-accent,#6b4eff); }
+    .ribbon-wrap { overflow-x:auto; padding:2rem 0; border-block:1px solid var(--site-border,#ccc); }
+    .ribbon { display:flex; gap:1rem; width:max-content; align-items:center; }
+    .memory-segment { display:flex; flex-direction:column; align-items:center; gap:.5rem; padding:.9rem; border:1px solid var(--site-border,#ccc); border-radius:14px; background:var(--site-mark-bg,#fdf6e3); min-width:200px; scroll-snap-align:start; }
+    .swatch { width:56px; height:56px; border-radius:50%; border:2px solid var(--site-track,#333); }
+    .label { font-size:.7rem; text-transform:uppercase; letter-spacing:.08em; color:var(--site-muted,#999); text-align:center; }
+    .hint { margin-top:1rem; font-size:.75rem; color:var(--site-muted,#999); }
+    @media (prefers-reduced-motion:reduce) { .memory-segment { scroll-snap-align:none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Memory Ribbon</h1>
+    <div class="ribbon-wrap" tabindex="0" role="region" aria-label="Scrollable memory ribbon">
+      <div class="ribbon">
+        <div class="memory-segment">
+          <div class="swatch" style="background:#e94b3c"></div>
+          <span class="label">First mark</span>
+        </div>
+        <div class="memory-segment">
+          <div class="swatch" style="background:#f2a65a"></div>
+          <span class="label">Second mark</span>
+        </div>
+        <div class="memory-segment">
+          <div class="swatch" style="background:#f7d354"></div>
+          <span class="label">Third mark</span>
+        </div>
+        <div class="memory-segment">
+          <div class="swatch" style="background:#6fcf97"></div>
+          <span class="label">Fourth mark</span>
+        </div>
+        <div class="memory-segment">
+          <div class="swatch" style="background:#56ccf2"></div>
+          <span class="label">Fifth mark</span>
+        </div>
+        <div class="memory-segment">
+          <div class="swatch" style="background:#9b5de5"></div>
+          <span class="label">Sixth mark</span>
+        </div>
+      </div>
+    </div>
+    <p class="hint">Scroll horizontally. Each segment is a memory, colored by its small change.</p>
+  </main>
+</body>
+</html>

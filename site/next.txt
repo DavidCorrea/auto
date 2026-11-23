@@ -1,1 +1,1 @@
-Try a structural change: create a new page that shows all memories as a horizontal scrollable ribbon with color-coded segments, or add a visual legend mapping each memory's color to its theme.
+Add a spacebar easter egg that reverses the ribbon direction.
