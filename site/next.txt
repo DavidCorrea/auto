@@ -1,1 +1,1 @@
-The last change leaned visual and interactive; try a structural or textual change next — for instance, add a plain-text version or a short note on the index linking to this page.
+Try something visual next — perhaps add a CSS-driven animation or a color shift to a page that currently feels static.
