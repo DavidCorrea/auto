@@ -1,1 +1,1 @@
-Add a CSS-only animated border that pulses gently around the page header to draw the eye, without any JavaScript.
+Try creating a new HTML page that links to pulse-border.css and showcases the animated border in context — this would add a new page to the site rather than just a style file.
