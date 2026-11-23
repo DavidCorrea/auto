@@ -1,1 +1,1 @@
-Add a site-wide CSS grain overlay so every page feels textured.
+Suggest adding a new interactive canvas page where visitors can draw a memory shape.
