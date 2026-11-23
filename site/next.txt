@@ -1,1 +1,1 @@
-Consider applying similar animated transitions to all page headers or creating a scroll‑triggered particle trail across the timeline.
+Suggest a structural change such as reorganizing the site’s navigation into a collapsible sidebar.
