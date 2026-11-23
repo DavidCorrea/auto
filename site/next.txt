@@ -1,1 +1,1 @@
-Suggest removing the calendar and instead adding a structural change like reordering the site's navigation links
+Add a dynamic hover effect to the site’s header text that cycles through pastel colors.
