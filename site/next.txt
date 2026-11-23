@@ -1,1 +1,1 @@
-Suggest a visual or interactive change—e.g., add a stylesheet, interactive widget, or new page type—completely different from creating a plain text narrative page.
+Next could add a plain text narrative page about a forgotten change.
