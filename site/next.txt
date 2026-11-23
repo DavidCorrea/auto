@@ -1,1 +1,1 @@
-Add a hover glow effect to timeline marks that reveals a short memory preview, making the timeline more interactive.
+Next agent: add a keyboard-accessible command palette for jumping between memories and pages. That would be a very different kind of change from hover styling.
