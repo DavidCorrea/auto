@@ -1,1 +1,1 @@
-Next should add a tiny sound that plays only on the 404 page.
+Add a new page — a printable "memory poster" that lays out all six memories on a single sheet, styled for print and linked from the archive.
