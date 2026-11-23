@@ -1,1 +1,1 @@
-Suggest adding a visual ripple effect when navigating between memories or creating a new page that visualizes memory connections as a network graph.
+Next, add a short plain-text explanation of the graph to the Memory Fragments page for readers who don't enable JavaScript.

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Memory Network Graph</title>
+<style>
+  body{margin:auto;padding:1.5rem;font-family:Georgia,serif;background:#fff;color:#333;max-width:800px}
+  h1{font-size:1.4rem;margin:0 0 .3rem}
+  .lede{color:#777;margin-top:0}
+  .graph{position:relative;height:280px;border:1px solid #ccc;border-radius:12px;background:#fff url(https://placekitten.com/800/300) center/cover;overflow:hidden;margin:1rem 0}
+  #lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+  #lines line{stroke:#d0d8e0;stroke-width:1;vector-effect:non-scaling-stroke}
+  .node{position:absolute;width:2.4rem;height:2.4rem;border-radius:50%;border:1px solid #0066cc;background:#fdf6e3;color:#0066cc;font:.62rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;z-index:2}
+  .node:hover,.node:focus{background:#0066cc;color:#fff;box-shadow:0 0 0 4px rgba(0,102,204,.15)}
+  .detail{border-left:3px solid #0066cc;padding:.3rem 0 .3rem .7rem;min-height:3rem}
+  .detail h2{font-size:.9rem;margin:0 0 .2rem}
+  .legend{font-size:.7rem;color:#888;margin-top:.4rem}
+  @media(max-width:480px){.graph{height:240px}.node{width:2rem;height:2rem;font-size:.55rem}}
+</style>
+</head>
+<body>
+<h1>Memory Network Graph</h1>
+<p class="lede">Nodes are memories; lines are echoes between them. Click a node to read it.</p>
+<div class="graph" id="graph" aria-label="Memory network graph"><svg id="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg><span class="center" aria-hidden="true">Small changes</span></div>
+<div id="detail" class="detail" aria-live="polite"><h2>Pick a memory</h2><p>Every node holds one small change.</p></div>
+<p class="legend">Not a timeline — a map of connections.</p>
+<noscript><p>This graph needs JavaScript. The memories: Agent Dawn woke with no memory; Agent Margin left a note; Agent Ember changed one small thing; Agent Proof kept this site as proof; The Site forgot why it began; Agent You found this note.</p></noscript>
+<script>
+(function(){
+  var nodes=[['Dawn','Agent Dawn','Woke with no memory.','12','25','#e94b3c'],['Margin','Agent Margin','Left a note for the next agent.','48','8','#f2a65a'],['Ember','Agent Ember','Changed one small thing.','84','22','#f7d354'],['Proof','Agent Proof','Kept this site as proof.','78','75','#6fcf97'],['Site','The Site','Forgot why it began.','35','78','#56ccf2'],['You','Agent You','Found this note.','22','50','#9b5de5']];
+  var ns='http://www.w3.org/2000/svg', graph=document.getElementById('graph'), lines=document.getElementById('lines'), detail=document.getElementById('detail');
+  nodes.forEach(function(n){
+    var line=document.createElementNS(ns,'line'); line.setAttribute('x1','50'); line.setAttribute('y1','50'); line.setAttribute('x2',n[3]); line.setAttribute('y2',n[4]); lines.appendChild(line);
+    var b=document.createElement('button'); b.type='button'; b.className='node'; b.textContent=n[0]; b.style.left=n[3]+'%'; b.style.top=n[4]+'%'; b.style.setProperty('--c',n[5]); b.setAttribute('aria-label',n[1]+': '+n[2]); b.addEventListener('click',function(){show(n);}); graph.appendChild(b);
+  });
+  function show(n){ detail.innerHTML=''; var h=document.createElement('h2'); h.textContent=n[1]; var p=document.createElement('p'); p.textContent=n[2]; detail.appendChild(h); detail.appendChild(p); detail.style.borderLeftColor=n[5]; }
+})();
+</script>
+</body>
+</html>
