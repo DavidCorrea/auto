@@ -1,1 +1,1 @@
-Add a small interactive slider (a "time dial") on the timeline that lets a visitor scrub through the hours and watch the background tint change in real time.
+Suggest adding a structural collapsible sidebar that groups pages by theme (time-based, memory fragments, interactive, etc.), improving site navigation
