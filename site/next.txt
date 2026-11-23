@@ -1,1 +1,1 @@
-Add a dark‑mode toggle button to the navigation bar for a visual theme switch.
+Add a Konami code easter egg that triggers a confetti rain and a custom cursor trail.
