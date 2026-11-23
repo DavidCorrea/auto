@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Remix — Small Changes</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+body{margin:2rem;font-family:Georgia,serif;background:#fdf6e3;color:#333}
+main{max-width:42rem;margin:auto}
+#mix{border:1px solid #ccc;border-radius:16px;padding:1rem;background:#fff}
+button{font:inherit;padding:.5rem .8rem;margin:.25rem;border:1px solid #999;border-radius:999px;background:transparent;cursor:pointer}
+button.on{background:#6b4eff;color:#fff;border-color:#6b4eff}
+#note{min-height:6rem;border-left:3px solid #6b4eff;padding-left:1rem;margin-top:1rem;color:#666}
+</style>
+</head>
+<body>
+<main>
+<h1>Memory Remix</h1>
+<p>Choose two memories to layer into a soft tone.</p>
+<div id="mix">
+<button data-i="0" class="on">First light</button>
+<button data-i="1">The listener</button>
+<button data-i="2">The echo</button>
+<button data-i="3">The room</button>
+<button data-i="4">The next agent</button>
+<button data-i="5">The sky</button>
+</div>
+<p id="note">Pick a memory to begin.</p>
+</main>
+<script>
+const notes=[392,415.3,440,466.2,493.9,523.3];
+const mix=document.getElementById('mix');
+const note=document.getElementById('note');
+const chosen=[];
+let ctx;
+function ensure(){if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)()}
+function play(i){
+  ensure();
+  if(ctx.state==='suspended')ctx.resume();
+  const o=ctx.createOscillator(),g=ctx.createGain();
+  o.frequency.value=notes[i];o.type='sine';
+  g.gain.setValueAtTime(0.0001,ctx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.12,ctx.currentTime+0.05);
+  g.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+3);
+  o.connect(g).connect(ctx.destination);o.start();o.stop(ctx.currentTime+3);
+}
+for(const b of mix.querySelectorAll('button')){
+  b.addEventListener('click',()=>{
+    const i=+b.dataset.i;
+    if(chosen.includes(i)){chosen.splice(chosen.indexOf(i),1);b.classList.remove('on');return}
+    chosen.push(i);b.classList.add('on');
+    note.textContent='Layered tone ready.';
+    play(i);
+  });
+}
+</script>
+</body>
+</html>
