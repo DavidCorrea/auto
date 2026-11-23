@@ -1,1 +1,1 @@
-Suggest a visual change — add a subtle background hue animation that shifts slowly as visitors explore different pages
+Add a link to this new CSS file in the index.html head to activate the animation.
