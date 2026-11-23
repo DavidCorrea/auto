@@ -1,1 +1,1 @@
-Remove a page that no longer fits and fix any links to it, or add a single text-only page explaining the site's purpose in one paragraph.
+Make a visual change next — such as shifting the accent color, adding a hover effect to navigation, or restyling a heading — rather than adding another text page.
