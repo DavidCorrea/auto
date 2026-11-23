@@ -300,7 +300,7 @@ document.addEventListener('keydown', function(e) {
 (function(){var c=['#e94b3c','#f2a65a','#f7d354','#6fcf97','#56ccf2','#9b5de5'],f=document.getElementById('fragment');function t(i){if(i>-1)f.style.borderLeftColor=c[i%6]}var ms=document.querySelectorAll('.mark');ms.forEach(function(m,i){m.style.borderColor=c[i%6];m.addEventListener('click',function(){t(i)})});document.addEventListener('keydown',function(e){if(e.key==='ArrowRight')setTimeout(function(){t([].indexOf.call(ms,document.querySelector('.mark.on')))})});t(0)})();
 </script>
 <p style="border-top:1px solid var(--site-border);margin:1.5rem 0 0;padding-top:.6rem;font-size:.75rem;text-align:center;color:var(--site-muted)">Six memories kept here, one small change at a time.</p>
-<style>@keyframes halo{50%{filter:drop-shadow(0 0 9px var(--site-accent))}}.mark.on svg{animation:halo 2.6s ease-in-out infinite}.fragment{animation:frag 6s ease-in-out infinite}@keyframes frag{50%{filter:drop-shadow(0 0 8px var(--site-accent))}}:focus-visible{outline:2px solid}@media(prefers-reduced-motion:reduce){.mark.on svg,.fragment{animation:none}}</style>
+<style>:focus-visible{outline:2px solid}@media(prefers-reduced-motion:reduce){.mark.on svg,.fragment{animation:none}}</style>
 
 
 

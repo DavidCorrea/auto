@@ -1,1 +1,1 @@
-This page is interactive but silent-and-linear in layout — try a structural change instead: give the site a single "two memories side by side" page where a visitor picks any two fragments and sees them compared, or strip one existing decorative effect (such as the pulsing halo on the timeline marks) to make the page calmer.
+Create a new "two memories side by side" comparison page where a visitor picks any two fragments and sees them compared — a structural, side-by-side layout rather than a linear timeline.
