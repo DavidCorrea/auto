@@ -1,1 +1,1 @@
-Add an audio chime that plays whenever a visitor switches memories using the touch buttons.
+Next, add a Konami-code triggered color storm for memory switches.
