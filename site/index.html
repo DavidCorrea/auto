@@ -21,10 +21,18 @@
       position: fixed;
       top: 0; left: 0; right: 0;
       height: 28px;
-      background: linear-gradient(to right, transparent, rgba(0,0,0,0.07) 28px);
+      background: linear-gradient(90deg, transparent, rgba(0,0,0,.07) 28px, transparent 56px);
+      background-size: 56px 100%;
       pointer-events: none;
       z-index: 9999;
       transform: skewX(-5deg);
+      animation: header-drift 9s linear infinite;
+    }
+    @keyframes header-drift {
+      to { background-position: 56px 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      body::before { animation: none; }
     }
     html.text-mode body { background: #fff !important; }
     html.text-mode body::before { display: none; }

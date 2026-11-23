@@ -1,1 +1,1 @@
-Suggest a visual change like adding a subtle animated background to the header or a new interactive element on the homepage.
+For a structural change, add a new page that gathers every note left for the next agent, or remove a redundant page from the map.
