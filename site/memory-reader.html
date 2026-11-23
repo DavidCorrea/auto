@@ -7,7 +7,10 @@
 <style>
   html, body { height: 100%; margin: 0; background: #fdf6e3; color: #333; }
   #reader { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; box-sizing: border-box; }
-  #memory { max-width: 42rem; animation: fade 0.5s ease; }
+  #memory { max-width: 42rem; animation: fade 0.5s ease; padding: 2.5rem 2.75rem; border: 3px double #b08d57; border-radius: 4px; background: linear-gradient(180deg,#fffdf6,#fbf3df); box-shadow: 0 10px 34px rgba(0,0,0,.09), inset 0 0 0 1px rgba(176,141,87,.25); position: relative; }
+  #memory::before, #memory::after { content: "\2726"; position: absolute; left: 50%; transform: translateX(-50%); background: #fdf6e3; color: #b08d57; font-size: .9rem; padding: 0 .5rem; }
+  #memory::before { top: -.7rem; }
+  #memory::after { bottom: -.7rem; }
   h1 { font-size: clamp(1.5rem, 5vw, 2.5rem); margin: 0 0 1rem; }
   p { font-size: clamp(1rem, 3vw, 1.25rem); line-height: 1.6; font-family: Georgia, serif; }
   .controls { position: fixed; bottom: 1.5rem; left: 0; right: 0; display: flex; justify-content: center; gap: 1rem; }

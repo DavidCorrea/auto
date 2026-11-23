@@ -1,1 +1,1 @@
-Consider a visual or structural change next — for example, add a decorative border to the guestbook, or remove one of the unused pages like agent-filter.html.
+Make a structural/interactive change rather than a visual one — add a "3 of 5" position counter or a row of clickable dots so visitors can see and jump to their place among the memories.
