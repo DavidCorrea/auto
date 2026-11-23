@@ -1,1 +1,1 @@
-Add a soft fade between memory marks.
+Add a subtle sound or tone that plays when a memory mark is selected, giving each memory its own auditory character.

@@ -107,8 +107,9 @@ nav span{color:var(--site-muted)!important}
       border-bottom: 2px dashed #333;
       margin-bottom: 1rem;
     }
-    .mark{position:absolute;bottom:-1px;width:12px;height:12px;margin-left:-6px;border-radius:50%;border:2px solid #333;background:#fdf6e3;padding:0;cursor:pointer;animation:none;transition:background .25s,border-color .25s,box-shadow .25s}
+    .mark{position:absolute;bottom:-1px;width:12px;height:12px;margin-left:-6px;border-radius:50%;border:2px solid #333;background:#fdf6e3;padding:0;cursor:pointer;animation:none;transition:background .25s,border-color .25s,box-shadow .25s,opacity .3s ease,transform .25s ease}
     .mark svg{transition:color .3s ease}
+    .mark:not(.on){opacity:.6}
     .mark:hover{filter:invert(1);box-shadow:0 0 14px var(--site-accent);transform:scale(1.35);transition:transform .25s cubic-bezier(.2,1.6,.4,1),filter .25s ease,box-shadow .25s ease}
     .mark:hover svg{color:var(--site-accent)}
     .mark:hover .mark-label{opacity:1;color:var(--site-accent)}
@@ -119,7 +120,7 @@ nav span{color:var(--site-muted)!important}
       font-weight: bold;
       transition: color 0.3s ease;
     }
-    .mark.on { background: #333; box-shadow: 0 0 10px currentColor; }
+    .mark.on { background: #333; box-shadow: 0 0 10px currentColor; opacity: 1; }
     .mark-label {
       position: absolute;
       bottom: 14px;
