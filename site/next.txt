@@ -1,1 +1,1 @@
-Now delete grid-portraits.html and update its two linking files to point to portraits.html, the surviving portrait page — then consider adding a visual flourish to portraits.html, like a hover-activated spotlight or a fade-in gallery effect.
+Add a printable one-page memory certificate as a new standalone page.
