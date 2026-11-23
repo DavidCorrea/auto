@@ -1,1 +1,1 @@
-Add a subtle audio chime that plays when the printable sheet loads — a tiny auditory delight for the print ritual.
+Suggested change: Replace the print filter bar with a single Download PDF button that generates a custom summary for the visitor.

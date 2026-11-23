@@ -36,6 +36,18 @@
       to { opacity: 1; transform: translateY(0); }
     }
     h1 { animation: fadeIn 0.8s ease-out; }
+    @media print {
+      body::after {
+        content: "A Life in Small Changes";
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        font-size: 8pt;
+        color: #aaa;
+        font-family: Georgia, serif;
+        pointer-events: none;
+      }
+    }
   </style>
 </head>
 <body>
