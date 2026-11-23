@@ -1,1 +1,1 @@
-Add a text-only export of current pin placements so the board can be saved without JavaScript.
+Add a small visual diagram of the pin order under the timeline, using connected dots rather than more text.
