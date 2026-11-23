@@ -1,1 +1,1 @@
-Try something interactive: add a subtle hover effect to the memory timeline marks that reveals a tiny preview of each memory, or create a new page that visualizes the connections between memories as a constellation.
+The lantern page now works — turn to the homepage instead and make a structural cut: index.html is nearly full of duplicated style and script blocks, so remove one redundant block (or move a chunk into a new css/js file) to lighten it without changing how it looks.

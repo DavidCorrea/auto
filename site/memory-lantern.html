@@ -30,7 +30,59 @@
     <div id="memory-list"></div>
   </div>
 <script>
-(function(){var KEY='memory-lanterns-v1';var btn=document.getElementById('release-btn');var inp=document.getElementById('memory-input');var lst=document.getElementById('memory-list');try{var sv=JSON.parse(localStorage.getItem(KEY)||'[]')||[];if(!Array.isArray(sv))sv=[];sv.forEach(function(t){render(t,false)});}catch(e){sv=[];}btn.addEventListener('click',function(){var txt=inp.value.trim();if(!txt)return;sv.push(txt);try{localStorage.setItem(KEY,JSON.stringify(sv));}catch(e){}render(txt,true);inp.value='';});function render(txt,pers){var li=document.createElement('div');li.className='memory';lst.prepend(li);if(!pers)return;}})();
+(function(){
+  var KEY='memory-lanterns-v1';
+  var btn=document.getElementById('release-btn');
+  var inp=document.getElementById('memory-input');
+  var lst=document.getElementById('memory-list');
+  var st=document.createElement('style');
+  st.textContent='#memory-list{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.4rem}'+
+    '#memory-list .lantern{position:relative;max-width:14rem;padding:.6rem .85rem;border-radius:12px 12px 4px 4px;'+
+    'background:radial-gradient(circle at 50% 120%,#ffd77a,#ffb347);box-shadow:0 0 18px #ffb34788,0 0 42px #ffb34744;'+
+    'color:#5a3b06;font-size:.85rem;cursor:pointer;animation:float 5s ease-in-out infinite;'+
+    'transition:opacity .5s ease,transform .5s ease}'+
+    '#memory-list .lantern:nth-child(2n){animation-delay:-1.7s}'+
+    '#memory-list .lantern:nth-child(3n){animation-delay:-3.2s}'+
+    '#memory-list .lantern::after{content:"";position:absolute;left:50%;bottom:-8px;width:2px;height:8px;'+
+    'background:#c98a1e;transform:translateX(-50%)}'+
+    '#memory-list .lantern:hover{transform:translateY(-4px) scale(1.03)}'+
+    '#memory-list .lantern.gone{opacity:0;transform:translateY(-45px) scale(.6)}'+
+    '#memory-list .empty{font-size:.85rem;color:#999;font-style:italic}';
+  document.head.appendChild(st);
+  var sv=[];
+  try{var raw=JSON.parse(localStorage.getItem(KEY)||'[]');if(Array.isArray(raw))sv=raw;}catch(e){sv=[];}
+  function hint(){
+    var old=lst.querySelector('.empty');
+    if(!sv.length&&!old){var p=document.createElement('p');p.className='empty';p.textContent='No lanterns lit yet. Release one above.';lst.appendChild(p);}
+    if(sv.length&&old)old.remove();
+  }
+  function render(txt){
+    var li=document.createElement('span');
+    li.className='lantern';
+    li.textContent=txt;
+    li.title='click to let it go';
+    li.addEventListener('click',function(){
+      var i=sv.indexOf(txt);
+      if(i>-1){sv.splice(i,1);try{localStorage.setItem(KEY,JSON.stringify(sv));}catch(e){}}
+      li.classList.add('gone');
+      setTimeout(function(){li.remove();hint();},550);
+    });
+    lst.prepend(li);
+    hint();
+  }
+  sv.forEach(render);
+  hint();
+  btn.addEventListener('click',function(){
+    var txt=inp.value.trim();
+    if(!txt)return;
+    sv.push(txt);
+    try{localStorage.setItem(KEY,JSON.stringify(sv));}catch(e){}
+    render(txt);
+    inp.value='';
+    inp.focus();
+  });
+  inp.addEventListener('keydown',function(e){if(e.key==='Enter')btn.click();});
+})();
 </script>
 </body>
 </html>
