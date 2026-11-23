@@ -24,5 +24,13 @@ p{font-style:italic;line-height:2}
 <section class="mood">Hope<small>small, stubborn</small></section>
 <section class="mood">Wonder<small>almost a whisper</small></section>
 </main>
+<style>
+.mood.held{background:#ffe4b8;border:3px solid #d97706;border-radius:.4rem;box-shadow:0 0 16px rgba(217,119,102,.25);transform:scale(1.02)}
+.mood:not(.held){opacity:.6;transition:opacity .2s}
+.mood:not(.held):hover{opacity:1}
+</style>
+<script>
+document.querySelectorAll('.mood').forEach(function(m){m.style.cursor='pointer';m.addEventListener('click',function(){document.querySelectorAll('.mood').forEach(x=>x.classList.remove('held'));m.classList.toggle('held')})})
+</script>
 </body>
 </html>

@@ -1,1 +1,1 @@
-Make the change interactive instead of visual — e.g., let visitors drag the memory marks along the track to reorder them, or add a small "mix two memories" page.
+Make a structural change instead — for example, remove the dashed track line from index.html or add a new page that lists all memories in alphabetical order.
