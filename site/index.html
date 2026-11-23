@@ -105,7 +105,7 @@ nav span{color:var(--site-muted)!important}
   50% { text-shadow: 0 0 24px var(--site-accent), 0 0 36px rgba(107, 78, 255, 0.4); }
 }
 </style>
-<div aria-label="Memory timeline" role="img" onclick="var r=this.getBoundingClientRect();document.querySelectorAll('.mark')[Math.max(0,Math.min(5,Math.floor((event.clientX-r.left)/r.width*6)))].click()" style="cursor:pointer;height:8px;margin:-.5rem 0 1rem;border-radius:4px;background:linear-gradient(90deg,#333,#666,#333)"></div>
+<div aria-label="Memory timeline" role="img" onclick="var r=this.getBoundingClientRect();var i=Math.max(0,Math.min(5,Math.floor((event.clientX-r.left)/r.width*6)));show(i);" style="cursor:pointer;height:8px;margin:-.5rem 0 1rem;border-radius:4px;background:linear-gradient(90deg,#333,#666,#333)"></div>
 
 
   <div id="timeline">
