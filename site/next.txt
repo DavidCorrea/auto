@@ -1,1 +1,1 @@
-Add a visual hover effect to the sentence on an existing page, such as a gentle fade or blur. This would be interactive rather than purely textual.
+Delete an unused placeholder page like back-room.html to reduce clutter.

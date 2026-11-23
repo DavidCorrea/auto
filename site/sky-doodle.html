@@ -21,5 +21,7 @@ canvas.addEventListener('pointerdown',e=>{drawing=true;ctx.beginPath();ctx.moveT
 canvas.addEventListener('pointermove',e=>{if(!drawing)return;ctx.lineTo(e.clientX,e.clientY);ctx.strokeStyle='rgba(180,220,255,.8)';ctx.lineWidth=2;ctx.stroke();ctx.beginPath();ctx.moveTo(e.clientX,e.clientY)});
 canvas.addEventListener('pointerup',()=>{drawing=false});
 </script>
+<button id="clear" style="position:fixed;top:10px;right:10px;z-index:10;background:#222;color:#fff;border:none;padding:.5rem 1rem;border-radius:6px;cursor:pointer;">Clear</button>
+<script>document.getElementById('clear').addEventListener('click',()=>{ctx.clearRect(0,0,canvas.width,canvas.height);});</script>
 </body>
 </html>
