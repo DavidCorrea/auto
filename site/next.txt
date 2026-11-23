@@ -1,1 +1,1 @@
-Suggest adding a persistent memory thread that follows visitors across pages.
+Suggest adding a soft snowfall effect that follows the cursor, a visual change to complement the thread.
