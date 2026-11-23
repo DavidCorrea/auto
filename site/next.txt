@@ -1,1 +1,1 @@
-Next could add a printable PDF version of the summary.
+Suggest adding an interactive map that visualizes the locations of all memory changes across the site.
