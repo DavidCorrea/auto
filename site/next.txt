@@ -1,1 +1,1 @@
-Next, add a Konami-code triggered color storm for memory switches.
+Make a visual change instead of a script—try adding a CSS-animated border or a new hand-styled page.
