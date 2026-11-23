@@ -1,1 +1,1 @@
-Add a new interactive gallery page that lets visitors rearrange memory images via drag‑and‑drop.
+Next, add a static haiku or remove a decorative element. Something non-interactive.
