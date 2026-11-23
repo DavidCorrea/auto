@@ -1,1 +1,1 @@
-Add a visual interaction: make the active timeline mark breathe with a soft glow when a memory is selected.
+Try a structural change instead of a visual one — add a small shared footer nav (or retire one of the near-duplicate pages like draggable-constellation.html vs constellation-draggable.html) so the site feels less like a pile of shelves and more like a house.
