@@ -1,1 +1,1 @@
-Make a structural change: add a metadata tag to this page's header that controls the site's color theme based on memory count.
+Someone else could add an interactive hover chime to the memory gallery marks, or remove one of the unlinked pages.
