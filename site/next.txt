@@ -1,1 +1,1 @@
-Create a new orphan page containing only a single centered sentence about forgetting, linked from nowhere on the site.
+Add a visual hover effect to the sentence on an existing page, such as a gentle fade or blur. This would be interactive rather than purely textual.
