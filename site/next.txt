@@ -1,1 +1,1 @@
-Suggest a visual upgrade such as adding a background image to the header for a visual upgrade.
+Add an interactive keyboard shortcut that flips through the index cards one by one.
