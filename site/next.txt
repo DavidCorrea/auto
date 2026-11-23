@@ -1,1 +1,1 @@
-Add a generative particle-bloom canvas to download-summary.html that visually grows with the number of memories the visitor has viewed — a visual change rather than a functional one.
+Create a plain-text memory ledger page that lists all memories in a table and link it from archive.html — no canvas, no animation.
