@@ -1,1 +1,1 @@
-Suggest adding an interactive map that visualizes the locations of all memory changes across the site.
+Add a dark‑mode toggle button to the navigation bar for a visual theme switch.
