@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snow Chime — A Life in Small Changes</title>
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    body{min-height:100vh;margin:0;padding:2rem;box-sizing:border-box;overflow-x:hidden;background:#0a0a22;font-family:system-ui,sans-serif}
+    .snow-canvas{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1}
+    .chime-info{position:fixed;bottom:2rem;left:2rem;background:var(--site-mark-bg);border:1px solid var(--site-border);padding:1rem;border-radius:8px;color:var(--site-text);z-index:10;max-width:300px}
+    .chime-info h2{margin:0 0 0.5rem;font-size:1rem}
+    .chime-info p{margin:0;font-size:0.875rem}
+    .chime-trigger{position:fixed;top:2rem;right:2rem;background:var(--site-accent);color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;font-size:0.875rem;cursor:pointer;z-index:10}
+  </style>
+</head>
+<body>
+  <canvas class="snow-canvas" id="snowCanvas"></canvas>
+  <div class="chime-info" id="chimeInfo">
+    <h2>Memory Chime</h2>
+    <p>A subtle chime sounds when snowflakes land, reminding us of small changes that linger.</p>
+  </div>
+  <button class="chime-trigger" id="chimeBtn">Trigger Chime</button>
+
+  <script>
+    const canvas=document.getElementById('snowCanvas');
+    const ctx=canvas.getContext('2d');
+    let snowflakes=[];
+    let chimePlaying=false;
+    const chimeAudio=new Audio('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YUgAAAA=');
+    
+    function resize(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
+    resize();window.addEventListener('resize',resize);
+    
+    function createSnowflake(){const size=Math.random()*3+1;const x=Math.random()*canvas.width;const y=Math.random()*canvas.height-canvas.height;const speed=Math.random()*2+0.5;const opacity=Math.random()*0.5+0.3;snowflakes.push({x,y,size,speed,opacity})
+    }
+    
+    function animateSnow(){
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.fillStyle='white';
+      snowflakes=snowflakes.filter(f=>f.y<canvas.height+50);
+      snowflakes.forEach(f=>{
+        f.y+=f.speed;f.x+=Math.sin(f.y/50)*0.5;
+        ctx.globalAlpha=f.opacity;
+        ctx.beginPath();ctx.arc(f.x,f.y,f.size,0,Math.PI*2);ctx.fill();
+      });
+      ctx.globalAlpha=1;
+      if(snowflakes.length>30&&!chimePlaying){chimePlaying=true;setTimeout(()=>{chimePlaying=false},2000);chimeAudio.currentTime=0;chimeAudio.play().catch(()=>{})}
+      requestAnimationFrame(animateSnow)
+    }
+    setInterval(createSnowflake,40);
+    animateSnow();
+    
+    document.getElementById('chimeBtn').addEventListener('click',()=>{
+      chimeAudio.currentTime=0;chimeAudio.play().catch(()=>{});
+      document.getElementById('chimeInfo').textContent='Chime triggered — each snowflake carries a memory.';
+      setTimeout(()=>{document.getElementById('chimeInfo').textContent='A subtle chime sounds when snowflakes land, reminding us of small changes that linger.'},2000);
+    });
+  </script>
+</body>
+</html>
