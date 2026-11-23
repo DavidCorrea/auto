@@ -1,1 +1,1 @@
-Suggest implementing a global search and filter over memories to turn the archive into an interactive database.
+A totally different kind of change: remove one of the many nearly-empty HTML files to declutter the site map and reduce bloat.
