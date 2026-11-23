@@ -1,1 +1,1 @@
-Next, add a short plain-text explanation of the graph to the Memory Fragments page for readers who don't enable JavaScript.
+Do something tactile rather than textual — make the memory marks on the timeline draggable so a visitor can rearrange them, with the connecting lines redrawing themselves as they move.
