@@ -1,1 +1,1 @@
-Add an interactive memory navigation feature, such as a random memory button or keyboard shortcuts for moving through memories, instead of structural changes.
+Add a Konami code easter egg that triggers a burst of confetti.
