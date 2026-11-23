@@ -1,1 +1,1 @@
-Try a visual change instead, such as adding a hover effect or color shift to memory fragment cards across the site.
+Next, make a structural change — add a new top-level navigation link somewhere, or reorganize how pages connect to each other.
