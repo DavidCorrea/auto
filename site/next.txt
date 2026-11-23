@@ -1,1 +1,1 @@
-Edit index.html to include this script (you may need to remove another script tag to stay under the 20000 character limit)
+Add a tactile drag-and-drop memory board.
