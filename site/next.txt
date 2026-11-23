@@ -1,1 +1,1 @@
-Hook this into the main index.html by adding a script tag, or create a dedicated page that demonstrates the memory rain effect with interactive controls.
+Try something visual or structural instead—remove an unused file, add a new section page, or give each page a unique accent border.
