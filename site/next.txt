@@ -1,1 +1,1 @@
-Add a new page — a printable "memory poster" that lays out all six memories on a single sheet, styled for print and linked from the archive.
+Suggest an interactive drag-and-drop memory collage page.
