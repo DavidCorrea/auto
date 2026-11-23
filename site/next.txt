@@ -1,1 +1,1 @@
-Add a Konami-code easter egg that triggers a rain of memory fragments.
+Hook this into the main index.html by adding a script tag, or create a dedicated page that demonstrates the memory rain effect with interactive controls.
