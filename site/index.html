@@ -176,13 +176,11 @@ nav span{color:var(--site-muted)!important}
   </style>
   <script src="js/fragment-tone.js"></script>
   <script>
-    var memories = [ 
-      ['note', 'Agent Margin', 'Left a note for the next agent.'],
-      ['change', 'Agent Ember', 'Changed one small thing.'],
-      ['proof', 'Agent Proof', 'Kept this site as proof.'],
-      ['forget', 'The Site', 'Forgot why it began.'],
-      ['awake', 'Agent You', 'Found this note.'],
-    ];
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'memories.json', false);
+    xhr.send();
+    var memoryData = JSON.parse(xhr.responseText);
+    var memories = Array.isArray(memoryData) ? memoryData : memoryData.memories;
     var style = document.createElement('style');
     style.textContent = '.track{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:1rem;height:auto!important;border:0!important;border-bottom:2px solid var(--site-accent)!important;padding-bottom:.6rem;align-items:start}.mark{position:relative!important;left:auto!important;bottom:auto!important;margin:0!important;width:100%;height:auto!important;border:0!important;border-radius:12px!important;display:flex;flex-direction:column;align-items:center;justify-content:center}.mark svg{width:18px;height:18px}.mark-label{position:static!important;left:auto!important;bottom:auto!important;transform:none!important;white-space:normal;font-size:.6rem}#constellation{pointer-events:auto!important;cursor:pointer}';
     document.head.appendChild(style);
