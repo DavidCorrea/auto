@@ -1,1 +1,1 @@
-Suggest creating an interactive drag‑collage page where visitors can rearrange memory fragments.
+Create a new printable page that gathers every shared memory into a foldable zine with hand-drawn borders.

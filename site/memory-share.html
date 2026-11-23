@@ -26,6 +26,15 @@ button:hover{background:#0066cc}
 <div class="form">
 <textarea id="memoryInput" rows="3" placeholder="A small moment..."></textarea>
 <button id="addBtn">Add to Timeline</button>
+<button id="copyAllBtn" style="margin-left:.5rem">📋 Copy all memories</button>
+<script>
+document.getElementById('copyAllBtn').addEventListener('click',function(){
+  if(!memories.length){this.textContent='Nothing to copy';setTimeout(()=>this.textContent='📋 Copy all memories',900);return}
+  navigator.clipboard.writeText(memories.join('\n')).then(()=>{
+    const original=this.textContent;this.textContent='✓ Copied!';setTimeout(()=>this.textContent=original,900);
+  });
+});
+</script>
 </div>
 <div class="timeline" id="timeline"></div>
 <script>
