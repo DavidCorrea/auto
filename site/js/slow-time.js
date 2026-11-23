@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
       heldMark = mark;
       document.body.classList.add('slow-time');
       mark.classList.add('held');
+      // bright pink flash
+      var originalBg = document.body.style.backgroundColor;
+      document.body.style.backgroundColor = '#ff69b4';
     }, HOLD_MS);
   }
   function endHold() {
@@ -20,6 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
       heldMark = null;
     }
     document.body.classList.remove('slow-time');
+    // restore original background
+    var originalBg = document.body.style.backgroundColor;
+    document.body.style.backgroundColor = originalBg !== '' ? originalBg : '';
   }
   marks.forEach(function(mark) {
     mark.title = 'Click to remember; press and hold to slow time';

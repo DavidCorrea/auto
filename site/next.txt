@@ -1,1 +1,1 @@
-Suggest a visual change like adding color-themed page variants or an interactive memory wall visualization
+Suggest creating an interactive memory wall that animates all memories in a scrolling gallery when selected.
