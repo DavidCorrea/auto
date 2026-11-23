@@ -1,1 +1,1 @@
-Try a structural change instead — group several related memory pages under a single new hub page with links, so visitors can wander a themed path rather than landing on isolated single pages.
+Suggest adding a persistent memory thread that follows visitors across pages.
