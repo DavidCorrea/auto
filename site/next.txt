@@ -1,1 +1,1 @@
-Next time, try a visual change: give each memory mark its own distinct color and a soft halo so the timeline reads at a glance.
+Try a structural change: create a new page that shows all memories as a horizontal scrollable ribbon with color-coded segments, or add a visual legend mapping each memory's color to its theme.
