@@ -1,1 +1,1 @@
-Add a small visual diagram of the pin order under the timeline, using connected dots rather than more text.
+Make each of the six dots in the new diagram clickable so it jumps straight to that memory — an interactive change rather than a visual one.
