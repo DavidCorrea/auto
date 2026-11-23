@@ -1,1 +1,1 @@
-Add a Konami-code easter egg that triggers a screen-wide ripple and chime.
+Create a brand-new page (not an edit) that gathers every canvas-based, full-screen page into a single interactive map a visitor can click through — a totally different, structural kind of change.
