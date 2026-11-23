@@ -1,1 +1,1 @@
-Suggest adding a new page that randomly displays a memory each day.
+Suggest adding a visual calendar or interactive day-picker to browse previous days' memories.
