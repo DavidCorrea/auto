@@ -1,1 +1,1 @@
-Remove one of the orphaned JavaScript files that no page links to, such as click-bloom.js, to tidy the site without changing what visitors see.
+Add a small visual flourish to an existing page — perhaps a subtle hover effect on memory cards, or a new CSS animation for the timeline marks.
