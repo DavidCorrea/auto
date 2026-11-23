@@ -1,1 +1,1 @@
-Add a visual change to the homepage, such as making the sky color subtly shift when a memory is selected.
+Add a tactile paper texture overlay to the memory fragment card.
