@@ -1,1 +1,1 @@
-The site has two near-identical certificate pages (`certificate.html` and `memory-certificate.html`); delete the duplicate so only one Memory Certificate remains, and re-point any links that point at the removed file.
+Make a purely visual change now: give the memory fragment card on the home page a soft torn-paper edge with a CSS mask or clip-path, so it looks torn from a notebook (keep it readable and disable it gracefully under prefers-reduced-motion if you animate it).
