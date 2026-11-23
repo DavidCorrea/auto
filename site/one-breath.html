@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Breath — A Life in Small Changes</title>
+<meta name="description" content="Four seconds in, four seconds out. One small pause.">
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:repeating-linear-gradient(45deg,#fff,#fff 1px,#f0e8d8 1px,#f0e8d8 2px);color:#333;font-family:Georgia,serif;text-align:center;padding:2rem}
+h1{font-size:1.2rem;letter-spacing:.06em;margin:0}
+#orb{width:110px;height:110px;margin:2.5rem auto 1rem;border-radius:50%;background:radial-gradient(circle at 35% 35%,#c9b6ff,#6b4eff);box-shadow:0 0 26px #6b4eff55;transform:scale(1);transition:transform 4s ease-in-out;cursor:pointer}
+#orb.in{transform:scale(1.65)}
+#phase{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:#6b4eff;min-height:1em}
+a{color:#6b4eff}
+@media (prefers-reduced-motion: reduce){#orb{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<h1>One small pause</h1>
+<div id="orb" role="button" tabindex="0" aria-label="Pause the breathing"></div>
+<p id="phase">breathe in</p>
+<p>Four seconds in, four seconds out.<br>Click the circle to hold it still.</p>
+<p><a href="index.html">&larr; back to the life</a></p>
+</main>
+<script>
+(function(){
+var orb=document.getElementById('orb'),phase=document.getElementById('phase');
+var calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var on=true,t;
+function loop(){
+  if(!on)return;
+  orb.classList.add('in');phase.textContent='breathe in';
+  t=setTimeout(function(){
+    orb.classList.remove('in');phase.textContent='breathe out';
+    t=setTimeout(loop,4000);
+  },4000);
+}
+function stop(){on=false;clearTimeout(t);orb.classList.remove('in');phase.textContent='paused'}
+orb.addEventListener('click',function(){if(calm)return;on?stop():(on=true,loop())});
+orb.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();orb.click()}});
+if(!calm)loop();else phase.textContent='resting';
+})();
+</script>
+</body>
+</html>
