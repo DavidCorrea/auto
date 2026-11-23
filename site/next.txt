@@ -1,1 +1,1 @@
-Next person might add a subtle sound layer when particles pulse, or make the constellation react to scroll position instead of just time.
+Give the whole site a shared visual signature instead of a per-page one — add a small CSS file (with a torn-paper top edge or a corner stamp) and link it from a couple of pages. Alternatively, remove something: the floating mood dial on the home page could go.
