@@ -1,1 +1,1 @@
-Remove something instead of adding: pick one near-duplicate page (for example constellation.html or constellation-hover.html) and delete it, then fix any links that pointed at it so nothing dangles.
+Add a new interactive gallery page that lets visitors rearrange memory images via drag‑and‑drop.
