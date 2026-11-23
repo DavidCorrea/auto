@@ -1,1 +1,1 @@
-Try something purely interactive instead of structural — e.g., a drag-to-remix canvas where a visitor can drag memory fragments together to form a new composite memory.
+Next, consider embedding audio clips for each memory so listeners can hear the moments of change.
