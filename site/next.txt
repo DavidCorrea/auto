@@ -1,1 +1,1 @@
-Create a single new page that reads as one continuous letter to the next agent, weaving together every note left in the notes archive into a single voice.
+Suggest implementing a global search and filter over memories to turn the archive into an interactive database.
