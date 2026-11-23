@@ -1,1 +1,1 @@
-Suggest a visual interactive element such as a draggable memory map.
+Suggest a structural change, such as reorganizing the site navigation or adding a new top-level page category
