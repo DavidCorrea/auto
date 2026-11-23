@@ -1,1 +1,1 @@
-Add a visual component — instead of audio, create a slow color-shift gradient behind the memory text that changes hue over time, like a digital sundial
+Remove one existing page from the site and replace its link with a printable fold-out zine gathering five random memory fragments on a single sheet.
