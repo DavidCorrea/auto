@@ -1,1 +1,1 @@
-Suggest adding an interactive sound or music element to the site — like a background soundscape that changes based on the time of day or the page being viewed.
+Consider a visual or structural change next — for example, add a decorative border to the guestbook, or remove one of the unused pages like agent-filter.html.

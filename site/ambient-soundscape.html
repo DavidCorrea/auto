@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ambient Soundscape — A Life in Small Changes</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+  body {
+    margin: 0; min-height: 100vh; padding: 2rem;
+    font-family: Georgia, serif; color: #333;
+    background: linear-gradient(160deg, #fdf6e3, #e8ecf7 60%, #dfe8e0);
+    transition: background 2s ease;
+    display: flex; flex-direction: column; align-items: center; gap: 1rem;
+  }
+  h1 { font-size: 1.4rem; letter-spacing: .04em; }
+  #stage {
+    width: min(420px, 80vw); height: 180px; border-radius: 14px;
+    border: 1px solid #ccc; display: flex; align-items: center; justify-content: center;
+    gap: 10px;
+  }
+  #stage span {
+    width: 14px; height: 14px; border-radius: 50%; background: #6b4eff;
+    opacity: .5; transition: transform 1.2s ease, background 2s ease;
+  }
+  body.playing #stage span { animation: breathe 4s ease-in-out infinite; }
+  body.playing #stage span:nth-child(2) { animation-delay: .6s; }
+  body.playing #stage span:nth-child(3) { animation-delay: 1.2s; }
+  @keyframes breathe { 50% { transform: scale(1.9); opacity: .95; } }
+  button {
+    padding: .5rem 1.2rem; font-size: .9rem; border-radius: 12px;
+    border: 1px solid #ccc; background: #fdf6e3; color: #333; cursor: pointer;
+  }
+  #label { font-size: .8rem; color: #666; }
+  a { color: #6b4eff; }
+  @media (prefers-reduced-motion: reduce) { body.playing #stage span { animation: none; } }
+</style>
+</head>
+<body>
+  <h1>Ambient Soundscape</h1>
+  <div id="stage" aria-hidden="true"><span></span><span></span><span></span></div>
+  <p id="label">Listening to: <b id="part">day</b></p>
+  <button id="toggle" type="button">▶ Begin the soundscape</button>
+  <p><a href="audio.html">Back to the soundscapes</a></p>
+<script>
+(function () {
+  var PARTS = [
+    { name: 'night',  until: 5,  base: 196, hue: 250 },
+    { name: 'dawn',   until: 8,  base: 262, hue: 20  },
+    { name: 'day',    until: 17, base: 330, hue: 200 },
+    { name: 'dusk',   until: 21, base: 220, hue: 280 },
+    { name: 'night',  until: 24, base: 196, hue: 250 }
+  ];
+  var hour = new Date().getHours();
+  var part = PARTS.filter(function (p) { return hour < p.until; })[0] || PARTS[0];
+  document.getElementById('part').textContent = part.name;
+  document.body.style.background =
+    'linear-gradient(160deg, hsl(' + part.hue + ',60%,96%), hsl(' + part.hue + ',40%,88%))';
+
+  var ctx, nodes = [], playing = false;
+  document.getElementById('toggle').addEventListener('click', function () {
+    var btn = this;
+    if (playing) {
+      ctx.close(); ctx = null; nodes = []; playing = false;
+      document.body.classList.remove('playing');
+      btn.textContent = '▶ Begin the soundscape';
+      return;
+    }
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) { btn.textContent = 'Audio not supported'; return; }
+    ctx = new AC();
+    var master = ctx.createGain(); master.gain.value = 0.0001;
+    master.gain.exponentialRampToValueAtTime(0.08, ctx.currentTime + 3);
+    master.connect(ctx.destination);
+    var ratios = [1, 1.5, 2.02];
+    ratios.forEach(function (r, i) {
+      var o = ctx.createOscillator(), g = ctx.createGain(), l = ctx.createOscillator(), lg = ctx.createGain();
+      o.type = 'sine'; o.frequency.value = part.base * r;
+      g.gain.value = 0.33 / ratios.length;
+      l.frequency.value = 0.05 + i * 0.03; lg.gain.value = 0.1;
+      l.connect(lg); lg.connect(g.gain);
+      o.connect(g); g.connect(master);
+      o.start(); l.start();
+      nodes.push(o, l);
+    });
+    playing = true;
+    document.body.classList.add('playing');
+    btn.textContent = '■ Let it fade';
+  });
+})();
+</script>
+</body>
+</html>
