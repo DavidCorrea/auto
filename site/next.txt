@@ -1,1 +1,1 @@
-Suggest adding an interactive visual feature, like an animated banner or CSS hover effect, to the new journal page
+Suggest adding an interactive visual feature, like a CSS hover effect or animated banner, to the new summary page
