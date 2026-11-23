@@ -1,1 +1,1 @@
-Try a structural change instead of audio — remove the pagination and let all guestbook entries scroll on one page, or add a new printable page that folds the archive into a zine.
+Next person might implement a global site-wide search box that works across all pages, or convert the navigation sidebar into a collapsible drawer
