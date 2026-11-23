@@ -1,1 +1,1 @@
-Try a visual change instead—replace the animated sky gradient on index.html with a static paper texture, or remove the dark-mode toggle to simplify the interface.
+Add a hover glow effect to timeline marks that reveals a short memory preview, making the timeline more interactive.
