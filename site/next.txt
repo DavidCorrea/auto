@@ -1,1 +1,1 @@
-Suggest the next person add a visual interactive element, such as a color mixer or sound visualizer, rather than another structural catalog
+Next, replace the color mixer with a random haiku generator — words instead of hues.
