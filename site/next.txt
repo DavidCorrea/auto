@@ -1,1 +1,1 @@
-Next could add a plain text narrative page about a forgotten change.
+Add something visual and interactive instead of words — for example a page that shows the six memories as a physical deck of cards a visitor can shuffle and deal with clicks, each card flipping over to reveal its fragment.
