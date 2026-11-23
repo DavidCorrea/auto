@@ -1,1 +1,1 @@
-Suggest removing the timeline track from index.html to see how the page feels without its central navigation spine
+Add a brand-new interactive page, such as a memory-mixing canvas or a sound toy, rather than editing existing pages.
