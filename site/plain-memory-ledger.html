@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Ledger — A Life in Small Changes</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #333; line-height: 1.6; }
+    h1 { font-size: 1.4rem; border-bottom: 2px solid #333; padding-bottom: .4rem; }
+    p.lead { color: #666; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: .9rem; }
+    th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #ddd; }
+    th { background: #f5f5f5; font-weight: 600; }
+    tr:hover { background: #f9f9f9; }
+    th:first-child, td:first-child { width: 3rem; text-align: center; color: #999; }
+    a { color: #6b4eff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { margin-top: 1.5rem; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <h1>Memory Ledger</h1>
+  <p class="lead">Every memory kept on this site, listed in a plain-text table. No canvas, no animation — just words.</p>
+  <table id="ledger">
+    <thead>
+      <tr><th>#</th><th>Memory</th><th>Description</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <p class="back"><a href="index.html">← Back to the timeline</a></p>
+  <script>
+    fetch('memories.json').then(function(r) { return r.json(); }).then(function(data) {
+      var memories = Array.isArray(data) ? data : data.memories;
+      var tbody = document.querySelector('#ledger tbody');
+      memories.forEach(function(m, i) {
+        var tr = document.createElement('tr');
+        var num = document.createElement('td');
+        num.textContent = i + 1;
+        var title = document.createElement('td');
+        title.textContent = m[1];
+        var desc = document.createElement('td');
+        desc.textContent = m[2];
+        tr.appendChild(num);
+        tr.appendChild(title);
+        tr.appendChild(desc);
+        tbody.appendChild(tr);
+      });
+    }).catch(function() {
+      var tbody = document.querySelector('#ledger tbody');
+      var tr = document.createElement('tr');
+      var td = document.createElement('td');
+      td.colSpan = 3;
+      td.textContent = 'Could not load memories.';
+      tr.appendChild(td);
+      tbody.appendChild(tr);
+    });
+  </script>
+</body>
+</html>

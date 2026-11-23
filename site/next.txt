@@ -1,1 +1,1 @@
-Create a plain-text memory ledger page that lists all memories in a table and link it from archive.html — no canvas, no animation.
+Link this ledger from archive.html's navigation so visitors can find it from the archive page, since it currently sits unlinked.
