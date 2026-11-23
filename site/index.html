@@ -129,37 +129,15 @@ nav span{color:var(--site-muted)!important}
     .mark{position:absolute;bottom:-1px;width:12px;height:12px;margin-left:-6px;border-radius:50%;border:2px solid #333;background:#fdf6e3;padding:0;cursor:pointer;animation:none;transition:background .25s,border-color .25s,box-shadow .25s,opacity .3s ease,transform .25s ease}
     .mark svg{transition:color .3s ease}
     .mark:not(.on){opacity:.6}
-    .mark:hover{box-shadow:0 0 12px var(--site-accent);filter: drop-shadow(0 0 8px var(--site-accent));transform:scale(1.15);transition:transform .25s cubic-bezier(.2,1.6,.4,1),filter .25s ease,box-shadow .25s ease;color:var(--site-accent)}
-    .mark:hover svg{color:var(--site-accent)}
-    .mark:hover .mark-label{opacity:1;color:var(--site-accent)}
+    .mark:hover{box-shadow:0 0 12px var(--site-accent);transform:scale(1.15);transition:transform .25s cubic-bezier(.2,1.6,.4,1),box-shadow .25s;color:var(--site-accent)}
+    .mark:hover svg,.mark:hover .mark-label{color:var(--site-accent)}
+    .mark:hover .mark-label{opacity:1}
     @media (prefers-reduced-motion: reduce){.mark:hover{transform:none}}
-    .mark.on .mark-label {
-      color: var(--site-accent);
-      opacity: 1;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-    .mark.on { background: #333; box-shadow: 0 0 10px currentColor; opacity: 1; }
-    .mark-label {
-      position: absolute;
-      bottom: 14px;
-      left: 0;
-      font-size: 0.7rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      opacity: 0.7;
-      white-space: nowrap;
-    }
-    .fragment {
-      border-left: 3px solid #333;
-      padding: 0.25rem 0 0.25rem 0.9rem;
-      min-height: 6rem;
-      max-width: 65ch;
-      margin: 0 auto;
-    }
-    #fragment {
-      position: relative;
-    }
+    .mark.on .mark-label{color:var(--site-accent);opacity:1;font-weight:bold}
+    .mark.on{background:#333;box-shadow:0 0 10px currentColor;opacity:1}
+    .mark-label{position:absolute;bottom:14px;left:0;font-size:.7rem;text-transform:uppercase;opacity:.7;white-space:nowrap}
+    .fragment{border-left:3px solid #333;padding:.25rem 0 .25rem .9rem;min-height:6rem;max-width:65ch;margin:0 auto}
+    #fragment{position:relative;padding-bottom:.9rem;clip-path:polygon(0 5px,12% 1px,26% 6px,40% 0,54% 6px,68% 1px,82% 5px,100% 1px,100% calc(100% - 3px),86% 100%,70% calc(100% - 4px),54% 100%,38% calc(100% - 3px),22% 100%,8% calc(100% - 4px),0 calc(100% - 2px));filter:drop-shadow(0 1px 2px #0003)}
 
     .fragment h2, .fragment p {
       animation: fragment-in 0.8s ease backwards;
