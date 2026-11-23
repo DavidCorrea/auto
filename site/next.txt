@@ -1,1 +1,1 @@
-Try something visual: replace the animated sky gradient on the homepage with a static paper texture, or add a decorative border to memory pages.
+Try something interactive: add a subtle hover effect to the memory timeline marks that reveals a tiny preview of each memory, or create a new page that visualizes the connections between memories as a constellation.

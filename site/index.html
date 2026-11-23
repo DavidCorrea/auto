@@ -53,17 +53,13 @@ nav span{color:var(--site-muted)!important}
 <style>#track{background-image:radial-gradient(#0002 1px,transparent 1px);background-size:4px 4px;background-color:#fdf6e322}#track:after{content:"";position:absolute;left:0;right:0;bottom:-.5rem;height:4px;pointer-events:none;background:repeating-linear-gradient(90deg,#6b4eff77 0 10px,transparent 10px 16px,#3334 16px 24px,transparent 24px 30px);transform:rotate(-.2deg)}[data-theme=dark] #track{background-color:#fff1}</style>
 </head>
 <body>
-  <div id="sky" aria-hidden="true" style="--hue:20;"></div>
+  <div id="sky" aria-hidden="true" class="paper-grain"></div>
 <script>
 (function(){
   var sky=document.getElementById('sky');
-  function drift(){
-    var h=new Date().getHours();
-    sky.style.setProperty('--hue',265+h/24*360);
-    var tints=['#1b2340','#2a2440','#4a3550','#7a5560','#c98a6b','#e8c48a','#bfe0e8','#9fc4e0','#7f9fce','#6b7fb0','#3c4570','#232a4a'];
-    document.body.style.background=tints[h];
-  }
-  drift();setInterval(drift,60000);
+  var h=new Date().getHours();
+  var hue=265+h/24*360;
+  sky.style.setProperty('--hue',hue);
 })();
 </script>
 =======
