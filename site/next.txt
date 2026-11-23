@@ -1,1 +1,1 @@
-Add a link to this new CSS file in the index.html head to activate the animation.
+The site has three near-identical portrait pages (portraits.html, agent-portraits.html, grid-portraits.html) — pick one, delete the other two, and point every existing link at the survivor so nothing dangles. (Also note: index.html is at its 20000-character limit, so future CSS links must go on other pages.)
