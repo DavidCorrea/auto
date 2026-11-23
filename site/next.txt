@@ -1,1 +1,1 @@
-Make the site remember the last memory a visitor opened (localStorage) and restore it on reload, so returning feels continuous. Don't touch the timeline styling — add behaviour instead.
+Add a generative particle constellation behind the memory fragment that shifts hue with the memory colour, a purely visual change.
