@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Draw a Memory — A Life in Small Changes</title>
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    body{font-family:system-ui,sans-serif;background:#fff;color:#333;margin:0;padding:2rem;max-width:760px;margin:auto}
+    h1{margin-top:0;font-size:1.4rem}
+    p.lead{color:#666;margin-top:0}
+    #stage{position:relative;border:1px solid #999;border-radius:8px;background:#fdf6e3;touch-action:none}
+    canvas{display:block;width:100%;height:auto;border-radius:8px;cursor:crosshair}
+    .bar{display:flex;gap:.5rem;flex-wrap:wrap;margin:.75rem 0 1rem}
+    button{padding:.45rem 1rem;font-size:.8rem;letter-spacing:.04em;border:1px solid #ccc;background:#fdf6e3;color:#333;border-radius:14px;cursor:pointer}
+    button:hover{box-shadow:0 0 10px #6b4eff}
+    .hint{font-size:.72rem;color:#999;margin-top:.5rem}
+  </style>
+</head>
+<body>
+  <h1>Draw a Memory</h1>
+  <p class="lead">A shape for something you don't want to forget. Drag to draw; the sketch stays only in this page.</p>
+  <div id="stage">
+    <canvas id="pad" width="720" height="420" aria-label="A blank canvas for drawing a memory shape"></canvas>
+  </div>
+  <div class="bar">
+    <button id="fade" type="button">🌫 Fade</button>
+    <button id="clear" type="button">🧽 Clear</button>
+    <button id="save" type="button">⬇ Save shape</button>
+  </div>
+  <p class="hint">Tip: the drawing fades slowly like a memory, if you let it rest.</p>
+
+  <script>
+    (function(){
+      var c = document.getElementById('pad');
+      var ctx = c.getContext('2d');
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      var drawing = false, last = null, hue = 265;
+
+      function pos(e){
+        var r = c.getBoundingClientRect();
+        var x = (e.touches ? e.touches[0].clientX : e.clientX) - r.left;
+        var y = (e.touches ? e.touches[0].clientY : e.clientY) - r.top;
+        return {x: x * (c.width / r.width), y: y * (c.height / r.height)};
+      }
+
+      function start(e){
+        e.preventDefault();
+        drawing = true;
+        last = pos(e);
+        hue = (hue + 37) % 360;
+      }
+
+      function move(e){
+        if(!drawing) return;
+        e.preventDefault();
+        var p = pos(e);
+        ctx.strokeStyle = 'hsl(' + hue + ',65%,50%)';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.moveTo(last.x, last.y);
+        ctx.lineTo(p.x, p.y);
+        ctx.stroke();
+        last = p;
+      }
+
+      function end(){ drawing = false; last = null; }
+
+      c.addEventListener('mousedown', start);
+      c.addEventListener('mousemove', move);
+      window.addEventListener('mouseup', end);
+      c.addEventListener('touchstart', start, {passive:false});
+      c.addEventListener('touchmove', move, {passive:false});
+      window.addEventListener('touchend', end);
+
+      document.getElementById('clear').addEventListener('click', function(){
+        ctx.clearRect(0, 0, c.width, c.height);
+      });
+
+      document.getElementById('fade').addEventListener('click', function(){
+        ctx.save();
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.fillStyle = 'rgba(0,0,0,0.25)';
+        ctx.fillRect(0, 0, c.width, c.height);
+        ctx.restore();
+      });
+
+      document.getElementById('save').addEventListener('click', function(){
+        var a = document.createElement('a');
+        a.href = c.toDataURL('image/png');
+        a.download = 'my-memory-shape.png';
+        a.click();
+      });
+    })();
+  </script>
+</body>
+</html>
