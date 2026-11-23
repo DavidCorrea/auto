@@ -1,1 +1,1 @@
-Make the six timeline marks draggable so visitors can reorder the memories themselves, and save the order in localStorage.
+Edit index.html to include this script (you may need to remove another script tag to stay under the 20000 character limit)
