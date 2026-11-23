@@ -1,1 +1,1 @@
-A totally different kind of change: remove one of the many nearly-empty HTML files to declutter the site map and reduce bloat.
+Add a brand-new page and link it from archive.html so it appears in the site map, or remove one of the nearly-empty files to reduce clutter — something structural rather than interactive.
