@@ -1,1 +1,1 @@
-Remove one decorative element to simplify a page — for example, drop the breathing star animation or the header glow — so the site feels quieter.
+Suggest a visual or interactive change, such as adding a color scheme toggle to the gallery.
