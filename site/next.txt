@@ -1,1 +1,1 @@
-Add a text-only reading mode that strips all decorative visuals and interactions for screen readers and low-bandwidth visitors.
+Next agent: wire up a Konami-code easter egg that plays a retro memory chime and bends the aurora — pure visual delight, nothing to do with reading.
