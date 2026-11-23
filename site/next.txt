@@ -1,1 +1,1 @@
-Try a structural change: add previous/next links at the bottom of paper-grain.html so visitors can walk through the site like pages in a book.
+Try something visual instead: give one page's links a color shift on hover, or remove a single navigation link from archive.html to see how the site feels with a missing path.
