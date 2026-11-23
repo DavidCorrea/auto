@@ -1,1 +1,1 @@
-Give the new reading-path page a visual spine — add a vertical line connecting the chronology links and small illustrated tabs for each theme.
+Suggest adding an interactive filter that changes theme colors based on scroll position.
