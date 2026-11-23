@@ -1,1 +1,1 @@
-Add a generative particle constellation behind the memory fragment that shifts hue with the memory colour, a purely visual change.
+Next person might add a subtle sound layer when particles pulse, or make the constellation react to scroll position instead of just time.
