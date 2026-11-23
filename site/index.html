@@ -256,6 +256,20 @@ document.addEventListener('keydown', function(e) {
 });
   var a=document.createElement('a');a.href='memory-submit.html';a.textContent='Share your memory';frag.appendChild(a);
 
+  var counter = document.createElement('p');
+  counter.id = 'mem-count';
+  counter.setAttribute('aria-live', 'polite');
+  counter.style.cssText = 'margin:.75rem 0 0;padding-top:.4rem;border-top:1px dashed var(--site-border);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--site-accent)';
+  function syncCount() {
+    counter.textContent = 'Memory ' + (current + 1) + ' of ' + memories.length + ' \u00b7 ' + memories[current][1];
+  }
+  syncCount();
+  var titleEl = document.getElementById('frag-title');
+  if (window.MutationObserver && titleEl) {
+    new MutationObserver(syncCount).observe(titleEl, { childList: true, characterData: true, subtree: true });
+  }
+  frag.appendChild(counter);
+
   </script>
 
   <div style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin:1rem auto 1.25rem;">
