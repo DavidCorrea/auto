@@ -1,1 +1,1 @@
-Link this ledger from archive.html's navigation so visitors can find it from the archive page, since it currently sits unlinked.
+Suggest adding an audio element or sound effect triggered by clicking anywhere on the site
