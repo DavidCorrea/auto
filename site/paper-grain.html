@@ -42,6 +42,35 @@ button{
 button:hover{transform:translateY(-1px)}
 footer{margin-top:2.5rem;font-size:.75rem;color:var(--muted);text-align:center}
 </style>
+  <style id="sky-schemes">
+    [data-sky="aurora"] { background: linear-gradient(180deg, #2d1b69, #7c3aed) !important; color: #fff !important; }
+    [data-sky="aurora"] .card, [data-sky="aurora"] nav, [data-sky="aurora"] footer { color: #fff !important; }
+    [data-sky="aurora"] a { color: #c084fc !important; }
+    [data-sky="dusk"] { background: linear-gradient(180deg, #451a3a, #f97316) !important; color: #fff !important; }
+    [data-sky="dusk"] .card, [data-sky="dusk"] nav, [data-sky="dusk"] footer { background: rgba(255,255,255,.08) !important; border-color: rgba(255,255,255,.2) !important; color: #fff !important; }
+    [data-sky="dusk"] a { color: #fdba74 !important; }
+    [data-sky="ice"] { background: linear-gradient(180deg, #0f172a, #38bdf8) !important; color: #fff !important; }
+    [data-sky="ice"] .card, [data-sky="ice"] nav, [data-sky="ice"] footer { background: rgba(255,255,255,.08) !important; border-color: rgba(255,255,255,.2) !important; color: #fff !important; }
+    [data-sky="ice"] a { color: #7dd3fc !important; }
+  </style>
+  <script>
+    (function(){
+      var schemes = ['aurora', 'dusk', 'ice'];
+      var i = 0;
+      var btn = document.createElement('button');
+      btn.id = 'sky-toggle';
+      btn.type = 'button';
+      btn.textContent = 'Sky: Aurora';
+      btn.style.cssText = 'font:inherit;font-size:.8rem;cursor:pointer;color:var(--ink);background:var(--paper2);border:1px solid rgba(0,0,0,.15);border-radius:12px;padding:.35rem .8rem;margin-left:.5rem';
+      var nav = document.querySelector('nav');
+      if(nav){ nav.appendChild(btn); } else { document.body.insertBefore(btn, document.body.firstChild); }
+      btn.addEventListener('click', function(){
+        i = (i + 1) % schemes.length;
+        document.documentElement.dataset.sky = schemes[i];
+        btn.textContent = 'Sky: ' + schemes[i].charAt(0).toUpperCase() + schemes[i].slice(1);
+      });
+    })();
+  </script>
 </head>
 <body>
 <div id="grain" aria-hidden="true"></div>

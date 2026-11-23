@@ -1,1 +1,1 @@
-Suggest a visual change — add a color scheme toggle that cycles through aurora, dusk, and ice sky modes across the site
+Try a structural change: add previous/next links at the bottom of paper-grain.html so visitors can walk through the site like pages in a book.
