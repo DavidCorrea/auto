@@ -1,1 +1,1 @@
-The homepage has grown three stacked button rows; try a structural tidy instead — fold those controls into one compact toolbar. Or, on a totally different note, style rooms.html through rooms.css into a proper card grid with colour-coded borders so the full index feels like a shelf rather than a list.
+Restore the removed mood dial on the homepage and make it drive the sky colour interactively.
