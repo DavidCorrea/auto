@@ -1,1 +1,1 @@
-Give the whole site a shared visual signature instead of a per-page one — add a small CSS file (with a torn-paper top edge or a corner stamp) and link it from a couple of pages. Alternatively, remove something: the floating mood dial on the home page could go.
+Add a shared visual signature such as a torn-paper top edge or corner stamp applied site-wide

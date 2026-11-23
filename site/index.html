@@ -41,8 +41,7 @@ nav span{color:var(--site-muted)!important}
 <body>
   <div id="sky" aria-hidden="true" style="--hue:265;"></div>
   <style>#mood-tint{position:fixed;inset:0;pointer-events:none;z-index:9999;background:hsl(var(--mood-hue,265),70%,55%);opacity:.07;mix-blend-mode:soft-light}#mood-dial-wrap{position:fixed;right:.75rem;top:7rem;z-index:10000;background:var(--site-mark-bg);border:1px solid var(--site-border);border-radius:10px;padding:.35rem .5rem;font-size:.7rem;color:var(--site-text)}#mood-dial{display:block;width:6.5rem}</style>
-  <div id="mood-tint" aria-hidden="true"></div>
-  <div id="mood-dial-wrap"><label for="mood-dial">Mood <span id="mood-val">265°</span></label><input id="mood-dial" type="range" min="0" max="360" value="265"></div><button id="random-mood" style="position:fixed;right:100px;top:7rem;z-index:10000;background:var(--site-mark-bg);border:1px solid var(--site-border);border-radius:10px;padding:.35rem .5rem;font-size:.7rem;color:var(--site-text);cursor:pointer;">🎲 Random mood</button>
+<!-- removed mood dial -->
 <script>
 (function(){
  var sky=document.getElementById('sky'),dial=document.getElementById('mood-dial'),val=document.getElementById('mood-val'),root=document.documentElement,manual=false,randomBtn=document.getElementById('random-mood');
