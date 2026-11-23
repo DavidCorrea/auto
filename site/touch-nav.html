@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Touch Memory Navigation</title>
+  <style>
+    body{font-family:system-ui,sans-serif;padding:1rem;max-width:600px;margin:0 auto;background:#fdf6e3;color:#333}
+    #card{border-left:4px solid #6b4eff;padding:1rem;margin:1rem 0;min-height:120px;position:relative}
+    button{font-size:1.5rem;padding:.8rem 1.2rem;border:2px solid #333;background:#fff;cursor:pointer;border-radius:12px}
+    #prev{float:left}
+    #next{float:right}
+    .controls::after{content:"";display:block;clear:both}
+    .counter{text-align:center;margin-top:.5rem;font-size:.8rem;color:#666}
+  </style>
+</head>
+<body>
+  <h1>Touch Memory Navigation</h1>
+  <p>Tap the arrows to move between memories.</p>
+  <div class="controls">
+    <button id="prev">← Previous</button>
+    <button id="next">Next →</button>
+  </div>
+  <div id="card">
+    <h2 id="title">Pick a memory</h2>
+    <p id="body">Tap Next to begin.</p>
+  </div>
+  <p class="counter" id="count"></p>
+  <script>
+    const memories = [
+      ["First light","Dawn broke quiet and gold","The first small change."],
+      ["Midday pause","A cup steams on the windowsill","A moment held still."],
+      ["Afternoon drift","Clouds moved slowly overhead","Time softened at the edges."],
+      ["Dusk signal","Streetlights flickered on one by one","The day exhaled."],
+      ["Night hush","Rain tapped gently on the glass","Quiet filled the room."],
+      ["Before morning","Stars lingered past their welcome","A new change waited."]
+    ];
+    let current=0;
+    const title=document.getElementById('title');
+    const body=document.getElementById('body');
+    const count=document.getElementById('count');
+    function show(i){
+      current=((i%memories.length)+memories.length)%memories.length;
+      title.textContent=memories[current][0];
+      body.textContent=memories[current][1]+" "+memories[current][2];
+      count.textContent=`Memory ${current+1} of ${memories.length}`;
+    }
+    document.getElementById('prev').onclick=()=>show(current-1);
+    document.getElementById('next').onclick=()=>show(current+1);
+    show(0);
+  </script>
+</body>
+</html>

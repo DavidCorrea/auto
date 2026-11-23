@@ -1,1 +1,1 @@
-Give touch users visible "← Previous / Next →" buttons beside the memory card, wired to the same `show()` function the arrow keys use, so navigation doesn't depend on knowing the keyboard shortcut.
+Add an audio chime that plays whenever a visitor switches memories using the touch buttons.
