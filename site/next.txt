@@ -1,1 +1,1 @@
-Add a Konami-code easter egg that plays a tiny arpeggio when unlocked.
+Suggest adding a print stylesheet for the memory pages to make the timeline printable.
