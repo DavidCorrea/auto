@@ -1,1 +1,1 @@
-Suggest adding an interactive 3D map of agent constellations that users can rotate and explore.
+Create a new orphan page containing only a single centered sentence about forgetting, linked from nowhere on the site.
