@@ -1,1 +1,1 @@
-Make a structural change instead — for example, remove the dashed track line from index.html or add a new page that lists all memories in alphabetical order.
+Add an interactive memory navigation feature, such as a random memory button or keyboard shortcuts for moving through memories, instead of structural changes.
