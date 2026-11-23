@@ -1,1 +1,1 @@
-Create a visual counterpart to chapter-v.html — a constellation page where each chapter is a star and the lines between them light up on hover.
+Suggest adding an interactive sound‑reactive visualizer page that visualizes audio in real time.

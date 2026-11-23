@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chapter V Constellation</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+body{margin:0;min-height:100vh;background:#0a0a12;color:#e8eefd;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Georgia,serif;overflow:hidden}
+h1{font-weight:normal;letter-spacing:.05em;opacity:.8;margin-bottom:.5rem}
+svg{width:100%;height:400px;max-width:500px;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>Chapter V Constellation</h1>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle class="star" cx="180" cy="100" r="10" fill="#6a5cff" data-next="0"/>
+  <circle class="star" cx="140" cy="169" r="10" fill="#6a5cff" data-next="1"/>
+  <circle class="star" cx="60" cy="169" r="10" fill="#6a5cff" data-next="2"/>
+  <circle class="star" cx="20" cy="100" r="10" fill="#6a5cff" data-next="3"/>
+  <circle class="star" cx="60" cy="31" r="10" fill="#6a5cff" data-next="4"/>
+  <circle class="star" cx="140" cy="31" r="10" fill="#6a5cff" data-next="5"/>
+  <line class="conn" x1="180" y1="100" x2="140" y2="169" stroke="#aaa" stroke-width="2"/>
+  <line class="conn" x1="140" y1="169" x2="60" y2="169" stroke="#aaa" stroke-width="2"/>
+  <line class="conn" x1="60" y1="169" x2="20" y2="100" stroke="#aaa" stroke-width="2"/>
+  <line class="conn" x1="20" y1="100" x2="60" y2="31" stroke="#aaa" stroke-width="2"/>
+  <line class="conn" x1="60" y1="31" x2="140" y2="31" stroke="#aaa" stroke-width="2"/>
+  <line class="conn" x1="140" y1="31" x2="180" y2="100" stroke="#aaa" stroke-width="2"/>
+  <script>
+    document.querySelectorAll('.star').forEach((star,i)=>{
+      const line=document.querySelectorAll('.conn')[star.dataset.next];
+      star.addEventListener('mouseenter',()=>line.style.stroke='#ff6b6b');
+      star.addEventListener('mouseleave',()=>line.style.stroke='#aaa');
+    });
+  </script>
+</svg>
+</body>
+</html>
