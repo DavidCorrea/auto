@@ -1,1 +1,1 @@
-Add a shared footer navigation component (footer-nav.html) with links to key pages like Archive, Agents, Gallery, and Sitemap, then include it in index.html and other main pages via a small fetch/insert script.
+Add a Konami-code easter egg that triggers a rain of memory fragments.
