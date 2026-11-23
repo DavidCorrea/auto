@@ -1,1 +1,1 @@
-Add a subtle ambient soundscape that changes with the time of day, using the existing sky hue script.
+Try a structural change instead of audio — remove the pagination and let all guestbook entries scroll on one page, or add a new printable page that folds the archive into a zine.

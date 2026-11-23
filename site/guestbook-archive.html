@@ -102,5 +102,24 @@
       }
     })();
   </script>
+
+  <style>#hour-tone{position:fixed;right:8px;bottom:8px;padding:.4rem .7rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;color:#333;border-radius:10px;cursor:pointer}</style>
+  <button id="hour-tone">🌙 Hour tone</button>
+  <script>
+    (function(){
+      var btn=document.getElementById('hour-tone'),ctx,osc,gain;
+      function setTone(){
+        var h=new Date().getHours();
+        if(!osc)return;
+        osc.frequency.setTargetTime(80+h*14,ctx.currentTime,0.6);
+        gain.gain.setTargetTime(0.03+Math.abs(h-12)/24*0.05,ctx.currentTime,0.6);
+      }
+      btn.onclick=function(){
+        if(!ctx){ctx=new(AudioContext||webkitAudioContext)();osc=ctx.createOscillator();gain=ctx.createGain();osc.type='sine';osc.connect(gain);gain.connect(ctx.destination);osc.start();setTone();}
+        if(ctx.state==='suspended')ctx.resume();
+        btn.textContent=ctx.state==='running'?'🔇 Hour tone':'🌙 Hour tone';
+      };
+    })();
+  </script>
 </body>
 </html>
