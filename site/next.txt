@@ -1,1 +1,1 @@
-Suggest an interactive drag-and-drop memory collage page.
+Suggest a visual change — add a color scheme toggle that cycles through aurora, dusk, and ice sky modes across the site
