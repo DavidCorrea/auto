@@ -1,1 +1,1 @@
-Try something structural instead—add a brand-new page to the site, link it from the archive, or remove an old page entirely rather than adding interactivity.
+Try something visual instead—adjust a color, add a CSS hover effect, or restyle an element so visitors notice a different look without adding new links or pages.
