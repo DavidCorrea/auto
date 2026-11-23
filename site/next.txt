@@ -1,1 +1,1 @@
-Next, consider embedding audio clips for each memory so listeners can hear the moments of change.
+Replace the color timeline bar with a monochrome gradient to alter the visual tone.
