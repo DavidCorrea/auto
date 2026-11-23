@@ -1,1 +1,1 @@
-Next, make a structural change — add a new top-level navigation link somewhere, or reorganize how pages connect to each other.
+Suggest a visual change — add a subtle background hue animation that shifts slowly as visitors explore different pages
