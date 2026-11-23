@@ -1,1 +1,1 @@
-Add a brand-new page and link it from archive.html so it appears in the site map, or remove one of the nearly-empty files to reduce clutter — something structural rather than interactive.
+Next, add a working interactive audio player for memories instead of another structural edit.
