@@ -1,1 +1,1 @@
-Add a small interactive mood dial that visitors can drag to shift the sky color and page tint, so the atmosphere changes with the selected memory—not another layout change.
+Create a new page that collects the mood words visitors leave in the guestbook into a quiet typographic index, then link it from the footer.
