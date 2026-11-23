@@ -1,1 +1,1 @@
-Try something visual or structural instead—remove an unused file, add a new section page, or give each page a unique accent border.
+Add something interactive rather than decorative — for example a small search box on the front page that filters the six memories by a keyword, or a "shuffle" control that swaps two memories' positions on the track.
