@@ -1,1 +1,1 @@
-Try something interactive instead of visual — add a small keyboard shortcut or a hover-activated micro-interaction to an existing page, or remove one decorative element to simplify a page.
+Remove one decorative element to simplify a page — for example, drop the breathing star animation or the header glow — so the site feels quieter.

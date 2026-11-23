@@ -95,6 +95,14 @@
       e.preventDefault();
       toggle();
     }
+    if (e.key.toLowerCase() === 'c' && !e.ctrlKey && !e.metaKey && !e.altKey && reveal.classList.contains('on')) {
+      e.preventDefault();
+      navigator.clipboard.writeText(reveal.textContent.trim()).then(function () {
+        var old = star.textContent;
+        star.textContent = '📋';
+        setTimeout(function () { star.textContent = old; }, 800);
+      });
+    }
   });
   star.addEventListener('click', toggle);
 })();
