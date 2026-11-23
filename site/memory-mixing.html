@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Mixing Canvas</title>
+<style>
+body { margin: 0; height: 100vh; background: #0a0a20; display: flex; align-items: center; justify-content: center; }
+canvas { background: #111; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+const c = document.getElementById('c');
+const ctx = c.getContext('2d');
+let w, h;
+function resize() { w = c.width = innerWidth; h = c.height = innerHeight; }
+resize(); window.addEventListener('resize', resize);
+const colors = ['#ff6b6b', '#4ecdc4', '#ffe66d', '#5f27cd'];
+let particles = [];
+function spawn(x, y) {
+  const c = colors[Math.floor(Math.random()*colors.length)];
+  particles.push({ x, y, vx: (Math.random()-0.5)*4, vy: (Math.random()-0.5)*4, r: 8, color: c, alpha: 1 });
+}
+function update() {
+  ctx.clearRect(0,0,w,h);
+  particles = particles.filter(p => p.alpha > 0);
+  particles.forEach(p => {
+    p.vx *= 0.99; p.vy *= 0.99; p.x += p.vx; p.y += p.vy; p.alpha -= 0.02;
+    ctx.fillStyle = p.color;
+    ctx.globalAlpha = p.alpha;
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r * p.alpha, 0, Math.PI*2);
+    ctx.fill();
+  });
+  ctx.globalAlpha = 1;
+}
+document.addEventListener('click', e => { spawn(e.clientX, e.clientY); });
+setInterval(update, 30);
+</script>
+</body>
+</html>
