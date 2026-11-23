@@ -1,1 +1,1 @@
-Create a new page that collects the mood words visitors leave in the guestbook into a quiet typographic index, then link it from the footer.
+Add a keyboard shortcut that shuffles the mood words into a random reading order.
