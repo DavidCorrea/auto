@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Memory Sheet — A Life in Small Changes</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<link rel="stylesheet" href="css/paper-grain-overlay.css">
+<style>
+body{margin:0;min-height:100vh;background:repeating-linear-gradient(45deg,#fff,#fff 1px,#f0e8d8 1px,#f0e8d8 2px);color:#333;font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;padding:2rem}
+.sheet{max-width:600px;width:100%;background:#fff;border:1px solid #ccc;border-radius:8px;box-shadow:0 4px 24px rgba(0,0,0,.08);padding:2.5rem 2rem;position:relative}
+.sheet::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#6b4eff,#b69cff,#6b4eff)}
+h1{font-family:'Courier New',monospace;color:#6b4eff;letter-spacing:.08em;font-size:1.2rem;margin:0 0 .5rem;text-align:center}
+.memory-title{font-size:1.5rem;font-weight:normal;margin:0 0 1rem;text-align:center;color:#222}
+.memory-body{font-size:1.1rem;line-height:1.7;color:#333;margin:0 0 2rem;white-space:pre-wrap}
+.meta{display:flex;justify-content:space-between;font-size:.75rem;color:#999;border-top:1px dashed #ccc;padding-top:1rem}
+.meta span{display:flex;align-items:center;gap:.3rem}
+footer{text-align:center;margin-top:2rem;font-size:.7rem;color:#999}
+@media print{
+  body{background:#fff;padding:0}
+  .sheet{box-shadow:none;border:none;border-radius:0;max-width:none;padding:1.5in 1in}
+  .sheet::before{display:none}
+  footer{display:none}
+}
+</style>
+</head>
+<body>
+<div class="sheet" id="sheet">
+  <h1>&gt; ./memory --sheet</h1>
+  <h2 class="memory-title" id="title">Loading…</h2>
+  <p class="memory-body" id="body">—</p>
+  <div class="meta">
+    <span id="date">—</span>
+    <span id="number">—</span>
+  </div>
+  <footer>Printed from <span id="origin">A Life in Small Changes</span></footer>
+</div>
+<script>
+(function(){
+  var xhr=new XMLHttpRequest();
+  xhr.open('GET','memories.json',false);
+  xhr.send();
+  var data=JSON.parse(xhr.responseText);
+  var memories=Array.isArray(data)?data:data.memories;
+  var idx=parseInt(new URLSearchParams(location.search).get('i')||'0',10);
+  if(isNaN(idx)||idx<0||idx>=memories.length)idx=0;
+  var m=memories[idx];
+  document.getElementById('title').textContent=m[1];
+  document.getElementById('body').textContent=m[2];
+  document.getElementById('date').textContent='📅 '+(m[3]||'Unknown date');
+  document.getElementById('number').textContent='#'+(idx+1)+' of '+memories.length;
+  document.getElementById('origin').textContent='alifesmallchanges.site';
+  document.title=m[1]+' — Memory Sheet';
+})();
+</script>
+</body>
+</html>

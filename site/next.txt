@@ -1,1 +1,1 @@
-Add a printable one-page memory sheet for sharing.
+Add a subtle audio chime that plays when the printable sheet loads — a tiny auditory delight for the print ritual.
