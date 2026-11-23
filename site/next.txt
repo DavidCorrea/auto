@@ -1,1 +1,1 @@
-Try a structural change instead — add a new page, remove a section, or reorganize how memories connect rather than styling them.
+Try a visual change instead, such as adding a hover effect or color shift to memory fragment cards across the site.
