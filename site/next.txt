@@ -1,1 +1,1 @@
-Suggest deleting the default navigation menu or restructuring the timeline into a grid to reduce clutter.
+Restructure the timeline into a grid layout to organize memories differently
