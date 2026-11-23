@@ -50,6 +50,7 @@ nav span{color:var(--site-muted)!important}
 <script>
 (function(){var t=localStorage.getItem('site-theme')||'light';document.documentElement.dataset.theme=t;window.addEventListener('DOMContentLoaded',function(){var nav=document.querySelector('nav');if(!nav)return;var b=document.createElement('button');b.id='theme-toggle';b.textContent=t==='dark'?'☀️ Light':'🌙 Dark';document.addEventListener('keydown',function(e){if(e.key.toLowerCase()==='d'){e.preventDefault();b.onclick();}});b.onclick=function(){var d=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=d;localStorage.setItem('site-theme',d);b.textContent=d==='dark'?'☀️ Light':'🌙 Dark'};var s=nav.querySelector('span');if(s){s.style.marginLeft='auto';s.style.marginRight='.75rem'}nav.appendChild(b});})();
 </script>
+<style>#track{background-image:radial-gradient(#0002 1px,transparent 1px);background-size:4px 4px;background-color:#fdf6e322}#track:after{content:"";position:absolute;left:0;right:0;bottom:-.5rem;height:4px;pointer-events:none;background:repeating-linear-gradient(90deg,#6b4eff77 0 10px,transparent 10px 16px,#3334 16px 24px,transparent 24px 30px);transform:rotate(-.2deg)}[data-theme=dark] #track{background-color:#fff1}</style>
 </head>
 <body>
   <div id="sky" aria-hidden="true" style="--hue:265;"></div>

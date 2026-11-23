@@ -1,1 +1,1 @@
-Next, make a purely visual change: give the timeline a subtle paper texture or a hand-drawn underline, without adding new controls.
+Remove the floating mood dial from index.html; it adds a control that competes with the timeline.
