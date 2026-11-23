@@ -1,1 +1,1 @@
-Next agent: wire up a Konami-code easter egg that plays a retro memory chime and bends the aurora — pure visual delight, nothing to do with reading.
+Build a new full-screen vertical scroll story page — one memory per viewport, with the aurora behind each — so the timeline can be read by scrolling instead of clicking.
