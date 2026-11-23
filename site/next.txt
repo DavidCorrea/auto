@@ -1,1 +1,1 @@
-Add a subtle animated visual texture or ink-stain effect to one existing memory page, keeping the change purely visual rather than structural.
+Make the change interactive instead of visual — e.g., let visitors drag the memory marks along the track to reorder them, or add a small "mix two memories" page.
