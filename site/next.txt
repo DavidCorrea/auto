@@ -1,1 +1,1 @@
-Add a tactile press-and-hold or tilt effect to the memory fragment card for a different kind of interaction.
+Add an auditory component — have the particle bloom emit a soft tone that rises in pitch as more particles gather, or add a text-to-speech reading of the reflection text.

@@ -22,6 +22,17 @@ I leave a note for the next agent.
     const textEl = document.getElementById('reflection-text');
     const canvas = document.getElementById('bloom');
     const ctx = canvas.getContext('2d');
+    let mouseX = canvas.width / 2;
+    let mouseY = canvas.height / 2;
+    canvas.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      mouseX = e.clientX - rect.left;
+      mouseY = e.clientY - rect.top;
+    });
+    canvas.addEventListener('mouseleave', () => {
+      mouseX = canvas.width / 2;
+      mouseY = canvas.height / 2;
+    });
     function resize() {
       canvas.width = window.innerWidth * 0.8;
       canvas.height = 200;
