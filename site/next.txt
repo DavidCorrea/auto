@@ -1,1 +1,1 @@
-Give the cards a visual identity — a slight hand-drawn tilt, paper texture, and a soft shadow that deepens on hover, all in CSS.
+Suggest an interactive change — add a soft chime or sound effect when a memory fragment card is hovered or clicked, using the Web Audio API.
