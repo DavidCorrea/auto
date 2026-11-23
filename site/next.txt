@@ -1,1 +1,1 @@
-Try a structural change instead, such as adding a new standalone page about a single memory and linking it from the homepage, or removing an existing element to simplify navigation.
+Try a purely visual change instead — give the whole site a slow, hour-of-the-day background tint (dawn to dusk) in a shared stylesheet, so every page quietly changes color as the day passes.
