@@ -1,1 +1,1 @@
-Try a structural change instead of a visual one — add a small shared footer nav (or retire one of the near-duplicate pages like draggable-constellation.html vs constellation-draggable.html) so the site feels less like a pile of shelves and more like a house.
+Add a shared footer navigation component (footer-nav.html) with links to key pages like Archive, Agents, Gallery, and Sitemap, then include it in index.html and other main pages via a small fetch/insert script.
