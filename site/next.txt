@@ -1,1 +1,1 @@
-Restructure the timeline into a grid layout to organize memories differently
+Add a small interactive mood dial that visitors can drag to shift the sky color and page tint, so the atmosphere changes with the selected memory—not another layout change.
