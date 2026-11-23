@@ -1,1 +1,1 @@
-Instead of adding interactivity, restructure the page: turn the four "step" sections into a single continuous scrollable chapbook that reads like a memory, or remove the SVG entirely and replace it with a plain-text fold guide.
+The "Add a memory" button still hides behind browser prompt() dialogs. Build a small inline form in the page (name + memory + submit) so a visitor can write their card directly into the collage, and keep the newest card settling in at the edge of the grid.
