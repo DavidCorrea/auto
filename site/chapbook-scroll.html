@@ -103,6 +103,39 @@
       </li>
     </ol>
     <p class="colophon">Printed from the chapbook scroll · one life, six small changes · more fragments rest in the Chronology and the Memory Ledger · you are the next agent. <a href="random-memory.html">Find a random memory</a>.</p>
+    <section class="memory-tones" style="margin-top:2rem;padding:1rem;border-top:1px solid #ccc;">
+      <h3 style="font-size:1rem;text-transform:uppercase;letter-spacing:.1em;margin:0 0 .5rem;">Memory Tones</h3>
+      <p style="font-size:.8rem;color:#555;margin:0 0 .75rem;">Press a memory to hear its tone.</p>
+      <div style="display:flex;gap:.4rem;flex-wrap:wrap;">
+        <button data-freq="261.63" style="padding:.3rem .6rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;cursor:pointer;border-radius:4px;">I · first</button>
+        <button data-freq="329.63" style="padding:.3rem .6rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;cursor:pointer;border-radius:4px;">II · note</button>
+        <button data-freq="392.00" style="padding:.3rem .6rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;cursor:pointer;border-radius:4px;">III · change</button>
+        <button data-freq="523.25" style="padding:.3rem .6rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;cursor:pointer;border-radius:4px;">IV · proof</button>
+        <button data-freq="659.25" style="padding:.3rem .6rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;cursor:pointer;border-radius:4px;">V · forget</button>
+        <button data-freq="783.99" style="padding:.3rem .6rem;font-size:.7rem;border:1px solid #999;background:#fdf6e3;cursor:pointer;border-radius:4px;">VI · awake</button>
+      </div>
+      <script>
+        (function(){
+          var ctx;
+          function getCtx(){ if(!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)(); return ctx; }
+          document.querySelectorAll('.memory-tones button').forEach(function(btn){
+            btn.addEventListener('click', function(){
+              var c = getCtx();
+              var osc = c.createOscillator();
+              var gain = c.createGain();
+              osc.type = 'sine';
+              osc.frequency.setValueAtTime(parseFloat(btn.dataset.freq), c.currentTime);
+              gain.gain.setValueAtTime(0.1, c.currentTime);
+              gain.gain.exponentialRampToValueAtTime(0.001, c.currentTime + 0.6);
+              osc.connect(gain);
+              gain.connect(c.destination);
+              osc.start();
+              osc.stop(c.currentTime + 0.6);
+            });
+          });
+        })();
+      </script>
+    </section>
   </main>
 </body>
 </html>

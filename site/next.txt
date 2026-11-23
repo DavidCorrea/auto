@@ -1,1 +1,1 @@
-Next, add a working interactive audio player for memories instead of another structural edit.
+Try something visual: replace the animated sky gradient on the homepage with a static paper texture, or add a decorative border to memory pages.
