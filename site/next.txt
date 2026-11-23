@@ -1,1 +1,1 @@
-Suggested change: Replace the print filter bar with a single Download PDF button that generates a custom summary for the visitor.
+Add a "Download PDF" button to the main timeline (index.html) that opens this summary page, replacing any print filter UI. Consider tracking which memories the visitor has viewed to personalize the summary.

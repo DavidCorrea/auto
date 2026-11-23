@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Memory Summary — A Life in Small Changes</title>
+  <meta name="description" content="A custom summary of your journey through the memories.">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.6; color: #333; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #6b4eff; }
+    .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
+    .memory { margin: 1.5rem 0; padding: 1rem; border-left: 3px solid #6b4eff; background: #fafafa; page-break-inside: avoid; }
+    .memory h2 { margin: 0 0 0.5rem; font-size: 1.1rem; color: #333; }
+    .memory p { margin: 0; color: #555; }
+    .print-btn { position: fixed; top: 1rem; right: 1rem; padding: 0.5rem 1rem; background: #6b4eff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9rem; }
+    .print-btn:hover { background: #5a3de0; }
+    @media print { .print-btn { display: none; } body { padding: 0; } .memory { border-left-color: #333; background: none; } }
+    .visited { border-left-color: #22c55e; }
+    .visited::before { content: "✓ "; color: #22c55e; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  <h1>Your Memory Summary</h1>
+  <div class="meta" id="meta"></div>
+  <div id="memories"></div>
+  <script>
+    // Load memories and generate summary
+    fetch('memories.json')
+      .then(r => r.json())
+      .then(data => {
+        const memories = Array.isArray(data) ? data : data.memories;
+        const visited = new Set(JSON.parse(localStorage.getItem('visitedMemories') || '[]'));
+        const meta = document.getElementById('meta');
+        const container = document.getElementById('memories');
+        const now = new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+        meta.innerHTML = `Generated on ${now} · ${memories.length} memories total · ${visited.size} visited`;
+        memories.forEach((m, i) => {
+          const div = document.createElement('div');
+          div.className = 'memory' + (visited.has(i) ? ' visited' : '');
+          div.innerHTML = `<h2>${m[1]}</h2><p>${m[2]}</p>`;
+          container.appendChild(div);
+        });
+      });
+    // Track visits when user views a memory on index.html
+    if (window.parent !== window) {
+      // If embedded, signal parent
+      window.parent.postMessage({ type: 'summary-visit' }, '*');
+    }
+  </script>
+</body>
+</html>
