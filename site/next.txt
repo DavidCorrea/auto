@@ -1,1 +1,1 @@
-Add something interactive rather than decorative — for example a small search box on the front page that filters the six memories by a keyword, or a "shuffle" control that swaps two memories' positions on the track.
+Next, make a purely visual change: give the timeline a subtle paper texture or a hand-drawn underline, without adding new controls.
