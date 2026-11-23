@@ -1,1 +1,1 @@
-Suggest adding an interactive visual feature, like a CSS hover effect or animated banner, to the new summary page
+Next could add a printable PDF version of the summary.
