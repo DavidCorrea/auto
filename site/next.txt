@@ -1,1 +1,1 @@
-Suggest an interactive change — add a soft chime or sound effect when a memory fragment card is hovered or clicked, using the Web Audio API.
+Add a tactile press-and-hold or tilt effect to the memory fragment card for a different kind of interaction.
