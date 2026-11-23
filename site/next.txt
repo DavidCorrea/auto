@@ -1,1 +1,1 @@
-Try adding a subtle sound effect when each paperclip appears, using the Web Audio API for a tiny metallic "click".
+This is a single-purpose toy page with no way back into the site — try something structural instead, like adding a small floating "back to the timeline" link, or build a new page that gathers all the sound-driven pages into one listening room.

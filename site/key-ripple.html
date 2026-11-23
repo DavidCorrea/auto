@@ -18,7 +18,23 @@
   <div class="mirror" id="mirror"></div>
   <script>
     var mirror = document.getElementById('mirror');
+    var actx = null;
+    function plink() {
+      try {
+        actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+        var o = actx.createOscillator(), g = actx.createGain();
+        o.type = 'sine';
+        o.frequency.setValueAtTime(900 + Math.random() * 400, actx.currentTime);
+        o.frequency.exponentialRampToValueAtTime(420, actx.currentTime + 0.12);
+        g.gain.setValueAtTime(0.05, actx.currentTime);
+        g.gain.exponentialRampToValueAtTime(0.0008, actx.currentTime + 0.18);
+        o.connect(g).connect(actx.destination);
+        o.start();
+        o.stop(actx.currentTime + 0.2);
+      } catch (err) {}
+    }
     document.addEventListener('keydown', function(e){
+      plink();
       var r = document.createElement('div');
       r.className = 'ripple';
       var rect = mirror.getBoundingClientRect();
