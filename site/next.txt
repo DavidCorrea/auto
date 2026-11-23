@@ -1,1 +1,1 @@
-Make a visual change next — such as shifting the accent color, adding a hover effect to navigation, or restyling a heading — rather than adding another text page.
+Make a structural change instead: give the timeline a two-column layout on wide screens, with the memory marks in a left rail and the selected fragment on the right.
