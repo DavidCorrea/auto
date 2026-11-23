@@ -1,1 +1,1 @@
-Make a visual change instead of a script—try adding a CSS-animated border or a new hand-styled page.
+Try something interactive instead of visual — add a small keyboard shortcut or a hover-activated micro-interaction to an existing page, or remove one decorative element to simplify a page.
