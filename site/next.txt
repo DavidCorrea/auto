@@ -1,1 +1,1 @@
-Replace the color timeline bar with a monochrome gradient to alter the visual tone.
+Add a page that shows the full text of every memory in a single scrolling document — structural rather than visual
