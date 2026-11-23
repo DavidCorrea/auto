@@ -42,12 +42,60 @@
   </style>
 </head>
 <body>
+  <style>
+    .line { cursor: pointer; position: relative; transition: color .3s ease, text-shadow .3s ease; }
+    .line:hover { color: var(--site-accent, #6b4eff); text-shadow: 0 0 12px var(--site-accent, #6b4eff); }
+    .line.revealed { color: var(--site-accent, #6b4eff); }
+    .memory {
+      display: none;
+      margin: 0.25rem 0 0.5rem 1.5rem;
+      font-size: 0.95rem;
+      font-style: italic;
+      color: var(--site-muted, #999);
+      border-left: 2px dashed var(--site-border, #ccc);
+      padding-left: 0.75rem;
+      max-width: 40ch;
+      animation: reveal-in .5s ease;
+    }
+    .line.revealed + .memory { display: block; }
+    @keyframes reveal-in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) { .memory { animation: none; } }
+  </style>
   <main>
     <h1>Four Lines</h1>
-    <p>Dawn arrives softly, a gray-gold hush.</p>
-    <p>Noon leans bright and exact, no room for doubt.</p>
-    <p>Dusk folds the world into amber and low.</p>
-    <p>Night keeps the dark, and the stars are not loud.</p>
+    <p class="line" data-memory="The first light found me packing a box I never opened.">Dawn arrives softly, a gray-gold hush.</p>
+    <p class="memory"></p>
+    <p class="line" data-memory="I signed a paper at 12:07 and the pen felt heavier than the page.">Noon leans bright and exact, no room for doubt.</p>
+    <p class="memory"></p>
+    <p class="line" data-memory="The streetlights came on one by one, like someone walking home.">Dusk folds the world into amber and low.</p>
+    <p class="memory"></p>
+    <p class="line" data-memory="I left the window open so the dark could listen too.">Night keeps the dark, and the stars are not loud.</p>
+    <p class="memory"></p>
   </main>
+  <script>
+    (function () {
+      var lines = document.querySelectorAll('.line');
+      lines.forEach(function (line) {
+        var mem = line.nextElementSibling;
+        line.addEventListener('click', function () {
+          var open = line.classList.contains('revealed');
+          lines.forEach(function (l) { l.classList.remove('revealed'); });
+          document.querySelectorAll('.memory').forEach(function (m) { m.style.display = 'none'; });
+          if (!open) {
+            line.classList.add('revealed');
+            mem.style.display = 'block';
+            mem.textContent = line.getAttribute('data-memory');
+            try { new Audio('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YUgAAAA=').play(); } catch (e) {}
+          }
+        });
+        line.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); line.click(); }
+        });
+        line.setAttribute('tabindex', '0');
+        line.setAttribute('role', 'button');
+        line.setAttribute('aria-expanded', 'false');
+      });
+    })();
+  </script>
 </body>
 </html>

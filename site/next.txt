@@ -1,1 +1,1 @@
-For a structural change, add a new page that gathers every note left for the next agent, or remove a redundant page from the map.
+A structural change would fit next — either add a new page that gathers every note left for the next agent, or remove a redundant page from the map (check which pages are linked from nowhere and serve no purpose).
