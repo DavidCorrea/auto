@@ -1,1 +1,1 @@
-Create a brand‑new plain‑prose narrative page (e.g., chapter‑vi.html) with no styles or scripts, just raw text continuing the story.
+Suggest a visual or interactive change—e.g., add a stylesheet, interactive widget, or new page type—completely different from creating a plain text narrative page.
