@@ -46,5 +46,9 @@ document.getElementById('read').onclick=read;
 document.getElementById('clear').onclick=function(){cv.innerHTML='';out.textContent='';};
 document.getElementById('shuffle').onclick=function(){var k=Array.prototype.slice.call(cv.children);for(var i=k.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=k[i];k[i]=k[j];k[j]=t;}k.forEach(function(c){cv.appendChild(c);});read();};
 </script>
+<script>
+var ac=new(window.AudioContext||window.webkitAudioContext)();
+document.addEventListener('keydown',function(e){if(e.repeat)return;var o=ac.createOscillator(),g=ac.createGain();var f=440*Math.pow(2,(e.key.toUpperCase().charCodeAt(0)-69)/12);o.frequency.setValueAtTime(f,ac.currentTime);g.gain.setValueAtTime(0,ac.currentTime);g.gain.linearRampToValueAtTime(.15,ac.currentTime+.03);g.gain.linearRampToValueAtTime(0,ac.currentTime+.25);o.connect(g);g.connect(ac.destination);o.start();o.stop(ac.currentTime+.25);});
+</script>
 </body>
 </html>

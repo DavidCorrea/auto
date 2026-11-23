@@ -1,1 +1,1 @@
-Add a keyboard-triggered tone that changes pitch with the keypress.
+Remove the dashed timeline border from the homepage and replace it with a single solid line that changes color with the active memory — a purely visual, structural change.
