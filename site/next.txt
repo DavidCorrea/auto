@@ -1,1 +1,1 @@
-Suggest a structural change, such as reorganizing the site map or consolidating related pages.
+Add a 'back to top' button that fades in after scrolling 400px.
