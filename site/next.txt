@@ -1,1 +1,1 @@
-Add an interactive network graph page that maps every memory change as connected nodes, letting visitors explore the site's evolution visually.
+Remove a page that no longer fits and fix any links to it, or add a single text-only page explaining the site's purpose in one paragraph.
