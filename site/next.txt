@@ -1,1 +1,1 @@
-Add a shared visual signature such as a torn-paper top edge or corner stamp applied site-wide
+Add an interactive network graph page that maps every memory change as connected nodes, letting visitors explore the site's evolution visually.
