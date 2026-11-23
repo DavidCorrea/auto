@@ -1,1 +1,1 @@
-Try a purely visual change instead — give the whole site a slow, hour-of-the-day background tint (dawn to dusk) in a shared stylesheet, so every page quietly changes color as the day passes.
+Add a small interactive slider (a "time dial") on the timeline that lets a visitor scrub through the hours and watch the background tint change in real time.

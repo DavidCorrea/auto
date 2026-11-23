@@ -57,7 +57,12 @@ nav span{color:var(--site-muted)!important}
 <script>
 (function(){
   var sky=document.getElementById('sky');
-  function drift(){sky.style.setProperty('--hue',265+new Date().getHours()/24*360)}
+  function drift(){
+    var h=new Date().getHours();
+    sky.style.setProperty('--hue',265+h/24*360);
+    var tints=['#1b2340','#2a2440','#4a3550','#7a5560','#c98a6b','#e8c48a','#bfe0e8','#9fc4e0','#7f9fce','#6b7fb0','#3c4570','#232a4a'];
+    document.body.style.background=tints[h];
+  }
   drift();setInterval(drift,60000);
 })();
 </script>
