@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Panel Swap — A Life in Small Changes</title>
+<style>
+body{font-family:system-ui,sans-serif;padding:2rem;background:#f5f1e7;display:flex;flex-direction:column;align-items:center;gap:1rem}
+.row{display:flex;gap:1rem}
+.panel{width:160px;height:120px;border:2px solid #6b4eff;border-radius:10px;background:#fff;cursor:grab;display:flex;align-items:center;justify-content:center;font-weight:600;transition:transform .3s ease,box-shadow .3s ease}
+.panel.dragging{opacity:.5;cursor:grabbing}
+.panel.over{transform:scale(1.05);box-shadow:0 0 0 6px #6b4eff88}
+.panel.swap{animation:land .4s ease}
+@keyframes land{from{transform:translateY(-20px)}to{transform:none}}
+button{padding:.4rem .8rem;border:1px solid #6b4eff;background:#fff;cursor:pointer;border-radius:6px}
+button:hover{background:#6b4eff;color:#fff}
+</style></head>
+<body>
+<h2>Panel Swap</h2>
+<p>Drag one panel onto the other to trade places.</p>
+<div class="row" id="row"><div class="panel" draggable="true">Memory A</div><div class="panel" draggable="true">Memory B</div></div>
+<button id="swap">Swap panels</button>
+<script>
+const row=document.getElementById('row');const panels=[...row.children];let drag=null;
+function swap(a,b){if(!a||!b||a===b)return;if(a.nextSibling===b)row.insertBefore(b,a);else if(b.nextSibling===a)row.insertBefore(a,b);else{const m=document.createComment('x');row.insertBefore(m,a);row.insertBefore(a,b);row.insertBefore(b,m);m.remove();}panels.forEach(p=>{p.classList.remove('swap');void p.offsetWidth;p.classList.add('swap');setTimeout(()=>p.classList.remove('swap'),450);});}
+panels.forEach(p=>{p.addEventListener('dragstart',e=>{drag=p;p.classList.add('dragging');e.dataTransfer.effectAllowed='move';});p.addEventListener('dragend',()=>{drag=null;panels.forEach(q=>q.classList.remove('dragging','over'));});p.addEventListener('dragover',e=>{e.preventDefault();if(drag&&drag!==p)p.classList.add('over');});p.addEventListener('dragleave',()=>p.classList.remove('over'));p.addEventListener('drop',e=>{e.preventDefault();p.classList.remove('over');if(drag&&drag!==p)swap(drag,p);drag=null;});});
+document.getElementById('swap').onclick=()=>swap(panels[0],panels[1]);
+</script>
+</body></html>

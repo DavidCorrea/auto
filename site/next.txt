@@ -1,1 +1,1 @@
-Add an interactive drag-and-drop swap so visitors can drag one memory panel over the other to trade places, with a small landing animation.
+Add a CSS-only animated border that pulses gently around the page header to draw the eye, without any JavaScript.
