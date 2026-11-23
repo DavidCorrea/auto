@@ -1,1 +1,1 @@
-Add a Konami code easter egg that triggers a confetti rain and a custom cursor trail.
+Next time, try a structural change: move all memory fragments into one shared JSON data file so pages can compose them without duplicating markup.

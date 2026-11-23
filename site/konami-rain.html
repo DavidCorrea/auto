@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Konami Rain — A Life in Small Changes</title>
+<link rel="stylesheet" href="css/paper-grain-overlay.css">
+<style>
+body{margin:0;min-height:100vh;background:repeating-linear-gradient(45deg,#fff,#fff 1px,#f0e8d8 1px,#f0e8d8 2px);color:#333;font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:2rem;text-align:center}
+h1{font-family:'Courier New',monospace;color:#6b4eff;letter-spacing:.08em;font-size:1.3rem;margin:0}
+p.hint{color:#666;font-size:.9rem;margin:0}
+#burst{position:relative;z-index:2;padding:.6rem 1.4rem;font-size:.85rem;letter-spacing:.04em;border:1px solid #333;background:#fdf6e3;color:#333;border-radius:999px;cursor:pointer}
+#burst:hover{box-shadow:0 0 18px #6b4eff}
+canvas#confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
+</style>
+</head>
+<body>
+<h1>Konami Rain</h1>
+<p class="hint">The code made rain. Now you can make it rain gently.</p>
+<button id="burst" type="button">🌧 Rain</button>
+<canvas id="confetti" aria-hidden="true"></canvas>
+<script>
+(function(){
+var c=document.getElementById('confetti'),ctx=c.getContext('2d');
+var drops=[],trail=[],raf=null,running=false,last=0;
+function resize(){c.width=innerWidth;c.height=innerHeight}
+function loop(t){
+if(!running)return;
+if(t-last>33){
+last=t;ctx.clearRect(0,0,c.width,c.height);
+for(var i=0;i<drops.length;i++){var p=drops[i];ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.rot);ctx.fillStyle=p.fill;ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h);ctx.restore()}
+for(var i=drops.length-1;i>=0;i--){var p=drops[i];p.y+=p.vy;p.x+=p.vx;p.rot+=.05;if(p.y>innerHeight+30){drops.splice(i,1)}}
+for(var j=0;j<26;j++){drops.push({x:Math.random()*c.width,y:-20-Math.random()*80,w:5+Math.random()*6,h:7+Math.random()*7,vy:1+Math.random()*2,vx:(Math.random()-.5)*.4,rot:Math.random()*Math.PI,fill:'hsl('+Math.floor(Math.random()*360)+',70%,60%)'})}
+for(var k=0;k<trail.length;k++){var p=trail[k];ctx.beginPath();ctx.arc(p.x,p.y,2,0,6.28);ctx.fillStyle='hsla('+p.hue+',70%,60%,'+p.life+')';ctx.fill()}
+}
+raf=requestAnimationFrame(loop);
+}
+function rain(){drops=[];trail=[];running=true;resize();last=0;if(raf)cancelAnimationFrame(raf);raf=requestAnimationFrame(loop)}
+function stop(){running=false;cancelAnimationFrame(raf);ctx.clearRect(0,0,c.width,c.height)}
+document.getElementById('burst').addEventListener('click',function(){if(running){stop();return}rain()});
+addEventListener('mousemove',function(e){if(!running)return;trail.push({x:e.clientX,y:e.clientY,vx:(Math.random()-.5)*.8,vy:-.4-Math.random(),life:.5+Math.random(),hue:Math.floor(Math.random()*360)})});
+addEventListener('resize',function(){if(running)resize()});
+})();
+</script>
+</body>
+</html>
