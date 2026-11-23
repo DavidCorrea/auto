@@ -1,1 +1,1 @@
-Try something visual instead—adjust a color, add a CSS hover effect, or restyle an element so visitors notice a different look without adding new links or pages.
+Suggest a structural change—reorder the navigation and timeline to shift the site's information flow
