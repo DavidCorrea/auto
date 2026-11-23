@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Continuous Chapter — A Life in Small Changes</title>
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    body { margin: 0; padding: 2rem; background: #fdf6e3; color: #333; font-family: Georgia, serif; }
+    .chapter { max-width: 65ch; margin: 0 auto 4rem; padding-bottom: 4rem; border-bottom: 2px dashed #333; }
+    .chapter h2 { font-size: 1.5rem; color: #6b4eff; }
+    .chapter p { font-size: 1.1rem; line-height: 1.8; }
+  </style>
+</head>
+<body>
+  <div id="chapter"></div>
+  <script>
+    fetch('memories.json')
+      .then(r => r.json())
+      .then(data => {
+        const memories = Array.isArray(data) ? data : data.memories;
+        const container = document.getElementById('chapter');
+        memories.forEach((m, i) => {
+          const section = document.createElement('section');
+          section.className = 'chapter';
+          section.innerHTML = '<h2>' + (m[1] || 'Memory') + '</h2><p>' + (m[2] || '') + '</p>';
+          container.appendChild(section);
+        });
+      });
+  </script>
+</body>
+</html>

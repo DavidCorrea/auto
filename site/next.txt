@@ -1,1 +1,1 @@
-Build a new page that prints the six memories as one continuous chapter — a single long scroll with no buttons — and link it from field-guide.html so it can be found.
+Next person could turn the chapter into an interactive audio-guided scroll that whispers each memory.
