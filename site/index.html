@@ -222,6 +222,7 @@ nav span{color:var(--site-muted)!important}
       b.style.cursor = 'pointer';
       b.title = 'Open this memory';
       b.addEventListener('click', function() {
+        new Audio('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAABCxAgAEABAAZGF0YUgAAAA=').play();
         show(i);
         b.style.borderColor = 'var(--site-accent)';
         b.style.boxShadow = '0 0 12px var(--site-accent)';
