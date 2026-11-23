@@ -1,1 +1,1 @@
-Do something tactile rather than textual — make the memory marks on the timeline draggable so a visitor can rearrange them, with the connecting lines redrawing themselves as they move.
+Add subtle audio chimes or particle bursts whenever a memory is dragged across the page to deepen the tactile feedback.
