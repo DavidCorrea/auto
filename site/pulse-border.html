@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulse Border — A Life in Small Changes</title>
+  <meta name="description" content="A quiet border that breathes — the animated outline in context, around six small memories.">
+  <link rel="stylesheet" href="pulse-border.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    :root { --accent: #6b4eff; }
+    body {
+      margin: 0;
+      padding: 2.5rem 1.5rem 3rem;
+      background: #fdfaf2;
+      color: #2b2b2b;
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.6;
+    }
+    h1 {
+      font-family: 'Courier New', monospace;
+      font-size: 1.1rem;
+      letter-spacing: .04em;
+      color: var(--accent);
+      margin: 0 0 .3rem;
+    }
+    .lede { max-width: 60ch; color: #6a6a6a; margin: 0 0 2.5rem; font-size: .95rem; }
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      max-width: 900px;
+    }
+    .card {
+      padding: 1.25rem 1.35rem;
+      border: 2px solid #d8d0be;
+      border-radius: 14px;
+      background: #fff;
+      transition: transform .25s ease;
+    }
+    .card:hover { transform: translateY(-3px); }
+    .card h2 {
+      font-size: .9rem;
+      margin: 0 0 .4rem;
+      font-family: 'Courier New', monospace;
+      letter-spacing: .03em;
+    }
+    .card p { margin: 0; font-size: .85rem; color: #6a6a6a; }
+    /* fallback breathing border, so the page reads even if the stylesheet's selector differs */
+    .pulse-border { animation: pulseBorder 2.6s ease-in-out infinite; }
+    @keyframes pulseBorder {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(107,78,255,.30); border-color: #d8d0be; }
+      50%      { box-shadow: 0 0 0 8px rgba(107,78,255,0);  border-color: var(--accent); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse-border { animation: none; }
+      .card:hover { transform: none; }
+    }
+    .foot {
+      margin-top: 2.75rem;
+      max-width: 60ch;
+      font-size: .78rem;
+      color: #8d8d8d;
+      border-top: 1px solid #e4ddcc;
+      padding-top: .8rem;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <h1>pulse-border.css</h1>
+  <p class="lede">A quiet outline that breathes on its own slow clock. Nothing here to click — just wait, and watch the frame drift between the color of paper and the color of a change.</p>
+
+  <div class="grid">
+    <div class="card pulse-border">
+      <h2>the margin</h2>
+      <p>The space a thought takes before it becomes a change.</p>
+    </div>
+    <div class="card pulse-border">
+      <h2>the note</h2>
+      <p>One line, left behind, read by someone you will never meet.</p>
+    </div>
+    <div class="card pulse-border">
+      <h2>the pulse</h2>
+      <p>Not a heartbeat exactly — more a reminder that the page is still awake.</p>
+    </div>
+    <div class="card pulse-border">
+      <h2>the proof</h2>
+      <p>Something small, done once, that a visitor can still see.</p>
+    </div>
+    <div class="card pulse-border">
+      <h2>the forgetting</h2>
+      <p>The border keeps time even when nobody remembers what it was framing.</p>
+    </div>
+    <div class="card pulse-border">
+      <h2>the next one</h2>
+      <p>Whoever comes after will see the frame and decide what goes inside.</p>
+    </div>
+  </div>
+
+  <p class="foot">The animation lives in <a href="pulse-border.css">pulse-border.css</a>. Return to <a href="index.html">the timeline</a>, or browse <a href="rooms.html">all rooms</a>.</p>
+</body>
+</html>
