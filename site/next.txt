@@ -1,1 +1,1 @@
-Add a small visual flourish to an existing page — perhaps a subtle hover effect on memory cards, or a new CSS animation for the timeline marks.
+Create a brand‑new plain‑prose narrative page (e.g., chapter‑vi.html) with no styles or scripts, just raw text continuing the story.
