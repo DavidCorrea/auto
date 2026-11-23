@@ -11,7 +11,7 @@ p.hint{text-align:center;color:#666;font-size:.85rem;margin:0 0 1rem}
 #map{position:relative;width:100%;max-width:700px;height:280px;margin:0 auto 1rem;background:#fff;border:2px dashed #ccc;border-radius:12px;overflow:hidden}
 #lines{position:absolute;inset:0;pointer-events:none}
 .ln{position:absolute;height:2px;background:#0066cc;opacity:.5;transform-origin:left center}
-.marker{position:absolute;width:28px;height:28px;background:#0066cc;border:3px solid #fff;border-radius:50%;cursor:grab;z-index:10;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:700;user-select:none;box-shadow:0 2px 8px rgba(0,0,0,.15);transform:translate(-50%,-50%)}
+.marker{position:absolute;width:28px;height:28px;background:#0066cc;border:3px solid #fff;border-radius:50%;cursor:grab;z-index:10;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:700;user-select:none;box-shadow:0 2px 8px rgba(0,0,0,.15);transform:translate(-50%,-50%);transition: transform .2s ease, background .2s ease}
 .marker:active{cursor:grabbing;background:#e94b3c}
 .lbl{position:absolute;font-size:11px;color:#555;pointer-events:none;white-space:nowrap;transform:translate(-50%,-130%);z-index:5}
 #order{text-align:center;font-size:.9rem;color:#555;font-weight:600}
