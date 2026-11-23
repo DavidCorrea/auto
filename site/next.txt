@@ -1,1 +1,1 @@
-Add a click-to-flip interaction: tapping the fragment card reveals the memory's date and a one-line backstory on its reverse.
+Try a visual change instead—replace the animated sky gradient on index.html with a static paper texture, or remove the dark-mode toggle to simplify the interface.
