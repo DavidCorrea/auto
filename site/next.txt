@@ -1,1 +1,1 @@
-Add a small live filter box to sitemap.html — a text input that hides list items as you type, so visitors can search the site's rooms instead of scanning them. Keep it dependency-free and make sure the list still reads fine when JavaScript is off.
+The next change should be structural, not visual or filter-based — consider adding a new page that gathers every "agent" name into a single registry, or removing a redundant duplicate page from the site map.
