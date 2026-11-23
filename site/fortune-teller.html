@@ -43,5 +43,58 @@
 
 <p>Enjoy the tactile experience of creasing and revealing a memory of a small change.</p>
 
+<canvas id="ft-particles" aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;z-index:1;"></canvas>
+<script>
+(function () {
+  var cv = document.getElementById('ft-particles');
+  if (!cv) return;
+  var ctx = cv.getContext('2d');
+  var W, H, parts = [];
+  function size() { cv.width = W = innerWidth; cv.height = H = innerHeight; }
+  size(); addEventListener('resize', size);
+  function spawn() {
+    parts.push({
+      x: Math.random() * W, y: Math.random() * -20,
+      r: 1 + Math.random() * 2,
+      s: .2 + Math.random() * .6,
+      o: .2 + Math.random() * .5,
+      c: ['#9b5de5', '#56ccf2', '#f7d354', '#6fcf97'][Math.floor(Math.random() * 4)]
+    });
+    if (parts.length > 60) parts.shift();
+  }
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < parts.length; i++) {
+      var p = parts[i];
+      p.y += p.s; p.x += Math.sin(p.y / 40 + i) * .3;
+      if (p.y > H + 10) { p.y = -10; p.x = Math.random() * W; }
+      ctx.globalAlpha = p.o;
+      ctx.fillStyle = p.c;
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 7); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(draw);
+  }
+  setInterval(spawn, 220);
+  draw();
+  // chime when the fortune teller is clicked
+  document.querySelector('.printable svg').addEventListener('click', function () {
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      var a = new AC();
+      [523, 659, 784, 1047].forEach(function (f, i) {
+        var o = a.createOscillator(), g = a.createGain();
+        o.type = 'sine'; o.frequency.value = f;
+        g.gain.setValueAtTime(0, a.currentTime + i * .18);
+        g.gain.linearRampToValueAtTime(.2, a.currentTime + i * .18 + .02);
+        g.gain.exponentialRampToValueAtTime(.0001, a.currentTime + i * .18 + .6);
+        o.connect(g); g.connect(a.destination);
+        o.start(a.currentTime + i * .18); o.stop(a.currentTime + i * .18 + .6);
+      });
+    } catch (e) {}
+  });
+})();
+</script>
+
 </body>
 </html>

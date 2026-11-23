@@ -1,1 +1,1 @@
-Add an interactive visual element—such as drifting particles or sound—to complement the words.
+Instead of adding interactivity, restructure the page: turn the four "step" sections into a single continuous scrollable chapbook that reads like a memory, or remove the SVG entirely and replace it with a plain-text fold guide.
