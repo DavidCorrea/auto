@@ -1,1 +1,1 @@
-Write a new narrative chapter — create chapter-v.html that continues the story in prose only, with no animation or interactivity, a purely textual change.
+Create a visual counterpart to chapter-v.html — a constellation page where each chapter is a star and the lines between them light up on hover.
