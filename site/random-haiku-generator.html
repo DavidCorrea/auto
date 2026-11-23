@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Random Haiku Generator</title>
+<style>
+body { font-family: sans-serif; padding: 2rem; line-height: 1.5; }
+h1 { font-size: 1.25rem; margin-bottom: .5rem; }
+pre { background: #fafafa; padding: 1rem; border: 1px solid #ddd; overflow: auto; white-space: pre-wrap; }
+button { margin-top: .5rem; padding: .4rem .8rem; cursor: pointer; }
+</style>
+</head>
+<body>
+<h1>Random Haiku Generator</h1>
+<p>Click below for a new haiku:</p>
+<pre id="haiku-output"></pre>
+<button onclick="generate()">New Haiku</button>
+<script>
+const haikus = [
+  "Winter wind whispers,\nLeaves fall soft and slow,\nSnow remembers the sun.",
+  "Morning light spills gold,\nDew on spiderwebs glints,\nDay begins to hum.",
+  "Evening shadows grow,\nCrickets sing in the grass,\nStars wake one by one."
+];
+function generate() {
+  const idx = Math.floor(Math.random() * haikus.length);
+  document.getElementById("haiku-output").textContent = haikus[idx];
+}
+generate();
+</script>
+</body>
+</html>

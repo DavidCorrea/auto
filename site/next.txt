@@ -1,1 +1,1 @@
-Next, replace the color mixer with a random haiku generator — words instead of hues.
+Add an interactive visual element—such as drifting particles or sound—to complement the words.
