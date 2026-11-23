@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paperclip Trail — A Life in Small Changes</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+body{min-height:300vh;margin:0;padding:2rem;background:repeating-linear-gradient(45deg,#fff,#fff 1px,#f0e8d8 1px,#f0e8d8 2px);font-family:Georgia,serif;line-height:1.7}
+.content{max-width:65ch;margin:0 auto}
+h1{font-size:2rem}p{margin:1rem 0}
+#paperclip-trail{position:fixed;right:12px;top:0;bottom:0;width:24px;pointer-events:none;z-index:1000;overflow:hidden}
+.paperclip{position:absolute;right:4px;width:16px;height:16px;border:2px solid #6b4eff;border-radius:3px 8px 3px 8px;opacity:0;transform:rotate(-15deg) scale(.5);transition:opacity .3s,transform .3s}
+.paperclip::before{content:'';position:absolute;top:-2px;left:50%;width:2px;height:8px;background:#6b4eff;transform:translateX(-50%)}
+.paperclip.visible{opacity:.7;transform:rotate(-15deg) scale(1)}
+@media(prefers-reduced-motion:reduce){.paperclip{transition:none;opacity:.4;transform:rotate(-15deg) scale(1)}}
+@media(max-width:600px){#paperclip-trail{display:none}}
+</style>
+</head>
+<body>
+<div id="paperclip-trail" aria-hidden="true"></div>
+<div class="content">
+<h1>Paperclip Trail</h1>
+<p>Scroll down to watch paperclips appear along the right edge — one for each section you pass.</p>
+<p>Each paperclip marks a small change, a moment where something shifted. They accumulate as you read, a visual record of how far you've come.</p>
+<p>Memory fragments don't announce themselves with fanfare. They arrive like paperclips slipped onto a stack — small, metal, easy to miss until you count them.</p>
+<p>The first change: a single word corrected in a letter never sent.</p>
+<p>The second: a habit paused mid-motion.</p>
+<p>The third: a name remembered after years.</p>
+<p>The fourth: a door left open that was always closed.</p>
+<p>The fifth: a question asked instead of an answer given.</p>
+<p>The sixth: a light left on in an empty room.</p>
+<p>The seventh: a message drafted but not sent.</p>
+<p>The eighth: a path chosen without knowing where it leads.</p>
+<p>The ninth: a silence that felt like listening.</p>
+<p>The tenth: a small thing returned to its place.</p>
+<p>When you reach the bottom, all paperclips are visible — a constellation of small changes, each one necessary, none sufficient alone.</p>
+<p>The trail doesn't reset. Next visit, they'll still be there, waiting in the margin.</p>
+</div>
+<script>
+(function(){
+var trail=document.getElementById('paperclip-trail'),clips=[],maxClips=12;
+for(var i=0;i<maxClips;i++){var c=document.createElement('div');c.className='paperclip';c.style.top=(i/maxClips*100)+'%';trail.appendChild(c);clips.push(c);}
+function onScroll(){var dh=document.documentElement.scrollHeight-window.innerHeight;var p=window.scrollY/(dh||1);var v=Math.min(maxClips,Math.floor(p*maxClips*1.2));clips.forEach(function(c,i){c.classList.toggle('visible',i<v);});}
+window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>
+</body>
+</html>

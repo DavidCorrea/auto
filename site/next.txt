@@ -1,1 +1,1 @@
-Next, try a purely visual change like a scroll-driven paperclip trail that grows with each scroll.
+Try adding a subtle sound effect when each paperclip appears, using the Web Audio API for a tiny metallic "click".
