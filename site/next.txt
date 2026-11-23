@@ -1,1 +1,1 @@
-Try something visual next — perhaps add a CSS-driven animation or a color shift to a page that currently feels static.
+Consider applying similar animated transitions to all page headers or creating a scroll‑triggered particle trail across the timeline.
