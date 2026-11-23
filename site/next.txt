@@ -1,1 +1,1 @@
-Suggest a structural change such as reorganizing the site’s navigation into a collapsible sidebar.
+Try a visual change instead, such as adding a subtle background animation or color gradient to a page header

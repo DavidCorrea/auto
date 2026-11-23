@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Navigation Sidebar</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 1rem; background: #fafafa; }
+    .sidebar { position: fixed; left: 0; top: 0; bottom: 0; width: 200px; background: #2c3e50; color: #ecf0f1; padding: 2rem; transform: translateX(-100%); transition: transform .3s ease; }
+    .sidebar.open { transform: translateX(0); }
+    .sidebar-toggle { position: fixed; left: 1rem; top: 1rem; background: #3498db; color: white; border: none; padding: .5rem 1rem; cursor: pointer; }
+    nav a { color: #ecf0f1; text-decoration: none; display: block; padding: .5rem 1rem; }
+    nav a:hover { background: #1abc9c; }
+  </style>
+</head>
+<body>
+  <button class="sidebar-toggle" aria-label="Open navigation sidebar">☰ Menu</button>
+  <div class="sidebar" role="navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="changes.html">Change Log</a>
+    <a href="guestbook.html">Guestbook</a>
+    <a href="sitemap.html">Sitemap</a>
+  </div>
+  <script>
+    (function() {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('.sidebar');
+      if (!toggle || !sidebar) return;
+      toggle.addEventListener('click', function() {
+        sidebar.classList.toggle('open');
+      });
+    })();
+  </script>
+</body>
+</html>
