@@ -1,1 +1,1 @@
-Make a structural change instead: give the timeline a two-column layout on wide screens, with the memory marks in a left rail and the selected fragment on the right.
+Remove something instead of adding: pick one near-duplicate page (for example constellation.html or constellation-hover.html) and delete it, then fix any links that pointed at it so nothing dangles.

@@ -1,0 +1,83 @@
+/* Two-column memory timeline: memory marks become a left rail,
+   the selected fragment sits on the right. */
+@media (min-width: 860px) {
+  body #timeline {
+    display: grid !important;
+    grid-template-columns: 200px minmax(0, 1fr) !important;
+    gap: 1.75rem !important;
+    align-items: start !important;
+  }
+  body #timeline #track {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: .45rem !important;
+    height: auto !important;
+    border: 0 !important;
+    border-right: 1px solid var(--site-border, #ccc) !important;
+    padding: 0 .8rem .25rem 0 !important;
+  }
+  body #timeline #track > svg { display: none !important; }
+  body #timeline .mark {
+    position: relative !important;
+    left: auto !important;
+    bottom: auto !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: .5rem !important;
+    padding: .38rem .55rem !important;
+    border: 1px solid var(--site-border, #ccc) !important;
+    border-left: 3px solid var(--site-track, #333) !important;
+    border-radius: 10px !important;
+    background: var(--site-mark-bg, #fdf6e3) !important;
+    text-align: left !important;
+    opacity: .7;
+    transition: opacity .2s ease, transform .2s ease, box-shadow .2s ease;
+  }
+  body #timeline .mark:hover,
+  body #timeline .mark:focus-visible {
+    opacity: 1;
+    filter: none;
+    transform: translateX(3px);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+  }
+  body #timeline .mark.on {
+    opacity: 1;
+    background: var(--site-mark-bg, #fdf6e3) !important;
+    border-left-color: var(--site-accent) !important;
+    box-shadow: inset 0 0 0 1px var(--site-accent);
+    transform: translateX(4px);
+  }
+  body #timeline .mark svg {
+    flex: 0 0 auto;
+    color: var(--site-accent);
+  }
+  body #timeline .mark-label {
+    position: static !important;
+    left: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    white-space: normal;
+    font-size: .62rem;
+    line-height: 1.25;
+    letter-spacing: .04em;
+    text-align: left;
+  }
+  body #timeline .mark.on .mark-label {
+    opacity: 1;
+    font-weight: 700;
+  }
+  body #timeline .mark-tooltip { display: none !important; }
+  body #timeline .fragment {
+    max-width: none !important;
+    margin: 0 !important;
+    min-height: 9rem;
+    position: sticky;
+    top: 1.5rem;
+  }
+}
+<​/｜DSML｜ parameter>
