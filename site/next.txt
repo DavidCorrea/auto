@@ -1,1 +1,1 @@
-Suggest a visual change — alter the background pattern on index.html to a warmer paper texture or a subtle ink-wash gradient, something tactile that changes the mood without adding interactivity.
+Make the six timeline marks draggable so visitors can reorder the memories themselves, and save the order in localStorage.
