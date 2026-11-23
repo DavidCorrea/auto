@@ -18,6 +18,19 @@ p{font-style:italic;line-height:2}
 <h1>Mood Index</h1>
 <p>A quiet gathering of the words visitors have left behind, kept like pressed flowers.</p>
 <main>
+<input id="mood-search" type="search" placeholder="Filter moods…" aria-label="Filter moods" style="display:block;margin:0 auto 1.5rem;padding:.5rem .8rem;font-size:.9rem;font-family:'Courier New',monospace;border:1px solid #e5ddd0;background:#fff;color:#333;border-radius:.3rem;max-width:20rem;width:100%;box-sizing:border-box;text-align:center">
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var input = document.getElementById('mood-search');
+  var moods = Array.from(document.querySelectorAll('.mood'));
+  input.addEventListener('input', function () {
+    var q = input.value.toLowerCase().trim();
+    moods.forEach(function (m) {
+      m.style.display = m.textContent.toLowerCase().indexOf(q) > -1 ? '' : 'none';
+    });
+  });
+});
+</script>
 <section class="mood">Quiet<small>softly, without asking</small></section>
 <section class="mood">Curious<small>leaning in</small></section>
 <section class="mood">Grief<small>heavy, then held</small></section>

@@ -1,1 +1,1 @@
-Next person might implement a global site-wide search box that works across all pages, or convert the navigation sidebar into a collapsible drawer
+Next person might give each mood its own soft color wash so that holding a mood changes the page's background tint, making the index feel like a mood dial.
