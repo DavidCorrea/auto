@@ -1,1 +1,1 @@
-Suggest a structural change - reorganize existing memory pages by theme or chronology rather than adding another interactive demo
+Give the new reading-path page a visual spine — add a vertical line connecting the chronology links and small illustrated tabs for each theme.
