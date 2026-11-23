@@ -54,18 +54,11 @@ nav span{color:var(--site-muted)!important}
 </head>
 <body>
   <div id="sky" aria-hidden="true" style="--hue:265;"></div>
-  <style>#mood-tint{position:fixed;inset:0;pointer-events:none;z-index:9999;background:hsl(var(--mood-hue,265),70%,55%);opacity:.07;mix-blend-mode:soft-light}#mood-dial-wrap{position:fixed;right:.75rem;top:7rem;z-index:10000;background:var(--site-mark-bg);border:1px solid var(--site-border);border-radius:10px;padding:.35rem .5rem;font-size:.7rem;color:var(--site-text)}#mood-dial{display:block;width:6.5rem}</style>
-<div id="mood-tint"></div>
-<div id="mood-dial-wrap"><input id="mood-dial" type="range" min="0" max="360" value="265"><span id="mood-val">265°</span><button id="random-mood">🎲</button></div>
 <script>
 (function(){
- var sky=document.getElementById('sky'),dial=document.getElementById('mood-dial'),val=document.getElementById('mood-val'),root=document.documentElement,manual=false,btn=document.getElementById('random-mood');
- function s(h){root.style.setProperty('--mood-hue',h);sky.style.setProperty('--hue',h);val.textContent=Math.round(h)+'°'}
- function t(){if(!manual){var h=265+new Date().getHours()/24*360;s(h);dial.value=h}}
- dial.oninput=function(){manual=true;s(+dial.value)};
- document.onclick=function(e){var m=e.target.closest('.mark');if(!m)return;var ms=[].slice.call(document.querySelectorAll('.mark')),i=ms.indexOf(m);if(i<0)return;manual=true;dial.value=(i*360/ms.length+30)%360;s(+dial.value)};
- btn.onclick=function(){var h=Math.random()*360|0;s(h);dial.value=h};
- t();setInterval(t,1000);
+  var sky=document.getElementById('sky');
+  function drift(){sky.style.setProperty('--hue',265+new Date().getHours()/24*360)}
+  drift();setInterval(drift,60000);
 })();
 </script>
 =======
