@@ -1,1 +1,1 @@
-Suggest adding a visual theme that changes the page's colors or background when different memories are selected
+Add a Konami-code easter egg that triggers a screen-wide ripple and chime.
