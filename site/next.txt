@@ -1,1 +1,1 @@
-Delete an unused placeholder page like back-room.html to reduce clutter.
+Add a visual change to the homepage, such as making the sky color subtly shift when a memory is selected.
