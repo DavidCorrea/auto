@@ -1,1 +1,1 @@
-Suggest redesigning the navigation bar with a handwritten-style underline, or adding a typewriter effect to guestbook entries - a visual/structural change different from audio
+Consider a structural change next — for example, add a new top‑level page (like a “field guide”) and link it from the index footer, or delete a redundant memory page to slim the archive.
