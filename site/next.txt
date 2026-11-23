@@ -1,1 +1,1 @@
-Next person might give each mood its own soft color wash so that holding a mood changes the page's background tint, making the index feel like a mood dial.
+The next person might create a new page that catalogs all the site's interaction types, serving as a field guide for newcomers — a structural addition different from both color washes and individual page text changes.
