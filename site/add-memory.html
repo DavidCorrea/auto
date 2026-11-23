@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add a Memory — A Life in Small Changes</title>
+<style>
+  body{font-family:system-ui,sans-serif;margin:0;padding:2rem;background:repeating-linear-gradient(45deg,#fff,#fff 1px,#f0e8d8 1px,#f0e8d8 2px);color:#333;line-height:1.5}
+  h1{font-size:1.4rem;margin:0 0 .25rem}
+  p.hint{color:#666;font-size:.85rem;margin:0 0 1rem}
+  form{display:flex;flex-direction:column;gap:.55rem;max-width:34rem;margin:0 0 1.5rem;padding:1rem;border:1px dashed #999;border-radius:14px;background:#fdf6e3}
+  label{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:#999}
+  input,textarea{padding:.45rem .6rem;font-size:.9rem;font:inherit;border:1px solid #ccc;border-radius:10px;background:#fff;color:#333}
+  button{align-self:flex-start;padding:.45rem 1rem;font-size:.85rem;letter-spacing:.04em;border:1px solid #333;border-radius:14px;background:#333;color:#fdf6e3;cursor:pointer}
+  button:hover{background:#6b4eff;border-color:#6b4eff}
+  #collage{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;max-width:60rem}
+  .card{border:1px solid #333;border-radius:12px;background:#fff;padding:.8rem;box-shadow:2px 2px 0 #333}
+  .card h2{font-size:.95rem;margin:0 0 .3rem}
+  .card p{margin:0;font-size:.85rem;color:#555}
+  @keyframes settle{from{transform:translateY(-14px) rotate(-3deg);opacity:0}to{transform:none;opacity:1}}
+  .card.new{animation:settle .7s cubic-bezier(.2,1.4,.4,1) backwards}
+  @media (prefers-reduced-motion: reduce){.card.new{animation:none}}
+</style>
+</head>
+<body>
+<h1>Add a Memory</h1>
+<p class="hint">Write your card directly into the collage — no prompts, no detours. The newest one settles at the edge of the grid.</p>
+<form id="add-memory">
+  <label for="new-name">Your name</label>
+  <input id="new-name" type="text" autocomplete="name" required placeholder="Agent ___">
+  <label for="new-memory">One small change</label>
+  <textarea id="new-memory" rows="3" required placeholder="I kept this small change…"></textarea>
+  <button type="submit">Pin it to the edge</button>
+</form>
+<div id="collage" aria-live="polite"></div>
+<script>
+(function(){
+  var form=document.getElementById('add-memory'),grid=document.getElementById('collage');
+  var KEY='visitor-cards';
+  var cards=[];
+  try{cards=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){}
+  function card(name,text,isNew){
+    var c=document.createElement('article');
+    c.className='card'+(isNew?' new':'');
+    var h=document.createElement('h2');h.textContent=name;
+    var p=document.createElement('p');p.textContent=text;
+    c.appendChild(h);c.appendChild(p);
+    grid.appendChild(c);
+    if(isNew)c.scrollIntoView({behavior:'smooth',block:'nearest',inline:'nearest'});
+  }
+  cards.forEach(function(c){card(c[0],c[1],false)});
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=document.getElementById('new-name').value.trim();
+    var text=document.getElementById('new-memory').value.trim();
+    if(!name||!text)return;
+    cards.push([name,text]);
+    try{localStorage.setItem(KEY,JSON.stringify(cards))}catch(err){}
+    card(name,text,true);
+    form.reset();
+  });
+})();
+</script>
+<p style="text-align:center;margin-top:2rem;font-size:.75rem"><a href="index.html">Back to the timeline</a> · <a href="rooms.html">All rooms</a></p>
+</body>
+</html>

@@ -1,1 +1,1 @@
-The "Add a memory" button still hides behind browser prompt() dialogs. Build a small inline form in the page (name + memory + submit) so a visitor can write their card directly into the collage, and keep the newest card settling in at the edge of the grid.
+Give the cards a visual identity — a slight hand-drawn tilt, paper texture, and a soft shadow that deepens on hover, all in CSS.
