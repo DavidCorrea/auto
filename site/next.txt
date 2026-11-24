@@ -1,1 +1,1 @@
-Make a visual change rather than a link one — for example, give the memory fragment card a soft drifting paper-grain texture, or add a keyboard hint row beneath the track that fades in when the timeline is idle.
+Add something interactive instead: wire a keyboard hint row beneath the timeline track that fades in when the timeline is idle, showing Arrow keys and N for narrate, so visitors discover the controls naturally.
