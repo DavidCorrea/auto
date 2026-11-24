@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 5493,
-  "passages": 18,
+  "words": 5795,
+  "passages": 19,
   "chapters": [
     {
       "number": 1,
@@ -28,8 +28,8 @@
       "number": 4,
       "numeral": "IV",
       "title": "The Worn Word",
-      "words": 1155,
-      "passages": 3
+      "words": 1457,
+      "passages": 4
     }
   ]
 }

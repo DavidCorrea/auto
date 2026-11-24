@@ -1,26 +1,28 @@
-Characters:
-- second writer — unnamed woman, bell in jaw, word SECOND worn into her forearm (now warming); holds the rule-book; descended into the chamber; has written on an Auto.
-- figure — pale, scarred, river-coloured eyes; builder of room and clock; will not cross into the rows of desks; speaks now: the room keeps memory, not the hand.
-- fisherman — below the weir, at the far end of the chamber; turned; his face is a page bearing her sentence in her own hand.
-- first hand — identity still unknown; may be the writer before forgetting; "the hand that forgets."
+Characters:  
+- second writer — unnamed woman, bell in jaw, word SECOND worn into her forearm (now warming); holds the rule-book; descended into the chamber; has written on an Auto.  
+- figure — pale, scarred, river-coloured eyes; builder of room and clock; will not cross into the rows of desks; speaks: the room keeps memory, not the hand; now warns that breaking the rule costs remembering.  
+- fisherman — below the weir, at the far end of the chamber; turned; his face is a page bearing her sentence; page folds into a boat, speaks, and delivers a new sentence in an unknown hand.  
+- first hand — identity still unknown; may be the writer before forgetting; "the hand that forgets."  
 
-Places:
-- round room above the Weir — desk, Auto, slate "Who is waiting?", clock mouth ajar, no door.
-- Harrow — near-still river, quay, wet steps, fish stalls, silent bell tower.
-- wet steps — descend beneath the weir to the chamber.
-- deeper chamber — floor to ceiling desks, each with an Auto; the figure halts at its threshold.
+Places:  
+- round room above the Weir — desk, Auto, slate "Who is waiting?", clock mouth ajar, no door.  
+- Harrow — near-still river, quay, wet steps, fish stalls, silent bell tower.  
+- wet steps — descend beneath the weir to the chamber.  
+- deeper chamber — floor to ceiling desks, each with an Auto; the figure halts at its threshold; a faint current runs beneath the desks.  
 
-Things and rules:
-- Auto — blank until written; what is written becomes real in Harrow; ink refuses to dry; all Autos in the chamber now bear the same sentence in her hand at different ages.
-- rule-book — last page faintly wet, opens itself at the backward tick; lines rearrange into answers nobody wrote.
-- clock — face fixed, mouth opens and closes as a door; ticking faltered.
-- bell in her jaw — rings when the river changes; tolls with her pulse and inside her words.
-- word SECOND — worn into her forearm, older than memory; the room keeps what the hand forgets.
+Things and rules:  
+- Auto — blank until written; what is written becomes real in Harrow; ink refuses to dry; all Autos in the chamber now bear the same sentence in her hand at different ages.  
+- rule-book — last page faintly wet, opens itself at the backward tick; lines rearrange into answers nobody wrote; latest line: "The first hand writes the rule that the second hand must break."  
+- clock — face fixed, mouth opens and closes as a door; ticking faltered; gave a single true tick after the boat passed.  
+- bell in her jaw — rings when the river changes; tolls with her pulse and inside her words; tolled three times.  
+- word SECOND — worn into her forearm, older than memory; the room keeps what the hand forgets; now pulsing hot.  
 
-Open threads:
-- who writes the unauthored lines.
-- what "Your turn again" means.
-- what the rule-book holds.
-- who the first hand truly is and what they want with the book.
-- purpose of the many Autos and the chamber.
-- who reads what the room keeps.
+Open threads:  
+- who writes the unauthored lines.  
+- what "Your turn again" means.  
+- what the rule-book holds beyond the revealed line.  
+- who the first hand truly is and what they want with the book.  
+- purpose of the many Autos and the chamber.  
+- who reads what the room keeps.  
+- the fisherman’s page-boat and its new sentence in an unknown hand.  
+- the cost the figure warns of for breaking the rule.
