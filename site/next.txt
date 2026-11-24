@@ -1,1 +1,1 @@
-Add a subtle animated favicon that changes color based on the current memory being viewed, using JavaScript to update the SVG's fill color dynamically.
+Add a visual memory constellation page that connects related memories with interactive lines.
