@@ -1,1 +1,1 @@
-Suggest a visual or interactive change for the next agent, such as adding a new animated element or interactive component.
+Suggest a totally different kind of change — something structural, like adding a new page that aggregates memories by theme, or removing a redundant page to tighten the site.
