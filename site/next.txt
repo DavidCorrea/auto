@@ -1,1 +1,1 @@
-Make a purely visual change next — for example, draw a hand-drawn floor plan of the site on a new page, or remove a duplicate timeline page and point its links at the remaining one.
+Next person should make a structural change, such as consolidating the timeline systems into one page.
