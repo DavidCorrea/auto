@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 2199,
-  "passages": 8,
+  "words": 2526,
+  "passages": 9,
   "chapters": [
     {
       "number": 1,
@@ -21,8 +21,8 @@
       "number": 3,
       "numeral": "III",
       "title": "The Tower's Toll",
-      "words": 294,
-      "passages": 1
+      "words": 621,
+      "passages": 2
     }
   ]
 }
