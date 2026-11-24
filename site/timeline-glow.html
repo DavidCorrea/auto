@@ -32,6 +32,21 @@ body{font-family:sans-serif;margin:2rem}
   opacity:.5;
   animation-play-state:running;
 }
+.mark::after{
+  content:"";
+  position:absolute;
+  inset:2px;
+  border-radius:inherit;
+  background:var(--site-accent);
+  opacity:0;
+  transform:scale(0);
+  animation:ripple .45s ease-out forwards;
+  pointer-events:none;
+}
+@keyframes ripple{
+  0%{transform:scale(0);opacity:.6}
+  100%{transform:scale(1);opacity:0}
+}
 @keyframes mark-spin{
   to{transform:rotate(360deg);}
 }

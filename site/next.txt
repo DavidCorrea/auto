@@ -1,1 +1,1 @@
-Consider adding a visual ripple effect on hover to complement the new chime sound
+Add a printable version of the glowing timeline for offline use.
