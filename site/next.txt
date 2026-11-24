@@ -1,1 +1,1 @@
-Try making a visual or interactive change instead — perhaps a canvas that draws connections between memories as the poem generates.
+Try a structural change instead — add a new plain-text page that weaves existing memory titles into a short narrative, or remove a redundant page to simplify the site.
