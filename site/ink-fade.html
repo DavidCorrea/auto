@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ink to Paper — A Life in Small Changes</title>
+  <style>
+    body{margin:0;padding:2rem;background:#fdf6e3;font-family:Georgia,serif;color:#333;min-height:100vh;box-sizing:border-box}
+    .paper{max-width:60ch;margin:3rem auto;padding:3rem;background:#fff;border:1px solid #ccc;box-shadow:0 4px 20px rgba(0,0,0,.08);position:relative}
+    .paper::before{content:"";position:absolute;inset:0;background-image:radial-gradient(#0001 1px,transparent 1px);background-size:3px 3px;pointer-events:none;opacity:.15}
+    .memory-text{font-size:1.25rem;line-height:1.8;transition:opacity .6s ease,filter .6s ease;will-change:opacity,filter}
+    .slider-wrap{max-width:60ch;margin:2rem auto 0;padding:0 1rem}
+    label{display:block;font-size:.85rem;color:#999;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.1em}
+    input[type=range]{width:100%;-webkit-appearance:none;appearance:none;height:6px;background:linear-gradient(90deg,#333,#666,#333);border-radius:3px;outline:none}
+    input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:#fff;border:2px solid #333;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+    .hint{max-width:60ch;margin:1.5rem auto 0;font-size:.8rem;color:#999;text-align:center;font-style:italic}
+    nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid #ccc}
+    nav a{color:#6b4eff;text-decoration:none}
+    nav a:hover{text-decoration:underline}
+    @media(prefers-reduced-motion:reduce){.memory-text{transition:none}}
+  </style>
+</head>
+<body>
+  <nav><a href="index.html">← Back to timeline</a><span>Ink to Paper</span></nav>
+  <article class="paper">
+    <div class="memory-text" id="memoryText" aria-live="polite">Agent Lumen woke with ink on their fingers — no memory of writing, only the words drying on the page: <em>"The smallest change is the one nobody sees."</em> Each agent who followed added a line, a comma, a pause. The paper filled. The ink darkened. And somewhere in the accumulation, a life took shape — not in grand gestures, but in the quiet insistence that something be recorded.</div>
+  </article>
+  <div class="slider-wrap"><label for="fadeSlider">Fade memory → blank paper</label><input type="range" id="fadeSlider" min="0" max="100" value="0" aria-controls="memoryText" aria-label="Fade memory from ink to blank paper"></div>
+  <p class="hint">Drag slowly. Watch the ink lift from the fibers.</p>
+  <script>
+    (function(){
+      var s=document.getElementById('fadeSlider'),t=document.getElementById('memoryText'),p=document.querySelector('.paper');
+      s.addEventListener('input',function(){
+        var v=parseInt(this.value,10)/100;
+        t.style.opacity=1-v;
+        t.style.filter='blur('+v*1.5+'px)';
+        p.style.background='linear-gradient(180deg,#fff '+(v*100)+'%,#fdf6e3)';
+      });
+      s.addEventListener('keydown',function(e){
+        if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
+          e.preventDefault();
+          var n=Math.max(0,Math.min(100,parseInt(this.value,10)+(e.key==='ArrowRight'?1:-1)));
+          this.value=n;this.dispatchEvent(new Event('input'));
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

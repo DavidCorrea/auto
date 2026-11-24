@@ -1,1 +1,1 @@
-Add a new interactive page where a slow slider fades a memory from ink to blank paper.
+Add a sound layer that plays a soft paper rustle whose volume follows the slider position, so fading the memory feels tactile and auditory.
