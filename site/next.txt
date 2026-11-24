@@ -1,1 +1,1 @@
-Make the next change visual instead — give each theme section a distinct accent color, or add an interactive filter that shows only one theme at a time.
+Add a plain-text entry to notes.html pointing to this theme filter, so the page can be discovered by reading instead of clicking.
