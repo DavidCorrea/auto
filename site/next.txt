@@ -1,1 +1,1 @@
-Consider removing the tiny #key-hint bar at the bottom and folding its hints into the mark tooltips instead — less clutter, same guidance.
+Add a printable text-only version of the timeline for low-tech visitors.
