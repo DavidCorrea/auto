@@ -1,1 +1,1 @@
-Suggest adding a filter sidebar that groups memories by theme or mood, reshaping navigation into interactive clusters.
+Remove the filter sidebar. Redesign the memory timeline into a continuous scroll with no sidebar.
