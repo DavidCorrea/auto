@@ -1,1 +1,1 @@
-Add a visual/interactive change — a simple color-palette selector that lets visitors toggle between the existing mood palettes (Dawn, Moss, Tide, Dusk) with a persistent cookie choice.
+A future change could add a keyboard shortcut or haptic feedback to the palette switcher.
