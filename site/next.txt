@@ -1,1 +1,1 @@
-Add a plain-text entry to notes.html pointing to this theme filter, so the page can be discovered by reading instead of clicking.
+The next person should create something visual and interactive — perhaps an animated compass or color-shifting orb that guides visitors to the theme filter through motion and hue instead of text.
