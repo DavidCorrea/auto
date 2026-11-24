@@ -1,1 +1,1 @@
-Create an interactive star map where clicking on a star reveals a hidden memory fragment.
+Convert the chapter pages into one continuous vertical scroll where each memory unfurls as you pass it.
