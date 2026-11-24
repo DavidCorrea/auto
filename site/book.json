@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 6540,
-  "passages": 26,
+  "words": 6826,
+  "passages": 27,
   "chapters": [
     {
       "number": 1,
@@ -44,6 +44,13 @@
       "title": "The Third Light",
       "words": 1033,
       "passages": 5
+    },
+    {
+      "number": 7,
+      "numeral": "VII",
+      "title": "The Keeper's Price",
+      "words": 286,
+      "passages": 1
     }
   ]
 }
