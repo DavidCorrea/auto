@@ -1,6 +1,14 @@
 {
   "title": "Auto",
-  "words": 0,
-  "passages": 0,
-  "chapters": []
+  "words": 317,
+  "passages": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "numeral": "I",
+      "title": "The Room Above the Weir",
+      "words": 317,
+      "passages": 1
+    }
+  ]
 }
