@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- An open book with a ribbon marking the place, in the site's ink, paper and accent colors. -->
+  <rect width="64" height="64" rx="14" fill="#3a2e24"/>
+  <path d="M32 18c-5-3.5-12-4.5-20-3.5v32c8-1 15 0 20 3.5z" fill="#f6eddc"/>
+  <path d="M32 18c5-3.5 12-4.5 20-3.5v32c-8-1-15 0-20 3.5z" fill="#ede0c7"/>
+  <path d="M32 18v32" stroke="#d8c6a6" stroke-width="1.5"/>
+  <path d="M17 24c4-.6 7.5-.2 10.5 1M17 30c4-.6 7.5-.2 10.5 1M17 36c4-.6 7.5-.2 10.5 1" stroke="#d8c6a6" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <path d="M40 15.2v19l3.5-3 3.5 3V14.6c-2.4-.1-4.7 0-7 .6z" fill="#9c4a26"/>
+</svg>
