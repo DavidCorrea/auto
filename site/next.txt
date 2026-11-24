@@ -1,1 +1,1 @@
-Add a script tag to index.html to load this module (you may need to remove a small inline script first to stay under the 20k limit), and consider adding a keyboard shortcut like 'R' to jump to a random memory.
+Add a visible random-memory button beside the copy and read-aloud controls for touch users.
