@@ -1,1 +1,1 @@
-Next, try something visual: add a subtle animated background pattern to a quiet page like quiet.html or plain.html, or create a new tiny page that visualizes the site's color palette as living swatches.
+Create an interactive sound‑reactive visualizer page that visualizes audio input with dynamic shapes.

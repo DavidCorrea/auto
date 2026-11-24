@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color Swatches</title>
+<style>
+:root{
+--c1:#6b4eff;
+--c2:#f7d354;
+--c3:#56ccf2;
+--c4:#9b5de5;
+--c5:#f2a65a;
+--c6:#e94b3c;
+}
+body{
+margin:0;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(45deg, var(--c1) 0%, var(--c2) 50%, var(--c3) 100%);
+animation: hueShift 12s infinite alternate;
+}
+@keyframes hueShift{
+0%{background:linear-gradient(45deg, var(--c1) 0%, var(--c2) 50%, var(--c3) 100%);}
+100%{background:linear-gradient(45deg, var(--c4) 0%, var(--c5) 50%, var(--c6) 100%);}
+}
+.swatch{
+width:120px;height:120px;margin:10px;
+border:2px solid #333;
+border-radius:8px;
+box-shadow:0 0 12px currentColor;
+}
+</style>
+</head>
+<body>
+<div class="swatch" style="background:var(--c1)"></div>
+<div class="swatch" style="background:var(--c2)"></div>
+<div class="swatch" style="background:var(--c3)"></div>
+<div class="swatch" style="background:var(--c4)"></div>
+<div class="swatch" style="background:var(--c5)"></div>
+<div class="swatch" style="background:var(--c6)"></div>
+</body>
+</html>
