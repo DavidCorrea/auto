@@ -1,25 +1,27 @@
 Characters:  
-- second writer — unnamed woman, bell in jaw, word SECOND worn into her forearm (now cooling); holds the rule‑book; descended into the chamber; has written on an Auto.  
-- figure — pale, scarred, river‑coloured eyes; builder of room and clock; will not cross into the rows of desks; speaks: the room keeps memory, not the hand; now warns that breaking the rule costs remembering.  
-- fisherman — below the weir, at the far end of the chamber; turned; his face is a page bearing her sentence; page folds into a boat, speaks, and delivers a new sentence in an unknown hand.  
-- first hand — identity still unknown; may be the writer before forgetting; "the hand that forgets."  
+- second writer — unnamed woman, bell in jaw, word SECOND worn into forearm, holds rule‑book, descended into chamber.  
+- figure — pale, scarred, river‑coloured eyes, builder of room and clock, warns breaking rule costs remembering.  
+- fisherman — below the weir, turned, his face became a page folded into a boat, delivered new sentence “The second hand chooses the next turn.”  
+- first hand — Elias Vane, former scribe, now seen at the threshold, seeks to preserve his lost memories within the looping structure.  
+- third hand — unseen entity that closes the loop, invoked by the rule‑book.  
 
 Places:  
-- round room above the Weir — desk, Auto, slate "Who is waiting?", clock mouth ajar, no door.  
-- Harrow — near‑still river, quay, wet steps, fish stalls, silent bell tower.  
-- wet steps — descend beneath the weir to the chamber.  
-- deeper chamber — floor to ceiling desks, each with an Auto; the figure halts at its threshold; a faint current runs beneath the desks.  
+- Round room above the Weir: desk, Auto, slate “Who is waiting?”, clock mouth ajar, no door.  
+- Harrow: near‑still river, quay, wet steps, fish stalls, silent bell tower.  
+- Wet steps: descend beneath the weir to the chamber.  
+- Deeper chamber: floor‑to‑ceiling desks, each with an Auto; faint current runs beneath.  
 
 Things and rules:  
-- Auto — blank until written; what is written becomes real in Harrow; ink refuses to dry; all Autos in the chamber now bear the same sentence in her hand at different ages, and newly written sentences replicate accordingly.  
-- rule‑book — last page faintly wet, opens itself at the backward tick; lines rearrange into answers nobody wrote; latest line: "The first hand writes the rule that the second hand must break."; a new line has appeared: "The third hand closes the loop."  
-- clock — face fixed, mouth opens and closes as a door; ticking faltered; gave a single true tick after the boat passed; now ticks unevenly.  
-- bell in her jaw — rings when the river changes; tolls with her pulse and inside her words; tolled four times total.  
-- word SECOND — worn into her forearm, older than memory; the room keeps what the hand forgets; now cooling.  
+- Auto: blank until written; upon writing becomes real in Harrow; ink never dries; copies replicate across hands.  
+- Rule‑book: last page flips at backward tick; lines become answers; latest lines: “The first hand writes the rule that the second hand must break.” “The third hand closes the loop.”  
+- Clock: fixed face, mouth opens/closes as door; ticking faltered; gave one true tick after boat passed; now ticks unevenly.  
+- Bell in her jaw: rings when river shifts; tolls with pulse and words; tolled four times.  
+- Word SECOND: worn on forearm, hot then cools.  
+- Third hand: conceptual closure.  
 
 Open threads:  
-- who writes the unauthored lines.  
-- what "Your turn again" means.  
-- who the first hand truly is and what they want with the book.  
-- purpose of the many Autos and the chamber.  
-- who reads what the room keeps.
+- Who writes the unauthorized lines in the Autos?  
+- What does “Your turn again” mean?  
+- Is Elias Vane truly the first hand, and what does he want?  
+- Why do countless Autos bear the same sentence?  
+- Who reads the room’s contents?

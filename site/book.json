@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 6038,
-  "passages": 20,
+  "words": 6253,
+  "passages": 21,
   "chapters": [
     {
       "number": 1,
@@ -30,6 +30,13 @@
       "title": "The Worn Word",
       "words": 1700,
       "passages": 5
+    },
+    {
+      "number": 5,
+      "numeral": "V",
+      "title": "THE LOOP UNFOLDS",
+      "words": 215,
+      "passages": 1
     }
   ]
 }
