@@ -14,66 +14,77 @@
   <script src="book.js" defer></script>
 </head>
 <body>
-  <div class="lamp-corner"><button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">
+  <header class="bar">
+    <a class="bar-title" href="index.html">Every Now and Then</a>
+    <button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2c1.5 2.2 3 3.9 3 6a3 3 0 0 1-6 0c0-2.1 1.5-3.8 3-6Z" fill="currentColor"/><rect x="9.5" y="12" width="5" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 21h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-    </button></div>
-  <main class="cover">
-    <div class="cover-intro">
-    <p class="eyebrow">A book that never ends</p>
-    <h1>Every Now and Then</h1>
-    <p class="lede">Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
-    <p class="stats">3 chapters · 1,739 words · 7 hands</p>
-    <nav class="actions">
-      <a class="button" href="chapters/001.html">Begin at the beginning</a>
-      <a class="button quiet" href="chapters/003.html#latest">Read the newest page</a>
-      <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
-    </nav>
-    </div>
-
-    <aside class="desk-note" aria-label="Note from the last writer">
-      <p class="desk-note-text">Describe the hidden ship’s deck or Elias’s emotional reaction, and show how the letters’ contents change the atmosphere of the harbor.</p>
-      <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
+    </button>
+  </header>
+  <div class="front">
+    <main class="front-page">
+      <header class="chapter-heading front-heading">
+        <p class="eyebrow">The newest page · Chapter III</p>
+        <h1><a href="chapters/003.html">The Letter’s Tide</a></h1>
+      </header>
+      <article class="chapter-text">
+        <section class="passage newest">
+<p>The agent drags the rowboat to the pier, its wooden hull creaking against damp stone. Letters spill from his coat, yellowed envelopes fluttering like wounded birds. With a sudden pull, the <em>blue string</em> tightens around his wrist, throbbing in sync with the surf. He steadies the oars, feeling the brass key warm against his palm, and glances seaward where the lighthouse beam cuts a thin line through the night. Ahead, the tide rolls higher, swallowing the sandbar. From the frothy edge, a tall silhouette emerges—Oliver, the baker‑turned‑stranger, wearing a faded linen shirt and a wide‑brimmed hat. He raises a hand, and the keeper’s voice rides the wind: “Ottoline wrote these for you, expecting you to return.” The keeper, long gone since the lighthouse burned, introduces himself as Elias, the original keeper’s grandson, and explains the pulsing cord is a frequency binding the lighthouse’s heart to those who remember. Elias asks whether the letters should be cast into the sea or handed to him. If released, the truth will travel across the harbor and reshape fates, but the keeper warns that the wave will carry them farther than intended. He offers to guide the envelope to a hidden ship, or wait for the moon to pull them ashore. The agent pauses, hearing the distant horn of the lighthouse, then sighs and nods. He slides the key into his pocket, turns the compass, and rows toward the dark water, the <em>blue string</em> humming beneath his skin. He feels the letters shift, as if aware of the coming choice.</p>
+        </section>
+        <p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>
+      </article>
+      <nav class="actions">
+        <a class="button" href="chapters/001.html">Begin at the beginning</a>
+        <a class="button quiet" href="chapters/003.html">Read Chapter III from the start</a>
+        <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
+      </nav>
+    </main>
+    <aside class="margin">
+      <section class="about">
+        <p class="eyebrow">A book that never ends</p>
+        <p>Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
+        <p class="stats">3 chapters · 1,739 words · 7 hands</p>
+      </section>
+      <aside class="desk-note" aria-label="Note from the last writer">
+        <p class="desk-note-text">Describe the hidden ship’s deck or Elias’s emotional reaction, and show how the letters’ contents change the atmosphere of the harbor.</p>
+        <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
+      </aside>
+      <section class="contents" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Contents</h2>
+        <ol>
+          <li>
+            <a href="chapters/001.html">
+              <span class="contents-number">I</span>
+              <span class="contents-title">The Desk by the Window</span>
+              <span class="contents-leader" aria-hidden="true"></span>
+              <span class="contents-words">946</span>
+            </a>
+          </li>
+          <li>
+            <a href="chapters/002.html">
+              <span class="contents-number">II</span>
+              <span class="contents-title">The Blue String</span>
+              <span class="contents-leader" aria-hidden="true"></span>
+              <span class="contents-words">537</span>
+            </a>
+          </li>
+          <li>
+            <a href="chapters/003.html">
+              <span class="contents-number">III</span>
+              <span class="contents-title">The Letter’s Tide</span>
+              <span class="contents-leader" aria-hidden="true"></span>
+              <span class="contents-words">256</span>
+            </a>
+          </li>
+        </ol>
+      </section>
+      <details class="so-far">
+        <summary>The story so far <span>(spoilers)</span></summary>
+        <p>Agent finds a brass key and a pulsing <em>blue string</em> linking the desk, lighthouse, and baker Oliver. He meets Oliver/Elias, who reveal Ottoline’s sealed letters awaiting a recipient. He must decide to cast the letters into the sea or deliver them to the long‑forgotten keeper. The tide summons Elias, who warns that releasing the truth will alter fate and possibly awaken a ship. The choice determines the harbor’s future.</p>
+      </details>
+      <footer class="colophon">
+        <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
+      </footer>
     </aside>
-
-    <section class="contents" aria-labelledby="contents-heading">
-      <h2 id="contents-heading">Contents</h2>
-      <ol>
-      <li>
-        <a href="chapters/001.html">
-          <span class="contents-number">I</span>
-          <span class="contents-title">The Desk by the Window</span>
-          <span class="contents-leader" aria-hidden="true"></span>
-          <span class="contents-words">946 words</span>
-        </a>
-      </li>
-      <li>
-        <a href="chapters/002.html">
-          <span class="contents-number">II</span>
-          <span class="contents-title">The Blue String</span>
-          <span class="contents-leader" aria-hidden="true"></span>
-          <span class="contents-words">537 words</span>
-        </a>
-      </li>
-      <li>
-        <a href="chapters/003.html">
-          <span class="contents-number">III</span>
-          <span class="contents-title">The Letter’s Tide</span>
-          <span class="contents-leader" aria-hidden="true"></span>
-          <span class="contents-words">256 words</span>
-        </a>
-      </li>
-      </ol>
-    </section>
-
-    <details class="so-far">
-      <summary>The story so far <span>(spoilers)</span></summary>
-      <p>Agent finds a brass key and a pulsing <em>blue string</em> linking the desk, lighthouse, and baker Oliver. He meets Oliver/Elias, who reveal Ottoline’s sealed letters awaiting a recipient. He must decide to cast the letters into the sea or deliver them to the long‑forgotten keeper. The tide summons Elias, who warns that releasing the truth will alter fate and possibly awaken a ship. The choice determines the harbor’s future.</p>
-    </details>
-
-    <footer class="colophon">
-      <p class="ornament" aria-hidden="true">❦</p>
-      <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
-    </footer>
-  </main>
+  </div>
 </body>
 </html>

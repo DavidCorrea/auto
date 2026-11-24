@@ -118,43 +118,37 @@ h2 {
   box-shadow: 0 0 18px var(--glow);
 }
 
-.lamp-corner {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+/* The front page: the newest page of the story, with everything else in the margin */
+
+.front {
+  padding: 0 var(--gutter) 4rem;
 }
 
-/* The cover */
-
-.cover {
-  max-width: 40rem;
+.front-page {
+  max-width: 36em;
   margin: 0 auto;
-  padding: clamp(4rem, 8vw, 7rem) var(--gutter) 3rem;
+  container-type: inline-size;
+}
+
+.front-heading h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.front-heading h1 a:hover {
+  color: var(--accent);
+}
+
+.earlier {
+  margin: 0 0 1.5rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-style: italic;
   text-align: center;
 }
 
-.cover .desk-note {
-  margin-top: 3.5rem;
-}
-
-.cover h1 {
-  margin: 0;
-  font-size: clamp(2.4rem, 8vw, 3.6rem);
-  font-style: italic;
-  font-weight: 400;
-}
-
-.lede {
-  max-width: 32rem;
-  margin: 1.5rem auto 1rem;
-  color: var(--ink-soft);
-}
-
-.stats {
-  margin: 0;
-  color: var(--ink-soft);
-  font-size: 0.85rem;
-  font-variant-numeric: oldstyle-nums;
+.earlier a {
+  color: inherit;
 }
 
 .actions {
@@ -162,7 +156,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.75rem;
-  margin: 2rem 0 0;
+  margin: 2.5rem 0 0;
 }
 
 .button {
@@ -190,18 +184,38 @@ h2 {
   display: none;
 }
 
-/* A note tucked on the desk */
+.margin {
+  max-width: 36em;
+  margin: 4rem auto 0;
+  padding-top: 3rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.95rem;
+}
+
+.about p {
+  margin: 0 0 0.75rem;
+  color: var(--ink-soft);
+}
+
+.about .eyebrow {
+  margin-bottom: 0.5rem;
+}
+
+.stats {
+  font-size: 0.85rem;
+  font-variant-numeric: oldstyle-nums;
+}
+
+/* A note tucked in the margin */
 
 .desk-note {
   position: relative;
-  max-width: 26rem;
-  margin: 0 auto;
-  padding: 1.4rem 1.6rem 1rem;
+  margin: 2.75rem 0.5rem 0;
+  padding: 1.4rem 1.5rem 1rem;
   background: #fff8e4;
   color: #4a3a2b;
   box-shadow: 0 8px 20px var(--shadow), 0 1px 2px var(--shadow);
   transform: rotate(-1.2deg);
-  text-align: left;
 }
 
 .desk-note::before {
@@ -230,7 +244,7 @@ h2 {
 .desk-note-text {
   margin: 0;
   font-family: "Caveat", "Segoe Print", cursive;
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   line-height: 1.3;
 }
 
@@ -244,22 +258,21 @@ h2 {
 /* Contents */
 
 .contents {
-  margin-top: 3.5rem;
-  text-align: left;
+  margin-top: 2.75rem;
 }
 
 .contents h2,
 .so-far summary {
+  margin: 0;
+  color: var(--ink-soft);
   font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 0.18em;
-  text-align: center;
   text-transform: uppercase;
-  color: var(--ink-soft);
 }
 
 .contents ol {
-  margin: 1.5rem 0 0;
+  margin: 0.75rem 0 0;
   padding: 0;
   list-style: none;
 }
@@ -267,8 +280,8 @@ h2 {
 .contents a {
   display: flex;
   align-items: baseline;
-  gap: 0.75rem;
-  padding: 0.45rem 0;
+  gap: 0.6rem;
+  padding: 0.3rem 0;
   color: var(--ink);
   text-decoration: none;
 }
@@ -278,31 +291,31 @@ h2 {
 }
 
 .contents-number {
-  min-width: 2.5rem;
+  min-width: 2.25rem;
   color: var(--ink-soft);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .contents-leader {
   flex: 1;
+  min-width: 1rem;
   border-bottom: 1px dotted var(--rule);
   transform: translateY(-0.3em);
 }
 
 .contents-words {
   color: var(--ink-soft);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-variant-numeric: oldstyle-nums;
   white-space: nowrap;
 }
 
 .so-far {
-  margin-top: 3rem;
-  padding: 1rem 1.25rem;
+  margin-top: 2rem;
+  padding: 0.9rem 1.1rem;
   border: 1px solid var(--rule);
   border-radius: 6px;
   background: var(--paper-deep);
-  text-align: left;
 }
 
 .so-far summary {
@@ -316,18 +329,13 @@ h2 {
 }
 
 .so-far p {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .colophon {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   color: var(--ink-soft);
-  font-size: 0.85rem;
-}
-
-.ornament {
-  color: var(--accent);
-  font-size: 1.6rem;
+  font-size: 0.8rem;
 }
 
 /* Reading a chapter */
@@ -389,11 +397,11 @@ h2 {
 }
 
 /* Holds the drop cap inside a short first paragraph instead of pushing the next one aside. */
-.passage:first-of-type p:first-child {
+.chapter .passage:first-of-type p:first-child {
   display: flow-root;
 }
 
-.passage:first-of-type p:first-child::first-letter {
+.chapter .passage:first-of-type p:first-child::first-letter {
   float: left;
   margin: 0.08em 0.1em 0 0;
   color: var(--accent);
@@ -444,65 +452,26 @@ h2 {
   text-align: right;
 }
 
-/* Wide screens: the cover becomes two panels, and each passage an open-book spread. */
+/* Wide screens: the story takes the width, the margin sits beside it, and passages become open-book spreads. */
 
 @media (min-width: 64rem) {
-  /* The title and note fill the first screen, centred; the contents start just below it. */
-  .cover {
+  .front {
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-    grid-template-rows: minmax(88svh, auto);
-    column-gap: clamp(3rem, 7vw, 9rem);
-    align-items: center;
+    grid-template-columns: minmax(0, 1fr) clamp(18rem, 24vw, 26rem);
+    column-gap: clamp(3rem, 5vw, 6rem);
+    align-items: start;
+  }
+
+  .front-page {
     max-width: none;
-    padding-top: 2rem;
-    text-align: left;
+    margin: 0;
   }
 
-  .cover .desk-note {
-    margin: 0 auto;
-  }
-
-  .cover > .contents,
-  .cover > .so-far {
-    grid-column: 1 / -1;
-  }
-
-  .cover > .contents {
-    margin-top: 0;
-  }
-
-  .contents ol {
-    columns: 22rem;
-    column-gap: clamp(3rem, 6vw, 6rem);
-  }
-
-  .contents li {
-    break-inside: avoid;
-  }
-
-  .cover > .so-far {
-    justify-self: center;
-    width: min(100%, 48rem);
-  }
-
-  .cover h1 {
-    font-size: clamp(3.4rem, 5vw, 5.5rem);
-  }
-
-  .lede {
-    max-width: 36em;
-    margin-left: 0;
-    font-size: 1.15em;
-  }
-
-  .actions {
-    justify-content: flex-start;
-  }
-
-  .colophon {
-    grid-column: 1 / -1;
-    text-align: center;
+  .margin {
+    margin: 2rem 0 0;
+    padding: 0 0 0 clamp(2rem, 3vw, 3rem);
+    border-top: 0;
+    border-left: 1px solid var(--rule);
   }
 
   .chapter,
@@ -510,9 +479,27 @@ h2 {
     max-width: calc(75em + 2 * var(--gutter));
   }
 
-  .passage {
+  .chapter .passage {
     columns: 2;
     column-gap: clamp(3rem, 6vw, 7rem);
+    column-rule: 1px solid var(--rule);
+  }
+}
+
+/* The front page's story gets the spread only when its column is wide enough. */
+.front-page .chapter-text {
+  max-width: 36em;
+  margin: 0 auto;
+}
+
+@container (min-width: 62rem) {
+  .front-page .chapter-text {
+    max-width: none;
+  }
+
+  .front-page .passage {
+    columns: 2;
+    column-gap: clamp(3rem, 5vw, 6rem);
     column-rule: 1px solid var(--rule);
   }
 }

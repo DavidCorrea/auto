@@ -8,6 +8,7 @@ import { pathToFileURL } from "node:url";
 
 export const BOOK_TITLE = "Every Now and Then";
 const PASSAGE_BREAK = "\n\n~\n\n";
+const RECENT_PASSAGES_ON_FRONT_PAGE = 2;
 const CHAPTER_FILE_PATTERN = /^(\d+)\.txt$/;
 
 export const chapterSlug = (number) => String(number).padStart(3, "0");
@@ -118,63 +119,86 @@ ${content}
 `;
 }
 
+// The front page opens on the newest page of the story, with the note and contents in the margin.
 export function renderIndex(book) {
   const { chapters, synopsis, note } = book;
   const allPassages = chapters.flatMap((chapter) => chapter.passages);
   const totalWords = countWords(allPassages.join(" "));
   const latest = chapters.length;
+  const latestChapter = chapters[latest - 1];
+  const latestSlug = chapterSlug(latest);
+  const recentPassages = latestChapter.passages.slice(-RECENT_PASSAGES_ON_FRONT_PAGE);
+  const isChapterStart = recentPassages.length === latestChapter.passages.length;
 
   const contents = chapters
     .map((chapter, index) => {
       const number = index + 1;
       const words = countWords(chapter.passages.join(" "));
-      return `      <li>
-        <a href="chapters/${chapterSlug(number)}.html">
-          <span class="contents-number">${toRoman(number)}</span>
-          <span class="contents-title">${escapeHtml(chapter.title)}</span>
-          <span class="contents-leader" aria-hidden="true"></span>
-          <span class="contents-words">${formatNumber(words)} words</span>
-        </a>
-      </li>`;
+      return `          <li>
+            <a href="chapters/${chapterSlug(number)}.html">
+              <span class="contents-number">${toRoman(number)}</span>
+              <span class="contents-title">${escapeHtml(chapter.title)}</span>
+              <span class="contents-leader" aria-hidden="true"></span>
+              <span class="contents-words">${formatNumber(words)}</span>
+            </a>
+          </li>`;
     })
     .join("\n");
 
-  const content = `  <div class="lamp-corner">${LAMP_BUTTON}</div>
-  <main class="cover">
-    <div class="cover-intro">
-    <p class="eyebrow">A book that never ends</p>
-    <h1>${BOOK_TITLE}</h1>
-    <p class="lede">Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
-    <p class="stats">${chapters.length} ${chapters.length === 1 ? "chapter" : "chapters"} · ${formatNumber(totalWords)} words · ${formatNumber(allPassages.length)} ${allPassages.length === 1 ? "hand" : "hands"}</p>
-    <nav class="actions">
-      <a class="button" href="chapters/001.html">Begin at the beginning</a>
-      <a class="button quiet" href="chapters/${chapterSlug(latest)}.html#latest">Read the newest page</a>
-      <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
-    </nav>
-    </div>
-${note ? `
-    <aside class="desk-note" aria-label="Note from the last writer">
-      <p class="desk-note-text">${escapeHtml(note)}</p>
-      <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
-    </aside>
-` : ""}
-    <section class="contents" aria-labelledby="contents-heading">
-      <h2 id="contents-heading">Contents</h2>
-      <ol>
+  const passages = recentPassages
+    .map((passage, index) => {
+      const isNewest = index === recentPassages.length - 1;
+      return `        <section class="passage${isNewest ? " newest" : ""}">
+${renderProse(passage)}
+        </section>`;
+    })
+    .join('\n        <p class="turn" aria-hidden="true">·</p>\n');
+
+  const content = `  <header class="bar">
+    <a class="bar-title" href="index.html">${BOOK_TITLE}</a>
+    ${LAMP_BUTTON}
+  </header>
+  <div class="front">
+    <main class="front-page">
+      <header class="chapter-heading front-heading">
+        <p class="eyebrow">The newest page · Chapter ${toRoman(latest)}</p>
+        <h1><a href="chapters/${latestSlug}.html">${escapeHtml(latestChapter.title)}</a></h1>
+      </header>
+      <article class="chapter-text">
+${isChapterStart ? "" : `        <p class="earlier"><a href="chapters/${latestSlug}.html">… earlier in this chapter</a></p>\n`}${passages}
+        <p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>
+      </article>
+      <nav class="actions">
+        <a class="button" href="chapters/001.html">Begin at the beginning</a>
+        <a class="button quiet" href="chapters/${latestSlug}.html">Read Chapter ${toRoman(latest)} from the start</a>
+        <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
+      </nav>
+    </main>
+    <aside class="margin">
+      <section class="about">
+        <p class="eyebrow">A book that never ends</p>
+        <p>Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
+        <p class="stats">${chapters.length} ${chapters.length === 1 ? "chapter" : "chapters"} · ${formatNumber(totalWords)} words · ${formatNumber(allPassages.length)} ${allPassages.length === 1 ? "hand" : "hands"}</p>
+      </section>
+${note ? `      <aside class="desk-note" aria-label="Note from the last writer">
+        <p class="desk-note-text">${escapeHtml(note)}</p>
+        <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
+      </aside>
+` : ""}      <section class="contents" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Contents</h2>
+        <ol>
 ${contents}
-      </ol>
-    </section>
-${synopsis ? `
-    <details class="so-far">
-      <summary>The story so far <span>(spoilers)</span></summary>
-      ${renderProse(synopsis)}
-    </details>
-` : ""}
-    <footer class="colophon">
-      <p class="ornament" aria-hidden="true">❦</p>
-      <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
-    </footer>
-  </main>`;
+        </ol>
+      </section>
+${synopsis ? `      <details class="so-far">
+        <summary>The story so far <span>(spoilers)</span></summary>
+        ${renderProse(synopsis)}
+      </details>
+` : ""}      <footer class="colophon">
+        <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
+      </footer>
+    </aside>
+  </div>`;
 
   return renderPage({
     title: BOOK_TITLE,

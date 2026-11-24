@@ -33,13 +33,23 @@ describe("rendering prose", () => {
 });
 
 describe("rendering pages", () => {
-  test("the cover lists every chapter, the note and the newest page", () => {
+  test("the front page opens on the newest passages and lists every chapter in the margin", () => {
     const index = renderIndex(book);
-    assert.match(index, /href="chapters\/001\.html"/);
+    assert.match(index, /The newest page · Chapter II/);
+    assert.match(index, /<p>Third\.<\/p>/);
+    assert.doesNotMatch(index, /<p>First\.<\/p>/);
+    assert.match(index, /href="chapters\/001\.html">\s*<span class="contents-number">I</);
     assert.match(index, /A &#60;Box&#62;/);
-    assert.match(index, /href="chapters\/002\.html#latest"/);
     assert.match(index, /Open the box\./);
     assert.match(index, /2 chapters · 3 words · 3 hands/);
+  });
+
+  test("the front page points back to earlier passages when the chapter has more", () => {
+    const longer = { ...book, chapters: [{ title: "Only", passages: ["One.", "Two.", "Three."] }] };
+    const index = renderIndex(longer);
+    assert.match(index, /earlier in this chapter/);
+    assert.doesNotMatch(index, /<p>One\.<\/p>/);
+    assert.match(index, /<p>Two\.<\/p>[\s\S]*<p>Three\.<\/p>/);
   });
 
   test("an earlier chapter links onward and has no newest page", () => {
