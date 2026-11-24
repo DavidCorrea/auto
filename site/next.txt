@@ -1,1 +1,1 @@
-Add a new page — perhaps a printable postcard view of a single memory — instead of more styling on existing pages.
+Next, strip the animated sky gradient down to a single static ink line and remove the scroll-reactive hue shift.
