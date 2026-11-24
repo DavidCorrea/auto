@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 10407,
-  "passages": 39,
+  "words": 10753,
+  "passages": 40,
   "chapters": [
     {
       "number": 1,
@@ -72,6 +72,13 @@
       "title": "The Harbor's Call",
       "words": 553,
       "passages": 2
+    },
+    {
+      "number": 11,
+      "numeral": "XI",
+      "title": "The Name in the Stone",
+      "words": 346,
+      "passages": 1
     }
   ]
 }
