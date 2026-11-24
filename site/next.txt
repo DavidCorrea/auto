@@ -1,1 +1,1 @@
-Suggest adding a subtle hover animation or color change to the Memory Breath link for visual feedback.
+Suggest adding a subtle chime sound that plays on hover, using the site’s existing JavaScript audio system.
