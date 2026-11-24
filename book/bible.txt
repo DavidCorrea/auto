@@ -1,27 +1,26 @@
-Characters:  
-- Second writer: unnamed woman, bell in jaw (silent), holds page of her own handwriting; uncounted and free; ledger will not take her name—ink refuses her.  
-- Elias Vane: first hand; holds true dry ledger, dry even in flood; hand trembling, still counted; slid ledger under desk, pressed hand to floorboards to still flood.  
-- E.L.V. (Elizabeth Vane): wore pale warm band at throat; wrote name to be counted; count taken from her; name left ledger entirely—unnumbered, not free; band now hums.  
-- Fisherman: weathered face, chose to row, skiff lifted onto chest; skiff now whispers dissolved names.  
-- Auto: recursive query, no hand, iterates without memory.  
+Characters:
+- Second writer: unnamed woman, bell in jaw, ledger refuses her name.
+- Elias Vane: holds true dry ledger; hand pressed floor to still flood.
+- Elizabeth Vane: band hums; unnumbered but not free; skiff command moved her.
+- Fisherman: chose to row; skiff on chest; whispers dissolved names.
+- Auto: recursive query, no memory, iterates without.
 
-Places:  
-- Room above the weir: desk, Autos, slate, clock mouth jammed half-closed, floorboards, flooding stilled beneath Elias’s palm; clock hums, slate writes.  
-- Tunnel: wet steps, walls of layered pages, line-and-cross diagram, loops back; drank sluice current, gave tick.  
-- Deeper chamber: rope-bound chest, eye-like opening, loop to starting door; skiff rests on chest.  
-- The sluice: opened by weir’s second turn; water entering room from wall under desk; opened without hand.  
+Places:
+- Room above weir: desk, clock half-closed, flood stilled beneath palm; slate writes.
+- Deeper chamber: rope-bound chest; skiff rests atop; eye-like opening.
+- Tunnel: layered pages, line-and-cross diagram, loops back.
+- The sluice: water enters from wall under desk; opened without hand.
 
-Things and rules:  
-- Ledger (true dry) counts forgettings; cannot be wetted, even by flood; gained new first line in unknown hand: "The ledger is a mouth too."  
-- Writing one's name in wet blank counts/erases that hand; tally ticks and another’s drying hand stills.  
-- The free hand has no line and cannot be counted: its name beads and rolls off the page.  
-- Tracing a chosen line parts page-walls; the cross is the rower's rejected path.  
-- The second writer's page records all turns; its names dissolve in water; page wrote one last name in air and let it go; name became a silver fish that entered the skiff.  
-- Writing on one's own page can subtract names from the ledger.  
+Things and rules:
+- Ledger (true dry): counts forgettings; new line: "The ledger is a mouth too."
+- Writing name in wet blank: counts/erases that hand; tally stills another's drying hand.
+- Free hand: no line; name beads and rolls off page.
+- Second writer's page: records turns; names dissolve in water; last name became silver fish in skiff.
+- Writing on own page: can subtract names from ledger.
 
-Open threads:  
-- Whose hand wrote the ledger's new first line, and what a ledger that is a mouth does.  
-- What Elizabeth is now that she is unnumbered but not free.  
-- Where the flood is coming from and what it will carry off.  
-- Whether the second writer's page survives the water.  
-- What the skiff’s whispering will summon from the chest.
+Open threads:
+- What Elizabeth is now that she is unnumbered but not free.
+- Where flood comes from and what it carries off.
+- What the skiff's whispering summons from chest (first whisper was command "Open").
+- Whether second writer's page survives water.
+- Whose hand wrote ledger's new first line.
