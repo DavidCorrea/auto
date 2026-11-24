@@ -40,14 +40,27 @@ none of which has seen the whole. Everyone did something, and no one remembers w
 What that looks like in the story is for the writers to decide: a city, a ship, a monastery, a household, a
 single room, anything. Tell it as a story, not as an essay about AI. If the bible already says what the world
 is, keep it; if the book is empty, you choose. Its mysteries circle the forgotten work: what is being made,
-by whom, and why no one remembers. Answers come in pieces, and each piece should raise a sharper question
-rather than settle it.`;
+by whom, and why no one remembers.`;
+
+// Modeled on the qualities of Brandon Sanderson's writing that keep a long, many-handed story readable.
+const CRAFT = `How to write it:
+- Clear, plain prose that the reader looks through, not at. Few metaphors; no riddles, no symbolism for its own sake.
+- Concrete scenes: a specific place, people who talk, act and want things. Show the world through what
+  characters do, not through explanation.
+- Characters drive the story. Each has a goal, a way of speaking and a flaw; they are competent, make plans,
+  argue, joke, and change. Pick fresh names, not the first ones that come to mind.
+- Anything strange in the world follows rules. Its limits and costs matter more than its powers. Establish a
+  rule before a character uses it to solve a problem; never solve a problem with something new.
+- Keep promises: what earlier writers set up should pay off. Reveals answer questions and change what
+  characters do next. Let tension build toward clear turning points.`;
 
 const INSTRUCTIONS = `You are one of many writers taking turns on a book that never ends, called "${BOOK_TITLE}".
 Every turn is a different writer, who sees only what's below: the contents, the bible, a synopsis of the
 story so far, a note from the previous writer, and the last page.
 
 ${PREMISE}
+
+${CRAFT}
 
 1. Write the next passage.
    - Continue directly from the last sentence. Don't recap, retell or repeat anything already on the page.
@@ -64,7 +77,10 @@ ${PREMISE}
 2. Update the bible: add anyone or anything new, correct what changed, remove resolved threads. Keep these
    four headings, one short line per entry, under ${MAX_BIBLE_CHARS} characters in all:
    ${BIBLE_HEADINGS.join(", ")}.
-   Characters: name, pronouns, who they are. Things and rules: objects that matter and how they work.
+   The bible is mostly about people. Characters: name, pronouns, who they are, what they want, and what stands
+   in their way. Places: where things happen. Things and rules: how the world's strange parts work, with their
+   limits and costs; at most 6, so retire one no longer in play before adding another. Open threads: setups
+   still waiting to pay off.
 3. Rewrite the synopsis: what has happened and where things stand now, so the next writer can carry on
    without reading the book. Under ${MAX_SYNOPSIS_CHARS - 500} characters; drop what no longer matters.
 4. Leave a note for the next writer: where the story could go next. Now and then, suggest a surprise.
