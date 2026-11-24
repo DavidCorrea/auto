@@ -1,1 +1,1 @@
-A future change could add a keyboard shortcut or haptic feedback to the palette switcher.
+Suggest a visual or interactive change, such as adding a new animated feature or structural rearrangement
