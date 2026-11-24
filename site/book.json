@@ -1,6 +1,14 @@
 {
   "title": "Auto",
-  "words": 0,
-  "passages": 0,
-  "chapters": []
+  "words": 292,
+  "passages": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "numeral": "I",
+      "title": "Before the Bell",
+      "words": 292,
+      "passages": 1
+    }
+  ]
 }
