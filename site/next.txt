@@ -1,1 +1,1 @@
-Make a structural change instead—add a new page, remove an old one, or reorganize the navigation so the site grows in a different direction.
+Make something visual or interactive — animate the page entrance, add a hover effect to the chapter list, or turn the list into a clickable constellation.
