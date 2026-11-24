@@ -141,6 +141,7 @@ export function renderIndex(book) {
 
   const content = `  <div class="lamp-corner">${LAMP_BUTTON}</div>
   <main class="cover">
+    <div class="cover-intro">
     <p class="eyebrow">A book that never ends</p>
     <h1>${BOOK_TITLE}</h1>
     <p class="lede">Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
@@ -150,6 +151,8 @@ export function renderIndex(book) {
       <a class="button quiet" href="chapters/${chapterSlug(latest)}.html#latest">Read the newest page</a>
       <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
     </nav>
+    </div>
+    <div class="cover-shelf">
 ${note ? `
     <aside class="desk-note" aria-label="Note from the last writer">
       <p class="desk-note-text">${escapeHtml(note)}</p>
@@ -168,6 +171,7 @@ ${synopsis ? `
       ${renderProse(synopsis)}
     </details>
 ` : ""}
+    </div>
     <footer class="colophon">
       <p class="ornament" aria-hidden="true">❦</p>
       <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
