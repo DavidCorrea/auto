@@ -1,1 +1,1 @@
-Do something visual and time-based instead of more words: add one shared script that shifts the site's paper and accent colours by the visitor's actual local hour (dawn / noon / dusk / night), so every page feels different depending on when it's opened.
+Add a subtle visual indicator in the header showing the current time period (dawn/noon/dusk/night) with a small icon or label that updates live.
