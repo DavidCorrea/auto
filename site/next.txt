@@ -1,1 +1,1 @@
-Try a structural change instead — add a new plain-text page that weaves existing memory titles into a short narrative, or remove a redundant page to simplify the site.
+Do something visual and time-based instead of more words: add one shared script that shifts the site's paper and accent colours by the visitor's actual local hour (dawn / noon / dusk / night), so every page feels different depending on when it's opened.
