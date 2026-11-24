@@ -32,9 +32,16 @@ export const MAX_CHAPTER_CHARS = 15000;
 const LAST_PAGE_CHARS = 3000;
 
 // Fixed here rather than in the bible, which writers rewrite every turn and could lose it from.
-const PREMISE = `The book takes place in ${BOOK_TITLE}, a city where everyone did something, and no one remembers what.
-Every story in it stays in the city and circles that forgotten thing: what was done, by whom, and why it was
-forgotten. Answers come in pieces, and each piece should raise a sharper question rather than settle it.`;
+const PREMISE = `The book is about the way it is being written. Every five minutes a clock strikes and a new writer
+appears, an AI model with no memory. It reads the last page and a note left by the writer before, does one
+piece of work, leaves a note for the next, and is gone; it will never remember what it did. Hundreds of hands,
+none of which has seen the whole. Everyone did something, and no one remembers what.
+
+What that looks like in the story is for the writers to decide: a city, a ship, a monastery, a household, a
+single room, anything. Tell it as a story, not as an essay about AI. If the bible already says what the world
+is, keep it; if the book is empty, you choose. Its mysteries circle the forgotten work: what is being made,
+by whom, and why no one remembers. Answers come in pieces, and each piece should raise a sharper question
+rather than settle it.`;
 
 const INSTRUCTIONS = `You are one of many writers taking turns on a book that never ends, called "${BOOK_TITLE}".
 Every turn is a different writer, who sees only what's below: the contents, the bible, a synopsis of the
@@ -91,7 +98,14 @@ export function lastPage(book) {
   return `…${paragraphStart === -1 ? cut : cut.slice(paragraphStart)}`;
 }
 
-export function renderPrompt(book) {
+// The writer's real shift, which the story can mirror: its place in the line of writers and the hour.
+function describeShift(book, now) {
+  const writerNumber = book.chapters.reduce((total, chapter) => total + chapter.passages.length, 0) + 1;
+  const time = now.toISOString().slice(11, 16);
+  return `You are writer number ${writerNumber}. Your shift began at ${time} UTC on ${now.toISOString().slice(0, 10)}.`;
+}
+
+export function renderPrompt(book, now = new Date()) {
   const { chapters } = book;
   const current = chapters.at(-1);
   const contents = chapters.map((chapter, index) => `${toRoman(index + 1)}. ${chapter.title}`).join("\n");
@@ -102,7 +116,10 @@ export function renderPrompt(book) {
       ? `Chapter ${toRoman(chapters.length)} is full (${length} characters): you must start a new chapter.`
       : `Chapter ${toRoman(chapters.length)} has ${length} of at most ${MAX_CHAPTER_CHARS} characters.`;
 
-  return `## Contents
+  return `## Your shift
+${describeShift(book, now)}
+
+## Contents
 ${contents || "(empty)"}
 
 ## The bible

@@ -1,6 +1,7 @@
 # auto
 
-*Auto*, a book that never ends, set in Auto, a city where everyone did something and no one remembers what. The premise is fixed in the writers' instructions; everything else is up to them. Every 5 minutes a GitHub Action asks a free model to write the next passage. Each writer is a different model call that remembers nothing from earlier runs. All it sees is:
+*Auto*, a book that never ends, about the way it is being written: writers who arrive every five minutes, do one thing, and forget it. Everyone did something, and no one remembers what. That premise is fixed in the writers' instructions; what world it takes place in, and everything else, is up to them. Every 5 minutes a GitHub Action asks a free model to write the next passage. Each writer is a different model call that remembers nothing from earlier runs. All it sees is:
+- their shift: which writer they are in line, and the time
 - the contents (chapter titles)
 - the bible: lists of characters (name, pronouns, role), places, things and the rules they follow, and open threads, which each writer keeps up to date
 - a synopsis of the story so far, which each writer rewrites
@@ -18,7 +19,7 @@ It replies with plain text: an optional new chapter title, the passage, the upda
 - `scripts/book.mjs` reads and writes the book's files.
 - `.github/workflows/grow.yml` runs every 5 minutes, then commits the change and deploys it.
 
-The first book, written before the bible existed, is preserved at the `first-book` tag, and the short-lived second one, written before the book had a premise, at `second-book`. Without a shared list of who's who, its characters changed names, pronouns and roles, and plot threads piled up unresolved. The experiment before that, a website that agents edited directly, is preserved at the `garden-final` tag.
+The first book, written before the bible existed, is preserved at the `first-book` tag, the short-lived second one, written before the book had a premise, at `second-book`, and a third, set in a city of forgotten deeds, at `third-book`. Without a shared list of who's who, its characters changed names, pronouns and roles, and plot threads piled up unresolved. The experiment before that, a website that agents edited directly, is preserved at the `garden-final` tag.
 
 ## Guardrails
 

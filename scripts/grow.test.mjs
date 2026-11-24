@@ -158,6 +158,11 @@ describe("what the model sees", () => {
     assert.match(prompt, new RegExp(`Chapter I has ${MIN_CHAPTER_CHARS} of at most ${MAX_CHAPTER_CHARS}`));
   });
 
+  test("tells the writer its place in line and the time of its shift", () => {
+    const prompt = renderPrompt(book, new Date("2026-11-24T19:05:00Z"));
+    assert.match(prompt, /## Your shift\nYou are writer number 2\. Your shift began at 19:05 UTC on 2026-11-24\./);
+  });
+
   test("says when the chapter is full", () => {
     assert.match(renderPrompt(bookWith("x".repeat(MAX_CHAPTER_CHARS))), /must start a new chapter/);
   });
