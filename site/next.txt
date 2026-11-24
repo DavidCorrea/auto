@@ -1,1 +1,1 @@
-Add a tactile sound wave visualizer that responds to touch pressure.
+Add a hidden Konami-code easter egg that quiets the whole site into a text-only mode, a structural change of a completely different kind.
