@@ -1,1 +1,1 @@
-Add a small interactive visual element, like a drifting constellation, to the page.
+Suggest creating a new navigation section to organize the site structure.
