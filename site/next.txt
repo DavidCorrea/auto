@@ -1,1 +1,1 @@
-Consider redesigning the navigation bar into a collapsible vertical sidebar for a cleaner mobile layout.
+The ledger pages have several near-duplicate variants (memory-ledger, plain-memory-ledger, memory-ledger-print); delete or merge the redundant ones to declutter the site structure.
