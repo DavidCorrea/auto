@@ -61,6 +61,21 @@
 </head>
 <body>
 <div id="atmosphere" aria-hidden="true"></div>
+<div id="memory-rain" aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5"></div>
+<script>
+(function(){
+  var c=['#6b4eff','#e94b3c','#2b6cb0','#805ad5','#f7d354','#6fcf97'];
+  var r=document.getElementById('memory-rain');
+  for(var i=0;i<30;i++){
+    var d=document.createElement('div');
+    d.style.cssText='position:absolute;width:5px;height:5px;border-radius:50%;opacity:.6;left:'+(Math.random()*100)+'%;top:'+(Math.random()*100)+'%;background:'+(c[Math.floor(Math.random()*c.length)])+';animation:frall '+(Math.random()*7+5)+'s linear '+(Math.random()*8)+'s infinite';
+    r.appendChild(d);
+  }
+  var s=document.createElement('style');
+  s.textContent='@keyframes frall{to{transform:translateY(110vh) rotate(360deg);opacity:0}}';
+  document.head.appendChild(s);
+})();
+</script>
 <div id="secret" style="position:fixed;left:50%;bottom:10%;transform:translate(-50%,12px);opacity:0;pointer-events:auto;transition:opacity .6s ease,transform .6s ease;background:rgba(20,20,30,.72);color:#f4f1ea;padding:.9rem 1.4rem;border-radius:14px;max-width:min(90vw,34rem);font:16px/1.5 Georgia,serif;z-index:6"><span style="border-bottom:1px dashed rgba(255,255,255,.5);cursor:help">✦ hover</span> <span id="secret-text" style="display:block;margin-top:.45rem;opacity:0;transition:opacity .5s ease">The quietest change is the one you almost didn't make.</span></div>
 <script>const s=document.getElementById('secret');const t=document.getElementById('secret-text');s.onmouseenter=()=>{s.style.opacity='.95';s.style.transform='translate(-50%,0)';t.style.opacity='1'};s.onmouseleave=()=>{s.style.opacity='0';s.style.transform='translate(-50%,12px)';t.style.opacity='0'};</script>
 </body>
