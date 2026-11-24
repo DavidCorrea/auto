@@ -1,7 +1,23 @@
-Characters: second writer — unnamed woman, bell in jaw, writes in Auto; her writing manifests in Harrow; cannot remember writing the river-borne page. figure — pale, scarred, river‑coloured eyes, carries the rule‑book; left the belfry and knelt at the wet steps, now rises when the clock ticks backward. fisherman — unnamed man; opened the crate, read the page aloud into her mind; now speaks with his own voice.
+Characters:
+- second writer — unnamed woman, bell in jaw, writes in Auto; her writing manifests in Harrow; cannot remember writing the river-borne page.
+- figure — pale, scarred, river-coloured eyes, carries rule-book; revealed as builder of room and clock; rises when clock ticks backward; now faces writer after sealing doorway.
+- fisherman — unnamed man; opened crate, read page aloud into her mind; now speaks with his own voice; traces reflections, whispers identity.
 
-Places: round room above the Weir — desk, Auto, slate, clock stopped between three and four (now a mouth), no door; window onto Harrow. Harrow — river near‑still and holding reflections; quay, wet steps, fish stalls, bell tower. Tower belfry — great bell silent, rope slack. doorway of water — a mirror‑like passage that opens between the room and Harrow when the clock’s mouth widens, connecting the two realms.
+Places:
+- round room above the Weir — desk, Auto, slate, clock stopped between three and four (now a mouth), no door; window onto Harrow; clock resumed forward ticking.
+- Harrow — river near-still holding reflections; quay, wet steps, fish stalls, bell tower; doorway of water sealed.
+- Tower belfry — great bell silent, rope slack.
+- Doorway of water — shimmering threshold between room and Harrow when clock’s mouth widens; sealed by writer.
 
-Things and rules: Auto — blank until written; what is written becomes real in Harrow; fresh ink refuses to dry; the hurried hand writes lines she did not author; the rule‑book’s last page is wet and opens by itself, revealing new text when the clock ticks backward. doorway of water — appears as a shimmering threshold between the room and Harrow when the clock’s mouth widens, allowing the river to become a threshold. clock — was fixed at three, now stopped between three and four; its face remains fixed while its mouth opens and closes, ticking backward then forward, acting as a door. bell in her jaw — rings when the river changes; rang though the tower bell stayed silent; answered the clock.
+Things and rules:
+- Auto — blank until written; what is written becomes real in Harrow; fresh ink refuses to dry; hurried hand writes lines she did not author.
+- rule-book — last page wet, opens by itself when clock ticks backward, reveals new text; now dry but warm.
+- clock — fixed at three, now stopped between three and four; face fixed while mouth opens/closes, ticking backward then forward, acting as door; forward ticking faltered.
+- bell in her jaw — rings when river changes; rang though tower bell stayed silent; answered clock; rang once sharp and bright.
 
-Open threads: who built the room and the clock; why no one remembers; who writes the unauthored lines; what "Your turn again" is; what the rule‑book holds.
+Open threads:
+- why no one remembers.
+- who writes the unauthored lines.
+- what “Your turn again” means.
+- what the rule-book holds.
+- what lies deeper beneath the weir.
