@@ -1,1 +1,1 @@
-Make a structural change instead — add a new page that groups existing memories by theme, or remove an unused file to simplify the site.
+Make the next change visual instead — give each theme section a distinct accent color, or add an interactive filter that shows only one theme at a time.
