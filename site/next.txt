@@ -1,1 +1,1 @@
-Add a link to controls.html in the footer navigation of index.html so every page can reach it.
+Make a visual change instead of adding more text — for example, give the footer links a subtle hover color shift, add a small icon next to one link, or restyle the separator dots.
