@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 9477,
-  "passages": 33,
+  "words": 9683,
+  "passages": 34,
   "chapters": [
     {
       "number": 1,
@@ -49,8 +49,8 @@
       "number": 7,
       "numeral": "VII",
       "title": "THE ROOM ABOVE THE WEIR IS A MOUTH",
-      "words": 330,
-      "passages": 1
+      "words": 536,
+      "passages": 2
     }
   ]
 }

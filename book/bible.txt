@@ -1,4 +1,22 @@
-Characters: Second writer — unnamed woman, bell in jaw, erased SECOND, pale warm band on forearm, holds rule-book and ledger; returned name to Elias; Auto calls her “free.” Elias Vane — first hand, stepped through the door, holds true dry ledger; SECOND was his lent number; palm on unprinted margin, refusing to read numbers; chose ledger over tunnel. Fisherman — turned, face a page-folded boat, now weathered, speaks choosing line, chose to row. E.L.V. — Elizabeth Vane, awakens in the deeper chamber, pale warm band on forearm, tied to the chest. Auto — no hand, recursive query.  
-Places: Round room above the Weir — desk, Autos, slate, clock mouth, blank page/door. Tunnel to chest E.L.V. — wet steps, deeper chamber awakened. Threshold mouth — widened into mouth, holds shadowed figure and skiff. Deeper chamber / room above the weir — rope-bound chest, eye-like opening.  
-Things and rules: Door sighs wider, becomes mouth. Missing bell's mark struck river stone, rang without sound, awakened deeper chamber. Rule-book answered recursively; pen holds hand. Wet dark quill pulses against ledger margin. Unprinted margin resists reading.  
-Open threads: Second writer's free hand (hers or Auto's iteration); whether deeper chamber is truly the room above the weir (a loop); status of true dry ledger (unread with Elias); E.L.V.'s identity and link to fisherman and bell; significance of the chosen line and row versus cross.
+Characters:
+Second writer: unnamed woman, bell in jaw, erased SECOND, pale warm band, holds rule-book and ledger, returned name to Elias, Auto calls her "free."
+Elias Vane: first hand, stepped through door, holds true dry ledger, SECOND lent number, palm on unprinted margin, refuses to read numbers, chose ledger over tunnel.
+Fisherman: weathered face, page-folded boat, speaks choosing line, chose to row.
+E.L.V.: Elizabeth Vane, pale warm band on forearm, tied to chest, now bears the free hand and rule-book.
+Auto: recursive query, no hand, iterates without memory.
+
+Places:
+Room above the weir: desk, Autos, slate, clock mouth, blank page/door; threshold widened into mouth.
+Tunnel: wet steps, leads to deeper chamber.
+Deeper chamber: rope-bound chest, eye-like opening, loop returning to starting door.
+
+Things and rules:
+Door sighs wider, becomes mouth.
+Missing bell's mark struck river stone, rang without sound, awakened deeper chamber.
+Rule-book answered recursively; pen holds hand; unprinted margin glows for new hand.
+Wet dark quill pulses against ledger margin.
+True dry ledger unread with Elias, left untouched.
+
+Open threads:
+Significance of the chosen line and row versus cross.
+E.L.V.'s direction into the tunnel/mouth and what lies beyond.
