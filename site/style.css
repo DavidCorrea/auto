@@ -113,10 +113,28 @@ h2 {
   display: none;
 }
 
+/* Navigation is done with buttons (the address never changes), styled as the links they act like. */
+.link,
+.book-title {
+  appearance: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  text-align: inherit;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
 .book-title {
   color: var(--ink-soft);
   font-style: italic;
-  text-decoration: none;
 }
 
 .book-title:hover {
@@ -168,13 +186,14 @@ h2 {
   font-weight: 400;
 }
 
-.chapter-heading h1 a {
+.heading-link {
   color: inherit;
-  text-decoration: none;
+  font-style: inherit;
 }
 
-.chapter-heading h1 a:hover {
+.heading-link:hover {
   color: var(--accent);
+  text-decoration: none;
 }
 
 .chapter-heading::after {
@@ -218,10 +237,6 @@ h2 {
   line-height: 1;
 }
 
-#latest {
-  scroll-margin-top: 2rem;
-}
-
 .status {
   max-width: 36em;
   margin: 4rem auto 0;
@@ -242,8 +257,9 @@ h2 {
   text-align: center;
 }
 
-.earlier a {
+.earlier .link {
   color: inherit;
+  font-style: inherit;
 }
 
 .continued {
@@ -273,7 +289,9 @@ h2 {
   border-radius: 999px;
   background: var(--accent);
   color: var(--paper);
+  font: inherit;
   font-size: 0.95rem;
+  cursor: pointer;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -303,12 +321,16 @@ h2 {
   font-size: 0.9rem;
 }
 
-.pager a {
-  text-decoration: none;
+.pager .link {
+  justify-self: start;
 }
 
-.pager a[rel="next"] {
-  text-align: right;
+.pager .link[rel="next"] {
+  justify-self: end;
+}
+
+.pager .link[data-newest] {
+  justify-self: center;
 }
 
 /* The margin: about and contents */
@@ -350,7 +372,8 @@ h2 {
   list-style: none;
 }
 
-.contents a {
+.contents-entry {
+  width: 100%;
   display: flex;
   align-items: baseline;
   gap: 0.6rem;
@@ -359,12 +382,16 @@ h2 {
   text-decoration: none;
 }
 
-.contents a:hover .contents-title,
-.contents a[aria-current] .contents-title {
+.contents-entry:hover {
+  text-decoration: none;
+}
+
+.contents-entry:hover .contents-title,
+.contents-entry[aria-current] .contents-title {
   color: var(--accent);
 }
 
-.contents a[aria-current] .contents-title {
+.contents-entry[aria-current] .contents-title {
   font-weight: 600;
 }
 

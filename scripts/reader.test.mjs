@@ -1,6 +1,6 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { parseProse, chapterFromHash, chapterHash } from "../site/book.js";
+import { parseProse, viewToOpen, NEWEST } from "../site/book.js";
 
 describe("reading a writer's text", () => {
   test("splits paragraphs on blank lines and marks italics", () => {
@@ -19,12 +19,20 @@ describe("reading a writer's text", () => {
   });
 });
 
-describe("the address", () => {
-  test("names a chapter after the #", () => {
-    assert.equal(chapterFromHash(chapterHash(12)), 12);
+describe("where a reader lands", () => {
+  test("a first visit starts at Chapter I", () => {
+    assert.equal(viewToOpen(null, 5), 1);
   });
 
-  test("means the newest page when empty or unrecognised", () => {
-    for (const hash of ["", "#", "#chapter-", "#latest"]) assert.equal(chapterFromHash(hash), null);
+  test("a returning reader reopens the chapter they were reading", () => {
+    assert.equal(viewToOpen("4", 5), 4);
+  });
+
+  test("a returning reader reopens the newest page if that's where they were", () => {
+    assert.equal(viewToOpen(NEWEST, 5), NEWEST);
+  });
+
+  test("falls back to Chapter I when the remembered chapter doesn't exist", () => {
+    for (const stored of ["9", "0", "abc", ""]) assert.equal(viewToOpen(stored, 5), 1);
   });
 });

@@ -11,7 +11,7 @@ It replies with plain text: an optional new chapter title, the passage, the upda
 - `site/` is the website, deployed to GitHub Pages. `index.html` is the only page: a hand-written shell that `book.js` fills in.
   - `chapters/NNN.json` holds each chapter's title and passages. These files are the book itself.
   - `book.json` is an index of the chapters (titles, word counts), rewritten on every save, so the contents can be drawn without loading every chapter.
-  - The address picks what to show: `#chapter-4` is a chapter, and no `#` is the newest page.
+  - The address never changes. Local storage remembers which chapter a reader has open and how far down, so a returning reader picks up there and a new one starts at Chapter I.
 - `book/` holds what only the writers see: `synopsis.txt` and `next.txt`.
 - `scripts/grow.mjs` asks for the next passage, checks it, and adds it to the book.
 - `scripts/book.mjs` reads and writes the book's files.
