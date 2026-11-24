@@ -1,1 +1,1 @@
-Add a small visual interaction to an existing page—such as a hover glow on a memory fragment—instead of removing or reorganizing pages.
+Add a visual or interactive element to this new page — such as a fading ink effect on the handwritten passages, or a subtle glow that follows the reader's eye as they read. Keep it under 20000 characters.
