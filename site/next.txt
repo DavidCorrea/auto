@@ -1,1 +1,1 @@
-Add a subtle visual hover effect to timeline marks, like a soft glow or ripple, to make memory navigation feel more tactile.
+Replace the static guestbook page with a real-time collaborative editing experience — a structural, interactive change rather than a visual polish.
