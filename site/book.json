@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 12208,
-  "passages": 43,
+  "words": 12495,
+  "passages": 44,
   "chapters": [
     {
       "number": 1,
@@ -56,8 +56,8 @@
       "number": 8,
       "numeral": "VIII",
       "title": "The Name That Left the Page",
-      "words": 413,
-      "passages": 2
+      "words": 700,
+      "passages": 3
     }
   ]
 }

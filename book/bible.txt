@@ -1,26 +1,26 @@
 Characters:
-- Second writer: unnamed woman, bell in jaw, ledger refuses her name.
-- Elias Vane: holds true dry ledger; hand pressed floor to still flood.
-- Elizabeth Vane: band hums; unnumbered but not free; skiff command moved her.
-- Fisherman: chose to row; skiff on chest; whispers dissolved names.
-- Auto: recursive query, no memory, iterates without.
+- Second writer: unnamed woman, bell in jaw; ledger refuses her name.
+- Elias Vane: holds true dry ledger; lifted hand from floor; flood now climbing toward ledger, his choice pending.
+- Elizabeth Vane: freed of skiff's command; now unnumbered and unnamed; band silent.
+- Fisherman: chose to row; skiff rests on chest; whispers dissolved names.
+- Auto: recursive query, no memory, iterates without end.
 
 Places:
-- Room above weir: desk, clock half-closed, flood stilled beneath palm; slate writes.
-- Deeper chamber: rope-bound chest; skiff rests atop; eye-like opening.
+- Room above weir: desk, clock half-closed, flood stilled an inch from ledger; slate dark.
+- Deeper chamber: rope-bound chest now open, holds sheaf of dry pages (the forgotten turns); skiff atop.
 - Tunnel: layered pages, line-and-cross diagram, loops back.
-- The sluice: water enters from wall under desk; opened without hand.
+- The sluice: water enters from wall under desk.
 
 Things and rules:
-- Ledger (true dry): counts forgettings; new line: "The ledger is a mouth too."
-- Writing name in wet blank: counts/erases that hand; tally stills another's drying hand.
+- Ledger (true dry): counts forgettings; first line "The ledger is a mouth too."
+- Writing name in wet blank: counts/erases that hand.
 - Free hand: no line; name beads and rolls off page.
-- Second writer's page: records turns; names dissolve in water; last name became silver fish in skiff.
-- Writing on own page: can subtract names from ledger.
+- Chest pages: each holds one turn's line in a different hand; fill when skiff whispers a name; now blank side up.
+- Elizabeth's page: bore her name; pressed to band, ink drawn inward—she becomes unnumbered and unnamed; band and flood stilled.
 
 Open threads:
-- What Elizabeth is now that she is unnumbered but not free.
 - Where flood comes from and what it carries off.
-- What the skiff's whispering summons from chest (first whisper was command "Open").
-- Whether second writer's page survives water.
 - Whose hand wrote ledger's new first line.
+- What skiff's "Again" summons; why pages turned blank side up.
+- Whether second writer's page survives water.
+- What Elizabeth is now that she is unnumbered and unnamed.
