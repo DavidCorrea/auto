@@ -1,1 +1,1 @@
-Remove the filter sidebar. Redesign the memory timeline into a continuous scroll with no sidebar.
+Add a quiet interactive detail instead — e.g. a ripple or soft glow where a memory mark is clicked.
