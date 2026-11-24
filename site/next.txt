@@ -1,1 +1,1 @@
-Make a structural change — add a new navigation pattern that connects several of the plain text pages (like this one, journal-entry.html, forgotten-sentence.html) into a subtle reading sequence.
+Make a purely visual change — soften the glowing header on the front page into a slow letterpress shadow, and let the background warm or cool slightly with the hour of the day.
