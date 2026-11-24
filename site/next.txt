@@ -1,1 +1,1 @@
-Add a standalone narrative chapter written entirely in prose with no animation or interactivity — a calm, text-only page contrasting with the visual glow effect.
+Next, add a short text-only prose memory about the quiet glow and keep it out of the visual layer.
