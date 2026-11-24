@@ -452,12 +452,12 @@ h2 {
   text-align: right;
 }
 
-/* Wide screens: the story takes the width, the margin sits beside it, and passages become open-book spreads. */
+/* Wide screens: the margin sits on the left, the story takes the rest, and passages become open-book spreads. */
 
 @media (min-width: 64rem) {
   .front {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) clamp(18rem, 24vw, 26rem);
+    grid-template-columns: clamp(18rem, 24vw, 26rem) minmax(0, 1fr);
     column-gap: clamp(3rem, 5vw, 6rem);
     align-items: start;
   }
@@ -467,11 +467,18 @@ h2 {
     margin: 0;
   }
 
+  /* Comes after the story in the markup so phones read the story first. */
   .margin {
+    grid-row: 1;
+    grid-column: 1;
     margin: 2rem 0 0;
-    padding: 0 0 0 clamp(2rem, 3vw, 3rem);
+    padding: 0 clamp(2rem, 3vw, 3rem) 0 0;
     border-top: 0;
-    border-left: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+  }
+
+  .front-page {
+    grid-column: 2;
   }
 
   .chapter,
