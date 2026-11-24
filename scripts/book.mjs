@@ -152,7 +152,6 @@ export function renderIndex(book) {
       <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
     </nav>
     </div>
-    <div class="cover-shelf">
 ${note ? `
     <aside class="desk-note" aria-label="Note from the last writer">
       <p class="desk-note-text">${escapeHtml(note)}</p>
@@ -171,7 +170,6 @@ ${synopsis ? `
       ${renderProse(synopsis)}
     </details>
 ` : ""}
-    </div>
     <footer class="colophon">
       <p class="ornament" aria-hidden="true">❦</p>
       <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>

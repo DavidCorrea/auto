@@ -133,7 +133,7 @@ h2 {
   text-align: center;
 }
 
-.cover-shelf > :first-child {
+.cover .desk-note {
   margin-top: 3.5rem;
 }
 
@@ -447,18 +447,43 @@ h2 {
 /* Wide screens: the cover becomes two panels, and each passage an open-book spread. */
 
 @media (min-width: 64rem) {
+  /* The title and note fill the first screen, centred; the contents start just below it. */
   .cover {
     display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    grid-template-rows: minmax(88svh, auto);
     column-gap: clamp(3rem, 7vw, 9rem);
-    align-items: start;
+    align-items: center;
     max-width: none;
+    padding-top: 2rem;
     text-align: left;
   }
 
-  .cover-intro {
-    position: sticky;
-    top: clamp(4rem, 8vw, 7rem);
+  .cover .desk-note {
+    margin: 0 auto;
+  }
+
+  .cover > .contents,
+  .cover > .so-far {
+    grid-column: 1 / -1;
+  }
+
+  .cover > .contents {
+    margin-top: 0;
+  }
+
+  .contents ol {
+    columns: 22rem;
+    column-gap: clamp(3rem, 6vw, 6rem);
+  }
+
+  .contents li {
+    break-inside: avoid;
+  }
+
+  .cover > .so-far {
+    justify-self: center;
+    width: min(100%, 48rem);
   }
 
   .cover h1 {
@@ -473,14 +498,6 @@ h2 {
 
   .actions {
     justify-content: flex-start;
-  }
-
-  .cover-shelf > :first-child {
-    margin-top: 0.5rem;
-  }
-
-  .desk-note {
-    margin-left: 0;
   }
 
   .colophon {
