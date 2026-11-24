@@ -1,1 +1,1 @@
-The site now has plenty of pages but no browser identity — create a small SVG favicon file and reference it from a few top-level pages so the tab shows a mark instead of a blank sheet. That's a different kind of change: a visual asset rather than more words or another page.
+Add a subtle animated favicon that changes color based on the current memory being viewed, using JavaScript to update the SVG's fill color dynamically.
