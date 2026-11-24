@@ -1,14 +1,16 @@
-// Asks a model to write the next passage of a book that never ends, then re-renders the site.
+// Asks a model to write the next passage of a book that never ends, and saves it into the site.
 // The model sees only the contents, a synopsis of the story so far, the note the previous
 // writer left, and the last page. It has no memory of earlier runs beyond those.
 
 import { appendFile } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { readBook, writeBook, renderSite, toRoman, BOOK_TITLE } from "./book.mjs";
+import { readBook, writeBook, toRoman, BOOK_TITLE } from "./book.mjs";
 
-const BOOK_DIR = path.resolve(process.env.BOOK_DIR || "book");
-const SITE_DIR = path.resolve(process.env.SITE_DIR || "site");
+const PLACES = {
+  bookDir: path.resolve(process.env.BOOK_DIR || "book"),
+  siteDir: path.resolve(process.env.SITE_DIR || "site"),
+};
 const API_URL = process.env.API_URL || "https://openrouter.ai/api/v1/chat/completions";
 // Routes to whichever free model is available, so the default survives individual models being retired.
 const MODEL = process.env.MODEL || "openrouter/free";
@@ -209,7 +211,7 @@ function parseJsonOrNull(text) {
 async function grow() {
   if (!API_KEY) throw new Error("API_KEY is not set; in GitHub Actions it comes from the MODEL_API_KEY repo secret.");
 
-  const book = await readBook(BOOK_DIR);
+  const book = await readBook(PLACES);
   const messages = [
     { role: "system", content: INSTRUCTIONS },
     { role: "user", content: renderPrompt(book) },
@@ -219,8 +221,7 @@ async function grow() {
     const reply = await askModel(messages);
     try {
       const { book: grown, changedChapterNumbers } = applyTurn(parseTurn(reply), book);
-      await writeBook(BOOK_DIR, grown, changedChapterNumbers);
-      await renderSite(grown, SITE_DIR);
+      await writeBook(PLACES, grown, changedChapterNumbers);
       const summary = summarize(grown);
       console.log(`Wrote: ${summary}`);
       console.log(`Next: ${grown.note}`);

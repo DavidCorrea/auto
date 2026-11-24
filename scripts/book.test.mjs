@@ -1,74 +1,75 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
-import { parseChapter, serializeChapter, renderProse, renderIndex, renderChapter, toRoman } from "./book.mjs";
+import { mkdtemp, readFile, writeFile, mkdir } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { readBook, writeBook, bookIndex, toRoman } from "./book.mjs";
 
 const book = {
   chapters: [
-    { title: "The Desk", passages: ["First.", "Second."] },
-    { title: "A <Box>", passages: ["Third."] },
+    { title: "The Desk", passages: ["First words here.", "Second."] },
+    { title: "A Box", passages: ["Third."] },
   ],
   synopsis: "Someone waved.",
-  note: "Open the *box*.",
+  note: "Open the box.",
 };
 
-describe("storing chapters as text", () => {
-  test("round-trips a chapter through its file format", () => {
-    const chapter = { title: "The Desk", passages: ["One.\n\nTwo.", "Three."] };
-    assert.deepEqual(parseChapter(serializeChapter(chapter)), chapter);
+async function emptyPlaces() {
+  const root = await mkdtemp(path.join(tmpdir(), "book-"));
+  return { bookDir: path.join(root, "book"), siteDir: path.join(root, "site") };
+}
+
+describe("storing the book", () => {
+  test("round-trips chapters, synopsis and note", async () => {
+    const places = await emptyPlaces();
+    await writeBook(places, book, [1, 2]);
+    assert.deepEqual(await readBook(places), book);
   });
 
-  test("reads a chapter with only a title", () => {
-    assert.deepEqual(parseChapter("Empty\n"), { title: "Empty", passages: [] });
+  test("keeps chapters on the site and the writers' notes off it", async () => {
+    const places = await emptyPlaces();
+    await writeBook(places, book, [1, 2]);
+    const chapter = JSON.parse(await readFile(path.join(places.siteDir, "chapters", "002.json"), "utf8"));
+    assert.deepEqual(chapter, { title: "A Box", passages: ["Third."] });
+    assert.equal(await readFile(path.join(places.bookDir, "next.txt"), "utf8"), "Open the box.\n");
+  });
+
+  test("reads chapters in numeric order", async () => {
+    const places = await emptyPlaces();
+    const chapters = Array.from({ length: 11 }, (_, index) => ({ title: `T${index + 1}`, passages: ["x"] }));
+    await writeBook(places, { ...book, chapters }, chapters.map((_, index) => index + 1));
+    assert.equal((await readBook(places)).chapters.at(-1).title, "T11");
+  });
+
+  test("names the chapter file that is malformed", async () => {
+    const places = await emptyPlaces();
+    await mkdir(path.join(places.siteDir, "chapters"), { recursive: true });
+    await writeFile(path.join(places.siteDir, "chapters", "001.json"), `{"title": "x"}`);
+    await assert.rejects(readBook(places), /001\.json needs/);
   });
 });
 
-describe("rendering prose", () => {
-  test("turns blank-line paragraphs and asterisks into HTML, escaping the rest", () => {
-    assert.equal(renderProse("She said *no* <b>.\n\nThen left."), "<p>She said <em>no</em> &#60;b&#62;.</p>\n<p>Then left.</p>");
+describe("the index the reader loads", () => {
+  test("numbers chapters and counts words and hands", () => {
+    assert.deepEqual(bookIndex(book), {
+      title: "Every Now and Then",
+      words: 5,
+      passages: 3,
+      chapters: [
+        { number: 1, numeral: "I", title: "The Desk", words: 4, passages: 2 },
+        { number: 2, numeral: "II", title: "A Box", words: 1, passages: 1 },
+      ],
+    });
   });
 
   test("numbers chapters in Roman numerals", () => {
     assert.deepEqual([1, 4, 9, 14, 40, 1999].map(toRoman), ["I", "IV", "IX", "XIV", "XL", "MCMXCIX"]);
   });
-});
 
-describe("rendering pages", () => {
-  test("the front page opens on the newest passages and lists every chapter, without the writers' note or synopsis", () => {
-    const index = renderIndex(book);
-    assert.match(index, /The newest page · Chapter II/);
-    assert.match(index, /<p>Third\.<\/p>/);
-    assert.doesNotMatch(index, /<p>First\.<\/p>/);
-    assert.match(index, /href="chapters\/001\.html">\s*<span class="contents-number">I</);
-    assert.match(index, /A &#60;Box&#62;/);
-    assert.doesNotMatch(index, /Open the|Someone waved/);
-    assert.match(index, /2 chapters · 3 words · 3 hands/);
-  });
-
-  test("the front page points back to earlier passages when the chapter has more", () => {
-    const longer = { ...book, chapters: [{ title: "Only", passages: ["One.", "Two.", "Three."] }] };
-    const index = renderIndex(longer);
-    assert.match(index, /earlier in this chapter/);
-    assert.doesNotMatch(index, /<p>One\.<\/p>/);
-    assert.match(index, /<p>Two\.<\/p>[\s\S]*<p>Three\.<\/p>/);
-  });
-
-  test("an earlier chapter links onward and has no newest page", () => {
-    const chapter = renderChapter(book, 1);
-    assert.match(chapter, /href="002\.html" rel="next"/);
-    assert.doesNotMatch(chapter, /id="latest"|To be continued/);
-  });
-
-  test("every page carries the contents, marking the chapter being read", () => {
-    const chapter = renderChapter(book, 2);
-    assert.match(chapter, /href="\.\.\/chapters\/002\.html" aria-current="page"/);
-    assert.match(chapter, /href="\.\.\/chapters\/001\.html">/);
-    assert.doesNotMatch(renderIndex(book), /aria-current/);
-  });
-
-  test("the latest chapter marks its last passage and promises more", () => {
-    const chapter = renderChapter(book, 2);
-    assert.match(chapter, /<section class="passage" id="latest">\n<p>Third\.<\/p>/);
-    assert.match(chapter, /To be continued/);
-    assert.match(chapter, /href="001\.html" rel="prev"/);
+  test("is rewritten on every save", async () => {
+    const places = await emptyPlaces();
+    await writeBook(places, book, [1, 2]);
+    const index = JSON.parse(await readFile(path.join(places.siteDir, "book.json"), "utf8"));
+    assert.equal(index.chapters.length, 2);
   });
 });

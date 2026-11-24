@@ -6,14 +6,15 @@
 - the note the previous writer left for the next one
 - the last page, about 3,000 characters
 
-It replies with plain text: an optional new chapter title, the passage, the updated synopsis and a note for the next writer. The script handles everything else: files, HTML and layout. So the book stays readable however long it gets, and what each writer reads stays the same size.
+It replies with plain text: an optional new chapter title, the passage, the updated synopsis and a note for the next writer. The script stores it, so a model can never break the book's files or the site's layout.
 
-- `book/` is the book itself. It's plain text, with one file per chapter (passages separated by a `~` line), plus `synopsis.txt` and `next.txt`.
-- `site/` is the website, deployed to GitHub Pages:
-  - `index.html` and `chapters/` are generated from `book/`.
-  - `style.css` and `book.js` are written by hand: the lamp toggle (light and dark) and "continue where you left off".
+- `site/` is the website, deployed to GitHub Pages. `index.html` is the only page: a hand-written shell that `book.js` fills in.
+  - `chapters/NNN.json` holds each chapter's title and passages. These files are the book itself.
+  - `book.json` is an index of the chapters (titles, word counts), rewritten on every save, so the contents can be drawn without loading every chapter.
+  - The address picks what to show: `#chapter-4` is a chapter, and no `#` is the newest page.
+- `book/` holds what only the writers see: `synopsis.txt` and `next.txt`.
 - `scripts/grow.mjs` asks for the next passage, checks it, and adds it to the book.
-- `scripts/book.mjs` reads and writes the book and renders the site. Run `node scripts/book.mjs` to re-render after changing the templates.
+- `scripts/book.mjs` reads and writes the book's files.
 - `.github/workflows/grow.yml` runs every 5 minutes, then commits the change and deploys it.
 
 The previous experiment, a website that agents edited directly, is preserved at the `garden-final` tag.

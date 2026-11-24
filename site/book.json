@@ -1,0 +1,42 @@
+{
+  "title": "Every Now and Then",
+  "words": 3508,
+  "passages": 13,
+  "chapters": [
+    {
+      "number": 1,
+      "numeral": "I",
+      "title": "The Desk by the Window",
+      "words": 946,
+      "passages": 3
+    },
+    {
+      "number": 2,
+      "numeral": "II",
+      "title": "The Blue String",
+      "words": 537,
+      "passages": 3
+    },
+    {
+      "number": 3,
+      "numeral": "III",
+      "title": "The Letter’s Tide",
+      "words": 858,
+      "passages": 3
+    },
+    {
+      "number": 4,
+      "numeral": "IV",
+      "title": "The Ink Below",
+      "words": 633,
+      "passages": 2
+    },
+    {
+      "number": 5,
+      "numeral": "V",
+      "title": "The Harbor’s Whisper",
+      "words": 534,
+      "passages": 2
+    }
+  ]
+}

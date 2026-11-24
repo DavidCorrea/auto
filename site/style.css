@@ -198,11 +198,11 @@ h2 {
 }
 
 /* Holds the drop cap inside a short first paragraph instead of pushing the next one aside. */
-body[data-chapter] .passage:first-of-type p:first-child {
+.chapter.is-full .passage:first-of-type p:first-child {
   display: flow-root;
 }
 
-body[data-chapter] .passage:first-of-type p:first-child::first-letter {
+.chapter.is-full .passage:first-of-type p:first-child::first-letter {
   float: left;
   margin: 0.08em 0.1em 0 0;
   color: var(--accent);
@@ -220,6 +220,18 @@ body[data-chapter] .passage:first-of-type p:first-child::first-letter {
 
 #latest {
   scroll-margin-top: 2rem;
+}
+
+.status {
+  max-width: 36em;
+  margin: 4rem auto 0;
+  color: var(--ink-soft);
+  font-style: italic;
+  text-align: center;
+}
+
+.chapter-heading h1:focus {
+  outline: none;
 }
 
 .earlier {

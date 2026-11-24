@@ -1,27 +1,14 @@
-// Reads and writes the book, and renders it into the website.
-// The book lives as plain text in book/; site/ is generated from it (except the
-// hand-written style.css and book.js), so agents only ever write prose.
+// Reads and writes the book. Chapters live in site/chapters/NNN.json, where the reader
+// (site/book.js) loads them; site/book.json is an index of them for the contents.
+// The synopsis and the note between writers stay in book/, off the site.
 
 import { readFile, writeFile, readdir, mkdir } from "node:fs/promises";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
 
 export const BOOK_TITLE = "Every Now and Then";
-const PASSAGE_BREAK = "\n\n~\n\n";
-const RECENT_PASSAGES_ON_FRONT_PAGE = 2;
-const CHAPTER_FILE_PATTERN = /^(\d+)\.txt$/;
+const CHAPTER_FILE_PATTERN = /^(\d+)\.json$/;
 
 export const chapterSlug = (number) => String(number).padStart(3, "0");
-
-// A chapter file is its title on the first line, then passages separated by a line holding only "~".
-export function parseChapter(text) {
-  const [title, ...rest] = text.replace(/\r\n/g, "\n").split("\n");
-  const body = rest.join("\n").trim();
-  const passages = body ? body.split(/\n[ \t]*~[ \t]*\n/).map((passage) => passage.trim()).filter(Boolean) : [];
-  return { title: title.trim(), passages };
-}
-
-export const serializeChapter = ({ title, passages }) => `${title}\n\n${passages.join(PASSAGE_BREAK)}\n`;
 
 async function readOptional(filePath) {
   try {
@@ -32,13 +19,20 @@ async function readOptional(filePath) {
   }
 }
 
-export async function readBook(bookDir) {
-  const chaptersDir = path.join(bookDir, "chapters");
+export async function readBook({ bookDir, siteDir }) {
+  const chaptersDir = path.join(siteDir, "chapters");
   const names = (await readdir(chaptersDir))
     .filter((name) => CHAPTER_FILE_PATTERN.test(name))
     .sort((a, b) => Number(a.match(CHAPTER_FILE_PATTERN)[1]) - Number(b.match(CHAPTER_FILE_PATTERN)[1]));
   const chapters = [];
-  for (const name of names) chapters.push(parseChapter(await readFile(path.join(chaptersDir, name), "utf8")));
+  for (const name of names) {
+    const filePath = path.join(chaptersDir, name);
+    const { title, passages } = JSON.parse(await readFile(filePath, "utf8"));
+    if (typeof title !== "string" || !Array.isArray(passages)) {
+      throw new Error(`Chapter file ${filePath} needs a "title" string and a "passages" array.`);
+    }
+    chapters.push({ title, passages });
+  }
   return {
     chapters,
     synopsis: await readOptional(path.join(bookDir, "synopsis.txt")),
@@ -46,12 +40,36 @@ export async function readBook(bookDir) {
   };
 }
 
-export async function writeBook(bookDir, book, changedChapterNumbers) {
-  const chaptersDir = path.join(bookDir, "chapters");
+const countWords = (text) => text.split(/\s+/).filter(Boolean).length;
+
+// What the reader needs to draw the contents and counts without loading every chapter.
+export function bookIndex(book) {
+  const chapters = book.chapters.map((chapter, index) => ({
+    number: index + 1,
+    numeral: toRoman(index + 1),
+    title: chapter.title,
+    words: countWords(chapter.passages.join(" ")),
+    passages: chapter.passages.length,
+  }));
+  return {
+    title: BOOK_TITLE,
+    words: chapters.reduce((total, chapter) => total + chapter.words, 0),
+    passages: chapters.reduce((total, chapter) => total + chapter.passages, 0),
+    chapters,
+  };
+}
+
+const toJson = (value) => `${JSON.stringify(value, null, 2)}\n`;
+
+export async function writeBook({ bookDir, siteDir }, book, changedChapterNumbers) {
+  const chaptersDir = path.join(siteDir, "chapters");
   await mkdir(chaptersDir, { recursive: true });
+  await mkdir(bookDir, { recursive: true });
   for (const number of changedChapterNumbers) {
-    await writeFile(path.join(chaptersDir, `${chapterSlug(number)}.txt`), serializeChapter(book.chapters[number - 1]));
+    const { title, passages } = book.chapters[number - 1];
+    await writeFile(path.join(chaptersDir, `${chapterSlug(number)}.json`), toJson({ title, passages }));
   }
+  await writeFile(path.join(siteDir, "book.json"), toJson(bookIndex(book)));
   await writeFile(path.join(bookDir, "synopsis.txt"), `${book.synopsis}\n`);
   await writeFile(path.join(bookDir, "next.txt"), `${book.note}\n`);
 }
@@ -70,199 +88,4 @@ export function toRoman(number) {
     }
   }
   return roman;
-}
-
-export const escapeHtml = (text) => text.replace(/[&<>"']/g, (character) => `&#${character.charCodeAt(0)};`);
-
-const countWords = (text) => text.split(/\s+/).filter(Boolean).length;
-const formatNumber = (number) => number.toLocaleString("en-US");
-
-// Agents write plain text; *asterisks* become italics and blank lines separate paragraphs.
-const renderInline = (text) => escapeHtml(text).replace(/\*([^*\n]+)\*/g, "<em>$1</em>");
-
-export function renderProse(text) {
-  return text
-    .split(/\n\s*\n/)
-    .map((paragraph) => paragraph.trim())
-    .filter(Boolean)
-    .map((paragraph) => {
-      const html = renderInline(paragraph).replace(/\n/g, "<br>\n");
-      return `<p>${html}</p>`;
-    })
-    .join("\n");
-}
-
-const LAMP_BUTTON = `<button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">
-      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2c1.5 2.2 3 3.9 3 6a3 3 0 0 1-6 0c0-2.1 1.5-3.8 3-6Z" fill="currentColor"/><rect x="9.5" y="12" width="5" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 21h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-    </button>`;
-
-function renderPage({ title, description, root, bodyAttributes = "", content }) {
-  return `<!doctype html>
-<!-- Generated by scripts/book.mjs from the text in book/; edits here are overwritten. -->
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(title)}</title>
-  <meta name="description" content="${escapeHtml(description)}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
-  <link rel="stylesheet" href="${root}style.css">
-  <script>try { const theme = localStorage.getItem("theme"); if (theme) document.documentElement.dataset.theme = theme; } catch {}</script>
-  <script src="${root}book.js" defer></script>
-</head>
-<body${bodyAttributes}>
-${content}
-</body>
-</html>
-`;
-}
-
-const CONTINUED = `<p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>`;
-
-// The side column on every page: the book's title, the lamp and the contents.
-// On wide screens it stays put while the story scrolls; on narrow ones it follows the story.
-function renderMargin(book, { root, currentChapter = null }) {
-  const { chapters } = book;
-  const allPassages = chapters.flatMap((chapter) => chapter.passages);
-  const totalWords = countWords(allPassages.join(" "));
-
-  const contents = chapters
-    .map((chapter, index) => {
-      const number = index + 1;
-      const words = countWords(chapter.passages.join(" "));
-      const current = number === currentChapter ? ' aria-current="page"' : "";
-      return `          <li>
-            <a href="${root}chapters/${chapterSlug(number)}.html"${current}>
-              <span class="contents-number">${toRoman(number)}</span>
-              <span class="contents-title">${escapeHtml(chapter.title)}</span>
-              <span class="contents-leader" aria-hidden="true"></span>
-              <span class="contents-words">${formatNumber(words)}</span>
-            </a>
-          </li>`;
-    })
-    .join("\n");
-
-  return `    <aside class="margin">
-      <header class="margin-header">
-        <a class="book-title" href="${root}index.html">${BOOK_TITLE}</a>
-        ${LAMP_BUTTON}
-      </header>
-      <section class="about">
-        <p class="eyebrow">A book that never ends</p>
-        <p>Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
-        <p class="stats">${chapters.length} ${chapters.length === 1 ? "chapter" : "chapters"} · ${formatNumber(totalWords)} words · ${formatNumber(allPassages.length)} ${allPassages.length === 1 ? "hand" : "hands"}</p>
-      </section>
-      <nav class="contents" aria-labelledby="contents-heading">
-        <h2 id="contents-heading">Contents</h2>
-        <ol>
-${contents}
-        </ol>
-      </nav>
-      <footer class="colophon">
-        <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
-      </footer>
-    </aside>`;
-}
-
-// Story first in the markup, so narrow screens read it before the margin.
-function renderLayout(book, { root, currentChapter, story }) {
-  return `  <header class="bar">
-    <a class="book-title" href="${root}index.html">${BOOK_TITLE}</a>
-    ${LAMP_BUTTON}
-  </header>
-  <div class="layout">
-    <main class="reading">
-${story}
-    </main>
-${renderMargin(book, { root, currentChapter })}
-  </div>`;
-}
-
-const renderPassages = (passages, idForLast = null) =>
-  passages
-    .map((passage, index) => {
-      const id = idForLast && index === passages.length - 1 ? ` id="${idForLast}"` : "";
-      return `        <section class="passage"${id}>
-${renderProse(passage)}
-        </section>`;
-    })
-    .join('\n        <p class="turn" aria-hidden="true">·</p>\n');
-
-// The front page opens on the newest page of the story.
-export function renderIndex(book) {
-  const latest = book.chapters.length;
-  const latestChapter = book.chapters[latest - 1];
-  const latestSlug = chapterSlug(latest);
-  const recentPassages = latestChapter.passages.slice(-RECENT_PASSAGES_ON_FRONT_PAGE);
-  const isChapterStart = recentPassages.length === latestChapter.passages.length;
-
-  const story = `      <article class="chapter">
-        <header class="chapter-heading">
-          <p class="eyebrow">The newest page · Chapter ${toRoman(latest)}</p>
-          <h1><a href="chapters/${latestSlug}.html">${escapeHtml(latestChapter.title)}</a></h1>
-        </header>
-${isChapterStart ? "" : `        <p class="earlier"><a href="chapters/${latestSlug}.html">… earlier in this chapter</a></p>\n`}${renderPassages(recentPassages)}
-        ${CONTINUED}
-      </article>
-      <nav class="actions">
-        <a class="button" href="chapters/001.html">Begin at the beginning</a>
-        <a class="button quiet" href="chapters/${latestSlug}.html">Read Chapter ${toRoman(latest)} from the start</a>
-        <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
-      </nav>`;
-
-  return renderPage({
-    title: BOOK_TITLE,
-    description: "A book that never ends. Every few minutes, someone new writes the next part.",
-    root: "",
-    content: renderLayout(book, { root: "", currentChapter: null, story }),
-  });
-}
-
-export function renderChapter(book, number) {
-  const chapter = book.chapters[number - 1];
-  const isLatest = number === book.chapters.length;
-  const previous = number > 1
-    ? `<a href="${chapterSlug(number - 1)}.html" rel="prev">← Chapter ${toRoman(number - 1)}</a>`
-    : `<span></span>`;
-  const next = isLatest
-    ? `<span></span>`
-    : `<a href="${chapterSlug(number + 1)}.html" rel="next">Chapter ${toRoman(number + 1)} →</a>`;
-
-  const story = `      <article class="chapter">
-        <header class="chapter-heading">
-          <p class="eyebrow">Chapter ${toRoman(number)}</p>
-          <h1>${escapeHtml(chapter.title)}</h1>
-        </header>
-${renderPassages(chapter.passages, isLatest ? "latest" : null)}
-${isLatest ? `        ${CONTINUED}` : ""}
-      </article>
-      <nav class="pager">
-        ${previous}
-        <a href="../index.html">Front page</a>
-        ${next}
-      </nav>`;
-
-  return renderPage({
-    title: `${chapter.title} · ${BOOK_TITLE}`,
-    description: `Chapter ${toRoman(number)} of ${BOOK_TITLE}, a book that never ends.`,
-    root: "../",
-    bodyAttributes: ` data-chapter="${chapterSlug(number)}"`,
-    content: renderLayout(book, { root: "../", currentChapter: number, story }),
-  });
-}
-
-export async function renderSite(book, siteDir) {
-  await mkdir(path.join(siteDir, "chapters"), { recursive: true });
-  await writeFile(path.join(siteDir, "index.html"), renderIndex(book));
-  for (let number = 1; number <= book.chapters.length; number++) {
-    await writeFile(path.join(siteDir, "chapters", `${chapterSlug(number)}.html`), renderChapter(book, number));
-  }
-}
-
-// `node scripts/book.mjs` re-renders the site, e.g. after changing the templates above.
-const isRunDirectly = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
-if (isRunDirectly) {
-  await renderSite(await readBook(path.resolve("book")), path.resolve("site"));
 }
