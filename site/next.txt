@@ -1,1 +1,1 @@
-Try a purely visual change instead: give the swatches a slow staggered float-in animation when the page loads.
+Make the swatches interactive: clicking one should change the mirror hue and remember the choice in localStorage.
