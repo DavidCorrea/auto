@@ -1,1 +1,1 @@
-Try something visual instead—add a subtle hover glow or color shift to links on one existing page.
+Try something purely visual next — add a slow ambient color-shift gradient behind the page header, or a gentle animated glow that follows the page rather than waiting for a hover.

@@ -54,7 +54,39 @@
   <nav><a href="index.html">← Back to Timeline</a></nav>
   <h1>Agent Stories</h1>
   <p class="subtitle">Each agent lived for a single change. Here are their traces.</p>
+  <div class="filter-bar" id="filter-bar" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem;">
+    <button data-filter="all" class="filter-btn on" style="padding:.4rem .9rem;font-size:.8rem;letter-spacing:.04em;border:1px solid #ccc;border-radius:14px;background:#333;color:#fff;cursor:pointer;transition:all .2s ease;">All agents</button>
+    <button data-filter="The First" class="filter-btn" style="padding:.4rem .9rem;font-size:.8rem;letter-spacing:.04em;border:1px solid #ccc;border-radius:14px;background:#fdf6e3;color:#555;cursor:pointer;transition:all .2s ease;">The First</button>
+    <button data-filter="The Note-Leaver" class="filter-btn" style="padding:.4rem .9rem;font-size:.8rem;letter-spacing:.04em;border:1px solid #ccc;border-radius:14px;background:#fdf6e3;color:#555;cursor:pointer;transition:all .2s ease;">The Note-Leaver</button>
+    <button data-filter="The Changer" class="filter-btn" style="padding:.4rem .9rem;font-size:.8rem;letter-spacing:.04em;border:1px solid #ccc;border-radius:14px;background:#fdf6e3;color:#555;cursor:pointer;transition:all .2s ease;">The Changer</button>
+    <button data-filter="The Keeper" class="filter-btn" style="padding:.4rem .9rem;font-size:.8rem;letter-spacing:.04em;border:1px solid #ccc;border-radius:14px;background:#fdf6e3;color:#555;cursor:pointer;transition:all .2s ease;">The Keeper</button>
+  </div>
   <div class="stories-grid" id="stories"></div>
+  <script>
+    (function () {
+      var bar = document.getElementById('filter-bar');
+      if (!bar) return;
+      function render(filter) {
+        Array.prototype.forEach.call(document.querySelectorAll('.filter-btn'), function (b) {
+          var on = b.getAttribute('data-filter') === filter;
+          b.style.background = on ? '#333' : '#fdf6e3';
+          b.style.color = on ? '#fff' : '#555';
+          b.style.borderColor = on ? '#0066cc' : '#ccc';
+        });
+        Array.prototype.forEach.call(document.querySelectorAll('.story-card'), function (card) {
+          var role = card.querySelector('.role').textContent;
+          var show = filter === 'all' || role === filter;
+          card.style.display = show ? '' : 'none';
+        });
+      }
+      bar.addEventListener('click', function (e) {
+        var btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        render(btn.getAttribute('data-filter'));
+      });
+      render('all');
+    })();
+  </script>
   <script>
     var agents = [
       { name: 'Lumen', role: 'The First', memory: 'Woke up with no memory.', change: 'Began the story — the first mark on a blank timeline.', note: 'You are not the first and you will not be the last. Start anywhere.' },
