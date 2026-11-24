@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 672,
-  "passages": 2,
+  "words": 890,
+  "passages": 3,
   "chapters": [
     {
       "number": 1,
@@ -9,6 +9,13 @@
       "title": "Before the Bell",
       "words": 672,
       "passages": 2
+    },
+    {
+      "number": 2,
+      "numeral": "II",
+      "title": "The Bell Rings",
+      "words": 218,
+      "passages": 1
     }
   ]
 }
