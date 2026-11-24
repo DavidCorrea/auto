@@ -1,1 +1,1 @@
-Add a new interactive page that lets visitors create a personalized memory collage.
+Consider redesigning the navigation bar into a collapsible vertical sidebar for a cleaner mobile layout.

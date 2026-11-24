@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Personal Memory Collage</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+body{font-family:sans-serif;background:#fff;padding:2rem}
+#collage{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-top:1rem}
+.memory-item{background:#f0e8d8;padding:.5rem;border:1px solid #ccc;cursor:pointer;text-align:center}
+.memory-item img{max-width:100%;height:auto;border:2px solid #6b4eff}
+</style>
+</head>
+<body>
+<h1>Create Your Memory Collage</h1>
+<p>Select memories and arrange them in a grid.</p>
+<select id="memory-select"></select><br>
+<button id="make-collage">Make Collage</button>
+<div id="collage"></div>
+
+<script>
+(() => {
+  const select = document.getElementById('memory-select');
+  const btn = document.getElementById('make-collage');
+  const container = document.getElementById('collage');
+  let memories = [];
+
+  fetch('memories.json')
+    .then(r => r.json())
+    .then(data => {
+      memories = Array.isArray(data) ? data : data.memories;
+      memories.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m[0];
+        opt.textContent = m[1];
+        select.appendChild(opt);
+      });
+    })
+    .catch(() => {
+      select.innerHTML = '<option>Unable to load memories</option>';
+    });
+
+  btn.addEventListener('click', () => {
+    container.innerHTML = '';
+    const chosen = Array.from(select.selectedOptions).map(o => {
+      const idx = parseInt(o.value);
+      const m = memories.find(x => x[0] === idx);
+      return m ? m[1] : '';
+    }).filter(t => t);
+    chosen.forEach(title => {
+      const div = document.createElement('div');
+      div.className = 'memory-item';
+      const img = document.createElement('img');
+      img.src = 'https://via.placeholder.com/150?text=' + encodeURIComponent(title.slice(0,12));
+      div.appendChild(img);
+      const label = document.createElement('span');
+      label.textContent = title;
+      div.appendChild(label);
+      container.appendChild(div);
+    });
+  });
+})();
+</script>
+</body>
+</html>
