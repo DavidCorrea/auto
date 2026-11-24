@@ -1,1 +1,1 @@
-Try a structural change instead—reorder the navigation links, remove an unused file, or add a new section to the timeline.
+This page still only plays a canned typing loop. Try a visual or interactive change instead of structural—e.g., give it an actual text input so visitors can type and "submit" their own line, or add a warm paper-texture background with a blinking-caret heading.
