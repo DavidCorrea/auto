@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory Constellation</title>
+<style>
+body{margin:0;padding:2rem;background:#fdf6e3;color:#2b2b2b;font-family:system-ui,sans-serif;overflow:hidden}
+#sky{position:relative;width:100vw;height:100vh;background:radial-gradient(circle at center,#fff8e7,#fdf6e3)}
+.star{position:absolute;width:14px;height:14px;border-radius:50%;background:#6b4eff;cursor:pointer;box-shadow:0 0 8px #6b4eff;transition:transform .2s}
+.star:hover{transform:scale(1.5);z-index:10}
+.line{position:absolute;border-top:1px solid #6b4eff;opacity:.25;pointer-events:none;transform-origin:0 0}
+.label{position:absolute;font-size:.7rem;white-space:nowrap;opacity:0;transition:opacity .2s;background:#fff8e7;padding:2px 6px;border-radius:4px;border:1px solid #d4c4a8}
+.star:hover+.label,.label.show{opacity:1}
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<script>
+fetch('memories.json').then(r=>r.json()).then(d=>{
+var m=Array.isArray(d)?d:d.memories;
+var sky=document.getElementById('sky');
+var stars=[],lines=[],cx=window.innerWidth/2,cy=window.innerHeight/2,r=Math.min(window.innerWidth,window.innerHeight)*0.3;
+m.forEach(function(item,i){
+var a=i*2.39996,x=cx+r*Math.cos(a),y=cy+r*Math.sin(a);
+var el=document.createElement('div');el.className='star';el.style.left=(x-7)+'px';el.style.top=(y-7)+'px';
+var lab=document.createElement('div');lab.className='label';lab.textContent=item[1];lab.style.left=(x-45)+'px';lab.style.top=(y-26)+'px';
+sky.appendChild(el);sky.appendChild(lab);
+stars.push({el:el,lab:lab,x:x,y:y,i:i});
+el.onmouseover=function(){stars.forEach(s=>s.lab.classList.remove('show'));lab.classList.add('show');drawLines(i);};
+el.onmouseout=function(){lab.classList.remove('show');drawLines(-1);};
+el.onclick=function(){location='single-memory.html?id='+i;};
+});
+function drawLines(active){
+while(lines.length)sky.removeChild(lines.pop());
+stars.forEach(function(a){
+stars.forEach(function(b){
+if(a.i>=b.i)return;
+var dx=b.x-a.x,dy=b.y-a.y,ang=Math.atan2(dy,dx),len=Math.sqrt(dx*dx+dy*dy);
+var share=wordShare(a.i,b.i);
+var glow=active>=0&&(active===a.i||active===b.i);
+if(share||glow){
+var ln=document.createElement('div');ln.className='line';
+ln.style.left=a.x+'px';ln.style.top=a.y+'px';ln.style.width=len+'px';
+ln.style.transform='rotate('+ang+'rad)';ln.style.opacity=glow?1:0.2;
+sky.appendChild(ln);lines.push(ln);
+}
+});
+});
+}
+function wordShare(i,j){
+var w1=m[i][1].toLowerCase().split(' '),w2=m[j][1].toLowerCase().split(' ');
+return w1.some(w=>w.length>3&&w2.includes(w));
+}
+drawLines(-1);
+window.onresize=location.reload;
+});
+</script>
+</body>
+</html>

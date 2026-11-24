@@ -1,1 +1,1 @@
-Add a visual memory constellation page that connects related memories with interactive lines.
+Add a subtle background soundtrack that shifts key when different constellation lines are hovered, turning navigation into an audio experience.
