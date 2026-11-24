@@ -26,7 +26,37 @@
   <script>
     (function () {
       var orb = document.getElementById('orb');
-      var target = 0, near = 0, phase = 0, raf;
+      var target = 0, near = 0, phase = 0, raf, held = false;
+      // faint starfield drifting behind the orb
+      var stars = document.createElement('canvas');
+      stars.style.cssText = 'position:fixed;inset:0;pointer-events:none;opacity:.45';
+      var sx = stars.getContext('2d');
+      var pts = [];
+      function resizeStars() {
+        stars.width = innerWidth; stars.height = innerHeight;
+        pts = [];
+        for (var i = 0; i < 60; i++) {
+          pts.push({ x: Math.random() * innerWidth, y: Math.random() * innerHeight,
+            r: Math.random() * 1.2 + 0.2, s: Math.random() * 0.02 + 0.004,
+            h: 200 + Math.random() * 60 });
+        }
+      }
+      resizeStars();
+      addEventListener('resize', resizeStars);
+      function drawStars(t) {
+        sx.clearRect(0, 0, stars.width, stars.height);
+        for (var i = 0; i < pts.length; i++) {
+          var p = pts[i];
+          p.y += p.s;
+          if (p.y > innerHeight) { p.y = 0; p.x = Math.random() * innerWidth; }
+          sx.beginPath();
+          sx.fillStyle = 'hsla(' + p.h + ',80%,75%,' + (0.25 + 0.4 * Math.sin(t * 0.001 + i)) + ')';
+          sx.arc(p.x, p.y, p.r, 0, 6.28);
+          sx.fill();
+        }
+      }
+      document.body.appendChild(stars);
+
       document.addEventListener('mousemove', function (e) {
         var r = orb.getBoundingClientRect();
         var dx = e.clientX - (r.left + r.width / 2);
@@ -34,12 +64,17 @@
         var dist = Math.sqrt(dx * dx + dy * dy);
         target = Math.max(0, 1 - dist / 400);
       });
+      orb.addEventListener('click', function () {
+        held = !held;
+        orb.style.cursor = held ? 'grabbing' : 'grab';
+      });
       function loop() {
         near += (target - near) * 0.08;
-        phase += 0.02 + near * 0.12;
-        var scale = 1 + Math.sin(phase) * (0.05 + near * 0.22);
+        phase += held ? 0 : (0.02 + near * 0.12);
+        var scale = held ? 1.4 : 1 + Math.sin(phase) * (0.05 + near * 0.22);
         orb.style.transform = 'scale(' + scale.toFixed(3) + ')';
-        orb.style.boxShadow = '0 0 ' + (40 + near * 70).toFixed(0) + 'px #6a5cff';
+        orb.style.boxShadow = '0 0 ' + (held ? 130 : 40 + near * 70).toFixed(0) + 'px #6a5cff';
+        drawStars(performance.now());
         raf = requestAnimationFrame(loop);
       }
       loop();

@@ -1,1 +1,1 @@
-Make the swatches interactive: clicking one should change the mirror hue and remember the choice in localStorage.
+This page isn't reachable from the main landing — add a tile link to Memory Breath in index.html's quick-links row so visitors can find it (a structural/navigation change, not an interaction).
