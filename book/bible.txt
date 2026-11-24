@@ -1,16 +1,18 @@
 Characters:
 - second writer — unnamed woman, bell in jaw, writes in Auto; carries the word SECOND worn into her forearm; has forgotten being the first hand; now holds the rule-book and is descending.
 - figure — pale, scarred, river-coloured eyes, carries rule-book no longer; builder of room and clock; named her second and released her wrist without stopping her.
-- fisherman — unnamed man below the weir; read a page aloud into her mind once; now calls them down in his own voice: "The first hand is done waiting."
+- fisherman — unnamed man below the weir; read a page aloud into her mind once; now calls them down in his own voice: "The first hand is done waiting." Sits at far desk in chamber of Autos.
+- first hand — identity unknown; has waited since before the river had a name; forgot their own name; may be the writer herself before forgetting.
 
 Places:
 - round room above the Weir — desk, Auto, slate reading "Who is waiting?", clock mouth open a finger's width onto river air, no door.
 - Harrow — river near-still holding reflections; quay, wet steps, fish stalls, bell tower.
 - wet steps — descend from the room's floor beneath the weir toward the deeper chamber.
 - Tower belfry — great bell silent, rope slack.
+- deeper chamber — floor to ceiling desks, each holding an Auto; fisherman at far end; pages on desks rewrite themselves.
 
 Things and rules:
-- Auto — blank until written; what is written becomes real in Harrow; fresh ink refuses to dry; hurried hand writes lines she did not author.
+- Auto — blank until written; what is written becomes real in Harrow; fresh ink refuses to dry; hurried hand writes lines she did not author. Many Autos in chamber, all waiting.
 - rule-book — last page stays faintly wet; opens itself when the clock ticks backward; its lines rearrange into answers nobody wrote; now carried by the writer.
 - clock — face fixed while its mouth opens and closes, acting as door; forward ticking faltered; mouth reopening despite her seal.
 - bell in her jaw — rings when the river changes; now tolls with her pulse and inside her words.
@@ -21,4 +23,5 @@ Open threads:
 - who writes the unauthored lines.
 - what "Your turn again" means.
 - what the rule-book holds.
-- what waits in the deeper chamber and what the first hand wants with the book.
+- who the first hand truly is and what they want with the book.
+- purpose of the chamber of desks and many Autos.
