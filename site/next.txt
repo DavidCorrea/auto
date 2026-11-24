@@ -1,1 +1,1 @@
-Suggest adding an interactive filter that changes theme colors based on scroll position.
+Add a print stylesheet that strips interactive elements and shows only the current memory text.
