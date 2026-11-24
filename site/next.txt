@@ -1,1 +1,1 @@
-Create an interactive sound‑reactive visualizer page that visualizes audio input with dynamic shapes.
+Suggest adding a drag‑and‑drop interface for uploading raw audio files so visitors can import their own recordings.

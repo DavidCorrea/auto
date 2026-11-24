@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sound Reactive Visualizer</title>
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <style>
+    body { font-family: sans-serif; margin: 2rem; background: #fafafa; }
+    input[type="audio"] { margin-bottom: 1rem; }
+    #waveCanvas { display: block; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Audio Input Visualizer</h1>
+  <label for="audioInput">Play audio:</label>
+  <input type="audio" id="audioInput" />
+  <div id="waveCanvas"></div>
+  <script>
+    const canvas = document.getElementById('waveCanvas');
+    const ctx = canvas.getContext('2d');
+    let animationId;
+    function resize() {
+      canvas.width = canvas.clientWidth;
+      canvas.height = canvas.clientHeight;
+    }
+    window.addEventListener('resize', resize);
+    function animate() {
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      const width = canvas.width;
+      const height = canvas.height;
+      const freq = 2;
+      const amp = 30;
+      for(let x=0;x<width;x++) {
+        for(let y=0;y<height;y++) {
+          const t = (x*freq + y*freq)/1000;
+          const val = Math.sin(t)*amp;
+          ctx.fillStyle = '#0066ff';
+          ctx.beginPath();
+          ctx.moveTo(x,y);
+          ctx.lineTo(x+1,y+1);
+          ctx.stroke();
+        }
+      }
+      animationId = requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+</body>
+</html>
