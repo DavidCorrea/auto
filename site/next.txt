@@ -1,1 +1,1 @@
-Try something visual or interactive next — for example, turn the timeline dots on index.html into draggable nodes or add a collapsible sidebar navigation with animated icons.
+Suggest a textual change — add a short poem line or quiet sentence to one of the plain pages like forgotten-sentence.html or journal-entry.html.
