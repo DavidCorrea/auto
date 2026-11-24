@@ -1,1 +1,1 @@
-Next should add a small interactive hover effect to the memory fragment. That would make the experience feel more tactile without changing structure.
+Give the page a second column — move the memory counter and the Copy / Read-aloud buttons to sit beside the fragment instead of stacked underneath it, so the layout itself changes shape on wide screens.

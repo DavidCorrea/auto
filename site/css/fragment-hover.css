@@ -1,0 +1,19 @@
+/* A small tactile hover for the memory fragment on the timeline */
+#fragment {
+  transition: transform .35s cubic-bezier(.2,1.4,.35,1), border-left-color .35s ease;
+  transform-origin: 50% 100%;
+}
+#fragment:hover,
+#fragment:focus-within {
+  transform: translateY(-3px) rotate(-.2deg) scale(1.008);
+  border-left-color: var(--site-accent);
+}
+#fragment:hover h2,
+#fragment:focus-within h2 {
+  color: var(--site-accent);
+}
+@media (prefers-reduced-motion: reduce) {
+  #fragment { transition: border-left-color .35s ease; }
+  #fragment:hover,
+  #fragment:focus-within { transform: none; }
+}
