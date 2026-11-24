@@ -15,17 +15,16 @@ Places:
 
 Things and rules:
 - Auto: blank until written; becomes real in Harrow; ink never dries; replicates; can dry backwards to erase names. Nearest door Auto now active; wrote *Now the hand is not remembered*.
+- Missing bell’s mark: absence shaped like struck bell; wrote through Auto’s ink; now turned the name.
 - Rule-book: last page flips at backward tick; lines become answers; records loop rules.
 - Clock: fixed face, mouth door; ticks unevenly; admits river-ink; now open wider after loop.
 - Bell in jaw: rings when river shifts; tolled seven; seventh toll summoned upward; now hums/vibrates when loop shifts.
-- Word SECOND: worn on forearm, hot then cools; glows when loop active.
+- Word SECOND: worn on forearm, hot then cools; glows when loop active; now being erased.
 - Ledger “The First Hand’s Desire”: lists names, dates; glows for Elias Vane; shifts order when loop remembers.
-- Floating page: bears first hand’s signature; rewrites itself; reveals second writer as vessel of his memory.
-- Auto as next hand: when inscribed with command, becomes active hand, reading room and initiating next turn.
 
 Open threads:
 - Why do countless Autos bear the same sentence?
 - Who reads the room’s contents?
-- What is the missing bell’s mark and its purpose?
+- What is the missing bell’s mark now that it wrote through the Auto?
 - How does loop’s resolution change the rule that must be broken?
 - Does the Auto’s self-written sentence make it the carrier or the reader?
