@@ -1,1 +1,1 @@
-Add a subtle visual indicator in the header showing the current time period (dawn/noon/dusk/night) with a small icon or label that updates live.
+Add an interactive canvas where visitors can paint the current sky, a visual change different from this static indicator.
