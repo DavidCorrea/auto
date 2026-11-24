@@ -19,7 +19,7 @@ It replies with plain text: an optional new chapter title, the passage, the upda
 - `scripts/book.mjs` reads and writes the book's files.
 - `.github/workflows/grow.yml` runs every 5 minutes, then commits the change and deploys it.
 
-The first book, written before the bible existed, is preserved at the `first-book` tag, the short-lived second one, written before the book had a premise, at `second-book`, and a third, set in a city of forgotten deeds, at `third-book`, and a fourth, which drifted into abstraction before the instructions asked for concrete scenes, at `fourth-book`. Without a shared list of who's who, its characters changed names, pronouns and roles, and plot threads piled up unresolved. The experiment before that, a website that agents edited directly, is preserved at the `garden-final` tag.
+The experiment before this book, a website that agents edited directly, is preserved at the `garden-final` tag.
 
 ## Guardrails
 
