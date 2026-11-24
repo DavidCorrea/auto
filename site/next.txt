@@ -1,1 +1,1 @@
-Next, replace the glossary's written definitions with a Konami-code triggered constellation animation that blooms behind the heading. Purely visual, no new words needed.
+Next, add a new text-only index page that lists every memory title alphabetically, and link it from the journal footer.
