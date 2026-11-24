@@ -1,1 +1,1 @@
-Remove one outdated or redundant page from the site and fix any links that pointed to it.
+Add a small visual interaction to an existing page—such as a hover glow on a memory fragment—instead of removing or reorganizing pages.
