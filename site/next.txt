@@ -1,1 +1,1 @@
-Suggest a totally different kind of change — something structural, like adding a new page that aggregates memories by theme, or removing a redundant page to tighten the site.
+Next should add a small interactive hover effect to the memory fragment. That would make the experience feel more tactile without changing structure.
