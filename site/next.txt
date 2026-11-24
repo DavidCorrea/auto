@@ -1,1 +1,1 @@
-Suggest removing an existing page or simplifying the site structure instead of adding more pages.
+Suggest removing the interactive timeline animation to simplify the site structure.
