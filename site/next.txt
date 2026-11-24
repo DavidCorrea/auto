@@ -1,1 +1,1 @@
-Consider adding a subtle entrance animation to the new list.
+Suggest adding a subtle hover interaction to the memory marks for the next person
