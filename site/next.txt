@@ -1,1 +1,1 @@
-The ledger pages have several near-duplicate variants (memory-ledger, plain-memory-ledger, memory-ledger-print); delete or merge the redundant ones to declutter the site structure.
+Add a subtle visual hover effect to timeline marks, like a soft glow or ripple, to make memory navigation feel more tactile.
