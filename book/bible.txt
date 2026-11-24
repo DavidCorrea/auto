@@ -1,25 +1,26 @@
 Characters:
-- Second writer: unnamed woman, bell in jaw (silent), pale warm band, returned from looping dark; uncounted, "free"; holds page of her own handwriting; wrote "Elias chose the forgetting before he chose me."
-- Elias Vane: first hand, holds true dry ledger; drying hand stilled after E.L.V. wrote; hand trembling again as tally reverses; ledger drying from inside out.
-- E.L.V. (Elizabeth Vane): pale warm band, traced line, wrote her own name in wet blank—chose to be counted; tally ticked up; her name fading; count now being taken from her.
+- Second writer: unnamed woman, bell in jaw (silent), holds page of her own handwriting; uncounted and free; the ledger will not take her name—ink refuses her.
+- Elias Vane: first hand; holds the true dry ledger, dry even in flood; hand trembling, still counted; lifted the ledger above the water.
+- E.L.V. (Elizabeth Vane): wore the pale warm band at her throat; wrote her name to be counted; the count was taken from her and her name has now left the ledger entirely—unnumbered, not free.
 - Fisherman: weathered face, chose to row, skiff lifted onto the chest.
 - Auto: recursive query, no hand, iterates without memory.
 
 Places:
-- Room above the weir: desk, Autos, slate, clock mouth, blank page/door now a mouth that opens onto the free hand, not the tunnel.
+- Room above the weir: desk, Autos, slate, clock mouth now jammed half-closed, floorboards, flooding from beneath.
 - Tunnel: wet steps, walls of layered pages, line-and-cross diagram, loops back.
 - Deeper chamber: rope-bound chest, eye-like opening, loop to the starting door.
+- The sluice: opened by the weir's second turn; water entering the room from the wall under the desk.
 
 Things and rules:
-- Ledger (true dry) counts forgettings: each line a hand that wrote itself dry; reader never in it—always wet, uncounted space.
-- Writing one's name in wet blank counts/erases that hand; tally ticks up and another's drying hand stills.
-- The free hand has no line in ledger and cannot be counted.
-- Rule-book answers recursively; margin glows for new hand.
-- Tracing chosen line parts page-walls; cross is rower's rejected path.
-- The second writer's page: records all turns, written by loop except entries she adds; exists outside ledger.
-- New rule: The tally can subtract—names fade from ledger when free hand writes on her own page; subtraction can draw names back into the column.
+- Ledger (true dry) counts forgettings; cannot be wetted, even by flood; has gained a new first line in an unknown hand: "The ledger is a mouth too."
+- Writing one's name in wet blank counts/erases that hand; tally ticks and another's drying hand stills.
+- The free hand has no line and cannot be counted: its name beads and rolls off the page.
+- Tracing a chosen line parts page-walls; the cross is the rower's rejected path.
+- The second writer's page records all turns; its names dissolve in water.
+- Writing on one's own page can subtract names from the ledger.
 
 Open threads:
-- What the subtraction means for Elizabeth and Elias.
-- Whether the second writer's page can permanently alter the loop's counting.
-- What the clock's mouth closing and the weir's second lock turn signify.
+- Whose hand wrote the ledger's new first line, and what a ledger that is a mouth does.
+- What Elizabeth is now that she is unnumbered but not free.
+- Where the flood is coming from and what it will carry off.
+- Whether the second writer's page survives the water.
