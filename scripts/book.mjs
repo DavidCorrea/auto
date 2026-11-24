@@ -121,10 +121,10 @@ ${content}
 
 const CONTINUED = `<p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>`;
 
-// The side column on every page: the book's title, the lamp, the note and the contents.
+// The side column on every page: the book's title, the lamp and the contents.
 // On wide screens it stays put while the story scrolls; on narrow ones it follows the story.
 function renderMargin(book, { root, currentChapter = null }) {
-  const { chapters, synopsis, note } = book;
+  const { chapters, synopsis } = book;
   const allPassages = chapters.flatMap((chapter) => chapter.passages);
   const totalWords = countWords(allPassages.join(" "));
 
@@ -154,11 +154,7 @@ function renderMargin(book, { root, currentChapter = null }) {
         <p>Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
         <p class="stats">${chapters.length} ${chapters.length === 1 ? "chapter" : "chapters"} · ${formatNumber(totalWords)} words · ${formatNumber(allPassages.length)} ${allPassages.length === 1 ? "hand" : "hands"}</p>
       </section>
-${note ? `      <aside class="desk-note" aria-label="Note from the last writer">
-        <p class="desk-note-text">${renderInline(note)}</p>
-        <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
-      </aside>
-` : ""}      <nav class="contents" aria-labelledby="contents-heading">
+      <nav class="contents" aria-labelledby="contents-heading">
         <h2 id="contents-heading">Contents</h2>
         <ol>
 ${contents}

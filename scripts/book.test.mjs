@@ -33,14 +33,14 @@ describe("rendering prose", () => {
 });
 
 describe("rendering pages", () => {
-  test("the front page opens on the newest passages and lists every chapter in the margin", () => {
+  test("the front page opens on the newest passages and lists every chapter, without the writers' note", () => {
     const index = renderIndex(book);
     assert.match(index, /The newest page · Chapter II/);
     assert.match(index, /<p>Third\.<\/p>/);
     assert.doesNotMatch(index, /<p>First\.<\/p>/);
     assert.match(index, /href="chapters\/001\.html">\s*<span class="contents-number">I</);
     assert.match(index, /A &#60;Box&#62;/);
-    assert.match(index, /Open the <em>box<\/em>\./);
+    assert.doesNotMatch(index, /Open the/);
     assert.match(index, /2 chapters · 3 words · 3 hands/);
   });
 
