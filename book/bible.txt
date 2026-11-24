@@ -1,22 +1,12 @@
-Characters:
-- second writer — unnamed woman, bell in jaw, erased SECOND (pale warm band on forearm), holds rule-book and ledger; returned the name to Elias; Auto names her "free."
-- first hand — Elias Vane, stepped through the door into the room, holds the true dry ledger; SECOND was his lent number.
-- figure — pale, scarred, river-coloured eyes, builder; closed its eyes, receding.
-- third hand — withdrew; its quill left behind, wet and dark.
-- fisherman — turned; face a page-folded boat; spoke the choosing line.
+Characters: second writer — unnamed woman, bell in jaw, erased SECOND, pale warm band on forearm, holds rule‑book and ledger; returned name to Elias; Auto calls her “free.”
+First hand: Elias Vane, stepped through the door, holds the true dry ledger; SECOND was his lent number.
+Figure: pale, scarred builder, river‑coloured eyes, closed its eyes and receded.
+Third hand: withdrew; its quill left behind, wet and dark.
+Fisherman: turned; face a page‑folded boat; spoke the choosing line.
+L.E.V. chest: keeper in the deeper chamber, rope‑bound, guarded by water.
 
-Places:
-- Round room above the Weir: desk, Autos, slate, clock mouth; blank page now an open door to the tunnel.
-- Tunnel to chest E.L.V.; wet steps; deeper chamber; Harrow; river stones downstream.
+Places: Round room above the Weir — desk, Autos, slate, clock mouth; blank page becomes an open door to the tunnel. Tunnel to chest E.L.V. — wet steps, deeper chamber, Harrow, river stones downstream.
 
-Things and rules:
-- Auto: writes with no hand; wrote *the hand that reads is the hand that is not remembered*; *the first hand is remembered; the second is free.*
-- Rule-book: answered *who reads the room? the room read itself*; then answered *the pen holds the hand.*
-- Bell in jaw: rang a new low, whole note; later rang higher, wrong, from an Auto's choice.
-- Missing bell's mark: absence now given edges, risen from slate, drawn by tunnel water toward deeper chamber.
+Things and rules: Auto writes with no hand; wrote *the hand that reads is the hand that is not remembered*; *the first hand is remembered; the second is free.* Rule‑book answered *who reads the room? the room read itself* then *the pen holds the hand.* Bell in jaw rang a new low whole note, later rang higher wrong from an Auto's choice. Missing bell's mark gave edges, rose from slate, drawn by tunnel water toward deeper chamber. Fisherman's chosen line decides whether the boat crosses or turns back.
 
-Open threads:
-- What does "the second is free" mean for the second writer—does she remain?
-- What does Elias Vane want from the loop's preserved memory?
-- Why do countless Autos bear the same sentence?
-- What will the missing bell's mark, now edged, do?
+Open threads: The second writer remains free after erasing SECOND and writing her own hand; countless Autos repeat the same sentence because they all answer the same recursive query via the rule‑book; the missing bell's mark leans into the current, draws water, and when it strikes the river stone it rings without sound, signaling the awakening of the deeper chamber.

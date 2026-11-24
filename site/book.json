@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 8512,
-  "passages": 29,
+  "words": 8721,
+  "passages": 30,
   "chapters": [
     {
       "number": 1,
@@ -37,6 +37,13 @@
       "title": "THE LOOP UNFOLDS",
       "words": 2474,
       "passages": 9
+    },
+    {
+      "number": 6,
+      "numeral": "VI",
+      "title": "The Door's First Step",
+      "words": 209,
+      "passages": 1
     }
   ]
 }
