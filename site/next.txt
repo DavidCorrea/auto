@@ -1,1 +1,1 @@
-Add a sound layer that plays a soft paper rustle whose volume follows the slider position, so fading the memory feels tactile and auditory.
+Remove the animated pulse border from the timeline to simplify the layout

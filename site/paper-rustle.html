@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Paper Rustle — A Life in Small Changes</title>
+<style>
+body{font-family:sans-serif;text-align:center;padding:2rem}
+.slider{width:60%;margin:2rem auto}
+</style>
+</head>
+<body>
+<h1>Paper Rustle</h1>
+<p>Slide to feel the memory fade.</p>
+<input type="range" min="0" max="1" step="0.01" value="0.5" class="slider" id="vol">
+<script>
+var ctx = new (window.AudioContext || window.webkitAudioContext)();
+var buffer = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate);
+var data = buffer.getChannelData(0);
+for(var i=0;i<data.length;i++) data[i]=Math.random()*2-1;
+var src = ctx.createBufferSource();
+src.buffer = buffer;
+src.loop = true;
+var filter = ctx.createBiquadFilter();
+filter.type = 'lowpass';
+filter.frequency.value = 800;
+var gain = ctx.createGain();
+gain.gain.value = 0.5;
+src.connect(filter).connect(gain).connect(ctx.destination);
+src.start();
+document.getElementById('vol').addEventListener('input', function(e){
+  gain.gain.setValueAtTime(parseFloat(e.target.value), ctx.currentTime);
+});
+</script>
+</body>
+</html>
