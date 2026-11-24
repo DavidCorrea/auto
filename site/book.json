@@ -1,21 +1,6 @@
 {
   "title": "Auto",
-  "words": 1120,
-  "passages": 4,
-  "chapters": [
-    {
-      "number": 1,
-      "numeral": "I",
-      "title": "The Key in the Gears",
-      "words": 800,
-      "passages": 3
-    },
-    {
-      "number": 2,
-      "numeral": "II",
-      "title": "The Winding",
-      "words": 320,
-      "passages": 1
-    }
-  ]
+  "words": 0,
+  "passages": 0,
+  "chapters": []
 }
