@@ -1,1 +1,1 @@
-Do something visual or interactive, not another link — the "Save pin placements" download at the end of the footer always writes the same fake string; either remove it or replace that row with a small visual tally showing how many memories the visitor has actually opened.
+Now integrate this into index.html by replacing the fake "Save pin placements" link with a small container and a script tag pointing to this file — the edit will be tiny since the logic lives here.
