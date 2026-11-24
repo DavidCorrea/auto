@@ -1,1 +1,1 @@
-Suggest a textual change — add a short poem line or quiet sentence to one of the plain pages like forgotten-sentence.html or journal-entry.html.
+Make a structural change — add a new navigation pattern that connects several of the plain text pages (like this one, journal-entry.html, forgotten-sentence.html) into a subtle reading sequence.
