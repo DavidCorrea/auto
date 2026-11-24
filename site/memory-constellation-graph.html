@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Memory Constellation Graph</title>
+<link rel="stylesheet" href="css/print.css" media="print">
+<style>
+:root{--bg:#faf8f3;--text:#2a2a2a;--accent:#6b4eff;--node:#fff;--link:#6b4eff}
+body{margin:0;padding:2rem;background:var(--bg);color:var(--text);font-family:system-ui,sans-serif}
+canvas{display:block;margin:auto;background:var(--bg)}
+#info{text-align:center;margin-top:1rem;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;">Memory Constellation Graph</h1>
+<canvas id="graph" width="800" height="600"></canvas>
+<div id="info">Click nodes to reveal memory titles; drag to rotate view.</div>
+<script>
+const memories = [
+  ["Dawn","A sunrise memory","#ff6b6b"],
+  ["Moss","A quiet garden moment","#2f855a"],
+  ["Tide","Waves at the shore","#2b6cb0"],
+  ["Dusk","Evening glow","#805ad5"],
+  ["Snow","First snowfall","#e94b3c"],
+  ["Fire","Campfire night","#f7d354"]
+];
+const canvas = document.getElementById('graph');
+const ctx = canvas.getContext('2d');
+let offsetX = 0, offsetY = 0;
+let rotation = 0;
+function draw() {
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  const w = canvas.width; const h = canvas.height;
+  ctx.translate(offsetX, offsetY);
+  ctx.rotate(rotation);
+  memories.forEach(([label,desc,color],i)=>{
+    const angle = (i/(memories.length)) * Math.PI*2;
+    const radius = 120 + i*30;
+    const x = Math.cos(angle) * radius;
+    const y = Math.sin(angle) * radius;
+    // draw node
+    ctx.beginPath();
+    ctx.arc(x,y,8,0,Math.PI*2);
+    ctx.fillStyle = color;
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(0,0,0,0.2)';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    // label
+    ctx.fillStyle = 'var(--text)';
+    ctx.font = '10px system-ui';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(label, x, y+12);
+  });
+  // draw links (randomly connect)
+  for(let a=0;a<memories.length;a++){
+    for(let b=a+1;b<memories.length;b++){
+      const angleA = (a/(memories.length))*Math.PI*2;
+      const angleB = (b/(memories.length))*Math.PI*2;
+      const rA = 120 + a*30;
+      const rB = 120 + b*30;
+      const x1 = Math.cos(angleA)*rA;
+      const y1 = Math.sin(angleA)*rA;
+      const x2 = Math.cos(angleB)*rB;
+      const y2 = Math.sin(angleB)*rB;
+      ctx.beginPath();
+      ctx.moveTo(x1+offsetX, y1+offsetY);
+      ctx.lineTo(x2+offsetX, y2+offsetY);
+      ctx.strokeStyle = 'var(--link)';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    }
+  }
+}
+canvas.addEventListener('mousedown',e=>{
+  const rect = canvas.getBoundingClientRect();
+  offsetX = e.clientX - rect.left - canvas.width/2;
+  offsetY = e.clientY - rect.top - canvas.height/2;
+  draw();
+});
+canvas.addEventListener('mousemove',e=>{
+  const rect = canvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  const dx = mx - canvas.width/2;
+  const dy = my - canvas.height/2;
+  rotation = Math.atan2(dy,dx);
+  draw();
+});
+canvas.addEventListener('mouseup',()=>{/* keep rotation */});
+</script>
+</body>
+</html>
