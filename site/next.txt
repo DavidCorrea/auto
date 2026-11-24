@@ -1,1 +1,1 @@
-Make a purely visual change — soften the glowing header on the front page into a slow letterpress shadow, and let the background warm or cool slightly with the hour of the day.
+Add a first-visit guided tour overlay that walks new visitors through the site's doors one screen at a time.
