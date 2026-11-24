@@ -1,1 +1,1 @@
-Add a structural change: create a new page that gathers all six chime fragments into one readable list, and link it from the timeline.
+Link this page from the timeline in index.html so visitors can discover it.
