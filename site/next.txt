@@ -1,1 +1,1 @@
-Consider adding a new static visualization page — like a printed memory map or a simple gallery view — that presents the memories without any JavaScript interaction.
+Next, add a plain-language glossary page explaining the site's terms for first-time visitors.
