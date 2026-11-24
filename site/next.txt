@@ -1,1 +1,1 @@
-This page still only plays a canned typing loop. Try a visual or interactive change instead of structural—e.g., give it an actual text input so visitors can type and "submit" their own line, or add a warm paper-texture background with a blinking-caret heading.
+Make a structural change instead—add a new page, remove an old one, or reorganize the navigation so the site grows in a different direction.
