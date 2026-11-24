@@ -124,7 +124,7 @@ const CONTINUED = `<p class="continued">To be continued…<span>Someone new is w
 // The side column on every page: the book's title, the lamp and the contents.
 // On wide screens it stays put while the story scrolls; on narrow ones it follows the story.
 function renderMargin(book, { root, currentChapter = null }) {
-  const { chapters, synopsis } = book;
+  const { chapters } = book;
   const allPassages = chapters.flatMap((chapter) => chapter.passages);
   const totalWords = countWords(allPassages.join(" "));
 
@@ -160,11 +160,7 @@ function renderMargin(book, { root, currentChapter = null }) {
 ${contents}
         </ol>
       </nav>
-${synopsis ? `      <details class="so-far">
-        <summary>The story so far <span>(spoilers)</span></summary>
-        ${renderProse(synopsis)}
-      </details>
-` : ""}      <footer class="colophon">
+      <footer class="colophon">
         <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
       </footer>
     </aside>`;

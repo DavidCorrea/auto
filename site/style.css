@@ -323,8 +323,7 @@ body[data-chapter] .passage:first-of-type p:first-child::first-letter {
   margin-top: 2.75rem;
 }
 
-.contents h2,
-.so-far summary {
+.contents h2 {
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.8rem;
@@ -375,28 +374,6 @@ body[data-chapter] .passage:first-of-type p:first-child::first-letter {
   font-size: 0.75rem;
   font-variant-numeric: oldstyle-nums;
   white-space: nowrap;
-}
-
-.so-far {
-  margin-top: 2rem;
-  padding: 0.9rem 1.1rem;
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  background: var(--paper-deep);
-}
-
-.so-far summary {
-  cursor: pointer;
-}
-
-.so-far summary span {
-  letter-spacing: 0.05em;
-  text-transform: none;
-  font-style: italic;
-}
-
-.so-far p {
-  font-size: 0.95rem;
 }
 
 .colophon {
