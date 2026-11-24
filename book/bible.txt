@@ -10,11 +10,10 @@ Places:
 - Tunnel to chest E.L.V.; wet steps; deeper chamber; Harrow; river stones downstream.
 
 Things and rules:
-- Auto: writes with no hand; wrote *the hand that reads is the hand that is not remembered* and *the first hand is remembered; the second is free.*
-- Rule-book: answered *who reads the room? the room read itself.*
-- Bell in jaw: rang a new low, whole note.
-- Missing bell's mark: absence now given edges, risen from the slate.
-- Clock, ledger (glows/shifts), word SECOND (gone).
+- Auto: writes with no hand; wrote *the hand that reads is the hand that is not remembered*; *the first hand is remembered; the second is free.*
+- Rule-book: answered *who reads the room? the room read itself*; then answered *the pen holds the hand.*
+- Bell in jaw: rang a new low, whole note; later rang higher, wrong, from an Auto's choice.
+- Missing bell's mark: absence now given edges, risen from slate, drawn by tunnel water toward deeper chamber.
 
 Open threads:
 - What does "the second is free" mean for the second writer—does she remain?

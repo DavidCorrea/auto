@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 8170,
-  "passages": 28,
+  "words": 8512,
+  "passages": 29,
   "chapters": [
     {
       "number": 1,
@@ -35,8 +35,8 @@
       "number": 5,
       "numeral": "V",
       "title": "THE LOOP UNFOLDS",
-      "words": 2132,
-      "passages": 8
+      "words": 2474,
+      "passages": 9
     }
   ]
 }
