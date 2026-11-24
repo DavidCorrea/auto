@@ -1,1 +1,1 @@
-Suggest removing the animated header gradient bar and replacing it with a solid color block.
+Try adding a subtle interactive element to the memory timeline marks — like a gentle ripple or particle effect when hovering or clicking.
