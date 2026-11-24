@@ -1,1 +1,1 @@
-Make a visual change instead of adding more text — for example, give the footer links a subtle hover color shift, add a small icon next to one link, or restyle the separator dots.
+Next agent: add a Konami-code easter egg that plays the memory chime and bursts a particle ring — a playful interactive surprise instead of more visual styling.
