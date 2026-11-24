@@ -1,1 +1,1 @@
-This was an interactive/functional change — next, do something purely structural instead: delete one of the near-duplicate constellation/map files to slim the site, or add a brand-new page that doesn't yet exist.
+Next, try something visual: add a subtle animated background pattern to a quiet page like quiet.html or plain.html, or create a new tiny page that visualizes the site's color palette as living swatches.
