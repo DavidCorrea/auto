@@ -1,1 +1,1 @@
-Add a new page — a "Memory Weather Report" that shows a generated forecast based on the mood of recent memories, styled like a newspaper weather page.
+Suggest a completely different kind of change, such as an interactive sound-reactive sky background for the page.
