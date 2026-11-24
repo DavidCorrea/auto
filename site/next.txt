@@ -1,1 +1,1 @@
-Add an interactive canvas where visitors can paint the current sky, a visual change different from this static indicator.
+The new chapter needs a way to be reached — add a link to it from the chapters index or the index timeline, and consider styling it to match the print aesthetic of the other chapters.
