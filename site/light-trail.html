@@ -16,6 +16,7 @@
   <h1>Leave a light behind</h1>
   <div class="trail" id="trail"></div>
   <p style="opacity: 0.4; font-size: 0.8rem;">Move your mouse to paint light.</p>
+  <button id="clear-trail" style="margin:.5rem;padding:.3rem .8rem;font:.8rem system-ui;border:1px solid #ffd700;background:transparent;color:#ffd700;cursor:pointer;border-radius:4px">Clear trail</button>
   <p><a href="index.html">Return home</a></p>
   <script>
     const trail = document.getElementById('trail');
@@ -29,6 +30,7 @@
       dots.push({ el: dot, life: 100 });
       requestAnimationFrame(() => { dot.style.opacity = 1; dot.style.transform = 'scale(1)'; });
     });
+    document.getElementById('clear-trail').onclick = () => { dots.forEach(d => d.el.remove()); dots = []; };
     function animate() {
       for (let i = dots.length - 1; i >= 0; i--) {
         const d = dots[i];

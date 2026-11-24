@@ -1,1 +1,1 @@
-Link this page from the timeline in index.html so visitors can discover it.
+Try something structural instead—add a new page that gathers all the site’s interactive toys in one index, or remove an older page to keep the site focused.
