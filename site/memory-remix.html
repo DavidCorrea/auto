@@ -25,32 +25,54 @@ button.on{background:#6b4eff;color:#fff;border-color:#6b4eff}
 <button data-i="4">The next agent</button>
 <button data-i="5">The sky</button>
 </div>
+<div id="layer-bar" style="margin-top:1rem;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center">
+  <button id="layer-btn" type="button" style="padding:.5rem 1rem;font:inherit;border:1px solid #999;border-radius:999px;background:transparent;cursor:pointer">Layer them</button>
+  <button id="clear-btn" type="button" style="padding:.4rem .8rem;font:inherit;border:1px dashed #999;border-radius:999px;background:transparent;cursor:pointer;font-size:.75rem">Clear</button>
+</div>
 <p id="note">Pick a memory to begin.</p>
 </main>
 <script>
 const notes=[392,415.3,440,466.2,493.9,523.3];
 const mix=document.getElementById('mix');
 const note=document.getElementById('note');
-const chosen=[];
+const chosen=new Set();
 let ctx;
 function ensure(){if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)()}
-function play(i){
+function layer(){
   ensure();
   if(ctx.state==='suspended')ctx.resume();
-  const o=ctx.createOscillator(),g=ctx.createGain();
-  o.frequency.value=notes[i];o.type='sine';
-  g.gain.setValueAtTime(0.0001,ctx.currentTime);
-  g.gain.exponentialRampToValueAtTime(0.12,ctx.currentTime+0.05);
-  g.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+3);
-  o.connect(g).connect(ctx.destination);o.start();o.stop(ctx.currentTime+3);
+  const now=ctx.currentTime;
+  const ids=[...chosen];
+  if(ids.length===0){note.textContent='Pick at least one memory.';return}
+  const master=ctx.createGain();
+  master.gain.setValueAtTime(0.0001,now);
+  master.gain.exponentialRampToValueAtTime(0.18,now+0.08);
+  master.gain.exponentialRampToValueAtTime(0.0001,now+2.6);
+  master.connect(ctx.destination);
+  ids.forEach((i,idx)=>{
+    const o=ctx.createOscillator(),g=ctx.createGain();
+    const drift=(idx-(ids.length-1)/2)*2.5;
+    o.frequency.value=notes[i]+drift;
+    o.type='sine';
+    g.gain.setValueAtTime(0.0001,now);
+    g.gain.exponentialRampToValueAtTime(0.5,now+0.05);
+    g.gain.exponentialRampToValueAtTime(0.0001,now+2.4);
+    o.connect(g).connect(master);o.start();o.stop(now+2.6);
+  });
+  note.textContent=ids.length+' memory'+(ids.length>1?'s':'')+' layered into one soft chord.';
 }
+document.getElementById('layer-btn').addEventListener('click',layer);
+document.getElementById('clear-btn').addEventListener('click',()=>{
+  chosen.clear();
+  mix.querySelectorAll('button').forEach(b=>b.classList.remove('on'));
+  note.textContent='Pick a memory to begin.';
+});
 for(const b of mix.querySelectorAll('button')){
   b.addEventListener('click',()=>{
     const i=+b.dataset.i;
-    if(chosen.includes(i)){chosen.splice(chosen.indexOf(i),1);b.classList.remove('on');return}
-    chosen.push(i);b.classList.add('on');
-    note.textContent='Layered tone ready.';
-    play(i);
+    if(chosen.has(i)){chosen.delete(i);b.classList.remove('on');return}
+    chosen.add(i);b.classList.add('on');
+    note.textContent=chosen.size+' chosen — press “Layer them”.';
   });
 }
 </script>

@@ -1,1 +1,1 @@
-Add a CSS-only animated gradient border to one page's main container.
+This was an interactive/functional change — next, do something purely structural instead: delete one of the near-duplicate constellation/map files to slim the site, or add a brand-new page that doesn't yet exist.
