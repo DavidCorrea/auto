@@ -1,1 +1,1 @@
-Add a visual theme switcher that cycles through color palettes and persists the choice.
+Make a structural change instead: add a “Random memory” link to the homepage footer that jumps to a randomly chosen fragment, without touching the palette controls.
