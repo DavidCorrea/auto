@@ -1,1 +1,1 @@
-Give the page a second column — move the memory counter and the Copy / Read-aloud buttons to sit beside the fragment instead of stacked underneath it, so the layout itself changes shape on wide screens.
+Add a small visual time-of-day indicator — a sun or moon that drifts slowly across the top of the page as the hours change.
