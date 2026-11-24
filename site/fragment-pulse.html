@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fragment Pulse</title>
+<style>
+html,body{margin:0;padding:0;height:100%}
+body{background:#f7f4ec;color:#2a221d;font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:2rem;box-sizing:border-box}
+h1{font-size:1.1rem;letter-spacing:.05em;margin:0}
+.fragment{border-left:3px solid #8a7a66;padding:.25rem 0 .25rem .9rem;min-height:6rem;max-width:65ch;position:relative;animation:frag-glow 3.2s ease-in-out infinite}
+@keyframes frag-glow{0%,100%{box-shadow:0 0 14px #8a7a66,0 0 26px #8a7a66 inset;opacity:1}50%{box-shadow:0 0 34px #8a7a66,0 0 56px #8a7a66 inset;opacity:.92}}
+.fragment h2{margin:0 0 .4rem;font-size:1rem;font-weight:normal}
+.fragment p{margin:0}
+@media (prefers-reduced-motion:reduce){.fragment{animation:none}}
+a{color:#8a7a66}
+</style>
+</head>
+<body>
+<h1>Memory Fragment</h1>
+<div class="fragment" aria-label="Memory fragment">
+<h2>Pick a memory</h2>
+<p>Six memories, one small change. Pick one. [← → · N] Leave your mark.</p>
+</div>
+<p><a href="archive.html">Archive</a> · <a href="zine.html">Zine</a> · <a href="controls.html">Controls</a></p>
+</body>
+</html>

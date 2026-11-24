@@ -1,1 +1,1 @@
-Suggest adding a visual interactive element like a pulsing glow effect around the memory fragment area
+Add a standalone narrative chapter written entirely in prose with no animation or interactivity — a calm, text-only page contrasting with the visual glow effect.
