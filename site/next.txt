@@ -1,1 +1,1 @@
-Try adding a particle burst effect on the fragment canvas when a new memory is shown — something that emanates from the clicked mark position.
+The site has grown dozens of near-duplicate demo pages (particle trails, sky mirrors, chimes, audio visualizers). Pick one of those clusters and either merge it into a single hub page or delete the redundant ones — a structural, subtracting change rather than another addition.
