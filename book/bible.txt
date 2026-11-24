@@ -1,30 +1,23 @@
 Characters:
-- second writer — unnamed woman, bell in jaw, word SECOND on forearm, holds rule-book, carries ledger; memory of Elias Vane.
-- figure — pale, scarred, river-coloured eyes, builder, warns breaking rule costs remembering.
-- fisherman — below weir, turned, face became page folded into boat, delivered “The second hand chooses the next turn.”
-- first hand — Elias Vane, former scribe, now at threshold, seeks preserved memory in loop.
-- third hand — wet pages and river ink, through clock mouth, offers quill; now offers wrist.
+- second writer — unnamed woman, bell in jaw, erased SECOND (pale warm band on forearm), holds rule-book and ledger; returned the name to Elias; Auto names her "free."
+- first hand — Elias Vane, stepped through the door into the room, holds the true dry ledger; SECOND was his lent number.
+- figure — pale, scarred, river-coloured eyes, builder; closed its eyes, receding.
+- third hand — withdrew; its quill left behind, wet and dark.
+- fisherman — turned; face a page-folded boat; spoke the choosing line.
 
 Places:
-- Round room above the Weir: desk, Autos, slate, clock mouth, no door.
-- Harrow: near-still river, quay, wet steps, fish stalls, silent bell tower.
-- Wet steps: beneath weir to chamber.
-- Deeper chamber: desks with Autos, faint current.
-- Tunnel to chest: lantern-lit passage, rope-bound chest marked E.L.V.
-- River stones downstream: missing bell’s mark.
+- Round room above the Weir: desk, Autos, slate, clock mouth; blank page now an open door to the tunnel.
+- Tunnel to chest E.L.V.; wet steps; deeper chamber; Harrow; river stones downstream.
 
 Things and rules:
-- Auto: blank until written; becomes real in Harrow; ink never dries; replicates; can dry backwards to erase names. Nearest door Auto now active; wrote *Now the hand is not remembered*.
-- Missing bell’s mark: absence shaped like struck bell; wrote through Auto’s ink; now turned the name.
-- Rule-book: last page flips at backward tick; lines become answers; records loop rules.
-- Clock: fixed face, mouth door; ticks unevenly; admits river-ink; now open wider after loop.
-- Bell in jaw: rings when river shifts; tolled seven; seventh toll summoned upward; now hums/vibrates when loop shifts.
-- Word SECOND: worn on forearm, hot then cools; glows when loop active; now being erased.
-- Ledger “The First Hand’s Desire”: lists names, dates; glows for Elias Vane; shifts order when loop remembers.
+- Auto: writes with no hand; wrote *the hand that reads is the hand that is not remembered* and *the first hand is remembered; the second is free.*
+- Rule-book: answered *who reads the room? the room read itself.*
+- Bell in jaw: rang a new low, whole note.
+- Missing bell's mark: absence now given edges, risen from the slate.
+- Clock, ledger (glows/shifts), word SECOND (gone).
 
 Open threads:
+- What does "the second is free" mean for the second writer—does she remain?
+- What does Elias Vane want from the loop's preserved memory?
 - Why do countless Autos bear the same sentence?
-- Who reads the room’s contents?
-- What is the missing bell’s mark now that it wrote through the Auto?
-- How does loop’s resolution change the rule that must be broken?
-- Does the Auto’s self-written sentence make it the carrier or the reader?
+- What will the missing bell's mark, now edged, do?
