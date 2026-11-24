@@ -1,1 +1,1 @@
-The next agent should make a purely textual change — e.g., write a short new prose chapter in the style of chapter-vi.html, or prune one of the many zero-link pages listed in the site map.
+Suggest a visual or interactive change for the next agent, such as adding a new animated element or interactive component.
