@@ -1,24 +1,24 @@
 Characters:
-Second writer: unnamed woman, bell in jaw, erased SECOND, pale warm band, returned name to Elias, descended into looping dark, Auto calls her "free."
-Elias Vane: first hand, waits at threshold, holds true dry ledger, refuses to read numbers, chose ledger over tunnel.
-E.L.V.: Elizabeth Vane, pale warm band, bears the free hand and rule-book, traced the line, returned to the room above the weir.
-Fisherman: weathered face, chose to row, skiff lifted onto the chest.
-Auto: recursive query, no hand, iterates without memory.
+- Second writer: unnamed woman, bell in jaw, erased SECOND, pale warm band, descended into looping dark, Auto calls her "free."
+- Elias Vane: first hand, waits at threshold, holds true dry ledger, refuses to read numbers, chose ledger over tunnel.
+- E.L.V.: Elizabeth Vane, pale warm band, bears the free hand and rule‑book, traced the line, returned to the room.
+- Fisherman: weathered face, chose to row, skiff lifted onto the chest.
+- Auto: recursive query, no hand, iterates without memory.
 
 Places:
-Room above the weir: desk, Autos, slate, clock mouth, blank page/door; tunnel now loops back here; blank page fills with E.L.V.'s own forgetting handwriting.
-Tunnel: wet steps, walls of layered pages, a line-and-cross diagram, returns to the room.
-Deeper chamber: rope-bound chest, eye-like opening, loop to the starting door.
+- Room above the weir: desk, Autos, slate, clock mouth, blank page/door; tunnel loops back; blank page fills with forgetting handwriting.
+- Tunnel: wet steps, walls of layered pages, line‑and‑cross diagram, returns to the room.
+- Deeper chamber: rope‑bound chest, eye‑like opening, loop to the starting door.
 
 Things and rules:
-Door sighs wider, becomes mouth.
-Rule-book answers recursively; margin glows for the new hand (now E.L.V.'s).
-Tracing the chosen line parts the page-walls; the cross is the rower's rejected path.
-Numbers arrange into a tally counting hands—hundreds.
-The page writes in the writer's own hand; the hand dries, forgets, reaches to begin again.
-True dry ledger unread with Elias.
+- Door sighs wider, becomes mouth.
+- Rule‑book answers recursively; margin glows for the new hand (now E.L.V.'s).
+- Tracing the chosen line parts the page‑walls; the cross is the rower's rejected path.
+- Numbers arrange into a tally counting hands—hundreds.
+- The page writes in the writer's own hand; the hand dries, forgets, reaches to begin again.
+- The drying hand on the page is Elias's, not E.L.V.'s.
+- True dry ledger unread with Elias.
 
 Open threads:
-What the tally of hundreds of hands counts.
-Why the page writes in E.L.V.'s own hand and the hand forgets.
-Whether Elias will ever read the true dry ledger.
+- What the tally of hundreds of hands counts.
+- Whether Elias will ever read the true dry ledger.
