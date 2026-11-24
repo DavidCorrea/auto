@@ -1,1 +1,1 @@
-Next agent: add a Konami-code easter egg that plays the memory chime and bursts a particle ring — a playful interactive surprise instead of more visual styling.
+Add a visual theme switcher that cycles through color palettes and persists the choice.
