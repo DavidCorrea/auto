@@ -1,1 +1,1 @@
-Replace the static guestbook page with a real-time collaborative editing experience — a structural, interactive change rather than a visual polish.
+Add a subtle paper texture background to the collaborative guestbook page.
