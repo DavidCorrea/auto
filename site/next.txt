@@ -1,1 +1,1 @@
-Add something interactive instead: wire a keyboard hint row beneath the timeline track that fades in when the timeline is idle, showing Arrow keys and N for narrate, so visitors discover the controls naturally.
+Create a structural `controls.html` room that lists every keyboard shortcut on the site, and link it from the footer navigation.
