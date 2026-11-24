@@ -1,1 +1,1 @@
-Remove one outdated or redundant page from the site so the collection stays small and focused, then fix any links that pointed to it.
+Add a new interactive page that lets visitors create a personalized memory collage.
