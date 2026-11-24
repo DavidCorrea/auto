@@ -1,6 +1,7 @@
 // Asks a model to write the next passage of a book that never ends, and saves it into the site.
-// The model sees only the contents, a synopsis of the story so far, the note the previous
-// writer left, and the last page. It has no memory of earlier runs beyond those.
+// The model sees only the contents, the bible (who and what is in the story), a synopsis of
+// the story so far, the note the previous writer left, and the last page. It has no memory of
+// earlier runs beyond those.
 
 import { appendFile } from "node:fs/promises";
 import path from "node:path";
@@ -20,6 +21,9 @@ const MAX_ATTEMPTS = 3;
 export const MIN_PASSAGE_CHARS = 300;
 export const MAX_PASSAGE_CHARS = 3500;
 export const MAX_SYNOPSIS_CHARS = 2000;
+export const MAX_BIBLE_CHARS = 3000;
+// Every writer keeps these lists in the bible; open threads are what push the story to resolve things.
+export const BIBLE_HEADINGS = ["Characters", "Places", "Things and rules", "Open threads"];
 const MAX_NOTE_CHARS = 500;
 const MAX_TITLE_CHARS = 80;
 // Keeps chapters from being one passage long, and from growing forever.
@@ -28,31 +32,44 @@ export const MAX_CHAPTER_CHARS = 15000;
 const LAST_PAGE_CHARS = 3000;
 
 const INSTRUCTIONS = `You are one of many writers taking turns on a book that never ends, called "${BOOK_TITLE}".
-Every turn is a different writer, who sees only what's below: the contents, a synopsis of the story so far,
-a note from the previous writer, and the last page.
+Every turn is a different writer, who sees only what's below: the contents, the bible, a synopsis of the
+story so far, a note from the previous writer, and the last page.
 
 1. Write the next passage.
-   - Continue directly from the last sentence. Don't recap or repeat what's already written.
-   - 2 to 5 paragraphs, about 150 to 400 words. Plain prose: *asterisks* for italics, nothing else. No headings.
-   - Keep names, places and facts consistent with the synopsis. Make something happen, change, or come to light.
+   - Continue directly from the last sentence. Don't recap, retell or repeat anything already on the page.
+   - 2 to 5 paragraphs, about 150 to 400 words. Plain prose: *asterisks* for italics, nothing else.
+     No headings, labels or notes inside the passage.
+   - The bible is the truth. Never contradict it: a character's name, pronouns, role and history stay as written.
+   - Make something happen, change, or come to light. Characters make decisions; don't end on someone
+     merely facing a choice.
+   - Prefer moving an open thread forward or resolving one over opening a new mystery. When there are more
+     than 5 open threads, resolve one before opening another.
    - Treat the previous writer's note as a suggestion. You may take the story somewhere else.
    - You may start a new chapter when the story reaches a natural turn, once the current one has at least
      ${MIN_CHAPTER_CHARS} characters. When it reaches ${MAX_CHAPTER_CHARS}, you must start one.
-2. Rewrite the synopsis so the next writer can carry on without reading the book: who's who, where things
-   stand, what's unresolved. Keep it under ${MAX_SYNOPSIS_CHARS - 500} characters; drop what no longer matters.
-3. Leave a note for the next writer: where the story could go next. Now and then, suggest a surprise.
+2. Update the bible: add anyone or anything new, correct what changed, remove resolved threads. Keep these
+   four headings, one short line per entry, under ${MAX_BIBLE_CHARS} characters in all:
+   ${BIBLE_HEADINGS.join(", ")}.
+   Characters: name, pronouns, who they are. Things and rules: objects that matter and how they work.
+3. Rewrite the synopsis: what has happened and where things stand now, so the next writer can carry on
+   without reading the book. Under ${MAX_SYNOPSIS_CHARS - 500} characters; drop what no longer matters.
+4. Leave a note for the next writer: where the story could go next. Now and then, suggest a surprise.
 
 Reply with only this, nothing else:
 
 NEW CHAPTER: <title>   ← include this line only to start a new chapter
 PASSAGE:
 <your passage>
+BIBLE:
+<the updated bible>
 SYNOPSIS:
 <the updated synopsis>
 NEXT:
 <one or two sentences for the next writer>`;
 
-const LABEL_PATTERN = /^\s*(?:#+\s*)?(?:\*\*)?(NEW CHAPTER|PASSAGE|SYNOPSIS|NEXT)(?:\*\*)?\s*:\s*(?:\*\*)?\s*(.*)$/i;
+const LABEL_PATTERN = /^\s*(?:#+\s*)?(?:\*\*)?(NEW CHAPTER|PASSAGE|BIBLE|SYNOPSIS|NEXT)(?:\*\*)?\s*:\s*(?:\*\*)?\s*(.*)$/i;
+// Bookkeeping that once ended up printed in the book, like "PARAGRAPH TWO:" or "Last page: 380 words".
+const NOT_STORY_PATTERN = /^\s*(?:#+\s*)?(?:\*\*)?(?:paragraph\s+\w+|last page)(?:\*\*)?\s*:/im;
 
 export class RejectedTurn extends Error {}
 
@@ -81,6 +98,9 @@ export function renderPrompt(book) {
   return `## Contents
 ${contents || "(empty)"}
 
+## The bible
+${book.bible || "(empty — start it)"}
+
 ## The story so far
 ${book.synopsis || "(nothing yet)"}
 
@@ -100,7 +120,9 @@ export function parseTurn(reply) {
     if (/^\s*```/.test(line)) continue;
     const match = line.match(LABEL_PATTERN);
     const label = match?.[1].toUpperCase();
-    if (label && !(label in sections)) {
+    if (label) {
+      // A second copy of a section is how notes to the next writer once ended up printed in the book.
+      if (label in sections) throw new RejectedTurn(`The reply has more than one ${label} section; give each section once.`);
       currentLabel = label;
       sections[label] = match[2] ? [match[2]] : [];
       continue;
@@ -124,6 +146,7 @@ export function parseTurn(reply) {
   return {
     newChapterTitle: newChapterTitle || null,
     passage,
+    bible: section("BIBLE"),
     synopsis: section("SYNOPSIS"),
     note: section("NEXT").replace(/\s+/g, " "),
   };
@@ -131,10 +154,11 @@ export function parseTurn(reply) {
 
 // Returns the book with the turn added, and which chapters changed.
 export function applyTurn(turn, book) {
-  const { newChapterTitle, passage, synopsis, note } = turn;
+  const { newChapterTitle, passage, bible, synopsis, note } = turn;
   const current = book.chapters.at(-1);
 
   if (!passage) throw new RejectedTurn("The reply has no PASSAGE section.");
+  if (!bible) throw new RejectedTurn("The reply has no BIBLE section.");
   if (!synopsis) throw new RejectedTurn("The reply has no SYNOPSIS section.");
   if (!note) throw new RejectedTurn("The reply has no NEXT note for the next writer.");
   if (passage.length < MIN_PASSAGE_CHARS) {
@@ -142,6 +166,17 @@ export function applyTurn(turn, book) {
   }
   if (passage.length > MAX_PASSAGE_CHARS) {
     throw new RejectedTurn(`The passage is ${passage.length} characters; keep it under ${MAX_PASSAGE_CHARS}.`);
+  }
+  const leaked = passage.match(NOT_STORY_PATTERN);
+  if (leaked) {
+    throw new RejectedTurn(`The passage contains "${leaked[0].trim()}"; only story text belongs in the passage.`);
+  }
+  const missingHeadings = BIBLE_HEADINGS.filter((heading) => !bible.toLowerCase().includes(heading.toLowerCase()));
+  if (missingHeadings.length > 0) {
+    throw new RejectedTurn(`The bible is missing these headings: ${missingHeadings.join(", ")}.`);
+  }
+  if (bible.length > MAX_BIBLE_CHARS) {
+    throw new RejectedTurn(`The bible is ${bible.length} characters; keep it under ${MAX_BIBLE_CHARS}.`);
   }
   if (synopsis.length > MAX_SYNOPSIS_CHARS) {
     throw new RejectedTurn(`The synopsis is ${synopsis.length} characters; keep it under ${MAX_SYNOPSIS_CHARS}.`);
@@ -172,7 +207,7 @@ export function applyTurn(turn, book) {
     ? [...book.chapters, { title: newChapterTitle, passages: [passage] }]
     : [...book.chapters.slice(0, -1), { ...current, passages: [...current.passages, passage] }];
   return {
-    book: { chapters, synopsis, note },
+    book: { chapters, bible, synopsis, note },
     changedChapterNumbers: [chapters.length],
   };
 }

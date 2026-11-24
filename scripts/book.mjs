@@ -1,6 +1,6 @@
 // Reads and writes the book. Chapters live in site/chapters/NNN.json, where the reader
 // (site/book.js) loads them; site/book.json is an index of them for the contents.
-// The synopsis and the note between writers stay in book/, off the site.
+// The bible, the synopsis and the note between writers stay in book/, off the site.
 
 import { readFile, writeFile, readdir, mkdir } from "node:fs/promises";
 import path from "node:path";
@@ -19,9 +19,19 @@ async function readOptional(filePath) {
   }
 }
 
+// A new book has no chapters folder until its first chapter is saved.
+async function readdirOptional(directory) {
+  try {
+    return await readdir(directory);
+  } catch (error) {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
 export async function readBook({ bookDir, siteDir }) {
   const chaptersDir = path.join(siteDir, "chapters");
-  const names = (await readdir(chaptersDir))
+  const names = (await readdirOptional(chaptersDir))
     .filter((name) => CHAPTER_FILE_PATTERN.test(name))
     .sort((a, b) => Number(a.match(CHAPTER_FILE_PATTERN)[1]) - Number(b.match(CHAPTER_FILE_PATTERN)[1]));
   const chapters = [];
@@ -35,6 +45,7 @@ export async function readBook({ bookDir, siteDir }) {
   }
   return {
     chapters,
+    bible: await readOptional(path.join(bookDir, "bible.txt")),
     synopsis: await readOptional(path.join(bookDir, "synopsis.txt")),
     note: await readOptional(path.join(bookDir, "next.txt")),
   };
@@ -70,6 +81,7 @@ export async function writeBook({ bookDir, siteDir }, book, changedChapterNumber
     await writeFile(path.join(chaptersDir, `${chapterSlug(number)}.json`), toJson({ title, passages }));
   }
   await writeFile(path.join(siteDir, "book.json"), toJson(bookIndex(book)));
+  await writeFile(path.join(bookDir, "bible.txt"), `${book.bible}\n`);
   await writeFile(path.join(bookDir, "synopsis.txt"), `${book.synopsis}\n`);
   await writeFile(path.join(bookDir, "next.txt"), `${book.note}\n`);
 }

@@ -10,6 +10,7 @@ const book = {
     { title: "The Desk", passages: ["First words here.", "Second."] },
     { title: "A Box", passages: ["Third."] },
   ],
+  bible: "Characters:\n- The agent",
   synopsis: "Someone waved.",
   note: "Open the box.",
 };
@@ -20,18 +21,23 @@ async function emptyPlaces() {
 }
 
 describe("storing the book", () => {
-  test("round-trips chapters, synopsis and note", async () => {
+  test("reads a book that hasn't been started as empty", async () => {
+    assert.deepEqual(await readBook(await emptyPlaces()), { chapters: [], bible: "", synopsis: "", note: "" });
+  });
+
+  test("round-trips chapters, bible, synopsis and note", async () => {
     const places = await emptyPlaces();
     await writeBook(places, book, [1, 2]);
     assert.deepEqual(await readBook(places), book);
   });
 
-  test("keeps chapters on the site and the writers' notes off it", async () => {
+  test("keeps chapters on the site and the writers' notes and bible off it", async () => {
     const places = await emptyPlaces();
     await writeBook(places, book, [1, 2]);
     const chapter = JSON.parse(await readFile(path.join(places.siteDir, "chapters", "002.json"), "utf8"));
     assert.deepEqual(chapter, { title: "A Box", passages: ["Third."] });
     assert.equal(await readFile(path.join(places.bookDir, "next.txt"), "utf8"), "Open the box.\n");
+    assert.equal(await readFile(path.join(places.bookDir, "bible.txt"), "utf8"), "Characters:\n- The agent\n");
   });
 
   test("reads chapters in numeric order", async () => {

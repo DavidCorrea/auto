@@ -229,6 +229,11 @@ function start() {
   fetchJson("book.json")
     .then((index) => {
       book = index;
+      if (book.chapters.length === 0) {
+        renderContents();
+        reading.replaceChildren(element("p", { className: "status", text: "The first page is being written. Come back in a few minutes." }));
+        return;
+      }
       const chapter = chapterToOpen(readStored("chapter"), book.chapters.length);
       const isRememberedChapter = readStored("chapter") === String(chapter);
       history.replaceState({ chapter }, "");

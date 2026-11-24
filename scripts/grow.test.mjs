@@ -10,20 +10,24 @@ import {
   MIN_CHAPTER_CHARS,
   MAX_CHAPTER_CHARS,
   MAX_PASSAGE_CHARS,
+  MAX_BIBLE_CHARS,
 } from "./grow.mjs";
 
 const paragraph = (seed) => `${seed} walked down to the harbour and counted the boats twice. `.repeat(6).trim();
 const passage = paragraph("Ottoline");
 
+const bible = "Characters:\n- Ottoline, she, keeps the lighthouse\nPlaces:\n- The harbour\nThings and rules:\n- The boats\nOpen threads:\n- Who sent the letter?";
+
 const bookWith = (chapterText) => ({
   chapters: [{ title: "The Desk", passages: [chapterText] }],
+  bible,
   synopsis: "An agent at a desk.",
   note: "Open the box.",
 });
 const book = bookWith("x".repeat(MIN_CHAPTER_CHARS));
 
-const reply = ({ newChapter, body = passage, synopsis = "Ottoline counts boats.", next = "Let a storm arrive." } = {}) =>
-  [newChapter && `NEW CHAPTER: ${newChapter}`, "PASSAGE:", body, "SYNOPSIS:", synopsis, "NEXT:", next]
+const reply = ({ newChapter, body = passage, bibleText = bible, synopsis = "Ottoline counts boats.", next = "Let a storm arrive." } = {}) =>
+  [newChapter && `NEW CHAPTER: ${newChapter}`, "PASSAGE:", body, "BIBLE:", bibleText, "SYNOPSIS:", synopsis, "NEXT:", next]
     .filter(Boolean)
     .join("\n");
 
@@ -32,6 +36,7 @@ describe("reading the model's reply", () => {
     assert.deepEqual(parseTurn(reply({ newChapter: "Low Tide" })), {
       newChapterTitle: "Low Tide",
       passage,
+      bible,
       synopsis: "Ottoline counts boats.",
       note: "Let a storm arrive.",
     });
@@ -69,9 +74,10 @@ describe("reading the model's reply", () => {
 });
 
 describe("adding a turn to the book", () => {
-  test("appends the passage to the current chapter and replaces synopsis and note", () => {
+  test("appends the passage to the current chapter and replaces bible, synopsis and note", () => {
     const { book: grown, changedChapterNumbers } = applyTurn(parseTurn(reply()), book);
     assert.deepEqual(grown.chapters[0].passages.at(-1), passage);
+    assert.equal(grown.bible, bible);
     assert.equal(grown.synopsis, "Ottoline counts boats.");
     assert.equal(grown.note, "Let a storm arrive.");
     assert.deepEqual(changedChapterNumbers, [1]);
@@ -97,19 +103,43 @@ describe("adding a turn to the book", () => {
   });
 
   test("requires a first chapter for an empty book", () => {
-    const empty = { chapters: [], synopsis: "", note: "" };
+    const empty = { chapters: [], bible: "", synopsis: "", note: "" };
     assert.throws(() => applyTurn(parseTurn(reply()), empty), /empty/);
     assert.equal(applyTurn(parseTurn(reply({ newChapter: "One" })), empty).book.chapters.length, 1);
   });
 
   test("rejects missing sections", () => {
-    assert.throws(() => applyTurn(parseTurn("PASSAGE:\n" + passage + "\nSYNOPSIS:\nx"), book), /NEXT/);
+    assert.throws(() => applyTurn(parseTurn(`PASSAGE:\n${passage}\nBIBLE:\n${bible}\nSYNOPSIS:\nx`), book), /NEXT/);
+    assert.throws(() => applyTurn(parseTurn(`PASSAGE:\n${passage}\nSYNOPSIS:\nx\nNEXT:\ny`), book), /BIBLE/);
     assert.throws(() => applyTurn(parseTurn("Once upon a time."), book), /PASSAGE/);
   });
 
   test("rejects passages that are too short or too long", () => {
     assert.throws(() => applyTurn(parseTurn(reply({ body: "She left." })), book), /at least/);
     assert.throws(() => applyTurn(parseTurn(reply({ body: "a ".repeat(MAX_PASSAGE_CHARS) })), book), /under/);
+  });
+
+  test("rejects bookkeeping that slipped into the passage", () => {
+    for (const leak of ["PARAGRAPH TWO:\nThen rain.", "Last page: approximately 380 words."]) {
+      assert.throws(() => applyTurn(parseTurn(reply({ body: `${passage}\n\n${leak}` })), book), /only story text/);
+    }
+  });
+
+  test("rejects a reply that gives a section twice", () => {
+    assert.throws(() => parseTurn(`${reply()}\nSYNOPSIS:\nAgain.\nNEXT:\nAgain.`), /more than one SYNOPSIS/);
+  });
+
+  test("keeps a passage where a character says next or passage mid-sentence", () => {
+    const body = `${passage}\n\nThe passage was narrow. Next: the stairs, she thought.`;
+    assert.equal(applyTurn(parseTurn(reply({ body })), book).book.chapters[0].passages.at(-1), body);
+  });
+
+  test("rejects a bible without its four lists", () => {
+    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: "Characters:\n- Ottoline" })), book), /Places, Things and rules, Open threads/);
+  });
+
+  test("rejects a bible that has grown too long", () => {
+    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: `${bible}\n${"- x\n".repeat(MAX_BIBLE_CHARS)}` })), book), /bible is/);
   });
 
   test("rejects a passage that repeats the last page", () => {
@@ -122,6 +152,7 @@ describe("what the model sees", () => {
   test("shows contents, synopsis, note and the chapter's length", () => {
     const prompt = renderPrompt(book);
     assert.match(prompt, /## Contents\nI\. The Desk/);
+    assert.match(prompt, /## The bible\nCharacters:\n- Ottoline, she/);
     assert.match(prompt, /## The story so far\nAn agent at a desk\./);
     assert.match(prompt, /## Note from the previous writer\nOpen the box\./);
     assert.match(prompt, new RegExp(`Chapter I has ${MIN_CHAPTER_CHARS} of at most ${MAX_CHAPTER_CHARS}`));
