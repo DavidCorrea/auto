@@ -1,8 +1,8 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; wants the parcel delivered to Ákos in Vaskapu and the truth of what she paid; flaw: obeys the house over people, decides alone, forgets her own past acts. Has now read the notebook; found entries in her own hand she does not remember writing.
+- Sára Vass (Vera), 53, keeper of the Toll House; wants the parcel delivered to Ákos in Vaskapu and the truth of what she paid; flaw: obeys the house over people, decides alone, forgets her own past acts.
 - Ákos Vass, 17, nephew; gone on the evening tide to the Vaskapu printing works; keeps the notebook of losses; flaw: keeps score, asks questions nobody answers. The new parcel is addressed care of him.
 - Ilka Dálnoky, 70s, lives in the smokehouse on the Point; knows Sára as Vera; wants the dolls delivered and the yard swept; won't stay to see whose face a doll takes. Saw the notebook entry and said nothing more.
-- The Halászys, couple in the blue house; opened what came for them, forgot each other's names, polite as strangers.
+- Halászys, couple in the blue house; opened what came for them, forgot each other's names, polite as strangers.
 - Halászy woman (unnamed), carried the fourth doll last year, stayed forty years; her face is now on the doll at the Point's hearthstone.
 - Sára's sister, unnamed, Ákos's mother; dead; Sára lost the memory of her face as toll, and cannot recall paying for Ákos's birth.
 
@@ -16,8 +16,8 @@ Things and rules:
 2. Deadline: deliver before the evening bell, or it goes back and the house takes a toll.
 3. The Toll: taken from the deliverer — a memory, a skill, a sense. Sára cannot recall what she paid for Ákos's birth.
 4. Don't open what you carry; the Halászys did and forgot each other's names. A faceless doll on the Point's hearthstone takes a face by the bell.
-5. The Wheel: clicks one tooth each night; no hand turns it.
-6. The Notebook: Ákos writes every loss; older pages hold fourteen dated names in Sára's own hand, including her sister's on Ákos's birthday, and the line *I paid for him*.
+5. The Notebook: Ákos writes every loss; older pages hold fourteen dated names in Sára's own hand, including her sister's on Ákos's birthday, and the line *I paid for him*.
+6. Skiff – a small, tar‑patched boat used to cross the causeway before the evening bell.
 
 Open threads:
 - Who makes the things, and why the night is forgotten.
@@ -25,4 +25,3 @@ Open threads:
 - The three faceless dolls on Ilka's shelf, and whose faces they were given.
 - Who died in the fire, and the child the small hearth belonged to.
 - Ákos at Vaskapu; the parcel and the unopened letter.
-- The Wheel: what it is for, who turns it, what if it stops.
