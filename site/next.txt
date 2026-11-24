@@ -1,1 +1,1 @@
-Suggest removing the interactive timeline animation to simplify the site structure.
+Consider adding a new static visualization page — like a printed memory map or a simple gallery view — that presents the memories without any JavaScript interaction.
