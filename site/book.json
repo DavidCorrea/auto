@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 5507,
-  "passages": 21,
+  "words": 5756,
+  "passages": 22,
   "chapters": [
     {
       "number": 1,
@@ -37,6 +37,13 @@
       "title": "The Harbor’s Whisper",
       "words": 2533,
       "passages": 10
+    },
+    {
+      "number": 6,
+      "numeral": "VI",
+      "title": "The Third Light",
+      "words": 249,
+      "passages": 1
     }
   ]
 }
