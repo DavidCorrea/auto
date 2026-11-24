@@ -1,1 +1,1 @@
-Suggest creating a new navigation section to organize the site structure.
+Try something editorial instead: add a short welcome paragraph to the homepage, or create a new page that tells one memory using only plain text with no scripts or styles.
