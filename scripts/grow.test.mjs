@@ -52,6 +52,13 @@ describe("reading the model's reply", () => {
     assert.equal(turn.newChapterTitle, "Low Tide");
   });
 
+  test("drops a bare chapter number the model put in the title", () => {
+    for (const title of ["IV. The Ink Below", "4: The Ink Below", "Chapter IV — The Ink Below"]) {
+      assert.equal(parseTurn(reply({ newChapter: title })).newChapterTitle, "The Ink Below");
+    }
+    assert.equal(parseTurn(reply({ newChapter: "Vigil" })).newChapterTitle, "Vigil");
+  });
+
   test("keeps a passage that merely starts with the word chapter", () => {
     assert.match(parseTurn(reply({ body: `Chapter and verse, she said.\n\n${passage}` })).passage, /^Chapter and verse/);
   });

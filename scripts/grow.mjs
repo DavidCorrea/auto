@@ -115,7 +115,8 @@ export function parseTurn(reply) {
   const newChapterTitle = section("NEW CHAPTER")
     .split("\n")[0]
     .replace(/^["'“]|["'”]$/g, "")
-    .replace(/^chapter\s+[\divxlc]+\s*[:.—-]?\s*/i, "")
+    // The site numbers chapters itself, so drop "Chapter IV:", "IV." or "4:" the model may have added.
+    .replace(/^(?:chapter\s+[\divxlc]+\s*[:.—-]?|[\divxlc]+\s*[:.—-])\s*/i, "")
     .trim();
 
   return {
