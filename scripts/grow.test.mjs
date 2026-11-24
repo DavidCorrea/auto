@@ -94,6 +94,11 @@ describe("adding a turn to the book", () => {
     assert.equal(book.chapters[0].passages.length, 1);
   });
 
+  test("rejects a chapter title in all capitals", () => {
+    assert.throws(() => applyTurn(parseTurn(reply({ newChapter: "THE LOOP UNFOLDS" })), book), /all capitals/);
+    assert.equal(applyTurn(parseTurn(reply({ newChapter: "The Loop at 5 AM" })), book).book.chapters[1].title, "The Loop at 5 AM");
+  });
+
   test("rejects a new chapter before the current one is long enough", () => {
     assert.throws(() => applyTurn(parseTurn(reply({ newChapter: "Too Soon" })), bookWith("short")), /keep writing/);
   });

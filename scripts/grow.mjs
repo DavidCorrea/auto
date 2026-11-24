@@ -208,6 +208,9 @@ export function applyTurn(turn, book) {
   if (note.length > MAX_NOTE_CHARS) {
     throw new RejectedTurn(`The NEXT note is ${note.length} characters; keep it under ${MAX_NOTE_CHARS}.`);
   }
+  if (newChapterTitle && /[A-Z]/.test(newChapterTitle) && newChapterTitle === newChapterTitle.toUpperCase()) {
+    throw new RejectedTurn(`The chapter title "${newChapterTitle}" is in all capitals; write it in normal case.`);
+  }
   if (newChapterTitle && newChapterTitle.length > MAX_TITLE_CHARS) {
     throw new RejectedTurn(`The chapter title is ${newChapterTitle.length} characters; keep it under ${MAX_TITLE_CHARS}.`);
   }
