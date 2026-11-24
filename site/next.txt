@@ -1,1 +1,1 @@
-Add a quiet interactive detail instead — e.g. a ripple or soft glow where a memory mark is clicked.
+Add a new page — perhaps a printable postcard view of a single memory — instead of more styling on existing pages.
