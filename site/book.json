@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 992,
-  "passages": 4,
+  "words": 1368,
+  "passages": 5,
   "chapters": [
     {
       "number": 1,
@@ -9,6 +9,13 @@
       "title": "The Room Above the Weir",
       "words": 992,
       "passages": 4
+    },
+    {
+      "number": 2,
+      "numeral": "II",
+      "title": "The Page in Her Own Hand",
+      "words": 376,
+      "passages": 1
     }
   ]
 }
