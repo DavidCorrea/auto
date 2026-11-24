@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 1368,
-  "passages": 5,
+  "words": 1580,
+  "passages": 6,
   "chapters": [
     {
       "number": 1,
@@ -14,8 +14,8 @@
       "number": 2,
       "numeral": "II",
       "title": "The Page in Her Own Hand",
-      "words": 376,
-      "passages": 1
+      "words": 588,
+      "passages": 2
     }
   ]
 }
