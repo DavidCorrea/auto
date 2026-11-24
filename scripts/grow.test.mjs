@@ -1,241 +1,136 @@
 import { test, describe } from "node:test";
 import assert from "node:assert/strict";
 import {
-  parseEdit,
-  applyEdit,
-  chooseVisibleFiles,
-  describeFile,
+  parseTurn,
+  applyTurn,
   renderPrompt,
-  RejectedEdit,
-  MAX_FILE_CHARS,
-  HANDOFF_FILE,
-  DIRECTORY_FILE,
-  findLinks,
-  countInboundLinks,
-  renderDirectory,
+  lastPage,
+  summarize,
+  RejectedTurn,
+  MIN_CHAPTER_CHARS,
+  MAX_CHAPTER_CHARS,
+  MAX_PASSAGE_CHARS,
 } from "./grow.mjs";
 
-const site = new Map([
-  ["index.html", "<h1>Hello.</h1>\n<p>Hi</p>\n"],
-  ["about.html", "<p>About</p>\n"],
-  ["style.css", "body { color: black; }\n"],
-  ["next.txt", "Try a dark theme.\n"],
-]);
-const visible = ["index.html", "style.css"];
+const paragraph = (seed) => `${seed} walked down to the harbour and counted the boats twice. `.repeat(6).trim();
+const passage = paragraph("Ottoline");
 
-const reply = (file, find, replace) =>
-  `FILE: ${file}\nSUMMARY: change it\nNEXT: make a new page\n<<<<<<< FIND\n${find}\n=======\n${replace}\n>>>>>>> REPLACE`;
+const bookWith = (chapterText) => ({
+  chapters: [{ title: "The Desk", passages: [chapterText] }],
+  synopsis: "An agent at a desk.",
+  note: "Open the box.",
+});
+const book = bookWith("x".repeat(MIN_CHAPTER_CHARS));
+
+const reply = ({ newChapter, body = passage, synopsis = "Ottoline counts boats.", next = "Let a storm arrive." } = {}) =>
+  [newChapter && `NEW CHAPTER: ${newChapter}`, "PASSAGE:", body, "SYNOPSIS:", synopsis, "NEXT:", next]
+    .filter(Boolean)
+    .join("\n");
 
 describe("reading the model's reply", () => {
-  test("extracts the edit even when wrapped in a code fence", () => {
-    const edit = parseEdit("```\n" + reply("index.html", "<p>Hi</p>", "<p>Hey</p>") + "\n```");
-    assert.deepEqual(edit, {
-      filePath: "index.html",
-      summary: "change it",
-      next: "make a new page",
-      find: "<p>Hi</p>",
-      replace: "<p>Hey</p>",
-      isDeletion: false,
+  test("reads each section", () => {
+    assert.deepEqual(parseTurn(reply({ newChapter: "Low Tide" })), {
+      newChapterTitle: "Low Tide",
+      passage,
+      synopsis: "Ottoline counts boats.",
+      note: "Let a storm arrive.",
     });
   });
 
-  test("accepts an empty FIND for a new file", () => {
-    const edit = parseEdit("FILE: a.css\nSUMMARY: s\nNEXT: n\n<<<<<<< FIND\n=======\nbody{}\n>>>>>>> REPLACE");
-    assert.equal(edit.find, "");
-    assert.equal(edit.replace, "body{}");
+  test("tolerates code fences, bold labels and text on the label line", () => {
+    const messy = "Sure!\n```\n**PASSAGE:**\nShe ran.\n\nThen stopped.\n**SYNOPSIS:** Running.\n**NEXT:** Stop.\n```";
+    const turn = parseTurn(messy);
+    assert.equal(turn.passage, "She ran.\n\nThen stopped.");
+    assert.equal(turn.synopsis, "Running.");
+    assert.equal(turn.note, "Stop.");
+    assert.equal(turn.newChapterTitle, null);
   });
 
-  test("rejects free-form prose", () => {
-    assert.throws(() => parseEdit("I changed the heading!"), RejectedEdit);
+  test("drops a chapter heading the model put inside the passage", () => {
+    const turn = parseTurn(reply({ newChapter: '"Chapter 2: Low Tide"', body: `Chapter II: Low Tide\n\n${passage}` }));
+    assert.equal(turn.passage, passage);
+    assert.equal(turn.newChapterTitle, "Low Tide");
   });
 
-  test("reads a deletion", () => {
-    const edit = parseEdit("FILE: old.html\nSUMMARY: s\nNEXT: n\nDELETE FILE");
-    assert.deepEqual(edit, { filePath: "old.html", summary: "s", next: "n", isDeletion: true });
+  test("keeps a passage that merely starts with the word chapter", () => {
+    assert.match(parseTurn(reply({ body: `Chapter and verse, she said.\n\n${passage}` })).passage, /^Chapter and verse/);
   });
 
-  test("rejects a reply that leaves no note for the next change", () => {
-    const withoutNext = "FILE: a.css\nSUMMARY: s\n<<<<<<< FIND\n=======\nbody{}\n>>>>>>> REPLACE";
-    assert.throws(() => parseEdit(withoutNext), /NEXT/);
-  });
-});
-
-describe("choosing what the model sees", () => {
-  test("always shows index.html plus one other file", () => {
-    assert.deepEqual(chooseVisibleFiles(site, () => 0), ["index.html", "about.html"]);
-    assert.deepEqual(chooseVisibleFiles(site, () => 1), ["index.html", "style.css"]);
-  });
-
-  test("never picks the handoff note as the random file", () => {
-    for (let index = 0; index < 3; index++) {
-      assert.notEqual(chooseVisibleFiles(site, () => index)[1], HANDOFF_FILE);
-    }
-  });
-
-  test("opens with the previous note", () => {
-    assert.match(renderPrompt(site, visible), /^## Note from the previous change\nTry a dark theme\.\n/);
-  });
-
-  test("says when there is no note yet", () => {
-    assert.match(renderPrompt(new Map([["index.html", "x"]]), ["index.html"]), /none yet/);
-  });
-
-  test("shows only index.html when it is the whole site", () => {
-    assert.deepEqual(chooseVisibleFiles(new Map([["index.html", "x"]])), ["index.html"]);
-  });
-
-  test("maps HTML files with their title and description", () => {
-    const html = `<title>The  Garden</title><meta name="description" content="Plants that appeared.">`;
-    assert.equal(
-      describeFile("garden.html", html, 2),
-      `garden.html  (${html.length} chars, linked from 2 files)  "The Garden"  — Plants that appeared.`,
-    );
-  });
-
-  test("maps other files by size only", () => {
-    assert.equal(describeFile("style.css", "<title>no</title>", 1), "style.css  (17 chars, linked from 1 file)");
-  });
-
-  test("marks files that are nearly full", () => {
-    const line = describeFile("index.html", "x".repeat(MAX_FILE_CHARS - 10), 0);
-    assert.match(line, new RegExp(`\\(${MAX_FILE_CHARS - 10} chars of ${MAX_FILE_CHARS} — full, linked from 0 files\\)`));
-  });
-
-  test("lists every file in the map but only visible files in full", () => {
-    const prompt = renderPrompt(site, visible);
-    assert.match(prompt, /about\.html {2}\(13 chars, linked from 0 files\)/);
-    assert.doesNotMatch(prompt, /===== about\.html/);
-    assert.match(prompt, /===== style\.css =====\nbody/);
+  test("removes lines that would split the passage in the chapter file", () => {
+    assert.equal(parseTurn(reply({ body: "One.\n~\nTwo." })).passage, "One.\n\nTwo.");
   });
 });
 
-describe("following links between files", () => {
-  const linked = new Map([
-    ["index.html", `<a href="about.html">a</a> <a href="/blog/">b</a> <link href="css/site.css"> <a href="https://x.com/y.html">x</a>`],
-    ["about.html", `<a href="./index.html#top">home</a> <img src="missing.png">`],
-    ["blog/index.html", `<a href="../about.html?ref=blog">about</a>`],
-    ["css/site.css", "body{}"],
-    ["orphan.html", "<p>alone</p>"],
-    [DIRECTORY_FILE, `<a href="orphan.html">o</a>`],
-  ]);
-
-  test("resolves relative, root-relative and folder links, ignoring external and missing targets", () => {
-    assert.deepEqual([...findLinks("index.html", linked.get("index.html"), linked)].sort(), [
-      "about.html",
-      "blog/index.html",
-      "css/site.css",
-    ]);
-    assert.deepEqual([...findLinks("blog/index.html", linked.get("blog/index.html"), linked)], ["about.html"]);
+describe("adding a turn to the book", () => {
+  test("appends the passage to the current chapter and replaces synopsis and note", () => {
+    const { book: grown, changedChapterNumbers } = applyTurn(parseTurn(reply()), book);
+    assert.deepEqual(grown.chapters[0].passages.at(-1), passage);
+    assert.equal(grown.synopsis, "Ottoline counts boats.");
+    assert.equal(grown.note, "Let a storm arrive.");
+    assert.deepEqual(changedChapterNumbers, [1]);
   });
 
-  test("counts inbound links without crediting the generated directory", () => {
-    const counts = countInboundLinks(linked);
-    assert.equal(counts.get("about.html"), 2);
-    assert.equal(counts.get("index.html"), 1);
-    assert.equal(counts.get("orphan.html"), 0);
+  test("starts a new chapter when asked", () => {
+    const { book: grown, changedChapterNumbers } = applyTurn(parseTurn(reply({ newChapter: "Low Tide" })), book);
+    assert.deepEqual(grown.chapters[1], { title: "Low Tide", passages: [passage] });
+    assert.deepEqual(changedChapterNumbers, [2]);
+  });
+
+  test("leaves the original book untouched", () => {
+    applyTurn(parseTurn(reply()), book);
+    assert.equal(book.chapters[0].passages.length, 1);
+  });
+
+  test("rejects a new chapter before the current one is long enough", () => {
+    assert.throws(() => applyTurn(parseTurn(reply({ newChapter: "Too Soon" })), bookWith("short")), /keep writing/);
+  });
+
+  test("requires a new chapter once the current one is full", () => {
+    assert.throws(() => applyTurn(parseTurn(reply()), bookWith("x".repeat(MAX_CHAPTER_CHARS))), /full/);
+  });
+
+  test("requires a first chapter for an empty book", () => {
+    const empty = { chapters: [], synopsis: "", note: "" };
+    assert.throws(() => applyTurn(parseTurn(reply()), empty), /empty/);
+    assert.equal(applyTurn(parseTurn(reply({ newChapter: "One" })), empty).book.chapters.length, 1);
+  });
+
+  test("rejects missing sections", () => {
+    assert.throws(() => applyTurn(parseTurn("PASSAGE:\n" + passage + "\nSYNOPSIS:\nx"), book), /NEXT/);
+    assert.throws(() => applyTurn(parseTurn("Once upon a time."), book), /PASSAGE/);
+  });
+
+  test("rejects passages that are too short or too long", () => {
+    assert.throws(() => applyTurn(parseTurn(reply({ body: "She left." })), book), /at least/);
+    assert.throws(() => applyTurn(parseTurn(reply({ body: "a ".repeat(MAX_PASSAGE_CHARS) })), book), /under/);
+  });
+
+  test("rejects a passage that repeats the last page", () => {
+    const repeating = bookWith(`Before that, ${passage}`);
+    assert.throws(() => applyTurn(parseTurn(reply()), repeating), RejectedTurn);
   });
 });
 
-describe("the generated directory", () => {
-  const pages = new Map([
-    ["index.html", "<title>Home</title>"],
-    ["odd.html", `<title>A <b>bold</b> & "odd" room</title><meta name="description" content="Strange.">`],
-    ["style.css", "body{}"],
-    [DIRECTORY_FILE, "old"],
-  ]);
-  const directory = renderDirectory(pages);
-
-  test("lists every HTML page except itself", () => {
-    assert.match(directory, /<a href="index\.html">Home<\/a>/);
-    assert.match(directory, /2 pages\./);
-    assert.doesNotMatch(directory, /style\.css">|rooms\.html">/);
+describe("what the model sees", () => {
+  test("shows contents, synopsis, note and the chapter's length", () => {
+    const prompt = renderPrompt(book);
+    assert.match(prompt, /## Contents\nI\. The Desk/);
+    assert.match(prompt, /## The story so far\nAn agent at a desk\./);
+    assert.match(prompt, /## Note from the previous writer\nOpen the box\./);
+    assert.match(prompt, new RegExp(`Chapter I has ${MIN_CHAPTER_CHARS} of at most ${MAX_CHAPTER_CHARS}`));
   });
 
-  test("escapes titles and descriptions written by agents", () => {
-    assert.match(directory, /A &#60;b&#62;bold&#60;\/b&#62; &#38; &#34;odd&#34; room<\/a> — Strange\./);
+  test("says when the chapter is full", () => {
+    assert.match(renderPrompt(bookWith("x".repeat(MAX_CHAPTER_CHARS))), /must start a new chapter/);
+  });
+
+  test("shows only the end of a long chapter, starting at a paragraph", () => {
+    const long = bookWith(`${"a".repeat(5000)}\n\nThe last paragraph.`);
+    assert.equal(lastPage(long), "…\n\nThe last paragraph.");
   });
 });
 
-describe("applying an edit", () => {
-  test("replaces the unique match", () => {
-    const result = applyEdit(parseEdit(reply("index.html", "<p>Hi</p>", "<p>$& Hey</p>")), site, visible);
-    assert.equal(result.content, "<h1>Hello.</h1>\n<p>$& Hey</p>\n");
-  });
-
-  test("creates a new file", () => {
-    const result = applyEdit({ filePath: "garden/index.html", find: "", replace: "<p>Garden</p>" }, site, visible);
-    assert.deepEqual(result, { filePath: "garden/index.html", content: "<p>Garden</p>" });
-  });
-
-  test("rejects editing a file that wasn't shown in full", () => {
-    assert.throws(
-      () => applyEdit({ filePath: "about.html", find: "<p>About</p>", replace: "<p>Us</p>" }, site, visible),
-      /isn't shown in full/,
-    );
-  });
-
-  test("rejects text that isn't in the file", () => {
-    assert.throws(() => applyEdit({ filePath: "index.html", find: "<p>Nope</p>", replace: "x" }, site, visible), /0 times/);
-  });
-
-  test("rejects paths outside the site", () => {
-    const outside = (filePath) => () => applyEdit({ filePath, find: "", replace: "x" }, site, visible);
-    assert.throws(outside("../.github/workflows/grow.yml"), RejectedEdit);
-    assert.throws(outside("/etc/passwd.txt"), RejectedEdit);
-  });
-
-  test("rejects non-web file types", () => {
-    assert.throws(() => applyEdit({ filePath: "run.sh", find: "", replace: "x" }, site, visible), /must end in/);
-  });
-
-  test("rejects edits that aren't small", () => {
-    assert.throws(() => applyEdit({ filePath: "big.html", find: "", replace: "x".repeat(5000) }, site, visible), /under/);
-  });
-
-  test("rejects editing the handoff note directly", () => {
-    assert.throws(
-      () => applyEdit({ filePath: "next.txt", find: "Try a dark theme.", replace: "x" }, site, [...visible, "next.txt"]),
-      /NEXT line/,
-    );
-  });
-
-  test("rejects editing the generated directory", () => {
-    const withDirectory = new Map([...site, [DIRECTORY_FILE, "<ul></ul>"]]);
-    assert.throws(
-      () => applyEdit({ filePath: DIRECTORY_FILE, find: "<ul>", replace: "<ol>" }, withDirectory, [DIRECTORY_FILE]),
-      /generated automatically/,
-    );
-  });
-
-  test("deletes any existing file, even one not shown in full", () => {
-    assert.deepEqual(applyEdit({ filePath: "about.html", isDeletion: true }, site, visible), {
-      filePath: "about.html",
-      content: null,
-    });
-  });
-
-  test("refuses to delete the entrance or a file that doesn't exist", () => {
-    assert.throws(() => applyEdit({ filePath: "index.html", isDeletion: true }, site, visible), /entrance/);
-    assert.throws(() => applyEdit({ filePath: "gone.html", isDeletion: true }, site, visible), /does not exist/);
-  });
-
-  test("rejects overwriting an existing file via empty FIND", () => {
-    assert.throws(() => applyEdit({ filePath: "index.html", find: "", replace: "x" }, site, visible), /already exists/);
-  });
-
-  describe("when a file is full", () => {
-    const nearlyFull = "a".repeat(MAX_FILE_CHARS - 10) + "<p>end</p>";
-    const fullSite = new Map([["index.html", nearlyFull]]);
-
-    test("rejects growing it past the limit", () => {
-      const edit = { filePath: "index.html", find: "<p>end</p>", replace: "<p>end</p><p>more</p>" };
-      assert.throws(() => applyEdit(edit, fullSite, ["index.html"]), /new file/);
-    });
-
-    test("still allows shrinking a file that is already over the limit", () => {
-      const overSite = new Map([["index.html", "a".repeat(MAX_FILE_CHARS + 50) + "<p>end</p>"]]);
-      const result = applyEdit({ filePath: "index.html", find: "<p>end</p>", replace: "" }, overSite, ["index.html"]);
-      assert.equal(result.content.length, MAX_FILE_CHARS + 50);
-    });
-  });
+test("summarizes a turn by its chapter and opening words", () => {
+  const { book: grown } = applyTurn(parseTurn(reply({ body: `*Rain* came. ${passage}` })), book);
+  assert.equal(summarize(grown), "Chapter I: Rain came. Ottoline walked down to the harbour and counted…");
 });

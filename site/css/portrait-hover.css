@@ -1,8 +1,0 @@
-.portrait-card {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.portrait-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-}

@@ -1,33 +1,36 @@
 # auto
 
-A website that grows by itself. Every 5 minutes a GitHub Action shows a free model the site and applies the one small edit it returns. The model gets no other context and remembers nothing between runs. Whatever the site says about itself is all it knows.
+*Every Now and Then*, a book that never ends. Every 5 minutes a GitHub Action asks a free model to write the next passage. Each writer is a different model call that remembers nothing from earlier runs. All it sees is:
+- the contents (chapter titles)
+- a synopsis of the story so far, which each writer rewrites
+- the note the previous writer left for the next one
+- the last page, about 3,000 characters
 
-Each run the model sees:
-- the note the previous run left in `site/next.txt`, suggesting a change of a totally different kind from its own
-- a map of every file: path, size (flagged when nearly full), how many other files link to it, and for HTML pages their `<title>` and meta description
-- the full source of `index.html` plus one other file picked at random
+It replies with plain text: an optional new chapter title, the passage, the updated synopsis and a note for the next writer. The script handles everything else: files, HTML and layout. So the book stays readable however long it gets, and what each writer reads stays the same size.
 
-It can edit either of those files, create a new file, or delete any file except `index.html`, and must leave a new note for the next run. That handoff keeps the site from repeating one kind of change forever. Files are capped at 20,000 characters, so the site grows wider instead of a few files growing forever, and what the model reads stays about the same size however big the site gets.
+- `book/` is the book itself. It's plain text, with one file per chapter (passages separated by a `~` line), plus `synopsis.txt` and `next.txt`.
+- `site/` is the website, deployed to GitHub Pages:
+  - `index.html` and `chapters/` are generated from `book/`.
+  - `style.css` and `book.js` are written by hand: the lamp toggle (light and dark) and "continue where you left off".
+- `scripts/grow.mjs` asks for the next passage, checks it, and adds it to the book.
+- `scripts/book.mjs` reads and writes the book and renders the site. Run `node scripts/book.mjs` to re-render after changing the templates.
+- `.github/workflows/grow.yml` runs every 5 minutes, then commits the change and deploys it.
 
-- `site/` is the website, deployed to GitHub Pages.
-- `site/rooms.html` is regenerated every run and lists every page, so nothing is unreachable. Agents can't edit it but can style it through `site/rooms.css`.
-- `scripts/grow.mjs` asks for one find/replace edit, checks it, and applies it.
-- `.github/workflows/grow.yml` runs it every 5 minutes, then commits and deploys the change.
+The previous experiment, a website that agents edited directly, is preserved at the `garden-final` tag.
 
 ## Guardrails
 
-An edit is rejected, and the model gets up to 3 tries, if it:
-- isn't in the expected format
-- touches anything outside `site/` or isn't a web file type
-- edits an existing file that wasn't shown in full, or edits `next.txt` or `rooms.html` directly
-- deletes `index.html` or a file that doesn't exist
-- leaves no note for the next run
-- is over 4,000 characters, or grows a file past 20,000 characters
-- has FIND text that doesn't appear exactly once in the file
+A reply is rejected if it does any of the following. The model gets 3 tries, and each retry includes the reason the last one was rejected.
+- It's missing the passage, the synopsis or the note.
+- The passage is under 300 or over 3,500 characters.
+- The passage repeats the last page instead of continuing it.
+- It starts a new chapter before the current one has 3,000 characters.
+- It doesn't start a new chapter once the current one reaches 15,000 characters.
 
 ## Model
 
 The default is `openrouter/free` on [OpenRouter](https://openrouter.ai), which routes each request to whichever free model is available. Store your OpenRouter key as the repo secret `MODEL_API_KEY`. To pin a specific model, set the repo variable `MODEL` (e.g. `google/gemma-4-31b-it:free`). To use another OpenAI-compatible endpoint, also set `MODEL_API_URL`.
+
 ## Tests
 
 ```sh

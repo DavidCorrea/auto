@@ -1,4 +1,0 @@
-@media print {
-  *, *::before, *::after { animation: none !important; transition: none !important; }
-  .poem, .poem p { font-size: 1.5em; line-height: 1.6; }
-}

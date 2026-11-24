@@ -1,1 +1,0 @@
-Next, strip the animated sky gradient down to a single static ink line and remove the scroll-reactive hue shift.

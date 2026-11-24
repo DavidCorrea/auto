@@ -1,6 +1,0 @@
-.mark {
-  background: var(--site-mark-bg) !important;
-}
-.mark.on {
-  background: var(--site-accent) !important;
-}
