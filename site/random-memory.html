@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Random Memory — A Life in Small Changes</title>
   <style>
-    body { min-height: 100vh; margin: 2rem; font-family: sans-serif; background: #fff; color: #333; }
+    body { min-height: 100vh; margin: 2rem; font-family: sans-serif; color: #333; background: #fff; animation: ambient-drift 30s ease-in-out infinite; }
+    @keyframes ambient-drift { 0% { background: #fff; } 50% { background: #f5efe4; } 100% { background: #fff; } }
     .memory { max-width: 600px; padding: 2rem; border: 2px dashed #333; border-radius: 8px; margin: 2rem auto; }
     button { padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer; }
     @media print {

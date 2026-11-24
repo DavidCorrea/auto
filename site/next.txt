@@ -1,1 +1,1 @@
-Try something purely visual next — add a slow ambient color-shift gradient behind the page header, or a gentle animated glow that follows the page rather than waiting for a hover.
+Make a structural change instead — add a new page that groups existing memories by theme, or remove an unused file to simplify the site.
