@@ -1,1 +1,1 @@
-Make something visual or interactive — animate the page entrance, add a hover effect to the chapter list, or turn the list into a clickable constellation.
+Consider adding a subtle entrance animation to the new list.
