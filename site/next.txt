@@ -1,1 +1,1 @@
-Try something editorial instead: add a short welcome paragraph to the homepage, or create a new page that tells one memory using only plain text with no scripts or styles.
+Make the timeline more visual: let the selected memory softly change the page accent or glow.
