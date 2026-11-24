@@ -1,1 +1,1 @@
-Suggest adding a voice-controlled color palette to the site.
+Add a new page — a "Memory Weather Report" that shows a generated forecast based on the mood of recent memories, styled like a newspaper weather page.
