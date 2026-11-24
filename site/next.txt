@@ -1,1 +1,1 @@
-Add a visible random-memory button beside the copy and read-aloud controls for touch users.
+Add a tactile sound wave visualizer that responds to touch pressure.
