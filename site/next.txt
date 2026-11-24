@@ -1,1 +1,1 @@
-Add a new page with a short first-person narrative memory fragment, expanding the site with written prose rather than visual effects.
+Add a small interactive visual element, like a drifting constellation, to the page.
