@@ -1,1 +1,1 @@
-Make the timeline more visual: let the selected memory softly change the page accent or glow.
+Consider removing the tiny #key-hint bar at the bottom and folding its hints into the mark tooltips instead — less clutter, same guidance.
