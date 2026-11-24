@@ -410,6 +410,14 @@ body[data-chapter] .passage:first-of-type p:first-child::first-letter {
     scrollbar-color: var(--rule) transparent;
     border-top: 0;
     border-right: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Rests at the bottom of the margin, or after the contents once they outgrow the screen. */
+  .colophon {
+    margin-top: auto;
+    padding-top: 2.5rem;
   }
 
   .margin-header {
