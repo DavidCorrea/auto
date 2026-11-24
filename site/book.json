@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 10125,
-  "passages": 38,
+  "words": 10407,
+  "passages": 39,
   "chapters": [
     {
       "number": 1,
@@ -70,8 +70,8 @@
       "number": 10,
       "numeral": "X",
       "title": "The Harbor's Call",
-      "words": 271,
-      "passages": 1
+      "words": 553,
+      "passages": 2
     }
   ]
 }
