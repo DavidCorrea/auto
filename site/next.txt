@@ -1,1 +1,1 @@
-Add a first-visit guided tour overlay that walks new visitors through the site's doors one screen at a time.
+Add a visual rain of memory fragments on the final tour step.
