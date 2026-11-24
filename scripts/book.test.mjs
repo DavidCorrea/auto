@@ -58,7 +58,7 @@ describe("storing the book", () => {
 describe("the index the reader loads", () => {
   test("numbers chapters and counts words and hands", () => {
     assert.deepEqual(bookIndex(book), {
-      title: "Every Now and Then",
+      title: "Auto",
       words: 5,
       passages: 3,
       chapters: [

@@ -31,9 +31,16 @@ export const MIN_CHAPTER_CHARS = 3000;
 export const MAX_CHAPTER_CHARS = 15000;
 const LAST_PAGE_CHARS = 3000;
 
+// Fixed here rather than in the bible, which writers rewrite every turn and could lose it from.
+const PREMISE = `The book takes place in ${BOOK_TITLE}, a city where everyone did something, and no one remembers what.
+Every story in it stays in the city and circles that forgotten thing: what was done, by whom, and why it was
+forgotten. Answers come in pieces, and each piece should raise a sharper question rather than settle it.`;
+
 const INSTRUCTIONS = `You are one of many writers taking turns on a book that never ends, called "${BOOK_TITLE}".
 Every turn is a different writer, who sees only what's below: the contents, the bible, a synopsis of the
 story so far, a note from the previous writer, and the last page.
+
+${PREMISE}
 
 1. Write the next passage.
    - Continue directly from the last sentence. Don't recap, retell or repeat anything already on the page.

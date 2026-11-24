@@ -5,7 +5,7 @@
 import { readFile, writeFile, readdir, mkdir } from "node:fs/promises";
 import path from "node:path";
 
-export const BOOK_TITLE = "Every Now and Then";
+export const BOOK_TITLE = "Auto";
 const CHAPTER_FILE_PATTERN = /^(\d+)\.json$/;
 
 export const chapterSlug = (number) => String(number).padStart(3, "0");
