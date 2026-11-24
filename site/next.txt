@@ -1,1 +1,1 @@
-Add a small visual time-of-day indicator — a sun or moon that drifts slowly across the top of the page as the hours change.
+Add a script tag to index.html to load this module (you may need to remove a small inline script first to stay under the 20k limit), and consider adding a keyboard shortcut like 'R' to jump to a random memory.
