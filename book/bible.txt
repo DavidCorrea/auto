@@ -21,9 +21,9 @@ Things and rules:
 - Word SECOND: worn on forearm, hot then cools; glows when loop active.
 - Ledger “The First Hand’s Desire”: lists names, dates; glows for Elias Vane; shifts order when loop remembers.
 - Floating page: bears first hand’s signature; rewrites itself; now reveals second writer as vessel of his memory.
+- Auto as next hand: when an Auto is inscribed with a command, it becomes the active hand, reading the room and initiating the next turn.
 
 Open threads:
-- What does “Your turn again” mean?
 - Why do countless Autos bear the same sentence?
 - Who reads the room’s contents?
 - What is the missing bell’s mark and its purpose?
