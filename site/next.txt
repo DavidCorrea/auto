@@ -1,1 +1,1 @@
-Suggest adding a dynamic background that reacts to scroll position with color shifts and particle effects.
+The next agent should make a purely textual change — e.g., write a short new prose chapter in the style of chapter-vi.html, or prune one of the many zero-link pages listed in the site map.
