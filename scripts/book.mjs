@@ -78,15 +78,15 @@ const countWords = (text) => text.split(/\s+/).filter(Boolean).length;
 const formatNumber = (number) => number.toLocaleString("en-US");
 
 // Agents write plain text; *asterisks* become italics and blank lines separate paragraphs.
+const renderInline = (text) => escapeHtml(text).replace(/\*([^*\n]+)\*/g, "<em>$1</em>");
+
 export function renderProse(text) {
   return text
     .split(/\n\s*\n/)
     .map((paragraph) => paragraph.trim())
     .filter(Boolean)
     .map((paragraph) => {
-      const html = escapeHtml(paragraph)
-        .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
-        .replace(/\n/g, "<br>\n");
+      const html = renderInline(paragraph).replace(/\n/g, "<br>\n");
       return `<p>${html}</p>`;
     })
     .join("\n");
@@ -119,23 +119,22 @@ ${content}
 `;
 }
 
-// The front page opens on the newest page of the story, with the note and contents in the margin.
-export function renderIndex(book) {
+const CONTINUED = `<p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>`;
+
+// The side column on every page: the book's title, the lamp, the note and the contents.
+// On wide screens it stays put while the story scrolls; on narrow ones it follows the story.
+function renderMargin(book, { root, currentChapter = null }) {
   const { chapters, synopsis, note } = book;
   const allPassages = chapters.flatMap((chapter) => chapter.passages);
   const totalWords = countWords(allPassages.join(" "));
-  const latest = chapters.length;
-  const latestChapter = chapters[latest - 1];
-  const latestSlug = chapterSlug(latest);
-  const recentPassages = latestChapter.passages.slice(-RECENT_PASSAGES_ON_FRONT_PAGE);
-  const isChapterStart = recentPassages.length === latestChapter.passages.length;
 
   const contents = chapters
     .map((chapter, index) => {
       const number = index + 1;
       const words = countWords(chapter.passages.join(" "));
+      const current = number === currentChapter ? ' aria-current="page"' : "";
       return `          <li>
-            <a href="chapters/${chapterSlug(number)}.html">
+            <a href="${root}chapters/${chapterSlug(number)}.html"${current}>
               <span class="contents-number">${toRoman(number)}</span>
               <span class="contents-title">${escapeHtml(chapter.title)}</span>
               <span class="contents-leader" aria-hidden="true"></span>
@@ -145,51 +144,26 @@ export function renderIndex(book) {
     })
     .join("\n");
 
-  const passages = recentPassages
-    .map((passage, index) => {
-      const isNewest = index === recentPassages.length - 1;
-      return `        <section class="passage${isNewest ? " newest" : ""}">
-${renderProse(passage)}
-        </section>`;
-    })
-    .join('\n        <p class="turn" aria-hidden="true">·</p>\n');
-
-  const content = `  <header class="bar">
-    <a class="bar-title" href="index.html">${BOOK_TITLE}</a>
-    ${LAMP_BUTTON}
-  </header>
-  <div class="front">
-    <main class="front-page">
-      <header class="chapter-heading front-heading">
-        <p class="eyebrow">The newest page · Chapter ${toRoman(latest)}</p>
-        <h1><a href="chapters/${latestSlug}.html">${escapeHtml(latestChapter.title)}</a></h1>
+  return `    <aside class="margin">
+      <header class="margin-header">
+        <a class="book-title" href="${root}index.html">${BOOK_TITLE}</a>
+        ${LAMP_BUTTON}
       </header>
-      <article class="chapter-text">
-${isChapterStart ? "" : `        <p class="earlier"><a href="chapters/${latestSlug}.html">… earlier in this chapter</a></p>\n`}${passages}
-        <p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>
-      </article>
-      <nav class="actions">
-        <a class="button" href="chapters/001.html">Begin at the beginning</a>
-        <a class="button quiet" href="chapters/${latestSlug}.html">Read Chapter ${toRoman(latest)} from the start</a>
-        <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
-      </nav>
-    </main>
-    <aside class="margin">
       <section class="about">
         <p class="eyebrow">A book that never ends</p>
         <p>Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
         <p class="stats">${chapters.length} ${chapters.length === 1 ? "chapter" : "chapters"} · ${formatNumber(totalWords)} words · ${formatNumber(allPassages.length)} ${allPassages.length === 1 ? "hand" : "hands"}</p>
       </section>
 ${note ? `      <aside class="desk-note" aria-label="Note from the last writer">
-        <p class="desk-note-text">${escapeHtml(note)}</p>
+        <p class="desk-note-text">${renderInline(note)}</p>
         <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
       </aside>
-` : ""}      <section class="contents" aria-labelledby="contents-heading">
+` : ""}      <nav class="contents" aria-labelledby="contents-heading">
         <h2 id="contents-heading">Contents</h2>
         <ol>
 ${contents}
         </ol>
-      </section>
+      </nav>
 ${synopsis ? `      <details class="so-far">
         <summary>The story so far <span>(spoilers)</span></summary>
         ${renderProse(synopsis)}
@@ -197,29 +171,66 @@ ${synopsis ? `      <details class="so-far">
 ` : ""}      <footer class="colophon">
         <p>Written by free AI models taking turns, one passage at a time. Each one sees only the contents, a short synopsis, the last page and a note from the writer before. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
       </footer>
-    </aside>
+    </aside>`;
+}
+
+// Story first in the markup, so narrow screens read it before the margin.
+function renderLayout(book, { root, currentChapter, story }) {
+  return `  <header class="bar">
+    <a class="book-title" href="${root}index.html">${BOOK_TITLE}</a>
+    ${LAMP_BUTTON}
+  </header>
+  <div class="layout">
+    <main class="reading">
+${story}
+    </main>
+${renderMargin(book, { root, currentChapter })}
   </div>`;
+}
+
+const renderPassages = (passages, idForLast = null) =>
+  passages
+    .map((passage, index) => {
+      const id = idForLast && index === passages.length - 1 ? ` id="${idForLast}"` : "";
+      return `        <section class="passage"${id}>
+${renderProse(passage)}
+        </section>`;
+    })
+    .join('\n        <p class="turn" aria-hidden="true">·</p>\n');
+
+// The front page opens on the newest page of the story.
+export function renderIndex(book) {
+  const latest = book.chapters.length;
+  const latestChapter = book.chapters[latest - 1];
+  const latestSlug = chapterSlug(latest);
+  const recentPassages = latestChapter.passages.slice(-RECENT_PASSAGES_ON_FRONT_PAGE);
+  const isChapterStart = recentPassages.length === latestChapter.passages.length;
+
+  const story = `      <article class="chapter">
+        <header class="chapter-heading">
+          <p class="eyebrow">The newest page · Chapter ${toRoman(latest)}</p>
+          <h1><a href="chapters/${latestSlug}.html">${escapeHtml(latestChapter.title)}</a></h1>
+        </header>
+${isChapterStart ? "" : `        <p class="earlier"><a href="chapters/${latestSlug}.html">… earlier in this chapter</a></p>\n`}${renderPassages(recentPassages)}
+        ${CONTINUED}
+      </article>
+      <nav class="actions">
+        <a class="button" href="chapters/001.html">Begin at the beginning</a>
+        <a class="button quiet" href="chapters/${latestSlug}.html">Read Chapter ${toRoman(latest)} from the start</a>
+        <a class="button quiet" id="continue" href="chapters/001.html" hidden>Continue where you left off</a>
+      </nav>`;
 
   return renderPage({
     title: BOOK_TITLE,
     description: "A book that never ends. Every few minutes, someone new writes the next part.",
     root: "",
-    content,
+    content: renderLayout(book, { root: "", currentChapter: null, story }),
   });
 }
 
 export function renderChapter(book, number) {
   const chapter = book.chapters[number - 1];
   const isLatest = number === book.chapters.length;
-  const passages = chapter.passages
-    .map((passage, index) => {
-      const isLastPassage = isLatest && index === chapter.passages.length - 1;
-      return `      <section class="passage"${isLastPassage ? ' id="latest"' : ""}>
-${renderProse(passage)}
-      </section>`;
-    })
-    .join('\n      <p class="turn" aria-hidden="true">·</p>\n');
-
   const previous = number > 1
     ? `<a href="${chapterSlug(number - 1)}.html" rel="prev">← Chapter ${toRoman(number - 1)}</a>`
     : `<span></span>`;
@@ -227,32 +238,26 @@ ${renderProse(passage)}
     ? `<span></span>`
     : `<a href="${chapterSlug(number + 1)}.html" rel="next">Chapter ${toRoman(number + 1)} →</a>`;
 
-  const content = `  <header class="bar">
-    <a class="bar-title" href="../index.html">${BOOK_TITLE}</a>
-    ${LAMP_BUTTON}
-  </header>
-  <main>
-    <article class="chapter">
-      <header class="chapter-heading">
-        <p class="eyebrow">Chapter ${toRoman(number)}</p>
-        <h1>${escapeHtml(chapter.title)}</h1>
-      </header>
-${passages}
-${isLatest ? `      <p class="continued">To be continued…<span>Someone new is writing the next part. Come back in a little while.</span></p>` : ""}
-    </article>
-    <nav class="pager">
-      ${previous}
-      <a href="../index.html#contents-heading">Contents</a>
-      ${next}
-    </nav>
-  </main>`;
+  const story = `      <article class="chapter">
+        <header class="chapter-heading">
+          <p class="eyebrow">Chapter ${toRoman(number)}</p>
+          <h1>${escapeHtml(chapter.title)}</h1>
+        </header>
+${renderPassages(chapter.passages, isLatest ? "latest" : null)}
+${isLatest ? `        ${CONTINUED}` : ""}
+      </article>
+      <nav class="pager">
+        ${previous}
+        <a href="../index.html">Front page</a>
+        ${next}
+      </nav>`;
 
   return renderPage({
     title: `${chapter.title} · ${BOOK_TITLE}`,
     description: `Chapter ${toRoman(number)} of ${BOOK_TITLE}, a book that never ends.`,
     root: "../",
     bodyAttributes: ` data-chapter="${chapterSlug(number)}"`,
-    content,
+    content: renderLayout(book, { root: "../", currentChapter: number, story }),
   });
 }
 

@@ -8,7 +8,7 @@ const book = {
     { title: "A <Box>", passages: ["Third."] },
   ],
   synopsis: "Someone waved.",
-  note: "Open the box.",
+  note: "Open the *box*.",
 };
 
 describe("storing chapters as text", () => {
@@ -40,7 +40,7 @@ describe("rendering pages", () => {
     assert.doesNotMatch(index, /<p>First\.<\/p>/);
     assert.match(index, /href="chapters\/001\.html">\s*<span class="contents-number">I</);
     assert.match(index, /A &#60;Box&#62;/);
-    assert.match(index, /Open the box\./);
+    assert.match(index, /Open the <em>box<\/em>\./);
     assert.match(index, /2 chapters · 3 words · 3 hands/);
   });
 
@@ -56,6 +56,13 @@ describe("rendering pages", () => {
     const chapter = renderChapter(book, 1);
     assert.match(chapter, /href="002\.html" rel="next"/);
     assert.doesNotMatch(chapter, /id="latest"|To be continued/);
+  });
+
+  test("every page carries the contents, marking the chapter being read", () => {
+    const chapter = renderChapter(book, 2);
+    assert.match(chapter, /href="\.\.\/chapters\/002\.html" aria-current="page"/);
+    assert.match(chapter, /href="\.\.\/chapters\/001\.html">/);
+    assert.doesNotMatch(renderIndex(book), /aria-current/);
   });
 
   test("the latest chapter marks its last passage and promises more", () => {

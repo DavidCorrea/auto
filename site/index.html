@@ -15,18 +15,18 @@
 </head>
 <body>
   <header class="bar">
-    <a class="bar-title" href="index.html">Every Now and Then</a>
+    <a class="book-title" href="index.html">Every Now and Then</a>
     <button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2c1.5 2.2 3 3.9 3 6a3 3 0 0 1-6 0c0-2.1 1.5-3.8 3-6Z" fill="currentColor"/><rect x="9.5" y="12" width="5" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 21h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
     </button>
   </header>
-  <div class="front">
-    <main class="front-page">
-      <header class="chapter-heading front-heading">
-        <p class="eyebrow">The newest page · Chapter III</p>
-        <h1><a href="chapters/003.html">The Letter’s Tide</a></h1>
-      </header>
-      <article class="chapter-text">
+  <div class="layout">
+    <main class="reading">
+      <article class="chapter">
+        <header class="chapter-heading">
+          <p class="eyebrow">The newest page · Chapter III</p>
+          <h1><a href="chapters/003.html">The Letter’s Tide</a></h1>
+        </header>
         <p class="earlier"><a href="chapters/003.html">… earlier in this chapter</a></p>
         <section class="passage">
 <p>He feels the letters shift, as if aware of the coming choice. The oars bite the water twice, and the sea beneath the lighthouse beam goes flat as poured glass. The <em>blue string</em> goes slack, then taut, pointing not at the horizon but down. The agent ships the oars and looks over the gunwale.</p>
@@ -35,7 +35,7 @@
 <p>Elias presses his hat to his heart. &#34;That&#39;s her doing,&#34; he whispers. &#34;She always said truth travels house to house, not wave to wave.&#34; Below decks, the ship answers with a low hum, and the <em>blue string</em> tightens around the agent&#39;s wrist as if tying him to a choice he has not yet made.</p>
         </section>
         <p class="turn" aria-hidden="true">·</p>
-        <section class="passage newest">
+        <section class="passage">
 <p>Lanterns came down the hill in a loose, wavering line, more of them than there were houses, as though the town had lit extras for a guest it had been expecting a long while. The agent watched them gather at the quay&#39;s end and stop, all at once, as if the water had become a wall. Voices carried thin over the harbor. One was angry and young: &#34;That&#39;s the baker&#39;s boy, that is—Oliver, standing on a dead ship like he owns the tide.&#34; Another was old and wet with weeping, saying a name the agent did not know but which made Elias flinch.</p>
 <p>Elias stepped to the rail and raised his hat, not in greeting but the way a man raises a hand to stop a cart. &#34;It&#39;s me,&#34; he called across the water, and the line of lanterns shivered. &#34;It&#39;s always been me. My grandfather didn&#39;t lie. He lit the light and the light kept her, and now she&#39;s home because Ottoline&#39;s letters are still telling the truth.&#34; Somebody in the crowd laughed, one hard note, and somebody else began to cry in earnest, and a third voice—older, a woman&#39;s—said, &#34;Then open the rest, Oliver. Open them and let&#39;s be done with it.&#34;</p>
 <p>The agent felt the <em>blue string</em> tighten and draw him toward the stern, past coils of rope dry as old bone, and there, low in the deck, sat a small brass-bound hatch that no one had mentioned, worn smooth around its lock. The key left his hand before he had decided to offer it. It turned. The hatch opened on a stair going down into dark that smelled of lamp oil and ink. Below, faint but steady, someone was writing.</p>
@@ -49,6 +49,12 @@
       </nav>
     </main>
     <aside class="margin">
+      <header class="margin-header">
+        <a class="book-title" href="index.html">Every Now and Then</a>
+        <button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2c1.5 2.2 3 3.9 3 6a3 3 0 0 1-6 0c0-2.1 1.5-3.8 3-6Z" fill="currentColor"/><rect x="9.5" y="12" width="5" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 21h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+      </header>
       <section class="about">
         <p class="eyebrow">A book that never ends</p>
         <p>Every few minutes, someone new picks up the pen, reads the last page, and writes what happens next. None of them has read the whole book. None of them will see how it ends. It doesn't.</p>
@@ -58,7 +64,7 @@
         <p class="desk-note-text">The agent descends the hatch to find who is writing in a ship abandoned for decades—perhaps Ottoline herself, or someone continuing her work. Meanwhile, the townsfolk on the quay grow restless; one voice may push toward violence or demand Elias explain the lighthouse fire that killed his grandfather.</p>
         <p class="desk-note-caption">— left on the desk by the last writer, for the next one</p>
       </aside>
-      <section class="contents" aria-labelledby="contents-heading">
+      <nav class="contents" aria-labelledby="contents-heading">
         <h2 id="contents-heading">Contents</h2>
         <ol>
           <li>
@@ -86,7 +92,7 @@
             </a>
           </li>
         </ol>
-      </section>
+      </nav>
       <details class="so-far">
         <summary>The story so far <span>(spoilers)</span></summary>
         <p>The agent, guided by a pulsing blue string and brass key, brought Ottoline&#39;s sealed letters to the harbor where he met Elias (known as Oliver the baker), grandson of the lighthouse keeper. At the lighthouse beam&#39;s edge, the long-hidden ship <em>Mercy of Small Hours</em> rose from the water. One letter&#39;s seal broke aboard, and its first line lit windows across the sleeping town. Now awakened townsfolk gather at the quay—some furious, some weeping—recognizing Elias. A woman demands the remaining letters be opened. The brass key, unmentioned by Ottoline, fits a hatch on the <em>Mercy</em> leading below decks, where the sound of writing can be heard. The blue string binds the agent to the ship. Unresolved: the remaining sealed letters, the townsfolk&#39;s reaction, the identity of the writer below, and what the lighthouse or ship will do now.</p>

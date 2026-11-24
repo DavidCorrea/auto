@@ -51,9 +51,9 @@ html {
 
 body {
   margin: 0;
+  min-height: 100vh;
   /* The tilted note can poke past the edge on narrow screens. */
   overflow-x: clip;
-  min-height: 100vh;
   background:
     radial-gradient(ellipse 90% 55% at 50% -8%, var(--glow), transparent 70%) no-repeat,
     var(--paper);
@@ -97,10 +97,37 @@ h2 {
   text-transform: uppercase;
 }
 
-/* The lamp */
+/* The book's title and the lamp: a top bar on narrow screens, the top of the margin on wide ones */
+
+.bar,
+.margin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bar {
+  padding: 1rem var(--gutter);
+}
+
+.margin-header {
+  display: none;
+}
+
+.book-title {
+  color: var(--ink-soft);
+  font-style: italic;
+  text-decoration: none;
+}
+
+.book-title:hover {
+  color: var(--accent);
+}
 
 .lamp {
   display: inline-grid;
+  flex: none;
   place-items: center;
   width: 2.5rem;
   height: 2.5rem;
@@ -118,25 +145,83 @@ h2 {
   box-shadow: 0 0 18px var(--glow);
 }
 
-/* The front page: the newest page of the story, with everything else in the margin */
+/* The story */
 
-.front {
+.reading {
   padding: 0 var(--gutter) 4rem;
 }
 
-.front-page {
+.chapter {
   max-width: 36em;
   margin: 0 auto;
-  container-type: inline-size;
+  padding-top: 2rem;
+  hyphens: auto;
 }
 
-.front-heading h1 a {
+.chapter-heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.chapter-heading h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.chapter-heading h1 a {
   color: inherit;
   text-decoration: none;
 }
 
-.front-heading h1 a:hover {
+.chapter-heading h1 a:hover {
   color: var(--accent);
+}
+
+.chapter-heading::after {
+  content: "❦";
+  display: block;
+  margin-top: 1.25rem;
+  color: var(--accent);
+  font-size: 1.4rem;
+}
+
+.passage p {
+  margin: 0;
+  text-align: justify;
+  text-indent: 1.5em;
+  orphans: 2;
+  widows: 2;
+}
+
+.passage p:first-child {
+  text-indent: 0;
+}
+
+/* Holds the drop cap inside a short first paragraph instead of pushing the next one aside. */
+body[data-chapter] .passage:first-of-type p:first-child {
+  display: flow-root;
+}
+
+body[data-chapter] .passage:first-of-type p:first-child::first-letter {
+  float: left;
+  margin: 0.08em 0.1em 0 0;
+  color: var(--accent);
+  font-size: 3.6em;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+.turn {
+  margin: 1.2rem 0;
+  color: var(--rule);
+  text-align: center;
+  line-height: 1;
+}
+
+#latest {
+  scroll-margin-top: 2rem;
 }
 
 .earlier {
@@ -151,12 +236,25 @@ h2 {
   color: inherit;
 }
 
+.continued {
+  margin: 3rem 0 0;
+  color: var(--ink-soft);
+  font-style: italic;
+  text-align: center;
+}
+
+.continued span {
+  display: block;
+  font-size: 0.85rem;
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.75rem;
-  margin: 2.5rem 0 0;
+  max-width: 36em;
+  margin: 2.5rem auto 0;
 }
 
 .button {
@@ -184,10 +282,31 @@ h2 {
   display: none;
 }
 
+.pager {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  max-width: 36em;
+  margin: 3rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+
+.pager a {
+  text-decoration: none;
+}
+
+.pager a[rel="next"] {
+  text-align: right;
+}
+
+/* The margin: about, the note, contents */
+
 .margin {
   max-width: 36em;
-  margin: 4rem auto 0;
-  padding-top: 3rem;
+  margin: 0 auto;
+  padding: 3rem var(--gutter) 4rem;
   border-top: 1px solid var(--rule);
   font-size: 0.95rem;
 }
@@ -197,16 +316,10 @@ h2 {
   color: var(--ink-soft);
 }
 
-.about .eyebrow {
-  margin-bottom: 0.5rem;
-}
-
 .stats {
   font-size: 0.85rem;
   font-variant-numeric: oldstyle-nums;
 }
-
-/* A note tucked in the margin */
 
 .desk-note {
   position: relative;
@@ -255,8 +368,6 @@ h2 {
   opacity: 0.7;
 }
 
-/* Contents */
-
 .contents {
   margin-top: 2.75rem;
 }
@@ -286,8 +397,13 @@ h2 {
   text-decoration: none;
 }
 
-.contents a:hover .contents-title {
+.contents a:hover .contents-title,
+.contents a[aria-current] .contents-title {
   color: var(--accent);
+}
+
+.contents a[aria-current] .contents-title {
+  font-weight: 600;
 }
 
 .contents-number {
@@ -338,176 +454,44 @@ h2 {
   font-size: 0.8rem;
 }
 
-/* Reading a chapter */
-
-.bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem var(--gutter);
-}
-
-.bar-title {
-  color: var(--ink-soft);
-  font-style: italic;
-  text-decoration: none;
-}
-
-.bar-title:hover {
-  color: var(--accent);
-}
-
-.chapter {
-  max-width: 36em;
-  margin: 0 auto;
-  padding: 2rem var(--gutter) 1rem;
-  hyphens: auto;
-}
-
-.chapter-heading {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.chapter-heading h1 {
-  margin: 0;
-  font-size: clamp(1.8rem, 6vw, 2.4rem);
-  font-style: italic;
-  font-weight: 400;
-}
-
-.chapter-heading::after {
-  content: "❦";
-  display: block;
-  margin-top: 1.25rem;
-  color: var(--accent);
-  font-size: 1.4rem;
-}
-
-.passage p {
-  margin: 0;
-  orphans: 2;
-  widows: 2;
-  text-align: justify;
-  text-indent: 1.5em;
-}
-
-.passage p:first-child {
-  text-indent: 0;
-}
-
-/* Holds the drop cap inside a short first paragraph instead of pushing the next one aside. */
-.chapter .passage:first-of-type p:first-child {
-  display: flow-root;
-}
-
-.chapter .passage:first-of-type p:first-child::first-letter {
-  float: left;
-  margin: 0.08em 0.1em 0 0;
-  color: var(--accent);
-  font-size: 3.6em;
-  font-weight: 600;
-  line-height: 0.8;
-}
-
-.turn {
-  margin: 1.2rem 0;
-  color: var(--rule);
-  text-align: center;
-  line-height: 1;
-}
-
-#latest {
-  scroll-margin-top: 2rem;
-}
-
-.continued {
-  margin: 3rem 0 0;
-  color: var(--ink-soft);
-  font-style: italic;
-  text-align: center;
-}
-
-.continued span {
-  display: block;
-  font-size: 0.85rem;
-}
-
-.pager {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 1rem;
-  max-width: 36em;
-  margin: 3rem auto 0;
-  padding: 1.5rem var(--gutter) 4rem;
-  border-top: 1px solid var(--rule);
-  font-size: 0.9rem;
-}
-
-.pager a {
-  text-decoration: none;
-}
-
-.pager a[rel="next"] {
-  text-align: right;
-}
-
-/* Wide screens: the margin sits on the left, the story takes the rest, and passages become open-book spreads. */
+/* Wide screens: the margin stays on the left while only the story scrolls. */
 
 @media (min-width: 64rem) {
-  .front {
+  .bar {
+    display: none;
+  }
+
+  .layout {
     display: grid;
-    grid-template-columns: clamp(18rem, 24vw, 26rem) minmax(0, 1fr);
-    column-gap: clamp(3rem, 5vw, 6rem);
-    align-items: start;
+    grid-template-columns: clamp(18rem, 24vw, 24rem) minmax(0, 1fr);
   }
 
-  .front-page {
-    max-width: none;
-    margin: 0;
-  }
-
-  /* Comes after the story in the markup so phones read the story first. */
   .margin {
+    position: sticky;
+    top: 0;
     grid-row: 1;
     grid-column: 1;
-    margin: 2rem 0 0;
-    padding: 0 clamp(2rem, 3vw, 3rem) 0 0;
+    height: 100vh;
+    height: 100dvh;
+    max-width: none;
+    margin: 0;
+    padding: 1.5rem clamp(1.5rem, 2.5vw, 2.5rem) 3rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule) transparent;
     border-top: 0;
     border-right: 1px solid var(--rule);
   }
 
-  .front-page {
+  .margin-header {
+    display: flex;
+    margin-bottom: 2.5rem;
+  }
+
+  .reading {
     grid-column: 2;
-  }
-
-  .chapter,
-  .pager {
-    max-width: calc(75em + 2 * var(--gutter));
-  }
-
-  .chapter .passage {
-    columns: 2;
-    column-gap: clamp(3rem, 6vw, 7rem);
-    column-rule: 1px solid var(--rule);
-  }
-}
-
-/* The front page's story gets the spread only when its column is wide enough. */
-.front-page .chapter-text {
-  max-width: 36em;
-  margin: 0 auto;
-}
-
-@container (min-width: 62rem) {
-  .front-page .chapter-text {
-    max-width: none;
-  }
-
-  .front-page .passage {
-    columns: 2;
-    column-gap: clamp(3rem, 5vw, 6rem);
-    column-rule: 1px solid var(--rule);
+    padding-top: 3rem;
   }
 }
 
