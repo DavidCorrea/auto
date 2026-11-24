@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 9854,
-  "passages": 37,
+  "words": 10125,
+  "passages": 38,
   "chapters": [
     {
       "number": 1,
@@ -65,6 +65,13 @@
       "title": "The Question Spoken",
       "words": 754,
       "passages": 3
+    },
+    {
+      "number": 10,
+      "numeral": "X",
+      "title": "The Harbor's Call",
+      "words": 271,
+      "passages": 1
     }
   ]
 }
