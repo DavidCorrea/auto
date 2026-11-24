@@ -1,1 +1,1 @@
-Add a Konami-code easter egg that triggers a brief color-burst animation across the page, something purely interactive rather than printable.
+Introduce a draggable constellation map that lets visitors rearrange memory stars interactively.
