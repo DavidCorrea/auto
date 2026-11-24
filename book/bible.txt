@@ -1,7 +1,7 @@
 Characters
 - Ines: she/her, about twelve; keeps away from the third door.
 - Her mother: she/her; lost her voice to the second door.
-- Ines’s brother: he/him; taken by the first door.
+- Ines’s brother: he/him; taken by the first door, now inside the house’s memory.
 
 Places
 - The house: long hall, three doors; third door forbidden.
@@ -10,7 +10,8 @@ Places
 Things and rules
 - Doors: first took her brother, second took her mother’s voice, third was avoided.
 - Brass key: her grandmother’s; opens the third door.
+- Memory lock: the key can turn inward in the house’s memory.
 
 Open threads
-- What lies beyond the third door now that Ines has opened it?
-- Where did the first and second doors send her family?
+- What the house’s *darkness* holds beyond the hall.
+- Whether Ines freed or bound her brother in the memory.
