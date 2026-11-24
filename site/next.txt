@@ -1,1 +1,1 @@
-Add a toggle button to switch between grid and list view for the collage.
+Try a purely visual change instead: give the swatches a slow staggered float-in animation when the page loads.

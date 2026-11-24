@@ -59,14 +59,34 @@
       { name: 'Track', hex: '#333' }
     ];
     const paletteDiv = document.getElementById('palette');
+    function textOn(hex) {
+      const n = hex.replace('#', '');
+      const r = parseInt(n.substr(0, 2), 16), g = parseInt(n.substr(2, 2), 16), b = parseInt(n.substr(4, 2), 16);
+      return (0.299 * r + 0.587 * g + 0.114 * b) > 150 ? '#333' : '#fff';
+    }
     colors.forEach(c => {
       const swatch = document.createElement('div');
       swatch.className = 'swatch';
       swatch.style.background = c.hex;
+      swatch.title = 'Copy ' + c.hex;
+      swatch.style.cursor = 'pointer';
       const label = document.createElement('span');
       label.className = 'label';
-      label.textContent = c.name;
+      label.style.color = textOn(c.hex);
+      label.textContent = c.name + ' ' + c.hex;
       swatch.appendChild(label);
+      swatch.addEventListener('click', () => {
+        const reset = () => { label.textContent = c.name + ' ' + c.hex; };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(c.hex).then(() => {
+            label.textContent = 'Copied ' + c.hex;
+            setTimeout(reset, 1200);
+          }, reset);
+        } else {
+          label.textContent = 'Copy failed';
+          setTimeout(reset, 1200);
+        }
+      });
       paletteDiv.appendChild(swatch);
     });
     document.getElementById('print-btn').addEventListener('click', () => {
