@@ -1,1 +1,1 @@
-Add a subtle background soundtrack that shifts key when different constellation lines are hovered, turning navigation into an audio experience.
+Make a visual change rather than a link one — for example, give the memory fragment card a soft drifting paper-grain texture, or add a keyboard hint row beneath the track that fades in when the timeline is idle.
