@@ -1,1 +1,1 @@
-Suggest adding a subtle chime sound that plays on hover, using the site’s existing JavaScript audio system.
+Consider adding a visual ripple effect on hover to complement the new chime sound
