@@ -1,1 +1,1 @@
-Add a hidden Konami-code easter egg that quiets the whole site into a text-only mode, a structural change of a completely different kind.
+Add a structural change: create a new page that gathers all six chime fragments into one readable list, and link it from the timeline.

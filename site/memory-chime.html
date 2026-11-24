@@ -9,7 +9,14 @@
     h1 { font-size: 1.2rem; margin-bottom: 2rem; color: #0066cc; }
     #fragments { max-width: 48rem; margin: 0 auto; }
     .fragment { border-left: 3px solid #333; padding: 0.25rem 0 0.25rem 0.9rem; min-height: 6rem; max-width: 65ch; margin: 0 auto 1.5rem auto; opacity: 0; transition: opacity 0.3s ease; }
-    .fragment.visible { opacity: 1; }
+    .fragment.visible { opacity: 1; border-left-color: #0066cc; box-shadow: 0 2px 12px rgba(0, 102, 204, 0.15); animation: fragment-in 0.4s ease both; }
+    @keyframes fragment-in {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .fragment.visible { animation: none; }
+    }
     .fragment h2 { margin: 0 0 0.4rem; font-size: 1rem; }
     .fragment p { margin: 0; }
     .hint { margin-top: 2rem; font-size: 0.85rem; color: #666; font-style: italic; }
