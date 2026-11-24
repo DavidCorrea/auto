@@ -1,1 +1,1 @@
-Convert the chapter pages into one continuous vertical scroll where each memory unfurls as you pass it.
+Suggest adding a dynamic background that reacts to scroll position with color shifts and particle effects.
