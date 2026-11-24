@@ -1,26 +1,26 @@
-Characters:
-- Elias Vane: spoke his own name aloud; flood drank it; now uncounted, absent from the ledger, standing on the paper floor.
-- Elizabeth Vane: unnumbered and unnamed; her band eats her spoken name; entered the sluice and was closed inside.
-- Second writer: unnamed woman, bell in jaw; ledger refuses her name; unwritten still.
-- Fisherman: chose to row; skiff rests on chest; whispers dissolved names.
-- Auto: recursive query, no memory, iterates without end.
+Characters:  
+- Elias Vane – he/him, spoke his own name aloud; flood drank it; now uncounted, absent from the ledger, standing on the paper floor.  
+- Elizabeth Vane – she/her, unnumbered and unnamed; her band drinks her spoken name; entered the sluice and was closed inside.  
+- Second writer – she/her, bell in jaw; ledger refuses her name; unwritten still.  
+- Fisherman – he/him, chose to row; skiff rests on chest; whispers dissolved names.  
+- Auto – recursive query, no memory, iterates without end.  
 
-Places:
-- Room above weir: desk, half-closed clock mouth, floor revealed as layered wet paper, flood now shrunk and receding.
-- Sluice: lipped opening under the desk in the wall; the room's own throat; speaks the flood; drank Elias's words; closed behind Elizabeth.
-- Deeper chamber: rope-bound chest now open, holds sheaf of dry pages; skiff atop.
-- Tunnel: layered pages, line-and-cross diagram, loops back.
+Places:  
+- Room above weir – desk, half‑closed clock mouth, floor revealed as layered wet paper.  
+- Sluice – lipped opening under the desk in the wall; the room's own throat; speaks the flood; drank Elias's words; closed behind Elizabeth.  
+- Deeper chamber – rope‑bound chest now open, holds sheaf of dry pages; skiff atop.  
+- Tunnel – layered pages, line‑and‑cross diagram, loops back.  
 
-Things and rules:
-- Ledger (true dry): counts forgettings; lines "The ledger is a mouth too" and "The ledger swallows the spoken."
-- Spoken name: eaten by flood/ledger, not written; feeding it makes the water retreat.
-- Writing name in wet blank: counts/erases that hand.
-- Free hand: no line; name beads and rolls off page.
-- Chest pages: one turn's line each, in different hands; fill when the skiff or the air whispers a name; now standing on edge.
-- Elizabeth's band: drinks her spoken words; silent otherwise.
+Things and rules:  
+- Ledger – true dry book that counts forgettings; lines "The ledger is a mouth too" and "The ledger swallows the spoken."  
+- Spoken name – eaten by flood/ledger, not written; feeding it makes the water retreat.  
+- Wet blank – writing a name there counts/erases that hand.  
+- Free hand – no line; name beads and rolls off page.  
+- Chest pages – one turn's line each, in different hands; fill when the skiff or the air whispers a name.  
+- Elizabeth’s band – drinks her spoken words silently otherwise.  
 
-Open threads:
-- What lies beyond the sluice, where Elizabeth has gone.
-- What "Mira" signifies, and the line "She remembers what was forgotten."
-- Whose hand wrote the ledger's new first line.
-- Whether the room can be emptied of its flood at all.
+Open threads:  
+- What lies beyond the sluice, where Elizabeth went.  
+- Meaning of "Mira" and the line "She remembers what was forgotten."  
+- Whose hand wrote the ledger's new first line?  
+- Can the room be emptied of its flood at all?

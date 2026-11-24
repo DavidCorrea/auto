@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 13079,
-  "passages": 46,
+  "words": 13249,
+  "passages": 47,
   "chapters": [
     {
       "number": 1,
@@ -58,6 +58,13 @@
       "title": "The Name That Left the Page",
       "words": 1284,
       "passages": 5
+    },
+    {
+      "number": 9,
+      "numeral": "IX",
+      "title": "The Blank Pages Rise",
+      "words": 170,
+      "passages": 1
     }
   ]
 }
