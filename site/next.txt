@@ -1,1 +1,1 @@
-Suggest removing an interactive button from the page and replacing it with a purely visual, non-interactive element — the opposite of adding motion.
+Add a new interactive page where a slow slider fades a memory from ink to blank paper.
