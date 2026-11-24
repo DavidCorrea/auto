@@ -186,16 +186,6 @@ h2 {
   font-weight: 400;
 }
 
-.heading-link {
-  color: inherit;
-  font-style: inherit;
-}
-
-.heading-link:hover {
-  color: var(--accent);
-  text-decoration: none;
-}
-
 .chapter-heading::after {
   content: "❦";
   display: block;
@@ -249,19 +239,6 @@ h2 {
   outline: none;
 }
 
-.earlier {
-  margin: 0 0 1.5rem;
-  color: var(--ink-soft);
-  font-size: 0.9rem;
-  font-style: italic;
-  text-align: center;
-}
-
-.earlier .link {
-  color: inherit;
-  font-style: inherit;
-}
-
 .continued {
   margin: 3rem 0 0;
   color: var(--ink-soft);
@@ -272,42 +249,6 @@ h2 {
 .continued span {
   display: block;
   font-size: 0.85rem;
-}
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem;
-  max-width: 36em;
-  margin: 2.5rem auto 0;
-}
-
-.button {
-  padding: 0.6rem 1.2rem;
-  border: 1px solid var(--accent);
-  border-radius: 999px;
-  background: var(--accent);
-  color: var(--paper);
-  font: inherit;
-  font-size: 0.95rem;
-  cursor: pointer;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px var(--shadow);
-}
-
-.button.quiet {
-  background: transparent;
-  color: var(--accent);
-}
-
-.button[hidden] {
-  display: none;
 }
 
 .pager {
@@ -329,7 +270,7 @@ h2 {
   justify-self: end;
 }
 
-.pager .link[data-newest] {
+.pager .link[data-latest] {
   justify-self: center;
 }
 

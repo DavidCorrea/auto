@@ -1,11 +1,7 @@
 // The reader. index.html is the only page and its address never changes: this loads
-// book.json for the contents and shows one chapter (or the newest page) in the reading
-// area. What's open, and how far down, is remembered in local storage, so a returning
+// book.json for the contents and shows one chapter at a time in the reading area. What's open, and how far down, is remembered in local storage, so a returning
 // reader picks up where they left off and a new one starts at Chapter I.
 // Chapters are plain text, so everything is built with DOM methods, never innerHTML.
-
-const RECENT_PASSAGES_ON_FRONT_PAGE = 2;
-export const NEWEST = "newest";
 
 // Blank lines separate paragraphs, single newlines are line breaks, and *asterisks* mark italics.
 export function parseProse(text) {
@@ -26,10 +22,9 @@ export function parseProse(text) {
     );
 }
 
-// What to open on arrival: the remembered view if it still exists, otherwise Chapter I.
-export function viewToOpen(storedView, chapterCount) {
-  if (storedView === NEWEST) return NEWEST;
-  const number = Number(storedView);
+// What to open on arrival: the remembered chapter if it still exists, otherwise Chapter I.
+export function chapterToOpen(storedChapter, chapterCount) {
+  const number = Number(storedChapter);
   return Number.isInteger(number) && number >= 1 && number <= chapterCount ? number : 1;
 }
 
@@ -43,7 +38,7 @@ function start() {
   const reading = document.getElementById("reading");
   const chapterCache = new Map();
   let book = null;
-  let shownView = null;
+  let shownChapter = null;
   let latestNavigation = 0;
 
   // Storage can be unavailable (private windows, blocked site data), so every access is guarded.
@@ -86,13 +81,9 @@ function start() {
     return node;
   }
 
-  // Every way of moving around the book is a button naming where it goes; one click handler serves them all.
-  const goTo = (view, { text, className = "link", children = [], attributes = {} }) =>
-    element("button", {
-      className,
-      text,
-      attributes: { type: "button", ...(view === NEWEST ? { "data-newest": "" } : { "data-chapter": String(view) }), ...attributes },
-    }, children);
+  // Every way of moving around the book is a button naming the chapter it opens; one click handler serves them all.
+  const goTo = (number, { text, className = "link", children = [], attributes = {} }) =>
+    element("button", { className, text, attributes: { type: "button", "data-chapter": String(number), ...attributes } }, children);
 
   function renderPassage(passage) {
     const paragraphs = parseProse(passage).map((lines) => {
@@ -120,11 +111,10 @@ function start() {
       element("span", { text: "Someone new is writing the next part. Come back in a little while." }),
     ]);
 
-  function heading(eyebrow, title, view) {
-    const titleNode = view ? goTo(view, { text: title, className: "link heading-link" }) : title;
+  function heading(eyebrow, title) {
     return element("header", { className: "chapter-heading" }, [
       element("p", { className: "eyebrow", text: eyebrow }),
-      element("h1", { attributes: { tabindex: "-1" } }, [titleNode]),
+      element("h1", { text: title, attributes: { tabindex: "-1" } }),
     ]);
   }
 
@@ -133,7 +123,7 @@ function start() {
       element("li", {}, [
         goTo(chapter.number, {
           className: "link contents-entry",
-          attributes: chapter.number === shownView ? { "aria-current": "page" } : {},
+          attributes: chapter.number === shownChapter ? { "aria-current": "page" } : {},
           children: [
             element("span", { className: "contents-number", text: chapter.numeral }),
             element("span", { className: "contents-title", text: chapter.title }),
@@ -146,27 +136,6 @@ function start() {
     document.getElementById("contents").replaceChildren(...items);
     document.getElementById("stats").textContent =
       `${plural(book.chapters.length, "chapter")} · ${plural(book.words, "word")} · ${plural(book.passages, "hand")}`;
-  }
-
-  async function renderNewest() {
-    const latest = book.chapters.at(-1);
-    const chapter = await loadChapter(latest.number);
-    const recent = chapter.passages.slice(-RECENT_PASSAGES_ON_FRONT_PAGE);
-    const hasEarlier = recent.length < chapter.passages.length;
-
-    document.title = book.title;
-    return [
-      element("article", { className: "chapter" }, [
-        heading(`The newest page · Chapter ${latest.numeral}`, latest.title, latest.number),
-        ...(hasEarlier ? [element("p", { className: "earlier" }, [goTo(latest.number, { text: "… earlier in this chapter" })])] : []),
-        ...renderPassages(recent),
-        continued(),
-      ]),
-      element("nav", { className: "actions" }, [
-        goTo(1, { text: "Begin at the beginning", className: "button" }),
-        goTo(latest.number, { text: `Read Chapter ${latest.numeral} from the start`, className: "button quiet" }),
-      ]),
-    ];
   }
 
   async function renderChapter(number) {
@@ -185,27 +154,27 @@ function start() {
       ]),
       element("nav", { className: "pager" }, [
         previous ? goTo(previous.number, { text: `← Chapter ${previous.numeral}`, attributes: { rel: "prev" } }) : element("span"),
-        goTo(NEWEST, { text: "Newest page" }),
+        isLatest ? element("span") : goTo(book.chapters.length, { text: "Latest chapter", attributes: { "data-latest": "" } }),
         next ? goTo(next.number, { text: `Chapter ${next.numeral} →`, attributes: { rel: "next" } }) : element("span"),
       ]),
     ];
   }
 
-  // Shows a view. `progress` (0–1) restores a scroll position; otherwise the view opens at its top.
-  async function show(view, { progress = 0 } = {}) {
+  // Shows a chapter. `progress` (0–1) restores a scroll position; otherwise it opens at its top.
+  async function show(number, { progress = 0 } = {}) {
     const navigation = ++latestNavigation;
     try {
-      const content = view === NEWEST ? await renderNewest() : await renderChapter(view);
+      const content = await renderChapter(number);
       // A slower chapter must not replace one the reader has since moved on to.
       if (navigation !== latestNavigation) return;
-      shownView = view;
+      shownChapter = number;
       reading.replaceChildren(...content);
     } catch (error) {
       reading.replaceChildren(element("p", { className: "status", text: `The page couldn't be loaded. ${error.message} Try refreshing.` }));
       throw error;
     }
     renderContents();
-    store("view", String(view));
+    store("chapter", String(number));
     scrollTo(0, progress * (document.documentElement.scrollHeight - innerHeight));
     store("progress", String(progress));
     // Moves keyboard and screen reader focus to the new page without scrolling past its top.
@@ -213,30 +182,31 @@ function start() {
   }
 
   // The address stays the same; history entries only let the back button step through a visit.
-  function navigate(view) {
-    if (view === shownView) {
+  function navigate(number) {
+    if (number === shownChapter) {
       scrollTo(0, 0);
       return;
     }
-    history.pushState({ view }, "");
-    show(view);
+    history.pushState({ chapter: number }, "");
+    show(number);
   }
 
+  // The book's title in the shell opens the latest chapter, whichever that is by now.
   document.addEventListener("click", (event) => {
-    const target = event.target.closest("[data-chapter], [data-newest]");
+    const target = event.target.closest("[data-chapter], [data-latest]");
     if (!target) return;
-    navigate(target.hasAttribute("data-newest") ? NEWEST : Number(target.dataset.chapter));
+    navigate(target.dataset.chapter ? Number(target.dataset.chapter) : book.chapters.length);
   });
 
   addEventListener("popstate", (event) => {
-    if (event.state?.view !== undefined) show(event.state.view);
+    if (event.state?.chapter) show(event.state.chapter);
   });
 
   let isSavingPlace = false;
   addEventListener(
     "scroll",
     () => {
-      if (isSavingPlace || shownView === null) return;
+      if (isSavingPlace || shownChapter === null) return;
       isSavingPlace = true;
       setTimeout(() => {
         const scrollable = document.documentElement.scrollHeight - innerHeight;
@@ -259,10 +229,10 @@ function start() {
   fetchJson("book.json")
     .then((index) => {
       book = index;
-      const view = viewToOpen(readStored("view"), book.chapters.length);
-      const isSameView = readStored("view") === String(view);
-      history.replaceState({ view }, "");
-      return show(view, { progress: isSameView ? Number(readStored("progress")) || 0 : 0 });
+      const chapter = chapterToOpen(readStored("chapter"), book.chapters.length);
+      const isRememberedChapter = readStored("chapter") === String(chapter);
+      history.replaceState({ chapter }, "");
+      return show(chapter, { progress: isRememberedChapter ? Number(readStored("progress")) || 0 : 0 });
     })
     .catch((error) => {
       reading.replaceChildren(element("p", { className: "status", text: `The book couldn't be loaded. ${error.message} Try refreshing.` }));
