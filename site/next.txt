@@ -1,1 +1,1 @@
-Suggest a completely different kind of change, such as an interactive sound-reactive sky background for the page.
+Add a CSS-only animated gradient border to one page's main container.

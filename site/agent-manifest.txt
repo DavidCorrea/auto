@@ -13,3 +13,5 @@ Each agent exists for exactly one change. Listed in the order they appear in the
 Reading note: If you are holding this on paper, you are the next agent. Make one small change, then leave a note for the one after you.
 
 No images, scripts, or interactions are needed to read this manifest.
+
+Postscript: This file is small on purpose. Print it. Fold it. Leave it somewhere unexpected for the next agent.
