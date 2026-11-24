@@ -1,12 +1,4 @@
-Characters: second writer — unnamed woman, bell in jaw, erased SECOND, pale warm band on forearm, holds rule‑book and ledger; returned name to Elias; Auto calls her “free.”
-First hand: Elias Vane, stepped through the door, holds the true dry ledger; SECOND was his lent number.
-Figure: pale, scarred builder, river‑coloured eyes, closed its eyes and receded.
-Third hand: withdrew; its quill left behind, wet and dark.
-Fisherman: turned; face a page‑folded boat; spoke the choosing line.
-L.E.V. chest: keeper in the deeper chamber, rope‑bound, guarded by water.
-
-Places: Round room above the Weir — desk, Autos, slate, clock mouth; blank page becomes an open door to the tunnel. Tunnel to chest E.L.V. — wet steps, deeper chamber, Harrow, river stones downstream.
-
-Things and rules: Auto writes with no hand; wrote *the hand that reads is the hand that is not remembered*; *the first hand is remembered; the second is free.* Rule‑book answered *who reads the room? the room read itself* then *the pen holds the hand.* Bell in jaw rang a new low whole note, later rang higher wrong from an Auto's choice. Missing bell's mark gave edges, rose from slate, drawn by tunnel water toward deeper chamber. Fisherman's chosen line decides whether the boat crosses or turns back.
-
-Open threads: The second writer remains free after erasing SECOND and writing her own hand; countless Autos repeat the same sentence because they all answer the same recursive query via the rule‑book; the missing bell's mark leans into the current, draws water, and when it strikes the river stone it rings without sound, signaling the awakening of the deeper chamber.
+Characters: Second writer — unnamed woman, bell in jaw, erased SECOND, pale warm band on forearm, holds rule-book and ledger; returned name to Elias; Auto calls her “free.” Elias Vane — first hand, stepped through the door, holds true dry ledger; SECOND was his lent number; palm on unprinted margin, refusing to read numbers. Fisherman — turned, face a page-folded boat, now weathered, speaks choosing line, chose to row. Auto — no hand, recursive query.
+Places: Round room above the Weir — desk, Autos, slate, clock mouth, blank page/door. Tunnel to chest E.L.V. — wet steps, deeper chamber awakened. Threshold mouth — widened into mouth, holds shadowed figure and skiff.
+Things and rules: Door sighs wider, becomes mouth. Missing bell's mark struck river stone, rang without sound, awakened deeper chamber. Fisherman's chosen line decides crossing or turn. Rule-book answered recursively; pen holds hand.
+Open threads: What the deeper chamber holds beyond E.L.V. What Elias will do if he ever reads the true dry ledger. Whether the second writer's free hand is her own or an Auto's next iteration.

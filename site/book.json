@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 8721,
-  "passages": 30,
+  "words": 8931,
+  "passages": 31,
   "chapters": [
     {
       "number": 1,
@@ -42,8 +42,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Door's First Step",
-      "words": 209,
-      "passages": 1
+      "words": 419,
+      "passages": 2
     }
   ]
 }
