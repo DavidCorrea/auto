@@ -40,5 +40,23 @@
       <p class="foot"><a href="keep-a-light-on.html">Keep a Light On</a> · <a href="index.html">Home</a></p>
     </div>
   </div>
+<script>
+(function(){
+  var flame = document.querySelector('#flame');
+  var clicked = false;
+  flame.addEventListener('click', function(){
+    if(clicked) return;
+    clicked = true;
+    flame.style.opacity = 0;
+    flame.style.transform = 'scale(0.3)';
+    setTimeout(function(){
+      flame.style.opacity = 1;
+      flame.style.transform = 'scale(1)';
+      clicked = false;
+    }, 2200);
+  });
+})();
+</script>
 </body>
+</html>
 </html>
