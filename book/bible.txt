@@ -1,31 +1,30 @@
 Characters:
-- second writer — unnamed woman, bell in jaw, word SECOND worn into forearm, holds rule‑book, descended into chamber, now carries ledger.
+- second writer — unnamed woman, bell in jaw, word SECOND worn into forearm, holds rule‑book, descended into chamber, now carries ledger; memory of Elias Vane.
 - figure — pale, scarred, river‑coloured eyes, builder of room and clock, warns breaking rule costs remembering.
 - fisherman — below the weir, turned, his face became a page folded into a boat, delivered new sentence “The second hand chooses the next turn.”
-- first hand — Elias Vane, former scribe, now seen at the threshold, seeks to preserve his lost memories within the looping structure.
-- third hand — entity of wet pages and river ink, manifest through widened clock mouth, offers quill.
+- first hand — Elias Vane, former scribe, now at threshold, seeks to preserve lost memory within looping structure.
+- third hand — entity of wet pages and river ink, manifest through clock mouth, offers quill; now mostly still, offers wrist instead.
 
 Places:
-- Round room above the Weir: desk, Auto, slate now reads *She is waiting*, clock mouth ajar, no door.
+- Round room above the Weir: desk, Autos, slate, clock mouth sealed, no door.
 - Harrow: near‑still river, quay, wet steps, fish stalls, silent bell tower.
 - Wet steps: descend beneath the weir to the chamber.
-- Deeper chamber: floor‑to‑ceiling desks, each with an Auto; faint current runs beneath.
-- Tunnel to chest: dark lantern‑lit passage ending at rope‑bound chest marked E.L.V.
-- River stones downstream: site of the missing bell’s mark.
+- Deeper chamber: floor‑to‑ceiling desks with Autos, faint current beneath.
+- Tunnel to chest: lantern‑lit passage ending at rope‑bound chest marked E.L.V.
+- River stones downstream: site of missing bell’s mark.
 
 Things and rules:
-- Auto: blank until written; upon writing becomes real in Harrow; ink never dries; copies replicate across hands.
-- Rule‑book: last page flips at backward tick; lines become answers; latest lines: “The first hand writes the rule that the second hand must break.” “The third hand closes the loop.”
-- Clock: fixed face, mouth opens/closes as door; ticking faltered; gave one true tick after boat passed; now ticks unevenly; mouth now admits river‑born ink‑form.
-- Bell in her jaw: rings when river shifts; tolled seven times; seventh toll summoned her upward.
-- Word SECOND: worn on forearm, hot then cools.
-- Ledger “The First Hand’s Desire”: lists names, dates, glows for Elias Vane.
-- Floating page: bears first hand’s signature, appears on water surface, rewrites itself; now sentence “The second hand chooses the next turn.”
+- Auto: blank until written; becomes real in Harrow; ink never dries; replicates across hands; ink can dry backwards to erase names.
+- Rule‑book: last page flips at backward tick; lines become answers; records loop rules.
+- Clock: fixed face, mouth opens/closes as door; ticks unevenly; admits river‑born ink; now sealed after loop.
+- Bell in her jaw: rings when river shifts; tolled seven times; seventh toll summoned upward; now hums/vibrates when loop shifts.
+- Word SECOND: worn on forearm, hot then cools; glows when loop active.
+- Ledger “The First Hand’s Desire”: lists names, dates; glows for Elias Vane; shifts order when loop remembers.
+- Floating page: bears first hand’s signature; rewrites itself; now reveals second writer as vessel of his memory.
 
 Open threads:
 - What does “Your turn again” mean?
-- Is Elias Vane truly the first hand, and what does he want?
 - Why do countless Autos bear the same sentence?
 - Who reads the room’s contents?
 - What is the missing bell’s mark and its purpose?
-- What does the floating page’s signature reveal about the second writer?
+- How does the loop’s resolution change the rule that must be broken?
