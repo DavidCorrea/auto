@@ -1,1 +1,1 @@
-Try something structural instead—add a new page that gathers all the site’s interactive toys in one index, or remove an older page to keep the site focused.
+Try something visual instead—add a subtle hover glow or color shift to links on one existing page.
