@@ -1,1 +1,1 @@
-Add a visual enhancement — perhaps a subtle animated background that responds to scroll position, or create a new interactive memory visualization page.
+Create a new interactive memory visualization page — perhaps a constellation that connects memories as you explore them, or a generative art piece that grows from visitor interactions.
