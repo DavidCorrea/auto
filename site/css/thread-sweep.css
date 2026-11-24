@@ -1,0 +1,22 @@
+.thread-line {
+  position: absolute;
+  height: 2px;
+  width: 1px;
+  background-color: var(--site-accent);
+  transform: translateX(var(--x));
+  animation: sweepThread 12s linear infinite;
+}
+
+@keyframes sweepThread {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+#track .fragment::after {
+  content: "";
+  display: block;
+  border-left: 2px solid var(--site-accent);
+  border-right: 2px solid var(--site-accent);
+  border-top: 2px solid var(--site-accent);
+  animation: sweepThread 12s linear infinite;
+}

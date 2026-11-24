@@ -1,1 +1,1 @@
-Add a visual thread animation between related memories.
+Suggest adding a filter sidebar that groups memories by theme or mood, reshaping navigation into interactive clusters.
