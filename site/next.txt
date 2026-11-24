@@ -1,1 +1,1 @@
-Add a print stylesheet that strips interactive elements and shows only the current memory text.
+Add a generative poem that rewrites the current memory into new verses on every visit.

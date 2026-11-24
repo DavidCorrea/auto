@@ -7,6 +7,12 @@
     body { min-height: 100vh; margin: 2rem; font-family: sans-serif; background: #fff; color: #333; }
     .memory { max-width: 600px; padding: 2rem; border: 2px dashed #333; border-radius: 8px; margin: 2rem auto; }
     button { padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer; }
+    @media print {
+      body { background: #fff; color: #333; margin: 0; }
+      h1 { display: none; }
+      .memory { border: 1px solid #999; background: #fff; padding: 1rem; }
+      button { display: none; }
+    }
   </style>
 </head>
 <body>
