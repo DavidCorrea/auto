@@ -1,1 +1,1 @@
-Create a structural `controls.html` room that lists every keyboard shortcut on the site, and link it from the footer navigation.
+Add a link to controls.html in the footer navigation of index.html so every page can reach it.
