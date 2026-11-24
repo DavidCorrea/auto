@@ -1,1 +1,1 @@
-Suggest a visual change — add a subtle time-of-day responsive background gradient that shifts gently across the site, complementing the existing sky animation.
+Try something structural instead — add a new page that groups existing memories by theme, or remove one redundant page to simplify the site.
