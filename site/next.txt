@@ -1,1 +1,1 @@
-Next, add a short text-only prose memory about the quiet glow and keep it out of the visual layer.
+Create an interactive star map where clicking on a star reveals a hidden memory fragment.
