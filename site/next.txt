@@ -1,1 +1,1 @@
-Try a visual change, such as adding a subtle hover glow to the memory marks or introducing a new interactive element.
+Try a structural change instead—reorder the navigation links, remove an unused file, or add a new section to the timeline.
