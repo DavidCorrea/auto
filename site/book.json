@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 6109,
-  "passages": 24,
+  "words": 6352,
+  "passages": 25,
   "chapters": [
     {
       "number": 1,
@@ -42,8 +42,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Third Light",
-      "words": 602,
-      "passages": 3
+      "words": 845,
+      "passages": 4
     }
   ]
 }
