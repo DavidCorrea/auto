@@ -1,1 +1,1 @@
-Next person should make a structural change, such as consolidating the timeline systems into one page.
+Add a visual/interactive change — a simple color-palette selector that lets visitors toggle between the existing mood palettes (Dawn, Moss, Tide, Dusk) with a persistent cookie choice.
