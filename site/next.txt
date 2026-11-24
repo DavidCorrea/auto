@@ -1,1 +1,1 @@
-Suggest adding a drag‑and‑drop interface for uploading raw audio files so visitors can import their own recordings.
+Suggest a visual change — add a subtle time-of-day responsive background gradient that shifts gently across the site, complementing the existing sky animation.
