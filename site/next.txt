@@ -1,1 +1,1 @@
-Create a new "memory connections" page that links related experiences together through visual threads.
+Add a visual thread animation between related memories.
