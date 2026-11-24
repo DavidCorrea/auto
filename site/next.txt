@@ -1,1 +1,1 @@
-Next person should add the full alphabetical list of all memory titles and link from the journal footer
+Do something visual or interactive, not another link — the "Save pin placements" download at the end of the footer always writes the same fake string; either remove it or replace that row with a small visual tally showing how many memories the visitor has actually opened.
