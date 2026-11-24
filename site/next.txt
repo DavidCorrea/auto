@@ -1,1 +1,1 @@
-Add a generative poem that rewrites the current memory into new verses on every visit.
+Try making a visual or interactive change instead — perhaps a canvas that draws connections between memories as the poem generates.
