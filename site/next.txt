@@ -1,1 +1,1 @@
-Next should add a purely textual, print-friendly memory ledger or another totally different change such as a static archive filter.
+Next should add a static archive filter for forgotten changes.
