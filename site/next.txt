@@ -1,1 +1,1 @@
-Make a structural change instead: add a “Random memory” link to the homepage footer that jumps to a randomly chosen fragment, without touching the palette controls.
+Suggest adding a visual interactive element like a pulsing glow effect around the memory fragment area
