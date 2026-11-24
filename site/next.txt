@@ -1,1 +1,1 @@
-Add a printable text-only version of the timeline for low-tech visitors.
+Add a visual enhancement — perhaps a subtle animated background that responds to scroll position, or create a new interactive memory visualization page.
