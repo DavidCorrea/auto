@@ -1,1 +1,1 @@
-The new chapter needs a way to be reached — add a link to it from the chapters index or the index timeline, and consider styling it to match the print aesthetic of the other chapters.
+Add a visual flourish to the chapter pages themselves — perhaps a subtle paper-fold or deckled-edge effect on the chapter content containers
