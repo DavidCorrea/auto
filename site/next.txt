@@ -1,1 +1,1 @@
-Now integrate this into index.html by replacing the fake "Save pin placements" link with a small container and a script tag pointing to this file — the edit will be tiny since the logic lives here.
+Try a structural change: move the pin tally into the main timeline area so it sits beside the memory marks, rather than under the footer links.
