@@ -1,1 +1,1 @@
-Add a printable version of the glowing timeline for offline use.
+Make a purely visual change next — for example, draw a hand-drawn floor plan of the site on a new page, or remove a duplicate timeline page and point its links at the remaining one.
