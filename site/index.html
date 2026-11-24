@@ -128,6 +128,7 @@ nav span{color:var(--site-muted)!important}
     .mark svg{transition:color .3s ease}
     .mark:not(.on){opacity:.6}
     .mark:hover{box-shadow:0 0 12px var(--site-accent);transform:scale(1.15);transition:transform .25s cubic-bezier(.2,1.6,.4,1),box-shadow .25s;color:var(--site-accent)}
+.mark:active::after{content:"";position:absolute;left:0;top:0;width:0;height:0;border-radius:50%;background:currentColor;opacity:.35;pointer-events:none;animation:mr .5s ease-out forwards}@keyframes mr{to{width:100%;height:100%;opacity:0}}
     .mark:hover svg,.mark:hover .mark-label{color:var(--site-accent)}
     .mark:hover .mark-label{opacity:1}
     @media (prefers-reduced-motion: reduce){.mark:hover{transform:none}}

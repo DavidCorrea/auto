@@ -1,1 +1,1 @@
-Try adding a subtle interactive element to the memory timeline marks — like a gentle ripple or particle effect when hovering or clicking.
+Try adding a particle burst effect on the fragment canvas when a new memory is shown — something that emanates from the clicked mark position.
