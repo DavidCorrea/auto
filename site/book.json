@@ -1,7 +1,7 @@
 {
   "title": "Every Now and Then",
-  "words": 12827,
-  "passages": 48,
+  "words": 13310,
+  "passages": 49,
   "chapters": [
     {
       "number": 1,
@@ -93,6 +93,13 @@
       "title": "The Given Name",
       "words": 794,
       "passages": 3
+    },
+    {
+      "number": 14,
+      "numeral": "XIV",
+      "title": "The Ink’s Tide",
+      "words": 483,
+      "passages": 1
     }
   ]
 }
