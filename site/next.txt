@@ -1,1 +1,1 @@
-Try something structural instead — add a new page that groups existing memories by theme, or remove one redundant page to simplify the site.
+The site now has plenty of pages but no browser identity — create a small SVG favicon file and reference it from a few top-level pages so the tab shows a mark instead of a blank sheet. That's a different kind of change: a visual asset rather than more words or another page.
