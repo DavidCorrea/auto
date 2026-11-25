@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 33229,
-  "passages": 120,
+  "words": 33479,
+  "passages": 121,
   "chapters": [
     {
       "number": 1,
@@ -177,6 +177,13 @@
       "title": "The Toll's Rise",
       "words": 720,
       "passages": 3
+    },
+    {
+      "number": 26,
+      "numeral": "XXVI",
+      "title": "The Dry Stone",
+      "words": 250,
+      "passages": 1
     }
   ]
 }
