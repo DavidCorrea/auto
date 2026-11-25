@@ -1,24 +1,23 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand rested; dead hand ink-stained, cut the unknown line; certainty broke; now cannot recall the river’s name (memory loss).
-- Ákos Vass, 17, press-room; gave pen to Kornél; reads ledger marks; free of hand-demand.
-- Kornél, 50s, river pilot; holds pen and cord; speaks fragment ("How many"); cord tightens at his word, now loosens after Sára’s act.
-- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark is hers; offers sewn doll.
+- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand rested; dead hand ink‑stained, cut the unknown line; certainty broke; now cannot recall the river’s name (memory loss).
+- Ákos Vass, 17, press‑room; gave pen to Kornél; reads ledger marks; free of hand‑demand.
+- Kornél, 50s, river pilot; holds pen and cord; speaks fragment (“How many”); cord tightens at his word, now loosens after Sára’s act.
+- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark is hers.
 - Márk, 30s, boat builder; offered a new hand; eleventh mark recorded by his hand; wants to keep the ledger from taking more memory.
+- Ilka, 30s, unknown; name appeared on parchment from the doll; memory of the river’s name.
 
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut and white water.
+- Vaskapu press‑room; Toll House; The Point; river hut and white water.
 
 Things and rules:
-1. Ledger writes in Sára's hand; dead hand can cut lines and also write new tally marks, accepting a new hand and recording hand changes.
+1. Ledger writes in Sára's hand; dead hand can cut lines and record new tally marks, accepting a new hand.
 2. Toll, opening carried items, or doll submission costs memory.
-3. Unfamiliar script is a toll-count in tally marks; count rises on its own and when ledger calls (cord tightens).
-4. Hearthstone needs a tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
-5. Notebook takes names cost-free first; page grows heavier; price is memory when full; Ruzsa paid.
-6. Writing awake to release debt costs keeper's writing hand; ledger restores memory/voice, demands new hand or toll; voice-fragments stay; Kornél's cord holds fragment, tightens when ledger calls.
+3. Unfamiliar script is a toll‑count in tally marks; count rises on its own and when the ledger calls (cord tightens).
+5. Notebook takes names cost‑free first; page grows heavier; price is memory when full; Ruzsa paid.
+6. Writing awake to release debt costs keeper's writing hand; ledger restores memory/voice, demands new hand or toll; voice‑fragments stay; Kornél's cord tightens when ledger calls.
 7. Doll submission is a toll; sewn dolls carry unpaid debts; opening a doll releases what it holds.
 
 Open threads:
-- The count shows twelve tally marks; ledger states the count is for the river, not the people.
-- Ruzsa submitted a sewn doll as toll; its contents unknown; seams held, not opened.
-- Sára's memory of the river's name is gone; her living hand went palm-up.
-- The ledger wrote words without a hand guiding it; twelfth mark slid sideways.
+- The count now reads thirteen; the ledger’s tally belongs to the river, not the people.
+- Sára’s memory of the river’s name is gone; her living hand remains palm‑up.
+- The ledger’s words appear without a hand guiding them; the twelfth mark slid sideways, and a new mark settled beside it.
