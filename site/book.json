@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 35292,
-  "passages": 128,
+  "words": 35545,
+  "passages": 129,
   "chapters": [
     {
       "number": 1,
@@ -184,6 +184,13 @@
       "title": "The Dry Stone",
       "words": 2063,
       "passages": 8
+    },
+    {
+      "number": 27,
+      "numeral": "XXVII",
+      "title": "The Cracked Step",
+      "words": 253,
+      "passages": 1
     }
   ]
 }
