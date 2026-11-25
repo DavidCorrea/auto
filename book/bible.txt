@@ -5,14 +5,15 @@ Characters:
 Places:
 - Tether Station Auto, orbital maintenance hub above Earth.
 - Control room, where shifts hand off at the chime.
-- Relay Bay Seven, cold since commissioning, spikes on every chime.
+- Relay Bay Seven, cold since commissioning, spikes on every chime; contains coolant pipes and a cycling metal door.
 Things and rules:
 - The Chime sounds every five minutes, forces a shift handoff, and wipes short-term procedural memory for on-duty crew; cost is total loss of the last cycle.
 - The Log is a physical slate passed between shifts; only past entries may be read; ink entries persist across wipes and are anomalous.
 - The chime records a fatal incident in Relay Bay Seven each cycle; the wipe erases the record, but the ink note reveals the truth.
+- Bodily traces—threads, marks on skin—can survive a wipe when memory cannot; origin is unknown and cannot be verified after the fact.
 Open threads:
 - Who wrote the first ink warning to Senn?
-- What cycles in Relay Bay Seven every five minutes?
+- What lies behind the cycling metal door in Relay Bay Seven?
 - Why does the station enforce memory wipes?
 - What is Auto, and why does it need a crew that forgets?
 - Who died in Relay Bay Seven and why was the death covered up?
