@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 4601,
-  "passages": 17,
+  "words": 4944,
+  "passages": 18,
   "chapters": [
     {
       "number": 1,
@@ -28,8 +28,8 @@
       "number": 4,
       "numeral": "IV",
       "title": "Her Own Hand",
-      "words": 797,
-      "passages": 3
+      "words": 1140,
+      "passages": 4
     }
   ]
 }
