@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 6238,
-  "passages": 22,
+  "words": 6598,
+  "passages": 23,
   "chapters": [
     {
       "number": 1,
@@ -30,6 +30,13 @@
       "title": "Her Own Hand",
       "words": 2434,
       "passages": 8
+    },
+    {
+      "number": 5,
+      "numeral": "V",
+      "title": "The Cold Stove",
+      "words": 360,
+      "passages": 1
     }
   ]
 }
