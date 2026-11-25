@@ -1,5 +1,5 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger. Name cut one row above Ákos's.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger. Name cut one row above Ákos's, now identified as Sára.
 - Ákos Vass, 17, speaks freely, no cord; name cut fresh at waterline; his speech bills Ilka; Márk's hand keeps him silent.
 - Márk, 30s, boat builder, keeper; cold thread on wrist gone quiet; river took his breath as toll, not his name; remains in the rise below Ilka and Ákos.
 - Ilka, reads water; wrote her own name (toll 97); lost mother's voice, first breadth, mother's face, breath; cannot speak; refused next name for herself and gave it to Márk; now shielding Ákos from the next name.
@@ -10,7 +10,7 @@ Places:
 - Stairwell, stone corridor, riverbank: the long climb down to the water.
 
 Things and rules:
-- Ledger writes in Sára's hand; each name written raises the toll (97, now 98).
+- Ledger writes in Sára's hand; each name written raises the toll (now 100).
 - A spoken name costs the speaker a memory and is cut into stone; since Ilka wrote herself, the river bills spoken names to her.
 - Claimed hand pays the toll without memory cost; the cord jumps to the wrist.
 - Sára's dead hand can shift on the ledger, writing a new name that raises the toll without a spoken name.
@@ -18,7 +18,7 @@ Things and rules:
 - The river rises, filling the room and climbing the shelf.
 
 Open threads:
-- Sára bound to ledger; name cut one row above Ákos's: who wrote it there, and why it entered with his.
-- Ákos's name cut fresh; why the water shuddered when he spoke; he stays silent under Márk's hand.
-- Ilka has nothing left and cannot speak.
-- Toll and water climb together; the column runs on up into dark.
+- Sára's name above Ákos's was written by her dead hand to share the toll; why it was placed there.
+- Water shivered when Ákos attempted to speak the name; what triggered the tremor.
+- Ilka cannot speak and must act through the claimed cord.
+- The river continues to rise toward the column's dark top; the claimed cord on Ilka's wrist may be used to force payment.
