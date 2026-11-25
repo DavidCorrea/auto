@@ -5,8 +5,9 @@ Characters:
 - Ruzsa, 40s, trader; half-surrendered memory; expected the toll to take a hand.
 - Márk, 30s, boat builder; fifteenth toll took his hand's feeling — grey nails, numb past elbow, fused to the ledger cover, will not release; still wants to stop the ledger.
 - Ilka, missing; ledger bears River; her voice now rises under the Point, saying Ákos's name.
+- The Girl in the Chamber, unknown age, appears alive in the flooded room Sára remembered; connection to Ilka and the river's name.
 
-Places: Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair beneath it.
+Places: Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair beneath it; Flooded Chamber (stone walls, high window, lantern).
 
 Things and rules:
 1. Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a new hand.
@@ -15,9 +16,10 @@ Things and rules:
 4. Writing awake releases debt via keeper's hand; restores memory/voice, demanding new hand or toll.
 5. Word River hides the river's true name; water completes it; inscribing it costs a new hand.
 6. Cord jumps to the wrist of whoever holds the ledger when the toll falls.
+7. The wet stone stair leads to a flooded chamber that exists outside normal time; the lantern burns without fuel.
 
 Open threads:
-- What waits down the wet stone stair; why Ilka's voice calls Ákos.
-- Márk's claimed hand: is he becoming the next keeper?
-- Sára's recovered memory: whose room, whose voice first taught her *Sebes*.
-- What the ledger asks next.
+- Identity of the girl in the chamber; is she Ilka, a previous keeper, or the river itself?
+- Márk's fused hand twitching toward the pen: will he become the next keeper or write something?
+- Sára's recovered memory: the room is the flooded chamber; who taught her *Sebes*?
+- What the ledger asks next now that the fifteenth toll is paid and the true name spoken.

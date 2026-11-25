@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 20404,
-  "passages": 73,
+  "words": 20651,
+  "passages": 74,
   "chapters": [
     {
       "number": 1,
@@ -114,6 +114,13 @@
       "title": "Thirteenth Toll",
       "words": 690,
       "passages": 3
+    },
+    {
+      "number": 17,
+      "numeral": "XVII",
+      "title": "The Wet Stair",
+      "words": 247,
+      "passages": 1
     }
   ]
 }
