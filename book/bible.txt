@@ -1,11 +1,11 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's name; cannot leave the ledger. Name cut above Ákos's.
-- Ákos Vass, 17, speaks freely, no cord; name cut at waterline; his speech once billed Ilka, now unblocked after she reclaimed the cord.
-- Márk, 30s, boat builder, keeper; cold thread on wrist gone quiet; river took his breath as toll, not his name; remains in the rise below Ilka and Ákos.
-- Ilka, reads water; wrote her own name (toll 97); cannot speak; after using the claimed cord she now bears it on her wrist, paying the toll to stay the rise.
+- Sára Vass, 53, mute keeper; dead hand fused to ledger, living hand pins Ákos’s name; cannot leave the ledger. Her name sits above Ákos’s.
+- Ákos Vass, 17, speaks freely, no cord; name cut at waterline; his speech was once billed to Ilka, now unblocked after she reclaimed the cord.
+- Márk, 30s, boat builder, keeper; cold thread on wrist gone quiet; river took his breath as toll, not his name; remains submerged below Ilka and Ákos.
+- Ilka, reads water; wrote her own name (toll 97); cannot speak; after using the claimed cord she now bears it on her wrist, paying the toll to stay the rise. The cord tightens if Ákos attempts to speak, shifting the cost onto her.
 
 Places:
-- Shelf and column: wide wet stone above the crack; name-column in its wall, oldest worn at top, newest cut at the waterline; narrow step where the wall leans in.
+- Shelf and column: wide wet stone above the crack; name-column in its wall, oldest worn at top, newest cut at the waterline; narrow step where the wall leans in, recently revealed by the retreating water.
 - Source room: low vault below; crack pouring black water down the steps; ledger with Sára.
 - Stairwell, stone corridor, riverbank: the long climb down to the water.
 
@@ -15,9 +15,9 @@ Things and rules:
 - Claimed hand pays the toll without memory cost; the cord jumps to the wrist.
 - Sára's dead hand can shift on the ledger, writing a new name that raises the toll without a spoken name.
 - The toll's number is cut at the waterline and shows only where the rise stands.
-- The river rises, filling the room and climbing the shelf; Ilka may use the claimed cord on her own wrist to redirect the rise, bearing the cost herself.
+- The river rises, filling the room and climbing the shelf; Ilka may use the claimed cord on her own wrist to redirect the rise, bearing the cost herself. If Ákos speaks while the cord is on Ilka’s wrist, the cord tightens, transferring the memory cost to her.
 
 Open threads:
 - Sára's name above Ákos's was written by her dead hand to share the toll; why it was placed there.
-- Water shivered when Ákos attempted to speak the name; what triggered the tremor.
 - The river continues to rise toward the column's dark top; new threads may appear.
+- (The water‑shiver thread is resolved: the cord tightens when Ákos speaks, bearing the cost for Ilka.)
