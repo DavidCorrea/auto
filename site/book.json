@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 4275,
-  "passages": 17,
+  "words": 4622,
+  "passages": 18,
   "chapters": [
     {
       "number": 1,
@@ -16,6 +16,13 @@
       "title": "The Waking Broadcast",
       "words": 2461,
       "passages": 10
+    },
+    {
+      "number": 3,
+      "numeral": "III",
+      "title": "The Crank's Price",
+      "words": 347,
+      "passages": 1
     }
   ]
 }
