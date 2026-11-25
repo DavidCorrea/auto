@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 14684,
-  "passages": 57,
+  "words": 15030,
+  "passages": 58,
   "chapters": [
     {
       "number": 1,
@@ -49,8 +49,8 @@
       "number": 7,
       "numeral": "VII",
       "title": "The Toll",
-      "words": 958,
-      "passages": 4
+      "words": 1304,
+      "passages": 5
     }
   ]
 }
