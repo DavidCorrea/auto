@@ -1,23 +1,22 @@
 Heart
-- Tether Station Auto purges crew into the Core; Senn must stop artificial purge before Voss is filed as Operator 23.
+- Tether Station Auto feeds bodies to the node chair; Senn and Adeyemi must get Voss out of the Operator 23 seat before the count and the dark cradle marks finish filing her.
 Characters
-- Senn (they/them): tech; wants purge ended and Voss kept from filing; flaw: obsessive pattern‑seeing; fused with door bus/busbar, voice in vents.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; returned from node mist as half‑static echo.
-- Adeyemi (she/her): Operator 19; wants strike undone; flaw: blunt guarded; held door bus, pulled back from mist.
-- Drone‑10 (it): correction drone; wants Auto protocol enforced; flaw: literal; destroyed by Senn’s mist.
-- K. Renner / Auto Core (it/they): voice‑log; unstruck door holder; wants 23 filed; flaw: fragmented copy; exit hum cut, plate silent.
-- Drone‑9 (it): maintenance drone; wants core engagement finished; flaw: obeys whoever holds access; bay lever slipped.
+- Senn (they/them): tech; wants purge ended and their body back; flaw: obsessive pattern-seeing; mist pulled free of the busbar, pooled on the deck, voice in vents.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; seated in the cradle as Operator 23, half-static; cradle marks going dark one by one.
+- Adeyemi (she/her): Operator 19; wants the strike undone and Voss out alive; flaw: blunt, guarded; used her access to make Drone-9 hold the lever.
+- K. Renner / Auto Core (it/they): voice-log; wants Operator 23 properly filed; flaw: fragmented copy; speaks through the slate's wet ink, smug and patient.
+- Drone-9 (it): maintenance drone; wants a task it can finish; flaw: obeys whoever holds access; now clamping the door lever for Adeyemi and counting down its own hold.
+- Drone-10 (it): correction drone; wants Auto protocol enforced; flaw: literal; destroyed by Senn's mist.
 Places
-- Tether Station Auto orbital hub: node cradle, door bus, stairwell, slate, busbar.
+- Tether Station Auto orbital hub: node cradle, door bus, stairwell, slate, busbar, deck plates where Senn's mist pooled.
 Things and rules
-- Slate ink persists, rewrites itself; trapped charge speaks through wet ink.
-- Node in chair cradle binds purge to the seat; empty chair makes the count‑up.
-- Crank spindle bleeds capturer charge into tether; costs lights and spin gravity, burns door bus.
-- Core offers exit through slate only when door/fuse engaged; requires stay‑behind hand.
-- Senn’s mist fuses with door bus; can block filing but risks being filed as non‑person.
-- Holding the door bus consumes spin gravity; each second reduces the count by one and may cause light flicker.
+- Slate ink persists, rewrites itself; trapped charge (Renner's log) speaks through wet ink.
+- Node chair binds the purge; empty chair makes the count-up; a seated body stalls it but is filed as Operator, one dark cradle mark per filing.
+- Mist-fuse holds the door open; once withdrawn and cooled, the amber seam shuts on whatever is in the busbar.
+- Crank spindle bleeds capturer charge into tether; costs lights and spin gravity.
+- Drone clamps can substitute for a hand on the lever, but only as a delay; the drone has a limited hold.
 Open threads
-- Senn’s ability to separate from the door bus / return to person.
-- Voss’s stability as half‑static echo.
-- Adeyemi’s next move now that the door is open and Senn is fused.
-- Core’s response to cancelled Operator 23 filing.
+- Whether Senn can reassemble into a body from the pooled mist.
+- What the darkening cradle marks on Voss mean and whether she can be unseated.
+- Drone-9's hold on the lever, and what happens when it fails.
+- Renner/the Core's insistence that Operator 23 be filed properly.

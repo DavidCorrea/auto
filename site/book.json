@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 9621,
-  "passages": 38,
+  "words": 9894,
+  "passages": 39,
   "chapters": [
     {
       "number": 1,
@@ -35,8 +35,8 @@
       "number": 5,
       "numeral": "V",
       "title": "The Fuse Takes the Hand",
-      "words": 1357,
-      "passages": 6
+      "words": 1630,
+      "passages": 7
     }
   ]
 }
