@@ -1,30 +1,31 @@
-Characters:  
-- Sára Vass, 53, mute keeper; dead hand fused to ledger; dead finger points at wall-door seam; cannot leave ledger.  
-- Ákos Vass, 17, shares toll 109; leads descent; warm stone under his palm.  
-- Márk, 30s, boat builder keeper; breath eased by dry air; in shaft group.  
-- Ilka, 30s, keeper; ink costs memory; carries second ledger; forgot fifth name; now behind source room.  
-- Claimed hand, neuter; pays toll without memory cost; rope frayed after lifting; waits in dark.  
-- Keres (second ledger); identity unknown; memory lost to Ilka; ink still wet.  
+Characters:
+- Sára Vass, 53, mute keeper; dead hand fused to ledger; dead finger points at wall-door seam; cannot leave ledger.
+- Ákos Vass, 17, shares toll 109; leads descent; warm stone under his palm.
+- Márk, 30s, boat builder keeper; breath eased by dry air; in shaft group.
+- Ilka, 30s, keeper; ink costs memory; carries second ledger; forgot fifth name; now behind source room.
+- Claimed hand, neuter; pays toll without memory cost; rope frayed after lifting; waits in dark.
+- Keres (second ledger); identity unknown; memory lost to Ilka; ink still wet.
 
-Places:  
-- Source room: low vault; crack sealed by embedded disc; ledger with Sára; wall door seam warm, marked by dead finger.  
-- Dry stair: descends behind wall door; unflooded grey stone; now behind group.  
-- Round room: at stair foot; ceiling opened into shaft; now empty and whole.  
-- Shaft: narrow climb from round room; opens behind source room ledger; rope hangs limp above.  
-- Hidden chamber below: vaulted; pool; shelves of parchment.  
+Places:
+- Source room: low vault; crack sealed by embedded disc; ledger with Sára; wall door seam warm, marked by dead finger.
+- Dry stair: descends behind wall door; unflooded grey stone; now behind group.
+- Round room: at stair foot; ceiling opened into shaft; now empty and whole.
+- Shaft: narrow climb from round room; opens behind source room ledger; rope hangs limp above.
+- Hidden chamber below: vaulted; pool; shelves of parchment.
 
-Things and rules:  
-1. Ledger writes in Sára’s hand; each name raises the toll.  
-2. A claimed hand pays the toll without memory cost.  
-3. Sára’s dead hand writes names or glyphs without speaking; only names raise the toll; its finger can mark stone.  
-4. The hard disc seals fissures on contact, turning water to vapor; embedded in cracked step; removal would reopen crack.  
-5. A commanded claimed hand can lift or pull, ignoring toll for that action; its rope frays with use.  
-6. The second ledger requires five names; the fifth appears automatically and erases reader’s memory of it; speaking it makes black drop rise, merge with ceiling, open shaft.  
+Things and rules:
+- Ledger writes in Sára’s hand; each name raises the toll.
+- A claimed hand pays the toll without memory cost.
+- Sára’s dead hand writes names or glyphs without speaking; only names raise the toll; its finger can mark stone.
+- The hard disc seals fissures on contact, turning water to vapor; embedded in cracked step; removal would reopen crack.
+- A commanded claimed hand can lift or pull, ignoring toll for that action; its rope frays with use.
+- The second ledger requires five names; the fifth appears automatically and erases reader’s memory of it; speaking it makes black drop rise, merge with ceiling, open shaft.
 
-Open threads:  
-- Toll remains 109 despite new shaft.  
-- Disc under step still hums; removal risks reopening crack.  
-- Rope frays further with each pull.  
-- Sára’s dead finger continues to mark seam; stone shift shows movement.  
-- Second ledger’s fifth name Keres now spoken; its erasure completed.  
+Open threads:
+- Toll remains 109 despite new shaft.
+- Disc under step still hums; removal risks reopening crack.
+- Rope frays further with each pull.
+- Sára’s dead finger continues to mark seam; stone shift shows movement.
+- Second ledger’s fifth name Keres now spoken; its erasure completed.
 - Group behind source room ledger previously shifted now aligns with new shaft entrance.
+- Ilka following silver ripple to coast; weathered boat waits; lone sailor in coat.

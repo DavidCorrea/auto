@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 37335,
-  "passages": 136,
+  "words": 37647,
+  "passages": 137,
   "chapters": [
     {
       "number": 1,
@@ -203,8 +203,8 @@
       "number": 29,
       "numeral": "XXIX",
       "title": "Below the Crack",
-      "words": 246,
-      "passages": 1
+      "words": 558,
+      "passages": 2
     }
   ]
 }
