@@ -1,19 +1,21 @@
-Heart: Tether Station Auto runs on five-minute memory wipes; the crew keeps a log they can’t remember writing, and something is using the chime to rewrite them.
+Heart: Tether Station Auto runs on five‑minute memory wipes; the crew keeps a log they can’t remember writing, and something is using the chime to rewrite them.
 Characters:
-- Senn (they/them), station technician, wants to prove the chime hides a cycle; flaw: obsessive pattern-seeing; blocked by mandatory wipes and station protocol.
+- Senn (they/them), station technician, wants to prove the chime hides a cycle; flaw: obsessive pattern‑seeing; blocked by mandatory wipes and station protocol.
 - Voss (she/her), senior shift lead, wants the station to run quietly; flaw: cynical fatalism; blocked by Senn’s refusal to let it go.
 Places:
 - Tether Station Auto, orbital maintenance hub above Earth.
 - Control room, where shifts hand off at the chime.
-- Relay Bay Seven, cold since commissioning, spikes on every chime; contains coolant pipes and a cycling metal door.
+- Relay Bay Seven, cold since commissioning, spikes on every chime; contains coolant pipes, a cycling metal door, and a dormant drive rack.
 Things and rules:
-- The Chime sounds every five minutes, forces a shift handoff, and wipes short-term procedural memory for on-duty crew; cost is total loss of the last cycle.
+- The Chime sounds every five minutes, forces a shift handoff, and wipes short‑term procedural memory for on‑duty crew; cost is total loss of the last cycle.
 - The Log is a physical slate passed between shifts; only past entries may be read; ink entries persist across wipes and are anomalous.
 - The chime records a fatal incident in Relay Bay Seven each cycle; the wipe erases the record, but the ink note reveals the truth.
 - Bodily traces—threads, marks on skin—can survive a wipe when memory cannot; origin is unknown and cannot be verified after the fact.
+- Artifacts from Bay Seven: a data cartridge labeled *Cycle 001 – Do Not Wipe* (now missing) and a metal disc marked with a spiral and the number 7; both survive wipes, the disc glows blue after a successful data transfer.
 Open threads:
 - Who wrote the first ink warning to Senn?
-- What lies behind the cycling metal door in Relay Bay Seven?
 - Why does the station enforce memory wipes?
 - What is Auto, and why does it need a crew that forgets?
 - Who died in Relay Bay Seven and why was the death covered up?
+- Who took the cartridge, and where is it now?
+- What does the disc unlock, and what is the core purge?
