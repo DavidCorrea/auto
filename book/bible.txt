@@ -1,24 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand pointed at pen, now rested; dead hand twitched once.
-- Ákos Vass, 17, press-room; surrendered pen to Kornél; now free of ledger's immediate demand.
-- Kornél, 50s, river pilot; now holds pen and tight cord; voice fragment returned, cord loosened after pen transfer.
-- Ruzsa, 40s, trader; memory surrendered, notebook light, toll marks on arm.
-- Ilka Dálnoky, 70s, smokehouse; hearthstone warm, refuses explanation.
-- Maren Dálnoky, 68, ex-seamstress; warns of prices, sewed doll face.
+- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand rested; dead hand ink-stained, cut the unknown line; her certainty broke.
+- Ákos Vass, 17, press-room; gave pen to Kornél; now reads the ledger's marks; free of the hand-demand.
+- Kornél, 50s, river pilot; holds pen and cord; spoke a cracked fragment ("How many"); cord tightened at his word.
+- Ruzsa, 40s, trader; memory surrendered; toll scars on forearm match the ledger's marks.
+- Ilka Dálnoky, 70s, smokehouse; hearthstone warm; refuses explanation.
+- Maren Dálnoky, 68, ex-seamstress; warns of prices; sewed doll face.
 - Tomas Vass, 40s, former toll boy; silence.
 
 Places:
 - Vaskapu press-room; Toll House; The Point; river hut and white water.
 
 Things and rules:
-1. Ledger writes in Sára's hand; unaided entries; accepts new hand, unfamiliar script; may record when hand changes owner.
+1. Ledger writes in Sára's hand; the dead hand can also cut its lines; accepts a new hand; may record when a hand changes owner.
 2. Toll, opening carried items, or doll submission costs memory.
-4. Hearthstone needs tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
-5. Notebook takes names cost-free first; page grows heavier; price due surrender memory when full; Ruzsa paid.
-6. Writing in ledger awake to release debt costs keeper's writing hand; ledger can restore memory/voice, demands new hand or toll; voice-fragments stay; ledger waits for new hand; Kornél's cord holds a returned voice-fragment, tightens when ledger calls, holding may steady it.
+3. Unfamiliar script is a toll-count in tally marks (like Ruzsa's scars); the count rises on its own and when the ledger calls (cord tightens).
+4. Hearthstone needs a tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
+5. Notebook takes names cost-free first; page grows heavier; price is memory when full; Ruzsa paid.
+6. Writing awake to release debt costs the keeper's writing hand; ledger restores memory/voice, demands a new hand or toll; voice-fragments stay; Kornél's cord holds a fragment, tightens when the ledger calls.
 
 Open threads:
-- Ledger demanded *Ákos — hand for the pen*; Ákos wrote *Ákos — hand returned*; demand seemingly satisfied but next unknown.
-- Kornél holds cord, which can tighten or loosen with voice-fragment.
-- Sára's living hand now rests, having guided the hand-off.
-- New unknown script appeared in ledger after hand transfer.
+- The count: nine marks, then a tenth cut itself; what it counts and what comes at its end unknown.
+- The dead hand cut the line; the ledger can use it.
+- Kornél's fragment speech; cord can tighten.
+- Sára's living hand quiet; her certainty gone.
