@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 9746,
-  "passages": 33,
+  "words": 10117,
+  "passages": 34,
   "chapters": [
     {
       "number": 1,
@@ -42,8 +42,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Hearthstone",
-      "words": 1298,
-      "passages": 4
+      "words": 1669,
+      "passages": 5
     }
   ]
 }
