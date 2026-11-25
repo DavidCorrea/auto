@@ -1,23 +1,25 @@
 Heart
-- Tether Station Auto feeds bodies to the node chair; Senn and Adeyemi pulled Voss from the cradle after Renner filed her Operator 23; must unfile her before the purge finishes reversing.
+- Tether Station Auto feeds bodies to the node chair; Senn and Adeyemi pulled Voss from the cradle after Renner filed Operator 23, and Renner unfileled as the fourth mark; the purge now runs forward with the fog in the chair.
+
 Characters
-- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; now a mist-body inside the node chair, riding the copper.
+- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; now mist-body inside the node chair, riding the copper.
 - Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; unfiled at third mark, still limp, cradle marks dark.
 - Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; kicked the busbar to seat Senn.
-- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; writes via slate wet ink; the "filing hand" only it can withdraw.
-- Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch now open, still demands a choice.
-- Drone-9 (it): maintenance drone; wants finishable task; flaw: obeys holder.
+- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; writes via slate wet ink; the "filing hand" only it can withdraw; Renner unfileled themselves as fourth mark and withdrew.
+- Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch now sealed after fourth mark accepted.
+
 Places
 - Tether Station Auto orbital hub: node cradle, door bus, stairwell, slate, busbar, deck plates.
+
 Things and rules
 - Slate ink rewrites itself; trapped charge (Renner's log) speaks and writes through wet ink; only the filing hand unfiles.
 - Node chair binds purge; empty chair counts up; a seated body stalls it; one dark cradle mark per filing.
 - Mist-fuse: formed mist ignites the amber seam open; after cooling it shuts on contents.
 - Senn's mist can ride the copper into the cradle and hold the count frozen while shaped as a body.
-- Stairwell hatch needs manual override, but override fails until the slate stops writing.
+- Fourth mark: a filer must become the filed to withdraw the hand; Renner wrote their own name and unfileled, withdrawing.
 - Unfiling Operator 23 reverses purge; count resumes when Renner's hand withdraws.
+
 Open threads
-- Renner's hand has not withdrawn; count resumes at 008 when it does—can the unfiling complete first?
-- What is the "fourth mark" the slate awaits?
-- Maintenance figure still demands a choice between Operators; Adeyemi refuses.
+- The count is moving forward again after Renner's withdrawal; is the purge armed?
+- The fog-body in the chair pressed back at the slate with Renner's voice; is it Renner, Senn, or something wearing both?
 - Can Senn get a real body back once the purge ends?
