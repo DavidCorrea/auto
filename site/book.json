@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 17923,
-  "passages": 62,
+  "words": 18214,
+  "passages": 63,
   "chapters": [
     {
       "number": 1,
@@ -93,6 +93,13 @@
       "title": "The New Hand",
       "words": 1365,
       "passages": 6
+    },
+    {
+      "number": 14,
+      "numeral": "XIV",
+      "title": "Under the Point",
+      "words": 291,
+      "passages": 1
     }
   ]
 }
