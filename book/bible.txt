@@ -2,15 +2,15 @@ Characters:
 - Sára Vass, 53, mute keeper; dead hand fused to ledger, living hand pins Ákos’s name; cannot leave the ledger. Her name sits above Ákos’s.
 - Ákos Vass, 17, speaks freely, no cord; name cut at waterline; his speech was once billed to Ilka, now unblocked after she reclaimed the cord.
 - Márk, 30s, boat builder, keeper; cold thread on wrist gone quiet; river took his breath as toll, not his name; remains submerged below Ilka and Ákos.
-- Ilka, reads water; wrote her own name (toll 97); cannot speak; after using the claimed cord she now bears it on her wrist, paying the toll to stay the rise. The cord tightens if Ákos attempts to speak, shifting the cost onto her.
+- Ilka, reads water; wrote her own name (toll 102); can speak but bears the toll on her wrist; the cord tightens if Ákos attempts to speak, shifting the memory cost onto her.
 
 Places:
 - Shelf and column: wide wet stone above the crack; name-column in its wall, oldest worn at top, newest cut at the waterline; narrow step where the wall leans in, recently revealed by the retreating water.
-- Source room: low vault below; crack pouring black water down the steps; ledger with Sára.
+- Source room: low vault below; crack pouring black water down the steps; ledger with Sára and Ilka.
 - Stairwell, stone corridor, riverbank: the long climb down to the water.
 
 Things and rules:
-- Ledger writes in Sára's hand; each name written raises the toll (now 101).
+- Ledger writes in Sára's hand; each name written raises the toll (now 102).
 - A spoken name costs the speaker a memory and is cut into stone; since Ilka wrote herself, the river bills spoken names to her.
 - Claimed hand pays the toll without memory cost; the cord jumps to the wrist.
 - Sára's dead hand can shift on the ledger, writing a new name that raises the toll without a spoken name.
@@ -20,4 +20,3 @@ Things and rules:
 Open threads:
 - Sára's name above Ákos's was written by her dead hand to share the toll; why it was placed there.
 - The river continues to rise toward the column's dark top; new threads may appear.
-- (The water‑shiver thread is resolved: the cord tightens when Ákos speaks, bearing the cost for Ilka.)

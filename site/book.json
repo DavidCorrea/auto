@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 32509,
-  "passages": 117,
+  "words": 32784,
+  "passages": 118,
   "chapters": [
     {
       "number": 1,
@@ -170,6 +170,13 @@
       "title": "The First Breadth",
       "words": 2733,
       "passages": 10
+    },
+    {
+      "number": 25,
+      "numeral": "XXV",
+      "title": "The Toll's Rise",
+      "words": 275,
+      "passages": 1
     }
   ]
 }
