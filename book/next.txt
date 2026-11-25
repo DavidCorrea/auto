@@ -1,1 +1,1 @@
-The Auto Core figure's whisper hints at a hidden control node that could stop the purge. Can Senn reach it before the reboot completes?
+Senn can try to activate the exposed node before Auto Core's broadcast finishes overwriting everyone, but Drone-9 is still trying to complete core engagement. Surprise: the node doesn't halt the purge—it redirects it to Auto Core itself.
