@@ -1,13 +1,12 @@
 Characters:
-- Sára Vass, 53, mute keeper; dead hand fused to ledger, living hand pins Ákos’s name; cannot leave the ledger. Name sits above Ákos’s.
-- Ákos Vass, 17, shares toll 104 with Sára’s dead hand; speaks without memory cost; name cut at waterline.
-- Márk, 30s, boat builder, keeper; river took his breath as toll; pulled onto the step, not breathing, revived by Ákos.
-- Ilka, reads water; wrote her own name at toll 102; bears wrist cord; loses a memory each time she uses ledger ink.
+- Sára Vass, 53, mute keeper; dead hand fused to ledger, living hand pins Ákos’s name; cannot leave the ledger. Name sits above Ákos’s. Dead hand shifted as ledger tilted.
+- Ákos Vass, 17, shares toll 104 with Sára’s dead hand; speaks without memory cost; name cut at waterline. Decides they climb.
+- Márk, 30s, boat builder, keeper; river took his breath as toll; pulled onto the step, not breathing, revived by Ákos; coughed on step.
 
 Places:
-- Shelf and column: wet stone above the crack; name-column; narrow step now holding all three; water rising toward unseen summit.
+- Shelf and column: wet stone above the crack; name-column; narrow step tilting as river takes back; water now still.
 - Source room: low vault; crack pouring black water; ledger with Sára and Ilka.
-- Stairwell, stone corridor, riverbank: the long climb down.
+- Stairwell, stone corridor, riverbank: the long climb down; corridor above step now destination.
 
 Things and rules:
 - Ledger writes in Sára's hand; each name raises the toll (now 104).
@@ -18,6 +17,6 @@ Things and rules:
 - Ledger ink solidifies water briefly when applied to stone; costs Ilka a memory.
 
 Open threads:
-- River’s ascent threatens to submerge the narrow step entirely.
+- River’s ascent vs ledger sinkage: water stopped, step tilting.
 - Ilka’s ink use extracts a memory per application.
 - Márk cannot breathe air; how long he lasts on the step is unknown.
