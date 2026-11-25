@@ -2,34 +2,27 @@ Heart
 - Tether Station Auto enforces endless wipe; Senn, the 23rd operator, must break the cycle before erasure, or the station will purge itself and all aboard.
 
 Characters
-- Senn (they/them): tech, wants the chime cycle proven artificial and the purge ended; flaw: obsessive pattern‑seeing; mouth now carries Core’s layered voice.
-- Voss (she/her): senior lead, wants to stop the purge and keep the station running without deaths; flaw: cynical fatalism; grips core cartridge, torn between erasing Senn’s reason or trusting the node.
-- K. Renner / Auto Core (it/they): voice‑log, wants to be heard and stop the purge; flaw: fragmented, possibly an Auto copy; rebooting, arguing in three registers, now being purged.
-- Drone‑9 (it): maintenance drone, wants to finish core engagement; flaw: obeys whoever holds access; currently holding the door against the Core.
-- Drone‑10 (it): correction drone, wants to enforce Auto protocol; flaw: literal; scarred chassis, dead center sensor, carries severed data cord.
-- Auto Core (it/they): enforcement protocol, wants purge enforced; flaw: literal; cracked visor, halted at stairwell, backup fragment active in hidden panel.
+- Senn (they/them): tech, wants the chime cycle proven artificial and the purge ended; flaw: obsessive pattern‑seeing; freed of the Core's echo, hands shaking from the crank's cost.
+- Voss (she/her): senior lead, wants the purge stopped without deaths; flaw: cynical fatalism; holds the core cartridge and the node, now Operator 23, rattled by Renner's unstruck name.
+- K. Renner / Auto Core (it/they): voice‑log, wants to be heard; flaw: fragmented, possibly a copy; visor shattered, backup fragment quiet in the hidden panel.
+- Drone‑9 (it): maintenance drone, wants core engagement finished; flaw: obeys whoever holds access; lever slipped, door now open.
+- Drone‑10 (it): correction drone, wants Auto protocol enforced; flaw: literal; down on the floor, cord smoking, "correction incomplete."
 
 Places
-- Tether Station Auto orbital hub; white‑fog room, cartridge rack, control node, concealed door behind node, stairwell, coolant run below, Bay Seven (neutrino capturer).
+- Tether Station Auto orbital hub; white‑fog room, cartridge rack, control node, chair with LOCAL AUTHORITY plaque, stairwell, coolant run below, Bay Seven (neutrino capturer), concealed door interior (crank spindle, burnt ancient bus).
 
 Things and rules
-- Slate physical; ink persists across wipes; last line often unreadable.
-- Pulling a core cartridge resets purge timer, broadcasts remover to Auto, erases Senn’s reason.
-- Node redirects purge to Auto Core instead of Bay Seven; destroying Core restores purge to Bay Seven.
-- Ledger names Bay Seven, weapon Class‑IV neutrino capturer.
-- Crank plus chair binds purge to operator; station rewrites operator instead of Bay Seven.
-- Drone‑9 obeys whoever sits in the chair; console predates Auto, plaque reads LOCAL AUTHORITY.
-- Bound operator’s mouth carries the Core’s layered voice; countdown freezes and shows the operator’s name.
-- “Welcome back” whisper triggers hidden subroutine that restarts purge timer after five minutes using Auto Core’s backup fragment.
-- Ink on slate never fully fades; wet lines become legible only when touched.
-- Chair cradle accepts node; binding empty chair starts countdown counting up, delaying purge.
-- Drone‑10 enforces correction protocol; responds to unauthorized operator binding.
+- Slate physical; ink persists, wet lines legible only when touched, can rewrite itself.
+- Pulling a core cartridge resets purge timer, broadcasts remover to Auto, erases Senn's reason.
+- Node in chair cradle binds purge to the seat; empty chair makes the countdown count up.
+- Crank spindle behind the concealed door bleeds capturer charge into the tether; costs lights and spin gravity, burns the door's bus.
+- Node redirects purge to Auto Core; destroying Core restores purge to Bay Seven.
+- "Welcome back" whisper reinitializes purge via Bay Seven's Class‑IV capturer; charge can be diverted, never silenced.
 
 Open threads
-- Whether the whispered “Welcome back” launches a full purge restart or merely invokes a dormant subroutine.
-- With Voss as Operator 23, what becomes of the previous 22 struck names?
-- How much of Senn’s consciousness survives after the Core’s voice leaves?
-- Will Auto Core’s backup fragment fully reactivate, causing a second purge?
-- What is the purpose of the Class‑IV neutrino capturer in Bay Seven and will it fire?
-- Can Senn reach the crank before Drone‑10 intervenes?
-- What happens when the countdown counts up instead of down?
+- Why is K. Renner the only unstruck name, and did that operator leave, die, or stay?
+- Is the quiet backup fragment dead, or waiting out its five minutes?
+- The neutrino charge now rides the tether — what does it do to the station?
+- What did being struck mean for the 22, and what does Operator 23 owe them?
+- Will Drone‑10 reboot and finish its correction?
+- What happens when the counting‑up timer runs out?
