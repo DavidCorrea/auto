@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 19112,
-  "passages": 67,
+  "words": 19306,
+  "passages": 68,
   "chapters": [
     {
       "number": 1,
@@ -105,8 +105,8 @@
       "number": 15,
       "numeral": "XV",
       "title": "The River's Mark",
-      "words": 99,
-      "passages": 1
+      "words": 293,
+      "passages": 2
     }
   ]
 }
