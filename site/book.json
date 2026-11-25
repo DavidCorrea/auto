@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 8012,
-  "passages": 31,
+  "words": 8264,
+  "passages": 32,
   "chapters": [
     {
       "number": 1,
@@ -28,8 +28,8 @@
       "number": 4,
       "numeral": "IV",
       "title": "Welcome Back",
-      "words": 1951,
-      "passages": 7
+      "words": 2203,
+      "passages": 8
     }
   ]
 }
