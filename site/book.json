@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 10117,
-  "passages": 34,
+  "words": 10300,
+  "passages": 35,
   "chapters": [
     {
       "number": 1,
@@ -44,6 +44,13 @@
       "title": "The Hearthstone",
       "words": 1669,
       "passages": 5
+    },
+    {
+      "number": 7,
+      "numeral": "VII",
+      "title": "The Sewn Face",
+      "words": 183,
+      "passages": 1
     }
   ]
 }
