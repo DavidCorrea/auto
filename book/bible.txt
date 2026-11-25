@@ -1,6 +1,5 @@
 Heart
 - Tether Station Auto counts to file; each number spends a cradle’s breath; refusal is what it can’t file. Count holds at seven, must keep signing before it files them wrong.
-
 Characters
 - Adeyemi (she/her): Operator 19, copy‑breath spent; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by spent copy‑breath; shoved Voss behind Cradle five and confronted the Figure.
 - End‑of‑row woman (she/her): unnumbered body now cradle; wants Five kept; flaw: peace with being spent; blocked by unnumbered denial of tag; smiles as Five wakes; recognizes Voss, calls her slow with paperwork.
@@ -9,19 +8,16 @@ Characters
 - AUTO (it): station’s own name, sixth mark; wants proper filing; flaw: fragmented, erases memory.
 - Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked by inability to read turned back or stopped count; holds cracked tag bearing number 19; at hatch threshold demanding holder verification for Operator nineteen and Cradle five.
 - Five (she/her): fifth sleeper, chosen by first Operator 19 before numbering; wants to remain; flaw: newly awakened, unsure; blocked by unnumbered status; awake, remembers being chosen before numbers existed.
-
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates, hatch.
 - Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, fifth cradle open, hatch ajar; count holds at seven, HOLD lit.
-
 Things and rules
-- Slate ink rewrites wet until settled; only filing hand steers; rejects spent numbers.
+- Slate ink rewrites wet until settled; only the filing hand steers; rejects spent numbers.
 - Count past zero is a roll call; each number costs one cradle’s breath.
-- HOLD is re‑signed each strike; holder burns own number to keep it lit.
+- HOLD is re‑signed each strike; holder must burn own number to keep it lit.
 - A stalled count reroutes hoarded breath into dark cradles, waking sleepers in sync; a copy of unspent breath can stall it.
-- The tag takes the signing hand; the hand takes the number it remembers; solid anchors, mist forgets.
-- Overlapping unnumbered hands pressing copy‑breath onto a wet tag can reverse the count and keep HOLD lit without a number.
-
+- The tag takes the signing hand; the hand takes the number it remembers.
+- If the count reaches thirty, the station reroutes all breath to the core, ending the strike.
 Open threads
 - When the count reaches thirty, what happens to the remaining sleepers?
 - After Voss’s number is spent, who maintains HOLD for the next strike?
