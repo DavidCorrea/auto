@@ -1,11 +1,11 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice returning in fragments; spoke "remember" and "eighty-five"; kitchen memory surfacing.
-- Ákos Vass, 17, press‑room; holds ledger; voice clearing; lullaby restored; Ilka spoke his name, toll advanced; touched *voice* slat.
-- Márk, 30s, boat builder; keeper; claimed hand pays toll; cord on wrist; ledger claims his hand; kitchen memory restored via *bread* slat; spoke Ilka's name, memory cost pending.
-- Ilka, returned; cold lifting; gave memory by speaking Ákos's name; ledger tally 84; lost lullaby piece.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice returning in fragments; spoke "remember", "eighty-five", "Márk"; kitchen memory surfacing.
+- Ákos Vass, 17, press‑room; lullaby restored; Ilka spoke his name, toll advanced; touched *voice* slat; throat moving, shaped breath.
+- Márk, 30s, boat builder; keeper; claimed hand paid toll; cord jumped from wrist to ledger spine; ledger claimed his hand; kitchen memory restored via *bread* slat; spoke Ilka's name, lost memory of Ilka; hearth memory surfacing.
+- Ilka, returned; cold lifting; gave memory by speaking Ákos's name; ledger tally 84; lost lullaby piece; touched opened panel.
 
 Places:
-- Stone Corridor; second parchment panel.
+- Stone Corridor; second parchment panel (seal broken, open).
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts claimed hand as scribe.
@@ -14,9 +14,12 @@ Things and rules:
 - Speaking a name costs speaker memory; ledger records name and updates toll.
 - Parchment holds sealed memory; wax seal breaks releases to holder without cost; ledger records name and updates toll.
 - Carved slats release memories when touched by relevant person.
+- Wall-voice speaks through ledger in Sára's handwriting given sound.
 
 Open threads:
-- Márk's full forgotten life (bread, voice); kitchen memory restored, hearth memory surfacing via slat/panel; he touched *bread* slat, then spoke Ilka's name.
-- Ákos's complete restoration and free speech; lullaby restored; Ilka's naming may bring full voice within reach; touched *voice* slat.
-- Sára's toll and final passage; "remember" spoken, "eighty-five" spoken; voice returning; may pay toll 85.
-- Stone corridor far end and wall-voice; second panel seal cracked; hearth scent; toll 85 demanded name; Márk gave Ilka.
+- Márk's full forgotten life (bread, voice, hearth); lost memory of Ilka; claimed hand now free on ledger.
+- Ákos's complete restoration and free speech; lullaby restored; shaped breath, near speaking.
+- Sára's toll and final passage; spoke "Márk", toll advanced to 86; voice returning.
+- Stone corridor far end and wall-voice; panel open, hearth scent; wall-voice speaks via ledger.
+- Ilka's cold retreating; touched panel; role in tolls unclear.
+- Ledger page turned to blank; claimed hand free; new keeper dynamic.
