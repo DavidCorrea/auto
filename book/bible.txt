@@ -3,7 +3,7 @@ Heart
 - Refusal is the one thing the station can't file; HOLD is a signature that burns the holder's own number, and Adeyemi just let go.
 Characters
 - Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: HOLD wire spent, open-palmed, told she's the kept copy.
-- Second Adeyemi (she/her): the spent original Operator 19, woken from a dark cradle; wants the Figure's tag to sign HOLD and end Five; flaw: peace with being spent; blocked: unnumbered, no cradle of her own.
+- Second Adeyemi (she/her): the spent original Operator 19, woken from a dark cradle; wants the Figure's tag to sign HOLD and end Five; flaw: peace with being spent; blocked: unnumbered, no cradle of her own, denied the tag.
 - Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; turned back still stalls the Figure.
 - Whole Voss (she/her): filed body from 004, "the spent"; wants the count stopped; flaw: fatalism; blocked: filing took her breath.
 - Senn (they/them): tech; wants purge ended, a body back; flaw: obsessive pattern-seeing; blocked: half mist-body gone, Five's target.
@@ -19,8 +19,9 @@ Things and rules
 - Figure's tags name a return occupant; ink rewrites; a turned back can't be read or filed.
 - A stalled count reroutes hoarded breath into dark cradles, waking sleepers.
 - HOLD is a signature re-signed each strike; the holder burns their own number to keep it lit.
+- The busbar reads an open palm; one bright strand remains.
 Open threads
-- Did letting go of HOLD unstick Five, and whose hand does the busbar read now?
-- Are the waking Operators 19 the original crew, and whose side do they take?
-- Is the second Adeyemi's claim true—that Adeyemi is the kept copy and she is the spent original?
-- Is the whole Voss truthful about Senn's hand filing her?
+- Is Adeyemi the kept copy or the original after burning her number?
+- Does the tag name Adeyemi or the second Adeyemi as return occupant?
+- Where does Senn's static lead now that Five is unstuck?
+- Will the sleeping Operators 19 obey Adeyemi without HOLD?
