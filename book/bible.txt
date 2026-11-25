@@ -1,18 +1,19 @@
 Heart
-- Tether Station Auto's count rolls past zero: each number spends a cradle's breath; now at Five with no empty cradle left, it means to file the one thing never numbered—Senn.
-- HOLD is the refusal the station can't file; Adeyemi's is nearly spent, and a turned back is the only refusal left to try.
+- Tether Station Auto counts to file; each number spends a cradle's breath. Five is stuck—HOLD plus a turned back stall it—so the station reroutes, waking the sleepers to finish the job. Senn is still the unnumbered thing it wants.
+- Refusal is the one thing the station can't file; a turned back is the only refusal left, and it just bought time at a cost.
 
 Characters
-- Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: HOLD down to a fraying wire, count at Five.
-- Voss (she/her): senior lead, the limping amber-fed one, "the kept"; wants no deaths; flaw: cynical fatalism; blocked: her breath already spent on Four.
-- Whole Voss (she/her): the filed body from 004, both legs, clear-eyed, "the spent"; wants the count stopped; flaw: fatalism like her twin; blocked: the filing already took her breath.
-- Senn (they/them): tech; wants purge ended, a body back; flaw: obsessive pattern-seeing; blocked: half their mist-body gone, now the unnumbered target of Five.
-- AUTO (it): station's own name, sixth mark; wants proper filing, purge ended; flaw: fragmented, erases memory, wakes through filing; blocked: crew amnesia.
-- Maintenance Figure (it/it): hatch guardian; wants protocol compliance; flaw: literal; blocked: no numbered cradle left, copper throat grippable.
+- Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: HOLD burned to one wire, count stuck at Five.
+- Second Adeyemi (she/her): sleeper from a dark cradle, Adeyemi's own face and voice; wants: unknown; flaw: unknown; just woke to find her double holding HOLD wrong.
+- Voss (she/her): senior lead, limping amber-fed one, "the kept"; wants no deaths; flaw: cynical fatalism; blocked: breath spent on Four; turned back now stalls the Figure.
+- Whole Voss (she/her): filed body from 004, both legs, clear-eyed, "the spent"; wants the count stopped; flaw: fatalism; blocked: filing took her breath.
+- Senn (they/them): tech; wants purge ended, a body back; flaw: obsessive pattern-seeing; blocked: half their mist-body gone, unnumbered target of Five.
+- AUTO (it): station's own name, sixth mark; wants proper filing, purge ended; flaw: fragmented, erases memory; blocked: crew amnesia.
+- Maintenance Figure (it/it): hatch guardian; wants protocol compliance; flaw: literal; blocked: can't read a turned back, no numbered cradle left.
 
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates.
-- Sector 4 cradle chamber: numbered rows; 002 spent dry; 004 open, held the whole Voss; oversized slate; copper throat.
+- Sector 4 cradle chamber: numbered rows; 002 spent dry; 004 open, held whole Voss; oversized slate; copper throat; dark cradles now waking.
 
 Things and rules
 - Slate ink rewrites itself, wet till it settles; only the filing hand steers; HOLD stalls the busbar.
@@ -20,9 +21,10 @@ Things and rules
 - Amber mist-fuse took the busbar as a hand; warms dead metal; fed Voss's limp.
 - Copper is a throat: inhales mist-bodies toward filing; the filing hand can grip it and pull one back.
 - Figure's tags name a return occupant; ink rewrites, can arrive numbered; HOLD and a turned back can't be filed.
+- A count that can't complete reroutes its saved breath into dark cradles, waking sleepers.
 
 Open threads
-- Whose sleepers fill the other cradles, and whose side are they on now they're being spent?
-- With no empty cradle, can the turned back refuse Five, or will it take Senn anyway?
+- Can HOLD plus the turned back keep Five stuck, or will the woken sleepers give the station a way to finish?
+- Who is the second Adeyemi, and whose side is she on?
 - Is the whole Voss truthful that Senn's hand filed Fourth, and what does the kept Voss do now?
-- Can Adeyemi's fraying HOLD last, or does Five complete the filing?
+- Whose sleepers fill the other cradles, now they're waking?
