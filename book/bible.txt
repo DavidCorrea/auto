@@ -2,6 +2,7 @@ Characters:
 - Sára Vass, 53, mute keeper; dead hand fused to ledger, living hand pins Ákos’s name; cannot leave the ledger. Name sits above Ákos’s. Dead hand shifted as ledger tilted.
 - Ákos Vass, 17, shares toll 104 with Sára’s dead hand; speaks without memory cost; name cut at waterline. Decides they climb.
 - Márk, 30s, boat builder, keeper; river took his breath as toll; pulled onto the step, not breathing, revived by Ákos; coughed on step.
+- Ilka, 30s, female keeper; uses ledger ink, loses a memory each time, wants to climb the corridor and keep Márk alive.
 
 Places:
 - Shelf and column: wet stone above the crack; name-column; narrow step tilting as river takes back; water now still.
@@ -9,14 +10,15 @@ Places:
 - Stairwell, stone corridor, riverbank: the long climb down; corridor above step now destination.
 
 Things and rules:
-- Ledger writes in Sára's hand; each name raises the toll (now 104).
-- Spoken names cost memory and are cut in stone; river bills them to Ilka since she wrote herself.
-- Claimed hand pays toll without memory cost.
-- Sára's dead hand can write a new name, raising toll without a spoken name.
-- Toll number cut at waterline shows where the rise stands.
-- Ledger ink solidifies water briefly when applied to stone; costs Ilka a memory.
+1. Ledger writes in Sára's hand; each name raises the toll (now 105).
+2. Spoken names cost memory and are cut in stone; the river bills them to Ilka since she wrote herself.
+3. Claimed hand pays toll without memory cost.
+4. Sára's dead hand can write a new name, raising toll without a spoken name.
+5. Toll number cut at waterline shows where the rise stands.
+6. The corridor above the step is dry and empty, but each step taken there causes the toll number to increase by one without a spoken name.
 
 Open threads:
 - River’s ascent vs ledger sinkage: water stopped, step tilting.
 - Ilka’s ink use extracts a memory per application.
 - Márk cannot breathe air; how long he lasts on the step is unknown.
+- The corridor above is dry and empty, but the toll number begins to rise again without anyone speaking a name.
