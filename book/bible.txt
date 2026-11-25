@@ -2,8 +2,8 @@ Characters:
 - Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand rested; dead hand ink-stained, cut the unknown line; certainty broke; now cannot recall the river’s name (memory loss).
 - Ákos Vass, 17, press-room; gave pen to Kornél; reads ledger marks; free of hand-demand.
 - Kornél, 50s, river pilot; holds pen and cord; speaks fragment ("How many"); cord tightens at his word, now loosens after Sára’s act.
-- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark is hers.
-- Márk, 30s, boat builder; offers a new hand; wants to keep the ledger from taking more memory; distrustful of tolls.
+- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark is hers; offers sewn doll.
+- Márk, 30s, boat builder; offered a new hand; eleventh mark recorded by his hand; wants to keep the ledger from taking more memory.
 
 Places:
 - Vaskapu press-room; Toll House; The Point; river hut and white water.
@@ -15,9 +15,10 @@ Things and rules:
 4. Hearthstone needs a tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
 5. Notebook takes names cost-free first; page grows heavier; price is memory when full; Ruzsa paid.
 6. Writing awake to release debt costs keeper's writing hand; ledger restores memory/voice, demands new hand or toll; voice-fragments stay; Kornél's cord holds fragment, tightens when ledger calls.
+7. Doll submission is a toll; sewn dolls carry unpaid debts; opening a doll releases what it holds.
 
 Open threads:
-- The count now shows twelve tally marks; the purpose of the count and what the next toll will demand remain unknown.
-- Dead hand used to write a new tally, costing a memory.
-- Kornél’s speech fragment now whole.
-- Sára’s memory of the river’s name is gone.
+- The count shows twelve tally marks; ledger states the count is for the river, not the people.
+- Ruzsa submitted a sewn doll as toll; its contents unknown; seams held, not opened.
+- Sára's memory of the river's name is gone; her living hand went palm-up.
+- The ledger wrote words without a hand guiding it; twelfth mark slid sideways.
