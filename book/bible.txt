@@ -1,13 +1,13 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand released Ákos’s coat, took notebook; dead hand ink-stained, recorded new tally, coat seam split, cannot recall river’s name.
-- Ákos Vass, 17, press-room; gave pen to Kornél; reads ledger marks; free of hand-demand; determined to find Ilka; leads group under the Point.
+- Sára Vass (Vera), 53, Toll House keeper; mute, communicates by gestures; living hand released Ákos’s coat, took notebook; dead hand ink‑stained, recorded new tally, coat seam split, cannot recall river’s name.
+- Ákos Vass, 17, press‑room; gave pen to Kornél; reads ledger marks; free of hand‑demand; determined to find Ilka; leads group under the Point.
 - Kornél, 50s, river pilot; holds pen and cord; voice restored but rough; cord slack but distrusts it; guides by ledger channel.
-- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark hers; offered White Water knowledge for fifteenth; ledger inscribed *River*.
+- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark hers; offered White Water knowledge for fifteenth; ledger inscribed River.
 - Márk, 30s, boat builder; offered a new hand; eleventh mark recorded by his hand; wants to keep ledger from taking more memory; his hand inked next tally, then his living hand went cold.
-- Ilka, missing; holds river’s name; ledger took her name; now ledger bears *River*.
+- Ilka, missing; holds river’s name; ledger took her name; now ledger bears River.
 
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut flooding; under‑Point stone shelf; White Water.
+- Vaskapu press‑room; Toll House; The Point; river hut flooding; under‑Point stone shelf; White Water.
 
 Things and rules:
 1. Ledger writes in Sára’s hand; dead hand can cut lines and record new tally marks, accepting a new hand.
@@ -19,6 +19,8 @@ Things and rules:
 
 Open threads:
 - Sára’s memory of the river’s name remains lost.
-- Ledger bears *River*, linking Ilka’s name to the river; Ilka unknown.
+- Ledger bears River, linking Ilka’s name to the river; Ilka unknown.
 - Márk’s inked tally holds; the next mark awaits a hand.
 - Ruzsa’s memory is partially surrendered; she seeks White Water knowledge for the next toll.
+- Ákos’s quest for Ilka continues under the Point.
+- The group must choose who will owe the next toll.
