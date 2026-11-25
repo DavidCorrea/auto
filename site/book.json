@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 3263,
-  "passages": 12,
+  "words": 3596,
+  "passages": 13,
   "chapters": [
     {
       "number": 1,
@@ -21,8 +21,8 @@
       "number": 3,
       "numeral": "III",
       "title": "The First Delivery",
-      "words": 184,
-      "passages": 1
+      "words": 517,
+      "passages": 2
     }
   ]
 }
