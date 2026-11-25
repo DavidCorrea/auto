@@ -1,24 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger.
-- Ákos Vass, 17, speaks freely, no cord; name written and spoken; broke deliberate silence; his speech now costs Ilka, not himself; Márk keeps a hand over his mouth.
-- Márk, 30s, boat builder, keeper; cold thread on wrist; carries Ákos; river's hold persists; leads them up, said "we."
-- Ilka, reads water; wrote her own name (toll 97); has lost her mother's voice, the river's first breadth, her mother's face, and now her breath; cannot speak.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger. Her name is cut in the column one row above Ákos's.
+- Ákos Vass, 17, speaks freely, no cord; name written in the ledger and now cut fresh in stone at the waterline; his speech bills Ilka; Márk's hand keeps him silent.
+- Márk, 30s, boat builder, keeper; cold thread on wrist; carries Ákos; has put himself down into the rise as the one the river may bill next.
+- Ilka, reads water; wrote her own name (toll 97); lost mother's voice, first breadth, mother's face, breath; cannot speak; refused the next name for herself and gave it to Márk.
 
 Places:
-- Riverbank, Stone Corridor, Stairwell: the climb from dark water to the source room.
-- Source room: low vault; crack at shoulder height pouring black water down the steps; column of names in stone.
-- The shelf: wide wet stone above the crack; the name-column cut into its wall, oldest worn at top, newest wet at bottom.
+- Shelf and column: wide wet stone above the crack; name-column in its wall, oldest worn at top, newest cut at the waterline; narrow step where the wall leans in.
+- Source room: low vault below; crack pouring black water down the steps; ledger with Sára.
+- Stairwell, stone corridor, riverbank: the long climb down to the water.
 
 Things and rules:
-- Ledger writes in Sára's hand; each name written raises the toll by one (now 97).
-- A spoken name costs the speaker a memory and is cut into stone at the source; since Ilka wrote herself, the river bills every spoken name to her.
+- Ledger writes in Sára's hand; each name written raises the toll (97, now 98).
+- A spoken name costs the speaker a memory and is cut into stone; since Ilka wrote herself, the river bills spoken names to her.
 - Claimed hand pays the toll without memory cost; the cord jumps to the wrist.
 - Two keepers' cords touching returns a memory as presence, not cost.
-- The river that always ran down the crack now rises, filling the room and climbing the shelf.
+- The toll's number is cut at the waterline and shows only where the rise stands.
+- The river rises, filling the room and climbing the shelf.
 
 Open threads:
-- Sára bound to the ledger; her name somewhere in the stone column; cannot leave.
-- Márk's river hold persists through carrying Ákos.
-- Ilka has lost voice, breadth, face, breath and cannot speak; her name is written; all spoken names now cost her.
-- Ákos broke his silence; what it costs and why the water shuddered; Márk keeps a hand over his mouth.
-- The toll climbs toward an unknown number; the water rises with it.
+- Sára bound to the ledger; her name cut one row above Ákos's: who wrote it there, and why it entered with his.
+- Ákos's name cut fresh; why the water shuddered when he spoke; he stays silent under Márk's hand.
+- Márk has made himself the next the river may bill; his hold persists.
+- Ilka has nothing left and cannot speak.
+- Toll and water climb together; the column runs on up into dark.

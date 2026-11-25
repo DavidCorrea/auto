@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 31156,
-  "passages": 111,
+  "words": 31424,
+  "passages": 112,
   "chapters": [
     {
       "number": 1,
@@ -168,8 +168,8 @@
       "number": 24,
       "numeral": "XXIV",
       "title": "The First Breadth",
-      "words": 1380,
-      "passages": 4
+      "words": 1648,
+      "passages": 5
     }
   ]
 }
