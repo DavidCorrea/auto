@@ -1,30 +1,28 @@
 Characters:
-- Sára Vass, 53, mute keeper; dead hand fused to ledger; cannot leave the ledger.
-- Ákos Vass, 17, shares toll 109; name cut at waterline; leads the descent.
-- Márk, 30s, boat builder keeper; breath shallow, eased by dry air.
-- Ilka, 30s, keeper; ink costs memory; carries second ledger; read the fifth name and forgot it.
-- Claimed hand, neuter; pays toll or exerts force when commanded; lifted the group into the shaft.
-- Keres (name on second ledger); identity unknown; memory of it lost to Ilka.
+- Sára Vass, 53, mute keeper; dead hand fused to ledger; dead finger now points at wall-door seam; cannot leave ledger.
+- Ákos Vass, 17, shares toll 109; leads the descent; warm stone under his palm.
+- Márk, 30s, boat builder keeper; breath eased by dry air; in shaft group.
+- Ilka, 30s, keeper; ink costs memory; carries second ledger; forgot fifth name; now behind source room.
+- Claimed hand, neuter; pays toll without memory cost; rope frayed after lifting; waits in dark.
+- Keres (name on second ledger); identity unknown; memory lost to Ilka; ink still wet.
 
 Places:
-- Source room: low vault; crack sealed by embedded disc; ledger with Sára; wall door open.
-- Dry stair: descends behind the wall door; unflooded grey stone.
-- Round room: at the stair's foot; ceiling opened into a narrow shaft; now empty.
-- Stone corridor: dry passage above the sealed step; toll 109.
-- Hidden chamber: emptied of ink and second ledger.
-- Shaft: narrow climb from the round room upward; destination unknown.
+- Source room: low vault; crack sealed by embedded disc; ledger with Sára; wall door seam warm, marked by dead finger.
+- Dry stair: descends behind wall door; unflooded grey stone; now behind the group.
+- Round room: at stair’s foot; ceiling opened into shaft; now empty and whole.
+- Shaft: narrow climb from round room; opens behind source room ledger; rope hangs limp above.
 
 Things and rules:
-1. Ledger writes in Sára's hand; each name raises the toll.
+1. Ledger writes in Sára’s hand; each name raises the toll.
 2. A claimed hand pays the toll without memory cost.
-3. Sára's dead hand writes names or glyphs without speaking; only names raise the toll.
-4. The hard disc seals fissures on contact, turning water to vapor; embedded in the cracked step; removal would reopen the crack.
-5. A commanded claimed hand can lift or pull, ignoring the toll for that action.
-6. The second ledger requires five names; the fifth appears automatically and erases the reader's memory of it; speaking it makes the black drop rise, merge with the ceiling, and open a shaft.
+3. Sára’s dead hand writes names or glyphs without speaking; only names raise the toll; its finger can mark stone.
+4. The hard disc seals fissures on contact, turning water to vapor; embedded in cracked step; removal would reopen crack.
+5. A commanded claimed hand can lift or pull, ignoring toll for that action; its rope frays with use.
+6. The second ledger requires five names; fifth appears automatically and erases reader’s memory of it; speaking it makes black drop rise, merge with ceiling, open shaft.
 
 Open threads:
-- Toll holds at 109; the disc remains embedded; the step hums lower.
-- The new shaft above the round room: where it leads is unknown.
-- Sára's dead hand remains still, fingers toward the stair.
-- Márk's breath improved; the group is ascending.
-- The completed second ledger's full purpose is still unknown.
+- Toll holds at 109; disc embedded; step hums lower.
+- Claimed hand’s rope frayed: cost of lifting is wear on rope and hand.
+- Sára’s dead finger marks wall-door seam; stone warm beneath it.
+- Second ledger’s fifth name forgotten; ledger’s purpose unknown.
+- Group behind source room ledger; wall door seam shifted slightly under Ákos’s palm.
