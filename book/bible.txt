@@ -1,26 +1,27 @@
 Heart
-- Tether Station Auto's purge advances as the node chair's fog-body reveals a hidden sequence, forcing the crew toward an unknown corridor while the count threatens to reach zero.
+- Tether Station Auto runs one shared clock: the node slate and a larger Sector 4 slate both count to zero, and zero shuts down everything. The crew must reach Sector 4 and stop the shared clock before it hits zero, while Senn's mist scouts the copper and Senn's body stays fused to the chair.
 
 Characters
-- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; now mist-body inside the node chair, riding the copper.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; unfiled at third mark, still limp, cradle marks dark.
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded.
-- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; writes via slate wet ink; only the filing hand can withdraw; unfileled themselves as fourth mark.
-- Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch sealed after fourth mark accepted.
+- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body fused to node chair, now riding copper into Sector 4.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; limp, still by the chair, cradle marks dark.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; at the corridor threshold.
+- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; wrote own name as fourth mark, unfiled, withdrew the hand.
+- Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch sealed.
 
 Places
-- Tether Station Auto orbital hub: node cradle, door bus, stairwell, slate, busbar, deck plates; now also a corridor of white light leading to Sector 4.
+- Tether Station Auto: node cradle, slate, busbar, deck plates.
+- Corridor of white light to Sector 4: a room of hundreds of dark cradles and a larger slate counting the same clock, bearing all their names.
 
 Things and rules
-- Slate ink rewrites itself; trapped charge speaks and writes through wet ink; only the filing hand unfiles.
+- Slate ink rewrites itself; trapped charge speaks and writes via wet ink; only the filing hand unfiles.
 - Node chair binds purge; empty chair counts up; a seated body stalls it; one dark cradle mark per filing.
 - Mist-fuse: formed mist ignites the amber seam open; after cooling it shuts on contents.
-- Senn's mist can ride the copper into the cradle and hold the count frozen while shaped as a body.
-- Fourth mark: a filer must become the filed to withdraw the hand; Renner wrote their own name and unfileled, withdrawing.
-- Unfiling Operator 23 reverses purge; count resumes when Renner's hand withdraws.
+- Senn's mist rides the copper into cradles/Sector 4 to scout; can hold the count frozen while shaped as a body.
+- Fourth mark: a filer must become the filed to withdraw the hand; Renner wrote their own name and unfileled.
+- Purge is a shutdown: node and Sector 4 slates share one clock; zero stops everything.
 
 Open threads
-- The count is advancing; purge is armed and doors have opened to a corridor of white light leading to an unknown sector.
-- The fog-body revealed a pattern: Tether Auto, Sector 4, 0347—its meaning connects to the purge's origin.
-- Can Senn get a real body back once the purge ends, or will the mist remain fused to the chair?
-- Who or what is behind the slate's pressure, and will it influence the count's descent?
+- Both slates count to zero on one shared clock; can the crew stop it in time?
+- The big Sector 4 slate bears all their names—what does that mean?
+- The "I'm the count" entity behind the slate's pressure—who or what is it?
+- Can Senn get a real body back, or stay fused to the chair?
