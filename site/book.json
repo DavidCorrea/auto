@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 3522,
-  "passages": 14,
+  "words": 3767,
+  "passages": 15,
   "chapters": [
     {
       "number": 1,
@@ -14,8 +14,8 @@
       "number": 2,
       "numeral": "II",
       "title": "The Waking Broadcast",
-      "words": 1708,
-      "passages": 7
+      "words": 1953,
+      "passages": 8
     }
   ]
 }
