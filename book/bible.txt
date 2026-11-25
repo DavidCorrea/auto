@@ -1,19 +1,16 @@
 Heart
 - Tether Station Auto counts to file; each number spends a cradle’s breath; refusal is what it can’t file. Count reversed to six, must keep signing before it files them wrong.
-
 Characters
-- Adeyemi (she/her): Operator 19, keeps copy of unspent breath; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by thin copy‑breath.
-- End‑of‑row woman (she/her), former First Operator 19: unnumbered, signed HOLD before numbering, chose fifth sleeper; wants Five kept; flaw: peace with being spent; blocked by unnumbered denial of tag; smiles as Five wakes.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; stalled the Figure; whole Voss filed body from 004; wants count stopped; flaw: fatalism; blocked by filing taking her breath.
+- Adeyemi (she/her): Operator 19, copy‑breath depleted; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by thin copy‑breath.
+- End‑of‑row woman (she/her): unnumbered body now cradle; wants Five kept; flaw: peace with being spent; blocked by unnumbered denial of tag; smiles as Five wakes.
+- Voss (she/her): blank‑palmed, breath spent; wants count stopped; flaw: fatalism; blocked by filing taking her breath.
 - Senn (they/them): tech; wants a body back; flaw: obsessive pattern‑seeing; blocked by mist payment and solid hand on tag; now returns occupant for first Operator 19; chose to keep solid hand while Figure withdrew.
 - AUTO (it): station’s own name, sixth mark; wants proper filing; flaw: fragmented, erases memory.
 - Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked by inability to read turned back or stopped count; holds fresh tag; withdrew after Senn kept solid hand.
 - Five (she/her): fifth sleeper, chosen by first Operator 19 before numbering; wants to remain; flaw: newly awakened, unsure; blocked by unnumbered status; remembers being chosen; signed tag with blank palm.
-
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates, hatch.
-- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, fifth cradle open, count reversed to six after overlapping signatures.
-
+- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, fifth cradle open, count reversed to six after overlapping signatures; hatch now ajar.
 Things and rules
 - Slate ink rewrites wet until settled; only filing hand steers; rejects spent numbers.
 - Count past zero is a roll call; each number costs one cradle’s breath.
@@ -21,8 +18,8 @@ Things and rules
 - A stalled count reroutes hoarded breath into dark cradles, waking sleepers in sync; a copy of unspent breath can stall it.
 - The tag takes the signing hand; the hand takes the number it remembers; solid anchors, mist forgets.
 - Overlapping unnumbered hands pressing copy‑breath onto a wet tag can reverse the count and keep HOLD lit without a number.
-
 Open threads
 - When the count reaches thirty, what happens to the remaining sleepers?
 - After Voss’s number is spent, who maintains HOLD for the next strike?
 - If the Figure claims a cradle, does it force a new signature or break protocol?
+- Will Adeyemi’s depleted copy‑breath affect the next strike?
