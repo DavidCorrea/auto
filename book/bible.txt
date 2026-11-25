@@ -5,18 +5,19 @@ Characters:
 - Márk, 30s, boat builder; fifteenth toll left his hand still; holds the painter now, refuses the ledger.
 - Ilka, returned from missing; cold and heavy; says she taught Sára on the shingle in daylight, no room, no voice; the river has her already.
 - Ruzsa, 40s, trader; paid when the page was full.
+- Previous Keeper (78), the one who cut the mark, paid debt with his hand, counted as tally 78 in the ledger.
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber (steps up); the landing and marked door above.
+- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber (steps up); the landing and marked door above; Keeper's Room (behind the marked door, furnished, used, not Ilka's).
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a new hand.
 - Writing awake releases debt through the keeper's hand, restoring memory or voice, but costs the keeper a memory.
 - Speaking Sebes drops the water but strips the name from whoever carries it; ink on skin holds it.
 - The river returns only what it never held; asked for Ilka, the ledger wrote a tally and the water rose.
 - Cord jumps to the wrist of whoever holds the ledger when a toll falls; now on Ákos.
-- Three strokes and a hook: the mark Sára traces unbidden, not Ilka's teaching, carved on the door above.
+- Three strokes and a hook: the mark Sára traces unbidden, not Ilka's teaching, carved on the door above; it is the signature of the previous keeper who paid the debt.
+- Ledger tallies count keepers; each full tally marks a keeper's completed debt and the room passes to the next.
 Open threads:
 - What Ákos will write next, and what it costs him.
-- Who taught Sára the mark, if not Ilka.
 - Márk's still hand: freed servant or the ledger's scribe?
 - Ilka's seventh moon toll: who pays the new hand?
-- What waits behind the marked door.
+- The water rising while the room stays dry: what that means for the toll.

@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 21338,
-  "passages": 77,
+  "words": 21560,
+  "passages": 78,
   "chapters": [
     {
       "number": 1,
@@ -119,8 +119,8 @@
       "number": 17,
       "numeral": "XVII",
       "title": "The Wet Stair",
-      "words": 934,
-      "passages": 4
+      "words": 1156,
+      "passages": 5
     }
   ]
 }
