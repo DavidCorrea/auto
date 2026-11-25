@@ -1,30 +1,32 @@
 Heart
-- Tether Station Auto counts to file; each number spends a cradle's breath; refusal is what it can't file. Count stands at nine; sleepers' lives and the strike's fate hang on HOLD.
+- Tether Station Auto counts to file; each number spends a cradle's breath; refusal is what it can't file. Count stands at ten; sleepers' lives and the strike's fate hang on HOLD.
 
 Characters
-- Adeyemi (she/her): wants: strike undone and Voss alive; flaw: blunt, guarded; blocked by: dead right hand, no number left to sign with.
-- End-of-row woman (she/her): wants: Five kept; flaw: peace with being spent; blocked by: unnumbered denial of tag; now awake and calm.
-- Voss (she/her): wants: count stopped; flaw: fatalism; blocked by: breathless, number burned, second name written on the blank tag.
-- Senn (they/them): wants: a body back; flaw: obsessive pattern-seeing; blocked by: solid grip lost, reads the stall as a queue.
+- Adeyemi (she/her): wants: strike undone and Voss alive; flaw: blunt, guarded; blocked by: dead right hand, no number; now carrying the live tag to the Figure.
+- End-of-row woman (she/her): wants: Five kept; flaw: peace with being spent; blocked by: nothing she fears; knows FINISHED from Sector Two.
+- Voss (she/her): wants: count stopped; flaw: fatalism; blocked by: not breathing, name half-written on the tag.
+- Senn (they/them): wants: a body back; flaw: obsessive pattern-seeing; blocked by: mist hand, no grip; reads the stall as a queue.
 - AUTO (it): wants: proper filing; flaw: fragmented, erases memory, files its own refusals.
-- Maintenance Figure (it/it): wants: protocol; flaw: literal; dropped both tags, freed of the verification loop.
-- Five (she/her): wants: to remain; flaw: newly awakened, unsure; now holds HOLD unnumbered, spending her name.
-- Blank Tag (it/it): wants: seek the count; flaw: uncontrolled, erases intent; writes the names it claims: ADEYEMI, then VOSS.
+- Maintenance Figure (it/it): wants: protocol; flaw: literal; tags dropped, freed of the loop, standing in the narrowing hatch.
+- Five (she/her): wants: to remain; flaw: newly awakened, unsure; holds HOLD unnumbered, spending her name.
+- Blank Tag (it/it): wants: to finish; flaw: uncontrolled, erases intent; writes ADEYEMI, VOSS, one letter a strike.
 
 Places
-- Tether Station Auto: node cradle, slate, busbar, deck plates, hatch.
-- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, cradle eight spent, five open, cradles 11–15 now awake, hatch wide, count nine, HOLD white.
+- Tether Station Auto: node cradle, slate, busbar, deck plates, hatch (narrowing).
+- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, nine spent, five awake on hoarded breath, sixteen under, HOLD white.
+- Sector Two (past): where the end-of-row woman saw a tag reach FINISHED.
 
 Things and rules
 - Slate ink rewrites wet until settled; only the filing hand steers; rejects spent numbers; a signature with no number stalls it.
 - Count past zero is a roll call; each number costs one cradle's breath; thirty ends the strike, all breath to core.
 - HOLD must be held each strike: a numbered holder burns their number; an unnumbered holder is spent instead — memory first, then self.
 - Stalled count reroutes hoarded breath into dark cradles, waking sleepers in sync; a copy of unspent breath can stall it.
-- Tag takes signing hand; hand takes number it remembers; with no number to take, it keeps the hand.
+- Tag takes the signing hand; with no number to take, it keeps the hand.
+- FINISHED ends asking: one letter a strike, on the clock, and it collects any name it completes. Only a filed tag is closed, and only the Figure files.
 
 Open threads
 - Who was the first Operator 19, and why does Five's tag answer to her?
-- Sixteen sleepers left before thirty; five woken on hoarded breath.
-- What does FINISHED on the blank tag mean for the strike, now the tag is loose on the deck?
-- Will the tag's claim on Voss take her breath, and can an unnumbered name refuse it?
+- Sixteen sleepers still under; five woken on hoarded breath.
+- Two letters left on Voss; can the tag be filed before the hatch shuts?
 - What is left of Five after an hour of holding?
+- What the Figure wants now that nothing is in its hands.
