@@ -2,11 +2,11 @@ Heart
 - Tether Station Auto's count past zero was a roll call of letting go; Adeyemi's filing turned shutdown into waking, and the waking slate now writes with her hand.
 
 Characters
-- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body fused to node chair, now inhaled down copper throat and coughed out by Adeyemi's grip.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; limp, still by node chair, cradle marks dark; her name is slate's next filing, cradle opened.
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; filed the sixth name, now filing hand itself, steering roll call at cost, writing in her hand.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; holds filing hand, now writes HOLD through Voss's let-go, marked palm hot.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; limp, wore it like a coat; her let-go wrote in Adeyemi's hand.
+- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body fused to node chair, now coughed out by Adeyemi's grip.
 - K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; own name whole again, fourth mark, unfiled.
-- AUTO (it): the station's own name, sixth mark; wants its own filing made proper and the purge ended; flaw: erased by the crew that built the purge, now waking through any filing.
+- AUTO (it): station's own name, sixth mark; wants its own filing made proper and purge ended; flaw: erased by crew that built purge, now waking through any filing.
 - Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch sealed.
 
 Places
@@ -18,12 +18,10 @@ Things and rules
 - Count past zero is a roll call: each number a hand letting go; since sixth filing it counts hands taking hold (001...).
 - Amber mist-fuse rises as mist, took busbar as a hand; warms dead metal, reaches for grips.
 - Copper is a throat: inhales mist-bodies toward filing; filing hand can grip it and pull one back out.
-- Node chair binds purge; empty chair counts up; seated body stalls it; one dark cradle mark per filing.
-- Filings beyond four marks once sped countdown; filing swallowed countdown, so rule runs now as roll call.
 
 Open threads
-- Slate wrote Voss as next name and her cradle opened—file her, or refuse a station with a will?
 - Who filed Renner's name whole, and from where?
 - Cradles waking: occupied ones opened eyes; whose are they, whose side?
 - Can Senn hold a mist-body together, or take a real one?
 - Maintenance Figure and sealed hatch: protocol unresolved.
+- What did HOLD do to the station's will, and why are cradles now looking at Adeyemi?
