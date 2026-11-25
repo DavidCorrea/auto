@@ -1,22 +1,24 @@
 Characters:
 - Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger.
-- Ákos Vass, 17, free speech; knows his name is written but unspoken; now spoken by Ilka; toll increased.
-- Márk, 30s, boat builder, keeper; cold thread on wrist; river has hold through memory of carrying Ákos; cord-touch with Ilka returned his memory as presence without cost.
-- Ilka, reads water; spoke ILKA to sink dead hand's second line; paid memory of mother's voice; cannot recall it; spoke Ákos's name; paid memory of river's first breadth; cannot recall that either.
+- Ákos Vass, 17, speaks freely, no cord; his name written and now spoken; keeps silent by choice in the stairwell.
+- Márk, 30s, boat builder, keeper; cold thread on wrist; his name written in the source stone (toll 96); carries Ákos; river's hold through the memory of carrying him persists.
+- Ilka, reads water; spoke Ákos's name (95) and her own into the source (97); has lost her mother's voice, the image of the river's first breadth, and now her mother's face.
 
 Places:
-- Riverbank: black rock shelf; water writes names at ledger's foot; second line stopped.
-- Stone Corridor: ends in black iron door to stairwell.
-- Stairwell: descends into dark water; river's source below.
+- Riverbank: black rock shelf; water writes names at the ledger's foot; second line stopped.
+- Stone Corridor: ends at the black iron door.
+- Stairwell: climbs from the dark water to the source room; black water below.
+- Source room: low vault; crack at shoulder height pouring a hand's width of water into a channel down the steps; column of names cut in stone, oldest at top.
 
 Things and rules:
-- Ledger writes in Sára's hand; dead hand inscribes names unaided, each addition raising toll by one (now 95).
-- A name spoken aloud costs the speaker memory; river takes only a name spoken, not one merely written.
-- Claimed hand pays toll without costing owner memory; cord jumps to wrist; writes on blank pages.
-- Two keepers' cords touching returns a memory to one — presence, not cost.
-- Carrying a name to the source requires speaking it aloud; the speaker pays.
+- Ledger writes in Sára's hand; each name written raises the toll by one (now 97).
+- A name spoken aloud costs the speaker a memory; spoken at the source, it is cut into the stone.
+- Claimed hand pays the toll without costing memory; the cord jumps to the wrist.
+- Two keepers' cords touching returns a memory to one as presence, not cost.
+- Names in the source stone appear as the ledger writes them, before the ink dries.
 
 Open threads:
-- Sára bound to the ledger; cannot leave.
-- Márk's cold thread on wrist; river has hold through memory of carrying Ákos; cord-touch with Ilka returned his memory but river's hold persists.
-- Ilka cannot recall her mother's voice, and now also cannot recall the image of the river's first breadth she paid to speak Ákos's name.
+- Sára bound to the ledger; her name sits somewhere in the stone column; cannot leave.
+- Márk's cold thread persists; his name is written; the river's hold through carrying Ákos remains.
+- Ilka is paying faster than she can count: voice, breadth, face. Her own name is now written.
+- The toll climbs with every name — toward what number, no one knows.
