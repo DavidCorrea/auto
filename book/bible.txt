@@ -1,26 +1,27 @@
-Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; voice returns as shaped words without sound.
-- Ákos Vass, 17, press‑room; notebook of losses; cannot feel paper, ash or his own writing, only faint echoes.
-- Ilka Dálnoky, 70s, smokehouse; keeps faceless dolls; one bears child’s face; says sewn face must go to fire.
-- Tomas Vass, 40s, former toll boy; lost his left hand in the marsh flood; paid for the doll and asked if the keeper remembered her name.
-- Maren Dálnoky, 68, ex‑seamstress; lost both hands in the fire at The Point; sewed the doll’s face.
+Characters:  
+- Sára Vass (Vera), 53, keeper of the Toll House; voice returns as shaped words without sound.  
+- Ákos Vass, 17, press‑room; notebook of losses; cannot feel paper, ash or his own writing, only faint echoes.  
+- Ilka Dálnoky, 70s, smokehouse; keeps faceless dolls; one bears child’s face; says sewn face must go to fire.  
+- Tomas Vass, 40s, former toll boy; lost his left hand in the marsh flood; paid for the doll and asked if the keeper remembered her name.  
+- Maren Dálnoky, 68, ex‑seamstress; lost both hands in the fire at The Point; sewed the doll’s face.  
+- Kornél, 50s, river pilot; lost left hand in the flood at The Point; hired Maren to stitch the doll’s face; sent Tomas with the satchel.  
 
-Places:
-- Vaskapu press‑room, stone landing with lantern, Ákos’s workbench.
-- Sallow marsh town, Toll House at causeway’s end, table, iron stove, flour crock.
-- The Point: roofless burned house, black hearthstone, Ilka’s smokehouse.
+Places:  
+- Vaskapu press‑room, stone landing with lantern, Ákos’s workbench.  
+- Sallow marsh town, Toll House at causeway’s end, table, iron stove, flour crock.  
+- The Point: roofless burned house, black hearthstone, Ilka’s smokehouse.  
 
-Things and rules:
-1. Dawn tags appear in Sára’s cramped hand, ink often wet; she does not remember writing them.
-2. Toll taken from deliverer; opening what you carry costs memory.
-3. Dolls take a face at the bell or from a living face sewn in thread; the small doll warms when a debt is carried, cold on refusal.
-4. The Notebook lists names in Sára’s hand; dates and names appear even when Ákos holds the pen; Ákos feels touch as faint echo when writing; Sára Vass now stands beneath Vera Vass.
-5. The Rest began with the fire at The Point; Ilka’s memory was its unpaid fee; the child was inside the fire.
-6. Hearthstone requires sixteenth tag; costs voice or last memory; warms when carried; blank tags are lighter than ash.
+Things and rules:  
+1. Dawn tags appear in Sára’s cramped hand, ink often wet; she does not remember writing them.  
+2. Toll taken from deliverer; opening what you carry costs memory.  
+3. Dolls take a face at the bell or from a living face sewn in thread; the small doll warms when a debt is carried, cold on refusal.  
+4. The Notebook lists names in Sára’s hand; dates and names appear even when Ákos holds the pen; Ákos feels touch as faint echo when writing; Sára Vass now stands beneath Vera Vass.  
+6. Hearthstone requires sixteenth tag; costs voice or last memory; warms when carried; blank tags are lighter than ash.  
+7. A doll that glows on the hearthstone feeds on the carrier’s accessible memories; each pulse extracts a fragment, which returns only if the patron’s name is recorded.  
 
-Open threads:
-- The seventh crossed‑out “I paid for him” and its link to Maren’s stitching – partially resolved.
-- Why Sára chose Ákos and how he lost his tactile memory – clarified: she chose him because she remembered her name, and his touch faded when he opened the satchel.
-- Effect of burning the Ákos‑doll on Ákos – unresolved; fear of losing his own memory.
-- Tomas’s motive and the man with no left hand – explained, but his patron’s identity remains hidden.
+Open threads:  
+- The seventh crossed‑out “I paid for him” and its link to Maren’s stitching – resolved; the notebook now records Maren’s role.  
+- Why Sára chose Ákos and how he lost his tactile memory – clarified: she chose him because she remembered her name, and his touch faded when he opened the satchel.  
+- Effect of burning the Ákos‑doll on Ákos – unresolved; fear of losing his own memory.  
+- Tomas’s patron identity remains hidden; Kornél’s full motive unrecorded.  
 - Sára’s full identity returning – she writes her name again, but the process is incomplete.
