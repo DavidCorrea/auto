@@ -1,11 +1,11 @@
 Heart
-- Tether Station Auto runs one shared clock: the node slate and a larger Sector 4 slate both count to zero, and zero shuts down everything. The crew must reach Sector 4 and stop the shared clock before it hits zero, while Senn's mist scouts the copper and Senn's body stays fused to the chair.
+- Tether Station Auto's shared clock counts to zero, shutting down all systems. The crew must reach Sector 4 and stop it before zero, while Senn's mist-body rides copper and Renner's unexpected name complicates the slate.
 
 Characters
 - Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body fused to node chair, now riding copper into Sector 4.
 - Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; limp, still by the chair, cradle marks dark.
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; at the corridor threshold.
-- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; wrote own name as fourth mark, unfiled, withdrew the hand.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; in the corridor toward Sector 4.
+- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; wrote own name as fourth mark, unfiled; name now appears on Sector 4 slate unexpectedly.
 - Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch sealed.
 
 Places
@@ -17,11 +17,12 @@ Things and rules
 - Node chair binds purge; empty chair counts up; a seated body stalls it; one dark cradle mark per filing.
 - Mist-fuse: formed mist ignites the amber seam open; after cooling it shuts on contents.
 - Senn's mist rides the copper into cradles/Sector 4 to scout; can hold the count frozen while shaped as a body.
-- Fourth mark: a filer must become the filed to withdraw the hand; Renner wrote their own name and unfileled.
-- Purge is a shutdown: node and Sector 4 slates share one clock; zero stops everything.
+- Fourth mark: a filer must become the filed to withdraw the hand; Renner wrote their own name and unfiled.
+- Names added to the slate beyond the four marks trigger accelerated countdown.
 
 Open threads
 - Both slates count to zero on one shared clock; can the crew stop it in time?
 - The big Sector 4 slate bears all their names—what does that mean?
 - The "I'm the count" entity behind the slate's pressure—who or what is it?
 - Can Senn get a real body back, or stay fused to the chair?
+- Renner's name appears on the Sector 4 slate unexpectedly—who put it there and why?

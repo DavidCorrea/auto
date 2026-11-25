@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 11442,
-  "passages": 45,
+  "words": 11619,
+  "passages": 46,
   "chapters": [
     {
       "number": 1,
@@ -42,8 +42,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Stairwell and the Count",
-      "words": 1293,
-      "passages": 5
+      "words": 1470,
+      "passages": 6
     }
   ]
 }
