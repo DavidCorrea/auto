@@ -1,14 +1,15 @@
 Characters:
-- Sára Vass, 53, mute keeper; dead hand fused to ledger; drew the pointing glyph, now lies open and still; cannot leave the ledger.
-- Ákos Vass, 17; shares toll 109; name cut at waterline; pushed the wall door open; leads the descent.
-- Márk, 30s, boat builder keeper; river took his breath; cannot breathe air; airway partly open via disc; lifted by claimed hand; breath shallow, eased by dry air.
-- Ilka, 30s, keeper; ledger ink costs her memory; owns the claimed hand; carries second ledger; sealed the crack with the hard disc.
+- Sára Vass, 53, mute keeper; dead hand fused to ledger; cannot leave the ledger.
+- Ákos Vass, 17, shares toll 109; name cut at waterline; leads the descent.
+- Márk, 30s, boat builder keeper; breath shallow, airway partly open via disc; breathing eased by dry air.
+- Ilka, 30s, keeper; ink costs memory; carries second ledger; sealed the crack with the hard disc.
 - Claimed hand, neuter; pays toll or exerts force when commanded; rope released, fingers uncurling, at rest.
+- Keres (name appears on second ledger); identity unknown; memory of name lost to Ilka upon reading.
 
 Places:
 - Source room: low vault; crack sealed by embedded disc; vapor; ledger with Sára; wall door now open.
 - Dry stair: descends behind the wall door; unflooded grey stone; group has passed down it.
-- Round room: at stair's foot; a single black drop swells on the ceiling stone, held, not falling.
+- Round room: at stair's foot; ceiling stone holds a black drop that rises when the fifth name is spoken.
 - Stone corridor: dry passage above sealed step; toll 109; empty now.
 - Hidden chamber: corridor's end; emptied of ink and second ledger.
 - Shaft: narrow climb between step and corridor; bracing lessens toll.
@@ -19,10 +20,12 @@ Things and rules:
 3. Sára's dead hand writes names or glyphs without speaking; only names raise the toll.
 4. The hard disc seals fissures on contact, turning water to vapor; embedded in the cracked step; removal would reopen the crack.
 5. A commanded claimed hand can lift or pull, ignoring toll for that action.
+6. The second ledger requires five names; the fifth name appears automatically and erases the reader's memory of it.
+7. Speaking the fifth name causes the black drop to rise toward the ceiling.
 
 Open threads:
-- Toll holds at 109; step hums lower since the door opened; disc still embedded.
-- Second ledger bears four names in dead-hand script; a fifth may be needed; purpose unknown.
-- Sára's dead hand has gone still, fingers toward the stair; why it stopped.
-- The round room's held black drop: what it is, whose, what its falling would cost.
-- Márk too weak to climb; descent is slow; his breath remains shallow.
+- Toll holds at 109; step hums lower since door opened; disc still embedded.
+- Second ledger now bears five names; purpose of the completed ledger unknown.
+- Sára's dead hand remains still, fingers toward the stair.
+- The black drop rising: what happens when it reaches the ceiling stone.
+- Márk's breath improved but still shallow; group must decide next move.
