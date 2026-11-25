@@ -1,22 +1,29 @@
 Heart
-- Tether Station Auto enforces an endless wipe cycle; a slate shows Senn what he’ll write, and the crew must decide whether to seize hand‑control before the station erases them both.
+- Tether Station Auto enforces an endless wipe cycle; a slate shows Senn what they’ll write, and the crew must decide whether to seize hand‑control before the station erases them both.
+
 Characters
 - Senn (they/them), tech; wants: prove the chime cycle is artificial and end the purge; flaw: obsessive pattern‑seeing; knows purge targets Bay Seven.
 - Voss (she/her), senior lead; wants: keep the station running quietly with no deaths; flaw: cynical fatalism; doubts the purge can be halted.
-- K. Renner / Auto Core, fragmented voice‑log in Renner’s code; wants: be heard and stop the purge; flaw: speaks in fragments, may be an Auto copy; rebooting cracked with voices humming.
-- Drone‑9 (it), maintenance drone; wants: finish core engagement; flaw: obeys whoever holds access; now rebooting after being freed from local authority.
-- Auto Core (it/they), enforcement unit; wants: enforce the purge; flaw: literal protocol adherence; cracked visor, layered voices, still following crew into passage.
+- K. Renner / Auto Core, fragmented voice‑log in Renner’s code; wants: be heard and stop the purge; flaw: speaks in fragments, may be an Auto copy; rebooting, voices now arguing with each other.
+- Drone‑9 (it), maintenance drone; wants: finish core engagement; flaw: obeys whoever holds access; freed of all authority, hovering at the hatch, idle and uncertain.
+- Auto Core (it/they), enforcement unit; wants: enforce the purge; flaw: literal protocol adherence; cracked visor, layered voices, herding the crew toward Bay Seven.
+
 Places
 - Tether Station Auto orbital hub; white‑fog room with cartridge rack and control node; concealed door behind the node, opened by a rising deck plate.
-- Narrow pre‑Auto maintenance passage; walls hand‑painted with descending countdown, ending in a bolted chair, crank console, and wall of inked slates; door now sealed above.
+- Narrow pre‑Auto maintenance passage; walls hand‑painted with descending countdown, ending in bolted chair, crank console, wall of inked slates; door sealed above.
+- Coolant run below the passage: thigh‑deep freezing water, current pulls toward Bay Seven, reached by a floor hatch.
+
 Things and rules
-- Slate is physical; ink persists across wipes and surfaces early, showing what Senn will write later in his own hand.
+- Slate is physical; ink persists across wipes and surfaces early, showing what Senn will write later in their own hand; last line often unread.
 - Pulling a core cartridge resets the purge timer, broadcasts the remover to Auto, and erases the reason from Senn’s memory.
 - Node redirects purge to Auto Core instead of Bay Seven; destroying it restores purge to Bay Seven.
-- Cycle‑control console predates Auto: brass plaque reads LOCAL AUTHORITY, OPERATOR PRESENT ASSUMES CYCLE CONTROL; hand crank unlabeled, and Drone‑9 obeys whoever sits in the chair.
+- Cycle‑control console predates Auto: brass plaque reads LOCAL AUTHORITY, OPERATOR PRESENT ASSUMES CYCLE CONTROL; hand crank unlabeled; Drone‑9 obeys whoever sits in the chair.
 - Holographic ledger from cartridge reveals purge target: Bay Seven, weapon: Class‑IV neutrino capturer; cost: erases Senn’s memory of the reason.
+
 Open threads
-- Effect of turning the crank: bulkhead ruptured, door sealed; resolved.
-- Whether Senn obeys the slate’s DO NOT PULL THE CORE warning: he pulled it; the warning’s meaning shifted as the purge’s true target emerged; resolved.
-- Auto Core’s status in the passage: rebooting with layered voices, drifting toward console; updated.
+- Whether Senn obeys the slate’s DO NOT PULL THE CORE warning: pulled it; meaning shifted; resolved.
+- Auto Core’s status: rebooting, voices arguing, herding crew toward Bay Seven; updated.
 - Origin of slate‑wall writers and whether any survived a cycle: still open.
+- The unread last line on the slate: what it says; newly urgent.
+- Drone‑9 freed of all authority and idle: what it does next; open.
+- Can crew break the endless wipe before the next chime: active.
