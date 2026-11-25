@@ -1,23 +1,23 @@
 Characters:
 - Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger.
-- Ákos Vass, 17, through the iron door with Márk; free speech; knows his name is written but unspoken; stopped himself.
-- Márk, 30s, boat builder, keeper; memory of carrying Ákos returned by cord-touch; through the iron door; the river still has a hold on him through that memory.
-- Ilka, reads water; at riverbank; spoke ILKA to sink the dead hand's second line; paid with memory of her mother's voice; cannot recall it.
+- Ákos Vass, 17, free speech; knows his name is written but unspoken; stopped himself; held by Márk in stairwell.
+- Márk, 30s, boat builder, keeper; memory of carrying Ákos returned by cord-touch; river has hold through that memory; holding Ákos in stairwell.
+- Ilka, reads water; spoke ILKA to sink dead hand's second line; paid memory of mother's voice; cannot recall it; at black iron door with Márk and Ákos.
 
 Places:
-- Riverbank: black rock shelf; water writes names at the ledger's foot; second line stopped.
-- Stone Corridor: ends in black iron door to the stairwell.
-- Stairwell: descends into dark water; the river's source, below.
+- Riverbank: black rock shelf; water writes names at ledger's foot; second line stopped.
+- Stone Corridor: ends in black iron door to stairwell.
+- Stairwell: descends into dark water; river's source below.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand inscribes names unaided, each addition raising toll by one (now 94).
-- A name spoken aloud costs the speaker memory; the river takes only a name spoken, not one merely written.
+- A name spoken aloud costs the speaker memory; river takes only a name spoken, not one merely written.
 - Claimed hand pays toll without costing owner memory; cord jumps to wrist; writes on blank pages.
 - Two keepers' cords touching returns a memory to one — presence, not cost.
 - Carrying a name to the source requires speaking it aloud; the speaker pays.
 
 Open threads:
-- Ákos's name written but unspoken, held down by Sára; Márk and Ákos are behind the iron door.
+- Ákos's name written but unspoken, held down by Sára; Márk holds Ákos in stairwell; Ilka plans to take him toward source and speak.
 - Sára bound to the ledger; cannot leave.
-- Márk's returned memory has given the river a hold on him.
-- Ilka paid a memory to stop her own name; the cost may matter later.
+- Márk's returned memory has given the river a hold on him; cold thread on wrist.
+- Ilka paid a memory to stop her own name; she cannot recall her mother's voice; now plans to speak Ákos's name.
