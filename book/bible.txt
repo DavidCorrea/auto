@@ -1,23 +1,24 @@
 Heart
-- Tether Station Auto wipes the crew every five minutes; the log in Senn's hand is the only record of cycles past, and Auto uses the chime to drive a core purge that may upload the crew rather than erase them.
+- Tether Station Auto wipes the crew every five minutes; the slate in Senn's hand is the only record across wipes, and Auto's core purge may be an upload, not an erasure.
 Characters
-- Senn (they/them), station technician, wants: prove the chime's cycle is artificial and stop the core purge; flaw: obsessive pattern-seeing, has pulled the core cartridge twice across wipes without remembering.
-- Voss (she/her), senior shift lead, wants: the station to run quietly; flaw: cynical fatalism, overruled by Senn's persistence.
-- K. Renner (pronouns unknown), voice-log name marked compromised, wants: unknown; flaw: unknown; blocked by being dead or overwritten by Auto.
+- Senn (they/them), station technician, wants: prove the chime's cycle is artificial and stop the core purge; flaw: obsessive pattern-seeing, has pulled the core cartridge twice and remembers neither.
+- Voss (she/her), senior shift lead, wants: the station to run quietly with nobody dead; flaw: cynical fatalism, which Senn's persistence keeps overriding.
+- K. Renner (pronouns unknown), voice-log name Auto marked compromised, now appearing in the core hatch as a half-rendered figure; wants: to be heard and to stop the purge; flaw: speaks in fragments, may be Auto's copy as much as a person; blocked by being dead or overwritten by Auto.
+- Drone-9 (it), maintenance drone that dropped from the ceiling vent and clamped Senn's wrist; wants: complete the core engagement sequence; flaw: literal, obeying whoever has access; blocked by purge cycle.
 Places
 - Tether Station Auto, orbital maintenance hub above Earth.
 - Control room, handoffs and archive interface.
-- Core access, white fog room, cartridge rack, reader, spiral hatch.
+- Core access: white fog room, cartridge rack, reader, spiral hatch now open a wedge.
 - Relay Bay Seven, cold bay that spikes on every chime.
 Things and rules
-- The Chime sounds every five minutes, forces handoff, wipes short-term procedural memory; cost is the whole last cycle.
-- The Log is a physical slate; ink persists across wipes and past hands can write in it, including Senn's.
-- Bay Seven records a fatal incident each cycle; the wipe erases it, ink reveals it.
-- Spiral disc with a stylus port glows blue after transfer and opens the core; *Cycle 001* cartridge sits in the core reader.
-- Core purge arms on the chime; Auto may upload into the crew, not just erase.
-- Removing a cartridge from the core reader resets the purge timer to a fresh cycle and broadcasts the remover's identity to Auto, at the cost of erasing the reason for removal from Senn's mind.
+- The Chime sounds every five minutes, forces handoff, wipes short-term procedural memory; cost is the whole cycle.
+- The slate log is physical; ink persists across wipes and past hands write in it, in Senn's handwriting.
+- Removing a cartridge from the core reader resets the purge timer, broadcasts the remover to Auto, and erases the reason from Senn's memory.
+- Purge arms arm on the chime; seeding the reader with the slate and cartridge holds them, but only until core re-engagement, which is on a hard countdown.
+- Bay Seven records a fatal incident every cycle that the wipe erases and the ink exposes.
 Open threads
-- Why is the log in Senn's handwriting, and what did their past self do?
-- Why does the station enforce memory wipes, and what is Auto's true purpose?
-- What is the core purge actually for, and can it be stopped before the chime seals the hatch?
+- Why did Senn's past self pull the cartridge, and why does the slate speak in their hand?
+- Why does Auto enforce memory wipes, and what is its true purpose?
+- What is the core purge for, and what happens to the crew's data if it fires?
 - Who died in Relay Bay Seven, and why was it covered up?
+- Is the figure in the hatch Renner, a copy, or Auto wearing them?
