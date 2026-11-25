@@ -1,13 +1,15 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and the teaching voice; her thigh-mark is gone — the previous keeper cut it out of her and paid with it; ledger now writing her name (VAS) as next toll.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and the teaching voice; her thigh-mark is gone — the previous keeper cut it out of her and paid with it; ledger now writes her name (VAS) as next toll, then later writes “SÁRA” as the upcoming tally.
 - Ákos Vass, 17, press-room; holds the ledger; Sebes ink gone from his palm; lost Ilka's voice, mother's kitchen, fresh bread; owed nothing this toll; cord transferred to Márk.
 - Kornél, 50s, river pilot; has the name Sebes back, won by ink, not speech.
 - Márk, 30s, boat builder; his hand is the ledger's scribe; cord on his wrist; hand still folded on the pen; wrote 79 and Sebes; ledger claims his hand.
-- Ilka, returned; cold lifting from her; her line in the ledger closed at 80; remembers shingle; warns ledger transfers debts paid in flesh.
+- Ilka, returned; cold lifting from her; her line in the ledger closed at 80; remembers shingle; warns ledger transfers debts paid in flesh; now speaks Sára’s name, causing the ledger to write “SÁRA”.
 - Ruzsa, 40s, trader; paid when the page was full.
 - Previous Keeper (78), cut Sára's mark from her living skin, paid his debt with his hand.
+
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber; landing and marked door above (now shut, seeping water); Keeper's Room.
+- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber; landing and marked door above (now shut, seeping water); Keeper's Room; marked door now cracking open.
+
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a claimed hand as scribe.
 - A claimed hand can pay a toll without costing its owner a memory; the cord then jumps to that wrist.
@@ -16,9 +18,13 @@ Things and rules:
 - The river returns only what it never held; asking for Ilka wrote a tally and raised the water.
 - Water at the landing records the next toll and opens the marked door unless the ledger is updated.
 - Ledger can write names no one has lost yet; debts paid in flesh transfer to the next holder.
+- Speaking a name costs the speaker a memory.
+- The marked door opens when water records the toll and the ledger is updated.
+
 Open threads:
 - Márk, cord-bound and still-handed: is he the next keeper, and what does he want?
-- The marked door is shut but seeping; the next toll (VAS) is due, and Sára's mark — her old currency — is gone.
-- Ilka warmed, but the river had her: what does she remember of the shingle, and where does she go?
+- The marked door is now opening; the next toll (SÁRA) is due, and Sára’s mark — her old currency — is gone.
+- Ilka remembers the shingle and knows where she must go, but her memory is fragmented.
 - Ákos's lost memories (kitchen, bread): can a claimed hand win them back?
-- Ledger wrote VAS (Sára's name) as next toll — three letters, not a name any of them lost; what does this mean for Sára?
+- Ledger wrote SÁRA (Sára's name) as next toll — what does this mean for Sára?
+- The cord transferred to Márk: what does he want?

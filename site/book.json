@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 22338,
-  "passages": 81,
+  "words": 22583,
+  "passages": 82,
   "chapters": [
     {
       "number": 1,
@@ -128,6 +128,13 @@
       "title": "The Landing Toll",
       "words": 778,
       "passages": 3
+    },
+    {
+      "number": 19,
+      "numeral": "XIX",
+      "title": "The Door Opens",
+      "words": 245,
+      "passages": 1
     }
   ]
 }
