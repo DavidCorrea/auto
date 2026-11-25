@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 14575,
-  "passages": 49,
+  "words": 14878,
+  "passages": 50,
   "chapters": [
     {
       "number": 1,
@@ -79,6 +79,13 @@
       "title": "The White Water",
       "words": 1380,
       "passages": 5
+    },
+    {
+      "number": 12,
+      "numeral": "XII",
+      "title": "The Ledger's Toll",
+      "words": 303,
+      "passages": 1
     }
   ]
 }
