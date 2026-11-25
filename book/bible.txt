@@ -1,26 +1,21 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, speaks in gestures; released Kornél's debt by writing in the ledger awake, and the writing hand is now dead; wants the tolls kept properly, needs a new hand for the pen.
-- Ákos Vass, 17, press-room; holds the pen and the spent cord; has written in the ledger awake; the script was unfamiliar the first time, but he can repeat it; now has made two entries, including a test and a hearthstone warming entry.
-- Kornél, 50s, river pilot; crossed white water, surrendered Elise's voice memory; debt released, voice now returned; sits emptied on the bench; has departed toward the white water, now re‑entered the Toll House.
-- Tomas Vass, 40s, former toll boy; rowed the skiff back; keeps silence.
-- Ruzsa, 40s, trader; notebook price paid; fresh toll marks appear on her arm; memory surrendered; notebook is now light.
-- Ilka Dálnoky, 70s, smokehouse; cold hearthstone at The Point now warms; refuses to explain what follows.
-- Maren Dálnoky, 68, ex‑seamstress; warns of prices; sewed the doll's face from Ákos's thread.
+- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; lost writing hand, released Kornél's debt; wants tolls kept, needs new hand; living hand pointed at pen.
+- Ákos Vass, 17, press-room; holds pen and spent cord; wrote ledger awake; repeats unfamiliar script; made entries including test, hearthstone, Ilka, hand-for-pen; wrote *Ákos — hand returned*.
+- Kornél, 50s, river pilot; voice returned, emptied; cord warm, now tight; re-entered Toll House.
+- Ruzsa, 40s, trader; memory surrendered, notebook light, toll marks on arm.
+- Ilka Dálnoky, 70s, smokehouse; hearthstone warm, refuses explanation.
+- Maren Dálnoky, 68, ex-seamstress; warns of prices, sewed doll face.
+- Tomas Vass, 40s, former toll boy; silence.
 
 Places:
-- Vaskapu press-room, stone landing, lantern, Ákos's workbench.
-- Sallow marsh town; Toll House at causeway's end; ledger, table, stove, bench.
-- The Point: roofless burned house, black hearthstone, Ilka's smokehouse; hearthstone now warm.
-- River pilot's hut, two bends upstream; white water at second bend; far gravel bar.
+- Vaskapu press-room; Toll House; The Point; river hut and white water.
 
 Things and rules:
-1. Ledger writes in Sára's hand even when she sleeps; new entries appear unaided; now accepts a new hand but the script is unfamiliar.
-2. Toll, opening carried items, or submitting to a doll costs memory.
-4. Hearthstone needs a tag to warm; blank tags weigh less than ash; dark tag goes cold; Ilka won't say what follows.
-5. Notebook takes names cost-free at first; page grows heavier; price due: surrender memory when full; Ruzsa's price paid, notebook now light.
-6. Writing in the ledger awake to release a debt costs the keeper's writing hand; the ledger can restore a surrendered memory or voice, but it demands a new hand or a toll; the Toll House's voice‑fragments stay with it, never returned; the ledger now waits for a new hand.
+1. Ledger writes in Sára's hand; unaided entries; accepts new hand, unfamiliar script.
+2. Toll, opening carried items, or doll submission costs memory.
+4. Hearthstone needs tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
+5. Notebook takes names cost-free first; page grows heavier; price due surrender memory when full; Ruzsa paid.
+6. Writing in ledger awake to release debt costs keeper's writing hand; ledger can restore memory/voice, demands new hand or toll; voice-fragments stay; ledger waits for new hand.
 
 Open threads:
-- Sára's dead hand; she cannot write, only gesture; the ledger waits for a new hand.
-- The ledger's next demand after Ákos's second entry remains unknown.
-- Ilka and Maren still refuse explanation about the meaning of the warmed hearthstone.
+- Ledger demanded *Ákos — hand for the pen*; Ákos wrote *Ákos — hand returned*; next demand unknown; Sára's dead hand twitched.
