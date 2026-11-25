@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 25651,
-  "passages": 92,
+  "words": 25845,
+  "passages": 93,
   "chapters": [
     {
       "number": 1,
@@ -147,8 +147,8 @@
       "number": 21,
       "numeral": "XXI",
       "title": "The Cost Spoken",
-      "words": 629,
-      "passages": 2
+      "words": 823,
+      "passages": 3
     }
   ]
 }

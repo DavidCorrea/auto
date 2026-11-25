@@ -1,7 +1,7 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice strengthening; spoke "Márk", "Sára"; toll advanced to 87; kitchen memory surfacing.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice strengthening; spoke "Márk", "Sára"; toll advanced to 88; kitchen memory surfacing.
 - Ákos Vass, 17, press‑room; lullaby restored; free speech; spoke "Mother"; touched *voice* slat; throat moving, shaped breath.
-- Márk, 30s, boat builder; keeper; claimed hand free on ledger; lost memory of Ilka; kitchen memory restored via *bread* slat.
+- Márk, 30s, boat builder; keeper; claimed hand free on ledger; lost memory of Ilka; kitchen memory restored via *bread* slat; now memory of Ilka returning.
 - Ilka, returned; cold retreating; touched opened panel; role in tolls unclear.
 
 Places:
@@ -9,16 +9,15 @@ Places:
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts claimed hand as scribe.
-- Claimed hand can pay toll without costing owner memory; cord jumps to that wrist.
-- Writing awake releases debt through keeper's hand, restoring memory or voice, but costs keeper memory.
+- Claimed hand can pay toll without costing owner memory; cord jumps to that wrist, and can write on blank pages, recording names and updating toll.
 - Speaking a name costs speaker memory; ledger records name and updates toll.
 - Parchment holds sealed memory; wax seal breaks releases to holder without cost; ledger records name and updates toll.
 - Carved slats release memories when touched by relevant person.
 - Wall-voice speaks through ledger in Sára's handwriting given sound.
 
 Open threads:
-- Márk's forgotten life and lost memory of Ilka; claimed hand free on ledger.
+- Márk's forgotten life and lost memory of Ilka now partially restored; still uncertain how far memory will return.
 - Ákos's complete restoration and free speech; lullaby fully restored.
-- Sára's toll and voice continuing to return; toll at 87.
+- Sára's toll and voice continuing; toll at 88.
 - Stone corridor far end and wall-voice; panel open.
 - Ledger page turned to blank; claimed hand free; new keeper dynamics.
