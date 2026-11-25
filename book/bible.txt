@@ -1,25 +1,23 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger cover, ink‑stained knuckles; living hand free but cannot recall river’s name.
-- Ákos Vass, 17, press‑room; wrote twelfth and thirteenth tally; paid fourteenth toll, losing Ilka’s voice; driven to find her.
-- Kornél, 50s, river pilot; holds pen and cord; voice restored but rough; lost memory of the river’s name after thirteenth toll.
-- Ruzsa, 40s, trader; half‑surrendered memory; knows White Water needs fifteenth toll.
-- Márk, 30s, boat builder; wrote eleventh and twelfth marks; living hand cold with dull ache spreading to elbow; wants to stop ledger from taking more.
-- Ilka, missing; ledger bears River; fate unknown.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, acts on its own; living hand wrote *Sebes* on Ákos's palm; remembers the river's name and a room where she first heard it.
+- Ákos Vass, 17, press-room; paid fourteenth toll, Ilka's voice gone; carries *Sebes* on his palm; hears unnamed girl's voice in the water.
+- Kornél, 50s, river pilot; rough voice; poles; his memory of the river's name still lost.
+- Ruzsa, 40s, trader; half-surrendered memory; expected the toll to take a hand.
+- Márk, 30s, boat builder; fifteenth toll took his hand's feeling — grey nails, numb past elbow, fused to the ledger cover, will not release; still wants to stop the ledger.
+- Ilka, missing; ledger bears River; her voice now rises under the Point, saying Ákos's name.
 
-Places:
-- Vaskapu press‑room; Toll House; The Point; river hut flooding; under‑Point stone shelf; White Water.
+Places: Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair beneath it.
 
 Things and rules:
-1. Ledger writes in Sára’s hand; dead hand can cut lines and record new tally marks, accepting a new hand.
-2. Unfamiliar script counts tally marks; count rises automatically and triggers cord tension.
-3. Names take cost‑free first; page grows heavier; price is memory when full; Ruzsa paid.
-4. Writing awake releases debt via keeper’s hand; ledger restores memory/voice, demanding new hand or toll.
-5. Word River can be inscribed for one memory, costing a new hand.
-6. Word River reveals hidden glyphs as marks accumulate; meaning not yet known.
+1. Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a new hand.
+2. Unfamiliar script raises tally count automatically; cord tension follows.
+3. Names take cost-free first; page grows heavier; price is memory when full; Ruzsa paid.
+4. Writing awake releases debt via keeper's hand; restores memory/voice, demanding new hand or toll.
+5. Word River hides the river's true name; water completes it; inscribing it costs a new hand.
+6. Cord jumps to the wrist of whoever holds the ledger when the toll falls.
 
 Open threads:
-- Sára’s memory of the river’s name remains lost.
-- Fifteenth toll still due at White Water.
-- Ilka’s presence may manifest in current before fifteenth toll.
-- Hidden glyph under River may alter the quest.
-- Márk’s cold ache spreading.
+- What waits down the wet stone stair; why Ilka's voice calls Ákos.
+- Márk's claimed hand: is he becoming the next keeper?
+- Sára's recovered memory: whose room, whose voice first taught her *Sebes*.
+- What the ledger asks next.
