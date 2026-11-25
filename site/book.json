@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 26116,
-  "passages": 94,
+  "words": 26361,
+  "passages": 95,
   "chapters": [
     {
       "number": 1,
@@ -149,6 +149,13 @@
       "title": "The Cost Spoken",
       "words": 1094,
       "passages": 4
+    },
+    {
+      "number": 22,
+      "numeral": "XXII",
+      "title": "The Third Name",
+      "words": 245,
+      "passages": 1
     }
   ]
 }

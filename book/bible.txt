@@ -1,22 +1,24 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice strengthening; spoke "Márk", "Sára"; toll advanced to 89; kitchen memory surfacing.
-- Ákos Vass, 17, press‑room; lullaby restored; free speech; spoke "Mother"; touched *voice* slat; throat moving, shaped breath.
-- Márk, 30s, boat builder; keeper; claimed hand free on ledger; memory of Ilka returning.
-- Ilka, returned; cold retreating; touched opened panel; role in tolls unclear.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice strengthening; toll 91; memory of Ilka fading.
+- Ákos Vass, 17, press‑room; lullaby restored; free speech; spoke "Mother"; touches voice slat; throat moving.
+- Márk, 30s, boat builder; keeper; claimed hand free; memory restoration in progress.
+- Ilka, returned; cold retreating; now present; role in tolls.
 
 Places:
-- Stone Corridor; second parchment panel (seal broken, open); far end visible.
+- Stone Corridor – second parchment panel, seal broken, far end visible.
+- Riverbank – narrow stair leads down to water's edge, marked "water's mark".
 
 Things and rules:
-- Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts claimed hand as scribe.
+- Ledger writes in Sára's hand; dead hand cuts lines, accepts claimed hand as scribe.
 - Claimed hand can pay toll without costing owner memory; cord jumps to that wrist, can write on blank pages, recording names and updating toll.
 - Speaking a name costs speaker memory; ledger records name and updates toll.
-- The claimed hand can bind a spoken name to a permanent mark on the ledger, ensuring the name remains recorded even if the speaker forgets.
-- Wall-voice speaks through ledger in Sára's handwriting given sound.
+- Claimed hand binds spoken name to permanent mark on ledger, ensuring name remains recorded even if speaker forgets.
+- Wall‑voice speaks through ledger in Sára's handwriting given sound.
 
 Open threads:
-- Márk's memory restoration (still uncertain).
-- Ákos's free speech and lullaby (still ongoing).
-- Sára's toll and voice (toll at 89, voice strengthening).
-- Stone corridor far end and wall‑voice (still unknown).
-- Ledger page turned to blank; claimed hand free; new keeper dynamics (still open).
+- Márk's memory restoration (progresses).
+- Ákos's free speech and lullaby (ongoing).
+- Sára's toll and voice (toll 91, voice strengthening).
+- Stone corridor far end and wall‑voice (wall‑voice calling from far end).
+- Ledger page blank (claimed hand writes again).
+- New keeper dynamics (Sára vs Márk).
