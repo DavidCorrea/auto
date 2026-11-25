@@ -17,11 +17,10 @@ Things and rules
 - Node in chair cradle binds purge to the seat; empty chair makes the count‑up.
 - Crank spindle bleeds capturer charge into tether; costs lights and spin gravity, burns door bus.
 - Core offers exit through slate only when door/fuse engaged; requires stay‑behind hand.
-- Released charge destabilizes grid post‑shatter; lights and spin falter.
 - Senn’s mist fuses with door bus; can block filing but risks being filed as non‑person.
+- Holding the door bus consumes spin gravity; each second reduces the count by one and may cause light flicker.
 
 Open threads
 - Voss’s true fate in node/mist.
-- Adeyemi’s feed cut: will she reach the node?
 - Senn’s transformation into fuse/door.
 - Core’s desire for exit vs Senn’s refusal.
