@@ -1,14 +1,14 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and the teaching voice; her thigh-mark is gone — the previous keeper cut it out of her and paid with it; ledger now writes her name (VAS) as next toll, then later writes “SÁRA” as the upcoming tally.
-- Ákos Vass, 17, press-room; holds the ledger; Sebes ink gone from his palm; lost Ilka's voice, mother's kitchen, fresh bread; owed nothing this toll; cord transferred to Márk.
-- Kornél, 50s, river pilot; has the name Sebes back, won by ink, not speech.
-- Márk, 30s, boat builder; his hand is the ledger's scribe; cord on his wrist; hand still folded on the pen; wrote 79 and Sebes; ledger claims his hand.
-- Ilka, returned; cold lifting from her; her line in the ledger closed at 80; remembers shingle; warns ledger transfers debts paid in flesh; now speaks Sára’s name, causing the ledger to write “SÁRA”.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and teaching voice; thigh-mark removed; voice returning in fragments.
+- Ákos Vass, 17, press-room; holds ledger; lost Ilka's voice, mother's kitchen, fresh bread; cord transferred to Márk.
+- Kornél, 50s, river pilot; has name Sebes back, won by ink, not speech.
+- Márk, 30s, boat builder; his hand is the ledger's scribe; cord on his wrist; wrote 79 and Sebes; ledger claims his hand.
+- Ilka, returned; cold lifting from her; speaks Sára's name, causing ledger to write "SÁRA"; remembers shingle shore.
 - Ruzsa, 40s, trader; paid when the page was full.
 - Previous Keeper (78), cut Sára's mark from her living skin, paid his debt with his hand.
 
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber; landing and marked door above (now shut, seeping water); Keeper's Room; marked door now cracking open.
+- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber; landing and marked door above (now open); Keeper's Room; Shingle Shore.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a claimed hand as scribe.
@@ -22,9 +22,10 @@ Things and rules:
 - The marked door opens when water records the toll and the ledger is updated.
 
 Open threads:
-- Márk, cord-bound and still-handed: is he the next keeper, and what does he want?
-- The marked door is now opening; the next toll (SÁRA) is due, and Sára’s mark — her old currency — is gone.
-- Ilka remembers the shingle and knows where she must go, but her memory is fragmented.
-- Ákos's lost memories (kitchen, bread): can a claimed hand win them back?
-- Ledger wrote SÁRA (Sára's name) as next toll — what does this mean for Sára?
-- The cord transferred to Márk: what does he want?
+- Márk's claim as new keeper and his desire to regain forgotten memories (kitchen, bread).
+- Ilka's journey to the shingle shore and retrieval of the parchment.
+- Ákos's lost memories still trapped in ink; possible recovery through claimed hand.
+- SÁRA as next toll signals Sára's passing and the ledger's acknowledgment of her legacy.
+- The barnacled box rising from the flooded chamber; its wax seal the color of dried blood.
+- The ledger writing unbidden entries: BOX, then ÁKOS.
+- The cord snapping taut between Márk and Ákos.
