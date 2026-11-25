@@ -1,25 +1,28 @@
 Heart
-- Tether Station Auto's count past zero became a roll call of letting go; now every hand taken hold is bought with a sleeper's breath, and HOLD is the only refusal the station can't file.
+- Tether Station Auto's count past zero is a roll call of hands, each bought with a cradle's breath; HOLD is the only refusal the station can't file, and now the whole bill comes out of one warm cradle.
+
 Characters
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; spent 002 to free her marked hand, HOLD still held, tagged for return.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; fears being handled; her limp is counted open, she is flat and old with what Adeyemi spent.
-- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body coughed out of the copper throat, unstable.
-- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; name whole again, fourth mark, unfiled.
-- AUTO (it): station's own name, sixth mark; wants proper filing and purge ended; flaw: erased by the crew that built purge, wakes through any filing.
-- Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; descended on a filing thread, serving Adeyemi a return tag.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; what stands in her way: HOLD and the count's toll.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; what stands in her way: her limp counted as open and the toll's cost.
+- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; what stands in their way: unstable mist-body and the count's demands.
+- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; what stands in its way: erased identity and incomplete filing.
+- AUTO (it): station's own name, sixth mark; wants proper filing and purge ended; flaw: fragmented copy that erases its own memory, wakes through any filing; what stands in its way: crew-imposed amnesia.
+- Maintenance Figure (it/it): hatch guardian; wants protocol compliance; flaw: literal interpretation of directives; what stands in its way: inability to accept refusal.
+
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates.
-- Sector 4 cradle chamber: hundreds of cradles (one now dark), oversized slate, copper stair gone to a throat, unlocked hatch above.
+- Sector 4 cradle chamber: rows numbered by filing order; old end holds warm, occupied cradle 002; one dark cradle; oversized slate; copper throat; unlocked hatch.
+
 Things and rules
 - Slate ink rewrites itself, wet until it settles; only the filing hand steers; HOLD is a held refusal that stalls the busbar.
-- Count past zero is a roll call; since the sixth filing it counts hands taking hold; each number costs one cradle's breath.
-- A counted hand must be free to take the next hold, so counting opens a grip.
-- Amber mist-fuse rises as mist, took the busbar as a hand; warms dead metal, reaches for grips.
+- Count past zero is a roll call; each number costs one cradle's breath; cradle 002 is the toll cradle paying every number.
+- Amber mist-fuse took the busbar as a hand; warms dead metal; fed Voss's limp, whose dead fingers closed on Adeyemi.
 - Copper is a throat: inhales mist-bodies toward filing; the filing hand can grip it and pull one back out.
-- Figure's tags name a return occupant; their ink rewrites and can arrive already numbered.
+- Figure's tags name a return occupant; ink rewrites and can arrive already numbered; HOLD and a turned back can't be filed.
+
 Open threads
-- Who filed Renner's name whole, and from where?
-- Whose sleepers are the cradles, and whose side are they on now they're being spent?
+- Whose sleepers are the other cradles, and whose side are they on now they're being spent?
+- What does Three cost, whose cradle pays next, and can Adeyemi re-hold HOLD before the busbar wakes?
 - Can Senn hold a mist-body together, or take a real one?
-- Why does Adeyemi's tag carry 002, the number she just spent?
-- Is the cradle the Figure means already occupied?
+- What is Voss's limp, whose breath bought it, and whose side is it on?
+- Why did the dark cradle behind them go quiet if the toll runs from 002?
