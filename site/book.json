@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 19300,
-  "passages": 75,
+  "words": 19488,
+  "passages": 76,
   "chapters": [
     {
       "number": 1,
@@ -65,6 +65,13 @@
       "title": "The Cradle Offer",
       "words": 1833,
       "passages": 8
+    },
+    {
+      "number": 10,
+      "numeral": "X",
+      "title": "The Name on the Tag",
+      "words": 188,
+      "passages": 1
     }
   ]
 }
