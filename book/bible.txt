@@ -1,0 +1,16 @@
+Heart: Tether Station Auto runs on five-minute memory wipes; the crew keeps a log they can’t remember writing, and something is using the chime to rewrite them.
+Characters:
+- Senn (they/them), station technician, wants to prove the chime hides a cycle; flaw: obsessive pattern-seeing; blocked by mandatory wipes and station protocol.
+- Voss (she/her), senior shift lead, wants the station to run quietly; flaw: cynical fatalism; blocked by Senn’s refusal to let it go.
+Places:
+- Tether Station Auto, orbital maintenance hub above Earth.
+- Control room, where shifts hand off at the chime.
+- Relay Bay Seven, cold since commissioning, spikes on every chime.
+Things and rules:
+- The Chime sounds every five minutes, forces a shift handoff, and wipes short-term procedural memory for on-duty crew; cost is total loss of the last cycle.
+- The Log is a physical slate passed between shifts; only past entries may be read; ink entries persist across wipes and are anomalous.
+Open threads:
+- Who wrote the first ink warning to Senn?
+- What cycles in Relay Bay Seven every five minutes?
+- Why does the station enforce memory wipes?
+- What is Auto, and why does it need a crew that forgets?
