@@ -1,24 +1,23 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; made a thin sound but no words; refused to spend memory on the name; toll 91.
-- Ákos Vass, 17, press-room; free speech; lullaby broke into raw hum; fears each name is a coin taken from his past.
-- Márk, 30s, boat builder; keeper; claimed hand wrote VERA on the blank page, toll held; memory restoration in progress.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; refuses to spend memory; toll 91.
+- Ákos Vass, 17, press-room; free speech; lullaby broken; fears each name a coin from his past.
+- Márk, 30s, boat builder; keeper; claimed hand wrote VERA; toll held at 91; memory restoration ongoing.
 - Ilka, returned; warm, present; reads the water's names.
 
 Places:
-- Riverbank – black rock shelf; water writes names at ledger foot; VERA now fixed, a fifth line forming.
-- Stone Corridor – far end now the source of the wall-voice's answer.
+- Riverbank: black rock shelf; water writes names at ledger foot; fifth line completed around VERA.
+- Stone Corridor: far end source of wall-voice's answer; condition tested between keepers.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, accepts claimed hand as scribe.
-- Claimed hand pays toll without costing owner memory; cord jumps to that wrist; writes on blank pages, recording names and updating toll.
-- Speaking a name costs the speaker memory; ledger records name and updates toll.
-- Claimed hand binds a spoken name to a permanent mark on the ledger.
-- Wall-voice speaks in Sára's handwriting given sound; now answers from the corridor's far end.
-- River water mirrors names at ledger foot; hidden entries can be read or left to toll.
+- Claimed hand pays toll without costing owner memory; cord jumps to wrist; writes on blank pages.
+- Speaking a name costs speaker memory; ledger records and updates toll.
+- Claimed hand binds spoken name to permanent mark on ledger.
+- Wall-voice speaks in Sára's handwriting given sound; answers from corridor's far end.
+- River water mirrors names; fifth line completed, toll held at 91.
 
 Open threads:
 - Wall-voice's condition: one must carry VERA up, one must leave it at the river.
-- Fifth line forming in the water (who climbs?).
 - Márk's memory restoration.
 - Ákos's lullaby and free speech.
 - Sára's toll (91) and returning voice.
