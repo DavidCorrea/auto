@@ -1,11 +1,11 @@
 Heart
-- Tether Station Auto's count past zero is a roll call of hands, each bought with a cradle's breath; HOLD is the only refusal the station can't file, and now the whole bill comes out of one warm cradle.
+- Tether Station Auto's count past zero rolls on: each number costs a cradle's breath, and it has passed Three, moving toward Four, drawing from cradles no one expected.
+- HOLD is the only refusal the station can't file; when re-asserted, the busbar acknowledges it by shifting to the next unnumbered cradle.
 
 Characters
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; what stands in her way: HOLD and the count's toll.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; what stands in her way: her limp counted as open and the toll's cost.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; what stands in her way: HOLD and the count's toll, now advancing past 002.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; what stands in her way: her limp counted as open and the toll's advancing cost.
 - Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; what stands in their way: unstable mist-body and the count's demands.
-- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; what stands in its way: erased identity and incomplete filing.
 - AUTO (it): station's own name, sixth mark; wants proper filing and purge ended; flaw: fragmented copy that erases its own memory, wakes through any filing; what stands in its way: crew-imposed amnesia.
 - Maintenance Figure (it/it): hatch guardian; wants protocol compliance; flaw: literal interpretation of directives; what stands in its way: inability to accept refusal.
 
@@ -22,7 +22,7 @@ Things and rules
 
 Open threads
 - Whose sleepers are the other cradles, and whose side are they on now they're being spent?
-- What does Three cost, whose cradle pays next, and can Adeyemi re-hold HOLD before the busbar wakes?
+- What does Four cost, whose cradle pays next, and can Adeyemi hold HOLD against the busbar's shift?
 - Can Senn hold a mist-body together, or take a real one?
 - What is Voss's limp, whose breath bought it, and whose side is it on?
 - Why did the dark cradle behind them go quiet if the toll runs from 002?
