@@ -1,8 +1,8 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and the teaching voice; now traces a mark she can't account for.
-- Ákos Vass, 17, press-room; holds ledger and cord; ink of Sebes on his palm; lost Ilka's voice at the fourteenth toll.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and the teaching voice; now traces a mark she can't account for; remembers the previous keeper cut the mark.
+- Ákos Vass, 17, press-room; holds ledger and cord; ink of Sebes on his palm; lost Ilka's voice at the fourteenth toll; lost memory of his mother's kitchen smell; just lost memory of fresh bread from his father's bakery.
 - Kornél, 50s, river pilot; spoke Sebes and lost the name again; can't retrieve it.
-- Márk, 30s, boat builder; fifteenth toll left his hand still; holds the painter now, refuses the ledger.
+- Márk, 30s, boat builder; fifteenth toll left his hand still; his hand now twitches and moves, suggesting he may become the ledger's scribe.
 - Ilka, returned from missing; cold and heavy; says she taught Sára on the shingle in daylight, no room, no voice; the river has her already.
 - Ruzsa, 40s, trader; paid when the page was full.
 - Previous Keeper (78), the one who cut the mark, paid debt with his hand, counted as tally 78 in the ledger.
@@ -12,12 +12,10 @@ Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a new hand.
 - Writing awake releases debt through the keeper's hand, restoring memory or voice, but costs the keeper a memory.
 - Speaking Sebes drops the water but strips the name from whoever carries it; ink on skin holds it.
-- The river returns only what it never held; asked for Ilka, the ledger wrote a tally and the water rose.
+- The river returns only what it never held; when asked for Ilka, the ledger wrote a tally and the water rose.
 - Cord jumps to the wrist of whoever holds the ledger when a toll falls; now on Ákos.
-- Three strokes and a hook: the mark Sára traces unbidden, not Ilka's teaching, carved on the door above; it is the signature of the previous keeper who paid the debt.
-- Ledger tallies count keepers; each full tally marks a keeper's completed debt and the room passes to the next.
+- When water reaches the landing, the next toll is automatically recorded and the marked door opens unless the ledger is updated to the next tally.
 Open threads:
-- What Ákos will write next, and what it costs him.
-- Márk's still hand: freed servant or the ledger's scribe?
+- Ákos's lost memory (mother's kitchen, fresh bread) and the new tally 79 in his ledger; the cost to be paid.
 - Ilka's seventh moon toll: who pays the new hand?
-- The water rising while the room stays dry: what that means for the toll.
+- The water reaching the landing triggers the next toll automatically; payment required before the door closes.

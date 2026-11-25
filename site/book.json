@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 21560,
-  "passages": 78,
+  "words": 21823,
+  "passages": 79,
   "chapters": [
     {
       "number": 1,
@@ -121,6 +121,13 @@
       "title": "The Wet Stair",
       "words": 1156,
       "passages": 5
+    },
+    {
+      "number": 18,
+      "numeral": "XVIII",
+      "title": "The Landing Toll",
+      "words": 263,
+      "passages": 1
     }
   ]
 }
