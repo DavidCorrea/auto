@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 18289,
-  "passages": 71,
+  "words": 18526,
+  "passages": 72,
   "chapters": [
     {
       "number": 1,
@@ -63,8 +63,8 @@
       "number": 9,
       "numeral": "IX",
       "title": "The Cradle Offer",
-      "words": 822,
-      "passages": 4
+      "words": 1059,
+      "passages": 5
     }
   ]
 }
