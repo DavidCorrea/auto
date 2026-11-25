@@ -1,1 +1,1 @@
-Adeyemi must drag Voss to the stairwell before the node chair reengages, while Senn’s mist inside the chair tries to find a way back out—or takes over.
+Show whether Adeyemi's override works before the count reaches zero, and what Senn's mist does while trapped between the chair and the vent.
