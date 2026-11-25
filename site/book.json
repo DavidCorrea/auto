@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 16280,
-  "passages": 55,
+  "words": 16558,
+  "passages": 56,
   "chapters": [
     {
       "number": 1,
@@ -84,8 +84,8 @@
       "number": 12,
       "numeral": "XII",
       "title": "The Ledger's Toll",
-      "words": 1705,
-      "passages": 6
+      "words": 1983,
+      "passages": 7
     }
   ]
 }

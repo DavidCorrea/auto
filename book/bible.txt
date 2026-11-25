@@ -1,25 +1,22 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand rested; dead hand ink-stained, cut the unknown line; her certainty broke.
-- Ákos Vass, 17, press-room; gave pen to Kornél; now reads the ledger's marks; free of the hand-demand.
-- Kornél, 50s, river pilot; holds pen and cord; spoke a cracked fragment ("How many"); cord tightened at his word.
-- Ruzsa, 40s, trader; memory surrendered; toll scars on forearm match the ledger's marks.
-- Ilka Dálnoky, 70s, smokehouse; hearthstone warm; refuses explanation.
-- Maren Dálnoky, 68, ex-seamstress; warns of prices; sewed doll face.
-- Tomas Vass, 40s, former toll boy; silence.
+- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand rested; dead hand ink-stained, cut the unknown line; certainty broke.
+- Ákos Vass, 17, press-room; gave pen to Kornél; reads ledger marks; free of hand-demand.
+- Kornél, 50s, river pilot; holds pen and cord; spoke fragment ("How many"); cord tightens at his word.
+- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark is hers.
 
 Places:
 - Vaskapu press-room; Toll House; The Point; river hut and white water.
 
 Things and rules:
-1. Ledger writes in Sára's hand; the dead hand can also cut its lines; accepts a new hand; may record when a hand changes owner.
+1. Ledger writes in Sára's hand; dead hand can cut lines; accepts new hand; records hand changes.
 2. Toll, opening carried items, or doll submission costs memory.
-3. Unfamiliar script is a toll-count in tally marks (like Ruzsa's scars); the count rises on its own and when the ledger calls (cord tightens).
+3. Unfamiliar script is a toll-count in tally marks; count rises on its own and when ledger calls (cord tightens).
 4. Hearthstone needs a tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
 5. Notebook takes names cost-free first; page grows heavier; price is memory when full; Ruzsa paid.
-6. Writing awake to release debt costs the keeper's writing hand; ledger restores memory/voice, demands a new hand or toll; voice-fragments stay; Kornél's cord holds a fragment, tightens when the ledger calls.
+6. Writing awake to release debt costs keeper's writing hand; ledger restores memory/voice, demands new hand or toll; voice-fragments stay; Kornél's cord holds fragment, tightens when ledger calls.
 
 Open threads:
-- The count: nine marks, then a tenth cut itself; what it counts and what comes at its end unknown.
-- The dead hand cut the line; the ledger can use it.
+- The count: ten marks, tenth is Ruzsa's, eleventh cut itself; what it counts and what comes next unknown.
+- The dead hand cut the line; ledger can use it.
 - Kornél's fragment speech; cord can tighten.
-- Sára's living hand quiet; her certainty gone.
+- Sára's living hand quiet; certainty gone.
