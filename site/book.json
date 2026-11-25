@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 37089,
-  "passages": 135,
+  "words": 37335,
+  "passages": 136,
   "chapters": [
     {
       "number": 1,
@@ -198,6 +198,13 @@
       "title": "The Lift",
       "words": 1191,
       "passages": 5
+    },
+    {
+      "number": 29,
+      "numeral": "XXIX",
+      "title": "Below the Crack",
+      "words": 246,
+      "passages": 1
     }
   ]
 }
