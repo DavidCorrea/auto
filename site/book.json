@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 22937,
-  "passages": 83,
+  "words": 23221,
+  "passages": 84,
   "chapters": [
     {
       "number": 1,
@@ -135,6 +135,13 @@
       "title": "The Door Opens",
       "words": 599,
       "passages": 2
+    },
+    {
+      "number": 20,
+      "numeral": "XX",
+      "title": "xx",
+      "words": 284,
+      "passages": 1
     }
   ]
 }
