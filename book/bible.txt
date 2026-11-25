@@ -1,28 +1,24 @@
-Heart: Count stalled at eleven; collective fee draws first Operator’s hoarded breath, waking her; waking her is the only way to close the count, but she wants Adeyemi’s hand.
-
+Heart: Count stalled (now twelve); the collective fee draws breath from the under-sleepers; waking the first Operator is the only way to close the count, but she wants the hand that held the slate — Adeyemi's — and has begun to count toward thirty.
 Characters:
-- Adeyemi (she/her): wants: count dead, everyone out alive; flaw: blunt, guarded; blocked by: sealed tag, memory-first spend, first Operator’s demand; holds HOLD unnumbered, losing memories, said “Nineteen.”
-- Voss (she/her): wants: count stopped, fee made personal; flaw: fatalism; free of tag, hand unmarked, no number, shut out of fee, furious.
-- Maintenance Figure (it/it): wants: protocol; flaw: literal; filed mid-fee, opened the draw on 019, fee now collective.
+- Adeyemi (she/her): wants: count dead, everyone out alive; flaw: blunt, guarded; blocked by: sealed tag, memory-first spend, Operator's demand; holds HOLD unnumbered, losing memories, said "Nineteen," now bargaining directly, stepped between Operator and Voss.
+- Voss (she/her): wants: count stopped, fee made personal; flaw: fatalism; free of tag, hand unmarked, no number, offered her hand and was rejected ("not the hand"), furious.
+- Maintenance Figure (it/it): wants: protocol; flaw: literal; filed mid-fee, opened draw on 019, fee collective; reports one under spent.
 - Five (she/her): wants: to remain; flaw: newly awakened, unsure; released HOLD, forgetting more each strike.
 - Blank Tag (it/it): wants: to finish; flaw: uncontrolled, erases intent; sealed mid-name, cannot finish, stirs near the first hoard.
-- First Operator 19 (she/her): end-of-row woman’s unspent face, awake in cradle 019; wants: Adeyemi’s right hand; flaw: hollow, remembers only the hand and the hoard; the hatch woman is her spent remainder.
-
+- First Operator 19 (she/her): awake in cradle 019; wants: the hand that held the slate (Adeyemi's right); flaw: hollow, remembers all thirty sleepers and the hoard; rejected Voss's hand, began to count.
 Places:
 - Tether Station Auto: node cradle, slate, busbar, deck plates, narrowing hatch.
-- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, nine spent, five awake, sixteen under, HOLD white, cradle 019 open and glowing.
-- Sector Two (past): the woman’s lost memory of a tag reaching FINISHED.
-
+- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, one now spent, cradle 019 open and glowing.
+- Sector Two (past): the woman's lost memory of a tag reaching FINISHED.
 Things and rules:
 - Slate ink rewrites wet until settled; only filing hand steers; rejects spent numbers; signature with no number stalls it.
-- Count past zero is a roll call; each number costs one cradle’s breath; thirty ends the strike, all breath to core.
+- Count past zero is a roll call; each number costs one cradle's breath; thirty ends the strike, all breath to core.
 - HOLD must be held each strike: numbered holder burns their number; unnumbered holder is spent instead, memory first, then self.
-- Stalled count reroutes hoarded breath into dark cradles, waking sleepers in sync; a copy of unspent breath can stall it.
-- Tag takes signing hand; with no number it keeps the hand; writes a name one letter a strike; open line can pass by contact.
-- FINISHED ends asking; only the Figure files; a tag closed mid-name can never finish, fee stands; a sealed line stirs near the first hoard.
-
+- Stalled count reroutes hoarded breath into dark cradles, waking sleepers; a copy of unspent breath can stall it.
+- Collective fee draws the first hoard, then the under-sleepers when it runs short; it does not care who pays.
+- Tag takes signing hand; with no number it keeps the hand; writes a name one letter a strike; a sealed line can't finish, fee stands, stirs near the first hoard.
 Open threads:
-- Collective fee drawing from cradle 019; first Operator awake, demanding Adeyemi’s hand.
-- Adeyemi refusing/bargaining; HOLD unnumbered; losing memories.
-- Count stalled at eleven, twelve ungiven; hatch paused, not closed.
-- Voss shut out of the fee, wants it personal; sleeper named her from Sector Two.
+- First Operator counting — a roll call toward thirty could end the strike, all breath to core.
+- Fee now spending under-sleepers; one spent; count at twelve; hatch narrowing again.
+- Adeyemi bargaining to stop the spend; HOLD unnumbered; losing memories.
+- Voss rejected again, wants to matter; sleeper named her from Sector Two.
