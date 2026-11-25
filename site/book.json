@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 10752,
-  "passages": 36,
+  "words": 11039,
+  "passages": 37,
   "chapters": [
     {
       "number": 1,
@@ -49,8 +49,8 @@
       "number": 7,
       "numeral": "VII",
       "title": "The Sewn Face",
-      "words": 635,
-      "passages": 2
+      "words": 922,
+      "passages": 3
     }
   ]
 }
