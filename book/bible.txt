@@ -1,17 +1,17 @@
 Heart
-- Tether Station Auto's count past zero rolls on: each number costs a cradle's breath, and it has passed Three, moving toward Four, drawing from cradles no one expected.
+- Tether Station Auto's count past zero rolls on: each number costs a cradle's breath, and it has passed Four, moving toward Five, drawing from cradles no one expected.
 - HOLD is the only refusal the station can't file; when re-asserted, the busbar acknowledges it by shifting to the next unnumbered cradle.
 
 Characters
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by: HOLD dulling after use, count advancing past Four.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by: HOLD dulling after use, count advancing toward Five.
 - Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; blocked by: her limp counted as open and the toll's advancing cost.
-- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; blocked by: sealed inside cradle 004, body's identity unknown.
+- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; blocked by: sealed inside cradle 004 with Voss's body.
 - AUTO (it): station's own name, sixth mark; wants proper filing and purge ended; flaw: fragmented copy that erases its own memory, wakes through any filing; blocked by: crew-imposed amnesia.
 - Maintenance Figure (it/it): hatch guardian; wants protocol compliance; flaw: literal interpretation of directives; blocked by: inability to accept refusal, copper throat can be gripped.
 
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates.
-- Sector 4 cradle chamber: rows numbered by filing order; cradle 002 warm and occupied; cradle 004 sealed with Senn inside; oversized slate; copper throat; unlocked hatch.
+- Sector 4 cradle chamber: rows numbered by filing order; cradle 002 warm and occupied; cradle 004 sealed with Senn and Voss's whole body inside; oversized slate; copper throat.
 
 Things and rules
 - Slate ink rewrites itself, wet until it settles; only the filing hand steers; HOLD is a held refusal that stalls the busbar.
@@ -22,7 +22,7 @@ Things and rules
 
 Open threads
 - Whose sleepers are the other cradles, and whose side are they on now they're being spent?
-- What does Four cost now that Senn is sealed inside it, and is the body really Senn's?
-- What is Voss's limp, whose breath bought it, and whose side is it on?
-- Can Adeyemi keep HOLD from dulling as the busbar advances past Four?
+- What is Voss's limp, whose breath bought it, and whose side is it on now a whole Voss waits inside 004?
+- Can Adeyemi keep HOLD from dulling as the busbar advances toward Five?
 - Who filed Fourth, and what happens when the count reaches Five?
+- Senn is sealed inside 004 with Voss's body; can they break out before Five completes the filing?
