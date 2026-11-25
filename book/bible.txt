@@ -1,7 +1,8 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; voice and memory of being Vera taken as toll; awake by choice; shapes dolls from tag ash at dawn unaware; hand writes dates when another holds the pen. Voice partially returned as shaped words without sound.
-- Ákos Vass, 17, Vaskapu press-room; keeps notebook of losses; lost touch carrying Vera's tag; cannot feel paper, ash or own writing; touch returns as faint echo when writing dates; echo now fuller after blank tag.
+- Sára Vass (Vera), 53, keeper of the Toll House; voice and memory of being Vera taken as toll; awake by choice; shapes dolls from tag ash at dawn unaware; hand writes dates when another holds the pen. Voice partially returned as shaped words without sound. Remembers her true name is Sára.
+- Ákos Vass, 17, Vaskapu press-room; keeps notebook of losses; lost touch carrying Vera's tag; cannot feel paper, ash or own writing; touch returns as faint echo when writing dates; echo now fuller after blank tag; will open the satchel and pay its memory cost.
 - Ilka Dálnoky, 70s, Point smokehouse; calls Sára Vera; keeps faceless dolls, one now bearing the child's face; memory taken as fee for the Rest; last memory taken by the stone; recalls only that the child was inside the fire; memory assuaged.
+- Woman with satchel, unnamed, brought second delivery of the shift; status unknown.
 
 Places:
 - Vaskapu press-room, stone landing with lantern, Ákos's workbench.
@@ -12,13 +13,13 @@ Things and rules:
 1. Tags appear at dawn in Sára's cramped hand, ink often wet; she does not remember writing them.
 2. Toll taken from deliverer; opening what you carry costs memory.
 3. Dolls take a face at the bell; the small doll warms when a debt is carried, cold on refusal.
-4. The Notebook: names in Sára's hand; new dates appear even when Ákos holds the pen; Ákos feels no touch.
+4. The Notebook: names in Sára's hand; new dates and names appear even when Ákos holds the pen; Ákos feels touch as faint echo when writing; Sára's true name, Sára Vass, now appears beneath Vera Vass.
 5. The Rest: began with the fire at The Point; Ilka's memory unpaid fee; the child was inside the fire.
-6. Hearthstone: requires sixteenth tag; costs voice or last memory; warms when carried; blank tags are lighter than ash.
+6. Hearthstone: required sixteenth tag; costs voice or last memory; warms when carried; blank tags are lighter than ash. The blank tag was carried; a new name appeared without voice.
 
 Open threads:
-- Sára's doll-making and why she forgets her identity.
-- Why she chose Ákos and how he lost touch.
-- The twelve earlier names and their costs; the seventh crossed out "I paid for him."
-- What the blank sixteenth tag demanded when carried back to the Toll House (resolved: a new name appeared without voice).
-- Sára's voiceless state and how she will record future tolls (partially resolved: voice returns as shaped words without sound).
+- The twelfth and earlier names, their costs, and the seventh crossed out "I paid for him."
+- What memory Ákos will lose when he opens the satchel.
+- Why Sára chose Ákos and how he lost his touch.
+- Sára's doll-making and whether her full identity will return.
+- The woman with the satchel: who sent her and what her tag holds.
