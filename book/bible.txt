@@ -1,21 +1,21 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; flaw: obeys the house over people, decides alone, forgets her own acts. Now knows she wrote the letter in Vaskapu and forgot the trip; holds proof.
-- Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; wrote her smile's loss; wants answers.
+- Sára Vass (Vera), 53, keeper of the Toll House; flaw: obeys the house over people, decides alone, forgets her own acts. Knows she wrote the letter in Vaskapu and forgot the trip; holds proof. Burned Ákos's notebook page about her sister's smile to keep it from the house.
+- Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; wrote her smile's loss; wants answers. His entry about Sára's sister's smile was destroyed by Sára.
 - Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; left before the bell.
 - The printer woman, unnamed; ink to the elbows; shelters Ákos; carried a parcel once and paid her name; now spoke of the toll already paid and the thing left open.
 
 Places:
-- Vaskapu: long press‑room, stone landing with lantern; ferry gone, only the skiff.
-- Sallow, marsh town; Toll House at the causeway's end; kitchen table where tagged things appear at dawn; iron Wheel under the floorboards.
-- The Point: burned roofless house, child‑sized hearthstone with the faced doll; Ilka's smokehouse, shelf of faceless dolls.
+- Vaskapu: long press-room, stone landing with lantern; ferry gone, only the skiff.
+- Sallow, marsh town; Toll House at the causeway's end; kitchen table where tagged things appear at dawn; iron Wheel under the floorboards; iron stove where a notebook page was burned.
+- The Point: burned roofless house, child-sized hearthstone with the faced doll; Ilka's smokehouse, shelf of faceless dolls.
 
 Things and rules:
 1. The Table: dawn deliveries with paper tags naming who and where; no one sees them made.
-2. The Toll: taken from the deliverer — memory, skill, or sense; Sára lost her sister's face, then her smile mid‑water.
+2. The Toll: taken from the deliverer — memory, skill, or sense; Sára lost her sister's face, then her smile mid-water.
 3. Don't open what you carry; the Halászys did and forgot each other's names; a faceless doll takes a face by the bell.
-4. The Notebook: Ákos records every loss; fourteen dated names in Sára's hand, sister's seventh on Ákos's birthday, "I paid for him."
-5. Skiff: tar‑patched; the only thing that moves before the bell besides the gone ferry.
-6. The Letter: undated, unsigned, fold worn soft; written in Vaskapu on laid paper; says she named Ákos's mother and "what you carry, you pay for."
+4. The Notebook: Ákos records every loss; fourteen dated names in Sára's hand, sister's seventh on Ákos's birthday, "I paid for him." The page about Sára's sister's smile was torn out and burned by Sára.
+5. Skiff: tar-patched; the only thing that moves before the bell besides the gone ferry.
+6. The Letter: undated, unsigned, fold worn soft; written in Vaskapu on laid paper; says she named Ákos's mother and "what you carry, you pay for." Sára carries it back to Sallow.
 
 Open threads:
 - Who makes the things, and why the night is forgotten.
@@ -23,4 +23,3 @@ Open threads:
 - The three faceless dolls on Ilka's shelf, and whose faces they were given.
 - Who died in the fire, and the child the small hearth belonged to.
 - The printer woman's lost name, and what she carried.
-- What the house does now the parcel is delivered and the bell has rung; how Sára gets back.
