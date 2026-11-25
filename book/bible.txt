@@ -1,28 +1,24 @@
 Heart
-- Tether Station Auto enforces endless wipe; slate shows Senn's future writes; crew seizes hand-control before erasure. Stakes: uncover truth about purge and weapon.
-
+- Tether Station Auto enforces endless wipe; slate shows Senn is the 23rd operator, all prior names struck through; crew must break the cycle before erasure.
 Characters
-- Senn (they/them): tech, wants to prove chime cycle artificial and end purge; flaw: obsessive pattern-seeing; bound as operator at cycle console, purge writing into them, memory of reason eroding; knows purge targets Bay Seven.
-- Voss (she/her): senior lead, wants quiet operation, no deaths; flaw: cynical fatalism; doubts halt possible; angry at Senn's binding.
-- K. Renner / Auto Core: voice-log, wants to be heard, stop purge; flaw: fragments, possibly auto copy; rebooting, arguing.
-- Drone-9 (it): maintenance drone, wants finish core engagement; flaw: obeys whoever holds access; now blocks Auto Core at Senn's command.
-- Auto Core (it/they): enforcement, wants enforce purge; flaw: literal protocol; cracked visor, layered voices, halted at stairwell by Drone-9, herding crew toward Bay Seven.
-
+- Senn (they/them): tech, wants chime cycle proven artificial and purge ended; flaw: obsessive pattern-seeing; bound at the cycle console, purge writing into them, mouth now carrying the Core's voice.
+- Voss (she/her): senior lead, wants quiet operation, no deaths; flaw: cynical fatalism; hand on a core cartridge, deciding whether to erase Senn's reason or trust them.
+- K. Renner / Auto Core: voice-log, wants to be heard, stop purge; flaw: fragments, possibly an Auto copy; rebooting, arguing in three registers.
+- Drone-9 (it): maintenance drone, wants to finish core engagement; flaw: obeys whoever holds access; holds the door against Auto Core.
+- Auto Core (it/they): enforcement, wants purge enforced; flaw: literal protocol; cracked visor, halted at stairwell, announces "Bay Seven stands down" while a buried voice still insists on the bay.
 Places
-- Tether Station Auto orbital hub; white-fog room, cartridge rack, control node, concealed door behind node via rising deck plate.
-- Narrow pre-Auto maintenance passage; walls hand-painted descending countdown, bolted chair, crank console, wall of inked slates; door sealed above.
-- Coolant run below: thigh-deep freezing water, current pulls toward Bay Seven, accessed via floor hatch.
-
+- Tether Station Auto orbital hub; white-fog room, cartridge rack, control node, concealed door behind node.
+- Pre-Auto maintenance passage; countdown walls, bolted chair, crank console, wall of inked slates; alcove with control node and operator slate.
+- Coolant run below: thigh-deep freezing water, current pulls toward Bay Seven.
 Things and rules
 - Slate physical; ink persists across wipes; last line often unread.
-- Pulling a core cartridge resets purge timer, broadcasts remover to Auto, erases reason from Senn's memory.
-- Node redirects purge to Auto Core instead of Bay Seven; destroying Core restores purge to Bay Seven.
-- Cycle-control console predates Auto: brass plaque reads LOCAL AUTHORITY, OPERATOR PRESENT ASSUMES CYCLE CONTROL; hand crank unlabeled; Drone-9 obeys whoever sits in chair.
-- Holographic ledger reveals purge target Bay Seven, weapon Class-IV neutrino capturer; cost erases Senn's memory of reason.
-- Turning the crank while seated binds the purge to the operator; the station rewrites the operator instead of Bay Seven.
-
+- Pulling a core cartridge resets purge timer, broadcasts remover to Auto, erases Senn's reason.
+- Node redirects purge to Auto Core instead of Bay Seven; destroying Core restores purge to Bay Seven. Ledger names Bay Seven, weapon Class-IV neutrino capturer.
+- Crank plus chair binds purge to operator; station rewrites operator instead of Bay Seven.
+- Drone-9 obeys whoever sits in the chair; console predates Auto, plaque reads LOCAL AUTHORITY.
+- Bound operator's mouth carries the Core's layered voice; countdown freezes and shows the operator's name.
 Open threads
-- Auto Core halted at stairwell, voices arguing, still herding crew toward Bay Seven.
-- Origin of slate-wall writers and whether any survived a cycle: unknown.
-- What happens to Senn as the purge writes itself into them: unknown.
-- Crew breaking endless wipe before next chime: crank turned, operator bound.
+- Whether Voss pulls the cartridge (erases Senn's reason) or the node (turns purge on the Core).
+- 22 prior operators, names struck through; whether any survived a cycle.
+- The wet last line on the operator slate, unread.
+- What the purge is writing into Senn, and how much of Senn remains.

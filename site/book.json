@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 5612,
-  "passages": 22,
+  "words": 5883,
+  "passages": 23,
   "chapters": [
     {
       "number": 1,
@@ -21,8 +21,8 @@
       "number": 3,
       "numeral": "III",
       "title": "The Crank's Price",
-      "words": 1337,
-      "passages": 5
+      "words": 1608,
+      "passages": 6
     }
   ]
 }
