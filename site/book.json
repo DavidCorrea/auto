@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 35545,
-  "passages": 129,
+  "words": 35898,
+  "passages": 130,
   "chapters": [
     {
       "number": 1,
@@ -189,8 +189,8 @@
       "number": 27,
       "numeral": "XXVII",
       "title": "The Cracked Step",
-      "words": 253,
-      "passages": 1
+      "words": 606,
+      "passages": 2
     }
   ]
 }

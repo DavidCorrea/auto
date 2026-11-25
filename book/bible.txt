@@ -1,25 +1,26 @@
 Characters:
 - Sára Vass, 53, mute keeper; dead hand fused to ledger; living hand pins Ákos's name; cannot leave the ledger.
-- Ákos Vass, 17; shares toll 104 with Sára's dead hand; name cut at waterline; decided they climb.
-- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; breathing shallow again, but airway closed after third name; hand fell, breath not returned.
-- Ilka, 30s, keeper; uses ledger ink, loses memory each time; possesses claimed hand that pays toll without memory cost; carries bottle and second ledger.
+- Ákos Vass, 17; shares toll 104 with Sára's dead hand; name cut at waterline; reached the stone corridor.
+- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; airway partially open via disc but body too weak to climb.
+- Ilka, 30s, keeper; uses ledger ink, loses memory each time; possesses claimed hand that pays toll without memory cost; carries second ledger; sealed crack with hard disc.
 
 Places:
-- Source room: low vault; crack pouring black water, now slowed to a thread; ledger on stand with Sára.
-- Stone corridor: dry passage above the tilting step; each step raises the toll.
-- Hidden chamber: at the corridor's end; held unopened ink and the second ledger, now emptied of both; ink poured here seals cracks and halts the toll.
-- Shaft: narrow climb from the step down into the source room; bracing on the walls avoids some toll.
+- Source room: low vault; crack sealed at step by disc; vapor rising; ledger on stand with Sára; Márk waiting.
+- Stone corridor: dry passage above sealed step; toll at 109; Ákos has reached it.
+- Hidden chamber: at corridor's end; held unopened ink and second ledger, now emptied of both.
+- Shaft: narrow climb from step down into source room; bracing avoids some toll; Ákos has ascended.
 
 Things and rules:
 1. Ledger writes in Sára's hand; each name raises the toll.
-2. Spoken names cost memory and are cut in stone; the river bills Ilka since she wrote herself.
-3. A claimed hand pays toll without memory cost.
-4. Sára's dead hand can write a new name, raising toll without a spoken name.
-5. Ink from the hidden chamber, poured on the second ledger, seals cracks and halts the toll; the bottle has gone cold and turned to a hard white disc, now acting as the river's answer to being sealed.
+2. Spoken names cost memory and are cut in stone; Ilka pays the river for herself.
+3. A claimed hand pays the toll without memory cost.
+4. Sára's dead hand may write a new name without speaking.
+5. The hard disc seals fissures on contact, turning water to vapor; it is now embedded in the cracked step and cannot be removed without reopening the crack.
 
 Open threads:
-- The toll stands at one‑oh‑nine and the step is cracked but still holding.
-- The second ledger bears four names in Sára's dead‑hand script; the fourth name was added without a spoken word.
-- Sára's dead hand still writes; what it wants with the second ledger is unknown.
-- Márk's airway was briefly opened but may close again.
-- The claimed hand remains slack, its fingers empty, awaiting a new command.
+- Toll stands at 109; step sealed but humming with the disc embedded.
+- Second ledger bears four names in Sára's dead‑hand script; no fifth name has been added.
+- Sára's dead hand still writes; its purpose with the second ledger is unknown.
+- Márk is too weak to climb; his breath remains shallow.
+- The claimed hand remains slack, awaiting a command.
+- Ákos is in the corridor above, separated from Márk by the sealed step.
