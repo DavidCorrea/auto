@@ -1,15 +1,15 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; speaks without sound; waking to claim Kornél's toll; ledger writes in her hand.
-- Ákos Vass, 17, press-room; holds spent cord; will present it to Sára.
-- Kornél, 50s, river pilot; crossed white water, surrendered Elise's voice memory; name recorded in ledger without voice.
-- Tomas Vass, 40s, former toll boy; rowed skiff back; keeps silence.
+- Sára Vass (Vera), 53, Toll House keeper; mute, speaks in gestures; released Kornél's debt by writing in the ledger awake, and the writing hand is now dead; wants the tolls kept properly, needs a new hand for the pen.
+- Ákos Vass, 17, press-room; holds the pen and the spent cord; has just been asked to write in the ledger.
+- Kornél, 50s, river pilot; crossed white water, surrendered Elise's voice memory; debt released, voice not returned; sits emptied on the bench.
+- Tomas Vass, 40s, former toll boy; rowed the skiff back; keeps silence.
 - Ruzsa, 40s, trader; holds notebook with her name; price imminent.
 - Ilka Dálnoky, 70s, smokehouse; cold hearthstone; refuses to explain what follows.
-- Maren Dálnoky, 68, ex-seamstress; warns of prices; sewed doll's face from Ákos's thread.
+- Maren Dálnoky, 68, ex-seamstress; warns of prices; sewed the doll's face from Ákos's thread.
 
 Places:
 - Vaskapu press-room, stone landing, lantern, Ákos's workbench.
-- Sallow marsh town; Toll House at causeway's end; ledger, table, stove.
+- Sallow marsh town; Toll House at causeway's end; ledger, table, stove, bench.
 - The Point: roofless burned house, black hearthstone, Ilka's smokehouse.
 - River pilot's hut, two bends upstream; white water at second bend; far gravel bar.
 
@@ -18,11 +18,11 @@ Things and rules:
 2. Toll, opening carried items, or submitting to a doll costs memory.
 3. Dolls take a face at the bell or from a living face sewn in thread; warm when debt carried, cold on refusal.
 4. Hearthstone needs a tag to warm; blank tags weigh less than ash; dark tag goes cold; Ilka won't say what follows.
-5. Doll's fragment is a warm coil; returns only to carrier when patron's name recorded; cold coil demands memory before leaving; once paid, becomes ordinary string.
-6. Notebook takes names cost-free at first; page grows heavier; price due: surrender memory when full; holds Ruzsa's name.
+5. Notebook takes names cost-free at first; page grows heavier; price due: surrender memory when full; holds Ruzsa's name.
+6. Writing in the ledger awake to release a debt costs the keeper's writing hand; the Toll House's voice-fragments stay with it, never returned; the ledger now waits for a new hand.
 
 Open threads:
+- The ledger needs a new hand; Ákos has been handed the pen but not yet written.
 - Cold hearthstone at The Point; Ilka and Maren refuse explanation.
-- Sára's ledger: wrote Kornél's debt while sleeping; spent cord hums beside it, suggesting thread not fully spent.
 - Ruzsa's notebook: heavy with her name; price imminent.
-- Kornél: remembers Elise's name but not her voice.
+- Kornél: free of debt, still without Elise's voice; what he does now.
