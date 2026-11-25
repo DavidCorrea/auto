@@ -1,26 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, communicates by gestures; dead hand fused to ledger cover, ink‑stained to knuckles; living hand free but cannot recall river's name.
-- Ákos Vass, 17, press‑room; wrote twelfth mark, lost visual memory of Ilka (face, coat, eyes) but retains drive to find her; leads group under the Point.
-- Kornél, 50s, river pilot; holds pen and cord; voice restored but rough; cord tightens when ledger calls, slackens after toll paid; guides by ledger channel.
-- Ruzsa, 40s, trader; memory half‑surrendered; toll scars match ledger marks; knows White Water requires fifteenth toll (three marks away) for the name.
-- Márk, 30s, boat builder; wrote eleventh mark, living hand cold with dull ache; twelfth mark taken by Ákos; wants to keep ledger from taking more; urges movement toward White Water.
-- Ilka, missing; ledger took her name, now bears River; Ákos's memory of her face damaged; fate unknown.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger cover, ink‑stained knuckles; living hand free but cannot recall river’s name.
+- Ákos Vass, 17, press‑room; wrote twelfth and thirteenth tally; lost visual memory of Ilka but driven to find her.
+- Kornél, 50s, river pilot; holds pen and cord; voice restored but rough; just paid thirteenth toll and lost memory of the river’s name.
+- Ruzsa, 40s, trader; half‑surrendered memory; knows White Water needs fifteenth toll.
+- Márk, 30s, boat builder; wrote eleventh and twelfth marks; living hand cold with dull ache; wants to stop ledger from taking more.
+- Ilka, missing; ledger bears *River*; fate unknown.
 
 Places:
 - Vaskapu press‑room; Toll House; The Point; river hut flooding; under‑Point stone shelf; White Water.
 
 Things and rules:
-1. Ledger writes in Sára's hand; dead hand can cut lines and record new tally marks, accepting a new hand.
-2. Toll, opening carried items, or doll submission costs memory; doll retired after collapse.
-3. Unfamiliar script is a toll‑count in tally marks; count rises on its own and when the ledger calls (cord tightens).
-4. Notebook takes names cost‑free first; page grows heavier; price is memory when full; Ruzsa paid.
-5. Writing awake to release debt costs keeper's writing hand; ledger restores memory/voice, demands new hand or toll; voice‑fragments stay; Kornél's cord tightens when ledger calls.
-6. Word: the ledger can inscribe a single word that carries memory, costing a new hand (River inscribed).
+1. Ledger writes in Sára’s hand; dead hand can cut lines and record new tally marks, accepting a new hand.
+2. Toll costs memory; doll retired after collapse.
+3. Unfamiliar script counts tally marks; count rises automatically and triggers cord tension.
+4. Names take cost‑free first; page grows heavier; price is memory when full; Ruzsa paid.
+5. Writing awake releases debt via keeper’s hand; ledger restores memory/voice, demanding new hand or toll.
+6. Word *River* can be inscribed for one memory, costing a new hand.
 
 Open threads:
-- Sára's memory of the river's name remains lost.
-- Ledger bears River, linking Ilka to the river; Ilka's fate unknown.
-- Twelfth mark recorded by Ákos; his visual memory of Ilka erased but quest remains.
-- Ruzsa knows three more tolls (13th, 14th, 15th) needed for White Water to reveal the name.
-- Group committed to moving toward White Water under the Point.
-- Next tally (13th) awaits a hand; ledger's next demand open.
+- Sára’s memory of the river’s name remains lost.
+- Ledger’s word *River* shifts with each mark.
+- Thirteenth mark paid; fourteen and fifteenth tolls still due.
+- Group moves toward White Water under the Point.
+- Ilka’s presence may manifest in current before fifteenth toll.
