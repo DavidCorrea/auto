@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 2812,
-  "passages": 10,
+  "words": 3079,
+  "passages": 11,
   "chapters": [
     {
       "number": 1,
@@ -14,8 +14,8 @@
       "number": 2,
       "numeral": "II",
       "title": "The Bell Rings",
-      "words": 2140,
-      "passages": 8
+      "words": 2407,
+      "passages": 9
     }
   ]
 }
