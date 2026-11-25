@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 11039,
-  "passages": 37,
+  "words": 11266,
+  "passages": 38,
   "chapters": [
     {
       "number": 1,
@@ -51,6 +51,13 @@
       "title": "The Sewn Face",
       "words": 922,
       "passages": 3
+    },
+    {
+      "number": 8,
+      "numeral": "VIII",
+      "title": "The Unburned Doll",
+      "words": 227,
+      "passages": 1
     }
   ]
 }
