@@ -6,7 +6,7 @@ Characters:
 
 Places:
 - Stone Corridor – second parchment panel, seal broken, far end visible.
-- Riverbank – narrow stair leads down to water's edge, marked "water's mark".
+- Riverbank – narrow stair leads down to water's edge, marked "water's mark"; water writes names at ledger foot.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, accepts claimed hand as scribe.
@@ -14,11 +14,12 @@ Things and rules:
 - Speaking a name costs speaker memory; ledger records name and updates toll.
 - Claimed hand binds spoken name to permanent mark on ledger, ensuring name remains recorded even if speaker forgets.
 - Wall‑voice speaks through ledger in Sára's handwriting given sound.
+- River water mirrors spoken names at ledger foot; hidden entries can be read or left to toll.
 
 Open threads:
 - Márk's memory restoration (progresses).
 - Ákos's free speech and lullaby (ongoing).
 - Sára's toll and voice (toll 91, voice strengthening).
-- Stone corridor far end and wall‑voice (wall‑voice calling from far end).
+- Stone corridor far end and wall‑voice (wall‑voice spoke from stone).
 - Ledger page blank (claimed hand writes again).
 - New keeper dynamics (Sára vs Márk).
