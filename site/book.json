@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 21823,
-  "passages": 79,
+  "words": 22101,
+  "passages": 80,
   "chapters": [
     {
       "number": 1,
@@ -126,8 +126,8 @@
       "number": 18,
       "numeral": "XVIII",
       "title": "The Landing Toll",
-      "words": 263,
-      "passages": 1
+      "words": 541,
+      "passages": 2
     }
   ]
 }
