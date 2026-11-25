@@ -13,7 +13,7 @@ Things and rules:
 - Ledger writes in Sára's hand; each name written raises the toll (97, now 98).
 - A spoken name costs the speaker a memory and is cut into stone; since Ilka wrote herself, the river bills spoken names to her.
 - Claimed hand pays the toll without memory cost; the cord jumps to the wrist.
-- Two keepers' cords touching returns a memory as presence, not cost.
+- Sára's dead hand can shift on the ledger, writing a new name that raises the toll without a spoken name.
 - The toll's number is cut at the waterline and shows only where the rise stands.
 - The river rises, filling the room and climbing the shelf.
 
