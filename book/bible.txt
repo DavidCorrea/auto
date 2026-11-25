@@ -1,25 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pins Ákos's written name; cannot leave the ledger.
-- Ákos Vass, 17, at riverbank; free speech; his name now written in the ledger but unspoken.
-- Márk, 30s, boat builder, keeper; memory of carrying Ákos returned by cord‑touch; walking to the riverbank; toll 93.
-- Ilka, warm, reads water; at the riverbank with Ákos.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger, living hand pinning Ákos's written name; cannot leave the ledger.
+- Ákos Vass, 17, at riverbank; free speech; knows his name is written but unspoken; nearly spoke it.
+- Márk, 30s, boat builder, keeper; memory of carrying Ákos returned by cord-touch; at riverbank; toll 93.
+- Ilka, reads water; at riverbank; the dead hand is now writing her name.
 
 Places:
-- Riverbank: black rock shelf; water writes names at ledger foot.
+- Riverbank: black rock shelf; water writes names at the ledger's foot.
 - Stone Corridor: ends in black iron door to the stairwell.
 - Stairwell: descends into dark water; the river's source, below.
-- Press‑room: exists only in Márk's memory.
+- Press-room: exists only in Márk's memory.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand inscribes names unaided, each addition raising toll by one (now 93).
 - A name spoken aloud costs the speaker memory; the river takes only a name spoken, not one merely written.
 - Claimed hand pays toll without costing owner memory; cord jumps to wrist; writes on blank pages.
 - Two keepers' cords touching returns a memory to one — presence, not cost.
-- Dead hand cuts lines; accepts a claimed hand as scribe.
+- Dead hand cuts lines; accepts a claimed hand as scribe; now writes a second name around Sára's fingers.
 - Carrying a name to the source requires speaking it aloud; the speaker pays.
 
 Open threads:
-- Ákos's name written, unspoken; Sára holds it under her hand while the ink pushes up.
-- Sára bound to the ledger; what the dead hand writes next.
-- Márk gone to warn Ilka and Ákos; returned memory may be noticed by the river.
-- Toll at 93 and climbing on its own.
+- Ákos's name written, unspoken; Sára pins it while the ink pushes up.
+- Dead hand now writing ILKA along the margin; toll 93 and climbing.
+- Sára bound to the ledger; cannot leave.
+- Márk's returned memory may be noticed by the river.
