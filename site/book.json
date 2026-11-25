@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 20420,
-  "passages": 79,
+  "words": 20641,
+  "passages": 80,
   "chapters": [
     {
       "number": 1,
@@ -70,8 +70,8 @@
       "number": 10,
       "numeral": "X",
       "title": "The Name on the Tag",
-      "words": 1120,
-      "passages": 4
+      "words": 1341,
+      "passages": 5
     }
   ]
 }
