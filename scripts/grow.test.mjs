@@ -16,7 +16,7 @@ import {
 const paragraph = (seed) => `${seed} walked down to the harbour and counted the boats twice. `.repeat(6).trim();
 const passage = paragraph("Ottoline");
 
-const bible = "Characters:\n- Ottoline, she, keeps the lighthouse\nPlaces:\n- The harbour\nThings and rules:\n- The boats\nOpen threads:\n- Who sent the letter?";
+const bible = "Heart:\n- Whether Ottoline keeps the light on\nCharacters:\n- Ottoline, she, keeps the lighthouse; wants: the letter's sender; flaw: proud\nPlaces:\n- The harbour\nThings and rules:\n- The boats\nOpen threads:\n- Who sent the letter?";
 
 const bookWith = (chapterText) => ({
   chapters: [{ title: "The Desk", passages: [chapterText] }],
@@ -94,6 +94,11 @@ describe("adding a turn to the book", () => {
     assert.equal(book.chapters[0].passages.length, 1);
   });
 
+  test("rejects a placeholder chapter title", () => {
+    assert.throws(() => applyTurn(parseTurn(reply({ newChapter: "xx" })), book), /placeholder/);
+    assert.equal(applyTurn(parseTurn(reply({ newChapter: "Ash" })), book).book.chapters[1].title, "Ash");
+  });
+
   test("rejects a chapter title in all capitals", () => {
     assert.throws(() => applyTurn(parseTurn(reply({ newChapter: "THE LOOP UNFOLDS" })), book), /all capitals/);
     assert.equal(applyTurn(parseTurn(reply({ newChapter: "The Loop at 5 AM" })), book).book.chapters[1].title, "The Loop at 5 AM");
@@ -140,7 +145,17 @@ describe("adding a turn to the book", () => {
   });
 
   test("rejects a bible without its four lists", () => {
-    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: "Characters:\n- Ottoline" })), book), /Places, Things and rules, Open threads/);
+    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: bible.replace("Places:", "Sites:") })), book), /missing these headings: Places/);
+  });
+
+  test("rejects a character without a want and a flaw", () => {
+    const flat = bible.replace("; wants: the letter's sender; flaw: proud", "");
+    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: flat })), book), /"wants:" and "flaw:".*Ottoline/);
+  });
+
+  test("rejects a bible with no character on its own line", () => {
+    const crammed = bible.replace("Characters:\n- Ottoline", "Characters: Ottoline");
+    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: crammed })), book), /lists no characters/);
   });
 
   test("rejects a bible that has grown too long", () => {
@@ -157,7 +172,7 @@ describe("what the model sees", () => {
   test("shows contents, synopsis, note and the chapter's length", () => {
     const prompt = renderPrompt(book);
     assert.match(prompt, /## Contents\nI\. The Desk/);
-    assert.match(prompt, /## The bible\nCharacters:\n- Ottoline, she/);
+    assert.match(prompt, /## The bible\nHeart:\n- Whether Ottoline/);
     assert.match(prompt, /## The story so far\nAn agent at a desk\./);
     assert.match(prompt, /## Note from the previous writer\nOpen the box\./);
     assert.match(prompt, new RegExp(`Chapter I has ${MIN_CHAPTER_CHARS} of at most ${MAX_CHAPTER_CHARS}`));

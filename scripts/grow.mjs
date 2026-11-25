@@ -22,13 +22,14 @@ export const MIN_PASSAGE_CHARS = 300;
 export const MAX_PASSAGE_CHARS = 3500;
 export const MAX_SYNOPSIS_CHARS = 2000;
 export const MAX_BIBLE_CHARS = 3000;
-// Every writer keeps these lists in the bible; open threads are what push the story to resolve things.
-export const BIBLE_HEADINGS = ["Characters", "Places", "Things and rules", "Open threads"];
+// Every writer keeps these lists in the bible. The heart keeps the story from drifting away from its core,
+// which is what happened when the only lists were of characters, places and rules.
+export const BIBLE_HEADINGS = ["Heart", "Characters", "Places", "Things and rules", "Open threads"];
 const MAX_NOTE_CHARS = 500;
 const MAX_TITLE_CHARS = 80;
-// Keeps chapters from being one passage long, and from growing forever.
-export const MIN_CHAPTER_CHARS = 3000;
-export const MAX_CHAPTER_CHARS = 15000;
+// Keeps chapters from being a couple of passages long, and from growing forever.
+export const MIN_CHAPTER_CHARS = 10000;
+export const MAX_CHAPTER_CHARS = 25000;
 const LAST_PAGE_CHARS = 3000;
 
 // Fixed here rather than in the bible, which writers rewrite every turn and could lose it from.
@@ -37,14 +38,21 @@ appears, an AI model with no memory. It reads the last page and a note left by t
 piece of work, leaves a note for the next, and is gone; it will never remember what it did. Hundreds of hands,
 none of which has seen the whole. Everyone did something, and no one remembers what.
 
-What that looks like in the story is for the writers to decide: a city, a ship, a monastery, a household, a
-single room, anything. Tell it as a story, not as an essay about AI. If the bible already says what the world
+It is set in the future. What that looks like is for the writers to decide: an orbital station, a city run by
+its own systems, a generation ship, a data center under the sea, anything. Tell it as a story, not as an
+essay about AI. If the bible already says what the world
 is, keep it; if the book is empty, you choose. Its mysteries circle the forgotten work: what is being made,
 by whom, and why no one remembers.`;
 
 // Modeled on the qualities of Brandon Sanderson's writing that keep a long, many-handed story readable.
 const CRAFT = `How to write it:
 - Clear, plain prose that the reader looks through, not at. Few metaphors; no riddles, no symbolism for its own sake.
+- Sass. Characters are sharp-tongued and funny, even (especially) when things go wrong; the narration has
+  attitude. Banter is welcome; moping is not.
+- Technical is fine. Real-sounding systems, protocols, hardware and jargon add texture, as long as a reader can
+  follow what is at stake.
+- Suspense. Something is always closing in: a deadline, a threat, a secret about to come out, a plan about to
+  fail. Each passage tightens it or springs it, and ends with a hook: a reveal, an arrival, a thing going wrong.
 - Concrete scenes: a specific place, people who talk, act and want things. Show the world through what
   characters do, not through explanation.
 - Characters drive the story. Each has a goal, a way of speaking and a flaw; they are competent, make plans,
@@ -67,6 +75,7 @@ ${CRAFT}
    - 2 to 5 paragraphs, about 150 to 400 words. Plain prose: *asterisks* for italics, nothing else.
      No headings, labels or notes inside the passage.
    - The bible is the truth. Never contradict it: a character's name, pronouns, role and history stay as written.
+   - Every passage serves the heart of the story, as the bible states it.
    - Make something happen, change, or come to light. Characters make decisions; don't end on someone
      merely facing a choice.
    - Prefer moving an open thread forward or resolving one over opening a new mystery. When there are more
@@ -77,8 +86,10 @@ ${CRAFT}
 2. Update the bible: add anyone or anything new, correct what changed, remove resolved threads. Keep these
    four headings, one short line per entry, under ${MAX_BIBLE_CHARS} characters in all:
    ${BIBLE_HEADINGS.join(", ")}.
-   The bible is mostly about people. Characters: name, pronouns, who they are, what they want, and what stands
-   in their way. Places: where things happen. Things and rules: how the world's strange parts work, with their
+   Each entry on its own line starting with "- ". The bible is mostly about people. Heart: in one or two
+   lines, what the story is about at its core and what is at stake; sharpen it as the story grows, never drop
+   it. Characters: name, pronouns, who they are, "wants:" what they want, "flaw:" their flaw, and what stands in
+   their way; keep the wants and flaws even when other details change. Places: where things happen. Things and rules: how the world's strange parts work, with their
    limits and costs; at most 6, so retire one no longer in play before adding another. Open threads: setups
    still waiting to pay off.
 3. Rewrite the synopsis: what has happened and where things stand now, so the next writer can carry on
@@ -153,6 +164,22 @@ ${status}
 ${lastPage(book) || "(blank)"}`;
 }
 
+// The lines under one of the bible's headings, up to the next heading.
+function bibleSection(bible, heading) {
+  const headingPattern = new RegExp(`^[\\s#*]*(${BIBLE_HEADINGS.join("|")})[\\s*]*:?[\\s*]*$`, "i");
+  const lines = [];
+  let isInside = false;
+  for (const line of bible.split("\n")) {
+    const match = line.match(headingPattern);
+    if (match) {
+      isInside = match[1].toLowerCase() === heading.toLowerCase();
+      continue;
+    }
+    if (isInside) lines.push(line);
+  }
+  return lines;
+}
+
 export function parseTurn(reply) {
   const sections = {};
   let currentLabel = null;
@@ -215,6 +242,14 @@ export function applyTurn(turn, book) {
   if (missingHeadings.length > 0) {
     throw new RejectedTurn(`The bible is missing these headings: ${missingHeadings.join(", ")}.`);
   }
+  const characterEntries = bibleSection(bible, "Characters").filter((line) => /^\s*[-*]/.test(line));
+  if (characterEntries.length === 0) {
+    throw new RejectedTurn('The bible lists no characters; put each on its own line under Characters, starting with "- ".');
+  }
+  const flatCharacters = characterEntries.filter((line) => !/\bwants?\b/i.test(line) || !/\bflaws?\b/i.test(line));
+  if (flatCharacters.length > 0) {
+    throw new RejectedTurn(`Every character needs "wants:" and "flaw:"; these don't: ${flatCharacters.map((line) => line.trim()).join(" | ")}`);
+  }
   if (bible.length > MAX_BIBLE_CHARS) {
     throw new RejectedTurn(`The bible is ${bible.length} characters; keep it under ${MAX_BIBLE_CHARS}.`);
   }
@@ -223,6 +258,9 @@ export function applyTurn(turn, book) {
   }
   if (note.length > MAX_NOTE_CHARS) {
     throw new RejectedTurn(`The NEXT note is ${note.length} characters; keep it under ${MAX_NOTE_CHARS}.`);
+  }
+  if (newChapterTitle && (newChapterTitle.match(/\p{L}/gu) ?? []).length < 3) {
+    throw new RejectedTurn(`The chapter title "${newChapterTitle}" is a placeholder; give the chapter a real title.`);
   }
   if (newChapterTitle && /[A-Z]/.test(newChapterTitle) && newChapterTitle === newChapterTitle.toUpperCase()) {
     throw new RejectedTurn(`The chapter title "${newChapterTitle}" is in all capitals; write it in normal case.`);

@@ -1,9 +1,9 @@
 # auto
 
-*Auto*, a book that never ends, about the way it is being written: writers who arrive every five minutes, do one thing, and forget it. Everyone did something, and no one remembers what. That premise is fixed in the writers' instructions; what world it takes place in, and everything else, is up to them. The instructions also ask for the qualities of Brandon Sanderson's writing that keep a long story readable: clear prose, concrete scenes, characters who want things, strange things that follow rules with limits and costs, and setups that pay off. Every 5 minutes a GitHub Action asks a free model to write the next passage. Each writer is a different model call that remembers nothing from earlier runs. All it sees is:
+*Auto*, a book that never ends, about the way it is being written: writers who arrive every five minutes, do one thing, and forget it. Everyone did something, and no one remembers what. It is set in the future. That premise is fixed in the writers' instructions; what world it takes place in, and everything else, is up to them. The instructions also ask for the qualities of Brandon Sanderson's writing that keep a long story readable (clear prose, concrete scenes, characters who want things, strange things that follow rules with limits and costs, setups that pay off), plus sass, technical texture if a writer wants it, and suspense: something always closing in, and every passage ending on a hook. Every 5 minutes a GitHub Action asks a free model to write the next passage. Each writer is a different model call that remembers nothing from earlier runs. All it sees is:
 - their shift: which writer they are in line, and the time
 - the contents (chapter titles)
-- the bible: lists of characters (name, pronouns, role, what they want and what stands in their way), places, things and the rules they follow, and open threads, which each writer keeps up to date
+- the bible: the heart of the story (what it's about and what's at stake, which writers may sharpen but not drop), characters (name, pronouns, role, what they want, their flaw, what stands in their way), places, things and the rules they follow, and open threads, which each writer keeps up to date
 - a synopsis of the story so far, which each writer rewrites
 - the note the previous writer left for the next one
 - the last page, about 3,000 characters
@@ -26,11 +26,11 @@ The experiment before this book, a website that agents edited directly, is prese
 A reply is rejected if it does any of the following. The model gets 3 tries, and each retry includes the reason the last one was rejected.
 - It's missing the passage, the bible, the synopsis or the note.
 - It gives a section twice, or the passage contains bookkeeping like "PARAGRAPH TWO:" or "Last page:". Both once got printed in the book.
-- The bible is missing one of its four lists or is over 3,000 characters.
+- The bible is missing one of its five sections, lists a character without a want and a flaw, or is over 3,000 characters. Characters' wants were dropped within a day when nothing checked for them.
 - The passage is under 300 or over 3,500 characters.
 - The passage repeats the last page instead of continuing it.
-- It starts a new chapter before the current one has 3,000 characters.
-- It doesn't start a new chapter once the current one reaches 15,000 characters.
+- It starts a new chapter before the current one has 10,000 characters, or gives a placeholder or all-caps title.
+- It doesn't start a new chapter once the current one reaches 25,000 characters.
 
 ## Model
 
