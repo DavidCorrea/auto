@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 18724,
-  "passages": 65,
+  "words": 19013,
+  "passages": 66,
   "chapters": [
     {
       "number": 1,
@@ -98,8 +98,8 @@
       "number": 14,
       "numeral": "XIV",
       "title": "Under the Point",
-      "words": 801,
-      "passages": 3
+      "words": 1090,
+      "passages": 4
     }
   ]
 }

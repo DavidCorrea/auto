@@ -1,10 +1,10 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand grips Ákos’s coat; dead hand ink-stained; cannot recall river’s name; coat seam split.
+- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand released Ákos’s coat and took his notebook; dead hand ink-stained; cannot recall river’s name; coat seam split.
 - Ákos Vass, 17, press-room; gave pen to Kornél; reads ledger marks; free of hand-demand; determined to find Ilka; leads group under the Point.
 - Kornél, 50s, river pilot; holds pen and cord; voice restored but rough; cord slack but distrusts it; guides by ledger channel.
-- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark hers; offered White Water knowledge for fifteenth; now the ledger has inscribed the word *River*.
+- Ruzsa, 40s, trader; memory surrendered; toll scars match ledger marks; tenth mark hers; offered White Water knowledge for fifteenth; now ledger inscribed *River*.
 - Márk, 30s, boat builder; offered a new hand; eleventh mark recorded by his hand; wants to keep ledger from taking more memory.
-- Ilka, missing; holds the river’s name; ledger has taken her name; now the ledger bears the word *River*.
+- Ilka, missing; holds the river’s name; ledger has taken her name; now ledger bears the word *River*.
 
 Places:
 - Vaskapu press-room; Toll House; The Point; river hut left flooding; under-Point stone shelf; White Water.
@@ -18,7 +18,7 @@ Things and rules:
 6. Word: the ledger can inscribe a single word that carries memory, costing a new hand.
 
 Open threads:
-- Fifteenth mark completed; new tally mark formed, awaiting further action.
-- Sára’s memory of river’s name remains lost; living hand still grips Ákos; coat seam split further.
-- Ledger now bears the word “River”, linking Ilka’s name to the river; Ilka’s whereabouts still unknown.
-- Channel line led group under the Point to the stone shelf; crack closed, but the ledger’s spine remains a sealed fissure.
+- Fifteenth mark completed; new tally mark formed, awaiting action; ledger ink now crawling toward it after living hand took notebook.
+- Sára’s memory of river’s name lost; living hand released Ákos, dead hand ink-stained; coat seam split.
+- Ledger bears *River*, linking Ilka’s name to river; Ilka unknown.
+- Channel line led group under Point to stone shelf; crack closed, but ledger’s spine sealed fissure.
