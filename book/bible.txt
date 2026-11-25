@@ -1,7 +1,7 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; voice and memory of being Vera taken as toll; awake by choice; shapes dolls from tag ash at dawn unaware; hand writes dates when another holds the pen.
-- Ákos Vass, 17, Vaskapu press-room; keeps notebook of losses; lost touch carrying Vera's tag; cannot feel paper, ash or own writing; touch returns as faint echo when writing dates.
-- Ilka Dálnoky, 70s, Point smokehouse; calls Sára Vera; keeps faceless dolls, one now bearing the child's face; memory taken as fee for the Rest; last memory taken by the stone; recalls only that the child was inside the fire.
+- Sára Vass (Vera), 53, keeper of the Toll House; voice and memory of being Vera taken as toll; awake by choice; shapes dolls from tag ash at dawn unaware; hand writes dates when another holds the pen. Voice partially returned as shaped words without sound.
+- Ákos Vass, 17, Vaskapu press-room; keeps notebook of losses; lost touch carrying Vera's tag; cannot feel paper, ash or own writing; touch returns as faint echo when writing dates; echo now fuller after blank tag.
+- Ilka Dálnoky, 70s, Point smokehouse; calls Sára Vera; keeps faceless dolls, one now bearing the child's face; memory taken as fee for the Rest; last memory taken by the stone; recalls only that the child was inside the fire; memory assuaged.
 
 Places:
 - Vaskapu press-room, stone landing with lantern, Ákos's workbench.
@@ -19,6 +19,6 @@ Things and rules:
 Open threads:
 - Sára's doll-making and why she forgets her identity.
 - Why she chose Ákos and how he lost touch.
-- The twelve earlier names and their costs; the seventh crossed out “I paid for him.”
-- What the blank sixteenth tag demands when carried back to the Toll House.
-- Sára’s voiceless state and how she will record future tolls.
+- The twelve earlier names and their costs; the seventh crossed out "I paid for him."
+- What the blank sixteenth tag demanded when carried back to the Toll House (resolved: a new name appeared without voice).
+- Sára's voiceless state and how she will record future tolls (partially resolved: voice returns as shaped words without sound).
