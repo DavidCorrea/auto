@@ -2,7 +2,7 @@ Characters:
 - Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; voice returning in fragments; spoke "remember" and "eighty-five"; kitchen memory surfacing.
 - Ákos Vass, 17, press‑room; holds ledger; voice clearing; lullaby restored; Ilka spoke his name, toll advanced; touched *voice* slat.
 - Kornél, 50s, river pilot; name Sebes back, won by ink; not present.
-- Márk, 30s, boat builder; keeper; his hand is the ledger's scribe; cord on wrist; ledger claims his hand; kitchen memory restored, more surfacing.
+- Márk, 30s, boat builder; keeper; his hand is the ledger's scribe; cord on wrist; ledger claims his hand; kitchen memory restored, more surfacing via *bread* slat.
 - Ilka, returned; cold lifting; gave a memory by speaking Ákos's name; ledger tally 84; corridor panel opened; lost lullaby memory piece.
 - Ruzsa, 40s, trader; paid when the page was full; not present.
 
@@ -13,14 +13,12 @@ Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a claimed hand as scribe.
 - A claimed hand can pay a toll without costing its owner a memory; the cord then jumps to that wrist.
 - Writing awake releases debt through the keeper's hand, restoring memory or voice, but costs the keeper a memory.
-- Water at the landing records the next toll and opens the marked door unless the ledger is updated.
 - Speaking a name costs the speaker a memory.
 - Parchment holds a sealed memory released when its wax seal breaks, giving the memory to the holder without cost; the ledger records the name and updates the toll.
 - Carved slats in the deep corridor release associated memories when touched by the relevant person.
 
 Open threads:
-- Márk's full forgotten life (bread, voice) — kitchen memory restored, hearth memory surfacing via slat/panel.
+- Márk's full forgotten life (bread, voice) — kitchen memory restored, hearth memory surfacing via slat/panel; he touched *bread* slat.
 - Ákos's complete restoration and free speech — lullaby restored; Ilka's naming of him may bring full voice within reach; touched *voice* slat.
-- Sára's toll and final passage — "remember" spoken, "eighty-five" spoken; corridor offers new passage; voice returning.
-- Stone corridor's far end and what the wall-voice wants — second panel seal cracking, hearth memory released; toll 85 demanded.
-- Ilka's memory loss from naming Ákos — lullaby fragment gone, cold in chest.
+- Sára's toll and final passage — "remember" spoken, "eighty-five" spoken; voice returning; may pay toll 85.
+- Stone corridor's far end and wall-voice — second panel seal cracked; hearth scent; toll 85 demanded name.
