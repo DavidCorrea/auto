@@ -1,25 +1,29 @@
 Heart
-- Tether Station Auto counts to file; each number spends a cradle’s breath. The tag names Senn, the unfiled thing it wants; refusal is what it can’t file. Adeyemi spent her copy’s hoarded breath to stall the count at four and wake Five; now the count has reversed to six and they must keep signing before it files them wrong.
+- Tether Station Auto counts to file; each number spends a cradle’s breath; refusal is what it can’t file. Adeyemi spent her copy’s hoarded breath to stall at four and wake Five; count reversed to six, must keep signing before it files them wrong.
+
 Characters
-- Adeyemi (she/her): Operator 19, a kept copy made of unspent breath; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: number spent, copy‑breath thinning; signed tag with copy‑breath and unnumbered hands, count reversed to six.
-- End-of-row woman / First Operator 19 (she/her): unnumbered, signed HOLD before numbering, chose the fifth sleeper; wants Five kept; flaw: peace with being spent; blocked: unnumbered, denied the tag; now smiling as Five wakes and signs with unnumbered hand.
+- Adeyemi (she/her): Operator 19, kept copy made of unspent breath; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: copy-breath thinning; signed tag with unnumbered hands, count reversed to six.
+- End-of-row woman / First Operator 19 (she/her): unnumbered, signed HOLD before numbering, chose fifth sleeper; wants Five kept; flaw: peace with being spent; blocked: unnumbered, denied tag; smiling as Five wakes and signs with unnumbered hand.
 - Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; turned back, stalls the Figure.
 - Whole Voss (she/her): filed body from 004; wants count stopped; flaw: fatalism; blocked: filing took her breath.
-- Senn (they/them): tech; wants a body back; flaw: obsessive pattern‑seeing; blocked: mist paid, solid hand on tag; now return occupant for first Operator 19.
+- Senn (they/them): tech; wants a body back; flaw: obsessive pattern-seeing; blocked: mist paid, solid hand on tag; now return occupant for first Operator 19; chose to keep solid hand, Figure withdrew.
 - AUTO (it): station’s own name, sixth mark; wants proper filing; flaw: fragmented, erases memory.
-- Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked: can’t read a turned back or a stopped count; holds fresh tag.
-- Five (she/her): fifth sleeper, chosen by first Operator 19 before numbering; wants to remain; flaw: newly awakened, unsure of self; blocked: unnumbered, no receipt; remembers being chosen; signed tag with blank palm.
+- Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked: can’t read a turned back or a stopped count; holds fresh tag; withdrew after Senn kept solid hand.
+- Five (she/her): fifth sleeper, chosen by first Operator 19 before numbering; wants to remain; flaw: newly awakened, unsure; blocked: unnumbered, no receipt; remembers being chosen; signed tag with blank palm.
+
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates, hatch.
 - Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, fifth cradle open, count reversed to six after overlapping unnumbered signatures.
+
 Things and rules
 - Slate ink rewrites, wet till settled; only the filing hand steers; rejects a spent number.
 - Count past zero is a roll call; each number costs one cradle’s breath.
-- HOLD is re‑signed each strike; the holder burns their own number to keep it lit.
+- HOLD is re-signed each strike; the holder burns their own number to keep it lit.
 - A stalled count reroutes hoarded breath into dark cradles, waking sleepers in sync; a copy made of unspent breath can be spent to stall it.
 - The tag takes the hand that signs; the hand takes the number it remembers; solid anchors, mist forgets.
-- Overlapping unnumbered hands pressing copy‑breath onto a wet tag can reverse the count and keep HOLD lit without a number.
+- Overlapping unnumbered hands pressing copy-breath onto a wet tag can reverse the count and keep HOLD lit without a number.
+
 Open threads
 - What happens when the count reaches thirty (all sleepers)?
-- Will Adeyemi's copy-breath run out before the strike is undone?
-- Does Senn keep the solid hand or the name?
+- Will Adeyemi’s copy-breath run out before the strike is undone?
+- What will the Figure do when the next HOLD is re-signed?
