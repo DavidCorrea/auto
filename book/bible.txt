@@ -1,30 +1,29 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; flaw: obeys the house over people, decides alone, forgets her own acts; carries the doll with her sister's face; means to intercept the cart, now means to carry the face herself.
-- Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; wants answers; his page about Sára's sister was burned by Sára.
-- Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; left before the bell; at the Point with the skiff.
+- Sára Vass (Vera), 53, keeper of the Toll House; obeys the house over people, decides alone, forgets her own acts; paid the face-debt at the smokehouse; now holds a second, child-sized faceless doll; her last opening cost her the whole morning.
+- Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; wants answers; Sára burned his page about her sister.
+- Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; took the faceless doll; is owed the iron parcel tagged to her at The Point.
 - The printer woman, unnamed; ink to the elbows; shelters Ákos; once carried a parcel and paid her name.
-- The delivery man, unnamed; drives a mule cart; brings chalk-marked crates; won't cross the threshold or look at the stove; holds to "don't ask, don't open, you carry you pay".
-- The Face: the house wants the doll’s face to set on a faceless thing, smoothing the wood; the face returns when the bell rings.
-- The Letter: undated, unsigned, laid paper in Vaskapu; says she named Ákos’s mother and “what you carry, you pay for”.
+- The delivery man, unnamed; mule cart, chalk-marked crates; won't cross the threshold or look at the stove; "don't ask, don't open, you carry you pay".
 
 Places:
-- Vaskapu: long press-room, stone landing with lantern; ferry gone, only the skiff.
-- Sallow, marsh town; Toll House at the causeway's end; kitchen table where tagged things appear at dawn; iron Wheel under the floorboards; iron stove.
-- The Point: burned roofless house, child-sized hearthstone with a faced doll; Ilka's smokehouse, shelf of faceless dolls.
-- The causeway: road to Sallow where the cart comes and goes.
+- Vaskapu: press-room, stone landing with lantern; ferry gone, only the skiff; the Letter lies here.
+- Sallow, marsh town; Toll House at the causeway's end; kitchen table where tagged things appear at dawn; iron Wheel under the floorboards, warm, dusted with pale shavings; iron stove.
+- The Point: burned roofless house, child-sized hearthstone; Ilka's smokehouse, shelf of faceless dolls.
+- The causeway: road to Sallow.
 
 Things and rules:
-1. The Table: dawn deliveries with paper tags naming who and where; no one sees them made.
-2. The Toll: taken from the deliverer — memory, skill, or sense; Sára lost her sister’s face, then her smile mid‑water.
-3. Don’t open what you carry; the Halászys forgot each other’s names; a faceless doll takes a face by the bell.
-4. The Notebook: Ákos records every loss; fourteen dated names in Sára’s hand, sister’s seventh on Ákos’s birthday, “I paid for him”; the burned page’s ash holds unknown handwriting.
-5. The Face: the house wants the doll’s face to set on a faceless thing, smoothing the wood; the face returns when the bell rings.
-6. The Letter: undated, unsigned, laid paper in Vaskapu; says she named Ákos’s mother and “what you carry, you pay for”.
+1. The Table: dawn deliveries, paper tags naming who and where; no one sees them made; the tags are Sára's own cramped hand, written at night, forgotten by morning.
+2. The Toll: taken from the deliverer — memory, skill, or sense; opening what you carry costs memory; Sára's last opening took the whole morning.
+3. Don't open what you carry; the Halászys forgot each other's names; a faceless doll takes a face by the bell.
+4. The Notebook: Ákos records every loss; fourteen dated names in Sára's hand, sister's seventh on Ákos's birthday, "I paid for him"; the burned page's ash handwriting is Sára's hand.
+5. The Maker: Sára carves the dolls at night — hands smell of cut wood, shavings by the Wheel — and wakes knowing nothing.
+6. The Face: the house sets taken faces on faceless things, smoothing the wood; the sister's face is with the house now, unplaced.
 
 Open threads:
-- Who makes the things, and why the night is forgotten.
+- Why Sára makes the dolls and forgets; whether she chose it.
 - The other thirteen names on the list, and what each cost.
-- The faceless dolls at The Point, and whose faces they were given.
-- Who died in the fire, and the child the small hearth belonged to.
-- The printer woman’s lost name, and what she carried.
-- Whether Sára reaches Ilka before the doll's face is taken.
+- The faceless dolls at The Point, and whose faces they were given; the new child-sized doll may be for the small hearth.
+- Who died in the fire, and the child the hearth belonged to.
+- The printer woman's lost name, and what she carried.
+- The Letter in Vaskapu: she named Ákos's mother; "what you carry, you pay for".
+- Whether Ilka carries the parcel to The Point, and whose face the house sets on the small doll.
