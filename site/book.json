@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 12740,
-  "passages": 43,
+  "words": 13195,
+  "passages": 44,
   "chapters": [
     {
       "number": 1,
@@ -70,8 +70,8 @@
       "number": 10,
       "numeral": "X",
       "title": "The Woman on the Landing",
-      "words": 332,
-      "passages": 1
+      "words": 787,
+      "passages": 2
     }
   ]
 }
