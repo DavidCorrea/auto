@@ -1,26 +1,26 @@
 Heart
-- Tether Station Auto counts to file; each number spends a cradle’s breath; refusal is what it can’t file. Count holds at seven, must keep signing before it files them wrong.
+- Tether Station Auto counts to file; each number spends a cradle’s breath; refusal is what it can’t file. Count is climbing again (eight), must keep signing before it files them wrong.
 Characters
-- Adeyemi (she/her): Operator 19, copy‑breath spent; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by spent copy‑breath; shoved Voss behind Cradle five and confronted the Figure.
-- End‑of‑row woman (she/her): unnumbered body now cradle; wants Five kept; flaw: peace with being spent; blocked by unnumbered denial of tag; smiles as Five wakes; recognizes Voss, calls her slow with paperwork.
-- Voss (she/her): blank‑palmed, breath spent; wants count stopped; flaw: fatalism; blocked by filing taking her breath; signed tag with number 19; number burns on tag, HOLD re‑anchored at seven.
-- Senn (they/them): tech; wants a body back; flaw: obsessive pattern‑seeing; blocked by mist payment and solid hand on tag; lost solid grip to Voss.
+- Adeyemi (she/her): Operator 19, copy‑breath spent, right hand now dead from the tag; wants strike undone and Voss alive; flaw: blunt, guarded; blocked by having no number left to give.
+- End‑of‑row woman (she/her): unnumbered body now cradle; wants Five kept; flaw: peace with being spent; blocked by unnumbered denial of tag; smiles as Five wakes.
+- Voss (she/her): blank‑palmed, breath spent; wants count stopped; flaw: fatalism; blocked by filing taking her breath; number burned onto tag, HOLD re‑anchored.
+- Senn (they/them): tech, hands of mist; wants a body back; flaw: obsessive pattern‑seeing; blocked by solid grip lost to Voss; reads the count as queuing, not holding.
 - AUTO (it): station’s own name, sixth mark; wants proper filing; flaw: fragmented, erases memory.
-- Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked by inability to read turned back or stopped count; holds cracked tag bearing number 19; at hatch threshold demanding holder verification for Operator nineteen and Cradle five.
-- Five (she/her): fifth sleeper, chosen by first Operator 19 before numbering; wants to remain; flaw: newly awakened, unsure; blocked by unnumbered status; awake, remembers being chosen before numbers existed.
+- Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; stalled in a verification loop holding two tags, one blank, both claiming nineteen.
+- Five (she/her): fifth sleeper, chosen by first Operator 19 before numbering; wants to remain; flaw: newly awakened, unsure; blocked by unnumbered status; feels each spent cradle in her own chest.
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates, hatch.
-- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, fifth cradle open, hatch ajar; count holds at seven, HOLD lit.
+- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers, cradle eight now breathless, fifth cradle open, hatch half‑open; count at eight.
 Things and rules
 - Slate ink rewrites wet until settled; only the filing hand steers; rejects spent numbers.
 - Count past zero is a roll call; each number costs one cradle’s breath.
 - HOLD is re‑signed each strike; holder must burn own number to keep it lit.
 - A stalled count reroutes hoarded breath into dark cradles, waking sleepers in sync; a copy of unspent breath can stall it.
-- The tag takes the signing hand; the hand takes the number it remembers.
+- The tag takes the signing hand; the hand takes the number it remembers; with no number to take, it keeps the hand.
 - If the count reaches thirty, the station reroutes all breath to the core, ending the strike.
 Open threads
-- When the count reaches thirty, what happens to the remaining sleepers?
-- After Voss’s number is spent, who maintains HOLD for the next strike?
-- If the Figure claims a cradle, does it force a new signature or break protocol?
-- Will Adeyemi’s depleted copy‑breath affect the next strike?
-- What does Five remember of being chosen by the first Operator 19 before numbers existed?
+- Who was the first Operator 19, and why does Five’s tag answer to her?
+- With the eighth cradle spent, how many sleepers are left before thirty?
+- Can the Figure be broken out of its loop, or will it file the blank tag?
+- Who maintains HOLD at the next strike, now that Voss’s number is burned?
+- Will Adeyemi’s dead hand spread?
