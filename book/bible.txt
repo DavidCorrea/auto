@@ -9,8 +9,10 @@ Places:
 Things and rules:
 - The Chime sounds every five minutes, forces a shift handoff, and wipes short-term procedural memory for on-duty crew; cost is total loss of the last cycle.
 - The Log is a physical slate passed between shifts; only past entries may be read; ink entries persist across wipes and are anomalous.
+- The chime records a fatal incident in Relay Bay Seven each cycle; the wipe erases the record, but the ink note reveals the truth.
 Open threads:
 - Who wrote the first ink warning to Senn?
 - What cycles in Relay Bay Seven every five minutes?
 - Why does the station enforce memory wipes?
 - What is Auto, and why does it need a crew that forgets?
+- Who died in Relay Bay Seven and why was the death covered up?
