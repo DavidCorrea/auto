@@ -1,14 +1,14 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and teaching voice; thigh-mark removed; voice returning in fragments.
-- Ákos Vass, 17, press-room; holds ledger; lost Ilka's voice, mother's kitchen, fresh bread; cord transferred to Márk.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; lost the room and teaching voice; thigh-mark removed; voice returning in fragments; spoke "remember."
+- Ákos Vass, 17, press-room; holds ledger; lost Ilka's voice, mother's kitchen, fresh bread; cord transferred to Márk; lullaby memory restored; voice clearing.
 - Kornél, 50s, river pilot; has name Sebes back, won by ink, not speech.
-- Márk, 30s, boat builder; his hand is the ledger's scribe; cord on his wrist; wrote 79 and Sebes; ledger claims his hand.
-- Ilka, returned; cold lifting from her; speaks Sára's name, causing ledger to write "SÁRA"; remembers shingle shore.
+- Márk, 30s, boat builder; keeper; his hand is the ledger's scribe; cord on his wrist; wrote 79 and Sebes; ledger claims his hand; kitchen memory restored; in the stone corridor, named the debt as the barnacled box.
+- Ilka, returned; cold lifting; speaks Sára's name, causing ledger to write "SÁRA"; remembers shingle shore; holds parchment with third line forming.
 - Ruzsa, 40s, trader; paid when the page was full.
 - Previous Keeper (78), cut Sára's mark from her living skin, paid his debt with his hand.
 
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber; landing and marked door (now open); Keeper's Room; Shingle Shore.
+- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber; landing and marked door (now open); Keeper's Room; Shingle Shore; Stone Corridor.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a claimed hand as scribe.
@@ -16,11 +16,12 @@ Things and rules:
 - Writing awake releases debt through the keeper's hand, restoring memory or voice, but costs the keeper a memory.
 - Water at the landing records the next toll and opens the marked door unless the ledger is updated.
 - Speaking a name costs the speaker a memory.
-- Parchment contains a sealed memory that is released when its wax seal is broken, transferring the memory to the holder without costing a memory; the ledger records the name and updates the toll.
+- Parchment holds a sealed memory released when its wax seal breaks, giving the memory to the holder without cost; the ledger records the name and updates the toll.
 
 Open threads:
-- Márk’s effort to regain his full forgotten life (kitchen, bread, voice) – still pending.
-- Ákos’s complete restoration of lost memories and his ability to speak freely – still pending.
-- SÁRA’s toll indicating her final passage and the ledger’s recognition – unresolved.
-- The barnacled box and what it holds – unresolved.
-- The ledger’s next unbidden entry awaiting a name spoken aloud – unresolved.
+- Márk's full forgotten life (bread, voice) — kitchen memory restored, rest pending.
+- Ákos's complete restoration and free speech — lullaby restored, full voice pending.
+- Sára's toll and final passage — "remember" spoken, unresolved.
+- The barnacled box — now named as the debt for toll eighty-one; contents and origin unexamined.
+- The parchment's unread third line in Ilka's hands.
+- The stone corridor's far end and what the wall-voice wants.
