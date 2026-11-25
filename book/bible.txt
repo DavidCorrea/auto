@@ -1,7 +1,8 @@
 Characters:
 - Sára Vass (Vera), 53, keeper of the Toll House; obeys the house over people, forgets her own acts; wrote Ákos's tag and the fourteen names in her own hand and forgot; now at The Point with Ákos, about to confront Ilka.
 - Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; lost tactile memory of type at the bell; knows Sára is the ledger who pays the fees; left the notebook behind, came to The Point.
-- Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; took the iron parcel; shelf of faceless dolls, one wearing Ákos's face; not yet confronted.
+- Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; took the iron parcel; shelf of faceless dolls, one wearing Ákos's face, now knows the sister's face is held in a doll and the warm doll signals the debt is paid.
+- Sister (unnamed), deceased, whose face was taken and later held by Ilka; mentioned in the seventh name “I paid for him.”
 
 Places:
 - Vaskapu: press-room, stone landing with lantern; Ákos's workbench and notebook (left there).
@@ -11,8 +12,8 @@ Places:
 Things and rules:
 1. The Table: dawn deliveries, paper tags in Sára's cramped hand, written at night and forgotten; ink can still be wet.
 2. The Toll: taken from the deliverer — memory, skill, or sense; opening what you carry costs memory.
-3. Dolls: faceless; a doll takes a face at the bell; the small doll is blank again, and now warms near the debt.
-4. The Notebook: Ákos records every loss; fourteen dated names in Sára's hand; the sister's seventh, "I paid for him."
+3. Dolls: faceless; a doll takes a face at the bell; the small doll is blank again, and now warms near the debt, indicating the debt is being settled.
+4. The Notebook: Ákos records every loss; fourteen dated names in Sára's hand; the sister's seventh, “I paid for him.”
 5. The Bell and the Wheel: bell rings at the hour of delivery, wherever the house chooses; refusal turns shavings cold and ashen, then warm once the debt is paid.
 6. Refusal: does not stop the toll; moves payment to the named deliverer and adds a fee taken from the refuser.
 
@@ -21,5 +22,3 @@ Open threads:
 - The other thirteen names, and what each cost.
 - Who died in the fire, and the child the hearthstone belonged to.
 - The printer woman's lost name, and what she carried.
-- Whether the sister's face can be won back.
-- The doll at The Point wearing Ákos's face — what it means, and why Sára's blank doll now warms.
