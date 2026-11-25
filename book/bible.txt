@@ -1,14 +1,13 @@
 Characters:
 - Sára Vass, 53, mute keeper; dead hand fused to ledger; living hand pins Ákos's name; cannot leave the ledger.
 - Ákos Vass, 17; shares toll 104 with Sára's dead hand; name cut at waterline; decided they climb.
-- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; breathing again since Ilka's claim, but now airway closed again.
-- Ilka, 30s, keeper; uses ledger ink, loses a memory each time; possesses a claimed hand that pays toll without memory cost; carries bottle and second ledger.
+- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; breathing shallow again, but airway closed after third name; hand fell, breath not returned.
+- Ilka, 30s, keeper; uses ledger ink, loses memory each time; possesses claimed hand that pays toll without memory cost; carries bottle and second ledger.
 
 Places:
-- Source room: low vault; crack pouring black water, now slowed to a thread; ledger on a stand with Sára.
+- Source room: low vault; crack pouring black water, now slowed to a thread; ledger on stand with Sára.
 - Stone corridor: dry passage above the tilting step; each step raises the toll.
-- Hidden chamber: at the corridor's end; held unopened ink and the second ledger, now emptied of both.
-- Step: cracked stone, partially sealed by Ilka's ink; descending it still raises the toll.
+- Hidden chamber: at the corridor's end; held unopened ink and the second ledger, now emptied of both; ink poured here seals cracks and halts the toll.
 - Shaft: narrow climb from the step down into the source room; bracing on the walls avoids some toll.
 
 Things and rules:
@@ -17,11 +16,10 @@ Things and rules:
 3. A claimed hand pays toll without memory cost.
 4. Sár's dead hand can write a new name, raising toll without a spoken name.
 5. Each step taken on corridor stone raises the toll by one.
-6. Ink from the chamber, poured on the second ledger, seals cracks and halts the toll; the bottle has gone cold and turned to a hard white disc, now acting as the river's answer to being sealed.
+6. Ink from the hidden chamber, poured on the second ledger, seals cracks and halts the toll; the bottle has gone cold and turned to a hard white disc, now acting as the river's answer to being sealed.
 
 Open threads:
 - The toll stands at one-oh-eight and the step is sealed but unstable.
 - The second ledger bears Ilka's, Márk's and Ákos's names in Sár's dead-hand script; the third name was forced by Sár's living hand.
 - Sára's dead hand still writes; what it wants with the second ledger is unknown.
-- The ink is now a hard white disc in Sára's living hand.
-- Márk's recovery is incomplete; his airway closed again after the third name.
+- Márk's airway remains closed after the third name; whether the hard bottle can open it.
