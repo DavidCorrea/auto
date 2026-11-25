@@ -1,8 +1,9 @@
 Characters:
 - Sára Vass, 53, mute keeper; dead hand fused to ledger; living hand pins Ákos's name; cannot leave the ledger.
-- Ákos Vass, 17; shares toll 104 with Sára's dead hand; name cut at waterline; reached the stone corridor.
-- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; airway partially open via disc but body too weak to climb.
+- Ákos Vass, 17; shares toll 109 with Sára's dead hand; name cut at waterline; reached the stone corridor.
+- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; airway partially open via disc but body too weak to climb; now lifted by claimed hand.
 - Ilka, 30s, keeper; uses ledger ink, loses memory each time; possesses claimed hand that pays toll without memory cost; carries second ledger; sealed crack with hard disc.
+- Claimed hand, neuter; a spectral hand that can be commanded to pay toll or exert force; awaiting command.
 
 Places:
 - Source room: low vault; crack sealed at step by disc; vapor rising; ledger on stand with Sára; Márk waiting.
@@ -12,15 +13,15 @@ Places:
 
 Things and rules:
 1. Ledger writes in Sára's hand; each name raises the toll.
-2. Spoken names cost memory and are cut in stone; Ilka pays the river for herself.
-3. A claimed hand pays the toll without memory cost.
-4. Sára's dead hand may write a new name without speaking.
-5. The hard disc seals fissures on contact, turning water to vapor; it is now embedded in the cracked step and cannot be removed without reopening the crack.
+2. A claimed hand pays the toll without memory cost.
+3. Sára's dead hand may write a new name without speaking.
+4. The hard disc seals fissures on contact, turning water to vapor; it is now embedded in the cracked step and cannot be removed without reopening the crack.
+5. When the claimed hand is commanded, it can lift or pull objects, ignoring toll for that action.
 
 Open threads:
 - Toll stands at 109; step sealed but humming with the disc embedded.
-- Second ledger bears four names in Sára's dead‑hand script; no fifth name has been added.
-- Sára's dead hand still writes; its purpose with the second ledger is unknown.
-- Márk is too weak to climb; his breath remains shallow.
-- The claimed hand remains slack, awaiting a command.
-- Ákos is in the corridor above, separated from Márk by the sealed step.
+- Second ledger bears four names in Sára's dead‑hand script; a fifth name may be needed.
+- Sára's dead hand continues writing; its purpose with the second ledger unknown.
+- Márk is now able to climb after the claimed hand pulls him, though his breath remains shallow.
+- The claimed hand has been commanded and is actively pulling the rope, resolving its inactivity.
+- Ákos remains in the corridor, now able to descend via rope to join Márk.
