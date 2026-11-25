@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 34237,
-  "passages": 124,
+  "words": 34488,
+  "passages": 125,
   "chapters": [
     {
       "number": 1,
@@ -182,8 +182,8 @@
       "number": 26,
       "numeral": "XXVI",
       "title": "The Dry Stone",
-      "words": 1008,
-      "passages": 4
+      "words": 1259,
+      "passages": 5
     }
   ]
 }

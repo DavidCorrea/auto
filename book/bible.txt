@@ -1,13 +1,14 @@
 Characters:
 - Sára Vass, 53, mute keeper; dead hand fused to ledger; living hand pins Ákos's name; cannot leave the ledger.
 - Ákos Vass, 17; shares toll 104 with Sára's dead hand; name cut at waterline; decided they climb.
-- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; fading on the corridor floor.
-- Ilka, 30s, female keeper; uses ledger ink, loses a memory each time (her mother's voice just lost); wants to keep Márk alive.
+- Márk, 30s, boat builder keeper; river took his breath as toll; cannot breathe air; now breathing again after Ilka's claim.
+- Ilka, 30s, female keeper; uses ledger ink, loses a memory each time (her mother's voice just lost); now also possesses a claimed hand that can pay toll without memory cost; wants to keep Márk alive; has written Márk's name in the second ledger, halting the toll rise.
 
 Places:
 - Source room: low vault; crack pouring black water; ledger with Sára.
 - Stone corridor: dry passage above the tilting step; each step raises the toll.
 - Hidden chamber: at the corridor's end; holds unopened ink and a second ledger.
+- Step: cracked stone at the end of the dry corridor; partially sealed after Ilka's ink claim, halting further toll increase.
 
 Things and rules:
 1. Ledger writes in Sára's hand; each name raises the toll.
@@ -18,7 +19,7 @@ Things and rules:
 6. The chamber's ink and second ledger are the step's fuel; unopened, effect unknown.
 
 Open threads:
-- Márk cannot breathe air; Ilka has the ink but has not yet saved him.
-- The corridor's toll keeps rising with every step; one-oh-nine and climbing.
-- The second ledger in the chamber: whose names does it hold?
+- Márk cannot breathe air; Ilka has the ink and has saved him, but his full recovery is still pending.
+- The corridor's toll has stopped rising at one‑oh‑six; the step remains unstable.
+- The second ledger now contains Ilka's name (previously written) and Márk's name, awaiting further entries.
 - Sára cannot leave the ledger; her fate after the step cracked is unknown.
