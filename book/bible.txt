@@ -1,17 +1,19 @@
 Heart
 - Tether Station Auto counts to file; each number spends a cradle's breath. The tag names Senn, the unfiled thing it wants; refusal is what it can't file, and Adeyemi spent her number to keep Five unstuck.
+
 Characters
-- Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: number spent, rejected by the slate.
-- Second Adeyemi (she/her): spent original Operator 19; wants to sign HOLD and end Five; flaw: peace with being spent; blocked: unnumbered, denied the tag.
+- Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: number spent, rejected by slate; now reads as kept copy who spent.
+- Second Adeyemi (she/her): spent original Operator 19; wants to sign HOLD and end Five; flaw: peace with being spent; blocked: unnumbered, denied the tag; now end-of-row sleeper who signed once.
 - Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; turned back, still stalls the Figure.
 - Whole Voss (she/her): filed body from 004; wants the count stopped; flaw: fatalism; blocked: filing took her breath.
-- Senn (they/them): tech; wants a body back; flaw: obsessive pattern-seeing; blocked: mist hand thinning with every touch of the tag; now named on the tag.
+- Senn (they/them): tech; wants a body back; flaw: obsessive pattern-seeing; blocked: mist hand thinning with every touch of the tag; now named on the tag, signed fresh tag, mist paid.
 - AUTO (it): station's own name, sixth mark; wants proper filing; flaw: fragmented, erases memory.
 - Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked: can't read a turned back; now outside the hatch with a fresh tag.
-- End-of-row sleeper (she/her): one of the thirty, palm reads no number, claims she already signed once; wants something the copies don't; flaw: unknown.
+
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates, hatch.
 - Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers awake.
+
 Things and rules
 - Slate ink rewrites, wet till settled; only the filing hand steers; rejects a spent number.
 - Count past zero is a roll call; each number costs one cradle's breath.
@@ -19,8 +21,8 @@ Things and rules
 - HOLD is a signature re-signed each strike; the holder burns their own number to keep it lit.
 - The busbar reads an open palm; one bright strand remains.
 - A stalled count reroutes hoarded breath into dark cradles; a split cradle vents it cold, waking sleepers in sync and exposing any palm that reads no number.
+
 Open threads
-- Is Adeyemi the kept copy or the original after burning her number?
-- Who is the unnumbered end-of-row sleeper, and what did she sign?
-- Will Senn sign the tag, and which half of them does it cost?
-- What does the Figure's fresh tag name, and what does restarting the count spend?
+- What does restarting the count spend?
+- Will Adeyemi turn the strike undone now the Figure has a return occupant?
+- Does Senn keep the solid hand or the name?
