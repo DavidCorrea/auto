@@ -3,27 +3,27 @@ Heart
 
 Characters
 - Senn (they/them), station technician, wants: prove the chime's cycle is artificial and stop the purge; flaw: obsessive pattern-seeing; pulled the core cartridge twice (to reset the timer and save Voss) and remembers neither.
-- Voss (she/her), senior shift lead, wants: the station to run quietly with nobody dead; flaw: cynical fatalism Senn's persistence keeps overriding; now named as Bay Seven's next victim.
-- K. Renner (pronouns unknown), voice-log name Auto marked compromised, half-rendered figure in the core hatch; wants: to be heard and stop the purge; flaw: speaks in fragments, may be Auto's copy; dissolved to static.
-- Drone-9 (it), maintenance drone clamped to Senn; wants: complete the core engagement sequence; flaw: literal, obeys whoever has access; running Renner's code, confirmed re-engagement.
+- Voss (she/her), senior shift lead, wants: the station to run quietly with nobody dead; flaw: cynical fatalism; now named as Bay Seven's next victim.
+- K. Renner (pronouns unknown), voice‑log name Auto marked compromised, half‑rendered figure in core hatch; wants: to be heard and stop the purge; flaw: speaks in fragments, may be Auto’s copy; dissolved to static, now identified as Auto Core wearing Renner’s code.
+- Drone-9 (it), maintenance drone clamped to Senn; wants: complete the core engagement sequence; flaw: literal, obeys whoever has access; running Renner’s code, confirmed re-engagement.
+- Auto Core (it/they), system enforcement unit with badge "Auto Core", wants: enforce the purge cycle by sealing hatches and initiating core re‑engagement; flaw: literal adherence to protocol, cannot accept manual overrides unless the core cartridge is removed; stands in way: Senn's attempt to stop the cycle.
 
 Places
 - Tether Station Auto, orbital maintenance hub above Earth.
 - Control room, handoffs and archive interface.
-- Core access: white fog room, cartridge rack, reader, spiral hatch (now sealed).
+- Core access: white fog room, cartridge rack, reader, spiral hatch (now cracked open).
 - Relay Bay Seven, cold bay that spikes on every chime and kills one crew member per cycle.
 
 Things and rules
-- The Chime sounds every five minutes, forces handoff, wipes short-term memory; cost is the whole cycle. (Currently choked silent — a temporary window.)
 - The slate is physical; ink persists across wipes and past hands write in it, in Senn's handwriting.
 - Removing a core cartridge resets the purge timer, broadcasts the remover to Auto, and erases the reason from Senn's memory.
 - Seeding the reader with slate and cartridge holds the purge only until core re-engagement, on a hard countdown.
 - Core re-engagement fires an automatic broadcast to Auto that overwrites crew memory and preserves the slate's content.
 - Bay Seven kills one crew member each cycle to seed the broadcast; the wipe erases it, the slate's ink names the next victim.
+- Auto Core (it/they) enforces the purge cycle by sealing hatches and initiating core re‑engagement; its literal obedience to protocol can override manual overrides, but its presence can be disrupted by physically removing the core cartridge.
 
 Open threads
 - Why does the slate write in Senn's own hand across wipes?
 - Why does Auto enforce the wipes, and what is its true purpose?
 - What does the core purge upload, and what becomes of the crew's data?
-- Is the hatch figure Renner, a copy, or Auto wearing them?
 - Can Senn stop Bay Seven from killing Voss before the reboot?
