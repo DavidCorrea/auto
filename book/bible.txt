@@ -1,26 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; refuses to spend memory; toll 91; throat shaping Ákos's name but won't release it; struck ledger to silence Ákos.
-- Ákos Vass, 17, press-room; free speech; lullaby broken; never spent a name, so river can't charge him; Márk returned memory of carrying him.
-- Márk, 30s, boat builder; keeper; claimed hand wrote VERA; recovered memory of carrying young Ákos; chose to carry VERA up; now climbing corridor with river tied to heels.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; refuses to spend memory; toll 92; throat shaping Ákos's name but won't release it; struck ledger to silence Ákos.
+- Ákos Vass, 17, press-room; free speech; lullaby broken; never spent a name, so river can't charge him.
+- Márk, 30s, boat builder; keeper; claimed hand wrote VERA; spoke VERA at source; lost memory of carrying young Ákos; returned to corridor.
 - Ilka, returned; warm; reads the water; says river returns memory when two keepers stand close.
 
 Places:
-- Riverbank: black rock shelf; water writes names at ledger foot; fifth line completed around VERA, now tied to Márk's heels.
-- Stone Corridor: far end is source of wall-voice; Márk climbing it; walls remember sound; ends in black iron door.
-- Press-room: exists only in Márk's returned memory.
+- Riverbank: black rock shelf; water writes names at ledger foot; Sára and Ilka wait here.
+- Stone Corridor: ends in black iron door opening to stairwell; Márk descended and returned.
+- Stairwell: descends into dark water; source of river; VERA spoken and taken by water.
+- Press-room: exists only in Márk's memory.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, accepts claimed hand as scribe.
 - Claimed hand pays toll without costing owner memory; cord jumps to wrist; writes on blank pages.
 - Speaking a name costs speaker memory; ledger records and updates toll.
-- Wall-voice is the corridor itself, giving Sára's handwriting sound.
-- River water mirrors names; fifth line completed around VERA; toll held at 91.
+- River water mirrors names; fifth line completed around VERA, then released when name spoken; toll now 92.
 - Two keepers' cords touching returns a memory to one — presence, not cost.
 - Carrying a name to the source requires speaking it aloud; speaker pays the memory.
 
 Open threads:
 - Sára's withheld word is Ákos's name; speaking it would raise toll and give river a new name to chase.
-- Márk reaches the source: a stairwell descending into dark water, VERA written on surface.
-- Cost of carrying VERA: Márk must speak the name at the source, paying with his regained memory of carrying Ákos.
+- Márk climbs back without the memory of carrying Ákos; toll at 92.
 - Ákos stays at riverbank; his lullaby and free speech.
 - Ilka at riverbank reading water.
