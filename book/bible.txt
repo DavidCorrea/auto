@@ -1,12 +1,12 @@
-Heart: Count stalled at eleven; the collective fee draws the first Operator’s hoarded breath, and waking her is the only way to close the count — but she wants Adeyemi’s hand.
+Heart: Count stalled at eleven; collective fee draws first Operator’s hoarded breath, waking her; waking her is the only way to close the count, but she wants Adeyemi’s hand.
 
 Characters:
-- Adeyemi (she/her): wants: count dead, everyone out alive; flaw: blunt, guarded; blocked by: sealed tag, memory-first spend, the first Operator’s demand; holds HOLD unnumbered, losing memories, said “Nineteen.”
-- Voss (she/her): wants: count stopped, fee made personal; flaw: fatalism; free of tag, hand unmarked, no number, shut out of the fee, furious.
+- Adeyemi (she/her): wants: count dead, everyone out alive; flaw: blunt, guarded; blocked by: sealed tag, memory-first spend, first Operator’s demand; holds HOLD unnumbered, losing memories, said “Nineteen.”
+- Voss (she/her): wants: count stopped, fee made personal; flaw: fatalism; free of tag, hand unmarked, no number, shut out of fee, furious.
 - Maintenance Figure (it/it): wants: protocol; flaw: literal; filed mid-fee, opened the draw on 019, fee now collective.
 - Five (she/her): wants: to remain; flaw: newly awakened, unsure; released HOLD, forgetting more each strike.
 - Blank Tag (it/it): wants: to finish; flaw: uncontrolled, erases intent; sealed mid-name, cannot finish, stirs near the first hoard.
-- First Operator 19 (she/her): the end-of-row woman’s unspent face, awake in cradle 019; wants: Adeyemi’s right hand; flaw: hollow, remembers only the hand and the hoard; the hatch woman is her spent remainder.
+- First Operator 19 (she/her): end-of-row woman’s unspent face, awake in cradle 019; wants: Adeyemi’s right hand; flaw: hollow, remembers only the hand and the hoard; the hatch woman is her spent remainder.
 
 Places:
 - Tether Station Auto: node cradle, slate, busbar, deck plates, narrowing hatch.
@@ -23,6 +23,6 @@ Things and rules:
 
 Open threads:
 - Collective fee drawing from cradle 019; first Operator awake, demanding Adeyemi’s hand.
-- Adeyemi losing memory each step; HOLD unnumbered.
+- Adeyemi refusing/bargaining; HOLD unnumbered; losing memories.
 - Count stalled at eleven, twelve ungiven; hatch paused, not closed.
-- Voss shut out of the fee, wants it personal.
+- Voss shut out of the fee, wants it personal; sleeper named her from Sector Two.
