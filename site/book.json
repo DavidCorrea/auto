@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 8448,
-  "passages": 29,
+  "words": 8761,
+  "passages": 30,
   "chapters": [
     {
       "number": 1,
@@ -37,6 +37,13 @@
       "title": "The Cold Stove",
       "words": 2210,
       "passages": 7
+    },
+    {
+      "number": 6,
+      "numeral": "VI",
+      "title": "The Hearthstone",
+      "words": 313,
+      "passages": 1
     }
   ]
 }
