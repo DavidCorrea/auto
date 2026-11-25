@@ -1,1 +1,1 @@
-Senn can try to activate the exposed node before Auto Core's broadcast finishes overwriting everyone, but Drone-9 is still trying to complete core engagement. Surprise: the node doesn't halt the purge—it redirects it to Auto Core itself.
+Senn and Voss have five minutes before Auto Core reboots; they can destroy the node, re-engage the core themselves, or confront why Senn writes the slate before each wipe. Drone-9 is offline but not for long.

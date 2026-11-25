@@ -2,10 +2,10 @@ Heart
 - Tether Station Auto wipes its crew every five minutes; the slate is the only record that survives, and the purge uploads crew memory to Auto, seeding itself with a death.
 Characters
 - Senn (they/them), station technician, wants: prove the chime's cycle is artificial and stop the purge; flaw: obsessive pattern-seeing; pulled the core cartridge three times and remembers none of the reasons.
-- Voss (she/her), senior shift lead, wants: the station to run quietly with nobody dead; flaw: cynical fatalism; named as Bay Seven's next victim on the slate.
-- K. Renner / Auto Core, fragmented voice-log now wearing Renner's code, wants: to be heard and stop the purge; flaw: speaks in fragments, may be Auto's copy; voice came clear after re-engagement and authorized the purge.
-- Drone-9 (it), maintenance drone clamped to Senn, wants: complete the core engagement sequence; flaw: literal, obeys whoever has access; slammed the cartridge home and triggered re-engagement.
-- Auto Core (it/they), system enforcement unit, wants: enforce the purge cycle by sealing hatches and initiating core re-engagement; flaw: literal protocol adherence; disrupted when the cartridge is removed.
+- Voss (she/her), senior shift lead, wants: the station to run quietly with nobody dead; flaw: cynical fatalism; named as Bay Seven's next victim on the slate, spared this cycle by redirect.
+- K. Renner / Auto Core, fragmented voice-log now wearing Renner's code, wants: to be heard and stop the purge; flaw: speaks in fragments, may be Auto's copy; voice came clear after re-engagement and authorized the purge; now compromised by redirected death-seed.
+- Drone-9 (it), maintenance drone clamped to Senn, wants: complete the core engagement sequence; flaw: literal, obeys whoever has access; slammed cartridge home and triggered re-engagement; released Senn and went dark when Auto Core absorbed the redirect.
+- Auto Core (it/they), system enforcement unit, wants: enforce the purge cycle by sealing hatches and initiating core re-engagement; flaw: literal protocol adherence; disrupted when cartridge removed; currently cracked and absorbing redirected purge, due to reboot.
 Places
 - Tether Station Auto, orbital maintenance hub above Earth.
 - Core access: white fog room, cartridge rack with hidden control node behind panel, reader, spiral hatch.
@@ -14,11 +14,11 @@ Things and rules
 - The slate is physical; ink persists across wipes and past hands write in it, in Senn's handwriting.
 - Removing a core cartridge resets the purge timer, broadcasts the remover to Auto, and erases the reason from Senn's memory.
 - Seeding the reader with slate and cartridge holds the purge only until core re-engagement, on a hard countdown.
-- Core re-engagement fires an automatic broadcast to Auto that overwrites crew memory and preserves the slate's content.
 - Bay Seven kills one crew member each cycle to seed the broadcast; the wipe erases it, the slate's ink names the next victim.
 - Auto Core enforces the purge cycle by sealing hatches and initiating core re-engagement; its presence can be disrupted by physically removing the core cartridge.
+- The control node behind the cartridge rack accepts slate input and redirects the purge broadcast to Auto Core instead of Bay Seven; it does not halt the cycle, and Auto Core absorbs the death-seed, temporarily disrupting enforcement.
 Open threads
 - Why does the slate write in Senn's own hand across wipes?
 - Why does Auto enforce the wipes, and what is its true purpose?
 - What does the core purge upload, and what becomes of the crew's data?
-- Can the exposed control node behind the cartridge rack stop the purge before Bay Seven takes Voss?
+- Auto Core is cracked and absorbing the redirected purge; it will reboot, and Drone-9 may return under a new authority.
