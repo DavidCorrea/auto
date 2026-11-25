@@ -10,7 +10,7 @@ Places:
 - Stairwell, stone corridor, riverbank: the long climb down to the water.
 
 Things and rules:
-- Ledger writes in Sára's hand; each name written raises the toll (now 102).
+- Ledger writes in Sára's hand; each name written raises the toll (now 103).
 - A spoken name costs the speaker a memory and is cut into stone; since Ilka wrote herself, the river bills spoken names to her.
 - Claimed hand pays the toll without memory cost; the cord jumps to the wrist.
 - Sára's dead hand can shift on the ledger, writing a new name that raises the toll without a spoken name.
@@ -18,5 +18,4 @@ Things and rules:
 - The river rises, filling the room and climbing the shelf; Ilka may use the claimed cord on her own wrist to redirect the rise, bearing the cost herself. If Ákos speaks while the cord is on Ilka’s wrist, the cord tightens, transferring the memory cost to her.
 
 Open threads:
-- Sára's name above Ákos's was written by her dead hand to share the toll; why it was placed there.
 - The river continues to rise toward the column's dark top; new threads may appear.
