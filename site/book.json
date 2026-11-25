@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 15687,
-  "passages": 61,
+  "words": 15961,
+  "passages": 62,
   "chapters": [
     {
       "number": 1,
@@ -56,8 +56,8 @@
       "number": 8,
       "numeral": "VIII",
       "title": "The Busbar Answers",
-      "words": 165,
-      "passages": 1
+      "words": 439,
+      "passages": 2
     }
   ]
 }

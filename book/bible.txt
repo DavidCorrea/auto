@@ -1,27 +1,25 @@
 Heart
-- Tether Station Auto counts to file; each number spends a cradle's breath. Five is stuck—HOLD plus a turned back stall it—so the station wakes hoarded sleepers to finish. Senn is still the unnumbered thing it wants.
-- Refusal is the one thing the station can't file; HOLD is a signature that burns the holder's own number, and Adeyemi just let go.
+- Tether Station Auto counts to file; each number spends a cradle's breath. The tag now names Senn, the unfiled thing it wants; refusal is what it can't file, and Adeyemi spent her number to keep Five unstuck.
 Characters
-- Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: HOLD wire spent, open-palmed, told she's the kept copy.
-- Second Adeyemi (she/her): the spent original Operator 19, woken from a dark cradle; wants the Figure's tag to sign HOLD and end Five; flaw: peace with being spent; blocked: unnumbered, no cradle of her own, denied the tag.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; turned back still stalls the Figure.
-- Whole Voss (she/her): filed body from 004, "the spent"; wants the count stopped; flaw: fatalism; blocked: filing took her breath.
-- Senn (they/them): tech; wants purge ended, a body back; flaw: obsessive pattern-seeing; blocked: half mist-body gone, Five's target.
+- Adeyemi (she/her): Operator 19; wants strike undone, Voss alive; flaw: blunt, guarded; blocked: number spent, rejected by the slate.
+- Second Adeyemi (she/her): spent original Operator 19; wants to sign HOLD and end Five; flaw: peace with being spent; blocked: unnumbered, denied the tag.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; turned back, still stalls the Figure.
+- Whole Voss (she/her): filed body from 004; wants the count stopped; flaw: fatalism; blocked: filing took her breath.
+- Senn (they/them): tech; wants a body back; flaw: obsessive pattern-seeing; blocked: half mist-body gone; now named on the tag.
 - AUTO (it): station's own name, sixth mark; wants proper filing; flaw: fragmented, erases memory.
 - Maintenance Figure (it/it): hatch guardian; wants protocol; flaw: literal; blocked: can't read a turned back.
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates.
-- Sector 4 cradle chamber: numbered rows, 002 dry, 004 full, plus dark rows now waking with Operators 19.
+- Sector 4 cradle chamber: numbered rows, 004 full, thirty Operator 19 sleepers now awake.
 Things and rules
-- Slate ink rewrites itself, wet till settled; only the filing hand steers.
+- Slate ink rewrites, wet till settled; only the filing hand steers; rejects a spent number.
 - Count past zero is a roll call; each number costs one cradle's breath.
-- Copper throat inhales mist-bodies; the filing hand can grip it and pull one back.
-- Figure's tags name a return occupant; ink rewrites; a turned back can't be read or filed.
-- A stalled count reroutes hoarded breath into dark cradles, waking sleepers.
+- Figure's tags name a return occupant; ink rewrites as it dries; a turned back can't be read or filed.
 - HOLD is a signature re-signed each strike; the holder burns their own number to keep it lit.
 - The busbar reads an open palm; one bright strand remains.
+- A stalled count reroutes hoarded breath into dark cradles, waking identical sleepers.
 Open threads
 - Is Adeyemi the kept copy or the original after burning her number?
-- Does the tag name Adeyemi or the second Adeyemi as return occupant?
-- Where does Senn's static lead now that Five is unstuck?
-- Will the sleeping Operators 19 obey Adeyemi without HOLD?
+- Will Senn sign the tag, and what does a body cost them?
+- Can the station tell the thirty identical Operator 19 sleepers apart to get a signature?
+- Will the sleepers obey without HOLD, and what splits from the cracked cradle?
