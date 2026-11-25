@@ -1,7 +1,7 @@
 Characters:
-- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; lost writing hand, released Kornél's debt; wants tolls kept, needs new hand; living hand pointed at pen; dead hand twitched.
-- Ákos Vass, 17, press-room; holds pen and spent cord; wrote ledger awake; repeats unfamiliar script; made entries including test, hearthstone, Ilka, hand-for-pen; wrote *Ákos — hand returned*; next demand unknown.
-- Kornél, 50s, river pilot; voice returned, emptied; cord warm, now tight; re-entered Toll House; chose to hold cord.
+- Sára Vass (Vera), 53, Toll House keeper; mute, gestures; living hand pointed at pen, now rested; dead hand twitched once.
+- Ákos Vass, 17, press-room; surrendered pen to Kornél; now free of ledger's immediate demand.
+- Kornél, 50s, river pilot; now holds pen and tight cord; voice fragment returned, cord loosened after pen transfer.
 - Ruzsa, 40s, trader; memory surrendered, notebook light, toll marks on arm.
 - Ilka Dálnoky, 70s, smokehouse; hearthstone warm, refuses explanation.
 - Maren Dálnoky, 68, ex-seamstress; warns of prices, sewed doll face.
@@ -11,11 +11,14 @@ Places:
 - Vaskapu press-room; Toll House; The Point; river hut and white water.
 
 Things and rules:
-1. Ledger writes in Sára's hand; unaided entries; accepts new hand, unfamiliar script.
+1. Ledger writes in Sára's hand; unaided entries; accepts new hand, unfamiliar script; may record when hand changes owner.
 2. Toll, opening carried items, or doll submission costs memory.
 4. Hearthstone needs tag; blank tags weigh less than ash; dark tag cold; Ilka won't say what follows.
 5. Notebook takes names cost-free first; page grows heavier; price due surrender memory when full; Ruzsa paid.
 6. Writing in ledger awake to release debt costs keeper's writing hand; ledger can restore memory/voice, demands new hand or toll; voice-fragments stay; ledger waits for new hand; Kornél's cord holds a returned voice-fragment, tightens when ledger calls, holding may steady it.
 
 Open threads:
-- Ledger demanded *Ákos — hand for the pen*; Ákos wrote *Ákos — hand returned*; next demand unknown; Kornél chose to hold cord; Sára's living hand gestured.
+- Ledger demanded *Ákos — hand for the pen*; Ákos wrote *Ákos — hand returned*; demand seemingly satisfied but next unknown.
+- Kornél holds cord, which can tighten or loosen with voice-fragment.
+- Sára's living hand now rests, having guided the hand-off.
+- New unknown script appeared in ledger after hand transfer.
