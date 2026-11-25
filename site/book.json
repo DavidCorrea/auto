@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 11723,
-  "passages": 40,
+  "words": 11953,
+  "passages": 41,
   "chapters": [
     {
       "number": 1,
@@ -58,6 +58,13 @@
       "title": "The Unburned Doll",
       "words": 684,
       "passages": 3
+    },
+    {
+      "number": 9,
+      "numeral": "IX",
+      "title": "The Ledger's Door",
+      "words": 230,
+      "passages": 1
     }
   ]
 }
