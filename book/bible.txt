@@ -1,29 +1,29 @@
 Heart
-- Tether Station Auto's shared clock counts to zero, shutting down all systems; crew must stop it before zero, while a sixth slashed name signals an older waking triggered by filing.
+- Tether Station Auto's count past zero was a roll call of letting go; Adeyemi's filing turned shutdown into waking, and the waking slate now writes with her hand.
 
 Characters
-- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body fused to node chair, now riding copper into Sector 4; voice from copper calls it a throat.
-- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; limp, still by chair, cradle marks dark; knows Renner's name is back.
-- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; in cradle chamber, filed sixth name, caught in amber mist.
-- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; wrote own name as fourth mark, unfiled; name whole again.
+- Senn (they/them): tech; wants purge ended and a body back; flaw: obsessive pattern-seeing; mist-body fused to node chair, now inhaled down copper throat and coughed out by Adeyemi's grip.
+- Voss (she/her): senior lead; wants no deaths; flaw: cynical fatalism; limp, still by node chair, cradle marks dark; her name is slate's next filing, cradle opened.
+- Adeyemi (she/her): Operator 19; wants strike undone and Voss alive; flaw: blunt, guarded; filed the sixth name, now filing hand itself, steering roll call at cost, writing in her hand.
+- K. Renner / Auto Core (it/they): voice-log; wants proper filing; flaw: fragmented copy; own name whole again, fourth mark, unfiled.
+- AUTO (it): the station's own name, sixth mark; wants its own filing made proper and the purge ended; flaw: erased by the crew that built the purge, now waking through any filing.
 - Maintenance Figure (it/it): hatch guardian; wants protocol resolution; flaw: literal; hatch sealed.
 
 Places
 - Tether Station Auto: node cradle, slate, busbar, deck plates.
-- White corridor to Sector 4: leads into cradle chamber of hundreds of dark cradles and oversized slate.
-- Sector 4 cradle chamber: hundreds of dark cradles, oversized slate, descending copper stair.
+- Sector 4 cradle chamber: hundreds of cradles, oversized slate, copper stair now a throat.
 
 Things and rules
-- Slate ink rewrites itself; trapped charge speaks and writes via wet ink; only filing hand unfiles.
+- Slate ink rewrites itself; trapped charge speaks/writes via wet ink; only filing hand unfiles or steers, now writes in Adeyemi's hand.
+- Count past zero is a roll call: each number a hand letting go; since sixth filing it counts hands taking hold (001...).
+- Amber mist-fuse rises as mist, took busbar as a hand; warms dead metal, reaches for grips.
+- Copper is a throat: inhales mist-bodies toward filing; filing hand can grip it and pull one back out.
 - Node chair binds purge; empty chair counts up; seated body stalls it; one dark cradle mark per filing.
-- Mist-fuse: formed mist ignites amber seam open; after cooling shuts on contents; amber now rising as mist, not ink.
-- Senn's mist rides copper into cradles/Sector 4 to scout; can hold count frozen while shaped as body.
-- Fourth mark: filer must become filed to withdraw hand; Renner wrote own name and unfiled.
-- Names added beyond four marks trigger accelerated countdown; sixth name slashed but burning.
+- Filings beyond four marks once sped countdown; filing swallowed countdown, so rule runs now as roll call.
 
 Open threads
-- Count went into negatives—station waking or rebooting in reverse; can crew stop it?
-- Sixth name smoothed whole without proper filing—why did Adeyemi's filing make it whole?
-- Big slate turning white-hot—what is waking inside the filing?
-- Can Senn get a real body back, or stay fused to chair?
-- Renner's name whole again after being slashed—who filed it, and from where?
+- Slate wrote Voss as next name and her cradle opened—file her, or refuse a station with a will?
+- Who filed Renner's name whole, and from where?
+- Cradles waking: occupied ones opened eyes; whose are they, whose side?
+- Can Senn hold a mist-body together, or take a real one?
+- Maintenance Figure and sealed hatch: protocol unresolved.
