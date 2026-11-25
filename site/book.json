@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 27229,
-  "passages": 98,
+  "words": 27529,
+  "passages": 99,
   "chapters": [
     {
       "number": 1,
@@ -154,8 +154,8 @@
       "number": 22,
       "numeral": "XXII",
       "title": "The Third Name",
-      "words": 1113,
-      "passages": 4
+      "words": 1413,
+      "passages": 5
     }
   ]
 }

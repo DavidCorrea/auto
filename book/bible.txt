@@ -1,24 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; refuses to spend memory; toll 91.
-- Ákos Vass, 17, press-room; free speech; lullaby broken; fears each name a coin from his past.
-- Márk, 30s, boat builder; keeper; claimed hand wrote VERA; toll held at 91; memory restoration ongoing.
-- Ilka, returned; warm, present; reads the water's names.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; refuses to spend memory; toll 91; throat shaping a word she won't release; struck ledger to silence Ákos.
+- Ákos Vass, 17, press-room; free speech; lullaby broken; never spent a name, so the river can't charge him; Márk returned a memory of him.
+- Márk, 30s, boat builder; keeper; claimed hand wrote VERA; recovered memory of carrying young Ákos; chose to carry VERA up.
+- Ilka, returned; warm; reads the water; says the river returns memory when two keepers stand close.
 
 Places:
-- Riverbank: black rock shelf; water writes names at ledger foot; fifth line completed around VERA.
-- Stone Corridor: far end source of wall-voice's answer; condition tested between keepers.
+- Riverbank: black rock shelf; water writes names at ledger foot; fifth line completed around VERA, now tied to Márk's heels.
+- Stone Corridor: far end is source of the wall-voice; Márk climbing it to carry the name.
+- Press-room: exists only in Márk's returned memory.
 
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, accepts claimed hand as scribe.
 - Claimed hand pays toll without costing owner memory; cord jumps to wrist; writes on blank pages.
 - Speaking a name costs speaker memory; ledger records and updates toll.
-- Claimed hand binds spoken name to permanent mark on ledger.
 - Wall-voice speaks in Sára's handwriting given sound; answers from corridor's far end.
-- River water mirrors names; fifth line completed, toll held at 91.
+- River water mirrors names; fifth line completed around VERA; toll held at 91.
+- Two keepers' cords touching returns a memory to one—presence, not cost.
 
 Open threads:
-- Wall-voice's condition: one must carry VERA up, one must leave it at the river.
-- Márk's memory restoration.
+- Wall-voice's condition: one carries VERA up, one leaves it—Márk chose to carry, Ákos to stay.
+- What carrying VERA up costs Márk; the river now tied to him.
+- Márk's memory restoration (advancing through proximity).
 - Ákos's lullaby and free speech.
-- Sára's toll (91) and returning voice.
-- New keeper dynamics (Sára vs Márk).
+- Sára's toll (91), returning voice, the withheld word.
