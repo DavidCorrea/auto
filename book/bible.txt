@@ -1,10 +1,10 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; obeys the house over people, forgets her own acts; wrote Ákos's tag herself and forgot; the doll is blank again; now rowing to Vaskapu.
-- Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; something was taken from him at the bell, though Sára refused to deliver him.
-- Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; took the iron parcel.
+- Sára Vass (Vera), 53, keeper of the Toll House; obeys the house over people, forgets her own acts; wrote Ákos's tag herself and forgot; the doll is blank again; now at Vaskapu with Ákos.
+- Ákos Vass, 17, Vaskapu press-room; keeps the notebook of losses; lost tactile memory of type at the bell; knows Sára wrote his name and the other thirteen.
+- Ilka Dálnoky, 70s, Point smokehouse; knows Sára as Vera; lent the skiff; took the iron parcel; shelf of faceless dolls, one wearing Ákos's face.
 
 Places:
-- Vaskapu: press-room, stone landing with lantern; ferry gone, only the skiff; the Letter lies here; Ákos.
+- Vaskapu: press-room, stone landing with lantern; Ákos's workbench and notebook.
 - Sallow: marsh town; Toll House at the causeway's end; kitchen table where tagged things appear at dawn; iron Wheel under the floorboards; iron stove.
 - The Point: burned roofless house, child-sized hearthstone; Ilka's smokehouse, shelf of faceless dolls.
 
@@ -21,5 +21,5 @@ Open threads:
 - The other thirteen names on the list, and what each cost.
 - Who died in the fire, and the child the hearth belonged to.
 - The printer woman's lost name, and what she carried.
-- What was taken from Ákos at the bell.
 - Whether the sister's face can be won back.
+- The doll at The Point wearing Ákos's face — what it means and how it got there.
