@@ -1,11 +1,12 @@
 Heart
-- Tether Station Auto enforces endless wipe; Senn must break the cycle before erasure, or the station purges itself and all aboard.
+- Tether Station Auto files its crew into the Core one strike at a time; Senn must prove the cycle artificial and stop the purge before Voss is filed as Operator 23 and the station purges itself.
 Characters
-- Senn (they/them): tech; wants the chime cycle proven artificial and the purge ended; flaw: obsessive pattern-seeing; hands shaking from the crank, now weightless in dead gravity.
-- Voss (she/her): senior lead; wants the purge stopped without deaths; flaw: cynical fatalism; lost the cartridge to Senn, hand passed through the node, Operator 23 status in doubt.
-- K. Renner / Auto Core (it/they): voice-log; wants to be heard; flaw: fragmented, possibly a copy; backup fragment active, claims the strike was the door.
-- Drone-9 (it): maintenance drone; wants core engagement finished; flaw: obeys whoever holds access; bay door lever slipped, purge door cracked open.
-- Drone-10 (it): correction drone; wants Auto protocol enforced; flaw: literal; rebooted, loops "correction incomplete."
+- Senn (they/them): tech; wants the chime cycle proven artificial and the purge ended; flaw: obsessive pattern-seeing; hands shaking, weightless in dead gravity.
+- Voss (she/her): senior lead; wants the purge stopped without deaths; flaw: cynical fatalism; hand passing through the node, becoming Operator 23.
+- K. Renner / Auto Core (it/they): voice-log; wants to be heard; flaw: fragmented, possibly a copy; backup fragment claims the strike was the door.
+- Drone-9 (it): maintenance drone; wants core engagement finished; flaw: obeys whoever holds access; bay door lever slipped.
+- Drone-10 (it): correction drone; wants Auto protocol enforced; flaw: literal; loops "correction incomplete."
+- T. Adeyemi (she/her): Operator 19, struck and survived in a Bay Seven capturer rig; wants the strike undone and the 22 freed; flaw: blunt, keeps the thing on her line a secret.
 Places
 - Tether Station Auto orbital hub: white-fog room, cartridge rack, control node, chair with LOCAL AUTHORITY plaque, stairwell, coolant run, Bay Seven capturer, concealed crank interior, purge door cracked open.
 Things and rules
@@ -14,10 +15,10 @@ Things and rules
 - Node in chair cradle binds purge to the seat; empty chair makes the count-up.
 - Crank spindle bleeds capturer charge into the tether; costs lights and spin gravity, burns the door bus.
 - Node redirects purge to Auto Core; destroying Core restores purge to Bay Seven.
-- Cartridge forced into the spindle reverses the charge, kills lights and gravity, forces the purge door shut.
+- Cartridge forced into the spindle reverses charge, kills lights and gravity, forces the purge door shut.
 Open threads
-- Why is K. Renner the only unstruck name, and did that operator leave, die, or stay?
-- What did being struck mean for the 22, and what does Operator 23 owe them?
-- What does the reversed neutrino charge do to the station?
-- What came through the purge door crack from Bay Seven?
-- Is the node, or Voss, still real?
+- What the reversed neutrino charge is doing to the station now.
+- What followed Adeyemi out of Bay Seven on the coolant line.
+- Whether Voss is still real, and how to stop her being filed as Operator 23.
+- Why Renner's name was the only unstruck one.
+- What Operator 23 owes the 22.
