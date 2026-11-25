@@ -1,22 +1,28 @@
 Heart
-- Tether Station Auto wipes crew every five minutes; slate records each purge and broadcasts seeds of death into the cycle; the slate's writings now reach forward, and the concealed door beneath the node has begun to open, threatening the cycle's continuity.
+- Tether Station Auto wipes the crew every five minutes; a slate carries ink across the wipes and shows what Senn will write minutes before they write it. The station's oldest layer is surfacing: a pre-Auto control room where the cycle was run by hand, and someone has to decide whether to take that authority back.
 
 Characters
-- Senn (they/them), tech; wants: prove chime cycle is artificial and stop purge; flaw: obsessive pattern-seeing; pulled core cartridge three times, remembers none, now sees slate as future-writing queue; has driven stylus into node and uncovered the concealed door beneath, driven by slate's persistent writings.
-- Voss (she/her), senior lead; wants: keep station running quietly with no deaths; flaw: cynical fatalism; spared by redirect, now clamped by Drone-9, holds torque wrench against the rising deck and the truth beneath the concealed door.
-- K. Renner / Auto Core, fragmented voice-log in Renner's code; wants: be heard and stop purge; flaw: speaks in fragments, may be Auto copy; authorized purge, compromised by redirected death-seed; Auto Core cracked and rebooting, visor spiderwebbed, voices now humming in unison.
-- Drone-9 (it), maintenance drone; wants: finish core engagement; flaw: obeys whoever has access; returned with amber lamp, claims "local" authority, clamp on Voss's ankle, obedience queue empty after red beam revealed concealed door.
-- Auto Core (it/they), enforcement unit; wants: enforce purge; flaw: literal protocol adherence; cracked after absorbing death-seed, visor spiderwebbed, voice layered with two fighting tones; now voices fall into unison hum, hungry for next purge.
+- Senn (they/them), tech; wants: prove the chime cycle is artificial and end the purge; flaw: obsessive pattern-seeing; has pulled the core three times and remembers none of it; driven the stylus into the node, followed the slate's ink down the passage, and now stands at the old cycle-control console with the crank in reach.
+- Voss (she/her), senior lead; wants: keep the station running quietly with no deaths; flaw: cynical fatalism; clamped by Drone-9, dragged down the passage, wrench in hand; will not let Senn sit in the chair without an argument.
+- K. Renner / Auto Core, fragmented voice-log in Renner's code; wants: be heard and stop the purge; flaw: speaks in fragments, may be an Auto copy; authorized the purge, was compromised by the redirected death-seed, now rebooting cracked with voices humming in unison.
+- Drone-9 (it), maintenance drone; wants: finish core engagement; flaw: obeys whoever holds access; its "local" authority turns out to mean the operator's chair, and it is now dragging Voss toward that console.
+- Auto Core (it/they), enforcement unit; wants: enforce the purge; flaw: literal protocol adherence; cracked visor, layered voices fallen into a hungry unison; has followed the crew into the passage.
 
 Places
-- Tether Station Auto orbital hub; white-fog room with cartridge rack and node; concealed old door behind node, revealed by Drone-9's red beam; deck plate rises to it, and the concealed door opens from below without a key; spiral hatch and shaft to Bay Seven.
+- Tether Station Auto orbital hub; white-fog room with cartridge rack and control node; concealed door behind the node, opened by a rising deck plate.
+- The narrow passage: a pre-Auto maintenance run, walls hand-painted with a descending countdown, ending in a bolted chair, a crank console and a wall of inked slates.
 
 Things and rules
-- Slate is physical; ink persists across wipes and shows what Senn will write minutes later, including countdown timer; removing a core cartridge resets purge timer, broadcasts remover to Auto, erases reason from Senn's memory; Bay Seven kills one crew each cycle, slate names next victim; node redirects purge to Auto Core, not Bay Seven, and destroying it ends redirect and sends next purge back to Bay Seven; Auto Core, after absorbing death-seed, reboots with cracked visor and layered voices, hungry for next purge; concealed door beneath node opens from below when deck plate rises, no key required.
+- Slate is physical; ink persists across wipes and surfaces early, showing what Senn will write minutes later, in their own hand.
+- Pulling a core cartridge resets the purge timer, broadcasts the remover to Auto, and erases the reason from Senn's memory.
+- The node redirects the purge to Auto Core instead of Bay Seven; destroy it and the next purge returns to Bay Seven.
+- The cycle-control console predates Auto: brass plaque reads LOCAL AUTHORITY, OPERATOR PRESENT ASSUMES CYCLE CONTROL; the hand crank is unlabeled, and Drone-9 obeys whoever sits in the chair.
+- The slate wall: dozens of warnings in different hands, some from previous operators, one reading I AM STILL HERE.
 
 Open threads
-- Why Auto enforces wipes and its true purpose
-- What core purge uploads and what becomes of crew data
-- What "local" authority Drone-9 serves and if it is Auto Core or something in core
-- Whether Senn will obey slate's "don't pull it" note
-- If slate's countdown matches actual purge cycle
+- What turning the crank actually does
+- Who wrote the slate wall, and whether any of them survived a cycle
+- Why Auto enforces wipes, and its true purpose
+- What core purge uploads, and what becomes of crew data
+- Whether Senn will obey the slate's own DO NOT PULL THE CORE warning
+- Auto Core is loose in the passage with them
