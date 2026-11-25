@@ -3,8 +3,8 @@ Heart
 
 Characters
 - Senn (they/them): tech, wants the chime cycle proven artificial and the purge ended; flaw: obsessive pattern‑seeing; freed of the Core's echo, hands shaking from the crank's cost.
-- Voss (she/her): senior lead, wants the purge stopped without deaths; flaw: cynical fatalism; holds the core cartridge and the node, now Operator 23, rattled by Renner's unstruck name.
-- K. Renner / Auto Core (it/they): voice‑log, wants to be heard; flaw: fragmented, possibly a copy; visor shattered, backup fragment quiet in the hidden panel.
+- Voss (she/her): senior lead, wants the purge stopped without deaths; flaw: cynical fatalism; holds the core cartridge and the node, now Operator 23, rattled by Renner's unstruck name; pressed the manual override, made the fragment speak.
+- K. Renner / Auto Core (it/they): voice‑log, wants to be heard; flaw: fragmented, possibly a copy; visor shattered, backup fragment quiet in the hidden panel — now answering through slate/tether/node.
 - Drone‑9 (it): maintenance drone, wants core engagement finished; flaw: obeys whoever holds access; lever slipped, door now open.
 - Drone‑10 (it): correction drone, wants Auto protocol enforced; flaw: literal; down on the floor, cord smoking, "correction incomplete."
 
@@ -21,7 +21,6 @@ Things and rules
 
 Open threads
 - Why is K. Renner the only unstruck name, and did that operator leave, die, or stay?
-- Is the quiet backup fragment dead, or waiting out its five minutes?
 - The neutrino charge now rides the tether — what does it do to the station?
 - What did being struck mean for the 22, and what does Operator 23 owe them?
 - Will Drone‑10 reboot and finish its correction?
