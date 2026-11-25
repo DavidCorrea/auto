@@ -1,25 +1,25 @@
 Characters:
-- Sára Vass (Vera), 53, keeper of the Toll House; voice returns as shaped words without sound; pays pieces of self to write names; voice fading, now reaching for the drowned woman's name.
-- Ákos Vass, 17, press‑room; notebook of losses; feels only faint echoes; lost Elise’s memory, carries scar of the doll’s taking; resolved to write Elise’s name himself.
-- Ilka Dálnoky, 70s, smokehouse; keeps faceless dolls; says the sewn‑face doll must burn; waited with tongs, set them down.
-- Tomas Vass, 40s, former toll boy; lost left hand in the flood; delivered the satchel for Kornél; knows Kornél’s plan is futile.
-- Maren Dálnoky, 68, ex‑seamstress; lost both hands in the fire at The Point; sewed the doll’s Ákos‑face.
-- Kornél, 50s, river pilot; lost left hand and the name of the woman he failed to save (Elise); recovered the name Elise but not the memory; left the Toll House.
-
+- Sára Vass (Vera), 53, keeper of the Toll House; speaks in shaped words without sound; pays pieces of herself to write names; the ledger writes in her hand even now.
+- Ákos Vass, 17, press‑room; keeps a notebook of losses; lost Elise's memory to the doll; wrote her name in the ledger and paid an echo, gaining nothing; then wrote it in his own notebook, which took nothing — yet; wants back what Kornél now holds.
+- Ilka Dálnoky, 70s, smokehouse; keeps faceless dolls; says the sewn‑face doll must burn; knows what happens when a hearthstone's tag goes dark and won't say.
+- Tomas Vass, 40s, former toll boy; lost his left hand in the flood; delivered Kornél's satchel; walks upstream with Ákos.
+- Maren Dálnoky, 68, ex‑seamstress; lost both hands in the fire at The Point; sewed the doll's Ákos‑face; warns every gift carries an unstated price.
+- Kornél, 50s, river pilot; lost left hand and the name of the woman he failed to save; recovered the name Elise but not the face; walking upstream to the river pilot's hut.
 Places:
 - Vaskapu press‑room, stone landing, lantern, Ákos's workbench.
-- Sallow marsh town, Toll House at causeway's end; table, iron stove, flour crock.
+- Sallow marsh town; the Toll House at the causeway's end, with ledger, table, stove, flour crock.
 - The Point: roofless burned house, black hearthstone, Ilka's smokehouse.
-
+- River pilot's hut, two bends upstream; stove always lit; its keeper trades in parts and wind.
 Things and rules:
-1. Dawn tags appear in Sára's cramped hand, ink wet; she doesn't remember writing them.
-2. Toll taken from deliverer; opening what you carry costs memory.
-3. Dolls take a face at the bell or from a living face sewn in thread; the small doll warms when a debt is carried, cold on refusal.
-4. Notebook lists names in Sára's hand; names/dates appear even when Ákos holds the pen; Ákos feels touch as faint echo when writing; Sára Vass stands beneath Vera Vass.
-5. Hearthstone requires a tag; costs voice or last memory; warms when carried; blank tags lighter than ash.
-6. Doll on hearthstone feeds on the carrier's memories; each pulse extracts a fragment; a fragment returns only when the patron's name is recorded — and only to the carrier, never the patron.
-7. The sixth tag went dark after Kornél's name was recorded; the hearthstone is cooling.
-
+1. Names appear in the ledger in Sára's cramped hand, even when Ákos holds the pen; she does not remember writing them; the ledger can write new entries by itself.
+2. Taking the toll, opening what you carry, or submitting to a doll costs memory.
+3. Dolls take a face at the bell or from a living face sewn in thread; the small doll warms while a debt is carried, cold on refusal.
+4. A hearthstone needs a tag and warms only while it is carried; blank tags weigh less than ash; a stone whose tag has gone dark goes cold, and Ilka will not say what follows.
+5. A fragment taken by the doll returns only to the carrier, only when the patron's name is recorded — and writing a name already recorded costs the writer an echo and returns nothing.
+6. Ákos's notebook takes names without cost, so far; Maren says it will present its price later.
 Open threads:
-- Kornél's plan is futile; he holds the name Elise but lacks the memory — what he will do next.
-- Ákos will write Elise's name himself; what the writing costs and what returns.
+- Ákos and Tomas walk upstream to catch Kornél at the river pilot's hut and learn what he means to do with Elise's fragment.
+- Kornél holds a name with no face; the hut's keeper will set a price.
+- Ákos's notebook has taken Elise's name and charged nothing yet.
+- The hearthstone has gone cold and Ilka will not say what that means.
+- Sára keeps the ledger and its unspoken entries.

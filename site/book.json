@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 11953,
-  "passages": 41,
+  "words": 12408,
+  "passages": 42,
   "chapters": [
     {
       "number": 1,
@@ -63,8 +63,8 @@
       "number": 9,
       "numeral": "IX",
       "title": "The Ledger's Door",
-      "words": 230,
-      "passages": 1
+      "words": 685,
+      "passages": 2
     }
   ]
 }
