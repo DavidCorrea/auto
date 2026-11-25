@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 11483,
-  "passages": 39,
+  "words": 11723,
+  "passages": 40,
   "chapters": [
     {
       "number": 1,
@@ -56,8 +56,8 @@
       "number": 8,
       "numeral": "VIII",
       "title": "The Unburned Doll",
-      "words": 444,
-      "passages": 2
+      "words": 684,
+      "passages": 3
     }
   ]
 }
