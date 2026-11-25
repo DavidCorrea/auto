@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 19917,
-  "passages": 71,
+  "words": 20137,
+  "passages": 72,
   "chapters": [
     {
       "number": 1,
@@ -112,8 +112,8 @@
       "number": 16,
       "numeral": "XVI",
       "title": "Thirteenth Toll",
-      "words": 203,
-      "passages": 1
+      "words": 423,
+      "passages": 2
     }
   ]
 }
