@@ -1,21 +1,22 @@
 Characters:
-- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; living hand wrote Sebes on Ákos's palm; remembers river's name and room.
-- Ákos Vass, 17, press-room; paid fourteenth toll, lost Ilka's voice; carries Sebes; hears girl's voice in water.
-- Kornél, 50s, river pilot; rough voice; poles; memory of river's name still lost.
-- Ruzsa, 40s, trader; half-surrendered memory; expected toll to take a hand.
-- Márk, 30s, boat builder; fifteenth toll fused his hand's sensation to ledger; now writes Sebes himself; seeks to stop ledger.
-- Ilka, returned from missing; girl in flooded chamber; her voice rises under The Point, naming Ákos; tied to river's true name.
+- Sára Vass (Vera), 53, mute keeper; dead hand fused to ledger; paid for writing awake by losing the memory of the room and the teaching voice.
+- Ákos Vass, 17, press-room; paid fourteenth toll, lost Ilka's voice; carries Sebes on his palm; now wears the cord.
+- Kornél, 50s, river pilot; remembers the river's name, Sebes, again.
+- Ruzsa, 40s, trader; half-surrendered memory; paid when the page was full.
+- Márk, 30s, boat builder; fifteenth toll fused his hand's sensation to ledger; refuses it, hand now still.
+- Ilka, returned from missing; taught Sára Sebes decades ago, and the river took her for it; now aboard, cold and heavy.
 Places:
-- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber (stone walls, high window, lantern).
+- Vaskapu press-room; Toll House; The Point; river hut; under-Point shelf; White Water; wet stone stair; Flooded Chamber (water dropped, steps up now visible).
 Things and rules:
 - Ledger writes in Sára's hand; dead hand cuts lines, records tallies, accepts a new hand.
+- Writing awake releases debt through keeper's hand, restoring memory/voice, but costs the keeper a memory of their own.
 - Names take cost-free first; page grows heavier; price is memory when full; Ruzsa paid.
-- Writing awake releases debt via keeper's hand; restores memory/voice, demanding new hand or toll.
-- Word River hides the river's true name; water completes it; inscribing it costs a new hand.
-- Cord jumps to the wrist of whoever holds the ledger when the toll falls.
-- The wet stone stair leads to a flooded chamber that exists outside normal time; the lantern burns without fuel.
+- Word River hides the river's true name; water completes it; inscribing costs a new hand.
+- Cord jumps to the wrist of whoever holds the ledger when the toll falls; now on Ákos.
+- Lantern burns without fuel; chamber sits outside normal time; water level drops when the river's name is spoken.
 Open threads:
-- Márk's hand writing Sebes: will he keep agency or become the ledger's permanent scribe?
-- Ilka's seventh moon toll: who will pay the new hand, and at what cost?
-- The river's true name Sebes now complete: what does the ledger exact next?
-- Who first taught Sára Sebes, and does that memory bind her to the ledger's cycle?
+- Ákos bears cord and Sebes: will he write, and at what cost?
+- Márk's still hand: freed servant or the ledger's permanent scribe?
+- Ilka's seventh moon toll: who pays the new hand now?
+- What else was in the room Sára lost?
+- The steps up: what waits above the chamber?
