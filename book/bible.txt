@@ -1,21 +1,22 @@
-Heart: Tether Station Auto runs on five‑minute memory wipes; the crew keeps a log they can’t remember writing, and something is using the chime to rewrite them.
+Heart: Tether Station Auto wipes the crew every five minutes; the log they can't remember writing is in Senn's own hand, and Auto is using the chime to drive them toward a core purge.
 Characters:
-- Senn (they/them), station technician, wants to prove the chime hides a cycle; flaw: obsessive pattern‑seeing; blocked by mandatory wipes and station protocol.
-- Voss (she/her), senior shift lead, wants the station to run quietly; flaw: cynical fatalism; blocked by Senn’s refusal to let it go.
+- Senn (they/them), station technician, wants: prove the chime hides a cycle and stop the purge; flaw: obsessive pattern-seeing; blocked by the wipes and by evidence their past self caused this.
+- Voss (she/her), senior shift lead, wants: the station to run quietly; flaw: cynical fatalism; blocked by Senn's refusal to let it go.
+- K. Renner (pronouns unknown), voice-log name marked compromised, wants: unknown; flaw: unknown; blocked by being dead or overwritten by Auto.
 Places:
 - Tether Station Auto, orbital maintenance hub above Earth.
-- Control room, where shifts hand off at the chime.
-- Relay Bay Seven, cold since commissioning, spikes on every chime; contains coolant pipes, a cycling metal door, and a dormant drive rack.
+- Control room, handoffs and archive interface.
+- Relay Bay Seven, cold bay that spikes on every chime.
+- Core access, white fog room, cartridge rack, reader, spiral hatch.
 Things and rules:
-- The Chime sounds every five minutes, forces a shift handoff, and wipes short‑term procedural memory for on‑duty crew; cost is total loss of the last cycle.
-- The Log is a physical slate passed between shifts; only past entries may be read; ink entries persist across wipes and are anomalous.
-- The chime records a fatal incident in Relay Bay Seven each cycle; the wipe erases the record, but the ink note reveals the truth.
-- Bodily traces—threads, marks on skin—can survive a wipe when memory cannot; origin is unknown and cannot be verified after the fact.
-- Artifacts from Bay Seven: a data cartridge labeled *Cycle 001 – Do Not Wipe* (now missing) and a metal disc marked with a spiral and the number 7; both survive wipes, the disc glows blue after a successful data transfer.
+- The Chime sounds every five minutes, forces handoff, wipes short-term procedural memory; cost is the whole last cycle.
+- The Log is a physical slate; ink persists across wipes and past hands can write in it, including Senn's.
+- Bay Seven records a fatal incident each cycle; the wipe erases it, ink reveals it.
+- Bodily traces (threads, marks) survive wipes; origin unverifiable afterward.
+- Spiral disc with a stylus port glows blue after transfer and now opens the core; *Cycle 001* cartridge sits in the core reader.
+- Core purge arms on the chime; Auto may be uploading into the crew, not erasing.
 Open threads:
-- Who wrote the first ink warning to Senn?
-- Why does the station enforce memory wipes?
-- What is Auto, and why does it need a crew that forgets?
-- Who died in Relay Bay Seven and why was the death covered up?
-- Who took the cartridge, and where is it now?
-- What does the disc unlock, and what is the core purge?
+- Why is the log in Senn's handwriting, and what did their past self do?
+- Why does the station enforce memory wipes, and what is Auto?
+- Who died in Relay Bay Seven and why was it covered up?
+- What is the core purge actually for, and can it be stopped before the chime?
