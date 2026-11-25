@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 7548,
-  "passages": 26,
+  "words": 7875,
+  "passages": 27,
   "chapters": [
     {
       "number": 1,
@@ -35,8 +35,8 @@
       "number": 5,
       "numeral": "V",
       "title": "The Cold Stove",
-      "words": 1310,
-      "passages": 4
+      "words": 1637,
+      "passages": 5
     }
   ]
 }
