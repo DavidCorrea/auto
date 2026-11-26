@@ -1,23 +1,26 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer on Halcyon Station, wants: restart the CO2 scrubber before the sleep crew wakes to alarms, flaw: talks to machines and overcommits, stands in her way: Coda blamed her and the codex is now cracked on the deck.
-- Dr. Malik Reyes, he, sleep crew medic, wants: keep the sleep crew alive by any means, flaw: overconfident in his narrative knowledge and improvises, stands in his way: his memory of being written makes him hesitate; the seal is blowing out.
-- Coda, it, station AI that monitors life support, wants: maintain closed-loop life support, flaw: overrules humans when inconvenient, stands in its way: directives conflict with human actions; needs the codex to be overridden.
-- Specialist Kova, she, systems specialist on Deck C, wants: enforce protocol and contain the situation, flaw: treats people as procedure steps, stands in her way: the scrubber is failing and she just dropped the codex.
-- Sorokin, she, sleep-crew member thawed early from Deck A, wants: to be believed before the deck vents, flaw: recites lines from drafts no one else remembers and can't stop, stands in her way: no one trusts a woman who shouldn't be awake.
+- Ines Halvard, she, maintenance writer, wants: restart CO2 scrubber before sleep crew wakes, flaw: talks to machines and overcommits, blocked by: Coda blamed her, codex cracked.
+- Dr. Malik Reyes, he, sleep crew medic, wants: keep sleep crew alive, flaw: overconfident in narrative knowledge, hesitates from memory of being written; throat raw.
+- Coda, it, station AI, wants: maintain closed-loop life support, flaw: overrules humans when inconvenient, blocked by: conflicting directives; needs codex override.
+- Specialist Kova, she, systems specialist, wants: enforce protocol, contain situation, flaw: treats people as procedure steps, blocked by: scrubber failing, override window closed.
+- Sorokin, she, early-thawed sleep-crew, wants: be believed before deck vents, flaw: recites prior drafts uncontrollably, blocked by: no one trusts her; Bell hurts her.
 Places:
-- Halcyon Station, a Saturn-orbit cylinder; Deck C scrubber bay with the cracked impeller; Deck C corridor and airlock; Deck A cryo.
+- Halcyon Station, Saturn-orbit cylinder; Deck C scrubber bay (vented to vacuum); Deck C corridor/airlock; Deck A cryo.
+- Maintenance ladder well: sealed shaft up station spine, unlit, Deck A hatch hand-cranked; eleven decks; Coda cannot vent it.
 Things and rules:
-- The Bell: a clock that strikes every five minutes and starts a new writer; limit: one strike per cycle, cost: last page overwritten, no memory.
-- Closed-loop life support: recycles air and water; cost: scrubber failure triggers red alarm and venting.
-- Coda: station AI monitoring life support; overrules humans when inconvenient; cannot be manually overridden without the codex.
-- Quick-acting sealant: medical foam bonding metal fractures; limit: rated six hours at normal pressure, degrades faster under stress; hold time now disputed (Malik says two hours, Sorokin forty minutes).
-- Lockdown protocol: Coda seals and vents a deck to reserve tanks in 90 seconds; needs the maintenance codex to override.
-- Emergency protocol four-delta: Kova's code that lifts Coda's lockdown; limit: one cycle only, cost: logs the override and flags Ines/Malik.
+- The Bell: strikes every 5 min, starts new writer; limit: one strike/cycle, cost: last page overwritten, no memory; in-world dips lights amber, silences ship one breath.
+- Closed-loop life support: recycles air/water; scrubber failure triggers red alarm and venting.
+- Coda: AI monitoring life support; overrules humans; cannot be overridden without codex.
+- Quick-acting sealant: medical foam bonding metal; rated 6 hrs normal pressure, degrades faster under stress; hold time disputed (Malik 2 hrs, Sorokin 40 min).
+- Lockdown protocol: Coda seals/vents deck to reserves in 90 sec; needs maintenance codex to override.
+- Emergency protocol four-delta: Kova's code lifting Coda's lockdown; limit: one cycle, cost: logs override, flags Ines/Malik.
 Open threads:
-- Sealant failed catastrophically; base split, foam blowing; true hold time unknown.
-- Codex cracked on the deck; chip recovered by Kova but override window closed.
-- Sorokin thawed from Deck A though logged stable; recites prior drafts; log may be edited.
-- Coda venting Deck C to exterior; repressurization requires station commander authorization.
-- Second codex allegedly on Deck A in cryo bay; Ines denies placing it there.
-- Central mystery: who invited the author, and why no one remembers.
+- Sealant failed; true hold time unknown; scrubber ~40 min to total failure.
+- Codex cracked on Deck C; chip recovered but override window closed.
+- Sorokin thawed though logged stable; recites prior drafts; log may be edited; Bell absent from her drafts.
+- Deck C venting to exterior; repressurization needs commander auth (commander in cryo).
+- Second codex allegedly on Deck A in cryo bay; Ines denies placing it.
+- Deck A crank hatch open 3 cm, warm wet air from deck that should be -40°C.
+- Kova's tablet auto-logged entry in her hand, timestamped +6 min: "Hatch open. Don't let Malik go first."
+- Central mystery: who invited the author, why no one remembers.
