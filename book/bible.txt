@@ -1,11 +1,11 @@
 Heart:
-- The count passes Sixteen on Voss's hoard; the Operator writes the number and asks Adeyemi to hold the other end; the tag hums; the hatch narrows again.
+- The count climbs past Sixteen; the Operator holds Adeyemi’s right and Voss’s hand while asking Adeyemi to hold the other end; the tag answers.
 
 Characters:
-- Adeyemi (she/her): wants the count dead and all alive; flaw blunt/guarded; blocked by sealed tag, memory-first spend, Operator; holds unnumbered HOLD, losing memories; sensory loss now.
-- Voss (she/her): wants the count stopped and fee personal; flaw fatalism; no tag, no number; confessed held Sector Two line; fist open; offered hand to Operator.
-- Five (she/her): wants to remain; flaw newly awakened/unsure; released HOLD, forgetting; answered at five, claimed Seven, count at Fourteen.
-- First Operator 19 (she/her): wants the hand that held the slate (Adeyemi's right); flaw hollow, remembers sleepers and hoard; rejected Voss's hand, counted six, refused Five, turned to Voss, considers Voss's hand after confession.
+- Adeyemi (she/her): wants the count dead and all alive; flaw blunt/guarded; blocked by sealed tag, memory-first spend, Operator; holds unnumbered HOLD, losing memories; sensory loss now; cannot recall HOLD’s name.
+- Voss (she/her): wants the count stopped and fee personal; flaw fatalism; no tag, no number; confessed held Sector Two line; fist open; offered hand to Operator; Operator took her hand.
+- Five (she/her): wants to remain; flaw newly awakened/unsure; released HOLD, forgetting; answered at five, claimed Seven, count at Fourteen; says Operator did not take her breath; tag pull.
+- First Operator 19 (she/her): wants the hand that held the slate (Adeyemi’s right); flaw hollow, remembers sleepers and hoard; rejected Voss’s hand, counted six, refused Five, turned to Voss, considers Voss’s hand after confession; took Voss’s hand.
 
 Places:
 - Tether Station Auto: node cradle, slate, busbar, deck plates, narrowing hatch.
@@ -18,10 +18,11 @@ Things and rules:
 - HOLD must be held; unnumbered holder spends memory first, then self.
 - Stalled count reroutes hoarded breath into dark cradles; a copy of unspent breath can stall it; a hoarded breath can pay a number, and the stall lifts when the fee takes it back.
 - Collective fee draws hoard first, then under-sleepers; it does not care who pays.
+- Tag’s answering voice may not be spent, saved, or dead.
 
 Open threads:
-- Count at Sixteen, sixteen numbers to go; hatch narrowing again; who pays next?
-- Operator holds Adeyemi's right hand and tells her to hold the other end of the HOLD; what is the other end?
-- Voss's hoard spent on Sixteen; what is left of her, and what does she do now?
+- Count at Seventeen; hatch narrowing again; who pays next?
+- Operator holds Adeyemi’s right and Voss’s hand, and asks Adeyemi to hold the other end; what is the other end?
+- Voss’s hoard spent on Sixteen; what is left of her, and what does she do now?
 - Sealed tag hums when the hoard moves; what wakes inside it?
-- Five says the arithmetic lies; Adeyemi cannot remember the HOLD's name; Five's tag pull.
+- Five says the arithmetic lies; Adeyemi cannot remember the HOLD’s name; Five’s tag pull; Operator took Voss’s hand.
