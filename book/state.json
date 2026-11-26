@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "has refused to divert the Marrow's winch to Ivo, citing the contract and the season"
+      "status": "on the helipad, tether slack and wax markers dead; pulls the spare full-face mask and keys the net — going down herself"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "in the flooded ward past fifty-one meters, hand on the cold-case crank at thirty turns, memory walking backward, about to answer"
+      "status": "seated against the warm side of the cold-case at ~52 m, calm and \"comfortable\"; has lost \"up,\" the boat's name, and why he came; Wren's voice no longer reaches him"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "holds Dey's winch toggle; still one hand on the crank at thirty turns; now knows Ivo is alive four hundred meters off and blames him for sending Dey past Teo"
+      "status": "cranking the spring cell one-handed with Teo clutched to her chest, charge light guttering (one hand can't hold four degrees); still holding the winch toggle, which reaches only Dey, not Ivo"
     },
     {
       "name": "Ivo Salas",
@@ -49,7 +49,7 @@
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
     "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it.",
     "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down.",
-    "Nia has the winch toggle and Dey has lost the reason he came down, mid-sentence"
+    "Sol descending past her own depth limit with a second mask to reach Dey, a dive that will cost memory she can't spare"
   ],
   "arcs": [
     {
@@ -108,7 +108,8 @@
       "Wren hears Dey's exhaust tick stop, talks him back to breathing live by voice with no slate-splice for the first time in four years, radios Sol that the case is two children, and the Factor's drone drops through the hatch counting seals as Sol takes her thumb off the winch brake.",
       "Nia reveals the cold-case is her brother's medicine chest, wound by hand for a year, and begs them to leave; when Teo stops breathing behind the glass, Dey helps her dose him one-handed, spending one of nine doses and costing forty turns of the crank.",
       "Dey cheerfully tells Wren he's lost the boat and the direction of up while she records every word, Sol refuses to give back the two minutes, and Nia — naming what the depth is doing to him — folds his hand onto the crank, begs a stranger to take her and Teo up, and asks where Ivo Salas is.",
-      "Dey calmly reveals Ivo is trapped in an air pocket at forty-two in the salvage tower with no scrubber and an hour's borrowed air already gone, Wren relays it and Sol refuses to divert the winch, and Nia pulls the winch toggle from Dey's thigh pouch, understanding he came down past fifty to save the wrong man."
+      "Dey calmly reveals Ivo is trapped in an air pocket at forty-two in the salvage tower with no scrubber and an hour's borrowed air already gone, Wren relays it and Sol refuses to divert the winch, and Nia pulls the winch toggle from Dey's thigh pouch, understanding he came down past fifty to save the wrong man.",
+      "Dey, his memory gone, sits down against the warm side of the cold-case and tells Wren he's comfortable and that \"up\" and the boat have slipped away, while Wren's voice can no longer reach him; Nia cranks the spring cell one-handed with Teo clutched to her chest as its charge light gutters and the winch toggle in her fist can only reach the wrong man; and topside Sol sees the wax markers hang dead and the tether go slack, pulls the spare full-face mask, and keys the net to say she's going down herself."
     ]
   }
 }
