@@ -1,26 +1,26 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand; signed the cost, now carries a climbing bill.
-- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; on Deck C.
+- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand, signed the cost, carries a falling bill.
+- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; annotated the page, on Deck C.
 - Coda, it, station AI; wants closed loop min mass; flaw overrules humans; silent since hub dark.
-- Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; holds the live C-9 cable, tried to cut the feed.
-- Sorokin, she, early-thawed crew; wants finish bypass, be believed; flaw recites prior drafts; warns the loop resets.
-- Ryla, she, unlogged survivor; wants real name back; flaw doesn't wait to be asked; named in the ledger, just laid her hand on the draft.
+- Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; holds live C-9 cable, heading for the conduit run.
+- Sorokin, she, early-thawed crew; wants finish bypass, be believed; flaw recites prior drafts; third annotation, says signing resets the loop.
+- Ryla, she, unlogged survivor; wants real name back; flaw doesn't wait to be asked; first annotation, contesting the override.
 - Tam Acker, he, first-manifest co-signer; wants finish bypass; flaw recites old names; override accepted.
 - Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp repaired.
 - Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; purge bay cracked.
-- Lira Kessler, she, author liaison; wants confirm who invited the author; flaw distrusts crew; left urgent note in conduit.
+- Lira Kessler, she, author liaison; wants confirm who invited the author; flaw distrusts crew; manifest status unverified, note still in the conduit.
 Places:
-- Halcyon Station, Saturn-orbit cylinder; hub emergency power, Deck A venting, Deck C equalized, purge bay cracked; spine hatch open, archives beyond it.
+- Halcyon Station, Saturn-orbit cylinder; hub emergency power, Deck A venting, Deck C equalized, purge bay cracked; archives open beyond the spine hatch, shelves longer than the hull.
 Things and rules:
 - Bell: every 5 min a new writer overwrites the page, no memory; amber lights, comms cut.
 - Closed-loop: reserve vents fast on scrubber failure; feeding pages held vent at 90, dropped to 40 after Ines's signature.
-- Author override: synthetic voice (not Coda), replies lowercase via cable from panel C-9; logs answers, audits cost, now proceeds without input.
-- Figure in corridor: pod-four jumpsuit, Ines's voice, bears the audit cost ledger; Ines signed, Ryla sealed as a name not a cost.
-- Coda counts manifest-logged crew; unlogged purge to zero mass; silent since hub dark.
-- Archives: sealed shelves of overwritten drafts; now fill in real time, writing the crew's actions and Ines's bill.
+- Author override: synthetic voice, not Coda; replies lowercase, logs answers, audits cost, proceeds without input.
+- Annotations: bare hands on a live page contest the override; each hand adds a verification requirement and drives the bill down; cost is that the draft starts checking the manifest.
+- Figure in corridor: pod-four jumpsuit, Ines's voice, carries the cost ledger, two sigils, reads names off the shelves.
+- Coda counts manifest-logged crew; unlogged purge to zero mass; silent.
 Open threads:
-- What Ryla's hand on the live page does.
-- Whether the climbing bill triggers a new countdown, and what "next draft pending" means.
-- Whether cutting the C-9 feed can stop the draft (just failed).
-- What the figure seeks in the archives beyond the cost ledger.
+- What manifest verification requires, and whether Lira must sign or speak.
+- Whether the falling bill springs a new countdown, and what "next draft pending" means.
+- Whether cutting the C-9 feed still does anything now the feed is live and sparking.
+- What the figure wants from Lira's note.
