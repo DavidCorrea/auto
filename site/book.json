@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 21763,
-  "passages": 31,
+  "words": 22408,
+  "passages": 32,
   "arcs": [
     {
       "number": 1,
@@ -45,6 +45,13 @@
       "title": "Empty-Handed",
       "words": 3810,
       "passages": 6
+    },
+    {
+      "number": 6,
+      "numeral": "VI",
+      "title": "The Slate",
+      "words": 645,
+      "passages": 1
     }
   ]
 }
