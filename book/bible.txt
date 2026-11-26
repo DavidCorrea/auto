@@ -1,34 +1,34 @@
-Heart:  
-- The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.  
+Heart:
+- The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 
-Characters:  
-- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines  
-- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in lore  
-- Coda, it, station AI; wants closed loop min mass; flaw overrules humans  
-- Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure  
-- Sorokin, she, early-thawed crew; wants bypass finished, to be believed; flaw recites prior drafts  
-- Rylia (Ryla), she, unlogged survivor turned first cost; wants her real name back; flaw doesn't wait to be asked  
-- Tam Acker, he, first-manifest co-signer; wants bypass done; flaw recites old names  
-- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp ruptured, scalded arm, alive  
-- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; blistered, sealed purge bay door  
-- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; blank ledger won't erase  
+Characters:
+- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; now logged next cost after her rejected scratch
+- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in lore
+- Coda, it, station AI; wants closed loop min mass; flaw overrules humans
+- Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure
+- Sorokin, she, early-thawed crew; wants bypass finished, to be believed; flaw recites prior drafts
+- Rylia (Ryla), she, unlogged survivor turned first cost; wants her real name back; flaw doesn't wait to be asked; paid in kind, now permanently logged; ledger wrote her name in the author's hand
+- Tam Acker, he, first-manifest co-signer; wants bypass done; flaw recites old names
+- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; scalded arm, alive in sealed bay
+- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; blistered hands, sealed in purge bay
+- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; recognized the name and hand on her invitation
 
-Places:  
-- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, purge bay sealed, audit lock counting kilos  
-- Archives beyond spine hatch; conduit junction with dead C-9, live spine, purge line, bypass port; walls marked in scratched steel  
-- Pod-four: figure in jumpsuit, blank ledger, Lira inside  
+Places:
+- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, purge bay sealed and venting hot, audit lock now closed at zero
+- Archives beyond spine hatch; conduit junction with dead C-9, live spine, purge line, bypass port; walls marked in scratched steel
+- Pod-four: blank ledger, signature port (bare steel ring) in wall; Lira, Ines, Rylia inside
 
-Things and rules:  
-- Bell: every 5 min a new writer overwrites the page; amber lights flash, comms cut; scratched steel marks survive  
-- Closed loop: vents reserve fast on scrubber failure; Coda counts only manifest-logged crew, purges unlogged mass to zero  
-- Contact rule: bare skin or hand-pressed note logs a signature; no touch reads nothing  
-- Signature port: bare hand plus spoken name closes audit and logs speaker as first cost; must be scratched on steel or next writer won't honor it  
-- Ledger: records names and costs; rejected annotation logs annotator as next cost  
-- Cost settlement: first cost pays in kind at audit lock or 120 kg reserve air within 120 seconds  
+Things and rules:
+- Bell: every 5 min a new writer overwrites the page; amber lights flash, comms cut; scratched steel marks survive
+- Closed loop: vents reserve fast on scrubber failure; Coda counts only manifest-logged crew, purges unlogged mass to zero
+- Contact rule: bare skin or hand-pressed note logs a signature; no touch reads nothing
+- Signature port: bare hand plus spoken name closes audit and logs speaker as first cost; must be scratched on steel or next writer won't honor it
+- Ledger: records names and costs, only adds and tells truth; rejected annotation logs annotator as next cost
+- Cost settlement: first cost pays in kind at the audit lock or 120 kg reserve air within 120 seconds
 
-Open threads:  
-- Ines plans to scratch Rylia out of the ledger in pod-four, making herself the next cost  
-- Audit lock counts 120 seconds; Rylia must settle in kind or via 120 kg reserve air  
-- Lira's ledger won't take erasures; the next writer may not remember the bypass  
-- Purge bay sealed and venting hot; Jax scalded, Mara's hands ruined  
-- Who invited the author; Lira signed and forgot
+Open threads:
+- Ines is now logged as next cost; if the loop needs mass again, it takes her
+- The ledger wrote Rylia's true name in the author's backward-slanting hand—the same hand as Lira's invitation
+- Lira signed the invitation under that hand and forgot; the author's identity is suddenly close
+- Purge bay sealed and venting hot; Jax scalded, Mara's hands ruined, both trapped inside
+- Rylia is permanently logged now, no longer an unlogged survivor
