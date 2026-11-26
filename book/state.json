@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "in the recompression box on deck oxygen, bent, missing the hour below thirty meters, one year of indenture left"
+      "status": "below deck in the cabin, sealed into his suit, waiting on Wren's thumbprint to pass forty meters"
     },
     {
       "name": "Wren Achebe",
@@ -48,7 +48,8 @@
     "Sol is losing her memory from years below the line, hides it, and won’t let anyone else take the helm.",
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
-    "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it."
+    "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it.",
+    "Dey told Wren to her face that he knows she edits slates and kept the name she cut, so the trust between them is now open and still unpriced"
   ],
   "arcs": [
     {
@@ -103,7 +104,8 @@
       "Fifty-two meters. Dey answers with the right words in the wrong order, calls Wren Captain, then asks her politely, without any fear in it, what up is. Sol orders three tugs on the tether and he doesn't take them. He pushes off the stairwell wall toward the ward, and through the frost-furred window in the case lid something moves that is not a pump: a hand on a crank, and a girl's voice on the bone track saying a name that isn't hers."
     ],
     "events": [
-      "Sol cuts the Marrow's six-year mooring chain loose with a deck torch, Dey — twenty minutes out of the recompression box and still bent — knocks the last link free with the axe, Wren reads the storm glass and calls the season in at eight hours forty rather than nine, and Sol writes course zero-four-zero on her hand beside her older smudged figures and orders the crew below."
+      "Sol cuts the Marrow's six-year mooring chain loose with a deck torch, Dey — twenty minutes out of the recompression box and still bent — knocks the last link free with the axe, Wren reads the storm glass and calls the season in at eight hours forty rather than nine, and Sol writes course zero-four-zero on her hand beside her older smudged figures and orders the crew below.",
+      "Wren refuses to certify Dey fit for fifty-two and offers to dive herself; Sol turns her down and the two fight over what each is really spending, until Dey suits up mid-argument and says he knows Wren edits slates and kept the cut name anyway."
     ]
   }
 }
