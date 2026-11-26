@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "still on deck, peaceful but confronted by Rusk about the missing hour she cannot remember"
+      "status": "standing between Dey and the rail, having laid out why the dive can't be done"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "standing by cold-box, hearing proof that something lives at forty-two meters"
+      "status": "at the rail, one hand on it, lungs filling, resolved to go over on a single breath; no one has reached him yet"
     },
     {
       "name": "Wren Achebe",
@@ -156,7 +156,8 @@
       "Wren runs a build on her own slate for the first time, pulling telemetry from a descent to the pharmacy pocket at forty-two meters that she has no memory of making, and the spool begins rewinding through the dive.",
       "Wren's self-build halts at a clean, deliberate eleven-second cut in her own dive record, identical to the one she carved from Sol's slate hours ago, revealing she edited her own memory and doesn't remember doing it.",
       "Dey gives up on his gutted rig and measures Rusk's map against the short spliced line while Nia warns flatly that one breath blacks a man out on the rise from forty-two meters, then asks Wren low whether a body can reach that depth and return on a single breath — and Wren, staring at the cut in her own record, doesn't say no.",
-      "Wren tries to rebuild her eleven seconds from the deck-audio log and finds the same clean cut there too, blown out to nearly an hour of last night she can't account for, with every backup record on the boat cut identically, and understands she erased it herself to hide something she did."
+      "Wren tries to rebuild her eleven seconds from the deck-audio log and finds the same clean cut there too, blown out to nearly an hour of last night she can't account for, with every backup record on the boat cut identically, and understands she erased it herself to hide something she did.",
+      "Salas's call pushes Dey to his feet and to the rail, and though Sol plants herself in his way and lays out flat why the dive is impossible — no rig seals past thirty, the scrubber is in Teo's chest, the drum has one pull left — Dey insists one breath is enough and rests his hand on the rail."
     ]
   }
 }
