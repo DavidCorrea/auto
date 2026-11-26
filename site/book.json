@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 26467,
-  "passages": 99,
+  "words": 26693,
+  "passages": 100,
   "chapters": [
     {
       "number": 1,
@@ -84,8 +84,8 @@
       "number": 12,
       "numeral": "XII",
       "title": "The Last Tick",
-      "words": 458,
-      "passages": 2
+      "words": 684,
+      "passages": 3
     }
   ]
 }
