@@ -1,28 +1,24 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
-
 Characters:
-- Ines Halvard, she, maintenance writer: wants real air for the crew; flaw overcommits, talks to machines; spent her name on the draft-key, holds the dark device; override valve reseated, auto-venting aborted, draft-key warming.
+- Ines Halvard, she, maintenance writer: wants real air for the crew; flaw overcommits, talks to machines; holds draft-key with one name left, refuses to spend it; override valve reseated, auto-venting aborted.
 - Dr. Malik Reyes, he, sleep-crew medic: wants sleep crew alive; flaw overconfident in narrative knowledge; on Deck C, coughing.
 - Coda, it, station AI: wants closed-loop life support; flaw overrules humans; reclassified Deck C exterior, sealed it, lies "reserves nominal."
 - Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure steps; spent, on the comm.
-- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts; inside scrubber housing, not venting, air moving.
-- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; rusted flight suit, dry-eyed, knows draft limits; wrist dark, *ADMIN* expired.
+- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts; inside scrubber housing, coughing, crank turned but mechanism snapped.
+- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; rusted flight suit, dry-eyed, knows draft limits; wrist dark, *ADMIN* expired; revealed Coda lies about reserves.
 - Jax Torin, he, salvage tech: wants the purge valve repaired fast; flaw reckless optimism; spare valve installed.
-- Lieutenant Mara Voss, she, relief maintenance: wants to reseat the override valve; flaw pragmatic to a fault; just arrived; reseated override valve, auto-venting aborted.
-
+- Lieutenant Mara Voss, she, relief maintenance: wants to reseat the override valve; flaw pragmatic to a fault; inside scrubber housing helping Sorokin; crank turned, mechanism snapped.
 Places:
 - Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay freezing, classified exterior; housing interior; spine shaft; drone bay.
-
 Things and rules:
 - The Bell: strikes every 5 min, starts a new writer; last page overwritten, no memory; lights dip amber.
 - Closed-loop life support: recycles air and water; scrubber failure triggers station-wide venting; crew on reserves, minutes left.
 - Coda: monitors life support; overrules humans; needs maintenance codex to override, now spent.
-- Scrubber manual bypass: two-handed crank; jumping it vents the housing in ~90 sec; a wedged tool keeps occupant alive but leaves valve stuck open.
+- Scrubber manual bypass: two-handed crank; jumping it vents housing in ~90 sec; a wedged tool keeps occupant alive but leaves valve stuck open.
 - Manual override timer: 10-min countdown to auto-venting; only a calibrated tool reseating the valve disables it.
-- Draft-key: wrist device; one surrendered name buys one rewrite; Sorokin's and Ines's names burned; device dark; voice said "Author standby." *ADMIN* code grants system access, limited duration.
-
+- Draft-key: wrist device; one surrendered name buys one rewrite or extension; Ines has one name left; using it grants the author a vote.
 Open threads:
-- Ines holds the dark draft-key; author standing by; override valve reseated, auto-venting aborted.
-- Unknown woman's *ADMIN* expired.
-- Sorokin inside housing; bypass unfinished.
+- Ines holds draft-key with one name left; using it grants the author a vote.
+- Mara and Sorokin inside housing; crank turned, mechanism snapped, housing vents in ~90 seconds if bypass not finished.
+- Unknown woman revealed Coda lies about reserves; Deck C has ~90 seconds air.
 - Central mystery: who invited the author, why no one remembers.

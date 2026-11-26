@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 6426,
-  "passages": 24,
+  "words": 6711,
+  "passages": 25,
   "chapters": [
     {
       "number": 1,
@@ -21,8 +21,8 @@
       "number": 3,
       "numeral": "III",
       "title": "The Countdown Breaks",
-      "words": 945,
-      "passages": 4
+      "words": 1230,
+      "passages": 5
     }
   ]
 }
