@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "52m in the Mercy General ward, off tether, refusal logged, drone destroyed, turning back to the case for the two children; does not know the name Salas"
+      "status": "alone on the second landing of the Mercy General, 52m and climbing on her own 90-bar, memory of the choice gone, hands empty"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "off the tile and rising on the tether under Nia's hand crank, both hands on his mask, breathing the S.S. pony at sixty bar"
+      "status": "rising on the tether toward the surface on the S.S. pony, mask on, still carrying the name Salas"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on her feet over the dead case, cranking the yellow toggle one-handed, Teo still strapped to her chest"
+      "status": "clipped to Dey's line with Teo, lifted on the drum's last powered pull, off the toggle for the first time in a year"
     },
     {
       "name": "Ivo Salas",
@@ -108,7 +108,8 @@
       "Sol couldn't haul Dey up because he was warm, agreeable and wouldn't clip in; Nia rounded on her as one more boat-man come for the box, and close up Sol saw the cell in its last quarter-arc and Teo — masked in Nia's arms — breathing his own exhaust behind a window that fogged and wouldn't clear, two kids running out of air.",
       "Sol runs the haul arithmetic out loud on the net — one powered pull, three bodies against a two-fifty drum, air for only two, and Nia reveals the case holds Teo's medicine — and then the cell dies, the lid sweats, and Nia's arm quits mid-crank.",
       "The Factor's drone arrives demanding the cargo count; Wren identifies herself and delivers the full unedited arithmetic — two children, Dey's condition (mask on but fogged, slate dark, no up), the drum's limits, the air supply, the twelve thousand credits, three crew berths costing eleven-five, the storm declaring in nine hours — forcing Sol to choose live on the net with no splices.",
-      "Sol declares ascent for the people, forfeits the twelve thousand and the crew's berths, crushes the Factor's drone, and hands Nia the toggle so the girl hauls Dey off the tile by hand — while Ivo Salas calls for any boat on the backup channel and Dey speaks the only name he has left."
+      "Sol declares ascent for the people, forfeits the twelve thousand and the crew's berths, crushes the Factor's drone, and hands Nia the toggle so the girl hauls Dey off the tile by hand — while Ivo Salas calls for any boat on the backup channel and Dey speaks the only name he has left.",
+      "Sol clips Nia and Teo onto Dey's line and fires the drum's last powered pull to send all three rising, then, alone and past her limit, finds her grease-pencil hand wiped blank and can't remember what she paid or who she paid it for."
     ]
   }
 }
