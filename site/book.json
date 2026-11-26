@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 16262,
-  "passages": 59,
+  "words": 16418,
+  "passages": 60,
   "chapters": [
     {
       "number": 1,
@@ -49,8 +49,8 @@
       "number": 7,
       "numeral": "VII",
       "title": "The Manifest Correction",
-      "words": 1827,
-      "passages": 7
+      "words": 1983,
+      "passages": 8
     }
   ]
 }
