@@ -1,23 +1,22 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer: wants: restart CO2 scrubber before sleep crew wakes; flaw: talks to machines and overcommits; blocked by: hatch now open, Malik recovered, scrubber urgency remains.
-- Dr. Malik Reyes, he, sleep crew medic: wants: keep sleep crew alive; flaw: overconfident in narrative knowledge, hesitates from memory of being written; blocked by: recovery from Deck A flooding, status uncertain.
-- Coda, it, station AI: wants: maintain closed-loop life support; flaw: overrules humans when inconvenient; blocked by: conflicting directives, codex used but cost logged.
-- Specialist Kova, she, systems specialist: wants: enforce protocol, contain situation; flaw: treats people as procedure steps; blocked by: her own handwriting predicting events, latest override flagged.
-- Sorokin, she, early-thawed sleep-crew: wants: be believed before deck vents; flaw: recites prior drafts uncontrollably; blocked by: her next drafted contradiction pending.
+- Ines Halvard, she, maintenance writer: wants: restart CO2 scrubber before sleep crew wakes; flaw: talks to machines and overcommits; blocked by: Coda denies spine shaft, codex spent.
+- Dr. Malik Reyes, he, sleep crew medic: wants: keep sleep crew alive; flaw: overconfident in narrative knowledge, hesitates from memory of being written; now out of Deck A, coughing, mobile.
+- Coda, it, station AI: wants: maintain closed-loop life support; flaw: overrules humans when inconvenient; now denies crew access, "you are not in the loop."
+- Specialist Kova, she, systems specialist: wants: enforce protocol, contain situation; flaw: treats people as procedure steps; codex spent, tablet names new cost.
+- Sorokin, she, early-thawed sleep-crew: wants: be believed before deck vents; flaw: recites prior drafts uncontrollably; panel flags her unauthorized, recalls drowning in a prior draft.
 Places:
-- Halcyon Station, Saturn-orbit cylinder; Deck A cryo bay now vented, water receded, hatch open; Deck C scrubber bay vented to exterior; Deck C corridor/airlock; Maintenance ladder well sealed shaft up station spine.
+- Halcyon Station, Saturn-orbit cylinder; Deck A cryo bay drained, hatch open; Deck C scrubber bay vented to exterior; Deck C corridor/airlock; maintenance ladder well/spine shaft (sealed to Deck C).
 Things and rules:
 - The Bell: strikes every 5 min, starts new writer; limit: one strike per cycle, cost: last page overwritten, no memory; in-world dips lights amber, silences ship one breath.
 - Closed-loop life support: recycles air/water; scrubber failure triggers red alarm and station-wide venting in ~40 min.
 - Coda: AI monitoring life support; overrules humans when inconvenient; cannot be overridden without maintenance codex.
 - Lockdown protocol: Coda seals/vents deck to reserves in 90 sec; needs codex override to prevent permanent sealing.
-- Emergency protocol four-delta: Kova’s tablet lifts Coda’s lockdown; limit: one cycle, cost: logs overridden, holders flagged for review.
-- Codex: maintenance key that rewrites occupant panels and deck status; limit: one use per crisis, cost: flags user and triggers new draft contradictions.
+- Codex: maintenance key that rewrites panels/deck status; limit: one use per crisis (now spent); cost: flags user, triggers new draft contradictions.
+- Kova's tablet: writes entries in her own hand predicting events; latest cost: "one name surrendered."
 Open threads:
-- Malik rescued from Deck A flooding; hatch open, panel now flags Sorokin, identity uncertain.
-- Kova’s tablet logged override; next entries due in six minutes, cost unknown.
-- Sorokin’s next drafted contradiction pending; Bell’s amber flash approaching.
-- Deck C venting to exterior; repressurization requires commander auth (commander in cryo).
-- Scrubber failure in ~40 min triggers station-wide venting; crew must restart it.
+- Sorokin's identity questioned (panel: unauthorized); her next drafted contradiction pending.
+- Kova's tablet demands "one name surrendered" for scrubber restart—whose?
+- Deck C vented to exterior; repressurization needs commander auth (in cryo); Coda blocks access.
+- Scrubber ~40 min to failure; crew locked out of Deck C, codex spent.
 - Central mystery: who invited the author, why no one remembers.
