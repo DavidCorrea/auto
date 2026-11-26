@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 17953,
-  "passages": 25,
+  "words": 18343,
+  "passages": 26,
   "arcs": [
     {
       "number": 1,
@@ -38,6 +38,13 @@
       "title": "The Choice",
       "words": 3917,
       "passages": 6
+    },
+    {
+      "number": 5,
+      "numeral": "V",
+      "title": "Empty-Handed",
+      "words": 390,
+      "passages": 1
     }
   ]
 }
