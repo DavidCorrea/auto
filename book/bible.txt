@@ -1,7 +1,7 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand, signed the cost, falling bill, now named first cost on the shelf.
+- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand, signed the cost, falling bill, now named first cost on the shelf; carrying old page, says shelf was wrong.
 - Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; annotated the page, running to purge bay, named in audit.
 - Coda, it, station AI; wants closed loop min mass; flaw overrules humans; silent since hub dark.
 - Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure; her shield logged as a signature; comms cut mid-word by the bell.
@@ -9,7 +9,7 @@ Characters:
 - Ryla, she, unlogged survivor; wants her real name back; flaw doesn't wait to be asked; mass count reversed, breathing.
 - Tam Acker, he, first-manifest co-signer; wants the bypass done; flaw recites old names; bare palm logged on the port.
 - Jax Torin, he, salvage tech; wants the purge valve repaired; flaw reckless optimism; clamp now holding outward.
-- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; both hands in the gap.
+- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; both hands in the gap, elbowed conduit to slow vent.
 - Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; spoke Ines's name, logged as the new first cost.
 Places:
 - Halcyon Station, Saturn-orbit cylinder; hub on emergency power, Deck A venting, Deck C equalized then amber, purge bay cracked and gaping.
@@ -18,9 +18,9 @@ Things and rules:
 - Bell: every 5 min a new writer overwrites the page, no memory; amber lights, comms cut, written sequences lost.
 - Closed loop: vents reserve fast on scrubber failure; Coda counts manifest-logged crew only, purges unlogged mass to zero.
 - Contact rule: the feed reads contact, not paper; bare skin logs a signature, a hand-pressed note logs too, no touch reads no.
-- Figure: pod-four jumpsuit, Ines's voice, cost ledger, two sigils, reads and writes names on the shelves.
 - Bypass = signature: dual input, bare hand on the port plus a spoken name; closes the audit, resets the loop, logs the speaker as the new first cost.
+- Clamp: welded device to hold against outward pressure; fails when pressure exceeds design limit, causing metal fatigue and possible rupture.
 Open threads:
 - Lira is the logged first cost — can the crew move the debt off her before the next audit?
-- Mara's hands and Jax's clamp against outward pressure at the gaping bay.
-- What the figure writes next in the stacks, and where Ines is with the old page.
+- Mara's clamp holds for now; her hands are raw and the bay still gapes.
+- Ines carries the old page from the archives and says the shelf naming her first cost was wrong — what does it actually say?
