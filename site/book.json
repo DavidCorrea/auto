@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 13215,
-  "passages": 48,
+  "words": 13547,
+  "passages": 49,
   "chapters": [
     {
       "number": 1,
@@ -42,8 +42,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Audit",
-      "words": 720,
-      "passages": 3
+      "words": 1052,
+      "passages": 4
     }
   ]
 }
