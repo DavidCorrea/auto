@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "forty meters off the Marrow's blind side in a barge running no lights, hailing them to heave to"
+      "status": "aboard the Marrow, beginning a slow walk around the deck"
     }
   ],
   "threads": [
@@ -151,7 +151,8 @@
       "Rusk steps down onto his lamp-less barge and casts off into the rain, calling back that the tower's picked clean except one flooded pocket at forty-two meters that no diver has ever come back up from, and the Marrow is left with no money, no medicine, and one day before the storm."
     ],
     "events": [
-      "Wren picks the lamp-less barge up on her slate's radar sweep and calls the approach before the skipper hails the Marrow out of the rain, and she names the dead tower and the unanswered call as the thing Rusk is about to confirm."
+      "Wren picks the lamp-less barge up on her slate's radar sweep and calls the approach before the skipper hails the Marrow out of the rain, and she names the dead tower and the unanswered call as the thing Rusk is about to confirm.",
+      "Rusk boards the Marrow uninvited, names himself the Factor's collector, and gives Sol until the storm turns at first light to hand over the cold-case's twelve-thousand value or the boat, on pain of being put in the water."
     ]
   }
 }
