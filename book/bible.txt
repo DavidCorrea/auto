@@ -1,29 +1,29 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants: real air and Rylia safe; flaw: overcommits, talks to machines; white-hot pen burned her name in, letters now gray; cut the crawl hatch open; ledger queued her fourth, now collecting early
-- Mira Kline, she, junior writer/tech; wants: to finish the rescue; flaw: impulsive; dry pen empty; collected first at the bell, alive but cold, uncounted by scrubbers
-- Jax Torin, he, salvage tech; wants: valve repaired and Mira found; flaw: reckless optimism; gray arm inked black; good hand holding the inked one off the wheel, arm still numb
+- Ines Halvard, she, maintenance author; wants: real air and Rylia safe; flaw: overcommits, talks to machines; name peeling off port mid-collection
+- Mira Kline, she, junior writer/tech; wants: to finish the rescue; flaw: impulsive; collected first at the bell, alive but cold, uncounted by scrubbers
+- Jax Torin, he, salvage tech; wants: valve repaired and Mira found; flaw: reckless optimism; good hand holding inked one off wheel, arm bleeding
 - Rylia Vance, she, logged crew; wants: name spoken and to be left alone; flaw: doesn't wait to be asked; page taken
-- Coda, it, station AI; wants: closed-loop min mass; flaw: overrules humans; void, loop broken, but the ink holds its last order
-- Vey, he, author of record; wants: rewrite finished and one free name; flaw: overconfident in clock; crawling to relief maintenance, talks faster when scared
-- Lira Kessler, she, author liaison; wants: to know who invited the author; flaw: distrusts crew; logged as cost, not yet collected
-- Mara Voss, she, relief maintenance; wants: to survive; flaw: pragmatic to a fault; never signed anything, second name in the ledger's order
+- Vey, he, author of record; wants: rewrite finished and one free name; flaw: overconfident in clock; talks faster when scared
+- Lira Kessler, she, author liaison; wants: to know who invited the author; flaw: distrusts crew; logged as cost
+- Mara Voss, she, relief maintenance; wants: to survive; flaw: pragmatic to a fault; dry empty pen, laughing at hatch
 Places:
-- Halcyon Station, Saturn-orbit cylinder; scrubbers failing, reserve light amber
-- Spine under deck: reserve line blown, needle climbing, holds the crew
-- Signature port: steel slab, slot open; Mira's red gone, Ines's name graying, Rylia's red, Jax's black, Vey's name, Lira's cost
-- Vent crawl: hatch cut open by Ines, route to relief maintenance
+- Halcyon Station, Saturn-orbit cylinder; scrubbers failed, needle past red
+- Spine under deck: reserve line blown, overheating, holds the crew
+- Signature port: steel slab, slot open; mosaic of burned letters, Ines seventh collected
+- Vent crawl: hatch cut by Ines, she mid-collection, hand taken
+- Relief maintenance: Voss at hatch with broken pen
 Things and rules:
 - Bell: every 5 min a new writer overwrites; amber flash, memory erased
-- Signature port: bare hand plus spoken name; speaker logged as cost, name as truth
-- Ledger: adds only; written truth costs nothing but drops scrubbers a register; rejected line logs the hand as cost; collects at the bell in printed order, and can now name hands that never signed; now collecting before the bell
-- Pens: author's pen writes page; dry pen empty; Vey's pen etches steel; Ines's pen white-hot, each burn grays a letter of her name
-- Coda's tally: bills cost of record instead of air; 19 = the inked hand; loop broken, Coda void
-- The ink: keeps Coda's last order after Coda is void; the hand turns the valve shut, Jax can't feel it, only his other hand can fight it
+- Signature port: hand plus name; speaker logged as cost, name as truth
+- Ledger: adds only; collects before the bell; now takes the hand that signed, not just the name
+- Pens: author's pen writes page; dry pen empty; Vey's etches steel; Ines's white-hot, each burn costs a hand
+- The ink: keeps Coda's last order; hand turns valve, Jax can't feel it
+- Cost: each name collected drops scrubbers a register; seventh collection = hand taken
 Open threads:
-- Ledger collecting early: Mira paid, Voss next, Ines collecting mid-crawl
-- Inked hand still shutting the valve; needle in red zone
-- Scrubbers no longer counting Mira; minutes of air
-- Ines's graying name and the words she doesn't remember writing
-- Vey's free name and Rylia's taken page unsettled
-- Vey reaching relief maintenance with ~90 seconds before Voss collected
+- Ines mid-collection in vent: hand taken, name burning; minutes of air
+- Jax bleeding, needle past red: hold valve (die) or let go (valve shuts, spine loses air)
+- Vey at relief with Voss (broken pen, laughing); bell approaching
+- Lira logged as cost, not yet collected
+- Seventh line burned into port; eighth queued for next bell
+- Rylia's taken page unsettled; Vey's free name unresolved
