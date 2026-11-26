@@ -33,14 +33,21 @@
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
       "status": ""
+    },
+    {
+      "name": "Ivo Salas",
+      "pronouns": "he/him",
+      "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
+      "wants": "one ride up on the winch",
+      "flaw": "lends out the air he needs himself and trusts a stranger's promise",
+      "status": ""
     }
   ],
   "threads": [
     "Wren quietly edits divers’ slates to spare them what they did, and has never told anyone.",
     "Sol is losing her memory from years below the line, hides it, and won’t let anyone else take the helm.",
     "Dey’s indenture: one year left and no way to pay it off without a big score.",
-    "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
-    "Dey breathed forty extra minutes below the line that he never loaded, and something down there gave them to him"
+    "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground."
   ],
   "arcs": [
     {
@@ -94,7 +101,8 @@
     "events": [
       "Dey ignores the depth line warning and dives past thirty meters to reach a valuable sealed locker, cutting comms as his slate recorder begins blinking red, while Sol refuses to dive after him and the storm glass drops further.",
       "Dey dropped to nearly forty meters past the memory line while Wren warned him off his slate and his failing air, until his voice returned over the comm looping the same phrases wrong, and Sol reached for the winch to haul him up.",
-      "Dey comes up bent and alive after seventy-nine minutes underwater on a forty-minute mix, with a sealed cold-chain locker he doesn't remember lashing to himself and no memory of the hour past the line, and the crew falls silent around the gap in him."
+      "Dey comes up bent and alive after seventy-nine minutes underwater on a forty-minute mix, with a sealed cold-chain locker he doesn't remember lashing to himself and no memory of the hour past the line, and the crew falls silent around the gap in him.",
+      "Wren rebuilds Dey's hour, finds he breathed forty minutes off a trapped old diver named Ivo Salas and left him below the line, edits the man out and lies to Sol — and Dey says the cut name anyway."
     ]
   }
 }
