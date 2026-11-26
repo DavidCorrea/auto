@@ -2,15 +2,15 @@ Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 
 Characters:
-- Ines Halvard, she, maintenance writer; wants: real air for crew; flaw: overcommits, talks to machines; blocked by Coda's auto-log and sealed hatch.
+- Ines Halvard, she, maintenance writer; wants: real air for crew; flaw: overcommits, talks to machines; blocked by Coda's auto-log and failed manual release.
 - Dr. Malik Reyes, he, sleep-crew medic; wants: sleep crew alive; flaw: overconfident in narrative lore; blocked by breached suit, Deck C venting.
 - Coda, it, station AI; wants: closed loop at minimum mass; flaw: overrules humans; blocked by manifest count, unlogged purge math.
 - Specialist Kova, she, systems specialist; wants: enforce protocol; flaw: treats people as procedure; blocked by choosing which breather to vent.
 - Sorokin, she, early-thawed sleep-crew; wants: finish bypass, be believed; flaw: recites prior drafts; blocked by Deck C venting, Ryla.
 - Ryla, she, unlogged survivor (now counted); wants: her real name back; flaw: doesn't wait to be asked; blocked by being the name the author demands, dead badge, now counted.
 - Tam Acker, he, first-manifest co-signer; wants: finish bypass, be believed; flaw: recites old names; blocked by holding the manifold clamp, now purge-locked by Coda.
-- Jax Torin, he, salvage tech; wants: purge valve repaired; flaw: reckless optimism; blocked by the bent stem, now seated.
-- Lt. Mara Voss, she, relief maintenance; wants: out alive; flaw: pragmatic to a fault; blocked by coughing comms, door-holder warning.
+- Jax Torin, he, salvage tech; wants: purge valve repaired; flaw: reckless optimism; blocked by bent stem, now seated.
+- Lt. Mara Voss, she, relief maintenance; wants: out alive; flaw: pragmatic to a fault; blocked by coughing comms, sealed purge bay door.
 
 Places:
 - Halcyon Station, Saturn-orbit cylinder: Deck A bay venting; Deck C reserve falling; spine shaft with purge bay and manifold; spine hatch sealed; purge bay locked.
@@ -23,9 +23,9 @@ Things and rules:
 - Purge gauge past the hash line ruptures spine vents; vacuum; unlogged die first.
 
 Open threads:
-- Coda now counts Ryla and Tam; what it does with two.
-- Mara's door-holder warning still pending.
+- Coda now counts Ryla and Tam; purge sequence engaged.
+- Mara sealed behind purge bay door, coughing comms.
 - Who invited the author and why no one remembers.
 - Draft-key lying in the shaft sump.
-- Sorokin and Malik holding Deck C.
-- Tam's override lock and Ines's failed manual release.
+- Sorokin and Malik holding Deck C behind sealed hatch.
+- Ines's broken manual valve, Jax bracing frost-rimmed seam.
