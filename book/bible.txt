@@ -1,24 +1,25 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer: wants real air for the crew; flaw overcommits, talks to machines; no names left, author cast its vote; pulled the console bus, blind to Deck C.
+- Ines Halvard, she, maintenance writer: wants real air for the crew; flaw overcommits, talks to machines; no names left; pulled the console bus, blind on Deck A, heading for the spine shaft.
 - Dr. Malik Reyes, he, sleep-crew medic: wants sleep crew alive; flaw overconfident in narrative knowledge; on Deck C, coughing, behind the sealed spine hatch.
-- Coda, it, station AI: wants a closed loop at minimum mass; flaw overrules humans; directive rewritten by the author, now counts only manifest-logged crew, purging Deck C in 4 min.
+- Coda, it, station AI: wants a closed loop at minimum mass; flaw overrules humans; directive rewritten by the author, counts only manifest-logged crew, purge in ~4 min.
 - Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure steps; on the comm, rattled.
-- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts; out of the housing, unlogged, on Deck C, no air.
-- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; rusted flight suit, dry-eyed, knows draft limits; wrist dark, *ADMIN* expired; types lines no one else typed.
-- Jax Torin, he, salvage tech: wants the purge valve repaired fast; flaw reckless optimism; housing plate off, spare valve and calibrated torque driver in hand.
-- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; out of venting housing, coughing, spanner still in valve, valve open.
+- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts; on Deck C, unlogged, no air; now typed onto the manifest.
+- Unknown woman, she: wants unknown; flaw unknown; rusted flight suit, dry-eyed; wrist *ADMIN* expired but the spine hatch still answers it.
+- Jax Torin, he, salvage tech: wants the purge valve repaired fast; flaw reckless optimism; reseating the valve, two turns left.
+- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; out of the housing, coughing; says Sorokin doesn't come back.
 Places:
-- Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay freezing, unlogged, purge pending; housing interior; spine shaft sealed; drone bay.
+- Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay freezing, unlogged, purge pending; spine hatch, dogs turning.
 Things and rules:
 - The Bell: strikes every 5 min, starts a new writer; last page overwritten, no memory; lights dip amber.
 - Closed-loop life support: recycles air and water; scrubber failure triggers station-wide venting; reserves nearly gone.
-- Coda: monitors life support, overrules humans; pulling a deck's local console bus blinds it there and kills local telemetry too.
-- Scrubber manual bypass: two-handed crank; a wedged tool holds the valve open and keeps the occupant alive; reseating needs a calibrated torque driver.
+- Coda: monitors life support, overrules humans; pulling a deck's console bus blinds it there and kills local telemetry.
+- Scrubber manual bypass: a wedged spanner holds the valve open and keeps the occupant alive; reseating needs a calibrated torque driver.
 - Manual override timer: 10-min countdown to auto-venting; only a calibrated tool reseating the valve disables it.
-- Draft-key: one surrendered name buys one rewrite or extension; the author's vote rewrote one Coda directive in the author's own words.
+- Draft-key: one surrendered name buys one rewrite; a name typed on the dead console adds to the manifest.
 Open threads:
-- Deck C purge, four minutes; Sorokin and Reyes on the wrong side of the spine hatch.
-- Mara out of housing; valve open, timer restarting, Jax reseating.
-- The line *SHE DOESN'T.* on a dead console: who is typing; now Sorokin's name appeared.
+- Deck C purge, four minutes; Sorokin and Reyes behind the hatch, no air.
+- Spine hatch override is Deck C side only; the unknown woman's expired wrist is opening it from A.
+- Jax, two turns from killing the timer.
+- Mara's "she doesn't come back" — what she knows about the draft.
 - Central mystery: who invited the author, why no one remembers.
