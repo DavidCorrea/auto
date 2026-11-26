@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "inside the second-landing ward of the Mercy General at 52 m, eleven meters past her floor, unable to read her hand or name the voice on her line"
+      "status": "second-landing ward of the Mercy General at 52 m, off the tether since 43 m, her floor and the name of whoever holds her line gone, standing over two kids and a dead cell with no answer in the sum"
     },
     {
       "name": "Dey Okafor",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "cranking the spring cell one-handed with Teo clutched to her chest, charge light guttering (one hand can't hold four degrees); still holding the winch toggle, which reaches only Dey, not Ivo"
+      "status": "same ward, arm stopped on the yellow toggle, cell dark, the last cold thing keeping Teo's medicine alive now warming"
     },
     {
       "name": "Ivo Salas",
@@ -105,7 +105,8 @@
     ],
     "events": [
       "Sol winches past her thirty-eight-meter floor to fifty-two, loses the name of the woman on her line, her grease-pencil numbers and the word for the winch drum, abandons the dead tether, and puts her lamp through a forced hatch onto Dey sitting warm and agreeable against the white cold-case, Ivo's bottle marked S.S. clipped at his hip, one green charge bead guttering out.",
-      "Sol couldn't haul Dey up because he was warm, agreeable and wouldn't clip in; Nia rounded on her as one more boat-man come for the box, and close up Sol saw the cell in its last quarter-arc and Teo — masked in Nia's arms — breathing his own exhaust behind a window that fogged and wouldn't clear, two kids running out of air."
+      "Sol couldn't haul Dey up because he was warm, agreeable and wouldn't clip in; Nia rounded on her as one more boat-man come for the box, and close up Sol saw the cell in its last quarter-arc and Teo — masked in Nia's arms — breathing his own exhaust behind a window that fogged and wouldn't clear, two kids running out of air.",
+      "Sol runs the haul arithmetic out loud on the net — one powered pull, three bodies against a two-fifty drum, air for only two, and Nia reveals the case holds Teo's medicine — and then the cell dies, the lid sweats, and Nia's arm quits mid-crank."
     ]
   }
 }
