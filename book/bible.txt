@@ -7,7 +7,7 @@ Characters:
 - Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts; out of the housing, unlogged, on Deck C, no air.
 - Unknown woman, she, Deck C figure: wants unknown; flaw unknown; rusted flight suit, dry-eyed, knows draft limits; wrist dark, *ADMIN* expired; types lines no one else typed.
 - Jax Torin, he, salvage tech: wants the purge valve repaired fast; flaw reckless optimism; housing plate off, spare valve and calibrated torque driver in hand.
-- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; sealed in venting housing, wedged spanner holding valve open and holding her.
+- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; out of venting housing, coughing, spanner still in valve, valve open.
 Places:
 - Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay freezing, unlogged, purge pending; housing interior; spine shaft sealed; drone bay.
 Things and rules:
@@ -19,6 +19,6 @@ Things and rules:
 - Draft-key: one surrendered name buys one rewrite or extension; the author's vote rewrote one Coda directive in the author's own words.
 Open threads:
 - Deck C purge, four minutes; Sorokin and Reyes on the wrong side of the spine hatch.
-- Mara in the housing; pulling the spanner frees the valve and kills her; crank removal may free her.
-- The line *SHE DOESN'T.* on a dead console: who is typing.
+- Mara out of housing; valve open, timer restarting, Jax reseating.
+- The line *SHE DOESN'T.* on a dead console: who is typing; now Sorokin's name appeared.
 - Central mystery: who invited the author, why no one remembers.
