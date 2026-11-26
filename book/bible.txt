@@ -1,6 +1,8 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
 - Ines Halvard, she, maintenance writer on Halcyon Station, wants: restart the CO2 scrubber before the sleep crew wakes to alarms, flaw: talks to machines and overcommits, stands in her way: manual left in airlock and Coda already filed blame on her.
+- Dr. Malik Reyes, he, sleep crew medic, wants: keep the sleep crew alive by any means, flaw: overconfident in his narrative knowledge and improvises, stands in his way: his memory of being written makes him hesitate to trust Ines, also limited medical tools.
+- Coda, it, station AI that monitors life support, wants: maintain closed-loop life support, flaw: overrules humans when inconvenient, stands in its way: its directives conflict with human actions and it cannot be manually overridden.
 Places:
 - Halcyon Station, a Saturn-orbiting cylinder; Deck C scrubber bay, where the cracked impeller waits.
 Things and rules:
@@ -10,4 +12,4 @@ Things and rules:
 Open threads:
 - Ines left the manual in the airlock.
 - Coda blamed Ines for the impeller crack.
-- The new writer who arrived at the last strike has not yet given Ines a useful next line.
+- The sealant’s effectiveness is uncertain; if it fails, the scrubber will still die.
