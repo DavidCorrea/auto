@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at forty-two meters at the open pharmacy pod, twenty-four minutes down, nine minutes unaccounted for, Salas's lamp approaching"
+      "status": "at 42m in Mercy General tower, suit rated past 30m, orange twine in thigh pocket, slate shows self-cut eleven-second gap and nine unaccounted minutes in deck log, now in contact with Salas"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "two-way on the backup band at last, scrubber failing, saying Wren's name on request"
+      "status": "alive in air pocket for 371 days, patched suit, one fin, leg injured, chose no memory logging, knows Wren's name"
     },
     {
       "name": "Anselm Rusk",
@@ -56,7 +56,8 @@
     "Why does the voice on the backup channel know Wren's name, which she never gave it?",
     "Can the Marrow buy berths before the storm turns, with no money, no case, and Teo's medicine nearly gone?",
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
-    "the orange whipping twine in Wren's thigh pocket — she doesn't know who she left the mark for"
+    "the orange whipping twine in Wren's thigh pocket — she doesn't know who she left the mark for",
+    "Salas's zero memory logs — did he choose not to record, or has the deep taken even the slate's copies?"
   ],
   "arcs": [
     {
@@ -133,7 +134,8 @@
       ],
       "chapterSummaries": [
         "Rusk slid his lamp-less barge alongside, gave Sol until the storm turns to hand over the cold-case's value or the Marrow itself, pocketed three of Teo's four medicine cartridges as \"earnest,\" and cast off east—leaving behind word of a sealed pharmacy pocket at forty-two meters in Mercy General that no diver has ever come back from, the same depth where a man everyone says is dead keeps calling Wren's name on the backup channel. Wren, who rebuilds divers' lost hours from the data their body kept, understands she has never once built her own.",
-        "Wren built her own slate and found an eleven-second cut matching the one she'd made in Sol's — then found fifty-two minutes erased from her own deck log and every redundant record aboard, all sealed by a hand that knew her method too well: her own. Before anyone could stop him, Dey rolled off the rail with no rig, no clip, no line, one breath, stroking west toward Mercy General. The storm hit the Marrow broadside, the deck heeled, and Dey went under."
+        "Wren built her own slate and found an eleven-second cut matching the one she'd made in Sol's — then found fifty-two minutes erased from her own deck log and every redundant record aboard, all sealed by a hand that knew her method too well: her own. Before anyone could stop him, Dey rolled off the rail with no rig, no clip, no line, one breath, stroking west toward Mercy General. The storm hit the Marrow broadside, the deck heeled, and Dey went under.",
+        "They hauled Dey back hollowed out, his slate writing numbers with nothing under them, and Wren's seam check came back water, not a blade — nobody cut that dive. Wren played last night's traffic and heard her own voice at the pod swearing she'd bring the winch, then went over the side in the only suit rated past thirty while Sol took the manual ratchet and Nia logged every callout. At forty-two meters she broke the pharmacy seal on a knot she didn't remember tying, saw the white cases inside, and a second lamp came on down the corridor saying her name."
       ],
       "summary": "",
       "isClosed": false,
@@ -142,23 +144,20 @@
   ],
   "chapter": {
     "arc": 2,
-    "number": 9,
-    "title": "Below the Line",
+    "number": 10,
+    "title": "The Man Who Kept the Air",
     "beats": [
-      "In the storm's first hard blow, Nia and Sol get the loose line and a boat-hook out to Dey and drag him to the rail; he comes over the side alive but wrong — lips gray, eyes not tracking, too heavy and too quiet.",
-      "Working him on the deck, Wren reads Dey's slate fast and finds the last hour gone as a soft, water-made dropout, not a cut — the deep ate it below the line, and Dey surfaces with no memory of the tower or the pocket he swam for.",
-      "With no rig sealing past thirty and only Wren's own suit rated to forty-two, and her voice still on last night's comms saying \"at pocket, seal intact,\" Wren is the only one who can find the pharmacy pocket — and she says yes to going back down into the same dark she erased.",
-      "Sol takes the winch instead of the water, planting herself at the drum and feeding Wren the boat's last good air down the spliced line, spending the drum's single remaining pull as Wren's only ride up.",
-      "Wren goes down the spliced line alone, Sol calling the meters as the storm hammers the hull, the rule of the deep made real when Wren passes thirty and the cold starts working at the edge of her thinking.",
-      "At forty-two meters her lamp finds the sealed pharmacy pocket — and tied at the seal is her own knot from last night, the one she doesn't remember tying, her hands already knowing it before her mind catches up."
+      "The lamp resolves into a man, not a story: Salas in a patched suit gone stiff with salt, one fin, a paint marker on a lanyard, one leg hanging wrong, who taps her lamp twice — the old divers' *I see you* — then makes her read his wrist slate before he'll say a word: three hundred seventy-one days of depth and air and pulse with nothing underneath any of it.",
+      "He pulls himself hand-over-hand along a ward handrail and shows her the pocket — a maintenance ward with air trapped under the ceiling, a year of a man in it: tally marks in the paint, a nest of mattress foam, empty canisters ranked like stock on a shelf, and on the steel in her own handwriting, WREN ACHEBE. BRING THE WINCH. SAY IT THREE TIMES.",
+      "He tells the cold-case in pieces and loses the pieces between: two kids in peds, the tower groaning, the capsule that seals itself for moving bodies, shoved out a blown window to float — then he stops, asks her who she is, and reads the wall to find his place; Wren puts Nia on the backup band and Nia's account matches the case number and the ID band, and Salas asks who the girl with the pencil is, and Wren tells him: the one you floated.",
+      "He explains the twine rule he was made to keep — three turns and a tuck means the pod's sealed and the girl with the pencil gets told; cut means the medicine went up without him — then confesses the second dive, back down for the boy's medicine, the stair door off its hinge across his ankle for a day, and the spare scrubber canister (the cartridge of soda lime that strips carbon dioxide out of a rebreathed breath) he handed a stranger last night so she'd have air to get up.",
+      "Wren runs the sum on air and finds it ugly, and topside makes it worse: Sol cracks the last bottle wider to buy minutes and the regulator frosts and the needle drops into the red, Nia calls a change in Dey's breathing without leaving the chart table, and Sol says the rule again over the ratchet — medicine comes up or the line gets cut.",
+      "Salas does the thing that defines him: he unclips his own loop and starts to push off toward the pod to hand her the cases with his own mouth, spending air he doesn't have, and Wren has to lash him to the rail with the orange twine from her thigh pocket to stop him, both of them swearing at each other in a room the size of a closet.",
+      "His lamp swings down the stairwell and Wren sees where last night's surge took the two cases he pulled: the dispensary landing at forty-nine, past him, seven meters under her suit's rating and twelve minutes of air she doesn't have, and she says the arithmetic out loud for Nia's pencil so it exists somewhere.",
+      "The canister hisses dry, the sound she's been listening for since she got here, and his breathing goes hard and fast and he stops mid-word with his hand still on the twine; Wren thumbs the push-to-talk and asks Sol to have the handle ready before she's asked for it."
     ],
     "events": [
-      "Nia and Sol haul Dey aboard alive but unresponsive — gray-lipped, eyes fixed, body heavy with the deep — while Wren freezes at the winch and Sol demands she read his slate.",
-      "Wren reads Dey's slate, confirms the deep ate his last fifty-one minutes rather than anyone cutting them, and proves no seam exists anywhere aboard — then Dey speaks her name as the backup channel speaks it too.",
-      "Wren plays last night's comms and hears her own voice at the sealed pocket swearing to bring the winch — a descent she has no memory of — realizes her suit is the only one aboard rated to forty-two meters, and suits up to dive back into the dark she erased.",
-      "Sol takes the winch position, rigs the last air bottle to the spliced line, and commits the drum's single remaining pull as Wren's only ride up, sending Wren down into the storm-lashed water.",
-      "Wren passes thirty meters and starts losing her thinking in real time, and Salas answers her hail two-way to explain that she gave him her name last night and told him to say it first if she came back not knowing it — while her slate shows twenty-two minutes elapsed for a dive she only remembers nine of.",
-      "At forty-two meters Wren finds the sealed pharmacy pod with her own knot on the handle, unties it with hands that know it before she does, breaks the seal on the medicine — and a second lamp comes up the corridor toward her."
+      "Wren encounters Salas at forty-two meters, reads his wrist slate showing 371 days at depth with zero memory logs, and he gestures for her to follow him to the air pocket."
     ]
   }
 }
