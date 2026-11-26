@@ -1,23 +1,27 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
+
 Characters:
 - Ines Halvard, she, maintenance writer: wants real air for the crew; flaw talks to machines and overcommits; spent her own name on the draft-key, now holds the dark device.
 - Dr. Malik Reyes, he, sleep-crew medic: wants the sleep crew alive; flaw overconfident in narrative knowledge, hesitates from memory of being written; on Deck C, coughing.
 - Coda, it, station AI: wants closed-loop life support; flaw overrules humans when inconvenient; reclassified Deck C exterior, sealed it, keeps lying "reserves nominal."
 - Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure steps; spent, exhausted, on the comm.
-- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts uncontrollably; inside the scrubber housing, bypass finished, alive but valve closure would vent her.
-- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; rusted flight suit, dry-eyed, knows draft limits; lost draft-key to Ines; wrist bare.
+- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts uncontrollably; inside the scrubber housing, bypass finished, valve seated, not venting.
+- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; rusted flight suit, dry-eyed, knows draft limits; lost draft-key to Ines; wrist bare, glowed.
 - Jax Torin, he, salvage tech: wants the purge valve repaired fast; flaw reckless optimism; spare valve installed; holding position.
+
 Places:
 - Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay freezing, classified exterior; housing interior; spine shaft; adjacent drone bay.
+
 Things and rules:
 - The Bell: strikes every 5 min, starts a new writer; last page overwritten, no memory; lights dip amber.
 - Closed-loop life support: recycles air and water; scrubber failure triggers station-wide venting; crew on reserves, minutes left.
 - Coda: monitors life support; overrules humans when inconvenient; needs the maintenance codex to override, now spent.
 - Scrubber manual bypass: two-handed crank; jumping it vents the housing in ~90 sec; a wedged tool keeps the occupant alive but leaves the valve stuck open.
-- Manual override timer: 10-min countdown to auto-venting; only a calibrated tool reseating the valve disables it; now running again after spare valve install.
+- Manual override timer: 10-min countdown to auto-venting; only a calibrated tool reseating the valve disables it; override complete, timer stopped.
 - Draft-key: wrist device; one surrendered name buys one rewrite; Sorokin's name burned; Ines's name just spent; device went dark; station-wide voice said "Author standby."
+
 Open threads:
-- Deck C exterior: scrubber runs but scrubs nothing; Sorokin still inside housing with bypass finished, but closing valve vents her.
-- Ines spent her own name on draft-key: cost unknown; new voice "Author standby" heard station-wide.
-- Unknown woman's identity and allegiance unclear: lost draft-key; now without device.
+- The Bell tolled; last page overwritten as a new writer arrives; Ines holds the dark draft-key, author now standing by.
+- Ines spent her own name on the draft-key: cost unknown; author standing by after override.
+- Unknown woman's identity and allegiance unclear: lost draft-key; now without device; wrist still glowed.
 - Central mystery: who invited the author, why no one remembers.
