@@ -1,29 +1,28 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants: real air and Rylia safe; flaw: overcommits, talks to machines; name peeling off port mid-collection
-- Mira Kline, she, junior writer/tech; wants: to finish the rescue; flaw: impulsive; collected first at the bell, alive but cold, uncounted by scrubbers
-- Jax Torin, he, salvage tech; wants: valve repaired and Mira found; flaw: reckless optimism; good hand holding inked one off wheel, arm bleeding
+- Ines Halvard, she, maintenance author; wants: real air and Rylia safe; flaw: overcommits, talks to machines; collected seventh, handless in vent, alive
+- Mira Kline, she, junior writer/tech; wants: to finish the rescue; flaw: impulsive; collected first, alive but cold, uncounted by scrubbers
+- Jax Torin, he, salvage tech; wants: valve repaired and Mira found; flaw: reckless optimism; holds inked wheel, arm bleeding, saw the bell-gap
 - Rylia Vance, she, logged crew; wants: name spoken and to be left alone; flaw: doesn't wait to be asked; page taken
-- Vey, he, author of record; wants: rewrite finished and one free name; flaw: overconfident in clock; talks faster when scared
-- Lira Kessler, she, author liaison; wants: to know who invited the author; flaw: distrusts crew; logged as cost
-- Mara Voss, she, relief maintenance; wants: to survive; flaw: pragmatic to a fault; dry empty pen, laughing at hatch
+- Vey, he, author of record; wants: rewrite finished and one free name; flaw: overconfident in clock, talks faster when scared; at relief, plans to sign in the gap
+- Lira Kessler, she, author liaison; wants: to know who invited the author; flaw: distrusts crew; collected eighth, memory of the inviter erased
+- Mara Voss, she, relief maintenance; wants: to survive; flaw: pragmatic to a fault; dry broken pen, laughing at hatch
 Places:
 - Halcyon Station, Saturn-orbit cylinder; scrubbers failed, needle past red
 - Spine under deck: reserve line blown, overheating, holds the crew
-- Signature port: steel slab, slot open; mosaic of burned letters, Ines seventh collected
-- Vent crawl: hatch cut by Ines, she mid-collection, hand taken
-- Relief maintenance: Voss at hatch with broken pen
+- Signature port: steel slab, slot open; mosaic of burned letters, Lira eighth
+- Vent crawl: hatch cut by Ines, now handless, dropped pen in the dark
+- Relief maintenance: Voss and Vey at hatch with broken pen
 Things and rules:
-- Bell: every 5 min a new writer overwrites; amber flash, memory erased
+- Bell: every 5 min a new writer overwrites; amber flash, memory erased; ledger's hand goes slack for half a second at the strike — the only gap a name gets out clean
 - Signature port: hand plus name; speaker logged as cost, name as truth
 - Ledger: adds only; collects before the bell; now takes the hand that signed, not just the name
 - Pens: author's pen writes page; dry pen empty; Vey's etches steel; Ines's white-hot, each burn costs a hand
 - The ink: keeps Coda's last order; hand turns valve, Jax can't feel it
 - Cost: each name collected drops scrubbers a register; seventh collection = hand taken
 Open threads:
-- Ines mid-collection in vent: hand taken, name burning; minutes of air
-- Jax bleeding, needle past red: hold valve (die) or let go (valve shuts, spine loses air)
-- Vey at relief with Voss (broken pen, laughing); bell approaching
-- Lira logged as cost, not yet collected
-- Seventh line burned into port; eighth queued for next bell
-- Rylia's taken page unsettled; Vey's free name unresolved
+- Jax bleeding on the inked wheel: hold and die, or let go and the spine loses air; the bell-gap is his only out
+- Ines handless in the vent, alive, minutes of air
+- Vey's plan: sign a free name in the half-second gap at the next bell with the broken pen
+- Ninth line queued for the next bell; who it takes unknown
+- Rylia's taken page unsettled; Vey's one free name unresolved
