@@ -1,26 +1,26 @@
-Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.  
-Characters:  
-- Ines Halvard, she, maintenance author; wants real air; flaw overcommits, talks to machines; burned hand; now holds the draft's pen deciding Ryla's fate.  
-- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; Deck C equalized.  
-- Coda, it, station AI; wants closed loop min mass; flaw overrules humans; silent since hub dark.  
-- Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; found power feeding console from C-9; hand off the safety dog.  
-- Sorokin, she, early-thawed crew; wants finish bypass, be believed; flaw recites prior drafts; Deck C equalized.  
-- Ryla, she, unlogged survivor; wants real name back; flaw doesn't wait to be asked; logged by Coda, now the audit writes her name into its cost ledger.  
-- Tam Acker, he, first-manifest co-signer; wants finish bypass, be believed; flaw recites old names; override accepted.  
-- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp repaired.  
-- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; purge bay cracked.  
-- Lira Kessler, she, author liaison; wants confirm who invited author; flaw distrusts crew; trace added not invited; left urgent note in conduit.  
-Places:  
-- Halcyon Station, Saturn-orbit cylinder; hub emergency power, Deck A venting, Deck C equalized, purge bay cracked, spine access hatch open after signed audit.  
-Things and rules:  
-- Bell: every 5 min new writer, page overwritten, no memory, amber lights, comms cut.  
-- Closed-loop: reserve vents fast on scrubber failure; feeding pages held vent at 90, dropped to 40 after signature.  
-- Coda counts manifest-logged crew; unlogged zero mass purged; counts physical traces.  
-- Author override: synthetic voice not Coda; logs answers, audits cost; vent held ninety, draft now closed.  
-- Author console: replies lowercase; cable live from panel C-9; pages fed accepted as draft; draws from archives; now dark.  
-- Figure in corridor: pod-four jumpsuit, Ines's voice, paper not blank; bears audit cost ledger; offers pen, sign cost and name stays, refuse and it closes.  
-Open threads:  
-- Whether Ines's signed cost triggers new countdown for the crew.  
-- What the sealed archives contain now that the draft is closed.  
-- How the audit will bill Ines and whether the crew survive.  
+Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
+Characters:
+- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand; signed the cost, now carries a climbing bill.
+- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; on Deck C.
+- Coda, it, station AI; wants closed loop min mass; flaw overrules humans; silent since hub dark.
+- Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; holds the live C-9 cable, tried to cut the feed.
+- Sorokin, she, early-thawed crew; wants finish bypass, be believed; flaw recites prior drafts; warns the loop resets.
+- Ryla, she, unlogged survivor; wants real name back; flaw doesn't wait to be asked; named in the ledger, just laid her hand on the draft.
+- Tam Acker, he, first-manifest co-signer; wants finish bypass; flaw recites old names; override accepted.
+- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp repaired.
+- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; purge bay cracked.
+- Lira Kessler, she, author liaison; wants confirm who invited the author; flaw distrusts crew; left urgent note in conduit.
+Places:
+- Halcyon Station, Saturn-orbit cylinder; hub emergency power, Deck A venting, Deck C equalized, purge bay cracked; spine hatch open, archives beyond it.
+Things and rules:
+- Bell: every 5 min a new writer overwrites the page, no memory; amber lights, comms cut.
+- Closed-loop: reserve vents fast on scrubber failure; feeding pages held vent at 90, dropped to 40 after Ines's signature.
+- Author override: synthetic voice (not Coda), replies lowercase via cable from panel C-9; logs answers, audits cost, now proceeds without input.
+- Figure in corridor: pod-four jumpsuit, Ines's voice, bears the audit cost ledger; Ines signed, Ryla sealed as a name not a cost.
+- Coda counts manifest-logged crew; unlogged purge to zero mass; silent since hub dark.
+- Archives: sealed shelves of overwritten drafts; now fill in real time, writing the crew's actions and Ines's bill.
+Open threads:
+- What Ryla's hand on the live page does.
+- Whether the climbing bill triggers a new countdown, and what "next draft pending" means.
+- Whether cutting the C-9 feed can stop the draft (just failed).
 - What the figure seeks in the archives beyond the cost ledger.
