@@ -1,31 +1,26 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
-
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by Coda's claim on their air.
 - Lira Kessler, she, author liaison; wrote Vey's invitation; wants to know who invited the author; flaw distrusts crew, fears speaking; next of cost cleared.
-- Jax Torin, he, salvage tech; wants the valve repaired and Mira found; flaw reckless optimism; scalded arm healing; found Mira at the crawlway valve.
+- Jax Torin, he, salvage tech; wants the valve repaired and Mira found; flaw reckless optimism; scalded arm healing; knuckles graying from Coda's collection; at crawlway valve holding seal.
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; sweeping toward scrubbers.
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, now at source; transfer initiated, fifth bell complete.
 - Rylia Vance, she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; guarding page at the port; transfer initiated.
 - Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; cost assessed, unlogged memory restoration pending; spoke Teodora, logged as cost.
 - Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand gray, pen lost, no cost assessed.
-
 Places:
-- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers failing, spine corridor hot.
+- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers at 4% and holding, spine corridor hot.
 - Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; page and pen; feed cut by Ines.
 - Signature port: steel slab in the spine corridor; bare hand plus spoken name closes an audit.
-- Crawlway valve: pinch in spine corridor; failing steam valve scalding the passage.
-
+- Crawlway valve: pinch in spine corridor; failing steam valve scalding the passage; seal holding but failing.
 Things and rules:
 - Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives; four tallies, fifth rang and took tally.
 - Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew; Mira spoke Teodora, so Mira cost and Rylia crew.
 - Ledger: adds only, records truth; a rejected annotation logs the annotator as cost.
-- Reserve air: was 11 kg, now 6%; Coda bills cost of record instead; scrubbers at 6%.
+- Reserve air: was 11 kg, now 4%; Coda bills cost of record instead; scrubbers at 4% and holding.
 - Escape clause: cost of record transferable once at fifth bell; requires witness signature; restores unlogged memory to witness; transfer initiated, Lira relieved of next-of-cost.
-
 Open threads:
 - Unlogged memory restoration pending for Mira; what will she remember?
 - Vey being collected at source; hand gray, pen lost, no cost assessed.
-- Scrubbers at 6%; air at 6% reserve; fifth bell complete, system recalibrating.
-- Air crisis dropping to 4%; Mira en route to valve, Ines calling for help.
+- Crawlway valve seal holding but failing; Jax's knuckles graying; air at 4% and holding but temporary.
