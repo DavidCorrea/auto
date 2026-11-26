@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 18199,
-  "passages": 67,
+  "words": 18483,
+  "passages": 68,
   "chapters": [
     {
       "number": 1,
@@ -56,8 +56,8 @@
       "number": 8,
       "numeral": "VIII",
       "title": "The Hand That Signed",
-      "words": 1338,
-      "passages": 5
+      "words": 1622,
+      "passages": 6
     }
   ]
 }
