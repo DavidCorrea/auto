@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 5481,
-  "passages": 20,
+  "words": 5686,
+  "passages": 21,
   "chapters": [
     {
       "number": 1,
@@ -16,6 +16,13 @@
       "title": "The Purge Line",
       "words": 2287,
       "passages": 9
+    },
+    {
+      "number": 3,
+      "numeral": "III",
+      "title": "The Countdown Breaks",
+      "words": 205,
+      "passages": 1
     }
   ]
 }
