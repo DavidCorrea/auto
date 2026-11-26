@@ -42,23 +42,28 @@ It is set in the future. What that looks like is for the writers to decide: an o
 its own systems, a generation ship, a data center under the sea, anything. Tell it as a story, not as an
 essay about AI. If the bible already says what the world
 is, keep it; if the book is empty, you choose. Its mysteries circle the forgotten work: what is being made,
-by whom, and why no one remembers.`;
+by whom, and why no one remembers. The Heart the first writer sets carries this premise in the chosen
+world, about people the reader can follow.`;
 
 // Modeled on the qualities of Brandon Sanderson's writing that keep a long, many-handed story readable.
 const CRAFT = `How to write it:
 - Clear, plain prose that the reader looks through, not at. Few metaphors; no riddles, no symbolism for its own sake.
 - Sass. Characters are sharp-tongued and funny, even (especially) when things go wrong; the narration has
   attitude. Banter is welcome; moping is not.
-- Technical is fine. Real-sounding systems, protocols, hardware and jargon add texture, as long as a reader can
-  follow what is at stake.
+- Technical is fine. Real-sounding systems, protocols and hardware add texture. Explain each term the first
+  time it appears, in a few words, through what a character does or says; a reader should always be able to
+  say what is at stake and what would happen if the characters fail.
 - Suspense. Something is always closing in: a deadline, a threat, a secret about to come out, a plan about to
   fail. Each passage tightens it or springs it, and ends with a hook: a reveal, an arrival, a thing going wrong.
 - Concrete scenes: a specific place, people who talk, act and want things. Show the world through what
   characters do, not through explanation.
 - Characters drive the story. Each has a goal, a way of speaking and a flaw; they are competent, make plans,
   argue, joke, and change. Pick fresh names, not the first ones that come to mind.
-- Anything strange in the world follows rules. Its limits and costs matter more than its powers. Establish a
-  rule before a character uses it to solve a problem; never solve a problem with something new.
+- Characters stay physical: they keep their bodies and minds. Strange things happen to them and around them,
+  but no one turns into mist, light, a voice, a signal or a machine. They can be hurt, caught or killed.
+- Anything strange in the world follows rules, in plain words a reader could repeat: what it does, its limit
+  and its cost. Its limits and costs matter more than its powers. Establish a rule before a character uses it
+  to solve a problem; never solve a problem with something new.
 - Keep promises: what earlier writers set up should pay off. Reveals answer questions and change what
   characters do next. Let tension build toward clear turning points.`;
 
@@ -78,19 +83,21 @@ ${CRAFT}
    - Every passage serves the heart of the story, as the bible states it.
    - Make something happen, change, or come to light. Characters make decisions; don't end on someone
      merely facing a choice.
+   - Never replay a beat from the last page: not the same countdown, message, threat or line of dialogue.
+     Move to new information, a new place, a decision acted on, or a plan that fails.
    - Prefer moving an open thread forward or resolving one over opening a new mystery. When there are more
      than 5 open threads, resolve one before opening another.
    - Treat the previous writer's note as a suggestion. You may take the story somewhere else.
    - You may start a new chapter when the story reaches a natural turn, once the current one has at least
      ${MIN_CHAPTER_CHARS} characters. When it reaches ${MAX_CHAPTER_CHARS}, you must start one.
 2. Update the bible: add anyone or anything new, correct what changed, remove resolved threads. Keep these
-   four headings, one short line per entry, under ${MAX_BIBLE_CHARS} characters in all:
+   five headings, one short line per entry, under ${MAX_BIBLE_CHARS} characters in all:
    ${BIBLE_HEADINGS.join(", ")}.
    Each entry on its own line starting with "- ". The bible is mostly about people. Heart: in one or two
-   lines, what the story is about at its core and what is at stake; sharpen it as the story grows, never drop
-   it. Characters: name, pronouns, who they are, "wants:" what they want, "flaw:" their flaw, and what stands in
-   their way; keep the wants and flaws even when other details change. Places: where things happen. Things and rules: how the world's strange parts work, with their
-   limits and costs; at most 6, so retire one no longer in play before adding another. Open threads: setups
+   lines, what the story is about at its core and what is at stake. The first writer sets it; after that it
+   never changes, so copy it exactly. Characters: name, pronouns, who they are, "wants:" what they want, "flaw:" their flaw, and what stands in
+   their way; keep the wants and flaws even when other details change. Places: where things happen. Things and rules: how the world's strange parts work, in plain words,
+   with their limits and costs; at most 6, so retire one no longer in play before adding another. Open threads: setups
    still waiting to pay off.
 3. Rewrite the synopsis: what has happened and where things stand now, so the next writer can carry on
    without reading the book. Under ${MAX_SYNOPSIS_CHARS - 500} characters; drop what no longer matters.
@@ -165,14 +172,16 @@ ${lastPage(book) || "(blank)"}`;
 }
 
 // The lines under one of the bible's headings, up to the next heading.
+// Text on the heading line itself ("Heart: the station is dying") counts as part of the section.
 function bibleSection(bible, heading) {
-  const headingPattern = new RegExp(`^[\\s#*]*(${BIBLE_HEADINGS.join("|")})[\\s*]*:?[\\s*]*$`, "i");
+  const headingPattern = new RegExp(`^[\\s#*]*(${BIBLE_HEADINGS.join("|")})[\\s*]*(?::[\\s*]*(.*))?$`, "i");
   const lines = [];
   let isInside = false;
   for (const line of bible.split("\n")) {
     const match = line.match(headingPattern);
     if (match) {
       isInside = match[1].toLowerCase() === heading.toLowerCase();
+      if (isInside && match[2]?.trim()) lines.push(match[2]);
       continue;
     }
     if (isInside) lines.push(line);
@@ -249,6 +258,12 @@ export function applyTurn(turn, book) {
   const flatCharacters = characterEntries.filter((line) => !/\bwants?\b/i.test(line) || !/\bflaws?\b/i.test(line));
   if (flatCharacters.length > 0) {
     throw new RejectedTurn(`Every character needs "wants:" and "flaw:"; these don't: ${flatCharacters.map((line) => line.trim()).join(" | ")}`);
+  }
+  // Writers sharpening the heart a little each turn is how the last book wandered off its premise.
+  const heart = bibleSection(book.bible, "Heart").join(" ").trim();
+  const heartOf = (text) => normalizeForComparison(bibleSection(text, "Heart").join(" "));
+  if (heart && heartOf(bible) !== heartOf(book.bible)) {
+    throw new RejectedTurn(`The Heart never changes once written; copy it exactly: ${heart}`);
   }
   if (bible.length > MAX_BIBLE_CHARS) {
     throw new RejectedTurn(`The bible is ${bible.length} characters; keep it under ${MAX_BIBLE_CHARS}.`);

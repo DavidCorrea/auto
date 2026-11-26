@@ -162,6 +162,21 @@ describe("adding a turn to the book", () => {
     assert.throws(() => applyTurn(parseTurn(reply({ bibleText: `${bible}\n${"- x\n".repeat(MAX_BIBLE_CHARS)}` })), book), /bible is/);
   });
 
+  test("rejects a bible that rewrites the heart", () => {
+    const drifted = bible.replace("Whether Ottoline keeps the light on", "Whether the boats sail");
+    assert.throws(() => applyTurn(parseTurn(reply({ bibleText: drifted })), book), /Heart.*Whether Ottoline keeps the light on/);
+  });
+
+  test("keeps a heart copied with different case, punctuation or layout", () => {
+    const restyled = bible.replace("Heart:\n- Whether Ottoline keeps the light on", "**Heart:** whether Ottoline keeps the light on.");
+    assert.doesNotThrow(() => applyTurn(parseTurn(reply({ bibleText: restyled })), book));
+  });
+
+  test("lets the first writer set the heart", () => {
+    const blank = { ...book, bible: "" };
+    assert.doesNotThrow(() => applyTurn(parseTurn(reply()), blank));
+  });
+
   test("rejects a passage that repeats the last page", () => {
     const repeating = bookWith(`Before that, ${passage}`);
     assert.throws(() => applyTurn(parseTurn(reply()), repeating), RejectedTurn);
