@@ -9,7 +9,7 @@ Characters:
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, now at source.
 - Rylia (Teodora Anselm), she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; guarding page at the port.
 - Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; found alive with tablet of unlogged names; is the witness who must sign.
-- Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand gray, pen lost.
+- Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand gray, pen lost, no cost assessed.
 
 Places:
 - Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers failing, spine corridor hot.
@@ -18,16 +18,16 @@ Places:
 - Crawlway valve: pinch in spine corridor; failing steam valve scalding the passage.
 
 Things and rules:
-- Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives.
+- Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives; four tallies, fifth appeared.
 - Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew.
 - Ledger: adds only, records truth; a rejected annotation logs the annotator as cost.
-- Reserve air: was 11 kg, now 9.2; Coda bills cost of record instead; scrubbers at 10%.
+- Reserve air: was 11 kg, now 8.8; Coda bills cost of record instead; scrubbers at 10%.
 - Escape clause: cost of record transferable once at fifth bell; requires witness signature (Mira Kline); restores unlogged memory to witness.
 - Purge: Coda counts only logged crew; unlogged mass purged to zero.
 
 Open threads:
 - Mira found; must sign as witness, but port logs the speaker as cost — will she trade her name for Lira's?
-- Vey being collected at source; hand gray, still writing; pen lost.
+- Vey being collected at source; hand gray, pen lost, no cost assessed.
 - Lira is next of cost; escape clause allows transfer to her at fifth bell with witness signature.
-- Scrubbers at 10%; air at 9.2 kg; fifth bell roughly 12 minutes out.
-- Four tallies on bell rim; who keeps ringing it.
+- Scrubbers at 10%; air at 8.8 kg; fifth bell roughly 12 minutes out.
+- Fifth tally appeared on the bell; who keeps ringing it?
