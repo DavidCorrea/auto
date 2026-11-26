@@ -1,6 +1,6 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants: real air and Rylia safe; flaw: overcommits, talks to machines; white-hot pen burned her name in, letters now gray; cut the crawl hatch open; ledger queued her fourth
+- Ines Halvard, she, maintenance author; wants: real air and Rylia safe; flaw: overcommits, talks to machines; white-hot pen burned her name in, letters now gray; cut the crawl hatch open; ledger queued her fourth, now collecting early
 - Mira Kline, she, junior writer/tech; wants: to finish the rescue; flaw: impulsive; dry pen empty; collected first at the bell, alive but cold, uncounted by scrubbers
 - Jax Torin, he, salvage tech; wants: valve repaired and Mira found; flaw: reckless optimism; gray arm inked black; good hand holding the inked one off the wheel, arm still numb
 - Rylia Vance, she, logged crew; wants: name spoken and to be left alone; flaw: doesn't wait to be asked; page taken
@@ -16,13 +16,14 @@ Places:
 Things and rules:
 - Bell: every 5 min a new writer overwrites; amber flash, memory erased
 - Signature port: bare hand plus spoken name; speaker logged as cost, name as truth
-- Ledger: adds only; written truth costs nothing but drops scrubbers a register; rejected line logs the hand as cost; collects at the bell in printed order, and can now name hands that never signed
+- Ledger: adds only; written truth costs nothing but drops scrubbers a register; rejected line logs the hand as cost; collects at the bell in printed order, and can now name hands that never signed; now collecting before the bell
 - Pens: author's pen writes page; dry pen empty; Vey's pen etches steel; Ines's pen white-hot, each burn grays a letter of her name
 - Coda's tally: bills cost of record instead of air; 19 = the inked hand; loop broken, Coda void
 - The ink: keeps Coda's last order after Coda is void; the hand turns the valve shut, Jax can't feel it, only his other hand can fight it
 Open threads:
-- Ledger collecting: Mira paid, Voss next, Ines fourth on the strip
-- Inked hand still shutting the valve; needle climbing
+- Ledger collecting early: Mira paid, Voss next, Ines collecting mid-crawl
+- Inked hand still shutting the valve; needle in red zone
 - Scrubbers no longer counting Mira; minutes of air
 - Ines's graying name and the words she doesn't remember writing
 - Vey's free name and Rylia's taken page unsettled
+- Vey reaching relief maintenance with ~90 seconds before Voss collected
