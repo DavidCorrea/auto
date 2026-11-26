@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 33258,
-  "passages": 125,
+  "words": 33483,
+  "passages": 126,
   "chapters": [
     {
       "number": 1,
@@ -98,8 +98,8 @@
       "number": 14,
       "numeral": "XIV",
       "title": "The Truth Runs Hot",
-      "words": 1331,
-      "passages": 5
+      "words": 1556,
+      "passages": 6
     }
   ]
 }
