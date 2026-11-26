@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "second-landing ward of the Mercy General at 52 m, off the tether since 43 m, her floor and the name of whoever holds her line gone, standing over two kids and a dead cell with no answer in the sum"
+      "status": "at 52m in Mercy General ward, past floor, off tether, memory failing (can't recognize Wren's voice, no names on hand), holding spare mask, facing drone and Factor's demand"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "seated against the warm side of the cold-case at ~52 m, calm and \"comfortable\"; has lost \"up,\" the boat's name, and why he came; Wren's voice no longer reaches him"
+      "status": "seated against cryo-case, warm/comfortable, mask on but fogged, slate dark, no \"up\" behind the glass, 80kg, not clipping in"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the winch on the Mercy's helipad, ninety seconds on Sol's clock, recording the dive unedited"
+      "status": "at winch on Mercy helipad, delivered full unedited truth to Sol, no splices, holding the choice open"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "same ward, arm stopped on the yellow toggle, cell dark, the last cold thing keeping Teo's medicine alive now warming"
+      "status": "gray-lipped, arm stopped mid-crank on yellow toggle, case cell dead, case warming, Teo's mask fogged not clearing (spent canister), minutes left"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "alive, in an air pocket under the second landing roof of the salvage tower, no scrubber, an hour past lending Dey his spare; the sleepy stage of carbon dioxide build-up has begun"
+      "status": "still in air pocket at 42m in salvage tower, no scrubber, CO2 sleepy stage, spare bottle (S.S.) given to Dey"
     }
   ],
   "threads": [
@@ -48,7 +48,8 @@
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
     "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it.",
-    "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down."
+    "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down.",
+    "The Factor's drone has logged the scene and awaits Sol's declaration — ascent with crate or people — which will be recorded and binding"
   ],
   "arcs": [
     {
@@ -106,7 +107,8 @@
     "events": [
       "Sol winches past her thirty-eight-meter floor to fifty-two, loses the name of the woman on her line, her grease-pencil numbers and the word for the winch drum, abandons the dead tether, and puts her lamp through a forced hatch onto Dey sitting warm and agreeable against the white cold-case, Ivo's bottle marked S.S. clipped at his hip, one green charge bead guttering out.",
       "Sol couldn't haul Dey up because he was warm, agreeable and wouldn't clip in; Nia rounded on her as one more boat-man come for the box, and close up Sol saw the cell in its last quarter-arc and Teo — masked in Nia's arms — breathing his own exhaust behind a window that fogged and wouldn't clear, two kids running out of air.",
-      "Sol runs the haul arithmetic out loud on the net — one powered pull, three bodies against a two-fifty drum, air for only two, and Nia reveals the case holds Teo's medicine — and then the cell dies, the lid sweats, and Nia's arm quits mid-crank."
+      "Sol runs the haul arithmetic out loud on the net — one powered pull, three bodies against a two-fifty drum, air for only two, and Nia reveals the case holds Teo's medicine — and then the cell dies, the lid sweats, and Nia's arm quits mid-crank.",
+      "The Factor's drone arrives demanding the cargo count; Wren identifies herself and delivers the full unedited arithmetic — two children, Dey's condition (mask on but fogged, slate dark, no up), the drum's limits, the air supply, the twelve thousand credits, three crew berths costing eleven-five, the storm declaring in nine hours — forcing Sol to choose live on the net with no splices."
     ]
   }
 }
