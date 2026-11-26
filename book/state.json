@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "on the Marrow's deck, waiting to be told who she saved, hand out for the mask"
+      "status": "on the Marrow's deck, mask off, easy and at peace, believing the cold-case went down with the dead winch"
     },
     {
       "name": "Dey Okafor",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on the Marrow's deck, hand-hauling the winch cable through a snatch block, forearm bleeding, radio turned up"
+      "status": "on deck with the reader in her lap, the edit made and verified, saying nothing"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on deck, feral and exhausted, clutching Teo, hostile to help"
+      "status": "on deck by the wheelhouse with Teo, openly hostile to Wren, now the only one aboard carrying the true version"
     },
     {
       "name": "Ivo Salas",
@@ -48,8 +48,7 @@
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down.",
     "Ivo Salas's call on the backup channel — asking that the kid be told to keep going — is still open and unanswered",
-    "Ivo Salas's voice on the backup channel knows Wren's name, which she has never given him",
-    "a slate writes down any name said to its diver's face, and Wren's own voice woke Sol's slate this morning"
+    "Ivo Salas's voice on the backup channel knows Wren's name, which she has never given him"
   ],
   "arcs": [
     {
@@ -111,7 +110,8 @@
       "Wren plays Sol's slate for the crew, who watch Sol refuse the twelve thousand and send Dey and the children up alone; at the tail Salas's voice bleeds in and the open radio says Wren's name.",
       "The anchor dragged and the Marrow swung toward the drowned tower while Wren and Nia hauled the line to hold the boat, Teo slid toward the rail, and the Factor's barge closed in through the storm.",
       "Teo's scrubber quits and Wren seats the soda-lime cartridge from Dey's rebreather into the boy's mask, buying hours not days; Dey surrenders it gladly, Nia takes the help hating it, and Wren turns to find Sol waiting.",
-      "Wren sets the splice that would cut the cost of Sol's choice from her memory, but Nia sees her thumb on the edit key and demands she speak the truth aloud, and Sol — reaching for the mask, trusting Wren to tell her true — asks who she saved."
+      "Wren sets the splice that would cut the cost of Sol's choice from her memory, but Nia sees her thumb on the edit key and demands she speak the truth aloud, and Sol — reaching for the mask, trusting Wren to tell her true — asks who she saved.",
+      "Wren splices the kind version and plays it to Sol, who takes it at peace and nods at the children like a good deed done, while Nia shouts the cut truth across the deck to nobody who can hold it, Salas's voice says Wren's name over the open channel, and the barge comes close enough to see the man at the wheel."
     ]
   }
 }
