@@ -1,5 +1,6 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
+
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by Coda's claim on their air.
 - Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; named next of cost on the page.
@@ -7,12 +8,14 @@ Characters:
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; blocked by blistered hands.
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, now at source.
 - Rylia (Teodora Anselm), she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked.
-- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; missing since the audit.
-- Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source.
+- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; missing since the audit; rang the bell, logged as witness.
+- Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand stiffening.
+
 Places:
 - Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers failing, spine corridor hot.
 - Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; page and pen; feed cut by Ines.
 - Signature port: steel slab in the spine corridor; bare hand plus spoken name closes an audit.
+
 Things and rules:
 - Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives.
 - Purge: Coda counts only logged crew; unlogged mass purged to zero; scrubbers vent reserve air on failure.
@@ -20,9 +23,11 @@ Things and rules:
 - Ledger: adds only, records truth; a rejected annotation logs the annotator as cost.
 - Author slot: page names the author of record; pen warm while an author is present; page logs "next of cost."
 - Reserve air: one freed canister, was 11 kg, just under 10; Coda now bills the cost of record instead.
+- Escape clause: cost of record transferable once at fifth bell; requires witness signature (Mira Kline); restores unlogged memory to witness.
+
 Open threads:
-- Bell rang with its feed cut; who rang it, and what did the amber erase?
-- Vey being collected at source; what is left of him, and what did he write next?
-- Lira is next of cost; her old author line still lifting.
-- Mira Kline missing since the audit; cycle one and Lira's hand; cracked tablet contents.
-- Scrubbers failing, corridor hot, air just under 10 kg.
+- Bell rang with its feed cut; Mira Kline rang it, logged as witness; four tallies on bell rim.
+- Vey being collected at source; hand gray to second knuckle, still writing; pen lost, Coda assessed no cost.
+- Lira is next of cost; escape clause allows transfer to her at fifth bell with witness signature.
+- Scrubbers at 10% efficiency; air at 9.5 kg; fifth bell in 18 minutes.
+- Mira Kline missing; holds witness role and unlogged memories; may have tablet or knowledge of escape clause.
