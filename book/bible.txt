@@ -1,4 +1,5 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
+
 Characters:
 - Ines Halvard, she, maintenance author; wants real air; flaw overcommits, talks to machines; burned hand; signed for corridor figure; holds override, vent at ninety.
 - Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; Deck C equalized.
@@ -10,16 +11,19 @@ Characters:
 - Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp repaired.
 - Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; purge bay cracked.
 - Lira Kessler, she, author liaison; wants confirm who invited author; flaw distrusts crew; trace added not invited; left urgent note in conduit.
+
 Places: Halcyon Station, Saturn-orbit cylinder: hub emergency power, Deck A venting, Deck C equalized, purge bay cracked, six pods open, panel C-9 corridor overwritten pages, manuscript archives sealed in spine since first purge line.
+
 Things and rules:
 - Bell: every 5 min new writer, page overwritten, no memory, amber lights, comms cut.
 - Closed-loop: reserve vents fast on scrubber failure; feeding pages held vent at 90, dropped to 40 after signature.
 - Coda counts manifest-logged crew; unlogged zero mass purged; counts physical traces.
 - Author override: synthetic voice not Coda; logs answers, audits cost; vent held ninety but draft open.
 - Author console: replies lowercase; cable live from panel C-9; pages fed accepted as draft; draws from archives.
-- Figure in corridor: pod-four jumpsuit, carries blank paper, speaks Ines's voice bad speaker; took signature; went still when vent held; may reactivate.
+- Figure in corridor: pod-four jumpsuit, blank paper, speaks Ines's voice bad speaker; took signature; went still when vent held; may reactivate; now stepped toward spine hatch.
+
 Open threads:
-- What figure in corridor is, why it has Ines's voice.
+- What figure wants now that it stepped toward spine hatch.
 - What author writing toward, cost audit bills Ines.
 - How audit counts revised manifest after draft closed.
-- Whether crew can survive audit and the figure's turn.
+- Whether crew can survive audit and figure's turn.
