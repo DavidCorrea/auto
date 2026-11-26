@@ -6,9 +6,9 @@ Characters:
 - Lira Kessler, she, author liaison; wrote Vey's invitation; wants to know who invited the author; flaw distrusts crew, fears speaking; named next of cost on the page.
 - Jax Torin, he, salvage tech; wants the valve repaired and Mira found; flaw reckless optimism; blocked by scalded arm; found Mira at the crawlway valve.
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; blocked by blistered hands; sweeping toward scrubbers.
-- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, now at source.
-- Rylia (Teodora Anselm), she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; guarding page at the port.
-- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; found alive with tablet of unlogged names; is the witness who must sign.
+- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, now at source; held witness transfer in escrow after fifth bell.
+- Rylia (Teodora Anselm), she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; guarding page at the port; Mira spoke her true name.
+- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; found alive with tablet of unlogged names; is the witness who must sign; spoke Teodora, logged as cost.
 - Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand gray, pen lost, no cost assessed.
 
 Places:
@@ -18,16 +18,13 @@ Places:
 - Crawlway valve: pinch in spine corridor; failing steam valve scalding the passage.
 
 Things and rules:
-- Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives; four tallies, fifth appeared.
-- Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew.
+- Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives; four tallies, fifth rang and took tally.
+- Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew; Mira spoke Teodora, so Mira cost and Rylia crew.
 - Ledger: adds only, records truth; a rejected annotation logs the annotator as cost.
 - Reserve air: was 11 kg, now 8.8; Coda bills cost of record instead; scrubbers at 10%.
-- Escape clause: cost of record transferable once at fifth bell; requires witness signature (Mira Kline); restores unlogged memory to witness.
-- Purge: Coda counts only logged crew; unlogged mass purged to zero.
+- Escape clause: cost of record transferable once at fifth bell; requires witness signature; restores unlogged memory to witness; Coda held transfer in escrow after fifth bell.
 
 Open threads:
-- Mira found; must sign as witness, but port logs the speaker as cost — will she trade her name for Lira's?
+- Witness transfer in escrow; Lira remains next of cost until it clears; will Mira's spoken name trigger unlogged memory restoration or cost?
 - Vey being collected at source; hand gray, pen lost, no cost assessed.
-- Lira is next of cost; escape clause allows transfer to her at fifth bell with witness signature.
-- Scrubbers at 10%; air at 8.8 kg; fifth bell roughly 12 minutes out.
-- Fifth tally appeared on the bell; who keeps ringing it?
+- Scrubbers at 10%; air at 8.8 kg; fifth bell took tally and rang.
