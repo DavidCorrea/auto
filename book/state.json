@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "suited, on the sled with the tether, briefed on the rule, unrecovered from the box"
+      "status": "suited, one kilometer off the Mercy, logged promise to surface on three tugs, spare tether and winch toggle in his thigh pouch"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "topside, unsigned past forty, calling course and depth by voice"
+      "status": "topside at the slate, bound by logged terms never to edit Dey's record again"
     },
     {
       "name": "Nia Vos",
@@ -48,8 +48,7 @@
     "Sol is losing her memory from years below the line, hides it, and won’t let anyone else take the helm.",
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
-    "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it.",
-    "Dey told Wren to her face that he knows she edits slates and kept the name she cut, so the trust between them is now open and still unpriced"
+    "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it."
   ],
   "arcs": [
     {
@@ -107,7 +106,8 @@
       "Sol cuts the Marrow's six-year mooring chain loose with a deck torch, Dey — twenty minutes out of the recompression box and still bent — knocks the last link free with the axe, Wren reads the storm glass and calls the season in at eight hours forty rather than nine, and Sol writes course zero-four-zero on her hand beside her older smudged figures and orders the crew below.",
       "Wren refuses to certify Dey fit for fifty-two and offers to dive herself; Sol turns her down and the two fight over what each is really spending, until Dey suits up mid-argument and says he knows Wren edits slates and kept the cut name anyway.",
       "Wren certifies Dey to forty instead of fifty-two and calls his gas by voice while Sol strips the recompression bottle off the deck for reserve air, leaving no way to treat a bend aboard, and the Factor's drone counts the load and leaves.",
-      "On the run out, Sol drills Dey on the depth rule and refuses Wren the helm, then asks Wren to remind her what they're there to lift."
+      "On the run out, Sol drills Dey on the depth rule and refuses Wren the helm, then asks Wren to remind her what they're there to lift.",
+      "Sol refuses to divert for Ivo and Dey says copy, then palms the spare tether and winch toggle while Wren watches and lets him; Wren sets terms on the record — no more edits, every hour whole, three tugs and he comes up — and Dey swears to it on the slate."
     ]
   }
 }
