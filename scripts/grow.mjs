@@ -361,6 +361,8 @@ async function grow() {
     } catch (error) {
       if (!(error instanceof RejectedTurn)) throw error;
       console.log(`Attempt ${attempt} rejected: ${error.message}`);
+      // The reply is story text only, and without it a rejection can't be diagnosed from the run log.
+      console.log(`--- rejected reply ---\n${reply}\n--- end ---`);
       messages.push({ role: "assistant", content: reply });
       messages.push({ role: "user", content: `That was rejected: ${error.message} Try again, replying in the same format.` });
     }
