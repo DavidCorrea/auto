@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "on deck with the locker, storm glass falling, shaken and hiding it"
+      "status": "casting off the transit-station mooring, course zero-four-zero for the Mercy General, nine hours before the season is declared."
     },
     {
       "name": "Dey Okafor",
@@ -46,9 +46,9 @@
   "threads": [
     "Wren quietly edits divers’ slates to spare them what they did, and has never told anyone.",
     "Sol is losing her memory from years below the line, hides it, and won’t let anyone else take the helm.",
-    "Dey’s indenture: one year left and no way to pay it off without a big score.",
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
-    "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut."
+    "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
+    "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it."
   ],
   "arcs": [
     {
@@ -104,7 +104,8 @@
       "Dey dropped to nearly forty meters past the memory line while Wren warned him off his slate and his failing air, until his voice returned over the comm looping the same phrases wrong, and Sol reached for the winch to haul him up.",
       "Dey comes up bent and alive after seventy-nine minutes underwater on a forty-minute mix, with a sealed cold-chain locker he doesn't remember lashing to himself and no memory of the hour past the line, and the crew falls silent around the gap in him.",
       "Wren rebuilds Dey's hour, finds he breathed forty minutes off a trapped old diver named Ivo Salas and left him below the line, edits the man out and lies to Sol — and Dey says the cut name anyway.",
-      "Wren fails to convince Dey his memory of Ivo Salas is pressure-scramble while Sol does the math on berths and mooring she can't survive, hides a memory gap by copying her own chalked figures onto her hand, and the storm glass plunges as a drone approaches."
+      "Wren fails to convince Dey his memory of Ivo Salas is pressure-scramble while Sol does the math on berths and mooring she can't survive, hides a memory gap by copying her own chalked figures onto her hand, and the storm glass plunges as a drone approaches.",
+      "The Factor's drone tenders the contract — a sealed cryo-case at fifty-two meters in the drowned Mercy General for eight thousand, plus retirement of Dey's last indenture year — and Sol takes it over Wren's objection, while Wren reads the spec and works out that the case has been kept cold by hand for twenty-two years."
     ]
   }
 }
