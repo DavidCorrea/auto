@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 7789,
-  "passages": 29,
+  "words": 8062,
+  "passages": 30,
   "chapters": [
     {
       "number": 1,
@@ -23,6 +23,13 @@
       "title": "The Countdown Breaks",
       "words": 2308,
       "passages": 9
+    },
+    {
+      "number": 4,
+      "numeral": "IV",
+      "title": "The Spine Opens",
+      "words": 273,
+      "passages": 1
     }
   ]
 }
