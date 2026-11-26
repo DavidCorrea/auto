@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "breathing again on his own at fifty-two meters, the Factor's drone now hanging overhead"
+      "status": "kneeling at the cold-case in the Mercy General ward, off the winch for two minutes, warm and calm and steadier than he should be"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": ""
+      "status": "one hand on the crank, forty turns in debt, eight doses left"
     },
     {
       "name": "Ivo Salas",
@@ -105,7 +105,8 @@
     ],
     "events": [
       "Face to face in the flooded ward, Nia refuses to leave the crank and demands Ivo Salas, while Dey — warm, calm, and wrong — can offer only Ivo's name and borrowed air, and Nia recognizes the depth is already eating him.",
-      "Wren hears Dey's exhaust tick stop, talks him back to breathing live by voice with no slate-splice for the first time in four years, radios Sol that the case is two children, and the Factor's drone drops through the hatch counting seals as Sol takes her thumb off the winch brake."
+      "Wren hears Dey's exhaust tick stop, talks him back to breathing live by voice with no slate-splice for the first time in four years, radios Sol that the case is two children, and the Factor's drone drops through the hatch counting seals as Sol takes her thumb off the winch brake.",
+      "Nia reveals the cold-case is her brother's medicine chest, wound by hand for a year, and begs them to leave; when Teo stops breathing behind the glass, Dey helps her dose him one-handed, spending one of nine doses and costing forty turns of the crank."
     ]
   }
 }
