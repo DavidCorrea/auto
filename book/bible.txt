@@ -1,5 +1,6 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
+
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by the purge she just woke.
 - Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; her hand wrote the cycle-one invitation; page names her author of record, pen in hand.
@@ -9,12 +10,14 @@ Characters:
 - Rylia, she, first cost; wants her real name; flaw doesn't wait to be asked; unlogged, now purge-target.
 - Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; absent since the audit.
 - Vey, he, figure in weathered jumpsuit; wants the author's rewrite finished; flaw overconfident in the clock; tablet cracked, whereabouts unknown.
+
 Places:
 - Halcyon Station, Saturn-orbit cylinder; hub on emergency power; audit lock open; purge resumed.
 - Spine corridor: hot conduit, dark bypass port, old draft-marks.
 - Pod-four: ledger page filled, port ring warm.
 - Stairwell: hidden panel open; canister taken.
-- Author's workshop: low room; welded-cable desk; worn chair; brass bell, hammer, copper pipe; page and pen.
+- Author's workshop: low room; welded-cable desk; worn chair; brass bell, hammer, copper pipe; page and pen; canister free, bell silent.
+
 Things and rules:
 - Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives. Now silent.
 - Bell's air: hammer fed by reserve air piped from workshop; cutting the feed frees the air and stops the writers.
@@ -22,10 +25,11 @@ Things and rules:
 - Signature port: bare hand plus spoken name logs speaker as cost, closes audit; must be scratched on steel.
 - Ledger: adds only, records truth; rejected annotation logs annotator as cost.
 - Author slot: open page names author of record (now Lira Kessler); pen warm while author present; page logs "next of cost."
+
 Open threads:
 - Why did cycle-one Lira invite the author; will she write or refuse the pen?
 - Rylia's true name unspoken; unlogged; purge aimed at her.
 - 11 kg reserve air in hand; hub scrubbers failing; corridor hot.
 - Vey's allegiance, "cycle one," cracked tablet, missing; Mira Kline missing.
-- No writers coming; what the silence costs; "next of cost: the author."
+- No writers coming; silence costs; "next of cost: the author."
 - Ines's forgotten wall scratch: perhaps her own signature from an earlier cycle.
