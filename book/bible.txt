@@ -16,7 +16,8 @@ Things and rules:
 - Emergency protocol four-delta: Kova's code that lifts Coda's lockdown; limit: one cycle only, cost: logs the override and flags Ines/Malik.
 Open threads:
 - Sealant failed catastrophically; base split, foam blowing; true hold time unknown.
-- Codex cracked on the deck; override not yet entered.
+- Codex cracked on the deck; chip recovered by Kova but override window closed.
 - Sorokin thawed from Deck A though logged stable; recites prior drafts; log may be edited.
-- Coda will re-trigger lockdown if the seal fails.
+- Coda venting Deck C to exterior; repressurization requires station commander authorization.
+- Second codex allegedly on Deck A in cryo bay; Ines denies placing it there.
 - Central mystery: who invited the author, and why no one remembers.
