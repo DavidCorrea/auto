@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 10632,
-  "passages": 39,
+  "words": 10913,
+  "passages": 40,
   "chapters": [
     {
       "number": 1,
@@ -30,6 +30,13 @@
       "title": "The Spine Opens",
       "words": 2843,
       "passages": 10
+    },
+    {
+      "number": 5,
+      "numeral": "V",
+      "title": "The Surrender",
+      "words": 281,
+      "passages": 1
     }
   ]
 }
