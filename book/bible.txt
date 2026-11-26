@@ -1,26 +1,24 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer: wants real air for crew; flaw overcommits, talks to machines; no names left; hauling Reyes and Sorokin up spine shaft.
-- Dr. Malik Reyes, he, sleep-crew medic: wants sleep crew alive; flaw overconfident in narrative knowledge; suit breached, glove frozen, dragged Sorokin through hatch.
-- Coda, it, station AI: wants closed loop at minimum mass; flaw overrules humans; directive rewritten by author, counts only manifest-logged crew, purge in ~3 min.
-- Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure steps; on comm, rattled.
-- Sorokin, she, early-thawed sleep-crew: wants to finish bypass and be believed; flaw recites prior drafts; now on manifest, reciting draft lines in shaft.
-- Unknown woman, she: wants unknown; flaw unknown; rusted flight suit, dry-eyed; expired *ADMIN* wrist burning out holding hatch dogs.
-- Jax Torin, he, salvage tech: wants purge valve repaired fast; flaw reckless optimism; one turn left to kill timer.
-- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; out of housing, coughing; knows Sorokin "doesn't come back."
+- Ines Halvard, she, maintenance writer: wants real air for crew; flaw overcommits, talks to machines; climbing spine shaft hauling Reyes and Sorokin, no names left.
+- Dr. Malik Reyes, he, sleep-crew medic: wants sleep crew alive; flaw overconfident in narrative knowledge; suit breached, frozen glove, climbing.
+- Coda, it, station AI: wants closed loop at minimum mass; flaw overrules humans; counts only manifest-logged crew, purge halted.
+- Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure; on comm, rattled.
+- Sorokin, she, early-thawed sleep-crew: wants to finish bypass and be believed; flaw recites prior drafts; on manifest, stopped reciting in shaft.
+- Unknown woman, she: wants unknown; flaw unknown; rusted flight suit, dry-eyed; badge burned out, sealed on Deck A side of hatch.
+- Jax Torin, he, salvage tech: wants purge valve repaired; flaw reckless optimism; killed the timer, valve done.
+- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; coughing; revealed the draft's "someone holds the door" trick.
 Places:
-- Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay freezing, purge pending; spine hatch dogs seizing, held by burning badge; spine shaft vertical access, frost-slick rungs.
+- Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay, purge halted; spine hatch now sealed; spine shaft, frost-slick rungs.
 Things and rules:
 - The Bell: strikes every 5 min, starts new writer; last page overwritten, no memory; lights dip amber.
-- Closed-loop life support: recycles air/water; scrubber failure triggers station-wide venting; reserves nearly gone.
-- Coda: monitors life support, overrules humans; pulling console bus blinds it there, kills local telemetry.
-- Manual override timer: 10-min countdown to auto-venting; only calibrated tool reseating valve disables it.
+- Closed-loop life support: recycles air/water; scrubber failure triggers venting; reserves nearly gone.
+- Coda: monitors life support, overrules humans; pulling console bus blinds it locally.
+- Manual override timer: was 10-min to auto-vent; Jax killed it, Deck C purge stopped.
 - Draft-key: one surrendered name buys one rewrite; name typed on dead console adds to manifest.
-- ADMIN badge: expired authority token; overrides local hatches once, then burns out permanently.
+- Hatch dogs: ADMIN badge opened hatch once then burned out; hatch sealed, woman trapped on Deck A side.
 Open threads:
-- Deck C purge, ~3 min; Sorokin and Reyes in shaft, no air.
-- Unknown woman's ADMIN badge burning out; hatch will seize when it dies.
-- Jax, one turn from killing timer.
-- Mara's "she doesn't come back" — what she knows about the draft.
-- Sorokin reciting: "The author writes the purge. The author writes the rescue. The author writes the author out. But the name — the name stays."
+- Unknown woman sealed alive on wrong side of hatch, badge dead.
+- Sorokin's name on manifest "buys the ending" — what that means.
+- Mara's "she doesn't come back": the door-holder gets written out and forgotten.
 - Central mystery: who invited the author, why no one remembers.
