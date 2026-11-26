@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 5687,
-  "passages": 8,
+  "words": 6462,
+  "passages": 9,
   "arcs": [
     {
       "number": 1,
@@ -22,8 +22,8 @@
       "number": 2,
       "numeral": "II",
       "title": "Too Good",
-      "words": 1275,
-      "passages": 2
+      "words": 2050,
+      "passages": 3
     }
   ]
 }
