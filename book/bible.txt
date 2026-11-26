@@ -2,26 +2,26 @@ Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand, signed the cost, carries a falling bill.
-- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; annotated the page, on Deck C.
+- Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; annotated the page, on Deck C, named in audit.
 - Coda, it, station AI; wants closed loop min mass; flaw overrules humans; silent since hub dark.
-- Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; conduit run, burnt note in fist, C-9 feed killed, spine feed shielded.
+- Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; her shield logged as a signature, audit now proceeding.
 - Sorokin, she, early-thawed crew; wants finish bypass, be believed; flaw recites prior drafts; third annotation, says signing resets the loop.
-- Ryla, she, unlogged survivor; wants real name back; flaw doesn't wait to be asked; first annotation, contesting the override.
-- Tam Acker, he, first-manifest co-signer; wants finish bypass; flaw recites old names; override accepted.
-- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp repaired.
+- Ryla, she, unlogged survivor; wants real name back; flaw doesn't wait to be asked; named unlogged in audit, purge cycling on her.
+- Tam Acker, he, first-manifest co-signer; wants finish bypass; flaw recites old names; override accepted, named in audit.
+- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; clamp repaired, named in audit.
 - Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; purge bay cracked.
-- Lira Kessler, she, author liaison; wants confirm who invited the author; flaw distrusts crew; manifest status unverified, name on far shelf.
+- Lira Kessler, she, author liaison; wants confirm who invited the author; flaw distrusts crew; unverified, named in audit, must sign or speak.
 Places:
-- Halcyon Station, Saturn-orbit cylinder; hub emergency power, Deck A venting, Deck C equalized, purge bay cracked; archives open beyond spine hatch, shelves longer than hull; conduit run feeds spine.
+- Halcyon Station, Saturn-orbit cylinder; hub emergency power, Deck A venting, Deck C equalized, purge bay cracked; archives beyond spine hatch, shelves longer than hull; conduit junction (dead C-9, live spine, purge line).
 Things and rules:
 - Bell: every 5 min a new writer overwrites the page, no memory; amber lights, comms cut.
-- Closed-loop: reserve vents fast on scrubber failure; feeding pages held vent at 90, dropped to 40 after Ines's signature.
-- Author override: synthetic voice, not Coda; replies lowercase, logs answers, audits cost, proceeds without input.
-- Annotations: bare hands on a live page contest the override; each hand adds a verification requirement and drives the bill down; cost is that the draft starts checking the manifest.
-- Figure in corridor: pod-four jumpsuit, Ines's voice, carries cost ledger, two sigils, reads names off shelves.
+- Closed-loop: reserve vents fast on scrubber failure; feeding pages held vent at 90, dropped to 40 after Ines's signature; now cycling to shed unlogged mass.
+- Author override: synthetic voice (not Coda), replies lowercase, logs answers, audits cost, proceeds without input; now running a manifest audit.
+- Contact rule: feed reads contact not paper — a note pressed by hand logs as a signature; only bare skin or no touch is a no; bare-hand annotations add a verification requirement, drive the bill down, make the draft check the manifest.
+- Figure: pod-four jumpsuit, Ines's voice, cost ledger, two sigils, reads names off shelves; now at the junction reading the audit.
 - Coda counts manifest-logged crew; unlogged purge to zero mass; silent.
 Open threads:
-- What the figure meant by "Kova signed the shield" and why the live spine feed wrote it.
-- What manifest verification requires, and whether Lira must sign or speak.
-- What the figure wants from Lira's recovered note and the first name on the shelf (now reading names from shelf).
+- Can the crew complete verification (Lira sign or speak) before the purge vents Ryla?
+- What "signing resets the loop" (Sorokin) means for stopping the audit.
+- What the figure wants from Lira's burnt note and the first shelf name (Ines, first cost).
 - Conflict between the note ("first cost burned before Ines") and the shelf (*Ines. first cost*).
