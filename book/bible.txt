@@ -13,13 +13,13 @@ Things and rules:
 - Closed-loop life support: recycles air/water; scrubber failure triggers red alarm and venting.
 - Coda: AI monitoring life support; overrules humans; cannot be overridden without codex.
 - Lockdown protocol: Coda seals/vents deck to reserves in 90 sec; needs maintenance codex to override.
-- Emergency protocol four-delta: Kova's code lifting Coda's lockdown; limit: one cycle, cost: logs override, flags Ines/Malik.
+- Emergency protocol four-delta: Kova’s tablet lifts Coda’s lockdown; limit: one cycle, cost: logs override, flags Ines/Malik.
 - Deck A cryo bay: warm, flooded, no drain (C line vented to vacuum); water rising; hatch crank on far side.
 Open threads:
-- Malik sealed in Deck A with second codex; water at his ribs and rising; hatch wheel won't turn from ladder side.
-- Empty pod labeled OCCUPANT: HALVARD, INES; where is the body.
-- Whoever holds the codex has been writing the crew's next ten minutes; Kova's tablet logs entries in her hand, +6 min.
-- Sorokin thawed though logged stable; recites prior drafts; log may be edited; Bell absent from her drafts.
+- Malik sealed in Deck A with second codex; water at his ribs and rising; hatch wheel won’t turn from ladder side.
+- Empty pod labeled OCCUPANT: HALVARD, INES; panel now reads OCCUPANT: MALIK REYES, indicating the real Ines is elsewhere.
+- Whoever holds the codex has been writing the crew’s next ten minutes; Kova’s tablet logs entries in her hand, +6 min.
+- Sorokin thawed though logged stable; recites prior drafts; her next recited draft contradicts what just happened.
 - Deck C venting to exterior; repressurization needs commander auth (commander in cryo).
 - Scrubber ~40 min to total failure, station-wide venting.
 - Central mystery: who invited the author, why no one remembers.
