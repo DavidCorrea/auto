@@ -1,9 +1,9 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; logged as next cost, inside purge bay with Jax and Mara
+- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; cost resolved, purge suspended, inside purge bay with Jax and Mara
 - Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in lore
-- Coda, it, station AI; wants closed loop min mass; flaw overrules humans; purge initiated on Ines
+- Coda, it, station AI; wants closed loop min mass; flaw overrules humans; purge suspended after Ines logged cost
 - Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure
 - Sorokin, she, early-thawed crew; wants bypass finished, to be believed; flaw recites prior drafts
 - Rylia (Ryla), she, unlogged survivor turned first cost; wants her real name back; flaw doesn't wait to be asked; paid in kind, permanently logged; ledger wrote her name in author's hand
@@ -23,7 +23,6 @@ Things and rules:
 - Ledger: records names and costs, only adds and tells truth; rejected annotation logs annotator as next cost
 - Cost settlement: first cost pays in kind at the audit lock or 120 kg reserve air within 120 seconds
 Open threads:
-- Ines is inside the purge bay with Jax and Mara; Coda has initiated purge on her mass and sealed the door
 - Lira sees her own backward hand on ledger and invitation; she may be the author or signed as one
 - Signature port retains every name ever spoken into it, including the author's first
 - Rylia is permanently logged, her true name written in the author's hand
