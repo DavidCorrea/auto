@@ -1,22 +1,20 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
-
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; cost logged Halvard, due next bell; driven toward blast door.
+- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; cost logged Halvard due next bell; sealed blast door, heading lower gantry.
 - Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; cleared.
 - Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; gray past elbow, valve blown.
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; sweeping toward scrubbers.
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; tally growing, path through Ines.
-- Rylia Vance, she, logged crew; wants name spoken and to be left alone; flaw doesn't wait to be asked; cost cleared, page taken.
+- Rylia Vance, she, logged crew; wants name spoken and to be left alone; flaw doesn't wait to be asked; cost cleared, page taken; with Ines past blast door.
 - Mira Kline, she, junior writer/tech; wants to finish rescue; flaw impulsive; lower gantry with Vey's dry pen.
-- Vey, he, author of record; wants rewrite finished and page; flaw overconfident in clock; gray hand, fresh pen, holds page, etched Halvard.
-
+- Vey, he, author of record; wants rewrite finished and page; flaw overconfident in clock; gray hand, fresh pen, holds page, etched Halvard, locked outside blast door.
 Places:
 - Halcyon Station, Saturn-orbit cylinder; hub emergency power, scrubbers 4% holding, spine corridor steaming, valve blown.
+- Blast door: seals spine corridor; Vey locked outside with page, Ines and Rylia inside heading to lower gantry.
 - Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; feed cut by Ines.
 - Signature port: steel slab; bare hand plus spoken name closes audit; bears Rylia's handprint and Vey's etched name.
-- Crawlway valve: failed, seal blown, steam in corridor.
-
+- Lower gantry: Mira with Vey's dry pen; Jax’s destination after valve blew.
 Things and rules:
 - Bell: every 5 min new writer overwrites; amber flash, comms cut, memory erased; fifth bell rang and took tally.
 - Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew.
@@ -24,9 +22,8 @@ Things and rules:
 - Escape clause: cost transferable once at fifth bell; needs witness signature; restores unlogged memory; unsigned.
 - Pens: author's pen writes the page; dry pen writes nothing; Vey's fresh pen can etch steel the ledger hears.
 - Reserve air: scrubbers at 4% holding; Coda bills cost of record instead of air.
-
 Open threads:
-- Jax's gray arm spreading; steam filling spine corridor.
+- Jax's gray arm spreading; steam sealed behind blast door.
 - Vey holds page and logged Ines as cost; escape clause unsigned.
 - Next bell collects Ines unless someone signs clause.
 - Coda's tally growing; path runs through Ines directly.
