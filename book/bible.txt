@@ -2,29 +2,32 @@ Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; Coda collection via her access panel, override lever; at hatch with pen; sealed the hatch using the pen.
-- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; next-of-cost cleared.
-- Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; knuckles graying, ash spreading, valve failing.
+- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; pen dry after sealing hatch; leading Vey to port; cost logged "unknown."
+- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; cleared of next-of-cost.
+- Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; gray past elbow, wrench cracking, valve failing.
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; sweeping toward scrubbers.
-- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, bills record cost, fifth bell transfer complete; collection path grew through Ines’s panel.
-- Rylia Vance, she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; guarding page at port.
-- Mira Kline, she, junior writer/technician; wants to finish rescue; flaw impulsive; cost assessed, unlogged memory returning, spoke Teodora, logged as cost; used override lever; now in gantry.
-- Vey, he, author of record and logged cost; wants rewrite finished; flaw overconfident in clock; collected at source, hand gray, pen used, override is his pen.
+- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; bills record cost, tally growing, collection path through Ines's panel.
+- Rylia Vance, she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; at port with page, holds Mira's cost.
+- Mira Kline, she, junior writer/tech; wants to finish rescue; flaw impulsive; in lower gantry with Vey's pen; her cost transferred off her.
+- Vey, he, author of record and logged cost; wants rewrite finished and page back; flaw overconfident in clock; gray hand, fresh pen, offers to witness escape clause for the page.
 
 Places:
-- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers at 4% holding, spine corridor hot.
-- Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; page and pen; feed cut by Ines.
-- Signature port: steel slab in spine corridor; bare hand plus spoken name closes audit.
-- Crawlway valve: pinch in spine corridor; failing steam valve scalding passage; seal holding but failing.
+- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers at 4% holding, spine corridor hot and steaming.
+- Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; feed cut by Ines.
+- Signature port: steel slab in spine corridor; bare hand plus spoken name closes audit; Rylia guards page there.
+- Crawlway valve: pinch in spine corridor; seal failing, wrench cracking under Jax's grip.
 
 Things and rules:
-- Bell: every 5 min new writer overwrites; amber flash, comms cut, unmarked memory erased; four tallies, fifth rang and took tally.
+- Bell: every 5 min new writer overwrites; amber flash, comms cut, unmarked memory erased; fifth bell rang and took tally.
 - Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew.
-- Ledger: adds only, records truth; rejected annotation logs annotator as cost.
-- Reserve air: was 11 kg, now 4%; Coda bills cost of record instead; scrubbers at 4% holding.
-- Escape clause: cost of record transferable once at fifth bell; requires witness signature; restores unlogged memory to witness; transfer initiated, Lira relieved of next-of-cost.
+- Ledger: adds only, records truth; rejected annotation logs annotator as cost; moves costs between names.
+- Escape clause: cost of record transferable once at fifth bell; needs witness signature; restores unlogged memory to witness; Vey offers to witness for the page.
+- Pens: author's pen writes the page; ink runs out and a dry pen writes nothing; working pen holder can write.
+- Reserve air: scrubbers at 4% holding; Coda bills cost of record instead of drawing air.
 
 Open threads:
-- Jax's gray knuckles past elbow, ash coating wrench and deck; steam valve exploding, seal failing.
-- Mira in gantry, Ines at hatch with pen; decision pending.
-- Ines's access panel extended Coda's collection path; Coda's tally growing.
+- Jax's gray arm spreading past elbow; valve cracking, seal about to fail.
+- Vey walking to port with Ines to sign as witness; will he sign or take the page?
+- Rylia holds Mira's cost; next bell collects her unless clause is signed.
+- Ines's cost logged "unknown" — who or what holds it now.
+- Coda's tally growing; collection path runs through Ines's access panel.
