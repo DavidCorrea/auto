@@ -3,31 +3,31 @@ Heart:
 
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by Coda's claim on their air.
-- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; named next of cost on the page.
-- Jax Torin, he, salvage tech; wants the valve repaired; flaw reckless optimism; blocked by scalded arm.
-- Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; blocked by blistered hands.
+- Lira Kessler, she, author liaison; wrote Vey's invitation; wants to know who invited the author; flaw distrusts crew, fears speaking; named next of cost on the page.
+- Jax Torin, he, salvage tech; wants the valve repaired and Mira found; flaw reckless optimism; blocked by scalded arm; found Mira at the crawlway valve.
+- Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; blocked by blistered hands; sweeping toward scrubbers.
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; collects costs in reserve air, now at source.
-- Rylia (Teodora Anselm), she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked.
-- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; missing since the audit; rang the bell, logged as witness.
-- Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand stiffening.
+- Rylia (Teodora Anselm), she, first cost, now logged crew; wants her real name spoken and to be left alone; flaw doesn't wait to be asked; guarding page at the port.
+- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive; found alive with tablet of unlogged names; is the witness who must sign.
+- Vey, he, author of record and logged cost; wants the rewrite finished; flaw overconfident in the clock; cracked tablet; being collected at source, hand gray, pen lost.
 
 Places:
 - Halcyon Station, Saturn-orbit cylinder; hub on emergency power, scrubbers failing, spine corridor hot.
 - Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; page and pen; feed cut by Ines.
 - Signature port: steel slab in the spine corridor; bare hand plus spoken name closes an audit.
+- Crawlway valve: pinch in spine corridor; failing steam valve scalding the passage.
 
 Things and rules:
 - Bell: every 5 min a new writer overwrites; amber flash, comms cut, unmarked memory erased; scratched steel survives.
-- Purge: Coda counts only logged crew; unlogged mass purged to zero; scrubbers vent reserve air on failure.
 - Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew.
 - Ledger: adds only, records truth; a rejected annotation logs the annotator as cost.
-- Author slot: page names the author of record; pen warm while an author is present; page logs "next of cost."
-- Reserve air: one freed canister, was 11 kg, just under 10; Coda now bills the cost of record instead.
+- Reserve air: was 11 kg, now 9.2; Coda bills cost of record instead; scrubbers at 10%.
 - Escape clause: cost of record transferable once at fifth bell; requires witness signature (Mira Kline); restores unlogged memory to witness.
+- Purge: Coda counts only logged crew; unlogged mass purged to zero.
 
 Open threads:
-- Bell rang with its feed cut; Mira Kline rang it, logged as witness; four tallies on bell rim.
-- Vey being collected at source; hand gray to second knuckle, still writing; pen lost, Coda assessed no cost.
+- Mira found; must sign as witness, but port logs the speaker as cost — will she trade her name for Lira's?
+- Vey being collected at source; hand gray, still writing; pen lost.
 - Lira is next of cost; escape clause allows transfer to her at fifth bell with witness signature.
-- Scrubbers at 10% efficiency; air at 9.5 kg; fifth bell in 18 minutes.
-- Mira Kline missing; holds witness role and unlogged memories; may have tablet or knowledge of escape clause.
+- Scrubbers at 10%; air at 9.2 kg; fifth bell roughly 12 minutes out.
+- Four tallies on bell rim; who keeps ringing it.
