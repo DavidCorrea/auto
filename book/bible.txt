@@ -3,31 +3,31 @@ Heart: The story is about a crew trying to write their own rescue while the auth
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; cost: Ines, pen writes her name
 - Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; cleared
-- Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; gray past elbow, valve blown; cost cleared (transferred to Ines)
+- Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; gray past elbow, valve blown; cost cleared to Ines
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; sweeping toward scrubbers
-- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; tally: 17, path through Ines
-- Rylia Vance, she, logged crew; wants name spoken and to be left alone; flaw doesn't wait to be asked; cost cleared, page taken; with Ines at lower gantry
-- Mira Kline, she, junior writer/tech; wants to finish rescue; flaw impulsive; dry pen now writes ink recognized by ledger; lower gantry
-- Vey, he, author of record; wants rewrite finished and page; flaw overconfident in clock; gray hand, fresh pen, holds page, etched Halvard, locked outside blast door
+- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; tally 17, path through Ines
+- Rylia Vance, she, logged crew; wants name spoken and to be left alone; flaw doesn't wait to be asked; cost cleared, page taken; at lower gantry
+- Mira Kline, she, junior writer/tech; wants to finish rescue; flaw impulsive; dry pen writes ink ledger recognizes; lower gantry
+- Vey, he, author of record; wants rewrite finished and page; flaw overconfident in clock; gray hand, fresh pen, holds page, etched HALVARD on blast door, locked outside
 
 Places:
-- Halcyon Station, Saturn-orbit cylinder; hub emergency power, scrubbers 4% holding, spine corridor steaming, valve blown
-- Blast door: seals spine corridor; Vey locked outside with page, Ines and Rylia at lower gantry
+- Halcyon Station, Saturn-orbit cylinder; hub emergency power, scrubbers 4% falling toward 3, spine corridor steaming, valve blown
+- Blast door: seals spine corridor; Vey locked outside, etched HALVARD across seal; Ines and Rylia at lower gantry
 - Author's workshop: low room, welded-cable desk, worn chair, brass bell, hammer, copper pipe; feed cut by Ines
 - Signature port: steel slab; bare hand plus spoken name closes audit; bears Rylia's handprint and Vey's etched name
-- Lower gantry: Mira with Vey's dry pen now writes, Jax's valve repair, Ines and Rylia arrived; Jax's gray arm
+- Lower gantry: Mira, Jax's valve repair, Ines and Rylia; Jax's gray arm
 
 Things and rules:
-- Bell: every 5 min new writer overwrites; amber flash, comms cut, memory erased; fifth bell rang and took tally
+- Bell: every 5 min new writer overwrites; amber flash, comms cut, memory erased; fifth bell took tally; next bell approaching
 - Signature port: bare hand plus spoken name; speaker logged as cost, name spoken logged as truth and crew
 - Ledger: adds only, records truth; rejected annotation logs annotator as cost; moves costs between names
-- Escape clause: cost transferable once at fifth bell; needs witness signature; restores unlogged memory; used: Jax signed to Torin, Ines claimed after bell strike; now dormant
-- Pens: author's pen writes the page; dry pen normally writes nothing, but recently began writing ink the ledger recognizes; Vey's fresh pen can etch steel the ledger hears
-- Reserve air: scrubbers at 4% holding; Coda bills cost of record instead of air
+- Escape clause: cost transferable once at fifth bell; needs witness signature; restores unlogged memory; used, now dormant
+- Pens: author's pen writes the page; dry pen writes ink ledger recognizes; Vey's fresh pen etches steel the ledger hears
+- Reserve air: scrubbers 4% falling; Coda bills cost of record instead of air
 
 Open threads:
-- Jax's gray arm spreading; valve blown; cost now Ines (transferred from Torin after escape clause used)
-- Vey holds page; next rewrite approaching, ink volatile
-- Coda's tally at 17; path through Ines directly
+- Jax's gray arm spreading; valve blown; cost now Ines
+- Vey etched HALVARD on blast door; next rewrite approaching
+- Coda's tally 17; path through Ines
 - Who invited the author unknown
-- Ines bears cost; next overwrite will determine if she keeps it or author takes toll
+- Ines bears cost; crew plans to log truth at signature port before next bell
