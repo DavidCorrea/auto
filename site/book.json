@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 36215,
-  "passages": 136,
+  "words": 36390,
+  "passages": 137,
   "chapters": [
     {
       "number": 1,
@@ -100,6 +100,13 @@
       "title": "The Truth Runs Hot",
       "words": 4288,
       "passages": 16
+    },
+    {
+      "number": 15,
+      "numeral": "XV",
+      "title": "The Gap",
+      "words": 175,
+      "passages": 1
     }
   ]
 }
