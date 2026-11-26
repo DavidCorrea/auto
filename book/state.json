@@ -81,7 +81,9 @@
           "summary": "Anchored in the storm with five mouths to feed and no berth money, Wren plays Sol's slate back to tell her what she chose, and her thumb finds the edit function she's used on everyone, hovering over the lie while Sol waits to hear who she saved."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "Dey crossed the thirty-meter line on a routine locker dive and came up bent, missing the hour, carrying a name he shouldn't have — Ivo Salas, an old diver in an air pocket who lent him air. Wren spliced the name out of the build she played him; he kept it anyway. Sol can't read her own grease-pencil numbers. The Factor's drone dropped a contract: a sealed cold-case at fifty-two meters in the Mercy General, twelve thousand, a year of Dey's indenture retired, nine hours till the season is declared — and Wren's arithmetic says someone has hand-wound that cell for twenty-two years."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 1
@@ -89,23 +91,19 @@
   ],
   "chapter": {
     "arc": 1,
-    "number": 1,
-    "title": "The Line",
+    "number": 2,
+    "title": "Too Good",
     "beats": [
-      "The Marrow works a routine salvage dive in a half-drowned tower; banter establishes the crew, Dey's indenture and hunger for one big score, and the depth line — the rule that below it memory stays down and never returns — as Sol spots salvage worth trading for berths before storm season.",
-      "Dey rigs his gear and drops past the depth line after a sealed locker worth real money, ignoring Wren's warnings on the comm (his slate recorder, the log every diver carries, ticking down his air), until his voice starts looping and wrong.",
-      "Dey surfaces a full hour past what his air allows, missing that hour whole and unable to say what he did down there, while Sol hauls him aboard sharp and shaken and the crew goes quiet at the gap in him.",
-      "Wren plays the slate, rebuilds the lost hour for Dey, and quietly edits out what he actually did below the line to spare him — her old lie working for the first time on the page — then covers the gap when Sol asks what's on it.",
-      "Sol stands at the storm glass doing the math on a mooring that won't survive the season and berths they can't buy, snapping at the crew and refusing to say what's got her rattled, as the glass drops faster than it should.",
-      "A broker's drone drops a contract onto the deck — raise a sealed cryo-case from the drowned hospital tower for more money than they've ever seen — and Sol makes the call to take it, her eyes on the tower's depth, which sits well below the line."
+      "Sol cuts the transit-station chain with the deck torch instead of spending ten minutes on the shackle, six years of mooring going down for nothing, and Dey — twenty minutes out of the box, still bent, walking like a man on gravel — is the one who swings the axe. Wren times it against the storm glass and reads out the new number: eight hours forty, not nine. Sol sets course zero-four-zero and grease-pencils it on her hand beside the older, smudged figures.",
+      "Wren puts her refusal on the record: she will not sign Dey fit for fifty-two, and offers to make the dive herself. Sol turns her down in front of Dey — the only person aboard who can build a diver back doesn't go in the water — and the argument gets ugly and funny, Wren naming what Sol is actually trading, Sol naming what Wren's job costs. Dey settles it by starting to suit up before either of them finishes.",
+      "Loading the sled: two bottles of trimix — helium cut into the oxygen and nitrogen so a man at fifty-two neither gets drunk nor fizzes — at four times the price of bottom mix, and no second set. Sol strips the green recompression bottle off the deck and clamps it to the sled as reserve gas, leaving the box a steel tube with a pump and nothing to pump. Wren tells her exactly whose blood that trade is paid in. Sol loads it anyway, and Dey helps, cheerfully, which is worse.",
+      "Six kilometers of building sea, the Factor's drone pacing them at eye height, the Mercy coming up out of the chop. Sol asks Wren for the course twice in ten minutes and covers the first one with a joke. When Wren offers the helm for the approach, Sol takes it as an insult, hands white on the wheel, and says the Marrow is hers. Then she gives Dey the rule in numbers, not warnings: thirty takes the hour, forty takes names and faces, fifty takes the surface — you stop believing up is a place.",
+      "Dey asks to divert to the salvage tower and pay Ivo's debt first, two hours, one winch ride; Sol refuses flat and doesn't slow. Dey says copy and lies with his hands — Wren catches him tucking the spare tether and the winch toggle into his thigh pouch and doesn't stop him. She asks him to leave Ivo's name on the slate this time. Dey says the Reader's job is to give a man his hours back, not keep them for him.",
+      "Mooring on the Mercy's dry third floor — a helipad with a dead ambulance on it, drone holding station, winch rigged over the flooded stairwell that runs down the spine of the building like a shaft. Wren calls the gas switch at thirty and catches the first sign of trouble: Dey's bone track going slow and patient forty feet early. Sol's thumb finds the winch brake and stays there.",
+      "Fifty-two meters. Dey answers with the right words in the wrong order, calls Wren Captain, then asks her politely, without any fear in it, what up is. Sol orders three tugs on the tether and he doesn't take them. He pushes off the stairwell wall toward the ward, and through the frost-furred window in the case lid something moves that is not a pump: a hand on a crank, and a girl's voice on the bone track saying a name that isn't hers."
     ],
     "events": [
-      "Dey ignores the depth line warning and dives past thirty meters to reach a valuable sealed locker, cutting comms as his slate recorder begins blinking red, while Sol refuses to dive after him and the storm glass drops further.",
-      "Dey dropped to nearly forty meters past the memory line while Wren warned him off his slate and his failing air, until his voice returned over the comm looping the same phrases wrong, and Sol reached for the winch to haul him up.",
-      "Dey comes up bent and alive after seventy-nine minutes underwater on a forty-minute mix, with a sealed cold-chain locker he doesn't remember lashing to himself and no memory of the hour past the line, and the crew falls silent around the gap in him.",
-      "Wren rebuilds Dey's hour, finds he breathed forty minutes off a trapped old diver named Ivo Salas and left him below the line, edits the man out and lies to Sol — and Dey says the cut name anyway.",
-      "Wren fails to convince Dey his memory of Ivo Salas is pressure-scramble while Sol does the math on berths and mooring she can't survive, hides a memory gap by copying her own chalked figures onto her hand, and the storm glass plunges as a drone approaches.",
-      "The Factor's drone tenders the contract — a sealed cryo-case at fifty-two meters in the drowned Mercy General for eight thousand, plus retirement of Dey's last indenture year — and Sol takes it over Wren's objection, while Wren reads the spec and works out that the case has been kept cold by hand for twenty-two years."
+      "Sol cuts the Marrow's six-year mooring chain loose with a deck torch, Dey — twenty minutes out of the recompression box and still bent — knocks the last link free with the axe, Wren reads the storm glass and calls the season in at eight hours forty rather than nine, and Sol writes course zero-four-zero on her hand beside her older smudged figures and orders the crew below."
     ]
   }
 }
