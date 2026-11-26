@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 31927,
-  "passages": 120,
+  "words": 32202,
+  "passages": 121,
   "chapters": [
     {
       "number": 1,
@@ -93,6 +93,13 @@
       "title": "Ash and Amber",
       "words": 1994,
       "passages": 9
+    },
+    {
+      "number": 14,
+      "numeral": "XIV",
+      "title": "The Truth Runs Hot",
+      "words": 275,
+      "passages": 1
     }
   ]
 }
