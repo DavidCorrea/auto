@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at the Marrow's wheel, two kilometers off the Mercy, course 040, having refused the helm and just asked what the cargo is"
+      "status": "beside her, thumb on the brake, refusing to haul"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "suited, one kilometer off the Mercy, logged promise to surface on three tugs, spare tether and winch toggle in his thigh pouch"
+      "status": "~34m down the flooded stairwell, on the deep bottle, voice gone slow and patient"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "topside at the slate, bound by logged terms never to edit Dey's record again"
+      "status": "at the winch on the Mercy's helipad, hand over Sol's on the brake"
     },
     {
       "name": "Nia Vos",
@@ -45,7 +45,6 @@
   ],
   "threads": [
     "Wren quietly edits divers’ slates to spare them what they did, and has never told anyone.",
-    "Sol is losing her memory from years below the line, hides it, and won’t let anyone else take the helm.",
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
     "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it."
@@ -107,7 +106,8 @@
       "Wren refuses to certify Dey fit for fifty-two and offers to dive herself; Sol turns her down and the two fight over what each is really spending, until Dey suits up mid-argument and says he knows Wren edits slates and kept the cut name anyway.",
       "Wren certifies Dey to forty instead of fifty-two and calls his gas by voice while Sol strips the recompression bottle off the deck for reserve air, leaving no way to treat a bend aboard, and the Factor's drone counts the load and leaves.",
       "On the run out, Sol drills Dey on the depth rule and refuses Wren the helm, then asks Wren to remind her what they're there to lift.",
-      "Sol refuses to divert for Ivo and Dey says copy, then palms the spare tether and winch toggle while Wren watches and lets him; Wren sets terms on the record — no more edits, every hour whole, three tugs and he comes up — and Dey swears to it on the slate."
+      "Sol refuses to divert for Ivo and Dey says copy, then palms the spare tether and winch toggle while Wren watches and lets him; Wren sets terms on the record — no more edits, every hour whole, three tugs and he comes up — and Dey swears to it on the slate.",
+      "Wren fixes the winch pin from the dead ambulance's hood rod, moors to the Mercy and sends Dey down the flooded stairwell, where at thirty-four meters his voice turns slow and patient forty feet early — and Sol, asked for the bearing a third time, admits on the record that she can't read her own grease-pencil numbers and won't give up the wheel, then leaves her thumb on the brake."
     ]
   }
 }
