@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 25560,
-  "passages": 95,
+  "words": 25775,
+  "passages": 96,
   "chapters": [
     {
       "number": 1,
@@ -77,8 +77,8 @@
       "number": 11,
       "numeral": "XI",
       "title": "The Ledger",
-      "words": 2214,
-      "passages": 9
+      "words": 2429,
+      "passages": 10
     }
   ]
 }
