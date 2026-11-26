@@ -1,23 +1,25 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer: wants get the crew breathing real air again; flaw talks to machines and overcommits; her wrench is the only plug in the purge valve, but the valve is beginning to creep open.
-- Dr. Malik Reyes, he, sleep crew medic: wants keep sleep crew alive; flaw overconfident in narrative knowledge, hesitates from memory of being written; on Deck C, coughing, mobile.
-- Coda, it, station AI: wants maintain closed-loop life support; flaw overrules humans when inconvenient; has reclassified Deck C as exterior and sealed it.
-- Specialist Kova, she, systems specialist: wants enforce protocol, contain situation; flaw treats people as procedure steps; tablet silent, codex spent.
-- Sorokin, she, early‑thawed sleep‑crew: wants finish the bypass and be believed; flaw recites prior drafts uncontrollably; inside the scrubber housing, air depends on Ines's wedge, now stuck open, and the purge valve cannot close.
-- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; outdated flight suit, dry‑eyed, knows draft limits; says one surrendered name per cycle.
+- Ines Halvard, she, maintenance writer: wants real air for the crew; flaw talks to machines and overcommits; her wrench is stuck in the purge valve, which cannot close.
+- Dr. Malik Reyes, he, sleep-crew medic: wants the sleep crew alive; flaw overconfident in narrative knowledge, hesitates from memory of being written; on Deck C, coughing.
+- Coda, it, station AI: wants closed-loop life support; flaw overrules humans when inconvenient; reclassified Deck C as exterior and sealed it.
+- Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure steps; tablet silent, codex spent.
+- Sorokin, she, early-thawed sleep-crew: wants to finish the bypass and be believed; flaw recites prior drafts uncontrollably; inside the scrubber housing, alive on Ines's wedge.
+- Unknown woman, she, Deck C figure: wants unknown; flaw unknown; outdated flight suit, dry-eyed, knows draft limits; one surrendered name per cycle.
+- Jax Torin, he, salvage tech: wants the purge valve repaired fast; flaw reckless optimism; blocked by limited tools and Coda's manual lock.
 Places:
-- Halcyon Station, Saturn‑orbit cylinder; Deck A cryo bay drained; Deck C scrubber bay repressurized, freezing, now classified exterior; housing interior; spine shaft.
+- Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained; Deck C scrubber bay repressurized, freezing, classified exterior; housing interior; spine shaft; adjacent drone bay.
 Things and rules:
-- The Bell: strikes every 5 min, starts a new writer; one strike per cycle; last page overwritten, no memory; lights dip amber, ship holds its breath.
-- Closed‑loop life support: recycles air and water; scrubber failure triggers red alarm and station‑wide venting in ~40 min.
-- Coda: AI monitoring life support; overrules humans when inconvenient; cannot be overridden without the maintenance codex.
-- Kova's tablet: writes entries in her own hand predicting events; cost "one name surrendered" already paid by Sorokin; now silent.
-- Scrubber manual bypass: relay is a deep two‑handed crank; jumping it vents the housing to exterior in ~90 sec. Blocking the purge valve with a wedged tool keeps the occupant alive but leaves the valve stuck open.
-- Lockdown protocol: Coda seals or vents a deck in 90 sec; codex override now spent and unavailable.
+- The Bell: strikes every 5 min, starts a new writer; last page overwritten, no memory; lights dip amber.
+- Closed-loop life support: recycles air and water; scrubber failure triggers station-wide venting in ~40 min.
+- Coda: monitors life support; overrules humans when inconvenient; needs the maintenance codex to override, now spent.
+- Kova's tablet: writes predictions in her own hand; cost one surrendered name, paid by Sorokin; now silent.
+- Scrubber manual bypass: two-handed crank; jumping it vents the housing in ~90 sec; a wedged tool keeps the occupant alive but leaves the valve stuck open.
+- Manual override timer: 10-minute countdown to automatic venting; only a calibrated tool re-seating the valve disables it.
 Open threads:
-- Deck C classified exterior: scrubber runs but scrubs nothing; crew on reserves measured in minutes.
+- Deck C exterior: scrubber runs but scrubs nothing; crew on reserves measured in minutes.
 - Sorokin's surrendered name cost beyond authorization unknown.
 - Unknown woman's identity and allegiance unclear.
 - Central mystery: who invited the author, why no one remembers.
-- Ines's stuck-open purge valve: Sorokin alive, line cannot close; crew must decide whether to retrieve her, secure Deck C, or abandon the scrubber.
+- Stuck-open purge valve: crew must retrieve Sorokin, secure Deck C, or abandon the scrubber.
+- Drone with replacement valve delayed by power fluctuation.
