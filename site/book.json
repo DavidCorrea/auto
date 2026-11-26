@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 23901,
-  "passages": 92,
+  "words": 24150,
+  "passages": 93,
   "chapters": [
     {
       "number": 1,
@@ -77,8 +77,8 @@
       "number": 11,
       "numeral": "XI",
       "title": "The Filament and the Fee",
-      "words": 234,
-      "passages": 1
+      "words": 483,
+      "passages": 2
     }
   ]
 }
