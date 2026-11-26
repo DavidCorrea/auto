@@ -7,10 +7,10 @@ Characters:
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; tally 17, path through Ines
 - Rylia Vance, she, logged crew; wants name spoken and to be left alone; flaw doesn't wait to be asked; page taken
 - Mira Kline, she, junior writer/tech; wants to finish rescue; flaw impulsive; dry pen writes ink ledger recognizes
-- Vey, he, author of record; wants rewrite finished and page; flaw overconfident in clock; forged the invite, etched HALVARD, locked outside, stopped writing
+- Vey, he, author of record; wants rewrite finished and page; flaw overconfident in clock; forged the invite, etched HALVARD, locked outside, etching resumes after bell
 Places:
 - Halcyon Station, Saturn-orbit cylinder; scrubbers 3% holding, spine corridor steaming, valve blown
-- Blast door: seals spine corridor; Vey locked outside, HALVARD etched, seal now cold
+- Blast door: seals spine corridor; Vey locked outside, HALVARD etched, seal fluctuates warm and cold
 - Author's workshop: low room, welded-cable desk, brass bell, hammer; feed cut by Ines
 - Signature port: steel slab; bare hand plus spoken name; bears Rylia's, Jax's prints and Ines's dry-ink verdict
 - Lower gantry: departed; Jax's gray arm
@@ -22,6 +22,6 @@ Things and rules:
 - Reserve air: scrubbers 3% holding; Coda bills cost of record instead of air
 Open threads:
 - Jax's gray arm locked rigid; valve blown
-- Vey etched HALVARD; next rewrite pending after the bell
+- Vey etched HALVARD; etching resumes after bell, letters smear
 - Coda's tally 17, path through Ines
 - Crew logging truth at signature port; Rylia and Jax logged, Vey's forgery exposed
