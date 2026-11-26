@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "beside her, thumb on the brake, refusing to haul"
+      "status": "thumb off the winch brake, the drone counting the case above Dey, decision pending"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on the Mercy's ward floor at fifty-two meters, off the tether, not breathing, at the cold-case"
+      "status": "breathing again on his own at fifty-two meters, the Factor's drone now hanging overhead"
     },
     {
       "name": "Wren Achebe",
@@ -104,7 +104,8 @@
       "Dey sits down against the warm side of the case, calm and kind, and tells Wren up isn't a place and he's comfortable, and her voice can't reach him anymore; Nia cranks one-handed with Teo clutched to her chest as the cell's light gutters out. Topside the wax ties on the tether have stopped, there's no line on him at all, and Sol reaches below the bench for a second mask and keys the slate — someone has to go down."
     ],
     "events": [
-      "Face to face in the flooded ward, Nia refuses to leave the crank and demands Ivo Salas, while Dey — warm, calm, and wrong — can offer only Ivo's name and borrowed air, and Nia recognizes the depth is already eating him."
+      "Face to face in the flooded ward, Nia refuses to leave the crank and demands Ivo Salas, while Dey — warm, calm, and wrong — can offer only Ivo's name and borrowed air, and Nia recognizes the depth is already eating him.",
+      "Wren hears Dey's exhaust tick stop, talks him back to breathing live by voice with no slate-splice for the first time in four years, radios Sol that the case is two children, and the Factor's drone drops through the hatch counting seals as Sol takes her thumb off the winch brake."
     ]
   }
 }

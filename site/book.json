@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 10453,
-  "passages": 14,
+  "words": 10992,
+  "passages": 15,
   "arcs": [
     {
       "number": 1,
@@ -29,8 +29,8 @@
       "number": 3,
       "numeral": "III",
       "title": "The Air Pocket",
-      "words": 689,
-      "passages": 1
+      "words": 1228,
+      "passages": 2
     }
   ]
 }
