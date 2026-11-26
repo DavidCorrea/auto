@@ -12,13 +12,14 @@ Characters:
 - Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; purge bay cracked.
 - Lira Kessler, she, author liaison; wants confirm who invited author; flaw distrusts crew; trace proves she was added, not invited.
 Places:
-- Halcyon Station, Saturn-orbit cylinder: hub on emergency power, Deck A venting, Deck C equalized, purge bay cracked, six pods open, panel C-9 corridor.
+- Halcyon Station, Saturn-orbit cylinder: hub on emergency power, Deck A venting, Deck C equalized, purge bay cracked, six pods open, panel C-9 corridor now full of overwritten pages.
 Things and rules:
 - The Bell: every five minutes a new writer arrives, page overwritten, no memory, amber lights, comms cut.
-- Closed-loop life support: reserve vents fast on scrubber failure; cycle running on 45 percent reserve.
+- Closed-loop life support: reserve vents fast on scrubber failure; feeding pages to the console re-engaged the vent, reserve back to 90 percent.
 - Coda counts only manifest-logged crew; unlogged read as zero mass and purged; counts physical traces.
 - Author override: synthetic voice, not Coda; logs answers, audits cost; reassigned to Ines; holds the reserve vent.
-- Author console: types unbidden, replies in lowercase; dead screen but its cable is live, fed from inside panel C-9.
+- Author console: replies in lowercase; cable live from inside panel C-9; pages fed into it are accepted as draft.
+- The figure in the corridor: wears a maintenance jumpsuit, carries blank paper, speaks in Ines’s voice through a bad speaker.
 Open threads:
-- Something behind panel C-9 powers the console from the wrong side; what is it and what is it writing?
-- Who added Lira to the manifest: the trace is in Ines's handwriting, but Ines remembers nothing.
+- What the figure in the corridor is, and why it has Ines’s voice.
+- What the author is actually writing toward, and what it costs to finish.
