@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 18972,
-  "passages": 70,
+  "words": 19223,
+  "passages": 71,
   "chapters": [
     {
       "number": 1,
@@ -58,6 +58,13 @@
       "title": "The Hand That Signed",
       "words": 2111,
       "passages": 8
+    },
+    {
+      "number": 9,
+      "numeral": "IX",
+      "title": "The Signed Cost",
+      "words": 251,
+      "passages": 1
     }
   ]
 }
