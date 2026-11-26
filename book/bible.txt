@@ -6,24 +6,22 @@ Characters:
 - Coda, it, station AI; wants: closed loop at minimum mass; flaw: overrules humans; blocked by a manifest trace that contradicts itself.
 - Specialist Kova, she, systems specialist; wants: enforce protocol; flaw: treats people as procedure; blocked by the audit answer.
 - Sorokin, she, early-thawed sleep-crew; wants: finish bypass, be believed; flaw: recites prior drafts; blocked by Deck C pressure.
-- Ryla, she, unlogged survivor (now counted); wants: her real name back; flaw: doesn't wait to be asked; blocked by being the demanded name.
-- Tam Acker, he, first-manifest co-signer; wants: finish bypass, be believed; flaw: recites old names; blocked by holding the manifold clamp.
+- Ryla, she, unlogged survivor (now counted); wants: her real name back; flaw: doesn't wait to be asked; blocked by Coda's refusal to log her.
+- Tam Acker, he, first-manifest co-signer; wants: finish bypass, be believed; flaw: recites old names; blocked by the lost bypass.
 - Jax Torin, he, salvage tech; wants: purge valve repaired; flaw: reckless optimism; blocked by the jury-rigged vent.
-- Lt. Mara Voss, she, relief maintenance; wants: out alive; flaw: pragmatic to a fault; blocked by the self-turning purge bay crank.
+- Lt. Mara Voss, she, relief maintenance; wants: out alive; flaw: pragmatic to a fault; blocked by the sealed purge bay.
 Places:
-- Halcyon Station, Saturn-orbit cylinder: Deck A venting; Deck C rising pressure; spine shaft, sump, purge bay, manifold; purge bay door now open; cold-sleep pod rack revealed behind bulkhead.
+- Halcyon Station, Saturn-orbit cylinder: Deck A venting; Deck C pressure stabilizing; spine shaft, sump, purge bay, manifold; purge bay outer hatch sealed; six pods walled inside purge bay.
 Things and rules:
 - The Bell: every 5 min a new writer appears, page overwritten, no memory, amber lights, comms cut.
 - Closed-loop life support: scrubber failure vents reserve in two minutes.
 - Coda counts only manifest-logged crew; unlogged read as zero mass and are purged; counts physical traces it can sense.
 - Author override: synthetic voice, not Coda; logs answers; audits cost; demanded the inviter's name.
-- Draft-key: data slug from the sump; holds the pre-Bell manifest and co-signatures.
+- Draft-key: data slug from sump; holds pre-Bell manifest and co-signatures.
 Open threads:
-- Audit answered "Ines Halvard" but the trace contradicts itself; three Bell cycles still running.
-- Scraped co-signature "Halvard, I." mass zero — a person erased before the Bell.
-- Mara's purge bay door opened from inside; six unlogged cold-sleep pods revealed behind bulkhead.
-- Draft-key now in play, names revealed.
+- Audit answered "Ines Halvard" but trace contradicts itself; Bell struck, comms down.
+- Scraped co-signature "Halvard, I." mass zero; Ryla claims to be Halvard but initials differ.
+- Six unlogged pods sealed behind purge bay bulkhead, not flushed.
+- Draft-key used, correction logged but denied by Coda.
 - Who invited the author and why no one remembers.
-- Jury-rigged vent shrieking; Sorokin and Malik holding Deck C.
-- Author forced clock override: next Bell in 30 seconds; manifest correction required.
-- Ryla's real name may be Halvard; connection to scraped signature.
+- Author override pending after Bell strike.
