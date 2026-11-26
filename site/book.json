@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 12495,
-  "passages": 45,
+  "words": 12694,
+  "passages": 46,
   "chapters": [
     {
       "number": 1,
@@ -37,6 +37,13 @@
       "title": "The Surrender",
       "words": 1863,
       "passages": 6
+    },
+    {
+      "number": 6,
+      "numeral": "VI",
+      "title": "The Audit",
+      "words": 199,
+      "passages": 1
     }
   ]
 }

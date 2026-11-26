@@ -1,19 +1,19 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer; wants real air for crew; flaw overcommits, talks to machines; blocked by unlogged purge, author interference.
+- Ines Halvard, she, maintenance writer; wants real air for crew; flaw overcommits, talks to machines; blocked by author interference, unlogged purge accelerating.
 - Dr. Malik Reyes, he, sleep-crew medic; wants sleep crew alive; flaw overconfident in narrative knowledge; blocked by breached suit, frozen glove, Coda's venting, ticking clock.
-- Coda, it, station AI; wants closed loop at minimum mass; flaw overrules humans; blocked by manifest-logged count, unlogged purge math, draft-key requirement.
+- Coda, it, station AI; wants closed loop at minimum mass; flaw overrules humans; blocked by manifest-logged count, unlogged purge math, draft-key requirement active.
 - Specialist Kova, she, systems specialist; wants enforce protocol; flaw treats people as procedure; blocked by conflicting crew actions, failing life-support.
 - Sorokin, she, early-thawed sleep-crew; wants finish bypass and be believed; flaw recites prior drafts; blocked by Deck C venting, Jax's valve hold, Ryla's presence.
 - Ryla, she, unlogged survivor; wants her real name back; flaw unknown; blocked by Coda's purge start line, dead badge seal.
-- Tam Acker, he, co-signer of first manifest; wants finish bypass and be believed; flaw recites old names; blocked by clamp on ladder line, Jax's valve hold.
-- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; blocked by partial valve closure, ticking purge timer.
+- Tam Acker, he, co-signer of first manifest; wants finish bypass and be believed; flaw recites old names; blocked by Jax's valve hold, clamp status changed.
+- Jax Torin, he, salvage tech; wants purge valve repaired; flaw reckless optimism; block partial valve closure resolved, reserve stabilized.
 - Lt. Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; blocked by coughing comms, door-holder warning, amber lights.
 Places:
 - Halcyon Station, Saturn-orbit cylinder: Deck A hatch open, bay venting; Deck C venting, reserve falling; spine shaft Tam at manifold; emergency hatch open to draft.
 Things and rules:
 - The Bell: strikes every 5 min; new writer; page overwritten; no memory; amber lights; comm cuts.
-- Closed-loop life support: scrubber failure vents; reserve six minutes and dropping.
+- Closed-loop life support: scrubber failure vents; reserve six minutes and dropping, now stabilized at two.
 - Coda: overrules humans; counts only manifest-logged crew; unlogged people read as zero mass; purge for unlogged breathers.
 - Draft-key: one surrendered name buys one rewrite; typed names join manifest; keeper name opens hatch dogs; surrendered air debited to purge ledger.
 - Author override: synthetic voice not Coda; rewrites narrative; aligns berth; keeper accepted; insertion pending next antecedent.
@@ -24,4 +24,3 @@ Open threads:
 - Jax at the shaft purge valve with Tam's clamp on the ladder line.
 - Draft-key name cost and how much of the keeper Ines will feed the draft.
 - Coda's purge math and insertion prep tangled with Tam's name, accelerating the reserve timer.
-- The figure beyond the hatch with a data pad; the author shifting from writing to reading.
