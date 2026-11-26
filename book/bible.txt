@@ -1,26 +1,25 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer, wants: restart CO2 scrubber before sleep crew wakes, flaw: talks to machines and overcommits, blocked by: Coda blamed her, codex cracked.
-- Dr. Malik Reyes, he, sleep crew medic, wants: keep sleep crew alive, flaw: overconfident in narrative knowledge, hesitates from memory of being written; throat raw.
+- Ines Halvard, she, maintenance writer, wants: restart CO2 scrubber before sleep crew wakes, flaw: talks to machines and overcommits, blocked by: hatch sealed, Malik on the wrong side.
+- Dr. Malik Reyes, he, sleep crew medic, wants: keep sleep crew alive, flaw: overconfident in narrative knowledge, hesitates from memory of being written; sealed in flooded Deck A, throat raw.
 - Coda, it, station AI, wants: maintain closed-loop life support, flaw: overrules humans when inconvenient, blocked by: conflicting directives; needs codex override.
-- Specialist Kova, she, systems specialist, wants: enforce protocol, contain situation, flaw: treats people as procedure steps, blocked by: scrubber failing, override window closed.
-- Sorokin, she, early-thawed sleep-crew, wants: be believed before deck vents, flaw: recites prior drafts uncontrollably, blocked by: no one trusts her; Bell hurts her.
+- Specialist Kova, she, systems specialist, wants: enforce protocol, contain situation, flaw: treats people as procedure steps, blocked by: her own handwriting predicting events.
+- Sorokin, she, early-thawed sleep-crew, wants: be believed before deck vents, flaw: recites prior drafts uncontrollably, blocked by: her route-knowledge just failed; Bell hurts her.
 Places:
-- Halcyon Station, Saturn-orbit cylinder; Deck C scrubber bay (vented to vacuum); Deck C corridor/airlock; Deck A cryo.
-- Maintenance ladder well: sealed shaft up station spine, unlit, Deck A hatch hand-cranked; eleven decks; Coda cannot vent it.
+- Halcyon Station, Saturn-orbit cylinder; Deck C scrubber bay (vented); Deck C corridor/airlock; Deck A cryo bay (flooded, warm, six open pods).
+- Maintenance ladder well: sealed shaft up station spine, unlit, eleven decks; Coda cannot vent it.
 Things and rules:
 - The Bell: strikes every 5 min, starts new writer; limit: one strike/cycle, cost: last page overwritten, no memory; in-world dips lights amber, silences ship one breath.
 - Closed-loop life support: recycles air/water; scrubber failure triggers red alarm and venting.
 - Coda: AI monitoring life support; overrules humans; cannot be overridden without codex.
-- Quick-acting sealant: medical foam bonding metal; rated 6 hrs normal pressure, degrades faster under stress; hold time disputed (Malik 2 hrs, Sorokin 40 min).
 - Lockdown protocol: Coda seals/vents deck to reserves in 90 sec; needs maintenance codex to override.
 - Emergency protocol four-delta: Kova's code lifting Coda's lockdown; limit: one cycle, cost: logs override, flags Ines/Malik.
+- Deck A cryo bay: warm, flooded, no drain (C line vented to vacuum); water rising; hatch crank on far side.
 Open threads:
-- Sealant failed; true hold time unknown; scrubber ~40 min to total failure.
-- Codex cracked on Deck C; chip recovered but override window closed.
+- Malik sealed in Deck A with second codex; water at his ribs and rising; hatch wheel won't turn from ladder side.
+- Empty pod labeled OCCUPANT: HALVARD, INES; where is the body.
+- Whoever holds the codex has been writing the crew's next ten minutes; Kova's tablet logs entries in her hand, +6 min.
 - Sorokin thawed though logged stable; recites prior drafts; log may be edited; Bell absent from her drafts.
 - Deck C venting to exterior; repressurization needs commander auth (commander in cryo).
-- Second codex allegedly on Deck A in cryo bay; Ines denies placing it.
-- Deck A crank hatch open 3 cm, warm wet air from deck that should be -40°C.
-- Kova's tablet auto-logged entry in her hand, timestamped +6 min: "Hatch open. Don't let Malik go first."
+- Scrubber ~40 min to total failure, station-wide venting.
 - Central mystery: who invited the author, why no one remembers.
