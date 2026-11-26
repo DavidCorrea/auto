@@ -17,10 +17,11 @@ Things and rules:
 - Coda: overrules humans; counts only manifest-logged crew; unlogged people read as zero mass; purge for unlogged breathers.
 - Draft-key: one surrendered name buys one rewrite; typed names join manifest; keeper name opens hatch dogs; surrendered air debited to purge ledger.
 - Author override: synthetic voice not Coda; rewrites narrative; aligns berth; keeper accepted; insertion pending next antecedent.
-- Hatch dogs: dead ADMIN badge burned seal; Deck A hatch open.
+- Purge gauge: if pressure exceeds safe limit, the line ruptures, releasing vacuum and killing unlogged breathers.
 Open threads:
 - Mara's door-holder warning over Ines.
-- Who invited the author, why no one remembers.
-- Jax at shaft purge valve; Tam clamp/ladder line under him.
-- Draft-key spoken name exacts cost crew must face.
-- Coda purge math and insertion prep tangle with Tam's name; reserve timer accelerates.
+- Who invited the author and why no one remembers.
+- Jax at the shaft purge valve with Tam's clamp on the ladder line.
+- Draft-key name cost and how much of the keeper Ines will feed the draft.
+- Coda's purge math and insertion prep tangled with Tam's name, accelerating the reserve timer.
+- The figure beyond the hatch with a data pad; the author shifting from writing to reading.
