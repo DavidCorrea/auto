@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 30176,
-  "passages": 112,
+  "words": 30364,
+  "passages": 113,
   "chapters": [
     {
       "number": 1,
@@ -91,8 +91,8 @@
       "number": 13,
       "numeral": "XIII",
       "title": "Ash and Amber",
-      "words": 243,
-      "passages": 1
+      "words": 431,
+      "passages": 2
     }
   ]
 }
