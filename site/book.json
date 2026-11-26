@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 16861,
-  "passages": 62,
+  "words": 17188,
+  "passages": 63,
   "chapters": [
     {
       "number": 1,
@@ -51,6 +51,13 @@
       "title": "The Manifest Correction",
       "words": 2426,
       "passages": 10
+    },
+    {
+      "number": 8,
+      "numeral": "VIII",
+      "title": "The Hand That Signed",
+      "words": 327,
+      "passages": 1
     }
   ]
 }
