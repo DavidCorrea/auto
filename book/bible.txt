@@ -9,8 +9,8 @@ Characters:
 - Lira Kessler, she, author liaison; wants: to know who invited the author; flaw: distrusts crew; audit active, logged as cost at port
 - Mara Voss, she, relief maintenance; wants: to survive; flaw: pragmatic to a fault
 Places:
-- Halcyon Station, Saturn-orbit cylinder; scrubbers failing, reserve light green and steady
-- Spine under deck: reserve line blown, needle past red; holds Vey, Ines, Jax, Mira, Lira
+- Halcyon Station, Saturn-orbit cylinder; scrubbers failing, reserve light amber, reserve line blown
+- Spine under deck: reserve line blown, needle past red then yellow; holds Vey, Ines, Jax, Mira, Lira
 - Signature port: steel slab; bears Rylia's red, Jax's black, Ines's white-fire name, Mira's red, Vey's name, Lira's cost
 - Vent crawl above hatch: empty, Vey's etching smeared
 Things and rules:
