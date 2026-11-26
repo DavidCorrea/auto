@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "at 35+ meters depth, past the memory line, comms cut, slate recording but memory will not return"
+      "status": "at ~38m below the line, voice looping and wrong on the comm, winch about to be engaged to haul him up"
     },
     {
       "name": "Wren Achebe",
@@ -91,7 +91,8 @@
       "A broker's drone drops a contract onto the deck — raise a sealed cryo-case from the drowned hospital tower for more money than they've ever seen — and Sol makes the call to take it, her eyes on the tower's depth, which sits well below the line."
     ],
     "events": [
-      "Dey ignores the depth line warning and dives past thirty meters to reach a valuable sealed locker, cutting comms as his slate recorder begins blinking red, while Sol refuses to dive after him and the storm glass drops further."
+      "Dey ignores the depth line warning and dives past thirty meters to reach a valuable sealed locker, cutting comms as his slate recorder begins blinking red, while Sol refuses to dive after him and the storm glass drops further.",
+      "Dey dropped to nearly forty meters past the memory line while Wren warned him off his slate and his failing air, until his voice returned over the comm looping the same phrases wrong, and Sol reached for the winch to haul him up."
     ]
   }
 }

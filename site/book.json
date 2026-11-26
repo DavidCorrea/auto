@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 772,
-  "passages": 1,
+  "words": 1400,
+  "passages": 2,
   "arcs": [
     {
       "number": 1,
@@ -15,8 +15,8 @@
       "number": 1,
       "numeral": "I",
       "title": "The Line",
-      "words": 772,
-      "passages": 1
+      "words": 1400,
+      "passages": 2
     }
   ]
 }
