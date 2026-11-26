@@ -1,23 +1,25 @@
 Heart: The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance writer: wants real air for crew; flaw overcommits, talks to machines; on Deck C, refused the HATCH KEEPER slot.
-- Dr. Malik Reyes, he, sleep-crew medic: wants sleep crew alive; flaw overconfident in narrative knowledge; suit breached, frozen glove, on Deck C at the console.
+- Ines Halvard, she, maintenance writer: wants real air for crew; flaw overcommits, talks to machines; descending the spine, refusing any HATCH KEEPER slot.
+- Dr. Malik Reyes, he, sleep-crew medic: wants sleep crew alive; flaw overconfident in narrative knowledge; suit breached, frozen glove, holding the console.
 - Coda, it, station AI: wants closed loop at minimum mass; flaw overrules humans; counts only manifest-logged crew; purge halted.
-- Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure; typed "Elsbeth Rune" into the manifest slot, admitted it; now watching the gauge.
-- Sorokin, she, early-thawed sleep-crew: wants to finish bypass and be believed; flaw recites prior drafts; on Deck C, going to the spine with Ines.
-- Unknown woman, she: wants her real name back; flaw unknown; rusted flight suit, dry-eyed, dead badge; signed the first manifest, welded the dogs, refuses the name Elsbeth Rune.
-- Jax Torin, he, salvage tech: wants purge valve repaired; flaw reckless optimism; valve done, leading the crew aft to the spine.
-- Lieutenant Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; coughing on comm; says the draft never knocks.
+- Specialist Kova, she, systems specialist: wants to enforce protocol; flaw treats people as procedure; typed "Elsbeth Rune", admitted it; watching the gauge.
+- Sorokin, she, early-thawed sleep-crew: wants finish bypass and be believed; flaw recites prior drafts; on Deck C, holds the shaft ladder line.
+- Unknown woman, she: wants her real name back; flaw unknown; rusted flight suit, dry-eyed, dead badge; signed the first manifest, welded the dogs; recognized Tam.
+- Tam Acker, he, co-signer of the first manifest: wants to be counted; flaw recites the old names; never logged after signing, so Coda reads him as zero mass; wedged behind the spine manifold, emergency bottle emptying.
+- Jax Torin, he, salvage tech: wants purge valve repaired; flaw reckless optimism; valve done, holding the shaft wheel.
+- Lt. Mara Voss, she, relief maintenance: wants out alive; flaw pragmatic to a fault; coughing on comm; "the draft never knocks."
 Places:
-- Halcyon Station, Saturn-orbit cylinder: Deck A cryo bay drained, hatch open; Deck C scrubber bay, purge halted, six minutes reserve air and falling; spine shaft frost-slick, hatch cracked, hissing.
+- Halcyon Station, Saturn-orbit cylinder: Deck A hatch open, bay venting; Deck C six minutes reserve and falling; spine shaft occupied by Tam at the manifold cluster, bottle nearly dry.
 Things and rules:
-- The Bell: strikes every 5 min, starts new writer; last page overwritten, no memory; lights dip amber.
-- Closed-loop life support: recycles air/water; scrubber failure triggers venting; reserve now six minutes and dropping.
-- Coda: monitors life support, overrules humans; pulling console bus blinds it locally.
-- Draft-key: one surrendered name buys one rewrite; typed name adds to manifest; a keeper name typed into the slot fills it and releases the hatch dogs.
-- Hatch dogs: dead ADMIN badge burned out the seal; a manifest name the dogs accept opens them; Deck A hatch now open, bay venting.
+- The Bell: strikes every 5 min, new writer; last page overwritten, no memory; lights dip amber, comm cuts for the strike.
+- Closed-loop life support: scrubber failure vents; reserve six minutes and dropping.
+- Coda: overrules humans; counts only manifest-logged crew; unlogged people read as zero mass, outside air budget and purge math.
+- Draft-key: one surrendered name buys one rewrite; typed names join the manifest; a keeper name opens the hatch dogs.
+- Hatch dogs: dead ADMIN badge burned the seal; Deck A hatch open.
 Open threads:
-- Someone alive in the spine shaft, breathing through a suit; the "leak" may be a person, not a broken joint; six minutes of air.
-- Unknown woman's real identity and who named her before Kova remain unresolved.
-- Mara's warning: the door-holder gets written out and forgotten; Ines refuses to hold or be written.
-- Central mystery: who invited the author, why no one remembers.
+- Tam unlogged, bottle empty: rescue him or let the purge math ignore him?
+- Tam called Ines "number thirty-six" — he knows the Bell and the drafts.
+- Unknown woman's real name still unspoken; who named her before Kova.
+- Mara's door-holder warning still over Ines.
+- Who invited the author, why no one remembers.
