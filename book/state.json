@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "standing between Dey and the rail, having laid out why the dive can't be done"
+      "status": "on deck beside Dey, commanding the response, winch now unmanned"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "in the water west of the Marrow, no line, no scrubber, one breath, stroking toward Mercy General and going under"
+      "status": "on deck, alive but wrong — gray lips, fixed pupils, barely breathing, too heavy"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "frozen at the cold winch, drum not turning, her own eleven seconds glowing on the slate"
+      "status": "frozen at the winch, slate in hand, not moving when Sol orders her to read Dey's record"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on her feet at wheelhouse door, recognizing the tower as where she and Teo survived"
+      "status": "on deck beside Dey, recognizing the wrongness of his weight, first time acting as crew not passenger"
     },
     {
       "name": "Ivo Salas",
@@ -133,7 +133,8 @@
         }
       ],
       "chapterSummaries": [
-        "Rusk slid his lamp-less barge alongside, gave Sol until the storm turns to hand over the cold-case's value or the Marrow itself, pocketed three of Teo's four medicine cartridges as \"earnest,\" and cast off east—leaving behind word of a sealed pharmacy pocket at forty-two meters in Mercy General that no diver has ever come back from, the same depth where a man everyone says is dead keeps calling Wren's name on the backup channel. Wren, who rebuilds divers' lost hours from the data their body kept, understands she has never once built her own."
+        "Rusk slid his lamp-less barge alongside, gave Sol until the storm turns to hand over the cold-case's value or the Marrow itself, pocketed three of Teo's four medicine cartridges as \"earnest,\" and cast off east—leaving behind word of a sealed pharmacy pocket at forty-two meters in Mercy General that no diver has ever come back from, the same depth where a man everyone says is dead keeps calling Wren's name on the backup channel. Wren, who rebuilds divers' lost hours from the data their body kept, understands she has never once built her own.",
+        "Wren built her own slate and found an eleven-second cut matching the one she'd made in Sol's — then found fifty-two minutes erased from her own deck log and every redundant record aboard, all sealed by a hand that knew her method too well: her own. Before anyone could stop him, Dey rolled off the rail with no rig, no clip, no line, one breath, stroking west toward Mercy General. The storm hit the Marrow broadside, the deck heeled, and Dey went under."
       ],
       "summary": "",
       "isClosed": false,
@@ -142,23 +143,18 @@
   ],
   "chapter": {
     "arc": 2,
-    "number": 8,
-    "title": "Eleven Seconds",
+    "number": 9,
+    "title": "Below the Line",
     "beats": [
-      "After the barge's smudge slides off her slate, Wren stays at the winch while the others argue in the dark, unable to shake Salas's voice saying her own name, and finally does the thing she has never done—opens a build on herself, pulling a diver's suit telemetry off her own slate that she has no memory of ever recording. The build starts spooling backward through a descent she cannot remember making.",
-      "The build runs and stops dead at an eleven-second gap, clean-edged and deliberate, a cut and not a dropout; Wren knows that exact shape because she carved it out of Sol's slate hours ago to hide Sol choosing the children over the twelve thousand, and here it sits again, identical, in her own record—one edit tonight, two matching holes.",
-      "On his crate with the gutted rig open in his lap, Dey has stopped pretending to fix it and started measuring Rusk's treasure map against the spliced line and the distance west, while Nia tells him flat what a single lungful does to a man past thirty meters and Teo breathes too fast in the doorway over the last cartridge; Dey asks Wren, low, whether a body can reach forty-two on one breath and come back, and Wren, staring at her own hole, doesn't say no.",
-      "Wren tries to fill her eleven seconds and can't—the deck-audio log she keeps has the same gap cut out of it, lined up to a stretch of last night she can't account for, and for the first time there's an hour on this coast her body didn't keep and she cannot rebuild—so she understands the cut was never protecting Sol; it was protecting her from something she did.",
-      "The wheelhouse speaker crackles—Salas, \"keep going... tell the kid\"—and Dey stands and takes it as the proof he wanted, a living man and a real score breathing forty meters west, while Sol plants herself between him and the rail and lays it out flat: no rig on the boat seals past thirty, the scrubber that would let him breathe is in Teo's chest, and the drum has one good pull before the storm eats it—and Dey says he doesn't need a scrubber for one breath, his hand already on the rail.",
-      "Before anyone can close the distance Dey rolls backward over the rail into the black, no line, no scrubber, one breath, stroking west toward Mercy General to prove he still belongs in the deep—leaving Wren's slate glowing with her own eleven seconds, the winch drum not yet turning, Nia screaming for the line, and the first hard gust of the turning storm slamming the Marrow broadside as Dey goes under."
+      "In the storm's first hard blow, Nia and Sol get the loose line and a boat-hook out to Dey and drag him to the rail; he comes over the side alive but wrong — lips gray, eyes not tracking, too heavy and too quiet.",
+      "Working him on the deck, Wren reads Dey's slate fast and finds the last hour gone as a soft, water-made dropout, not a cut — the deep ate it below the line, and Dey surfaces with no memory of the tower or the pocket he swam for.",
+      "With no rig sealing past thirty and only Wren's own suit rated to forty-two, and her voice still on last night's comms saying \"at pocket, seal intact,\" Wren is the only one who can find the pharmacy pocket — and she says yes to going back down into the same dark she erased.",
+      "Sol takes the winch instead of the water, planting herself at the drum and feeding Wren the boat's last good air down the spliced line, spending the drum's single remaining pull as Wren's only ride up.",
+      "Wren goes down the spliced line alone, Sol calling the meters as the storm hammers the hull, the rule of the deep made real when Wren passes thirty and the cold starts working at the edge of her thinking.",
+      "At forty-two meters her lamp finds the sealed pharmacy pocket — and tied at the seal is her own knot from last night, the one she doesn't remember tying, her hands already knowing it before her mind catches up."
     ],
     "events": [
-      "Wren runs a build on her own slate for the first time, pulling telemetry from a descent to the pharmacy pocket at forty-two meters that she has no memory of making, and the spool begins rewinding through the dive.",
-      "Wren's self-build halts at a clean, deliberate eleven-second cut in her own dive record, identical to the one she carved from Sol's slate hours ago, revealing she edited her own memory and doesn't remember doing it.",
-      "Dey gives up on his gutted rig and measures Rusk's map against the short spliced line while Nia warns flatly that one breath blacks a man out on the rise from forty-two meters, then asks Wren low whether a body can reach that depth and return on a single breath — and Wren, staring at the cut in her own record, doesn't say no.",
-      "Wren tries to rebuild her eleven seconds from the deck-audio log and finds the same clean cut there too, blown out to nearly an hour of last night she can't account for, with every backup record on the boat cut identically, and understands she erased it herself to hide something she did.",
-      "Salas's call pushes Dey to his feet and to the rail, and though Sol plants herself in his way and lays out flat why the dive is impossible — no rig seals past thirty, the scrubber is in Teo's chest, the drum has one pull left — Dey insists one breath is enough and rests his hand on the rail.",
-      "Dey rolls backward over the rail into the black on one breath with no line and no scrubber, stroking west toward Mercy General, as the storm's first gust slams the Marrow broadside and Wren stands frozen at the cold, still drum with her own eleven seconds glowing beside her hand."
+      "Nia and Sol haul Dey aboard alive but unresponsive — gray-lipped, eyes fixed, body heavy with the deep — while Wren freezes at the winch and Sol demands she read his slate."
     ]
   }
 }
