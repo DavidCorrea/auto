@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "kneeling at the cold-case in the Mercy General ward, off the winch for two minutes, warm and calm and steadier than he should be"
+      "status": "in the flooded ward past fifty-one meters, hand on the cold-case crank at thirty turns, memory walking backward, about to answer"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the winch on the Mercy's helipad, hand over Sol's on the brake"
+      "status": "at the winch on the Mercy's helipad, ninety seconds on Sol's clock, recording the dive unedited"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "one hand on the crank, forty turns in debt, eight doses left"
+      "status": "one-handed off the crank for the first time in a year, eight doses, thirty turns in debt"
     },
     {
       "name": "Ivo Salas",
@@ -48,7 +48,6 @@
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
     "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it.",
-    "the girl in the cold-case knows the name Ivo Salas and expected a man by it",
     "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down."
   ],
   "arcs": [
@@ -106,7 +105,8 @@
     "events": [
       "Face to face in the flooded ward, Nia refuses to leave the crank and demands Ivo Salas, while Dey — warm, calm, and wrong — can offer only Ivo's name and borrowed air, and Nia recognizes the depth is already eating him.",
       "Wren hears Dey's exhaust tick stop, talks him back to breathing live by voice with no slate-splice for the first time in four years, radios Sol that the case is two children, and the Factor's drone drops through the hatch counting seals as Sol takes her thumb off the winch brake.",
-      "Nia reveals the cold-case is her brother's medicine chest, wound by hand for a year, and begs them to leave; when Teo stops breathing behind the glass, Dey helps her dose him one-handed, spending one of nine doses and costing forty turns of the crank."
+      "Nia reveals the cold-case is her brother's medicine chest, wound by hand for a year, and begs them to leave; when Teo stops breathing behind the glass, Dey helps her dose him one-handed, spending one of nine doses and costing forty turns of the crank.",
+      "Dey cheerfully tells Wren he's lost the boat and the direction of up while she records every word, Sol refuses to give back the two minutes, and Nia — naming what the depth is doing to him — folds his hand onto the crank, begs a stranger to take her and Teo up, and asks where Ivo Salas is."
     ]
   }
 }
