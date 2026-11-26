@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on deck, memory severely impaired, docile and agreeable, still wearing S.S. pony bottle"
+      "status": "seated on deck, docile, sole witness to the drone going over the side"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on winch, alone, injured forearm, storm glass dropping, mooring lines failing"
+      "status": "on the Marrow's deck, forearm reopened, no cartridges, no barge, hand-hauling the winch cable"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "awake and going sleepy at 42m, four hundred meters west, calling any boat on the backup channel"
+      "status": "still calling on the backup channel, four hundred meters west, unanswered"
     }
   ],
   "threads": [
@@ -48,8 +48,7 @@
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
     "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down.",
-    "Ivo Salas's call on the backup channel — asking that the kid be told to keep going — is still open and unanswered",
-    "the drone's price for two hundred sealed scrubber cartridges and a barge two-to-three hours out is the cold-case Sol left on the tile at fifty-two meters"
+    "Ivo Salas's call on the backup channel — asking that the kid be told to keep going — is still open and unanswered"
   ],
   "arcs": [
     {
@@ -108,7 +107,8 @@
     "events": [
       "Wren hauls Dey, Nia, and Teo from the water one by one onto the Marrow's deck in the worsening storm; Dey surfaces docile and memory-empty, Nia feral and protective of her brother, and the winch motor dies as Sol remains below with no response on the radio.",
       "On the pitching deck Wren finds Teo breathing but his scrubber canister spent with no spare aboard, and Nia reveals the hand-wound cold-box is sinking with the case Sol left, leaving the boy days of warm medicine instead of the hour she'd held him against — turning the crew's rescue into sour relief.",
-      "A Factor drone arrives through the storm offering to un-forfeit the twelve thousand and deliver two hundred scrubber cartridges if the crew raises the cryo-case, then lands on the rail and refuses to leave."
+      "A Factor drone arrives through the storm offering to un-forfeit the twelve thousand and deliver two hundred scrubber cartridges if the crew raises the cryo-case, then lands on the rail and refuses to leave.",
+      "Wren jams the Factor's drone with the winch's transmitter, pries it off the gunwale with a boathook and drops it into the sea while Dey watches, then takes the dead winch's cable in her hands and starts hauling for Sol by hand."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 19558,
-  "passages": 28,
+  "words": 20330,
+  "passages": 29,
   "arcs": [
     {
       "number": 1,
@@ -43,8 +43,8 @@
       "number": 5,
       "numeral": "V",
       "title": "Empty-Handed",
-      "words": 1605,
-      "passages": 3
+      "words": 2377,
+      "passages": 4
     }
   ]
 }
