@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at helm, storm glass dropping, refusing to dive for Dey, focused on berth money"
+      "status": "on deck with the locker, storm glass falling, shaken and hiding it"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "at ~38m below the line, voice looping and wrong on the comm, winch about to be engaged to haul him up"
+      "status": "in the recompression box on deck oxygen, bent, missing the hour below thirty meters, one year of indenture left"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at topside station, monitoring Dey's slate, aware he's lost memory, rebuilding will be needed"
+      "status": "holding Dey's slate with seventy-nine minutes on it, about to rebuild it"
     },
     {
       "name": "Nia Vos",
@@ -39,7 +39,8 @@
     "Wren quietly edits divers’ slates to spare them what they did, and has never told anyone.",
     "Sol is losing her memory from years below the line, hides it, and won’t let anyone else take the helm.",
     "Dey’s indenture: one year left and no way to pay it off without a big score.",
-    "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground."
+    "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
+    "Dey breathed forty extra minutes below the line that he never loaded, and something down there gave them to him"
   ],
   "arcs": [
     {
@@ -92,7 +93,8 @@
     ],
     "events": [
       "Dey ignores the depth line warning and dives past thirty meters to reach a valuable sealed locker, cutting comms as his slate recorder begins blinking red, while Sol refuses to dive after him and the storm glass drops further.",
-      "Dey dropped to nearly forty meters past the memory line while Wren warned him off his slate and his failing air, until his voice returned over the comm looping the same phrases wrong, and Sol reached for the winch to haul him up."
+      "Dey dropped to nearly forty meters past the memory line while Wren warned him off his slate and his failing air, until his voice returned over the comm looping the same phrases wrong, and Sol reached for the winch to haul him up.",
+      "Dey comes up bent and alive after seventy-nine minutes underwater on a forty-minute mix, with a sealed cold-chain locker he doesn't remember lashing to himself and no memory of the hour past the line, and the crew falls silent around the gap in him."
     ]
   }
 }
