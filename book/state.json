@@ -1,0 +1,99 @@
+{
+  "setting": "The drowned coast, around 2140, where the seas took the old cities and people live on lashed-together rafts and salvaged boats, diving the flooded towers for anything worth trading to buy a place up on the high ground. Life is cold, close, and loud, and every good seat is above the waterline. Below a certain depth in the towers, people start losing memory, and it never comes back.",
+  "heart": "This is about people who go down into the dark for each other and surface missing pieces of themselves, and about whether loving someone means telling them the truth about who they've become. What's at stake is a body, a home, and the memory of the people you'd die to save.",
+  "cast": [
+    {
+      "name": "Sol Ferreira",
+      "pronouns": "she/her",
+      "role": "captain of the salvage boat the Marrow",
+      "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
+      "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
+      "status": "at helm, storm glass dropping, refusing to dive for Dey, focused on berth money"
+    },
+    {
+      "name": "Dey Okafor",
+      "pronouns": "he/they",
+      "role": "newest diver, indentured to the crew",
+      "wants": "one big score to buy back his freedom",
+      "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
+      "status": "at 35+ meters depth, past the memory line, comms cut, slate recording but memory will not return"
+    },
+    {
+      "name": "Wren Achebe",
+      "pronouns": "she/her",
+      "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
+      "wants": "to keep Dey from ending up hollowed out like Sol",
+      "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
+      "status": "at topside station, monitoring Dey's slate, aware he's lost memory, rebuilding will be needed"
+    },
+    {
+      "name": "Nia Vos",
+      "pronouns": "she/her",
+      "role": "a girl surviving alone in the drowned hospital tower",
+      "wants": "to keep her little brother Teo alive on the last of his medicine",
+      "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
+      "status": ""
+    }
+  ],
+  "threads": [
+    "Wren's slate-editing lie, which she now wants to use on Sol and must decide against.",
+    "Sol's mounting memory loss and her refusal to let anyone else take the helm.",
+    "Dey's indenture debt, now unpayable with no score in hand.",
+    "The Factor wants the cryo-case and now knows the Marrow's position in the storm.",
+    "Nia and Teo as two new mouths aboard, and Teo's sickness with the medicine still down below.",
+    "The flooding mooring and storm season, with the crew now broke and needing a berth fast."
+  ],
+  "arcs": [
+    {
+      "title": "Below the Line",
+      "goal": "The Marrow takes a broker's fortune to raise a sealed medical cold-case from a drowned hospital tower, only to find the cargo is a girl and her dying brother, and must choose on their last air between the payout that would save the whole crew and two strangers. It ends with the strangers saved, the money gone, and a captain who no longer remembers what she gave up.",
+      "author": "baidu/ernie-5.5-flash-preview:free",
+      "plan": [
+        {
+          "title": "The Line",
+          "summary": "On a routine dive Dey crosses the depth line and surfaces missing an hour, which Wren quietly rebuilds for him from his slate while Sol watches the storm glass and a broker's drone drops a contract to raise a cryo-case from the hospital tower for more money than they've ever seen."
+        },
+        {
+          "title": "Too Good",
+          "summary": "Sol takes the Factor's contract over Wren's objection and loads extra oxygen, warning Dey as they descend that the deeper he goes the more of himself stays down there, but he pushes ahead to the case."
+        },
+        {
+          "title": "The Air Pocket",
+          "summary": "In a flooded ward Dey finds the cryo-case guarded by Nia, who's kept it running a year to hold the medicine keeping her sick brother Teo alive, and begs them to leave — as Dey's memory starts coming apart from lingering too deep."
+        },
+        {
+          "title": "The Choice",
+          "summary": "Dey slips badly and forgets the surface entirely, so Sol dives past her own limit to drag him up, sees the two kids running out of air, and over the radio chooses the people over the case."
+        },
+        {
+          "title": "Empty-Handed",
+          "summary": "They surface into the storm with two children and no vault, Wren cuts off the Factor's drone as it demands the case, and Sol — down longest — comes up not remembering why her hands are empty."
+        },
+        {
+          "title": "The Slate",
+          "summary": "Anchored in the storm with five mouths to feed and no berth money, Wren plays Sol's slate back to tell her what she chose, and her thumb finds the edit function she's used on everyone, hovering over the lie while Sol waits to hear who she saved."
+        }
+      ],
+      "chapterSummaries": [],
+      "summary": "",
+      "isClosed": false,
+      "firstChapter": 1
+    }
+  ],
+  "chapter": {
+    "arc": 1,
+    "number": 1,
+    "title": "The Line",
+    "beats": [
+      "The Marrow works a routine salvage dive in a half-drowned tower; banter establishes the crew, Dey's indenture and hunger for one big score, and the depth line — the rule that below it memory stays down and never returns — as Sol spots salvage worth trading for berths before storm season.",
+      "Dey rigs his gear and drops past the depth line after a sealed locker worth real money, ignoring Wren's warnings on the comm (his slate recorder, the log every diver carries, ticking down his air), until his voice starts looping and wrong.",
+      "Dey surfaces a full hour past what his air allows, missing that hour whole and unable to say what he did down there, while Sol hauls him aboard sharp and shaken and the crew goes quiet at the gap in him.",
+      "Wren plays the slate, rebuilds the lost hour for Dey, and quietly edits out what he actually did below the line to spare him — her old lie working for the first time on the page — then covers the gap when Sol asks what's on it.",
+      "Sol stands at the storm glass doing the math on a mooring that won't survive the season and berths they can't buy, snapping at the crew and refusing to say what's got her rattled, as the glass drops faster than it should.",
+      "A broker's drone drops a contract onto the deck — raise a sealed cryo-case from the drowned hospital tower for more money than they've ever seen — and Sol makes the call to take it, her eyes on the tower's depth, which sits well below the line."
+    ],
+    "events": [
+      "Dey ignores the depth line warning and dives past thirty meters to reach a valuable sealed locker, cutting comms as his slate recorder begins blinking red, while Sol refuses to dive after him and the storm glass drops further."
+    ]
+  }
+}
