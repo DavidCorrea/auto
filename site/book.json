@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 11727,
-  "passages": 43,
+  "words": 12084,
+  "passages": 44,
   "chapters": [
     {
       "number": 1,
@@ -35,8 +35,8 @@
       "number": 5,
       "numeral": "V",
       "title": "The Surrender",
-      "words": 1095,
-      "passages": 4
+      "words": 1452,
+      "passages": 5
     }
   ]
 }
