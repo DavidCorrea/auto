@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 20106,
-  "passages": 74,
+  "words": 20259,
+  "passages": 75,
   "chapters": [
     {
       "number": 1,
@@ -63,8 +63,8 @@
       "number": 9,
       "numeral": "IX",
       "title": "The Signed Cost",
-      "words": 1134,
-      "passages": 4
+      "words": 1287,
+      "passages": 5
     }
   ]
 }
