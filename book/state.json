@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "on the helipad, tether slack and wax markers dead; pulls the spare full-face mask and keys the net — going down herself"
+      "status": "inside the second-landing ward of the Mercy General at 52 m, eleven meters past her floor, unable to read her hand or name the voice on her line"
     },
     {
       "name": "Dey Okafor",
@@ -48,8 +48,7 @@
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Wren's splice has never failed before, and Dey came out of the box still holding the name she cut.",
     "Someone has been hand-winding the cold-case's cell for twenty-two years in the Mercy, and they will be standing over it when Dey reaches it.",
-    "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down.",
-    "Sol descending past her own depth limit with a second mask to reach Dey, a dive that will cost memory she can't spare"
+    "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down."
   ],
   "arcs": [
     {
@@ -84,7 +83,8 @@
       ],
       "chapterSummaries": [
         "Dey crossed the thirty-meter line on a routine locker dive and came up bent, missing the hour, carrying a name he shouldn't have — Ivo Salas, an old diver in an air pocket who lent him air. Wren spliced the name out of the build she played him; he kept it anyway. Sol can't read her own grease-pencil numbers. The Factor's drone dropped a contract: a sealed cold-case at fifty-two meters in the Mercy General, twelve thousand, a year of Dey's indenture retired, nine hours till the season is declared — and Wren's arithmetic says someone has hand-wound that cell for twenty-two years.",
-        "The Marrow ran six kilometers out to the Mercy General for the Factor's twelve-thousand cold-case, and Dey went down to fifty-two and came off the tether with his memory already going. He found the \"cargo\" is a girl hand-winding the case's power cell over a masked little boy, and she told him flat he isn't the man she's been waiting for — Ivo Salas — while Wren's thumb hovered over the slate."
+        "The Marrow ran six kilometers out to the Mercy General for the Factor's twelve-thousand cold-case, and Dey went down to fifty-two and came off the tether with his memory already going. He found the \"cargo\" is a girl hand-winding the case's power cell over a masked little boy, and she told him flat he isn't the man she's been waiting for — Ivo Salas — while Wren's thumb hovered over the slate.",
+        "In the flooded ward of the Mercy General, Dey's memory came apart until he sat down warm and empty against the cryo-case, forgetting the boat, \"up,\" and why he came, while Nia cranked the failing spring cell one-handed over her brother Teo and the Factor's drone counted the crate and Wren could only talk to a man who'd stopped hearing her. Sol, watching her wax markers hang dead on the rail, pulled the spare full-face mask and told the boat she was going down herself."
       ],
       "summary": "",
       "isClosed": false,
@@ -93,23 +93,18 @@
   ],
   "chapter": {
     "arc": 1,
-    "number": 3,
-    "title": "The Air Pocket",
+    "number": 4,
+    "title": "The Choice",
     "beats": [
-      "Face to face in the flooded ward, Nia keeps one hand on the crank and won't let Dey near the case; she demands to know where Ivo Salas is, the diver who promised to come back with a ride up for her and her brother Teo. Dey, warm and calm and wrong, has Ivo's name and Ivo's borrowed air in his lungs but can't hold the man's face — and Nia sees this stranger isn't just lost, he's a man the depth is already eating.",
-      "Wren, in the bone of Dey's jaw, realizes his breathing has stopped — the steady tick of his exhaust gone — and talks him back to it on her count, in and out, rebuilding a man live by voice with no splice for the first time in four years; then she relays to Sol that the twelve-thousand case is two children, not cargo. Overhead the Factor's drone drops through the hatch and hangs there, lens down, still counting seals while Sol's thumb comes off the brake.",
-      "Nia explains the case is a cryo-med chest — a cold box that keeps the last of Teo's medicine from spoiling — its cell dead, so she's wound the generator by hand for a year rather than trust anyone with a boat; take the case to the Factor and Teo dies. She begs them to leave, and as she says it Teo goes still behind the fogged glass, and only a dose from the box pulls him back.",
-      "Dey slips another rung past fifty, tells Wren pleasantly that he's forgotten how you carry a boat and that up stopped being a place, and Nia is the one who names what's happening because she's watched the deep do this before; her year of trusting no one cracks, and she does the thing she's never done — folds Dey's hand around the crank and asks a stranger for help. Then she says the name of the man who was supposed to come: Ivo Salas put Teo in that box and swore he'd return.",
-      "In one clear, courteous flash Dey gives up the truth he's been carrying — Ivo is trapped in an air pocket four hundred meters off in the salvage tower, that he lent Dey air at forty-two and is still down there breathing his own spit — so now a man is drowning, a boy is dying, and Dey is the only one who can move, and he's forgetting why he came. Nia sees the winch toggle palmed in his thigh pouch, the one meant to haul Ivo up, and understands he came to save the wrong man.",
-      "Dey sits down against the warm side of the case, calm and kind, and tells Wren up isn't a place and he's comfortable, and her voice can't reach him anymore; Nia cranks one-handed with Teo clutched to her chest as the cell's light gutters out. Topside the wax ties on the tether have stopped, there's no line on him at all, and Sol reaches below the bench for a second mask and keys the slate — someone has to go down."
+      "Sol goes down the tether past her own limit into the Mercy General, the grease-pencil trim numbers on the back of her hand already unreadable, and somewhere in the cold the name of whoever's holding her line topside drops out and doesn't come back; she keeps going anyway, and her lamp finds the hatch — a man sitting against a white enamel box, one green bead guttering on its side.",
+      "In the ward she tries to haul Dey up and can't, because he's warm and agreeable and won't clip in and doesn't know which way up is, while Nia cranks one-handed, gray-lipped, and rounds on Sol as one more boat-man come to take the box and leave — and close up Sol sees the cell in its last quarter-arc and the boy's breath fogging wrong behind the glass, two kids running out of air in a box about to warm.",
+      "Sol runs the arithmetic out loud on the net: one line, one clean haul before the spring dies and the surge hits, no way to bring the welded crate and three bodies up together, and the breathing gas already down to what's in two masks and a stubby bottle marked S.S. — the crate or the people.",
+      "The drone settles a meter off her mask and the Factor's voice says \"Count: one. Seals intact. Awaiting ascent,\" waiting to be told what goes up; Wren asks the same on the net, and Sol, deeper in her hole, can't place the voice and asks the boat to say who's got her winch, so Wren has to name herself and feed her the whole thing live — the children, the twelve thousand, the berths, the storm — not one second of it spliced clean.",
+      "Sol keys the net and calls it, the people and not the box, rig the line for Dey and both kids, kill the drone, let the twelve thousand and the crew's berths go down with the case — and the Factor's voice logs the refusal as Nia's fist on the yellow toggle takes the weight and hauls the warm wrong man up first, the switch that can't reach Ivo Salas going sleepy four hundred meters west.",
+      "They clip Teo and Nia to Dey's line and the drum lifts all three off the tile, the welded box left counting nothing in the dark; longest down and past her limit, Sol turns her own grease-pencil hand over and can't read a mark on it, can't say what she just paid or who she paid it for, as the people rise toward a storm and a boat that no longer has its money."
     ],
     "events": [
-      "Face to face in the flooded ward, Nia refuses to leave the crank and demands Ivo Salas, while Dey — warm, calm, and wrong — can offer only Ivo's name and borrowed air, and Nia recognizes the depth is already eating him.",
-      "Wren hears Dey's exhaust tick stop, talks him back to breathing live by voice with no slate-splice for the first time in four years, radios Sol that the case is two children, and the Factor's drone drops through the hatch counting seals as Sol takes her thumb off the winch brake.",
-      "Nia reveals the cold-case is her brother's medicine chest, wound by hand for a year, and begs them to leave; when Teo stops breathing behind the glass, Dey helps her dose him one-handed, spending one of nine doses and costing forty turns of the crank.",
-      "Dey cheerfully tells Wren he's lost the boat and the direction of up while she records every word, Sol refuses to give back the two minutes, and Nia — naming what the depth is doing to him — folds his hand onto the crank, begs a stranger to take her and Teo up, and asks where Ivo Salas is.",
-      "Dey calmly reveals Ivo is trapped in an air pocket at forty-two in the salvage tower with no scrubber and an hour's borrowed air already gone, Wren relays it and Sol refuses to divert the winch, and Nia pulls the winch toggle from Dey's thigh pouch, understanding he came down past fifty to save the wrong man.",
-      "Dey, his memory gone, sits down against the warm side of the cold-case and tells Wren he's comfortable and that \"up\" and the boat have slipped away, while Wren's voice can no longer reach him; Nia cranks the spring cell one-handed with Teo clutched to her chest as its charge light gutters and the winch toggle in her fist can only reach the wrong man; and topside Sol sees the wax markers hang dead and the tether go slack, pulls the spare full-face mask, and keys the net to say she's going down herself."
+      "Sol winches past her thirty-eight-meter floor to fifty-two, loses the name of the woman on her line, her grease-pencil numbers and the word for the winch drum, abandons the dead tether, and puts her lamp through a forced hatch onto Dey sitting warm and agreeable against the white cold-case, Ivo's bottle marked S.S. clipped at his hip, one green charge bead guttering out."
     ]
   }
 }
