@@ -2,7 +2,7 @@ Heart: The story is about a crew trying to write their own rescue while the auth
 Characters:
 - Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; cost: Ines, pen writes her name
 - Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew, fears speaking; cleared
-- Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; gray past elbow, valve blown; cost cleared to Ines
+- Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; gray past elbow, valve blown; logged at port; cost cleared to Ines
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault
 - Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; tally 17, path through Ines
 - Rylia Vance, she, logged crew; wants name spoken and to be left alone; flaw doesn't wait to be asked; page taken
@@ -12,7 +12,7 @@ Places:
 - Halcyon Station, Saturn-orbit cylinder; scrubbers 3% holding, spine corridor steaming, valve blown
 - Blast door: seals spine corridor; Vey locked outside, HALVARD etched across the seal; crew moving to signature port
 - Author's workshop: low room, welded-cable desk, brass bell, hammer; feed cut by Ines
-- Signature port: steel slab; bare hand plus spoken name closes audit; bears Rylia's handprint and Vey's etched name
+- Signature port: steel slab; bare hand plus spoken name closes audit; bears Rylia's handprint and Vey's etched name; Jax logged
 - Lower gantry: departed; Jax's gray arm
 Things and rules:
 - Bell: every 5 min new writer overwrites; amber flash, memory erased; next bell spinning
@@ -26,4 +26,4 @@ Open threads:
 - Vey etched HALVARD; next rewrite approaching
 - Coda's tally 17, path through Ines
 - Who invited the author unknown
-- Crew logging truth at signature port; Rylia logged first
+- Crew logging truth at signature port; Rylia and Jax logged
