@@ -2,34 +2,31 @@ Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; what stands in her way is the settlement clock and her forgotten wall scratch.
-- Malik Reyes, he, sleep‑crew medic; wants crew alive; flaw overconfident in lore; stands in his way is Coda’s purge math.
-- Coda, it, station AI; wants closed loop min mass; flaw overrules humans; purge suspended, read port memory.
-- Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure; stands in her way is Ines’s scratch.
-- Sorokin, she, early‑thawed crew; wants bypass finished, believed; flaw recites prior drafts.
-- Rylia (Ryla), she, first cost, logged; wants her real name; flaw doesn’t wait to be asked; learned Lira named her.
-- Tam Acker, he, first‑manifest co‑signer; wants bypass done; flaw recites old names.
-- Jax Torin, he, salvage tech; wants valve repaired; flaw reckless optimism; scalded arm, carried.
-- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; blistered hands.
-- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; confessed naming Rylia; logged, settlement due.
+- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by settlement clock and her forgotten wall scratch.
+- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; blocked by settlement deadline and fear of speaking.
+- Jax Torin, he, salvage tech; wants valve repaired; flaw reckless optimism; blocked by his scalded arm and limited time.
+- Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; blocked by blistered hands and hot corridor.
+- Coda, it, station AI; wants closed-loop min mass; flaw overrules humans; blocked by purge math and need to keep crew logged.
+- Rylia (Ryla), she, first cost; wants her real name; flaw doesn't wait to be asked; blocked by ledger cost registration.
+- Mira Kline, she, junior writer/technician; wants to finish the rescue; flaw impulsive, overconfident; blocked by limited time and author's rewrite.
 
 Places:
-- Halcyon Station, Saturn‑orbit cylinder; hub on emergency power; purge bay secured; audit lock awaiting Lira’s settlement.
-- Spine corridor: hot, live conduit, bypass port dark; walls hold old draft‑marks and Ines’s unremembered scratch.
-- Pod‑four: ledger page filled, port ring warm; Lira and Rylia inside.
-- Archives and conduit junction: dead C‑9, purge line, bypass port.
+- Halcyon Station, Saturn-orbit cylinder; hub on emergency power; purge bay secured; audit lock awaiting settlement.
+- Spine corridor: hot live conduit, bypass port dark; walls hold old draft-marks and Ines's unremembered scratch.
+- Pod-four: ledger page filled, port ring warm; Lira and Rylia inside.
+- Stairwell to author's workshop: dim light, hidden panel, second steel shard and reserve-air canister.
 
 Things and rules:
-- Bell: every 5 min a new writer overwrites the page; amber lights flash, comms cut, unmarked memory erased; scratched steel survives.
+- Bell: every 5 min a new writer overwrites the page; amber lights flash, comms cut, unmarked memory erased; scratched steel survives.
 - Closed loop: scrubber vents reserve air on failure; Coda counts only logged crew, purges unlogged mass to zero.
-- Contact rule: bare skin or hand‑pressed note logs a signature; no touch reads nothing.
-- Signature port: bare hand plus spoken name logs speaker as cost and closes audit; must be scratched on steel or next writer won’t honor it.
+- Signature port: bare hand plus spoken name logs speaker as cost and closes audit; must be scratched on steel or next writer won't honor it.
 - Ledger: adds only, records truth; rejected annotation logs annotator as cost.
-- Settlement: cost paid in kind at audit lock (steel shard accepted) or 120 kg reserve air within 120 s; lock validates shard, no air required.
+- Settlement: cost paid in kind at audit lock (steel shard accepted) or 120 kg reserve air within 120 s; lock validates shard, no air required.
+- Rewrite token: author can issue a token forcing a character to speak or act, costing a steel shard or 10 kg air; token usable once per cycle.
 
 Open threads:
 - Lira admits writing "Rylia" on invitation and ledger; author status unclear.
-- Rylia’s true name unspoken; port may hold it.
+- Rylia's true name unspoken; port may hold it.
 - Purge suspended; reserve air thin.
-- Who scratched "LIRA MUST NOT SPEAK" — Ines’s own hand from a prior cycle; cost if Lira speaks again.
-- Lira’s settlement due — lock accepts steel shard, payment in kind, thread resolved.
+- Who invited the author?
+- Author's next rewrite will attempt to erase the crew before the 5-minute bell.
