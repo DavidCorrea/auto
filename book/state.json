@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the winch, running a self-build on her slate, watching telemetry from a dive she doesn't remember spool backward toward the pocket at forty-two meters"
+      "status": "at the winch over her slate, now knowing she cut roughly an hour from her own record last night by her own hand to hide something she did"
     },
     {
       "name": "Nia Vos",
@@ -155,7 +155,8 @@
     "events": [
       "Wren runs a build on her own slate for the first time, pulling telemetry from a descent to the pharmacy pocket at forty-two meters that she has no memory of making, and the spool begins rewinding through the dive.",
       "Wren's self-build halts at a clean, deliberate eleven-second cut in her own dive record, identical to the one she carved from Sol's slate hours ago, revealing she edited her own memory and doesn't remember doing it.",
-      "Dey gives up on his gutted rig and measures Rusk's map against the short spliced line while Nia warns flatly that one breath blacks a man out on the rise from forty-two meters, then asks Wren low whether a body can reach that depth and return on a single breath — and Wren, staring at the cut in her own record, doesn't say no."
+      "Dey gives up on his gutted rig and measures Rusk's map against the short spliced line while Nia warns flatly that one breath blacks a man out on the rise from forty-two meters, then asks Wren low whether a body can reach that depth and return on a single breath — and Wren, staring at the cut in her own record, doesn't say no.",
+      "Wren tries to rebuild her eleven seconds from the deck-audio log and finds the same clean cut there too, blown out to nearly an hour of last night she can't account for, with every backup record on the boat cut identically, and understands she erased it herself to hide something she did."
     ]
   }
 }
