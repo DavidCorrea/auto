@@ -313,6 +313,26 @@ h2 {
   list-style: none;
 }
 
+.contents-arc {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0 0.4rem;
+}
+
+.contents-arc:first-child {
+  margin-top: 0.5rem;
+}
+
+.contents-arc-title {
+  font-style: italic;
+}
+
+.contents-arc-author {
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
 .contents-entry {
   width: 100%;
   display: flex;

@@ -2,7 +2,7 @@ name: Grow
 
 on:
   schedule:
-    # Runs every 5 minutes come from cron-job.org calling workflow_dispatch, because
+    # Runs every 15 minutes come from cron-job.org calling workflow_dispatch, because
     # GitHub's scheduler rarely fired for this repo. This hourly entry is only a backup.
     - cron: "17 * * * *"
   workflow_dispatch:
@@ -29,20 +29,25 @@ jobs:
       - id: grow
         run: node scripts/grow.mjs
         env:
-          # Defaults to OpenRouter's free models. Set MODEL_API_URL / MODEL variables
-          # to use any other OpenAI-compatible endpoint.
+          # Defaults to free models on OpenRouter, picked with the Audition workflow. The variables
+          # take comma-separated model ids, in order of preference; MODEL_API_URL takes any
+          # OpenAI-compatible endpoint.
           API_KEY: ${{ secrets.MODEL_API_KEY }}
           API_URL: ${{ vars.MODEL_API_URL }}
-          MODEL: ${{ vars.MODEL }}
+          SHOWRUNNER_MODELS: ${{ vars.SHOWRUNNER_MODELS }}
+          AUTHOR_MODELS: ${{ vars.AUTHOR_MODELS }}
 
+      # Also runs when writing failed, to keep any arc or chapter plan made before it.
       - name: Commit
+        if: ${{ !cancelled() }}
         env:
           SUMMARY: ${{ steps.grow.outputs.summary }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add book site
-          git commit -m "$SUMMARY"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "${SUMMARY:-Plan the next part of the book}"
           # Another run or a hand-made commit can land on main while the model is thinking.
           git pull --rebase
           git push

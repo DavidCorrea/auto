@@ -10,9 +10,13 @@ const book = {
     { title: "The Desk", passages: ["First words here.", "Second."] },
     { title: "A Box", passages: ["Third."] },
   ],
-  bible: "Characters:\n- The agent",
-  synopsis: "Someone waved.",
-  note: "Open the box.",
+  state: {
+    setting: "A desk.",
+    arcs: [
+      { title: "The First", author: "baidu/ernie-5.5-flash-preview:free", firstChapter: 1 },
+      { title: "Not Started", author: "nvidia/other:free" },
+    ],
+  },
 };
 
 async function emptyPlaces() {
@@ -22,22 +26,21 @@ async function emptyPlaces() {
 
 describe("storing the book", () => {
   test("reads a book that hasn't been started as empty", async () => {
-    assert.deepEqual(await readBook(await emptyPlaces()), { chapters: [], bible: "", synopsis: "", note: "" });
+    assert.deepEqual(await readBook(await emptyPlaces()), { chapters: [], state: null });
   });
 
-  test("round-trips chapters, bible, synopsis and note", async () => {
+  test("round-trips chapters and the story state", async () => {
     const places = await emptyPlaces();
     await writeBook(places, book, [1, 2]);
     assert.deepEqual(await readBook(places), book);
   });
 
-  test("keeps chapters on the site and the writers' notes and bible off it", async () => {
+  test("keeps chapters on the site and the story state off it", async () => {
     const places = await emptyPlaces();
     await writeBook(places, book, [1, 2]);
     const chapter = JSON.parse(await readFile(path.join(places.siteDir, "chapters", "002.json"), "utf8"));
     assert.deepEqual(chapter, { title: "A Box", passages: ["Third."] });
-    assert.equal(await readFile(path.join(places.bookDir, "next.txt"), "utf8"), "Open the box.\n");
-    assert.equal(await readFile(path.join(places.bookDir, "bible.txt"), "utf8"), "Characters:\n- The agent\n");
+    assert.equal(JSON.parse(await readFile(path.join(places.bookDir, "state.json"), "utf8")).setting, "A desk.");
   });
 
   test("reads chapters in numeric order", async () => {
@@ -61,6 +64,7 @@ describe("the index the reader loads", () => {
       title: "Auto",
       words: 5,
       passages: 3,
+      arcs: [{ number: 1, title: "The First", author: "ernie-5.5-flash-preview", firstChapter: 1 }],
       chapters: [
         { number: 1, numeral: "I", title: "The Desk", words: 4, passages: 2 },
         { number: 2, numeral: "II", title: "A Box", words: 1, passages: 1 },

@@ -118,8 +118,18 @@ function start() {
     ]);
   }
 
+  // Each arc is a complete story told by one author model; its heading sits above its first chapter.
+  function arcHeading(arc) {
+    return element("li", { className: "contents-arc" }, [
+      element("span", { className: "contents-arc-title", text: arc.title }),
+      element("span", { className: "contents-arc-author", text: `written by ${arc.author}` }),
+    ]);
+  }
+
   function renderContents() {
-    const items = book.chapters.map((chapter) =>
+    const arcsByFirstChapter = new Map((book.arcs ?? []).map((arc) => [arc.firstChapter, arc]));
+    const items = book.chapters.flatMap((chapter) => [
+      ...(arcsByFirstChapter.has(chapter.number) ? [arcHeading(arcsByFirstChapter.get(chapter.number))] : []),
       element("li", {}, [
         goTo(chapter.number, {
           className: "link contents-entry",
@@ -132,7 +142,7 @@ function start() {
           ],
         }),
       ]),
-    );
+    ]);
     document.getElementById("contents").replaceChildren(...items);
     document.getElementById("stats").textContent =
       `${plural(book.chapters.length, "chapter")} · ${plural(book.words, "word")} · ${plural(book.passages, "hand")}`;

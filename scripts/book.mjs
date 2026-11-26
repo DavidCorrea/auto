@@ -1,6 +1,6 @@
 // Reads and writes the book. Chapters live in site/chapters/NNN.json, where the reader
 // (site/book.js) loads them; site/book.json is an index of them for the contents.
-// The bible, the synopsis and the note between writers stay in book/, off the site.
+// The story's state (world, cast, threads, arc and chapter plans) stays in book/state.json, off the site.
 
 import { readFile, writeFile, readdir, mkdir } from "node:fs/promises";
 import path from "node:path";
@@ -10,12 +10,12 @@ const CHAPTER_FILE_PATTERN = /^(\d+)\.json$/;
 
 export const chapterSlug = (number) => String(number).padStart(3, "0");
 
-async function readOptional(filePath) {
+async function readStateOptional(filePath) {
   try {
-    return (await readFile(filePath, "utf8")).trim();
+    return JSON.parse(await readFile(filePath, "utf8"));
   } catch (error) {
-    if (error.code === "ENOENT") return "";
-    throw error;
+    if (error.code === "ENOENT") return null;
+    throw new Error(`Reading the story state from ${filePath} failed: ${error.message}`);
   }
 }
 
@@ -43,18 +43,18 @@ export async function readBook({ bookDir, siteDir }) {
     }
     chapters.push({ title, passages });
   }
-  return {
-    chapters,
-    bible: await readOptional(path.join(bookDir, "bible.txt")),
-    synopsis: await readOptional(path.join(bookDir, "synopsis.txt")),
-    note: await readOptional(path.join(bookDir, "next.txt")),
-  };
+  // A book that hasn't been started has no state; the caller supplies an empty one.
+  return { chapters, state: await readStateOptional(path.join(bookDir, "state.json")) };
 }
 
 const countWords = (text) => text.split(/\s+/).filter(Boolean).length;
 
 // What the reader needs to draw the contents and counts without loading every chapter.
 export function bookIndex(book) {
+  // Arcs appear once their first chapter has been planned.
+  const arcs = (book.state?.arcs ?? [])
+    .map((arc, index) => ({ number: index + 1, title: arc.title, author: authorName(arc.author), firstChapter: arc.firstChapter }))
+    .filter((arc) => arc.firstChapter);
   const chapters = book.chapters.map((chapter, index) => ({
     number: index + 1,
     numeral: toRoman(index + 1),
@@ -66,6 +66,7 @@ export function bookIndex(book) {
     title: BOOK_TITLE,
     words: chapters.reduce((total, chapter) => total + chapter.words, 0),
     passages: chapters.reduce((total, chapter) => total + chapter.passages, 0),
+    arcs,
     chapters,
   };
 }
@@ -81,10 +82,11 @@ export async function writeBook({ bookDir, siteDir }, book, changedChapterNumber
     await writeFile(path.join(chaptersDir, `${chapterSlug(number)}.json`), toJson({ title, passages }));
   }
   await writeFile(path.join(siteDir, "book.json"), toJson(bookIndex(book)));
-  await writeFile(path.join(bookDir, "bible.txt"), `${book.bible}\n`);
-  await writeFile(path.join(bookDir, "synopsis.txt"), `${book.synopsis}\n`);
-  await writeFile(path.join(bookDir, "next.txt"), `${book.note}\n`);
+  await writeFile(path.join(bookDir, "state.json"), toJson(book.state));
 }
+
+// "baidu/ernie-5.5-flash-preview:free" reads as "ernie-5.5-flash-preview" on the site.
+export const authorName = (model) => model.replace(/^.*\//, "").replace(/:free$/, "");
 
 export function toRoman(number) {
   const numerals = [
