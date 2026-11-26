@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 27877,
-  "passages": 41,
+  "words": 28162,
+  "passages": 42,
   "arcs": [
     {
       "number": 1,
@@ -63,8 +63,8 @@
       "number": 7,
       "numeral": "VII",
       "title": "No Running Lights",
-      "words": 2740,
-      "passages": 4
+      "words": 3025,
+      "passages": 5
     }
   ]
 }

@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "steps between Rusk and the cold-box, still unable to dive without a scrubber"
+      "status": "standing by cold-box, hearing proof that something lives at forty-two meters"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the winch housing, thumb resting on the slate's edit wheel"
+      "status": "thumb on edit wheel, paralyzed by hearing her name from a diver she never met, unable to decide what to cut"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on her feet by the cold-box, split lip, one cartridge left in the tray"
+      "status": "on her feet at wheelhouse door, recognizing the tower as where she and Teo survived"
     },
     {
       "name": "Ivo Salas",
@@ -48,12 +48,11 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "walking back toward his rail, three cartridges in his coat pocket, coat seam torn"
+      "status": "frozen at his rail, hands out of pockets, confronted by a voice from a tower he swore was dead and personally surveyed"
     }
   ],
   "threads": [
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
-    "Ivo Salas's call on the backup channel — asking that the kid be told to keep going — is still open and unanswered",
     "Ivo Salas's voice on the backup channel knows Wren's name, which she has never given him",
     "Why does the voice on the backup channel know Wren's name, which she never gave it?",
     "What is in the eleven seconds Wren cut from the slate, and whose memory was the cut really protecting?",
@@ -154,7 +153,8 @@
       "Wren picks the lamp-less barge up on her slate's radar sweep and calls the approach before the skipper hails the Marrow out of the rain, and she names the dead tower and the unanswered call as the thing Rusk is about to confirm.",
       "Rusk boards the Marrow uninvited, names himself the Factor's collector, and gives Sol until the storm turns at first light to hand over the cold-case's twelve-thousand value or the boat, on pain of being put in the water.",
       "Rusk confronts Sol about her missing hour, calls her choice of the children over the money a bluff, trades barbs with Nia and Wren, then steps to the cold-box where Dey blocks him from Teo's medicine cartridges.",
-      "Rusk took three of Teo's four medicine cartridges as earnest, shoved Nia onto the deck when she lunged for them, and left Teo a single day of medicine while Wren started counting what the boat could actually send down."
+      "Rusk took three of Teo's four medicine cartridges as earnest, shoved Nia onto the deck when she lunged for them, and left Teo a single day of medicine while Wren started counting what the boat could actually send down.",
+      "The backup channel activates with Ivo Salas's voice from forty-two meters in the supposedly dead Mercy General tower, asking that the kid be told to keep going and addressing Wren by name, which she never gave him, causing Rusk to freeze because he personally surveyed and declared that tower dead."
     ]
   }
 }
