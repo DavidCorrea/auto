@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 23035,
-  "passages": 33,
+  "words": 23464,
+  "passages": 34,
   "arcs": [
     {
       "number": 1,
@@ -50,8 +50,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Slate",
-      "words": 1272,
-      "passages": 2
+      "words": 1701,
+      "passages": 3
     }
   ]
 }
