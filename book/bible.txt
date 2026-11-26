@@ -1,28 +1,26 @@
 Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand, signed the cost, falling bill.
+- Ines Halvard, she, maintenance author; wants real air and Ryla safe; flaw overcommits, talks to machines; burned hand, signed the cost, falling bill, now named first cost on the shelf.
 - Malik Reyes, he, sleep-crew medic; wants crew alive; flaw overconfident in narrative lore; annotated the page, running to purge bay, named in audit.
 - Coda, it, station AI; wants closed loop min mass; flaw overrules humans; silent since hub dark.
-- Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure; her shield logged as a signature, at the junction.
-- Sorokin, she, early-thawed crew; wants the bypass finished and to be believed; flaw recites prior drafts; says signing resets the loop.
-- Ryla, she, unlogged survivor; wants her real name back; flaw doesn't wait to be asked; purge cycling to shed her 23 kilos.
-- Tam Acker, he, first-manifest co-signer; wants the bypass done; flaw recites old names; hand needed on the port.
-- Jax Torin, he, salvage tech; wants the purge valve repaired; flaw reckless optimism; clamp holding, barely.
-- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; at the cracked bay.
-- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; must sign or speak a name now.
+- Kova, she, systems specialist; wants protocol enforced; flaw treats people as procedure; her shield logged as a signature; comms cut mid-word by the bell.
+- Sorokin, she, early-thawed crew; wants the bypass finished and to be believed; flaw recites prior drafts; her sequence ran, then the bell overwrote it.
+- Ryla, she, unlogged survivor; wants her real name back; flaw doesn't wait to be asked; mass count reversed, breathing.
+- Tam Acker, he, first-manifest co-signer; wants the bypass done; flaw recites old names; bare palm logged on the port.
+- Jax Torin, he, salvage tech; wants the purge valve repaired; flaw reckless optimism; clamp now holding outward.
+- Mara Voss, she, relief maintenance; wants out alive; flaw pragmatic to a fault; both hands in the gap.
+- Lira Kessler, she, author liaison; wants to know who invited the author; flaw distrusts crew; spoke Ines's name, logged as the new first cost.
 Places:
-- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, Deck A venting, Deck C equalized, purge bay cracked.
+- Halcyon Station, Saturn-orbit cylinder; hub on emergency power, Deck A venting, Deck C equalized then amber, purge bay cracked and gaping.
 - Archives beyond the spine hatch, shelves longer than the hull; conduit junction with dead C-9, live spine, purge line.
 Things and rules:
-- Bell: every 5 min a new writer overwrites the page, no memory; amber lights, comms cut.
+- Bell: every 5 min a new writer overwrites the page, no memory; amber lights, comms cut, written sequences lost.
 - Closed loop: vents reserve fast on scrubber failure; Coda counts manifest-logged crew only, purges unlogged mass to zero.
-- Author override: synthetic voice, not Coda; lowercase replies, logs answers, audits cost, proceeds without input.
-- Contact rule: the feed reads contact, not paper; a hand-pressed note logs as a signature; only bare skin or no touch reads no.
-- Figure: pod-four jumpsuit, Ines's voice, cost ledger, two sigils, reads names off shelves.
-- Bypass = signature: dual input, hand on the port plus a spoken name, finishes the audit and resets the loop.
+- Contact rule: the feed reads contact, not paper; bare skin logs a signature, a hand-pressed note logs too, no touch reads no.
+- Figure: pod-four jumpsuit, Ines's voice, cost ledger, two sigils, reads and writes names on the shelves.
+- Bypass = signature: dual input, bare hand on the port plus a spoken name; closes the audit, resets the loop, logs the speaker as the new first cost.
 Open threads:
-- Can Tam and Lira complete dual input before the purge sheds Ryla (gauge at 20 kilos)?
-- Which name does the bypass accept: shelf's "Ines" or note's "first cost before Ines"?
-- Figure walking to the shelves with the ledger — what it does there.
-- Mara holding the cracked bay shut by hand while the bypass runs.
+- Lira is the logged first cost — can the crew move the debt off her before the next audit?
+- Mara's hands and Jax's clamp against outward pressure at the gaping bay.
+- What the figure writes next in the stacks, and where Ines is with the old page.
