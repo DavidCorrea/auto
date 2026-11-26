@@ -126,9 +126,14 @@ describe("planning an arc", () => {
     assert.throws(() => applyArcPlan(firstArcPlan({ chapters }), emptyState(), "a"), /all capitals/);
   });
 
-  test("rejects too many open threads", () => {
-    const threads = Array.from({ length: 7 }, (_, index) => `- Thread ${index}`).join("\n");
-    assert.throws(() => applyArcPlan(firstArcPlan({ threads }), emptyState(), "a"), /open threads/);
+  test("rejects an arc that opens too many threads at once", () => {
+    const threads = Array.from({ length: 4 }, (_, index) => `- Thread ${index}`).join("\n");
+    assert.throws(() => applyArcPlan(firstArcPlan({ threads }), emptyState(), "a"), /open at most 3/);
+  });
+
+  test("rejects an arc that would push the open threads past the limit", () => {
+    const crowded = { ...emptyState(), setting: "x", heart: "y", threads: ["a", "b", "c", "d", "e"] };
+    assert.throws(() => applyArcPlan(firstArcPlan({ threads: "- f\n- g" }), crowded, "a"), /6 open threads|7 open threads/);
   });
 
   test("asks the first showrunner to invent the world", () => {

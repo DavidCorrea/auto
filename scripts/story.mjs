@@ -14,6 +14,8 @@ export const MAX_ARC_CHAPTERS = 8;
 export const MIN_BEATS = 4;
 export const MAX_BEATS = 8;
 export const MAX_THREADS = 6;
+// A full list on the first turn left writers no room, and the extras were outcomes the arc hadn't reached.
+export const MAX_ARC_THREADS = 3;
 const MAX_TITLE_CHARS = 80;
 const MAX_LINE_CHARS = 600;
 // The whole chapter fits comfortably in today's context windows; beyond this only its end is shown.
@@ -134,7 +136,9 @@ export function applyArcPlan(reply, state, author) {
   if (plan.length < MIN_ARC_CHAPTERS || plan.length > MAX_ARC_CHAPTERS) {
     throw new RejectedReply(`The arc has ${plan.length} chapters; plan ${MIN_ARC_CHAPTERS} to ${MAX_ARC_CHAPTERS}.`);
   }
-  const threads = [...state.threads, ...listItems(sections.THREADS).map((thread) => checkLine(thread, "A thread"))];
+  const arcThreads = listItems(sections.THREADS).map((thread) => checkLine(thread, "A thread"));
+  if (arcThreads.length > MAX_ARC_THREADS) throw new RejectedReply(`The arc opens ${arcThreads.length} threads; open at most ${MAX_ARC_THREADS}.`);
+  const threads = [...state.threads, ...arcThreads];
   if (threads.length > MAX_THREADS) throw new RejectedReply(`That makes ${threads.length} open threads; keep it to ${MAX_THREADS}.`);
 
   const arc = {
@@ -368,7 +372,7 @@ CHAPTERS:
 1. <chapter title>: <one sentence: what happens and what changes>
 … ${MIN_ARC_CHAPTERS} to ${MAX_ARC_CHAPTERS} chapters
 THREADS:
-- <a setup this arc opens that must pay off; at most ${MAX_THREADS - state.threads.length}>`,
+- <a question or setup already open as the arc begins, never an event still to come; at most ${Math.min(MAX_ARC_THREADS, MAX_THREADS - state.threads.length)}>`,
   };
 }
 
@@ -429,8 +433,8 @@ export function writePrompt(state, book) {
   return {
     system: `You are the author of this arc of "${BOOK_TITLE}". ${PREMISE}
 
-You write one beat of the chapter: the one marked YOUR BEAT, and only that one. The beats after it belong to
-other turns, so don't reach them. Continue directly from the last sentence of the chapter so far; don't recap
+You write one beat of the chapter: the one marked YOUR BEAT, and only that one. Stop where your beat ends;
+the beats after it belong to other writers, and taking them leaves those writers nothing to do. Continue directly from the last sentence of the chapter so far; don't recap
 or repeat anything already on the page.
 
 ${CRAFT}`,
@@ -460,7 +464,7 @@ export function editorPrompt(state, book, passage) {
     system: `You are the editor of "${BOOK_TITLE}". ${PREMISE}
 
 You approve or send back one passage. Send it back only for a real problem:
-- It doesn't carry out its beat, or runs ahead into later beats.
+- It doesn't carry out its beat, or runs ahead into events of the later beats listed below.
 - It contradicts the cast (names, pronouns, who someone is) or what already happened.
 - It replays something already on the page: the same event, countdown, alarm, threat or line, in new words.
 - It goes abstract: mist, voices, symbolism or vague dread instead of people doing concrete things.
@@ -474,6 +478,9 @@ ${describeCast(state.cast)}
 
 ## The beat
 ${chapter.beats[chapter.events.length]}
+
+## Later beats, which belong to other writers
+${chapter.beats.slice(chapter.events.length + 1).map((beat) => `- ${beat}`).join("\n") || "(none: this beat ends the chapter)"}
 
 ## The chapter so far (its end)
 ${soFar || "(the passage opens the chapter)"}
