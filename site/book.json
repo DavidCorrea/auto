@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 23667,
-  "passages": 91,
+  "words": 23901,
+  "passages": 92,
   "chapters": [
     {
       "number": 1,
@@ -72,6 +72,13 @@
       "title": "The Name on the Tag",
       "words": 4367,
       "passages": 16
+    },
+    {
+      "number": 11,
+      "numeral": "XI",
+      "title": "The Filament and the Fee",
+      "words": 234,
+      "passages": 1
     }
   ]
 }
