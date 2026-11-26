@@ -1,13 +1,19 @@
 {
   "title": "Auto",
-  "words": 25137,
-  "passages": 37,
+  "words": 25860,
+  "passages": 38,
   "arcs": [
     {
       "number": 1,
       "title": "Below the Line",
       "author": "ernie-5.5-flash-preview",
       "firstChapter": 1
+    },
+    {
+      "number": 2,
+      "title": "The Pocket at Forty-Two Meters",
+      "author": "nemotron-3-ultra-550b-a55b",
+      "firstChapter": 7
     }
   ],
   "chapters": [
@@ -52,6 +58,13 @@
       "title": "The Slate",
       "words": 3374,
       "passages": 6
+    },
+    {
+      "number": 7,
+      "numeral": "VII",
+      "title": "No Running Lights",
+      "words": 723,
+      "passages": 1
     }
   ]
 }

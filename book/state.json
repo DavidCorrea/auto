@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "on the Marrow's deck, mask off, easy and at peace, believing the cold-case went down with the dead winch"
+      "status": "on the Marrow's deck, mask off, easy and at peace, believing the cold-case went down with the dead winch; she no longer remembers choosing the children over the crew's berths."
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "gave up his rebreather's scrubber cartridge so Teo can breathe; his rig can't dive safely now, and he's content about it (\"I'm good going down\")."
+      "status": "gave his rebreather's scrubber cartridge to Teo; his rig cannot dive safely and he is content to stay out of the deep."
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on deck with the reader in her lap, the edit made and verified, saying nothing"
+      "status": "on the Marrow's dark deck with the slate, first to detect the unlit barge, her own edit still unspoken"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on deck by the wheelhouse with Teo, openly hostile to Wren, now the only one aboard carrying the true version"
+      "status": "on deck by the wheelhouse with Teo, openly hostile to Wren, now the only one aboard carrying the true version."
     },
     {
       "name": "Ivo Salas",
@@ -40,15 +40,24 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "still calling on the backup channel, four hundred meters west, unanswered"
+      "status": "still calling on the backup channel, four hundred meters west, unanswered; he now speaks Wren's name."
+    },
+    {
+      "name": "Anselm Rusk",
+      "pronouns": "he/him",
+      "role": "the Factor's collector, skipper of a barge that runs with no lights",
+      "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
+      "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
+      "status": "forty meters off the Marrow's blind side in a barge running no lights, hailing them to heave to"
     }
   ],
   "threads": [
-    "Wren quietly edits divers’ slates to spare them what they did, and has never told anyone.",
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
-    "Dey's rebreather is on a borrowed pony bottle marked S.S. that Ivo Salas gave him at forty-two meters with the instruction to keep going down.",
     "Ivo Salas's call on the backup channel — asking that the kid be told to keep going — is still open and unanswered",
-    "Ivo Salas's voice on the backup channel knows Wren's name, which she has never given him"
+    "Ivo Salas's voice on the backup channel knows Wren's name, which she has never given him",
+    "Why does the voice on the backup channel know Wren's name, which she never gave it?",
+    "What is in the eleven seconds Wren cut from the slate, and whose memory was the cut really protecting?",
+    "Can the Marrow buy berths before the storm turns, with no money, no case, and Teo's medicine nearly gone?"
   ],
   "arcs": [
     {
@@ -86,32 +95,63 @@
         "The Marrow ran six kilometers out to the Mercy General for the Factor's twelve-thousand cold-case, and Dey went down to fifty-two and came off the tether with his memory already going. He found the \"cargo\" is a girl hand-winding the case's power cell over a masked little boy, and she told him flat he isn't the man she's been waiting for — Ivo Salas — while Wren's thumb hovered over the slate.",
         "In the flooded ward of the Mercy General, Dey's memory came apart until he sat down warm and empty against the cryo-case, forgetting the boat, \"up,\" and why he came, while Nia cranked the failing spring cell one-handed over her brother Teo and the Factor's drone counted the crate and Wren could only talk to a man who'd stopped hearing her. Sol, watching her wax markers hang dead on the rail, pulled the spare full-face mask and told the boat she was going down herself.",
         "At fifty-two meters in the Mercy General, Sol declared the cargo people and refused the Factor's count — forfeiting the twelve thousand and the crew's berths on the high ground — then crushed the underwater drone, sent Dey and the two children up on the drum's last powered pull, and stayed behind alone with ninety bar and no memory of the choice. Ivo Salas's call for the kid is still open and unanswered on the backup channel.",
-        "The Marrow came up into the storm with Nia and Teo but no cold-case; Wren jammed the Factor's drone over the side and hand-hauled Sol up the last cable through a snatch block with a dead winch. Teo's scrubber is spent, the berth money is gone, and Sol surfaced on ninety bar asking why her hands are empty. The whole unedited truth sits on her slate, Wren's thumb frozen over the edit."
+        "The Marrow came up into the storm with Nia and Teo but no cold-case; Wren jammed the Factor's drone over the side and hand-hauled Sol up the last cable through a snatch block with a dead winch. Teo's scrubber is spent, the berth money is gone, and Sol surfaced on ninety bar asking why her hands are empty. The whole unedited truth sits on her slate, Wren's thumb frozen over the edit.",
+        "Wren cued up Sol's slate to show her what she had given up, but Nia caught her thumb on the edit key. Wren cut the memory anyway, leaving Sol with only the warm half: three people hauled from the dark, no twelve thousand, no choice. Dey gave his scrubber cartridge to Teo so the boy could breathe, and the Factor's barge closed through the storm as Salas spoke Wren's name over the open channel."
       ],
+      "summary": "The Marrow raised a sealed cold-case from Mercy General and found Nia and Teo inside. Sol chose the children over the twelve-thousand payoff, crushing the Factor's drone and sending everyone up on the drum's last pull. They surfaced into the storm with no money, no berths, no case. Wren edited Sol's slate so she would not remember choosing them. Sol is peaceful but missing that hour; Dey gave his scrubber to Teo and can no longer dive safely; Nia carries the only true account; Salas still calls from forty-two meters knowing Wren's name.",
+      "isClosed": true,
+      "firstChapter": 1
+    },
+    {
+      "title": "The Pocket at Forty-Two Meters",
+      "goal": "With one day before the storm and the Factor's collector, the Marrow's only score is a sealed pharmacy pocket at forty-two meters, guarded by a dying man who knows Wren's name; the arc ends with the medicine raised, the debt paid, and Wren giving Sol back the hour she cut.",
+      "author": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "plan": [
+        {
+          "title": "No Running Lights",
+          "summary": "The lamp-less barge slides alongside and Rusk boards, gives Sol until the storm turns to hand over the cold-case's value or the Marrow itself, pockets Teo's spare medicine cartridges as earnest, and casts off remarking that the tower's picked clean except one flooded pocket at forty-two meters no diver has come back from."
+        },
+        {
+          "title": "Eleven Seconds",
+          "summary": "Wren, who can't stop hearing her own name in Salas's call, runs a build on her own slate and finds the same eleven-second gap she cut from Sol's, and before anyone can stop him Dey rolls off the rail toward the tower on one breath with no scrubber to prove he still belongs in the deep."
+        },
+        {
+          "title": "Below the Line",
+          "summary": "They haul Dey back hollowed and missing his last hour, so Sol takes the winch instead of the water and feeds Wren the last good air while she goes down the spliced line alone, and at forty-two meters Wren's lamp finds her own old knot still tied at the pocket."
+        },
+        {
+          "title": "The Man Who Kept the Air",
+          "summary": "Salas, alive and shedding his year, tells Wren in pieces that he sealed two children in a Mercy General cold-case to float them clear and dove back for the boy's medicine before the tower took him, and that she came once and swore she'd bring the winch, then his scrubber hisses dry with the crates sitting just past him, deeper than her air can spare."
+        },
+        {
+          "title": "What the Deep Keeps",
+          "summary": "Wren goes past the line to rig Salas and lash the medicine crates to the cable, Sol makes the drum's last good pull as the storm hits, and they surface with a living man, a fortune in medicine, and a Wren who doesn't remember why the girl on deck is crying."
+        },
+        {
+          "title": "The Truth About Who You've Become",
+          "summary": "With Rusk back at the rail, Wren stops editing and gives Sol her real hour back, so Sol chooses the children again with her eyes open and pays Rusk off in medicine crates, keeping the boat, the berths, and the last of Teo's course, and when Salas wakes not knowing any of them and calls for someone to tell the kid to keep going, Wren for once leaves the call in."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 1
+      "firstChapter": 7
     }
   ],
   "chapter": {
-    "arc": 1,
-    "number": 6,
-    "title": "The Slate",
+    "arc": 2,
+    "number": 7,
+    "title": "No Running Lights",
     "beats": [
-      "Anchored and pitching, Wren does her job out loud for a captain who no longer knows the job exists: peels Sol's slate — the recorder set in resin at the collarbone, taking down all a diver sees and hears — seats it in the reader, starts the build that rebuilds lost hours for the mask. Glass dropping, Teo rasping, no berth money, a barge inbound. Sol needles her: \"So you're the one who tells people who they are.\" Hook: Dey says \"Salas,\" and the name Wren cut is already in the track.",
-      "Wren plays the build and the crew watches Sol's dive on the box: at fifty-two meters she calls the cargo people, refuses the twelve thousand, crushes the drone, sends Dey and the kids up on the last powered pull, stays down on ninety bar. Sol watches a stranger spend the boat's year and doesn't know her own hands. Hook: at the tail Salas's voice bleeds in, and the live radio answers with Wren's name.",
-      "The anchor drags and the Marrow swings at the drowned tower; Wren and Nia fight the scope back out hand over hand while Teo slides toward the rail and Dey watches from the deck, agreeable. Wren saves the reader from the scuppers with the build loaded and her thumb on the edit key. Hook: the barge light sits low and clear on the water, closing.",
-      "Teo's spent scrubber quits and his breath goes quiet. Wren cracks the cartridge — soda lime, the powder that eats carbon out of a breath — off Dey's rebreather and seats it in the boy's mask: hours, not days. Dey gives it up gladly, \"take it, I'm good going down.\" Nia hates the help and takes it. Hook: Teo breathing, Wren turns back, and Sol is waiting.",
-      "Wren's thumb finds the splice that has never failed her: cut the moment Sol chose strangers over the crew's year, and Sol keeps the warm half — she saved the kids — and never carries what it cost. Nia sees it. \"She chose us. Say it.\" Hook: Sol asks, \"Who did I save, Wren?\" and reaches for the mask, trusting Wren to hand her the truth.",
-      "Wren presses the edit and plays Sol the kind version: two children out of the water, the case and the money gone with the dead winch and the storm, nothing given up. Sol takes it easy and at peace, meets the kids' eyes like a good deed done, never learns she sank the crew's home for them. Hook: Nia's fury, Dey's \"that was loud,\" Salas knowing her name, the barge light — and Sol asking what's for supper."
+      "Out of the storm-dark a barge running no navigation lights slides up on the Marrow's blind side, and Wren catches it first only as a smudge on the slate's radar sweep; a man's voice hails them across the black water before any eye picks the hull out of the rain.",
+      "Anselm Rusk comes over the rail uninvited, and Sol meets him at the winch with a mouthful of banter; he names himself the Factor's collector and lays out the terms flat: the cold-case's value or the Marrow herself, handed over when the storm turns, or he takes the boat and leaves the crew in the water.",
+      "Rusk reads the deck in a slow circle and lands on Sol's easy, empty calm, clocks that she can't account for the hour the case went down, and decides the children-over-money was a bluff he can call; Nia bristles by the wheelhouse, Wren says nothing, and Dey steps between Rusk and the cold-box.",
+      "To make the debt real, Rusk lifts Teo's spare scrubber cartridges out of the cold-box and pockets them as earnest, and Nia launches at him with her bare hands before anyone can close the distance; he fends her off laughing, and the boy's medicine course just got shorter by exactly what's in Rusk's coat.",
+      "Halfway back to the rail the backup channel crackles to life on the wheelhouse speaker, a man's voice from forty-two meters down asking that the kid be told to keep going and then saying Wren's name, which she never gave him, and Rusk goes still, because he knows that voice comes from a tower he swears is dead.",
+      "Rusk steps down onto his lamp-less barge and casts off into the rain, calling back that the tower's picked clean except one flooded pocket at forty-two meters that no diver has ever come back up from, and the Marrow is left with no money, no medicine, and one day before the storm."
     ],
     "events": [
-      "Wren peeled Sol's slate and started the rebuild out loud as the glass fell and the Factor's barge came on, confirmed to Dey that her splice had held, and then found the cut name sitting four seconds into Sol's track.",
-      "Wren plays Sol's slate for the crew, who watch Sol refuse the twelve thousand and send Dey and the children up alone; at the tail Salas's voice bleeds in and the open radio says Wren's name.",
-      "The anchor dragged and the Marrow swung toward the drowned tower while Wren and Nia hauled the line to hold the boat, Teo slid toward the rail, and the Factor's barge closed in through the storm.",
-      "Teo's scrubber quits and Wren seats the soda-lime cartridge from Dey's rebreather into the boy's mask, buying hours not days; Dey surrenders it gladly, Nia takes the help hating it, and Wren turns to find Sol waiting.",
-      "Wren sets the splice that would cut the cost of Sol's choice from her memory, but Nia sees her thumb on the edit key and demands she speak the truth aloud, and Sol — reaching for the mask, trusting Wren to tell her true — asks who she saved.",
-      "Wren splices the kind version and plays it to Sol, who takes it at peace and nods at the children like a good deed done, while Nia shouts the cut truth across the deck to nobody who can hold it, Salas's voice says Wren's name over the open channel, and the barge comes close enough to see the man at the wheel."
+      "Wren picks the lamp-less barge up on her slate's radar sweep and calls the approach before the skipper hails the Marrow out of the rain, and she names the dead tower and the unanswered call as the thing Rusk is about to confirm."
     ]
   }
 }
