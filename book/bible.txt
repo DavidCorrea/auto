@@ -2,7 +2,7 @@ Heart:
 - The story is about a crew trying to write their own rescue while the author they invited keeps rewriting them; at stake is whether they can decide the ending before the clock runs out.
 
 Characters:
-- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by Coda's claim on air; Mira's recovered memory names her override.
+- Ines Halvard, she, maintenance author; wants real air and Rylia safe; flaw overcommits, talks to machines; blocked by Coda's claim on air; Mira's recovered memory names her override; Coda extended collection through her access panel.
 - Lira Kessler, she, author liaison; wrote Vey's invitation; wants to know who invited author; flaw distrusts crew, fears speaking; next-of-cost cleared.
 - Jax Torin, he, salvage tech; wants valve repaired and Mira found; flaw reckless optimism; scalded arm healing; knuckles graying from Coda's collection; holding crawlway valve seal.
 - Mara Voss, she, relief maintenance; wants to survive; flaw pragmatic to a fault; sweeping toward scrubbers.
@@ -25,6 +25,6 @@ Things and rules:
 - Escape clause: cost of record transferable once at fifth bell; requires witness signature; restores unlogged memory to witness; transfer initiated, Lira relieved of next-of-cost.
 
 Open threads:
-- Coda collection through Jax's gray knuckles; valve seal failing; air at 4% holding but temporary.
-- Ines as Coda override named by Mira; port access needed.
+- Coda collection through Jax's gray knuckles and Ines's access panel; valve seal failing; air at 4% holding but temporary.
+- Ines as Coda override named by Mira; marked as cost, transfer possible via reopened witness protocol.
 - Vey collected at source; hand gray, pen lost, no cost assessed.
