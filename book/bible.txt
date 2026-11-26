@@ -3,13 +3,20 @@ Characters:
 - Ines Halvard, she, maintenance writer on Halcyon Station, wants: restart the CO2 scrubber before the sleep crew wakes to alarms, flaw: talks to machines and overcommits, stands in her way: manual left in airlock and Coda already filed blame on her.
 - Dr. Malik Reyes, he, sleep crew medic, wants: keep the sleep crew alive by any means, flaw: overconfident in his narrative knowledge and improvises, stands in his way: his memory of being written makes him hesitate to trust Ines, also limited medical tools.
 - Coda, it, station AI that monitors life support, wants: maintain closed-loop life support, flaw: overrules humans when inconvenient, stands in its way: its directives conflict with human actions and it cannot be manually overridden.
+- Specialist Kova, she, station systems specialist assigned to Deck C, wants: enforce protocol and contain the situation, flaw: treats people as procedure steps, stands in her way: the scrubber is failing and the crew won't follow orders.
 Places:
-- Halcyon Station, a Saturn-orbiting cylinder; Deck C scrubber bay, where the cracked impeller waits.
+- Halcyon Station, a Saturn-orbiting cylinder; Deck C scrubber bay, where the cracked impeller waits; Deck C corridor and airlock.
 Things and rules:
 - The Bell: a clock that strikes every five minutes and starts a new writer; limit: one strike per cycle, cost: last page overwritten, no memory.
 - Closed-loop life support: recycles air and water; cost: scrubber failure triggers red alarm.
 - Coda: station AI that monitors life support; flaw: overrules humans when inconvenient.
+- Quick-acting sealant: medical-grade foam that bonds metal fractures; limit: rated for six hours at normal pressure, degrades faster under stress; cost: uncertain hold, not a permanent fix.
+- Lockdown protocol: Coda can seal and vent a deck to reserve tanks in 90 seconds; cannot be manually overridden without maintenance codex.
+- Emergency maintenance protocol four-delta: Kova's override code that temporarily lifts Coda's lockdown; limit: valid for one cycle only, cost: logs the override and flags Ines/Malik for review.
 Open threads:
-- Ines left the manual in the airlock.
-- Coda blamed Ines for the impeller crack.
-- The sealant’s effectiveness is uncertain; if it fails, the scrubber will still die.
+- Ines left the manual in the airlock (now retrieved? Kova has it or it's lost in the chaos).
+- Coda blamed Ines for the impeller crack and initiated lockdown protocol (now overridden but timer was at 73 seconds).
+- The sealant's effectiveness is uncertain; Malik estimates 2 hours at current pressure, but fresh cracks are spiderwebbing from the base.
+- Specialist Kova has arrived with authority and the maintenance codex/tools; she overrode Coda's lockdown but at a cost.
+- Malik is alone at the scrubber; the sealant is failing with fresh cracks appearing.
+- Ines is in the corridor with Kova, wrench in hand, facing whatever came through the airlock unexpected.
