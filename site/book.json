@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 26009,
-  "passages": 97,
+  "words": 26278,
+  "passages": 98,
   "chapters": [
     {
       "number": 1,
@@ -79,6 +79,13 @@
       "title": "The Ledger",
       "words": 2663,
       "passages": 11
+    },
+    {
+      "number": 12,
+      "numeral": "XII",
+      "title": "The Last Tick",
+      "words": 269,
+      "passages": 1
     }
   ]
 }
