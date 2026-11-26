@@ -1,0 +1,31 @@
+name: Audition
+
+# Run by hand to compare candidate models on the same writing tasks; the results are uploaded as an artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      models:
+        description: Comma-separated model ids
+        required: true
+        default: "nvidia/nemotron-3-ultra-550b-a55b:free,google/gemma-4-31b-it:free,nvidia/nemotron-3.5-super-vl:free,baidu/ernie-5.5-flash-preview:free,inclusionai/ling-3.2-flash:free"
+
+permissions:
+  contents: read
+
+jobs:
+  audition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+
+      - run: node scripts/audition.mjs
+        env:
+          API_KEY: ${{ secrets.MODEL_API_KEY }}
+          API_URL: ${{ vars.MODEL_API_URL }}
+          MODELS: ${{ inputs.models }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audition
+          path: audition
