@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 109704,
-  "passages": 169,
+  "words": 110398,
+  "passages": 170,
   "arcs": [
     {
       "number": 1,
@@ -221,8 +221,8 @@
       "number": 27,
       "numeral": "XXVII",
       "title": "Keep Nil",
-      "words": 3310,
-      "passages": 5
+      "words": 4004,
+      "passages": 6
     }
   ]
 }
