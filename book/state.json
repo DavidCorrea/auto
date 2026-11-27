@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "committed to diving the second cache, refusing to hand helm, bond lost per Quill"
+      "status": "hand on the wheel housing, would not name a helmsman"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "coughing blood, refused the trunk, lungs failing, indenture due next tide"
+      "status": "on the drum crank, indenture papers due this tide, refused the dive"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "holding slate with two plays left, one containing her own unknown voice"
+      "status": "on the ascent wire, holding Teo and the slate"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "in her socks on the cabin deck, harness claimed, going down the service trunk"
+      "status": "harnessed and clipped, seated on the rail in her socks, wire taking up slack"
     },
     {
       "name": "Ivo Salas",
@@ -80,8 +80,7 @@
     "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
     "Mara is hollow and counting from one, and no one knows what number she will stop at.",
     "Mara's recording orders that no one already hollowed be sent below the Line, and names a second seal sealed from the inside",
-    "The second recording on Salas's slate contains Wren's voice speaking words she doesn't remember",
-    "Nia's plan is eight meters on one held breath past the dead canister at thirty-eight"
+    "The second recording on Salas's slate contains Wren's voice speaking words she doesn't remember"
   ],
   "arcs": [
     {
@@ -309,7 +308,8 @@
       "Wren warns the crew that Salas's drowned slate holds only three plays left, thumbs the first actuator, and the cabin fills with static as everyone leans in to listen.",
       "The first play runs, and Mara Vos's voice from fourteen months ago directs divers past the pharmacy to a sealed second hatch at sixty-one meters, silencing the cabin and freezing Sol in the doorway.",
       "Wren analyzes the first recording confirming the second cache at 61 meters past the Line; Salas reveals it holds pre-drown federal reserve currency worth enough for all berths plus Dey's freedom; Sol commits to the dive despite impossible odds.",
-      "Sol orders the dive of the second seal now over the crew's objections, Wren corrects the depth to thirty-eight meters and tells Sol she doesn't remember her own history, and Nia takes off her boots and claims the trunk."
+      "Sol orders the dive of the second seal now over the crew's objections, Wren corrects the depth to thirty-eight meters and tells Sol she doesn't remember her own history, and Nia takes off her boots and claims the trunk.",
+      "The crew harnesses Nia and rigs the drum over Dey's objection, Sol refuses to name who has the boat and admits the inner seal is dogged from the inside, and Bayo calls the surge early with green water already crossing the gate sill."
     ]
   }
 }
