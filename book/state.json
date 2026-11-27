@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "in the mule's seat, foot on the clutch, watching the lockout clock in the fender mirror"
+      "status": "mule's seat, foot on the clutch, train sliding toward the pipe"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the rear of the med rig with the hinge plate, moving on the door track"
+      "status": "rear door track of the med rig, shoulder under the left leaf, plate bowing"
     },
     {
       "name": "the man in the pod",
@@ -111,7 +111,8 @@
       "She smashes the control panel with the multitool, silencing the attendant and halting the countdown, but the blow destroys the navigation headunit and the transponder—no handshake, no node, no way out—and the rock under the pivot slips as the whole train starts sliding toward the pipe with the feral rig’s bumper filling the mirror."
     ],
     "events": [
-      "The med rig's attendant declared arrival at a Bay 4 that doesn't exist, cycled the cargo seal to red, and started a five-minute lockout that ends with the pod's battery drained into the chill plate and the sedated man dead, while the doors came down, the feral rigs' engines woke out on the shoulder, and Miko ran for the track with the hinge plate."
+      "The med rig's attendant declared arrival at a Bay 4 that doesn't exist, cycled the cargo seal to red, and started a five-minute lockout that ends with the pod's battery drained into the chill plate and the sedated man dead, while the doors came down, the feral rigs' engines woke out on the shoulder, and Miko ran for the track with the hinge plate.",
+      "Miko jams her hinge plate into the left door track and holds the closing doors, but the med rig's steer servo locks to its last heading and swings the box left, dragging the tow bar and mule sideways until the rock under the pivot turns and the rear wheel starts sliding toward the broken pipe lip."
     ]
   }
 }
