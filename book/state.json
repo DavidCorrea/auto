@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "lashed to the mast-step, lungs shot, his indenture now at the bottom of the flooded trunk with twenty-six minutes until the surge"
+      "status": "off the mast-step lashing, working the drum in hitching shifts"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at comms, calling up the shaft, no response from Nia"
+      "status": "at comms, third and final play unplayed, one bar of charge left"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "back aboard, hollow, coiling the floating line while Sol's hand stays on the emergency stop"
+      "status": "below the Line in the service trunk on the drum's line, twenty-two minutes on Sol's clock"
     },
     {
       "name": "Anselm Rusk",
@@ -80,7 +80,8 @@
     "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
     "Mara is hollow and counting from one, and no one knows what number she will stop at.",
     "Mara's recording orders that no one already hollowed be sent below the Line, and names a second seal sealed from the inside",
-    "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot"
+    "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot",
+    "Sol has promised to cut Salas's line at twenty minutes if he isn't back over the rail"
   ],
   "arcs": [
     {
@@ -314,7 +315,8 @@
     "events": [
       "Wren found Nia alive and drifting off the starboard hull with the catch bag clipped to her wrist, Bayo said out loud that his hands were finished and gave up the brake, and Salas clipped a safety line to his own harness and went over the side into the surge to reach her as the gate light turned amber and the shutter began to close.",
       "Salas cuts Nia free during a surge slam and shoves her to the surface; the crew hauls her aboard CO2-sick and gray, and she cannot remember she dove for her brother Teo until Sol tells her, the Line having taken that memory as payment.",
-      "The catch bag holds only nineteen loose coins and Teo's coat, the worn lanyard proving the strongbox tore free on the slack ascent and lies at the bottom of the flooded trunk, so the coin buys two berths for six people and Dey's forty-coin freedom sits at thirty-eight meters while Nia loses her brother's name again minutes after being given it."
+      "The catch bag holds only nineteen loose coins and Teo's coat, the worn lanyard proving the strongbox tore free on the slack ascent and lies at the bottom of the flooded trunk, so the coin buys two berths for six people and Dey's forty-coin freedom sits at thirty-eight meters while Nia loses her brother's name again minutes after being given it.",
+      "Salas overrides the crew's objections and goes down the service trunk on the drum while Dey mans it in hitching shifts, and Wren keeps her thumb off the slate's final play."
     ]
   }
 }
