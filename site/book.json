@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 114296,
-  "passages": 177,
+  "words": 114667,
+  "passages": 178,
   "arcs": [
     {
       "number": 1,
@@ -230,6 +230,13 @@
       "title": "The Count",
       "words": 3898,
       "passages": 7
+    },
+    {
+      "number": 29,
+      "numeral": "XXIX",
+      "title": "The Second Play",
+      "words": 371,
+      "passages": 1
     }
   ]
 }
