@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "blocking Quill from Dey at the Kettle gate, staring at the indenture line, undecided"
+      "status": "still blocking Quill, watching the bell frame, undecided"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "awake on the deck mat, refusing to be shielded and insisting on his own name as the indenture price"
+      "status": "on the deck mat, laughing, accepting he is the sixth name"
     },
     {
       "name": "Wren Achebe",
@@ -209,7 +209,8 @@
     ],
     "events": [
       "Quill names the berth count and the stakes, while Dey lies injured on the mat and Sol vows to buy all six.",
-      "Quill names Dey's indenture as the sixth price, Sol tries to shut him out, and Dey insists on hearing it and claiming his own name."
+      "Quill names Dey's indenture as the sixth price, Sol tries to shut him out, and Dey insists on hearing it and claiming his own name.",
+      "The storm bell strikes its first count and Dey laughs, accepting he is the indenture price."
     ]
   }
 }
