@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "lashed to mast step, hollow-lunged, unable to work winch, watching Bayo haul"
+      "status": "on deck, hands shaking, hauled Nia aboard"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "ten meters off the starboard shoulder, face-down but moving, catch bag clipped to her wrist, ascent line looped and snagged beneath her"
+      "status": "aboard the Marrow, CO2-sick but breathing, missing the memory of her dive for Teo, clutching his coat"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "in the water off the starboard side on a twenty-meter floating safety line, working an eight-second window between twelve-second slams"
+      "status": "still in the water on the safety line, having used his window to free Nia"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "off the brake, seated on deck holding Salas's slack safety line through his forearms, hands unusable, having said plainly he cannot hold it"
+      "status": "hands burned, holding slack safety line from the deck"
     },
     {
       "name": "Mara Vos",
@@ -80,7 +80,8 @@
     "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
     "Mara is hollow and counting from one, and no one knows what number she will stop at.",
     "Mara's recording orders that no one already hollowed be sent below the Line, and names a second seal sealed from the inside",
-    "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot"
+    "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot",
+    "Nia's missing memory of the dive — the Line's first payment — and whether it returns or deepens"
   ],
   "arcs": [
     {
@@ -312,7 +313,8 @@
       "On the stair Mara's count climbs past forty, the depth where the line parted, and keeps rising as if counting a man still going down; and through the dead comms carrier, faint and even, Salas's voice comes up—he's found the service seal in the trunk wall, the one that opens the other way, and he means to force it before the water wins."
     ],
     "events": [
-      "Wren found Nia alive and drifting off the starboard hull with the catch bag clipped to her wrist, Bayo said out loud that his hands were finished and gave up the brake, and Salas clipped a safety line to his own harness and went over the side into the surge to reach her as the gate light turned amber and the shutter began to close."
+      "Wren found Nia alive and drifting off the starboard hull with the catch bag clipped to her wrist, Bayo said out loud that his hands were finished and gave up the brake, and Salas clipped a safety line to his own harness and went over the side into the surge to reach her as the gate light turned amber and the shutter began to close.",
+      "Salas cuts Nia free during a surge slam and shoves her to the surface; the crew hauls her aboard CO2-sick and gray, and she cannot remember she dove for her brother Teo until Sol tells her, the Line having taken that memory as payment."
     ]
   }
 }
