@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at the dock-warden's box, locked out by Quill with the Marrow's bond and a full berth count as the gate seals."
+      "status": "at the Kettle's shutter gap, bond declared forfeit, credit nil, her name struck from the berth book, holding the shutter open with her hands"
     },
     {
       "name": "Dey Okafor",
@@ -308,7 +308,8 @@
       "Quill unchains the book and turns it to the tide-light so Sol can read it herself: berth four-eleven is held in Mara Vos's name, the last berth on a full count, and there is no four-twelve — no berth for the captain — as the storm bell drops its pause and the first lock tooth begins, with a groan, to turn."
     ],
     "events": [
-      "Sol arrives at the dock-warden's box with the Marrow's bond but finds the shutter chained shut, the berth book locked away, the count full, and the storm gate's lock teeth beginning to turn."
+      "Sol arrives at the dock-warden's box with the Marrow's bond but finds the shutter chained shut, the berth book locked away, the count full, and the storm gate's lock teeth beginning to turn.",
+      "Quill tells Sol through the shutter gap that the Marrow's bond was forfeited when Sol chose the children over the Factor's money and that her credit at the Kettle is nil, then chains the count shut and strikes the Marrow's name from the book while Sol jams her fingers in the gap."
     ]
   }
 }
