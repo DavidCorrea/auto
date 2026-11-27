@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "stood her ground, offered the pharmacy crates as payment, keeping the Marrow and children off the table"
+      "status": "boat and children secured, three medicine cartridges recovered, berths purchasable before storm"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on deck mat, breathing shallow and ragged, Nia counting breaths"
+      "status": "breathing ragged on deck mat, condition critical"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "retrieved and delivered two sealed Factor-crate pharmacy cases to the rail"
+      "status": "witnessed the exchange, still carrying the unedited eleven-second gap and fifty-two missing minutes"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "at chart table, logging stopped, pencil paused"
+      "status": "logging at chart table, Teo's course intact"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "breathing on the impact wrench's air bottle at four gasps a minute, Nia's pencil in his fist."
+      "status": "sleeping on impact-wrench air bottle in bunkroom"
     },
     {
       "name": "Anselm Rusk",
@@ -48,12 +48,10 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "watching from his barge, thermos set down, faced with medicine crates instead of cash or the boat"
+      "status": "debt collected, departed east with crates"
     }
   ],
   "threads": [
-    "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
-    "Can the Marrow buy berths before the storm turns, with no money, no case, and Teo's medicine nearly gone?",
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
     "A dead speaker repeats Wren’s name after Rusk leaves, implying something else is listening or calling from the deep"
   ],
@@ -157,7 +155,8 @@
     "events": [
       "Rusk boards the Marrow at first light, demands the cold-case’s value or the boat, flashes Teo’s medicine cartridges as leverage, and leaves with a deadline before the storm turns.",
       "Wren plays Sol back the hour she cut — Sol choosing Nia and Teo over the Factor's twelve thousand — plus her own erased eleven seconds promising the winch, just as Rusk's engine sounds his return.",
-      "Sol confronts Rusk at the rail, sends Wren to retrieve two sealed pharmacy crates from the forward hold, and offers them as payment — pharmacy-grade medicine from the forty-two-meter pocket, worth more than the Factor's twelve thousand demand."
+      "Sol confronts Rusk at the rail, sends Wren to retrieve two sealed pharmacy crates from the forward hold, and offers them as payment — pharmacy-grade medicine from the forty-two-meter pocket, worth more than the Factor's twelve thousand demand.",
+      "Rusk accepts the two pharmacy crates as full payment for the Factor's debt, returns Teo's three medicine cartridges, and departs on his barge before the storm turns."
     ]
   }
 }
