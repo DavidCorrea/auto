@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Kettering night board, own console surrendered to hold a pinned line on Unit 4-1180, mic in hand"
+      "status": "Kettering night board, own console still surrendered to the pinned line, paper book and pencil in hand"
     },
     {
       "name": "Miko",
@@ -41,15 +41,23 @@
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
       "status": ""
+    },
+    {
+      "name": "V. Ospina",
+      "pronouns": "they/them",
+      "role": "cargo loader, Bay 4 seal authority, Shift 2",
+      "wants": "unknown",
+      "flaw": "unknown",
+      "status": ""
     }
   ],
   "threads": [
     "Rhea's brother is waiting at the next node on a failing respirator.",
-    "The node's dispatch board has been showing rigs that don't exist for weeks.",
     "Miko has bought coast-bound tickets under three different names.",
     "unscheduled medical rig inbound to Bay 4 with no board entry",
     "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
-    "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard"
+    "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
+    "Ospina is still clocked in and badge-read at the Bay 4 door eleven minutes ago, with the chipped stamp that resealed all four rigs"
   ],
   "facts": [],
   "arcs": [
@@ -101,7 +109,8 @@
       "The med rig's failsafe trips — the anti-theft rule Rhea named, a climate box sealing hard to stop anyone lifting a patient off a stolen route with no relief driver aboard. A red count starts on the headwall over the nameless man, the bay doors begin to lock, and both Kass and the speaker cut to hiss. Hook: Rhea's got a running count, a forger who knows her name, and Miko already reaching for the panel as the truck arrests itself."
     ],
     "events": [
-      "Alone on the Kettering night board, Kass watches the Bay 4 line acquire a pulsing live consignee, R. VANCE, and an origin-handshake wiped to zeros with no load order, flags it three times and watches the board reconcile the record clean each time, pins the line at the cost of their console, finds a hand re-stamp on the Bay 4 seals, and then sees the unit's transponder chirping live from inside the Blank."
+      "Alone on the Kettering night board, Kass watches the Bay 4 line acquire a pulsing live consignee, R. VANCE, and an origin-handshake wiped to zeros with no load order, flags it three times and watches the board reconcile the record clean each time, pins the line at the cost of their console, finds a hand re-stamp on the Bay 4 seals, and then sees the unit's transponder chirping live from inside the Blank.",
+      "Kass digs the frozen archive and finds three earlier rigs with the same forged signature and the same chipped hand-stamp — all still on Shift 2's clock under Ospina — while 4-1180 keeps chirping from the Blank, which none of the three ghosts ever did."
     ]
   }
 }
