@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 23060,
-  "passages": 35,
+  "words": 23498,
+  "passages": 36,
   "arcs": [
     {
       "number": 1,
@@ -56,8 +56,8 @@
       "number": 6,
       "numeral": "VI",
       "title": "The Reclaimer",
-      "words": 1507,
-      "passages": 4
+      "words": 1945,
+      "passages": 5
     }
   ]
 }
