@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "hand on wheel housing, refusing to yield helm"
+      "status": "at the dock-warden's box, locked out by Quill with the Marrow's bond and a full berth count as the gate seals."
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on the drum crank, tag line wound tight"
+      "status": "at the wheel of the Marrow, holding the boat against the surge while Sol negotiates."
     },
     {
       "name": "Wren Achebe",
@@ -287,7 +287,9 @@
           "summary": "Dey hauls Nia to the surface while Salas fights his own way out through the trunk's service seal and surfaces hollow but alive; the pooled currency buys four berths and burns Dey's indenture, but not enough for every highland berth, so Sol tells the crew the truth about the missing hour and they vote to stay on the Marrow together through storm season, while Mara reaches one hundred in her count and stops."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "The Marrow reached the Kettle low gate as the storm bell counted down, and Wren played the first recording off Salas's drowned slate, hearing Mara Vos direct a diver to a second sealed cache below the pharmacy at Mercy General. Before they could rig the descent, a swell slammed the boat broadside and knocked the second play loose — Wren's own voice from fourteen months ago, calm and unfamiliar, ordering Salas's line cut. One play left, the gate sealing, Nia already clipped on the rail to go down."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 26
@@ -295,23 +297,18 @@
   ],
   "chapter": {
     "arc": 5,
-    "number": 26,
-    "title": "Three Plays Left",
+    "number": 27,
+    "title": "Keep Nil",
     "beats": [
-      "With the Marrow lashed in the lee of the Kettle, the storm bell already ringing and the low gate due to seal at the next tide, Wren sits in the cramped cabin turning Salas's drowned slate over in her hands while the hollow old diver watches her, silent; she warns the crew the recorder's works are full of saltwater and it holds only three plays left, then thumbs the first one alive.",
-      "The first play opens on a diver's-eye view of black water, and out of the static comes Mara Vos's voice—the same voice that once called Wren's name up from the deep—calmly directing divers past the pharmacy pocket to a second seal beneath it, below the Line, and calling out a depth that silences even Sol.",
-      "The play runs dry with two left, and while Salas says nothing Wren rebuilds what she can and lays it out: the second pocket sits under the pharmacy at Mercy General, deeper than any of them have ever worked, and Sol says the number aloud—enough salvage down there to buy every berth and burn Dey's indenture clean.",
-      "Sol gives the order to dive the second pocket now, before the surge floods the Stair and the gate seals the channel for the season, and the crew rounds on her: Dey's lungs won't clear, Salas is hollow, and Nia is the only one aboard small enough to fit the service trunk.",
-      "The crew rigs the drum and argues over who goes down while Bayo calls the surge from the bow, warning it's running early and the bell won't wait; Sol refuses to say how she knows the pocket is real and won't hand the helm to anyone, and Dey's indenture papers sit on the chart table with the tide already turning against them.",
-      "A swell slams the Marrow hard enough to knock the slate from Wren's hand, and when she catches it the second play has already started—and the voice coming out of Salas's recorder, low and clear over the storm, is Wren's own, speaking words she has no memory of ever saying."
+      "Sol leaves the wheel in Dey's hands and climbs the gate's steel stair to the dock-warden's box with the Marrow's bond folded in oilskin, meaning to trade the boat's surety for berths before the lock teeth drop — and finds Quill's shutter closed and the berth book chained shut, the count already full.",
+      "Quill, who has never in her life managed a lie, tells Sol the plain truth through the shutter gap: the bond was forfeit the moment Sol chose the two children over the Factor's twelve thousand, and her credit at the Kettle is nil, so nothing Sol sets on the counter moves the number.",
+      "Sol bargains anyway, laying out the cache as collateral — mint gold at thirty-eight meters, a score by the next tide — and Quill, flat and merciless, says the book fills with bodies standing in berths now, not promises of metal from under the Line; behind her Mara Vos counts upward from one on the stair between a silent Salas and Dey, and the count is full.",
+      "Quill slides Dey's indenture through the gap: the papers come due at the next tide, hours before the channel locks, and the order inked on them is that Dey dives off the debt or comes off the Marrow into the Factor's keeping — and Dey, arriving wet from the boat, reads his own deadline upside down and cracks that he'll need grease to fit down anything, then coughs until he has to hold the rail.",
+      "Sol grabs for the helm of the conversation, refusing to name a single thing she's lost, and Quill — who has never been below the Line and still half-thinks forgetting is only carelessness, though she wrote the opposite under her own hand — asks her straight how many hours the captain is missing, and Sol gives her nothing, hand flat on the counter like she's holding it shut.",
+      "Quill unchains the book and turns it to the tide-light so Sol can read it herself: berth four-eleven is held in Mara Vos's name, the last berth on a full count, and there is no four-twelve — no berth for the captain — as the storm bell drops its pause and the first lock tooth begins, with a groan, to turn."
     ],
     "events": [
-      "Wren warns the crew that Salas's drowned slate holds only three plays left, thumbs the first actuator, and the cabin fills with static as everyone leans in to listen.",
-      "The first play runs, and Mara Vos's voice from fourteen months ago directs divers past the pharmacy to a sealed second hatch at sixty-one meters, silencing the cabin and freezing Sol in the doorway.",
-      "Wren analyzes the first recording confirming the second cache at 61 meters past the Line; Salas reveals it holds pre-drown federal reserve currency worth enough for all berths plus Dey's freedom; Sol commits to the dive despite impossible odds.",
-      "Sol orders the dive of the second seal now over the crew's objections, Wren corrects the depth to thirty-eight meters and tells Sol she doesn't remember her own history, and Nia takes off her boots and claims the trunk.",
-      "The crew harnesses Nia and rigs the drum over Dey's objection, Sol refuses to name who has the boat and admits the inner seal is dogged from the inside, and Bayo calls the surge early with green water already crossing the gate sill.",
-      "A swell knocks the slate from Wren's hand; the second play auto-starts and reveals Wren's own voice from fourteen months ago ordering Salas's line cut at the second seal, a dive she has no memory of making."
+      "Sol arrives at the dock-warden's box with the Marrow's bond but finds the shutter chained shut, the berth book locked away, the count full, and the storm gate's lock teeth beginning to turn."
     ]
   }
 }
