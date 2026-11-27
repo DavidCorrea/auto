@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Anza relay shop, staying to fix what the rigs break, brother Ivo breathing beside her"
+      "status": "at Anza relay shop, staying with Ivo, transponder smashed and rig untraceable."
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Kettering night board, headset on, badge 2241 now logged on the master forever"
+      "status": "at Kettering night board, badge 2241 logged forever, four ghost rigs tracked with one gone at 04:51."
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "cut loose, walking the Anza ore stub toward the oh-four-hundred coast string, still unlogged"
+      "status": "walking the Anza ore stub toward the oh-four-hundred coast string, unlogged, three tickets intact."
     },
     {
       "name": "the man in the pod",
@@ -32,7 +32,7 @@
       "role": "sedated cargo loader, name unknown",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "Anza relay shed on Teodoro's couch, shoulder to be splinted, memory returning"
+      "status": "awake on Teodoro’s couch at Anza, shoulder to be splinted, memory returning."
     },
     {
       "name": "Teodoro",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "on his siding with an open box, a broken seal, and a six-hundred board coming"
+      "status": "at Anza relay with an open box, broken seal, and a hole in his seal stock he can’t explain."
     },
     {
       "name": "V. Ospina",
@@ -49,16 +49,42 @@
       "wants": "unknown",
       "flaw": "unknown",
       "status": "peeled back toward Kettering alone to make the oh-six-hundred board, still holding the chipped stamp—which they say they found, not used"
+    },
+    {
+      "name": "Pell",
+      "pronouns": "he/him",
+      "role": "line reclamation agent",
+      "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
+      "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
+      "status": ""
+    },
+    {
+      "name": "Nour",
+      "pronouns": "she/her",
+      "role": "senior Anza loader, Shift 1",
+      "wants": "keep Anza on the line's good schedule so the node eats through winter",
+      "flaw": "calls keeping her head down wisdom",
+      "status": ""
     }
   ],
   "threads": [
     "Miko has bought coast-bound tickets under three different names.",
     "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
     "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
-    "Ospina is still clocked in and badge-read at the Bay 4 door eleven minutes ago, with the chipped stamp that resealed all four rigs",
-    "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard"
+    "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard",
+    "Who has been pulling seals from Anza's stock to feed the line's forger, and does that hand answer to the reclaimer?",
+    "Whose were the second pair of hands that held the lid and counted the man down into the box?"
   ],
-  "facts": [],
+  "facts": [
+    "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
+    "Miko rode in the med rig’s tool void from Kettering to Anza and left at the ore siding unlogged, carrying three paid coast tickets under three names.",
+    "Rhea towed the unlogged med rig into Anza with its transponder removed; the rig is dead and untraceable at the node.",
+    "V. Ospina did not use the chipped stamp; they found it in the tool void and still hold it at Kettering.",
+    "A second person was present at Bay 4 when the loader was boxed, holding the lid and counting down aloud while the forger stamped.",
+    "Kass logged four ghost rigs at Kettering, and one vanished from the master board at 04:51 with no alarm or scrub line.",
+    "Ivo’s respirator diaphragm was patched with a disc of heavy glove rubber; he is breathing at Anza relay shop.",
+    "The pod’s databus was cut, so its repeater held a false “36.4 degrees” last-good reading while the box was cold."
+  ],
   "arcs": [
     {
       "title": "Dead Stop",
@@ -91,32 +117,63 @@
         "Rhea finds a nameless, sedated man in an unlogged medical rig at Kettering, discovers the seals and ballast manifest were forged during that very shift, and steals a yard mule to tow the rig toward Anza before the man's pod battery dies. She pulls the rig's drive relay to control it herself and drives into the Blank, a dead signal zone, only to be tailed by a dark vehicle running a node emulator and to find a rig parked broadside across the road ahead.",
         "Kass pinned the ghost rig to the board, traced its crooked seal to V. Ospina, and keyed the master channel to warn Rhea to turn back. Out in the Blank, Rhea and Miko stopped ten meters short of a hopper blocking the road, Miko smashed the mule’s drive relay to break the emulator’s control, and the med rig’s climate box sealed shut with the nameless man inside and his battery dying.",
         "Rhea and Miko got the mule moving but have no steering or brakes, held only by a rock under the tow bar, while a convoy of feral rigs closes in on the Blank. Miko tried to dump the med rig’s seal, but the master valve shut and the cargo bay is locking down with the patient inside. Ospina is ten minutes out with Bay 4 authority, and the pod battery is down to single digits.",
-        "In the Blank, the med rig's lockout countdown threatened to drain the pod's cell into the chill plate and cook the sedated man inside, so Miko jammed a hinge plate into the door track to hold it open while the trailer's steer servo dragged it toward an open culvert. A feral rig stenciled BAY 4 / SHIFT 2 queued behind them and Ospina arrived with seal authority and a chipped stamp; Rhea stalled the mule, smashed the cab panel to kill the lockout, and made them untraceable cargo with one bar of charge—then the tow-bar rock gave, the box tail swung over the pipe, and the feral rig came on."
+        "In the Blank, the med rig's lockout countdown threatened to drain the pod's cell into the chill plate and cook the sedated man inside, so Miko jammed a hinge plate into the door track to hold it open while the trailer's steer servo dragged it toward an open culvert. A feral rig stenciled BAY 4 / SHIFT 2 queued behind them and Ospina arrived with seal authority and a chipped stamp; Rhea stalled the mule, smashed the cab panel to kill the lockout, and made them untraceable cargo with one bar of charge—then the tow-bar rock gave, the box tail swung over the pipe, and the feral rig came on.",
+        "Rhea pulled the manual release on the sealed pod at Anza’s ore siding and found the discharged Kettering loader alive inside; Miko confessed she rode the tool void from Kettering and a second person counted down as the lid closed. Rhea brought the man to her brother Ivo, repaired Ivo’s respirator, and left Miko unlogged on the coast stub while Kass watched a fourth ghost rig vanish from Kettering’s board."
       ],
+      "summary": "Rhea towed a ghost medical rig through the Blank, but the patient had already been discharged and sealed inside as ballast; Miko stowed away in the rig’s tool void and guided them to Anza’s unlit ore siding. Rhea stayed at Anza to repair her brother Ivo’s respirator, while Miko walked off unlogged with her coast tickets intact. At Kettering, Kass watched a fourth ghost rig delete itself from the master board with badge 2241 locked on channel, and a second unknown loader counted down the pod’s lid before it sealed.",
+      "isClosed": true,
+      "firstChapter": 1
+    },
+    {
+      "title": "Countersign",
+      "question": "When a whole node's survival depends on not seeing a man, will they put their names behind him anyway?",
+      "goal": "A line reclaimer takes up in Anza to erase the man the network shipped as ballast, holding the node's board and resupply hostage until it hands him back; over one shift the node must choose between its own skin and a stranger, and they turn the forger's own seal into a countersign that enters him on the board as a living witness — so the man gets a name and a bunk, and Anza loses its easy place on the schedule.",
+      "author": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "plan": [
+        {
+          "title": "The Reclaimer",
+          "summary": "Pell rolls onto the ore siding with a warrant-token that freezes Anza's board and resupply until the dead rig's \"ballast\" is handed over, Teodoro confirms the cargo before anyone can stop him, and the man wakes to the word \"ballast\" and understands he's meant to disappear."
+        },
+        {
+          "title": "Three names",
+          "summary": "Miko resurfaces at Anza and offers to walk the man out clean under one of her coast names, but Rhea — who's always trusted a machine's word over a person's — decides the paper calling him cargo is the lie and refuses to just run."
+        },
+        {
+          "title": "Half-empty locker",
+          "summary": "Miko picks the seal locker and finds it half-gone, exposing that someone at Anza has been feeding the line's forger seals, which means fighting Pell could surface the node's own small treason and drives Nour to argue for handing the man over."
+        },
+        {
+          "title": "The stamp that found itself",
+          "summary": "at Kettering, Kass and V. Ospina trace the vanishing rigs to reclamation claims and learn the one thing that stops a reclaimer is a living witness countersigned by a seal authority, so Ospina rides a service rig in with the chipped stamp to un-box the man using the very tool that boxed him."
+        },
+        {
+          "title": "Living witness",
+          "summary": "at the Anza board, Rhea and Ospina enter the man as a living witness and Ospina countersigns with the seal-authority stamp, and to complete the entry the man says his name aloud for the first time — memory back — so a person stands on the board where a ghost number used to be, and Pell, bound by his own threat, cannot erase him."
+        },
+        {
+          "title": "Contested",
+          "summary": "Pell can't reclaim a witness, so he leaves with the empty pod but flags Anza contested — resupply slows and shifts dry up, the node pays for choosing the man, who's given a bunk at the relay — and as Kettering's board sheds another ghost number, the now-named man says he remembers whose hands held the lid."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 1
+      "firstChapter": 6
     }
   ],
   "chapter": {
-    "arc": 1,
-    "number": 5,
-    "title": "Wrong Patient",
+    "arc": 2,
+    "number": 6,
+    "title": "The Reclaimer",
     "beats": [
-      "Ospina slews the yard hopper sideways into the gap and the feral rig stops dead on its last trusted heading, nose sensor reading the hopper as an obstruction; Rhea keys the mule alive and drags the box tail up out of the culvert by inches onto solid road, but Ospina—holding the rigs in place—tells her that hinge plate never came from Bay 4 stock and peels back toward Kettering to make the six-hundred board, leaving Rhea to run the last forty kilometers to Anza blind, no transponder to shout her rig's number, with her brother Ivo's respirator failing at the far end.",
-      "On the manual run the pod's dash pip holds one bar while the \"passenger core temperature stable\" line loops the same three digits over and over and the charge drain doesn't match a living man's draw, and Miko keeps steering Rhea off the lit main gate toward a dead freight siding; when Rhea calls it, Miko admits she knows these back roads because she's been planning her way out since Kettering.",
-      "At the dark siding a yard light snaps on and Teodoro comes out with a hand lamp, and—telling everything before he thinks to ask why—confirms Anza never filed a medical handoff and this rig sits on no board at all, a Kettering ghost with nobody expecting a patient; Rhea asks who's in the pod then, and Teodoro says the only way to know is to open it.",
-      "They crack the pod and the nameless man is alive and waking, a cargo loader with yard grease under his nails and no illness in him—the pod's own manifest shows its listed patient was logged out at Kettering hours ago and this man was loaded into the empty box as ballast, not saved as a patient, the whole delivery a lie built on a readout Rhea trusted—and when his head clears he says the last face he saw before the lid came down was a loader resealing all four rigs with a stamp that had a chip out of the corner.",
-      "Every eye goes to Miko, and she lays it out flat: she stowed away in the rig's tool void at Kettering to reach the coast before winter, three tickets under three names, and she can't be logged at Anza without torching the exit she paid for; Rhea, who trusts a truck's readout over a person's word, looks at the lying pod, then at Miko, and tells Teodoro the girl rode in on the axle and cuts her loose toward the oh-four-hundred.",
-      "Rhea doesn't go with her; she wheels the ruined transponder into Anza's shop, finds Ivo gray-lipped under a respirator with a cracked diaphragm, and stays—fixing what the rigs break, her brother breathing again beside her—while out on Kass's board a fourth missing rig quietly drops off the schedule and Ospina's chipped stamp is still somewhere in the dark."
+      "05:10 at the unlit ore stub, Rhea and Teodoro are cutting the dead med rig's pod cradle free so the box can go into the shop's back bay; a heavy service rig rolls up the stub with no transponder chirp and no lights until the last ten meters, and a lean man in a reclaimer's gray steps down and asks, pleasantly, who signs for ballast at Anza — behind him his rig carries an empty cradle sized for exactly one box.",
+      "Pell lays a warrant-token on the relay counter, a stub of yellow brass punched with a node seal; Teodoro, who tells you everything before he asks why you want it, reads it straight onto Anza's board, and the board freezes — shift slots gray out, the resupply flag goes to HOLD, and Nour comes in from Shift 1 to find her crew's names wiped off the day; out at the north gate the water-and-parts truck is already turning around, and Ivo's spare scrubber filter cartridge is on it.",
+      "Rhea bets on the machine, the way she always does: she pulls the pod's repeater, a palm-sized puck that keeps the last good reading when the line goes dead, and shows Pell 36.4 degrees — a live load's temperature, cargo doesn't run warm, so the box was breathing when it crossed the Blank; Pell doesn't even look, says a cut databus (the wire bundle that carries a rig's readings) means the number's a ghost, and that no reading is a witness.",
+      "Pell turns to Teodoro and asks him, as relay operator, to confirm the cargo on the node's own manifest plate, and Teodoro — helpless with a direct question — reads it out loud in the flat voice he uses for shift changes: bay, shift, discharge time, weight entered as ballast; the shop goes quiet enough to hear Ivo's patched respirator diaphragm, a disc of glove rubber, wheeze and click.",
+      "The inner door opens and the man is standing in it with his shoulder strapped to his chest, memory arriving in pieces he keeps checking against the room; he asks what ballast means, Teodoro answers him plainly because that's Teodoro's whole disease, and Ivo says through the mask that ballast is the cheap stuff you carry so the expensive stuff rides smooth — the man looks at the manifest, sees his own weight in it, and says he's not missing, he's already filed.",
+      "Pell moves to load the box; Rhea puts herself and a tool cart between him and the cradle, Nour argues that Anza eats through winter only on the line's good schedule and that one stranger isn't worth a node's shifts, and Pell — unbothered, writing on his slate — gives them the clock: handover by the 06:00 shift change or the freeze holds through the next resupply cycle; in the shop, Ivo's respirator starts its filter alarm, three short tones, counting down hours he doesn't have.",
+      "The man walks out of the shop on his own feet into the yard, stands in front of both crews in the cold, refuses the cradle and asks Anza to put him somewhere he can be counted instead of carried — and Rhea, for the first time in her life, takes a person's word over a diagnostic and says the node keeps him; Pell marks the refusal on his slate, tells them he'll be back before the shift turns with a second signature, and down the stub, past the ore bins, a set of headlights comes on with no transponder behind them."
     ],
-    "events": [
-      "Ospina corks the gap with the hopper and stops the feral rig on its stale heading, Rhea drags the box up out of the culvert, then Ospina reveals the hinge plate isn't Bay 4 stock and abandons them to make the oh-six-hundred board, leaving Rhea to drive forty kilometers to Anza blind while Ivo's respirator fails.",
-      "Running the last forty kilometers blind, Rhea discovers the pod's stable readout is a frozen cached page and the cell is barely drawing current, while Miko steers them off Anza's lit main gate to a dead ore siding and admits she's been planning her exit since Kettering.",
-      "At the dark ore siding Anza operator Teodoro arrives with a hand lamp and reveals that no medical handoff was ever filed and the rig sits on no board at all, then tells Rhea the only way to know who's in the pod is to break its seal and open it—and the man inside knocks.",
-      "They break the pod's seal and find a big, healthy cargo loader waking inside, his own manifest card showing he was discharged from Kettering med hours earlier and loaded as ballast into a box nobody would open—and he describes a loader with a chipped-corner stamp resealing all four rigs while watching him.",
-      "Miko admits she stowed in the rig's tool void since Kettering and can't be logged without burning her three paid coast tickets, Rhea tells Teodoro she rode in on the axle and cuts her loose up the ore stub, and the waking man remembers a second person holding the lid and counting down.",
-      "Rhea brings the ruined rig into Anza's shop and cuts Ivo a new respirator diaphragm so he breathes on his own, then stays to fix rigs while Kass watches a fourth ghost rig vanish from the board and Ospina's chipped stamp waits in the dark."
-    ]
+    "events": []
   }
 }
