@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "sleeping on impact-wrench air bottle in bunkroom"
+      "status": "bunkroom of the Marrow on the last of the impact-wrench air, awake, no memory of the year or of any of the crew"
     },
     {
       "name": "Anselm Rusk",
@@ -53,7 +53,8 @@
   ],
   "threads": [
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
-    "A dead speaker repeats Wren’s name after Rusk leaves, implying something else is listening or calling from the deep"
+    "A dead speaker repeats Wren’s name after Rusk leaves, implying something else is listening or calling from the deep",
+    "Salas says the name Bayo and doesn't know whose it is"
   ],
   "arcs": [
     {
@@ -156,7 +157,8 @@
       "Rusk boards the Marrow at first light, demands the cold-case’s value or the boat, flashes Teo’s medicine cartridges as leverage, and leaves with a deadline before the storm turns.",
       "Wren plays Sol back the hour she cut — Sol choosing Nia and Teo over the Factor's twelve thousand — plus her own erased eleven seconds promising the winch, just as Rusk's engine sounds his return.",
       "Sol confronts Rusk at the rail, sends Wren to retrieve two sealed pharmacy crates from the forward hold, and offers them as payment — pharmacy-grade medicine from the forty-two-meter pocket, worth more than the Factor's twelve thousand demand.",
-      "Rusk accepts the two pharmacy crates as full payment for the Factor's debt, returns Teo's three medicine cartridges, and departs on his barge before the storm turns."
+      "Rusk accepts the two pharmacy crates as full payment for the Factor's debt, returns Teo's three medicine cartridges, and departs on his barge before the storm turns.",
+      "Salas woke with his year gone, named a boy called Bayo that he couldn't place, and tried to erase his own recorded calls only to find the log had copied itself to six places aboard."
     ]
   }
 }
