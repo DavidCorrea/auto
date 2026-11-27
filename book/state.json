@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "behind the bell housing, confessed to cutting Salas's line, silent when asked if he can still pilot the Stair."
+      "status": "gave his answer and agreed to pilot the Stair if Salas stays below decks until they're through; stalling at his knots on the crate, not yet moving"
     }
   ],
   "threads": [
@@ -72,8 +72,7 @@
     "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering.",
     "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
-    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way",
-    "Wren needs Bayo's answer before the bell hits ten and the Stair channel shuts."
+    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way"
   ],
   "arcs": [
     {
@@ -219,7 +218,8 @@
       "Wren crossed the Kettle's low dock carrying the signed log, the shears, and the pinging receiver, and found Bayo Adisa splicing a wet hawser at the mooring ring, refusing to confirm his own name, as Ivo Salas came up out of the Marrow's hatch behind her.",
       "Bayo Adisa names his price to pilot the Marrow through the Stair: his own berth and Ivo Salas kept out of sight.",
       "Salas looks at Bayo from the Marrow rail and feels no recognition at all, while Bayo, braced for a reckoning that never comes, gives himself away by tying the same orange splice-knot twice under Wren's eye.",
-      "Wren confronts Bayo behind the bell housing, he admits he cut Salas's ascent line and wrote him off as lost, and Wren demands to know if he can still pilot before the channel closes."
+      "Wren confronts Bayo behind the bell housing, he admits he cut Salas's ascent line and wrote him off as lost, and Wren demands to know if he can still pilot before the channel closes.",
+      "Wren forces the deadline—the Marrow leaves at the bell with or without him—and Bayo gives his answer, agreeing to pilot the Stair on the condition Salas stays below decks, then sits back to tie knots and stalls, buying time he doesn't have."
     ]
   }
 }
