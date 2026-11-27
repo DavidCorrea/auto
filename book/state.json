@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at the Kettle's low gate, committed to buying six berths before the storm bell shuts the channel."
+      "status": "blocking Quill from Dey at the Kettle gate, staring at the indenture line, undecided"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on the Marrow deck mat, breathing ragged and critical, overhearing that six names are needed."
+      "status": "awake on the deck mat, refusing to be shielded and insisting on his own name as the indenture price"
     },
     {
       "name": "Wren Achebe",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "at the Marrow's gunwale, berth book closed, her own berth forfeit if she ends the day one name short."
+      "status": "holding the berth book and stylus, waiting for acceptance of six crates plus Dey's indenture within forty minutes"
     },
     {
       "name": "Bayo Adisa",
@@ -208,7 +208,8 @@
       "Wren says it plainly, that she never cut the can loose, that she has no memory of the clip coming open or of any descent that would leave it down there; the beacon keeps blinking its countdown on her slate under the tolling bell, and forty-two meters stops feeling like a place and starts feeling like a bill already come due."
     ],
     "events": [
-      "Quill names the berth count and the stakes, while Dey lies injured on the mat and Sol vows to buy all six."
+      "Quill names the berth count and the stakes, while Dey lies injured on the mat and Sol vows to buy all six.",
+      "Quill names Dey's indenture as the sixth price, Sol tries to shut him out, and Dey insists on hearing it and claiming his own name."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 49065,
-  "passages": 76,
+  "words": 49555,
+  "passages": 77,
   "arcs": [
     {
       "number": 1,
@@ -111,8 +111,8 @@
       "number": 13,
       "numeral": "XIII",
       "title": "The Kettle",
-      "words": 491,
-      "passages": 1
+      "words": 981,
+      "passages": 2
     }
   ]
 }
