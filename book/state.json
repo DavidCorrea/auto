@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "holding the shears; demands Wren play the unplayed span"
+      "status": "holding shears then passing them to Wren, enforcing boat rule, admitting memory gaps, demanding Wren fetch Nia"
     },
     {
       "name": "Dey Okafor",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "holding a second, unplayed snipped span on the master wire; has not dared to thread it"
+      "status": "holding shears, ordered to fetch Nia and log, still holding unplayed span"
     },
     {
       "name": "Nia Vos",
@@ -213,7 +213,8 @@
     ],
     "events": [
       "Wren shows Sol the snipped eleven-second span on the twin spool, admits to fifty-two unremembered minutes, and surrenders the shears into Sol's fist.",
-      "Wren explains the iron rule of the dive wire and reveals a second, unplayed snipped span on the master record that she has been afraid to thread."
+      "Wren explains the iron rule of the dive wire and reveals a second, unplayed snipped span on the master record that she has been afraid to thread.",
+      "Sol admits her own memory gaps, enforces the Marrow’s wire rule, makes Wren repeat it aloud, passes the shears back to her, and orders her to fetch Nia and the paper log before playing the eleven-second span."
     ]
   }
 }
