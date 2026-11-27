@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "holding shears, ordered to fetch Nia and log, still holding unplayed span"
+      "status": "rule signed in the paper log under her own name; still hasn't threaded the eleven seconds; shears on her person"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "Teo’s course intact; started a paper log no one can erase and wrote down all six names."
+      "status": "keeper of the paper log; recorded Teo's unanswered question in the margin"
     },
     {
       "name": "Ivo Salas",
@@ -70,7 +70,8 @@
   "threads": [
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
     "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering.",
-    "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail"
+    "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
+    "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts"
   ],
   "arcs": [
     {
@@ -214,7 +215,8 @@
     "events": [
       "Wren shows Sol the snipped eleven-second span on the twin spool, admits to fifty-two unremembered minutes, and surrenders the shears into Sol's fist.",
       "Wren explains the iron rule of the dive wire and reveals a second, unplayed snipped span on the master record that she has been afraid to thread.",
-      "Sol admits her own memory gaps, enforces the Marrow’s wire rule, makes Wren repeat it aloud, passes the shears back to her, and orders her to fetch Nia and the paper log before playing the eleven-second span."
+      "Sol admits her own memory gaps, enforces the Marrow’s wire rule, makes Wren repeat it aloud, passes the shears back to her, and orders her to fetch Nia and the paper log before playing the eleven-second span.",
+      "Nia writes Sol's rule into the paper log and reads it back line by line while Wren signs her own name under it, and Teo asks what happens to Dey's name once it's promised to the berth book — a question nobody answers — as Quill arrives with the book already open."
     ]
   }
 }
