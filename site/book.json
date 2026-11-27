@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 89535,
-  "passages": 139,
+  "words": 90314,
+  "passages": 140,
   "arcs": [
     {
       "number": 1,
@@ -187,8 +187,8 @@
       "number": 23,
       "numeral": "XXIII",
       "title": "What the Caller Keeps",
-      "words": 1947,
-      "passages": 3
+      "words": 2726,
+      "passages": 4
     }
   ]
 }
