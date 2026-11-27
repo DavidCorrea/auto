@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 83001,
-  "passages": 129,
+  "words": 83816,
+  "passages": 130,
   "arcs": [
     {
       "number": 1,
@@ -173,8 +173,8 @@
       "number": 21,
       "numeral": "XXI",
       "title": "The Pilot's Price",
-      "words": 3157,
-      "passages": 5
+      "words": 3972,
+      "passages": 6
     }
   ]
 }
