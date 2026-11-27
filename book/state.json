@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at Anza relay shop, unlogged, holding three coast tickets and a folder, tender parked on ore stub with transponder pulled"
+      "status": "at the Anza relay shop counter, three tickets laid out, plan priced and still on the table"
     },
     {
       "name": "the man in the pod",
@@ -178,7 +178,8 @@
     ],
     "events": [
       "Miko arrives at Anza in a coast-string tender with transponder removed, carrying three coast tickets under three names, and confronts the room — including the strapped-shoulder man on Teodoro's couch — asking who needs to stop being who they are.",
-      "Rhea pulled the last sealed scrubber cartridge off the dead med rig and seated it into Ivo's empty mask port, setting the rule at ninety minutes with no spare on the node, and Ivo told Marlowe that a ticket name without a signature is just weight that walks."
+      "Rhea pulled the last sealed scrubber cartridge off the dead med rig and seated it into Ivo's empty mask port, setting the rule at ninety minutes with no spare on the node, and Ivo told Marlowe that a ticket name without a signature is just weight that walks.",
+      "Miko laid out the escape run — ore stub, tender to Bitter Wells, the 06:40 coast string, a down-line bunk — then named the price: each ticket belongs to a real loader whose line will read absent, and the third, Sabine Cordy, a Bay 4 Shift 2 loader who clocked off at 21:47 and vanished, is already a loose line with a reclamation claim open on it, as something heavy comes up the haul road."
     ]
   }
 }
