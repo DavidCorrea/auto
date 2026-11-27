@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 105831,
-  "passages": 163,
+  "words": 106394,
+  "passages": 164,
   "arcs": [
     {
       "number": 1,
@@ -214,8 +214,8 @@
       "number": 26,
       "numeral": "XXVI",
       "title": "Three Plays Left",
-      "words": 2985,
-      "passages": 5
+      "words": 3548,
+      "passages": 6
     }
   ]
 }
