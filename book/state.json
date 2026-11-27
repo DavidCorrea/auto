@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "between the Caller and the wall, eleven seconds spent and their reason gone, the fact of them written in her own hand; her slate's corner still amber"
+      "status": "high ward, ascent line handed to Mara, counting fathoms on her slate, watching the dislodged timer arm and the dead governor, copper still taped at the gland"
     },
     {
       "name": "Nia Vos",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "back at the dynamo crank, Nia's wrist released, waiting for the hammer"
+      "status": "Mercy General high ward, off the bell, hauling the ascent line at twelve arm-lengths in, stopped; has just asked Nia whose girl she is"
     }
   ],
   "threads": [
@@ -80,7 +80,8 @@
     "Mara no longer knows she has a son named Teo, and the drawer with the last of his medicine has come off green with the dynamo stopped",
     "Wren's eleven seconds sit in the Caller's throat, payable at any slack water by anyone who puts a hand flat on the brass",
     "The Marrow's copper line is out of the box with the ebb making and Rusk's barge running in dark, and Wren's eleven seconds sit at the front of the Caller's queue with Mara on the rope asking who's first and no topside left to say no.",
-    "The copper line has been open to the ward the whole time, feeding every topside voice into the Caller's queue, which pays them back and eats a piece of the speaker — Bayo has already paid in unknowingly, and Wren must cut the copper or lose him."
+    "The copper line has been open to the ward the whole time, feeding every topside voice into the Caller's queue, which pays them back and eats a piece of the speaker — Bayo has already paid in unknowingly, and Wren must cut the copper or lose him.",
+    "The Caller's timer arm is out of its notch with the governor dead, so it will ring again on its own; Bayo sits at the front of the queue with a whole topside behind him, and every voice it hands back costs the speaker a piece."
   ],
   "arcs": [
     {
@@ -270,7 +271,8 @@
       "Sol reads the water off the cork floats and takes the Marrow through a gap Rusk's powerless barge has no way left to follow, the barge puts its nose on the bar and swings broadside, and when Bayo throws Rusk a line for nothing, no price on it, Rusk refuses it out loud and goes down with his barge — and the channel closes over Mercy General behind them with Mara on the deck asking for a rope and Nia holding medicine that is warm, and useless, for a brother who remembers a whole mother."
     ],
     "events": [
-      "The squall throws the ward door open and trips the Caller's timer, so the bell rings untouched at a turning tide and pays out Bayo's warm promise off the open copper line, and Wren marks that the queue has advanced with no hand and no slack — meaning Bayo has fed himself into the bell without knowing."
+      "The squall throws the ward door open and trips the Caller's timer, so the bell rings untouched at a turning tide and pays out Bayo's warm promise off the open copper line, and Wren marks that the queue has advanced with no hand and no slack — meaning Bayo has fed himself into the bell without knowing.",
+      "Wren trades the bell rope for the ascent line and gets hollowed Mara hauling arm over arm, counting the line in rather than speaking it into the queue, until Mara stops mid-haul and asks Nia whose girl she is."
     ]
   }
 }
