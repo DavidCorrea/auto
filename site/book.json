@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 55053,
-  "passages": 87,
+  "words": 55746,
+  "passages": 88,
   "arcs": [
     {
       "number": 1,
@@ -120,6 +120,13 @@
       "title": "The Wire Only Tells Once",
       "words": 3253,
       "passages": 6
+    },
+    {
+      "number": 15,
+      "numeral": "XV",
+      "title": "Bayo",
+      "words": 693,
+      "passages": 1
     }
   ]
 }

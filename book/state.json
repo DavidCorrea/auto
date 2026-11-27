@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "rule signed in the paper log under her own name; still hasn't threaded the eleven seconds; shears on her person"
+      "status": "on the Kettle's low dock, standing over Bayo Adisa, four hours of beacon left, bell hung at eleven"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "In the Marrow bunkroom on roughly fifteen minutes of impact-wrench air; no memory of the year, kept his call record, and still does not know Bayo."
+      "status": "just up out of the Marrow's bunkroom hatch, on deck"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": ""
+      "status": "at the mooring ring on the low dock, splicing, name unconfirmed"
     }
   ],
   "threads": [
@@ -194,7 +194,8 @@
         }
       ],
       "chapterSummaries": [
-        "The Marrow tied up at the Kettle's low gate and dock-warden Quill named the price of six above-waterline berths — six medicine crates and Dey's indenture — as the storm bell began to count and the tide gave them forty minutes. Wren found the spit can gone from her harness with its beacon still pinging from forty-two meters and admitted she has no memory of any descent that could have left it there. Dey, gray and rattling on the deck mat, needled her until she couldn't get the lie out that she wasn't afraid."
+        "The Marrow tied up at the Kettle's low gate and dock-warden Quill named the price of six above-waterline berths — six medicine crates and Dey's indenture — as the storm bell began to count and the tide gave them forty minutes. Wren found the spit can gone from her harness with its beacon still pinging from forty-two meters and admitted she has no memory of any descent that could have left it there. Dey, gray and rattling on the deck mat, needled her until she couldn't get the lie out that she wasn't afraid.",
+        "Wren showed Sol the hand-cut eleven-second span in her own wire and admitted the fifty-two missing minutes; Sol laid down the boat rule—slates run, nobody cuts, nobody goes down alone—and Nia wrote it in the paper log with Wren's signature. Quill then offered Dey free lung lavage only if he signed his indenture into the berth book; Dey said yes with his own mouth, and Quill warned the lung rig is committed to the power barge at the east mole until the bell hits ten. Wren still holds the shears and the unthreaded second cut, while the can's beacon runs down at forty-two meters."
       ],
       "summary": "",
       "isClosed": false,
@@ -203,23 +204,18 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 14,
-    "title": "The Wire Only Tells Once",
+    "number": 15,
+    "title": "Bayo",
     "beats": [
-      "Wren spreads the twin spool (the two reels that catch a descent and its slack) on the deck and threads it through the reader, showing Sol an eleven-second span snipped clean out of the wire with the shears riding in her own pocket — her hand, her tool — and admits the descent that cut was built to hide is fifty-two minutes she can't remember.",
-      "Wren lays down the hard rule of the wire: cut a span and it's gone for good, play a span and it's spent, so the record only ever tells once — and she has one snipped length still unplayed on the master that she hasn't dared thread.",
-      "Sol stops shading her own gaps and sets one rule for the Marrow until the channel shuts — slates run, nobody cuts, nobody goes down alone — and pins Wren to say it back, knowing she's the one who just broke it.",
-      "Nia writes the rule into the paper log where no wire or warden can reach it and reads it back line by line, until Teo asks what happens to a name that's already promised to the berth book.",
-      "Quill comes back over the gunwale with the Kettle clinic's offer: they'll pump the salt out of Dey's lungs for free, but only if he signs himself bond now — and because she can't shade a figure she names the whole price to his face.",
-      "Dey tells Sol to quit hovering, weighs a life working off dock-debt against going gray on the mat, sharp-tongued right up to the edge — then reaches past her for the stylus and says yes, and Quill scores his name into the leather as the bell tolls the tide lower and the beacon spends another minute at forty-two meters."
+      "Wren crosses the low dock with the signed log and the shears, hunting the only pilot who will take the Marrow through the Stair: Bayo Adisa, bell-tender, tying orange splice-knots into a wet line at the mooring ring.",
+      "Bayo greets Wren with an easy promise to get the Marrow through and names his price: keep his berth and keep his face out of Ivo Salas's sight; he explains the Stair as a flooded service channel where the tide and a rope are the only way through.",
+      "From the Marrow rail, Salas looks straight down at Bayo and feels nothing at all—no face, no name, no fear—while Bayo's hands keep tying the same orange splice-knot twice.",
+      "Wren pulls Bayo behind the bell housing and demands to know why he flinched at Salas's name; Bayo admits, flat and too fast, that fourteen months ago he cut Salas's ascent line clean and filed the report that wrote the old diver off as lost.",
+      "Wren tells him the Marrow leaves at the bell whether he is aboard or not, and Bayo agrees to pilot the Stair only if Salas stays below until they are through, then goes back to his knots to buy time.",
+      "Salas climbs the dock ladder, stops in front of Bayo, and asks him his name—and Bayo, who has spent fourteen months making sure that question never came, has to answer or lose the only pilot who can take the Marrow through."
     ],
     "events": [
-      "Wren shows Sol the snipped eleven-second span on the twin spool, admits to fifty-two unremembered minutes, and surrenders the shears into Sol's fist.",
-      "Wren explains the iron rule of the dive wire and reveals a second, unplayed snipped span on the master record that she has been afraid to thread.",
-      "Sol admits her own memory gaps, enforces the Marrow’s wire rule, makes Wren repeat it aloud, passes the shears back to her, and orders her to fetch Nia and the paper log before playing the eleven-second span.",
-      "Nia writes Sol's rule into the paper log and reads it back line by line while Wren signs her own name under it, and Teo asks what happens to Dey's name once it's promised to the berth book — a question nobody answers — as Quill arrives with the book already open.",
-      "Quill offers Dey free lung treatment at the Kettle clinic in exchange for signing himself into indenture, and because she cannot lie, she names the full cost—his name in the berth book, dock-debt, and belonging to the Kettle—then leaves the stylus on the deck for him.",
-      "Dey told Sol to stop hovering, weighed certain dock-debt against drowning gray, took the stylus past her arm and signed himself bond to the Kettle, and Quill scored his name into the leather and said aloud, at full volume, that he chose it."
+      "Wren crossed the Kettle's low dock carrying the signed log, the shears, and the pinging receiver, and found Bayo Adisa splicing a wet hawser at the mooring ring, refusing to confirm his own name, as Ivo Salas came up out of the Marrow's hatch behind her."
     ]
   }
 }
