@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "Stopped editing slates, returned Sol’s lost hour, and left Salas’s record intact; still missing her own fifty-two minutes and the eleven-second cut."
+      "status": "standing at the Marrow's harness stanchion, staring at her slate showing a spit-can beacon at forty-two meters with six hours of battery left"
     },
     {
       "name": "Nia Vos",
@@ -69,7 +69,8 @@
   ],
   "threads": [
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
-    "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering."
+    "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering.",
+    "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail"
   ],
   "arcs": [
     {
@@ -212,7 +213,8 @@
       "Quill names the berth count and the stakes, while Dey lies injured on the mat and Sol vows to buy all six.",
       "Quill names Dey's indenture as the sixth price, Sol tries to shut him out, and Dey insists on hearing it and claiming his own name.",
       "The storm bell strikes its first count and Dey laughs, accepting he is the indenture price.",
-      "Nia records the reckoning — six crates and one Dey against six names — in her un-editable paper log while Wren checks her diving rig as the bell strikes two."
+      "Nia records the reckoning — six crates and one Dey against six names — in her un-editable paper log while Wren checks her diving rig as the bell strikes two.",
+      "Wren finds her spit can missing from her harness and discovers its beacon still transmitting from forty-two meters, implying an unremembered dive past the memory-loss depth."
     ]
   }
 }
