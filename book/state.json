@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the low gate counter, entered in the berth book as eleven seconds short, no slate margin left to edit"
+      "status": "eleven seconds gone, slate margin empty, the Caller's note identified as the only thing Salas ever heard"
     },
     {
       "name": "Nia Vos",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "recanted on the record, aloud and in ink, her belief that lost memory is carelessness; still needs Mara's name from Mara's own mouth to close the book before the last toll"
+      "status": "count full and book shut, last toll still standing in the notch"
     },
     {
       "name": "Bayo Adisa",
@@ -72,11 +72,10 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "in the lift-frame on the Kettle's floating stage, counted to eighty fathoms, no line in the book and no passage up out of the basin"
+      "status": "named in her own mouth, in Quill's book, berth four-eleven, Keep nil, still counting in the lift-frame"
     }
   ],
   "threads": [
-    "Mara Vos — the two-syllable name on Salas's slate belongs to Nia and Teo's mother, and no one on the Marrow can say how Salas came to be spending his air on her.",
     "Wren's eleven seconds sit in the Caller's throat, payable at any slack water by anyone who puts a hand flat on the brass",
     "The Marrow's copper line is out of the box with the ebb making and Rusk's barge running in dark, and Wren's eleven seconds sit at the front of the Caller's queue with Mara on the rope asking who's first and no topside left to say no.",
     "The Caller's timer arm is out of its notch with the governor dead, so it will ring again on its own; Bayo sits at the front of the queue with a whole topside behind him, and every voice it hands back costs the speaker a piece.",
@@ -274,7 +273,8 @@
       "The Marrow runs the drowned reach with Bayo calling water from the bow and giving up any claim on a line, Sol reads the cork floats at the spoke-box and takes the shoal side for the extra fathom, and they slide under the lowering gate-grate as the bell tolls six, where Quill meets them saying her book ends a soul short and her berth is forfeit.",
       "Quill names the whole crew into the berth book but stops at the last line, refusing to write a name Mara won't give and declaring that no line means Mara stays in the basin until spring, as the eighth toll drops the grate to one notch left.",
       "Quill reads Wren's loss aloud into the berth book — eleven seconds short, freely given — and Wren finds her slate margin empty because she never logged them, with the last toll in the chain lifting and Mara still unnamed.",
-      "Quill restores Salas's name to the book (explaining it isn't a rumor but a name she struck herself when his line was cut fourteen months ago) and logs him hollow, which breaks her certainty that lost memory is carelessness — she recants it aloud and in ink, then demands Mara's name from Mara's own mouth before the last toll."
+      "Quill restores Salas's name to the book (explaining it isn't a rumor but a name she struck herself when his line was cut fourteen months ago) and logs him hollow, which breaks her certainty that lost memory is carelessness — she recants it aloud and in ink, then demands Mara's name from Mara's own mouth before the last toll.",
+      "Nia and Wren get Mara to say her own name — Wren playing the slate and showing the \"song\" was only the Caller's note carrying to Salas at depth — and Quill writes Mara Vos in with Keep nil and berth four-eleven, closing her count, then calls for Teo just as the cabin hatch lifts."
     ]
   }
 }
