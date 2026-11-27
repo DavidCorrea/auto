@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on the step, lungs failing, indenture due in three hours, released Nia's wrist"
+      "status": "on the step below the warden's box, lungs failing, not stopping Nia"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on the step, holding Salas's slate with one play remaining, played the rule recording"
+      "status": "on the step with Mara, slate in lap"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on the step, has claimed the service trunk dive, not yet descended"
+      "status": "descending the service trunk at thirty meters with failing scrubber canister, eight meters above the cache"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "standing silent on the stair above Mara, hood up, coil of line in fists, watching"
+      "status": "on deck holding the line coil, silent since surfacing"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "at the Marrow's wheel below the gate, holding her off the pier"
+      "status": "at the drum running the line, watching Nia's descent"
     },
     {
       "name": "Mara Vos",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "on the step, counting upward (at 70), hollow, rule on her own slate prevents her diving"
+      "status": "counting on the step, at seventy-three"
     }
   ],
   "threads": [
@@ -312,7 +312,8 @@
       "The Kettle’s gate seals shut while Nia counts Teo’s remaining medicine and resolves to dive the service trunk herself as Dey approaches on the stair.",
       "Nia connects Mara’s spoken “thirty-eight” to the sealed service trunk below Mercy General and realizes the mint gold Quill recorded for Mara’s berth is still sitting under the Line at that depth.",
       "Dey arrives with ruined lungs and Quill’s order that he must dive off his indenture or be taken by the Factor, but he cannot physically make the descent, so Nia resolves to take the line herself despite her scrubber being half-spent.",
-      "Wren plays the rule from Mara's slate forbidding hollow divers from going below the Line, eliminating Mara as an option for the service trunk dive; Nia claims the dive for herself."
+      "Wren plays the rule from Mara's slate forbidding hollow divers from going below the Line, eliminating Mara as an option for the service trunk dive; Nia claims the dive for herself.",
+      "Nia retrieves Salas's rebreather with a half-spent CO2 canister, clips onto his line, tells Teo to keep the Caller burning, and descends the service trunk, reaching thirty meters where the scrubber begins to fail with eight meters still to go."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 112151,
-  "passages": 174,
+  "words": 112974,
+  "passages": 175,
   "arcs": [
     {
       "number": 1,
@@ -228,8 +228,8 @@
       "number": 28,
       "numeral": "XXVIII",
       "title": "The Count",
-      "words": 1753,
-      "passages": 4
+      "words": 2576,
+      "passages": 5
     }
   ]
 }
