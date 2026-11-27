@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the pocket door, forty-two meters, can still on the shelf inside, one pull of air and one pull of winch left, the read deferred to the deck"
+      "status": "on the Marrow's deck, up from forty-two meters, left fist shut on her spit can, unable to account for her descent"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "beside her on the door, pony bottle on his hip, needle on the red pin"
+      "status": "on his knees on the deck coughing up channel water, breathing deck air"
     },
     {
       "name": "Anselm Rusk",
@@ -72,8 +72,7 @@
     "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
-    "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
-    "Wren surfaced the Line asking the wire what she came for, with no answer yet on the deck."
+    "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters."
   ],
   "arcs": [
     {
@@ -198,7 +197,8 @@
         "The Marrow tied up at the Kettle's low gate and dock-warden Quill named the price of six above-waterline berths — six medicine crates and Dey's indenture — as the storm bell began to count and the tide gave them forty minutes. Wren found the spit can gone from her harness with its beacon still pinging from forty-two meters and admitted she has no memory of any descent that could have left it there. Dey, gray and rattling on the deck mat, needled her until she couldn't get the lie out that she wasn't afraid.",
         "Wren showed Sol the hand-cut eleven-second span in her own wire and admitted the fifty-two missing minutes; Sol laid down the boat rule—slates run, nobody cuts, nobody goes down alone—and Nia wrote it in the paper log with Wren's signature. Quill then offered Dey free lung lavage only if he signed his indenture into the berth book; Dey said yes with his own mouth, and Quill warned the lung rig is committed to the power barge at the east mole until the bell hits ten. Wren still holds the shears and the unthreaded second cut, while the can's beacon runs down at forty-two meters.",
         "On the low dock, Wren cornered Bayo Adisa and he admitted he cut Ivo Salas's ascent line fourteen months ago and signed him off as lost; when Salas crossed to him and asked his name, the old diver felt nothing at all, the depth having taken Bayo's face from him. Bayo agreed to pilot the Stair for a signed berth and Salas kept below decks. Then the bell struck ten, the channel shut, and Dey's hand came up off the blanket, reaching for air.",
-        "The Marrow ran the Stair with Nia at the helm, reading Sol's own written orders back to her every time the captain blanked, and rode out the ebb chop when the medicine crates broke loose and Salas cut a lashing to free his pinned leg. It ended with Dey gone silent, the pony bottle near empty, no lung rig in reach, and the spit-can beacon at forty-two meters flatlining after it had risen half a meter. They sit stopped in the channel now with a diver who still won't ask for help."
+        "The Marrow ran the Stair with Nia at the helm, reading Sol's own written orders back to her every time the captain blanked, and rode out the ebb chop when the medicine crates broke loose and Salas cut a lashing to free his pinned leg. It ended with Dey gone silent, the pony bottle near empty, no lung rig in reach, and the spit-can beacon at forty-two meters flatlining after it had risen half a meter. They sit stopped in the channel now with a diver who still won't ask for help.",
+        "Dey keyed the mic and asked the Kettle for the lung rig — the first time he's ever called for help — while a barge running dark closed on the Marrow from the east. Wren and Salas rode the winch down to forty-two meters on one pony bottle and one pull of drum battery; the Caller gave back Wren's name in her own voice, she took her spit can off the shelf, and Salas put his last air in her mouth. They are coming up through thirty-one meters with the Line having scrambled Wren, and she is asking the wire what she went down for."
       ],
       "summary": "",
       "isClosed": false,
@@ -207,23 +207,18 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 17,
-    "title": "Forty-Two",
+    "number": 18,
+    "title": "Eleven Seconds",
     "beats": [
-      "Dey reaches up, takes the handset Wren folded into his fist, keys it himself and calls the Kettle for the first time in his life — says flat out that he can't breathe and needs the lung rig — and Quill answers naming the true price and the true odds to his face, then east of them a barge engine changes note and starts to swing about.",
-      "With the rig still minutes off and every hand needed once the drum turns, Sol kneels and takes over squeezing the bag for Dey while Wren and Salas clip onto the ascent line — the powered cable off the winch drum that lowers and hauls a diver — and do the math aloud: two bodies, forty-two meters down and the same back up, one pony bottle with nine minutes in it, and a winch battery good for a single pull more.",
-      "Bayo leans on the winch lever and, as the deck falls away above them, lays down the tower's rule: the Caller, a dead emergency voice-bell bolted in the flooded stair that keeps the last voice it hears and gives it back only where the water goes still — and inside Mercy General the water never moves — and then something up the line clears its throat that isn't the beacon.",
-      "Wren and Salas go down past the Line into the cold that starts eating memory, the gauge bleeding toward empty, and the Caller gives back Wren's own voice saying Wren in Wren's own voice out of the dark — proof she stood at this door last night and came back up without her can.",
-      "At the pocket Salas says \"I told you,\" and Wren, already feeling the depth lift the last hour out of her, decides not to read the can here where reading costs what little she has left but to carry it up sealed — she puts her hand on the pocket-door release and the gauge reads one pull of air and one pull of winch, no margin for either.",
-      "The pocket door swings open on the can with that single pull left, Wren shuts her fist around it as the line snaps bar-taut and hauls, and forty-two meters down in the memory-dark she can no longer tell whose air is in her lungs or whether she'll remember, at the top, what she came for."
+      "The drum lands them with the pony flat on zero, and Bayo locks the brake while Sol and Nia haul both divers over the rail into the rain. Wren's left fist is still shut and she knows the thing in it only by the beacon ticking in her palm. She can't say what she went down for, so Nia answers off the paper log — that, you went for that — and writes it, and Salas, on his knees coughing channel water, tells her to open it.",
+      "Under the sealed beam Wren threads the can's wire into the field head, the thumb-crank reader that drags a record past a head so a diver can be heard dry, while Bayo keeps a palm on a battery good for nothing more. Before she cranks she takes out the reader's shears — the snips she has used all her life to lift a bad minute out of a good record. She could cut this whole span now and nobody would ever hear it. Salas watches her hands. Sol says the boat rule out loud and waits.",
+      "Wren puts the shears away uncut and cranks. First comes a wet scrape of a throat clearing, the same unhurried sound that came down the comms pair at thirty-one meters with nobody there to make it, and Bayo's face does the small unhelpful thing again. Then her own voice, with the little upward lift she puts on it, talking to Salas through four inches of steel door and starting to promise him something.",
+      "The promise plays out whole: help is already coming, the drum is already turning, hold on. And under it, plain to everyone, that she had called no one — no boat, no hand on any drum — and went up the stair and left him fourteen months in the dark on it. Salas takes all eleven seconds with his lamp off and says only that he would have waited longer; the warm lie was worse than the truth. Dey needles from the mat. Wren's hand drifts toward the shears.",
+      "The record speaks its last word and the head wipes the span blank behind it, so those eleven seconds can never be played twice and live now only in the mouths of the people on deck. Wren says them back out loud in her own plain words, no upward lift, and Nia writes them under the boat rule. Then she asks where the fifty-two minutes went, and nobody has them, and the beacon in her fist ticks on for nothing.",
+      "The deck clock runs out on Dey. The bag in Sol's hands stops moving air and the lavage barge is still minutes east, the dark hull holding the Marrow's rail with nothing lit. Nia writes the minute down in pencil. Then Quill, still sitting on the open channel with the berth book on her knee, starts to say what she heard on the wire — and she cannot lie, not once."
     ],
     "events": [
-      "Dey keyed the handset himself and asked the Kettle for the lung rig for the first time in his life, Quill answered with the true price and the true odds, and a barge east of them changed engine note, came about, and started toward the Marrow running no lights.",
-      "Sol took over the bag and lit the dark barge closing from the east while Wren and Salas clipped onto the ascent line and worked out aloud that they are forty-one seconds of air short with one pull left in the winch, and Sol ordered the drum to turn.",
-      "Bayo spooled Wren and Salas down the ascent line while Nia finally answered Teo's question over the wire and Bayo laid out the Caller's rules, and then a throat cleared on the comms pair from the surface end with Bayo's thumb off the talk bar.",
-      "At the pocket door Salas tells Wren he watched her come down the inside stair last night without a line, leave the spit can on the shelf and go back up without it, and as the water stills the Caller plays her own voice saying her name once and then goes dumb forever, leaving her with the proof and none of the night.",
-      "At the pocket door with one man's gas and one winch pull between them, Wren refuses to play her record at depth — where the wire would be wiped and the Line would take what she heard anyway — and clips her harness for the can before putting her hand on the door release.",
-      "Wren opened the pocket at forty-two meters, took the can from the shelf and admitted on the wire that she had left it there herself, and as Bayo hauled them up through the Line she began surfacing unable to say whose air she was breathing or what she had gone down for."
+      "The winch lands Wren and Salas on the Marrow's deck with both air supplies empty; unable to say why she descended, Wren has Nia read her own logged words back to her and write them under the boat rule, and Salas tells her to open her fist."
     ]
   }
 }
