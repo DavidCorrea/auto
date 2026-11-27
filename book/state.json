@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on deck, hands shaking, hauled Nia aboard"
+      "status": "lashed to the mast-step, lungs shot, his indenture now at the bottom of the flooded trunk with twenty-six minutes until the surge"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "aboard the Marrow, CO2-sick but breathing, missing the memory of her dive for Teo, clutching his coat"
+      "status": "on deck with borrowed oxygen and Teo's coat, no memory of the dive, asking whose coat it is"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "still in the water on the safety line, having used his window to free Nia"
+      "status": "back aboard, hollow, coiling the floating line while Sol's hand stays on the emergency stop"
     },
     {
       "name": "Anselm Rusk",
@@ -80,8 +80,7 @@
     "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
     "Mara is hollow and counting from one, and no one knows what number she will stop at.",
     "Mara's recording orders that no one already hollowed be sent below the Line, and names a second seal sealed from the inside",
-    "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot",
-    "Nia's missing memory of the dive — the Line's first payment — and whether it returns or deepens"
+    "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot"
   ],
   "arcs": [
     {
@@ -314,7 +313,8 @@
     ],
     "events": [
       "Wren found Nia alive and drifting off the starboard hull with the catch bag clipped to her wrist, Bayo said out loud that his hands were finished and gave up the brake, and Salas clipped a safety line to his own harness and went over the side into the surge to reach her as the gate light turned amber and the shutter began to close.",
-      "Salas cuts Nia free during a surge slam and shoves her to the surface; the crew hauls her aboard CO2-sick and gray, and she cannot remember she dove for her brother Teo until Sol tells her, the Line having taken that memory as payment."
+      "Salas cuts Nia free during a surge slam and shoves her to the surface; the crew hauls her aboard CO2-sick and gray, and she cannot remember she dove for her brother Teo until Sol tells her, the Line having taken that memory as payment.",
+      "The catch bag holds only nineteen loose coins and Teo's coat, the worn lanyard proving the strongbox tore free on the slack ascent and lies at the bottom of the flooded trunk, so the coin buys two berths for six people and Dey's forty-coin freedom sits at thirty-eight meters while Nia loses her brother's name again minutes after being given it."
     ]
   }
 }
