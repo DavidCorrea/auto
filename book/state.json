@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "at her mother's crank, the four plays gone"
+      "status": "at the crank with the handle in her fist, has heard her mother's last words and made no sound"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "at the bell's edge in Mercy General's high ward, hand withdrawn, berth and coat unearned, now hostile to Wren"
+      "status": "knows now his fourteen-month memory of Mara singing is wrong, and has nothing to say for the first time"
     },
     {
       "name": "Anselm Rusk",
@@ -78,8 +78,8 @@
   "threads": [
     "Wren's fifty-two minutes are still gone and the Caller holds her own voice, so what did she leave down there, and what was it for?",
     "Mara Vos — the two-syllable name on Salas's slate belongs to Nia and Teo's mother, and no one on the Marrow can say how Salas came to be spending his air on her.",
-    "Salas's memory of Mara is wrong at the root — he remembers her singing, and Nia swears she never sang because singing is air.",
-    "Every word spoken aloud in the high ward now goes into the Caller, and slack has eight minutes left before the timer rings and a voice has to be given"
+    "Every word spoken aloud in the high ward now goes into the Caller, and slack has eight minutes left before the timer rings and a voice has to be given",
+    "Mara no longer knows she has a son named Teo, and the drawer with the last of his medicine has come off green with the dynamo stopped"
   ],
   "arcs": [
     {
@@ -270,7 +270,8 @@
       "The Caller answered Mara's turn count but not her children's names, so Wren stated that it only trades a whole voice and takes the memory of the giving; Salas's slate died on the cold-case lid, destroying the four remaining plays, and Wren cued her own eleven-second mark as the timer's hammer lifted.",
       "Salas reached the Caller first and offered his own voice to buy Mara's name back, and Wren stopped him a hand's width short, arguing from the dead log and her own ears that a voice worn to thread is only fragments; he pulled back and accused her of calling his one remaining asset counterfeit.",
       "Dey tries to buy the children their mother by offering the Caller his voice, and Wren stops him a hand's width off the brass and plays two lines of his own slate proving his speech is full of four-second holes; he calls her a coward and says he has spares while she has one, and Mara closes her hand around Nia's wrist as the timer's hammer lifts.",
-      "Wren pays the Caller her eleven seconds by playing them directly into the brass with her palm flat on it, the charge comes up and Mara lets go of Nia, and Wren finds the reason she kept them gone while writing down the fact of it in her own hand."
+      "Wren pays the Caller her eleven seconds by playing them directly into the brass with her palm flat on it, the charge comes up and Mara lets go of Nia, and Wren finds the reason she kept them gone while writing down the fact of it in her own hand.",
+      "The Caller gives back Mara's whole last voice naming Nia and Teo and telling them to keep the lid shut, Nia says nothing at all, Salas hears there is no singing in it, and then Mara stops cranking to ask who Teo is, so the power dies and the last of Teo's medicine starts to warm."
     ]
   }
 }
