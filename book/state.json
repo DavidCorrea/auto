@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "kneeling on the deck mat bagging Dey, count out loud"
+      "status": "aft deck of the Marrow, off the helm, her bond refused in the book"
     },
     {
       "name": "Dey Okafor",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "paper log open on her knee, deck light on, horn order standing"
+      "status": "at the Marrow's helm with the paper log open on her knee"
     },
     {
       "name": "Ivo Salas",
@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "aboard the Marrow, boot on the sixth crate, demanding the Marrow itself."
+      "status": "aboard the Marrow, knife under her mooring line"
     },
     {
       "name": "Pru Quill",
@@ -72,7 +72,8 @@
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
-    "Bayo has no berth and no bell-mark, and only one of each is left to give away"
+    "Bayo has no berth and no bell-mark, and only one of each is left to give away",
+    "Rusk's derelict claim — the Marrow becomes the Factor's if her mooring line comes off the low gate ring before slack water"
   ],
   "arcs": [
     {
@@ -223,7 +224,8 @@
     "events": [
       "Quill read the eleven seconds and Nia's *not breathing* line into the berth book over the open channel, refused Sol's offer to say it face to face, and then demanded to know, on the record, who had the bell tonight.",
       "Bayo answered the bell column himself with his name, his mark and the cutting of Salas's line, Quill struck him off the bell and forfeited berth 902 aloud, Salas finally had a voice to hang Bayo's name on, and a work lamp lit the sixth crate on the dark barge.",
-      "Rusk boards the Marrow with the sixth medicine crate and demands the boat—hull, drum, and bell—in exchange, threatening to wait out Sol's bluff while Dey lies unresponsive."
+      "Rusk boards the Marrow with the sixth medicine crate and demands the boat—hull, drum, and bell—in exchange, threatening to wait out Sol's bluff while Dey lies unresponsive.",
+      "Sol admitted her missing eight hours forty on the open channel, handed Nia the deck, and offered her own bond in Dey's place; Quill refused it as worthless without a hull, Rusk laughed and put his knife under the Marrow's mooring line to claim her as derelict at slack water."
     ]
   }
 }
