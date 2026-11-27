@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "aft deck of the Marrow, off the helm, her bond refused in the book"
+      "status": "keeps the Marrow and her berth; offered her own bond but was refused because she cannot be held to an hour of her own head; still missing hours."
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "berth 902 assigned and answered for, indenture struck, free, six breaths on his own, being carried up the gate steps"
+      "status": "indenture struck, holds berth nine-oh-two, breathing on his own lungs, aboard the Marrow as free crew."
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "holds a berth, eleven seconds in her own voice, fifty-two minutes gone for good, gray spool spent in her pocket"
+      "status": "holds her eleven seconds spoken in her own present voice; fifty-two minutes gone; spool spent; berth secured."
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "holds the deck of the Marrow, witnessed the berth direction in the paper log"
+      "status": "holds the deck of the Marrow and Teo’s berth in her hand until he is old enough to answer for himself."
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "on his feet by the winch drum, has Bayo's name and face-less voice fixed together"
+      "status": "on his feet with a berth, knows Bayo cut his line and whose voice to listen for; the Caller gave back a voice saying a name he does not know."
     },
     {
       "name": "Anselm Rusk",
@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "towed out through the Stair aboard his own dead barge, berth 414 forfeit, gone into the dark"
+      "status": "berth four-one-four forfeit, barge dead in the water with no pilot, gone into the dark."
     },
     {
       "name": "Pru Quill",
@@ -64,16 +64,21 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "deckhand aboard the Marrow, no berth and no bell-mark, holds nothing"
+      "status": "struck off the bell and forfeited berth nine-oh-two; no berth, no bell-mark, ships aboard the Marrow as deckhand with no promises."
+    },
+    {
+      "name": "Mara Vos",
+      "pronouns": "she/her",
+      "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
+      "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
+      "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
+      "status": ""
     }
   ],
   "threads": [
-    "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
-    "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
-    "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
-    "Bayo has no berth and no bell-mark, and only one of each is left to give away",
-    "six berths, seven people aboard, and the seventh holds nothing",
-    "the Caller gave back Ivo Salas's voice at slack water saying a name that is not his, which he does not recognize and neither does anyone on the steps"
+    "Whose is the two-syllable name the Caller keeps giving back in Salas's voice, a word Salas himself can't place?",
+    "Wren's fifty-two minutes are still gone and the Caller holds her own voice, so what did she leave down there, and what was it for?",
+    "Rusk's barge sits dead and dark in the drowned district with his berth forfeit, so what is he waiting on out there?"
   ],
   "arcs": [
     {
@@ -200,36 +205,63 @@
         "On the low dock, Wren cornered Bayo Adisa and he admitted he cut Ivo Salas's ascent line fourteen months ago and signed him off as lost; when Salas crossed to him and asked his name, the old diver felt nothing at all, the depth having taken Bayo's face from him. Bayo agreed to pilot the Stair for a signed berth and Salas kept below decks. Then the bell struck ten, the channel shut, and Dey's hand came up off the blanket, reaching for air.",
         "The Marrow ran the Stair with Nia at the helm, reading Sol's own written orders back to her every time the captain blanked, and rode out the ebb chop when the medicine crates broke loose and Salas cut a lashing to free his pinned leg. It ended with Dey gone silent, the pony bottle near empty, no lung rig in reach, and the spit-can beacon at forty-two meters flatlining after it had risen half a meter. They sit stopped in the channel now with a diver who still won't ask for help.",
         "Dey keyed the mic and asked the Kettle for the lung rig — the first time he's ever called for help — while a barge running dark closed on the Marrow from the east. Wren and Salas rode the winch down to forty-two meters on one pony bottle and one pull of drum battery; the Caller gave back Wren's name in her own voice, she took her spit can off the shelf, and Salas put his last air in her mouth. They are coming up through thirty-one meters with the Line having scrambled Wren, and she is asking the wire what she went down for.",
-        "Under the beam Wren cranked her own wire through the field head and heard her voice, fourteen months old, promising Ivo Salas help was already coming when no drum turned and no call was logged; she put the shears away unspent, the head ate the span, and she said the eleven seconds again flat and dry. Then the deck clock ran down to one, Dey stopped taking air with the lung rig dark and east, and Quill came up on the open channel, obliged to read all of it into the berth book."
+        "Under the beam Wren cranked her own wire through the field head and heard her voice, fourteen months old, promising Ivo Salas help was already coming when no drum turned and no call was logged; she put the shears away unspent, the head ate the span, and she said the eleven seconds again flat and dry. Then the deck clock ran down to one, Dey stopped taking air with the lung rig dark and east, and Quill came up on the open channel, obliged to read all of it into the berth book.",
+        "Quill read Bayo’s confession into the berth book—he cut Salas’s line fourteen months ago—and Bayo struck himself off the bell and signed berth nine-oh-two over to Dey. Wren exposed Rusk’s forfeit, sold the drum’s last pull for the sixth crate, and sent the dark barge out through the Stair before its engine died; Quill then admitted the lung rig had been under her tarp since the count struck ten, Dey drew six breaths on his own lungs, and all six berths were filled as the channel shut, while the Caller returned a voice in Salas’s mouth speaking a name none of them knew."
       ],
+      "summary": "The Marrow raced the storm bell to buy six berths with six medicine crates and nearly Dey’s indenture before he called for help. Quill struck Bayo off the bell for cutting Salas’s line fourteen months ago; Bayo gave berth nine-oh-two to Dey. Wren traded the drum’s last pull for the sixth crate and kept her eleven seconds spoken in her own voice while fifty-two minutes stayed gone. Sol kept the Marrow but lost her bond; Bayo ships as deckhand with no mark; Salas knows Bayo’s voice yet the Caller gave him back a name none recognize; the Stair closed behind them.",
+      "isClosed": true,
+      "firstChapter": 13
+    },
+    {
+      "title": "The Name at Slack Water",
+      "goal": "Run the Stair back to the drowned hospital before the storm bell seals it for the season, to learn whose name the Caller keeps speaking in Salas's voice; the crew finds the woman Salas gave his air to alive but hollowed, and the arc ends with them trading away a memory to give Salas and Nia back her name and last words, while the storm closes the channel over them.",
+      "author": "baidu/ernie-5.5-flash-preview:free",
+      "plan": [
+        {
+          "title": "The Name on the Slate",
+          "summary": "As the storm stacks up over the Kettle, Wren runs the slate recorder she pulled off Salas and hears his own ragged voice repeating a two-syllable name across fourteen months in the pocket, a word Salas can't place, until Nia goes white and says it's her mother's name, Mara, so the diver who gave his air to their mother turns out to be standing in the room."
+        },
+        {
+          "title": "The Pilot's Price",
+          "summary": "With the season bell set to seal the Stair at the next slack water, the crew needs Bayo, markless and berthless, to pilot them down, and he trades a warm promise he doesn't mean to keep while Rusk's dead barge drifts to the channel mouth offering the safe path for a price he's sure Sol can't refuse, then hooks them by saying he's watched a light and a bell burning in Mercy General for months, which means Mara is a body to save and not only a name."
+        },
+        {
+          "title": "The Woman Who Stayed",
+          "summary": "They run the Stair at slack and Dey starts losing small things as they cross the Line, and inside the hospital they find Mara alive but hollowed, fourteen months of the deep eaten out of her, having kept the Caller and the cold-case running by feeding the bell her own voice hour by hour until almost none of her is left."
+        },
+        {
+          "title": "What the Caller Keeps",
+          "summary": "Wren lays out the rule, that the Caller returns one voice at slack water only if you leave it one of yours and the leaving takes the memory of what you gave, and when Dey volunteers to pay to prove himself she stops him and gives up the eleven seconds she'd fought to keep, and the bell gives back Mara's last clear voice naming her children and telling them she stayed to keep them cold, then it says Wren's name too, and Wren finally knows the deep voice that's haunted her is Mara calling the one diver who came back."
+        },
+        {
+          "title": "Cut or Hold",
+          "summary": "The first squall hits as they rig hollowed Mara to the ascent line and Rusk rams in with his dead barge to seize the Marrow, and Bayo, who cut Salas's line fourteen months ago, holds the straining ascent line this time instead of cutting it while Sol runs the boat through a gap Rusk's powerless barge can't follow, and Rusk, thrown a line he can't believe is free, refuses it and goes down with his barge."
+        },
+        {
+          "title": "The Count at the Low Gate",
+          "summary": "They beat the season bell to the low gate and Quill, who cannot lie, writes the true cost into her book at the worst moment, that Wren came back short the eleven seconds and that Salas and Mara came back hollowed, and says out loud that lost memory was never carelessness; Mara is up and breathing but empty with Salas and Nia holding her name and her words for her, and as the storm shuts the channel Teo wakes asking for his mother and Nia has to decide whether to bring a hollowed stranger to a boy who remembers a whole one."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 13
+      "firstChapter": 20
     }
   ],
   "chapter": {
-    "arc": 3,
-    "number": 19,
-    "title": "Six Breathing",
+    "arc": 4,
+    "number": 20,
+    "title": "The Name on the Slate",
     "beats": [
-      "Quill reads the eleven seconds into the berth book word for word over the open channel — the throat clearing, the lift on the end of \"help is already coming,\" Nia's log line with the hour and *not breathing* — and refuses Sol's offer to come alongside and say it face to face instead, because the book takes what the channel carried; then she says she has one more entry she is obliged to make and asks the boat, on the record, who had the bell tonight.",
-      "Bayo answers for himself before anyone can cover for him: name, bell-mark, the orange splice-knots still on his cuffs, the line he cut at fourteen months and the report he signed that wrote Ivo Salas off as lost — and Quill strikes him off the bell and reads the strike into the book, so Salas hears his own name spoken in the same breath as Bayo's and finally has something to hang the name on; above the waterline a bell-tender's berth goes forfeit at the count, and a lamp comes on the dark hull that has been leaning on the rail all night.",
-      "Rusk comes over the rail with the sixth medicine crate under his arm — the one that broke loose in the ebb chop and went into the channel, which his barge dredged on the way in — and names his price for it: the Marrow, hull and drum and bell, because the Factor doesn't take a short count and his own berth rides on the debt; he sets the crate down, puts his boot on it, and tells Sol he can see her deciding, and that he'll wait while she finishes bluffing.",
-      "Sol calls it in front of everybody: she says out loud on the open channel how many hours she is missing and that she cannot hold a boat past the bell, hands Nia the deck in front of Rusk, and offers her own name into the book in Dey's place — and Rusk laughs, because Quill comes up small and even to say a captain's bond is worth nothing without a boat under it, and Rusk draws his knife and reaches for the Marrow's mooring line instead.",
-      "Wren buys the crate with the drum: the winch's last pull to tow the dark barge out through the Stair before the channel shuts, with Bayo at the wheel of it and his name and his struck bell-mark said plain on the channel so the whole low gate hears who is taking him out, and Rusk takes the trade only after Quill confirms on the record that his berth is forfeit at slack water and that no other pilot on the coast will lift a hand; the sixth crate goes up the low gate steps into the count, and Dey's chest stops moving under Sol's hand.",
-      "Quill, obliged, admits the lung rig never went east at all — it has sat under her own tarp at the low gate since the bell struck ten, held back because a bond wants a mark and not a mouth — and the power barge brings it in with the deck lights on for the first time all night; the rig runs warm water down into Dey and draws the deep back out of him, and he takes six breaths on his own while Bayo holds the rail and nobody thanks him.",
-      "Bayo signs his forfeited berth over to Dey — bell-tender's berth, number, above the waterline, witnessed — and Quill, who cannot shade a value either, records that a berth outlasts an indenture and strikes Dey's bond out of the book with the stylus; Dey is free with his own mouth and his own mark, Teo asks whether the book keeps a name or only lends it, and Quill tells him the truth, that it keeps it and Dey will have to answer to it, and Bayo ships aboard the Marrow as deckhand because a struck pilot has exactly one berth left and he just gave it away.",
-      "The six buy in above the waterline at the low gate counter with the storm bell running out its count and Teo started on his course in the arcology infirmary, Wren winding the spent gray spool onto her finger and letting the fifty-two minutes stay gone, while the drum tows Rusk's dark barge out through the Stair and the channel shuts behind them; at slack water the Caller in the tower gives back a voice, and it is Salas's, saying a name that is not his."
+      "Storm stacking black over the Kettle, Wren bolts Salas's corroded slate — a diver's recorder that logs voice and depth — into her reader, a cradle that plays back what went down with him, and the dead fourteen-month-old thing lights with a charge it shouldn't still hold.",
+      "She plays it and Salas's own ragged voice crawls out of the cradle repeating a two-syllable name, and Salas, standing at her shoulder, says it's the same word the Caller keeps handing him back, a name he can't hang a face on.",
+      "Wren scrubs the timeline and the name isn't random: the slate caught it on every scrubber cycle, hundreds of times across the months, each one landing the instant his air-gauge spiked when he cracked his valve for somebody in the dark.",
+      "Bayo counts the intervals out loud, Dey wants to know who Salas was feeding air to at forty-two meters, and Wren — who stopped editing anything two arcs back — says the slate doesn't lie, someone was down there breathing his air the whole time.",
+      "Nia, quiet in the corner with Teo's berth-card clenched in her fist, hears the name one more time and goes white to the lips, and when Wren asks what's wrong the girl says it flat: that's Mara, that's my mother's name.",
+      "The bench drops silent as it lands — the diver who gave his air hour by hour in the pocket is the man who kept Nia and Teo's mother breathing, and he's standing in the room with no memory of her, while Nia stares up at the stranger and can't decide whether to thank him or knock him down."
     ],
     "events": [
-      "Quill read the eleven seconds and Nia's *not breathing* line into the berth book over the open channel, refused Sol's offer to say it face to face, and then demanded to know, on the record, who had the bell tonight.",
-      "Bayo answered the bell column himself with his name, his mark and the cutting of Salas's line, Quill struck him off the bell and forfeited berth 902 aloud, Salas finally had a voice to hang Bayo's name on, and a work lamp lit the sixth crate on the dark barge.",
-      "Rusk boards the Marrow with the sixth medicine crate and demands the boat—hull, drum, and bell—in exchange, threatening to wait out Sol's bluff while Dey lies unresponsive.",
-      "Sol admitted her missing eight hours forty on the open channel, handed Nia the deck, and offered her own bond in Dey's place; Quill refused it as worthless without a hull, Rusk laughed and put his knife under the Marrow's mooring line to claim her as derelict at slack water.",
-      "Wren trades the winch's last pull and Bayo's piloting for the sixth crate, Quill logs the trade and kills the derelict claim on the record, the crate goes up into the count, and Dey stops breathing.",
-      "Quill admitted on the open channel that the lung lavage rig had sat under her own tarp at the low gate since the bell struck ten, held back because a bond requires a mark and Dey's line was empty; the power barge brought it in lit, Dey took six breaths on his own, no one thanked Bayo, and the *Tally*'s engine turned once and failed to catch.",
-      "Bayo declines and directs his forfeited berth 902 to Dey, Quill values the berth above the bond and strikes Dey's indenture so Dey speaks his own name free, Teo learns the book keeps a name rather than lending it, Rusk goes back over the rail to take his own dead barge's wheel, Bayo ships aboard the Marrow as an unmarked deckhand under Nia's deck, and Quill counts seven people aboard against six berths as the drum takes the strain.",
-      "The six buy their berths at the low gate counter and Teo starts his course in the infirmary while the drum tows Rusk's dark barge out through the Stair and the channel shuts, and at slack water the Caller gives back a voice in Salas's own, saying a name that is not his."
+      "Wren bolts Salas's corroded fourteen-month-old slate into her reader and it lights with a charge that shouldn't exist, and the spool starts turning on its own."
     ]
   }
 }

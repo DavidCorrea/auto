@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 76163,
-  "passages": 118,
+  "words": 76795,
+  "passages": 119,
   "arcs": [
     {
       "number": 1,
@@ -20,6 +20,12 @@
       "title": "The Wire Only Tells Once",
       "author": "nemotron-3.5-super-vl",
       "firstChapter": 13
+    },
+    {
+      "number": 4,
+      "title": "The Name at Slack Water",
+      "author": "ernie-5.5-flash-preview",
+      "firstChapter": 20
     }
   ],
   "chapters": [
@@ -155,6 +161,13 @@
       "title": "Six Breathing",
       "words": 5909,
       "passages": 8
+    },
+    {
+      "number": 20,
+      "numeral": "XX",
+      "title": "The Name on the Slate",
+      "words": 632,
+      "passages": 1
     }
   ]
 }
