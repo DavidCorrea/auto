@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at ore stub with breaker bar, aware Ivo's spare cartridge is on turned-away truck"
+      "status": "at relay counter, holding repeater puck reading 36.4°C, rejected by Pell"
     },
     {
       "name": "Kass",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at relay counter, board locked, transmitted warrant to node systems"
+      "status": "at relay counter, asked to confirm cargo from manifest plate"
     },
     {
       "name": "V. Ospina",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "at Anza relay counter with warrant-token active, holding node board frozen"
+      "status": "at relay counter, warrant-token active, board frozen, dismissed repeater evidence"
     },
     {
       "name": "Nour",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "in relay shop doorway, Shift 1 crew wiped from board"
+      "status": "in relay shop doorway, clipboard set down, witnessing"
     }
   ],
   "threads": [
@@ -176,7 +176,8 @@
     ],
     "events": [
       "A reclaimer named Pell arrives at the unlit ore stub in an unmarked heavy service rig carrying an empty cradle, and asks who signs for ballast at Anza while Rhea and Teodoro are cutting the med rig's pod cradle free.",
-      "Pell presents a warrant-token that freezes Anza's board and resupply, Teodoro reads it onto the board causing shift slots to gray out and resupply to hold, the water-and-parts truck at the north gate turns around with Ivo's spare filter cartridge, and Nour arrives to find her Shift 1 crew's names wiped from the schedule."
+      "Pell presents a warrant-token that freezes Anza's board and resupply, Teodoro reads it onto the board causing shift slots to gray out and resupply to hold, the water-and-parts truck at the north gate turns around with Ivo's spare filter cartridge, and Nour arrives to find her Shift 1 crew's names wiped from the schedule.",
+      "Rhea pulls the pod's repeater puck showing 36.4°C as proof the man was alive when transported, but Pell dismisses it because the databus was cut, making the reading a ghost; he refuses the evidence and instead demands Teodoro confirm the cargo from the node's manifest plate."
     ]
   }
 }
