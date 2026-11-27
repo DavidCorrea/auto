@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "on deck at the wheelhouse door, refusing Rusk’s demand, holding cut seal crimp"
+      "status": "stood her ground, offered the pharmacy crates as payment, keeping the Marrow and children off the table"
     },
     {
       "name": "Dey Okafor",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on deck, told Sol that Rusk knows her name"
+      "status": "retrieved and delivered two sealed Factor-crate pharmacy cases to the rail"
     },
     {
       "name": "Nia Vos",
@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "departed on unlit barge, holds Teo’s medicine cartridges, demanding payment or the Marrow before storm turns"
+      "status": "watching from his barge, thermos set down, faced with medicine crates instead of cash or the boat"
     }
   ],
   "threads": [
@@ -156,7 +156,8 @@
     ],
     "events": [
       "Rusk boards the Marrow at first light, demands the cold-case’s value or the boat, flashes Teo’s medicine cartridges as leverage, and leaves with a deadline before the storm turns.",
-      "Wren plays Sol back the hour she cut — Sol choosing Nia and Teo over the Factor's twelve thousand — plus her own erased eleven seconds promising the winch, just as Rusk's engine sounds his return."
+      "Wren plays Sol back the hour she cut — Sol choosing Nia and Teo over the Factor's twelve thousand — plus her own erased eleven seconds promising the winch, just as Rusk's engine sounds his return.",
+      "Sol confronts Rusk at the rail, sends Wren to retrieve two sealed pharmacy crates from the forward hold, and offers them as payment — pharmacy-grade medicine from the forty-two-meter pocket, worth more than the Factor's twelve thousand demand."
     ]
   }
 }
