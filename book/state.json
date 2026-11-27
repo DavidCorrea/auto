@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at 49 meters on dispensary landing, bailout gas ~4 min, Salas rigged on ascent cable, preparing to lash medicine cases"
+      "status": "on the ascent cable at forty-nine meters, crates above, Salas below, bailout gas at 1:35, drum turning"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "unconscious/hypoxic on ascent cable at 49m, breathing ~4 gasps/min, rigged with three-turns-and-a-tuck knot tail long"
+      "status": "knotted and clipped to the ascent cable at forty-nine meters, four gasps a minute, past speaking"
     },
     {
       "name": "Anselm Rusk",
@@ -156,7 +156,8 @@
     ],
     "events": [
       "Wren wrote her crew's names on her glove, dropped past her suit's forty-two-meter rating onto open-circuit gas with no spare, lost the name Dey near forty-six as the corridor narrowed a hand's width per swell, and found the white cases at forty-nine already dragged out and lashed with her own knot from an hour she can't remember — then the pocket at forty-two blew out and Salas came down the corridor hauling himself toward her along the twine.",
-      "Wren receives Salas at the 49-meter dispensary landing, cuts him free from the orange twine connecting him to the ward rail, rigs him to the main ascent cable with a three-turns-and-a-tuck knot (tail long), and confirms he's breathing at four shallow gasps per minute before turning to the medicine cases still on the landing."
+      "Wren receives Salas at the 49-meter dispensary landing, cuts him free from the orange twine connecting him to the ward rail, rigs him to the main ascent cable with a three-turns-and-a-tuck knot (tail long), and confirms he's breathing at four shallow gasps per minute before turning to the medicine cases still on the landing.",
+      "With her bailout gauge down to *01:35*, Wren cuts the carrying lash and rerigs both sealed medicine cases above Salas with rolling hitches and a cross-lash, verifies the four cam latches and the Factor's intact seal wire, measures the swinging load against the stairwell corner as barely clearing, and keys Sol to take up the drum."
     ]
   }
 }
