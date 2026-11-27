@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Anza relay shop, standing at the plate, her condition entry lit and PENDING COUNTERSIGN; Ivo's cartridge at 00:64:02"
+      "status": "at the bench with Ivo's cartridge at 00:63:18, PENDING COUNTERSIGN still open"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the open seal locker with flat bar in hand, having exposed the shortage publicly"
+      "status": "flat bar in hand, standing at the open locker with 61 seals visible on pins built for 124"
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "holding the dispatch line, turning to the pod's plate to verify the seal numbers"
+      "status": "holding the dispatch line and pod plate, confirming the match"
     },
     {
       "name": "V. Ospina",
@@ -178,7 +178,8 @@
       "Nour closes the locker herself, takes the card and the carbon, and walks out past Rhea into the work lights, hailing Pell on the open yard channel where his desk hears every word: Anza will hand over the ballast and its own shortage together. Pell answers that he'll take the box and the paper, and wants the loader who signed that dispatch walked to his cradle too. Behind Nour, the relief slips back toward the stub track with the key in their fist."
     ],
     "events": [
-      "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers."
+      "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers.",
+      "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe."
     ]
   }
 }
