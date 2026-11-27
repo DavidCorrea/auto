@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 9557,
-  "passages": 14,
+  "words": 10305,
+  "passages": 15,
   "arcs": [
     {
       "number": 1,
@@ -29,8 +29,8 @@
       "number": 3,
       "numeral": "III",
       "title": "Dead Zone",
-      "words": 691,
-      "passages": 1
+      "words": 1439,
+      "passages": 2
     }
   ]
 }
