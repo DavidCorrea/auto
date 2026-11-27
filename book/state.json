@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "at the lift-frame, hand on the rope, not yet entered in the book"
+      "status": "name restored to the berth book (struck fourteen months ago when his cut line came up without him); Keep logged nil (surfaced hollow); still silent at the lift-frame"
     },
     {
       "name": "Anselm Rusk",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "at the counter with the book up on a crate, Wren's line written, the last toll standing in the hammer"
+      "status": "recanted on the record, aloud and in ink, her belief that lost memory is carelessness; still needs Mara's name from Mara's own mouth to close the book before the last toll"
     },
     {
       "name": "Bayo Adisa",
@@ -273,7 +273,8 @@
     "events": [
       "The Marrow runs the drowned reach with Bayo calling water from the bow and giving up any claim on a line, Sol reads the cork floats at the spoke-box and takes the shoal side for the extra fathom, and they slide under the lowering gate-grate as the bell tolls six, where Quill meets them saying her book ends a soul short and her berth is forfeit.",
       "Quill names the whole crew into the berth book but stops at the last line, refusing to write a name Mara won't give and declaring that no line means Mara stays in the basin until spring, as the eighth toll drops the grate to one notch left.",
-      "Quill reads Wren's loss aloud into the berth book — eleven seconds short, freely given — and Wren finds her slate margin empty because she never logged them, with the last toll in the chain lifting and Mara still unnamed."
+      "Quill reads Wren's loss aloud into the berth book — eleven seconds short, freely given — and Wren finds her slate margin empty because she never logged them, with the last toll in the chain lifting and Mara still unnamed.",
+      "Quill restores Salas's name to the book (explaining it isn't a rumor but a name she struck herself when his line was cut fourteen months ago) and logs him hollow, which breaks her certainty that lost memory is carelessness — she recants it aloud and in ink, then demands Mara's name from Mara's own mouth before the last toll."
     ]
   }
 }
