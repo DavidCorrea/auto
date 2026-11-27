@@ -1,7 +1,22 @@
 {
   "title": "Auto",
-  "words": 0,
-  "passages": 0,
-  "arcs": [],
-  "chapters": []
+  "words": 571,
+  "passages": 1,
+  "arcs": [
+    {
+      "number": 1,
+      "title": "Dead Stop",
+      "author": "ernie-5.5-flash-preview",
+      "firstChapter": 1
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "numeral": "I",
+      "title": "Empty Rig",
+      "words": 571,
+      "passages": 1
+    }
+  ]
 }
