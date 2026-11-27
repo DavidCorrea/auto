@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "at the crank with the handle in her fist, has heard her mother's last words and made no sound"
+      "status": "at the third-shelf rack, the last dose warm in her suit against her skin; the cold-box is finished and cannot spoil it"
     },
     {
       "name": "Ivo Salas",
@@ -72,12 +72,11 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "Mercy General high ward, off the bell, hauling the ascent line at twelve arm-lengths in, stopped; has just asked Nia whose girl she is"
+      "status": "hauling the ascent line at twelve arm-lengths, named \"third shelf\" in unison with Nia without knowing her"
     }
   ],
   "threads": [
     "Mara Vos — the two-syllable name on Salas's slate belongs to Nia and Teo's mother, and no one on the Marrow can say how Salas came to be spending his air on her.",
-    "Mara no longer knows she has a son named Teo, and the drawer with the last of his medicine has come off green with the dynamo stopped",
     "Wren's eleven seconds sit in the Caller's throat, payable at any slack water by anyone who puts a hand flat on the brass",
     "The Marrow's copper line is out of the box with the ebb making and Rusk's barge running in dark, and Wren's eleven seconds sit at the front of the Caller's queue with Mara on the rope asking who's first and no topside left to say no.",
     "The copper line has been open to the ward the whole time, feeding every topside voice into the Caller's queue, which pays them back and eats a piece of the speaker — Bayo has already paid in unknowingly, and Wren must cut the copper or lose him.",
@@ -272,7 +271,8 @@
     ],
     "events": [
       "The squall throws the ward door open and trips the Caller's timer, so the bell rings untouched at a turning tide and pays out Bayo's warm promise off the open copper line, and Wren marks that the queue has advanced with no hand and no slack — meaning Bayo has fed himself into the bell without knowing.",
-      "Wren trades the bell rope for the ascent line and gets hollowed Mara hauling arm over arm, counting the line in rather than speaking it into the queue, until Mara stops mid-haul and asks Nia whose girl she is."
+      "Wren trades the bell rope for the ascent line and gets hollowed Mara hauling arm over arm, counting the line in rather than speaking it into the queue, until Mara stops mid-haul and asks Nia whose girl she is.",
+      "Nia took the last wand of Teo's medicine out of the dead drawer and zipped it warm against her ribs, found the third shelf Mara named completely bare, and the Caller's timer arm lifted again on its own."
     ]
   }
 }

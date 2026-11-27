@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 93625,
-  "passages": 145,
+  "words": 94256,
+  "passages": 146,
   "arcs": [
     {
       "number": 1,
@@ -194,8 +194,8 @@
       "number": 24,
       "numeral": "XXIV",
       "title": "Cut or Hold",
-      "words": 1261,
-      "passages": 2
+      "words": 1892,
+      "passages": 3
     }
   ]
 }
