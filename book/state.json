@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "standing at med rig's flank in work lights, hand on seal K-7745, blocking reclamation"
+      "status": "still at the med rig's flank, hand on seal K-7745, winch stopped"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at seal locker in shop with flat bar"
+      "status": "holding the carbon copy, facing Doan's challenge"
     },
     {
       "name": "the man in the pod",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "at Anza ore stub with service rig, med rig loaded on cradle, winch stopped by Rhea's intervention"
+      "status": "at the service rig pendant, watching the confrontation"
     },
     {
       "name": "Nour",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "departed shop with tally card and clipboard, heading to cradle per her word"
+      "status": "standing in the shop doorway, silent and still with tally card and clipboard"
     },
     {
       "name": "Doan",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": ""
+      "status": "in the shop bay at Anza, having admitted the seal arrangement and named the far-end contact"
     }
   ],
   "threads": [
@@ -80,8 +80,8 @@
     "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
     "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
     "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard",
-    "Who has been pulling seals from Anza's stock to feed the line's forger, and does that hand answer to the reclaimer?",
-    "Whose were the second pair of hands that held the lid and counted the man down into the box?"
+    "Whose were the second pair of hands that held the lid and counted the man down into the box?",
+    "The named far-end contact is someone Marlowe knows, connecting him directly to the forger arrangement"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -190,7 +190,8 @@
       "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe.",
       "Nour argues for handing Marlowe over to Pell as cold arithmetic to save Anza's roster, Rhea counters that the signed shortage makes running impossible too, Miko points out they're calculating with Ivo's dwindling air, and Nour pockets the tally card and leaves to deliver Marlowe to Pell at the north gate.",
       "Pell arrives at 06:00 with a service rig and second signature, begins winching the dead med rig onto his reclamation cradle, and Rhea stands in the winch line's path, stopping the haul by placing her hand on the pod's seal and declaring the cargo a living witness requiring a countersign.",
-      "Miko pulls the torn overlap sheet's carbon from the yard-office shift book and reads two names pressed backwards into it — Doan, the relief due in within the hour, and a second name that belongs to no one on Anza's roster."
+      "Miko pulls the torn overlap sheet's carbon from the yard-office shift book and reads two names pressed backwards into it — Doan, the relief due in within the hour, and a second name that belongs to no one on Anza's roster.",
+      "Doan arrives for Shift 2 with the locker key, confirms the missing seals were traded down-line as consumables for resupply credit, and names the single far-end contact — a name Marlowe recognizes with visible shock."
     ]
   }
 }
