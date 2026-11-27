@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "indenture papers due next tide, lungs critical, cannot dive safely"
+      "status": "coughing blood, refused the trunk, lungs failing, indenture due next tide"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "only crew small enough for service trunk, resolved to dive"
+      "status": "in her socks on the cabin deck, harness claimed, going down the service trunk"
     },
     {
       "name": "Ivo Salas",
@@ -80,7 +80,8 @@
     "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
     "Mara is hollow and counting from one, and no one knows what number she will stop at.",
     "Mara's recording orders that no one already hollowed be sent below the Line, and names a second seal sealed from the inside",
-    "The second recording on Salas's slate contains Wren's voice speaking words she doesn't remember"
+    "The second recording on Salas's slate contains Wren's voice speaking words she doesn't remember",
+    "Nia's plan is eight meters on one held breath past the dead canister at thirty-eight"
   ],
   "arcs": [
     {
@@ -307,7 +308,8 @@
     "events": [
       "Wren warns the crew that Salas's drowned slate holds only three plays left, thumbs the first actuator, and the cabin fills with static as everyone leans in to listen.",
       "The first play runs, and Mara Vos's voice from fourteen months ago directs divers past the pharmacy to a sealed second hatch at sixty-one meters, silencing the cabin and freezing Sol in the doorway.",
-      "Wren analyzes the first recording confirming the second cache at 61 meters past the Line; Salas reveals it holds pre-drown federal reserve currency worth enough for all berths plus Dey's freedom; Sol commits to the dive despite impossible odds."
+      "Wren analyzes the first recording confirming the second cache at 61 meters past the Line; Salas reveals it holds pre-drown federal reserve currency worth enough for all berths plus Dey's freedom; Sol commits to the dive despite impossible odds.",
+      "Sol orders the dive of the second seal now over the crew's objections, Wren corrects the depth to thirty-eight meters and tells Sol she doesn't remember her own history, and Nia takes off her boots and claims the trunk."
     ]
   }
 }
