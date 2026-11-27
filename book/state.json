@@ -287,7 +287,8 @@
         }
       ],
       "chapterSummaries": [
-        "The Marrow reached the Kettle low gate as the storm bell counted down, and Wren played the first recording off Salas's drowned slate, hearing Mara Vos direct a diver to a second sealed cache below the pharmacy at Mercy General. Before they could rig the descent, a swell slammed the boat broadside and knocked the second play loose — Wren's own voice from fourteen months ago, calm and unfamiliar, ordering Salas's line cut. One play left, the gate sealing, Nia already clipped on the rail to go down."
+        "The Marrow reached the Kettle low gate as the storm bell counted down, and Wren played the first recording off Salas's drowned slate, hearing Mara Vos direct a diver to a second sealed cache below the pharmacy at Mercy General. Before they could rig the descent, a swell slammed the boat broadside and knocked the second play loose — Wren's own voice from fourteen months ago, calm and unfamiliar, ordering Salas's line cut. One play left, the gate sealing, Nia already clipped on the rail to go down.",
+        "Sol carried the Marrow's bond up to the Kettle's warden box, but Pru Quill's berth book is full at forty-one names, and Quill—who cannot lie—tells her the bond is forfeit and no berth is left except four-eleven, already held by Mara Vos, paid in mint gold hauled up herself from thirty-eight meters. With the gate sealing for the season and Dey's indenture due in three hours, Sol has nothing left to trade, and Mara sits on the wet stair counting upward from one."
       ],
       "summary": "",
       "isClosed": false,
@@ -296,23 +297,17 @@
   ],
   "chapter": {
     "arc": 5,
-    "number": 27,
-    "title": "Keep Nil",
+    "number": 28,
+    "title": "The Count",
     "beats": [
-      "Sol leaves the wheel in Dey's hands and climbs the gate's steel stair to the dock-warden's box with the Marrow's bond folded in oilskin, meaning to trade the boat's surety for berths before the lock teeth drop — and finds Quill's shutter closed and the berth book chained shut, the count already full.",
-      "Quill, who has never in her life managed a lie, tells Sol the plain truth through the shutter gap: the bond was forfeit the moment Sol chose the two children over the Factor's twelve thousand, and her credit at the Kettle is nil, so nothing Sol sets on the counter moves the number.",
-      "Sol bargains anyway, laying out the cache as collateral — mint gold at thirty-eight meters, a score by the next tide — and Quill, flat and merciless, says the book fills with bodies standing in berths now, not promises of metal from under the Line; behind her Mara Vos counts upward from one on the stair between a silent Salas and Dey, and the count is full.",
-      "Quill slides Dey's indenture through the gap: the papers come due at the next tide, hours before the channel locks, and the order inked on them is that Dey dives off the debt or comes off the Marrow into the Factor's keeping — and Dey, arriving wet from the boat, reads his own deadline upside down and cracks that he'll need grease to fit down anything, then coughs until he has to hold the rail.",
-      "Sol grabs for the helm of the conversation, refusing to name a single thing she's lost, and Quill — who has never been below the Line and still half-thinks forgetting is only carelessness, though she wrote the opposite under her own hand — asks her straight how many hours the captain is missing, and Sol gives her nothing, hand flat on the counter like she's holding it shut.",
-      "Quill unchains the book and turns it to the tide-light so Sol can read it herself: berth four-eleven is held in Mara Vos's name, the last berth on a full count, and there is no four-twelve — no berth for the captain — as the storm bell drops its pause and the first lock tooth begins, with a groan, to turn."
+      "Nia sits with Mara on the step under the warden's box, tallying Teo's last doses of medicine in her head and waving off Wren's offer to help, while Mara counts past fifty in an even voice and the lock teeth grind the channel shut behind them, the count the only clock anyone has left.",
+      "Between numbers Mara says \"thirty-eight,\" and Nia—the only one still willing to trust a recording—ties it to the sealed service trunk below Mercy General's pharmacy and understands the mint gold Quill already wrote into her book is sitting under the Line at thirty-eight meters, in the dark where the hours go.",
+      "Dey comes down with his lungs still shot from the last trunk, and Quill's order lands on the crew whole: dive the debt off or go to the Factor's keeping—so everyone faces that Dey cannot physically make the descent his papers demand.",
+      "Wren reads back the rule off Mara's own slate, that no one already hollow is to be sent below the Line, which kills sending Mara, the one soul who knows the trunk, and leaves the dive to somebody still whole.",
+      "Nia claims the rebreather and its half-spent CO2 canister—the cartridge that scrubs the bad air out of each breath so you can take it again—clips onto Salas's coil, and tells Teo to keep the Caller burning, choosing to go under alone rather than ask anyone to spend their memory for her.",
+      "She drops into the service trunk, backs the dogging clamps off both seals in the cold and dark, and calls each depth up the line to Bayo working the drum as the water closes over her head.",
+      "At thirty meters the scrubber canister quits and the air turns thick and sour in her mouth, leaving Nia eight meters short of the cache with nothing left to breathe and the Line and its forgetting waiting just under her fins."
     ],
-    "events": [
-      "Sol arrives at the dock-warden's box with the Marrow's bond but finds the shutter chained shut, the berth book locked away, the count full, and the storm gate's lock teeth beginning to turn.",
-      "Quill tells Sol through the shutter gap that the Marrow's bond was forfeited when Sol chose the children over the Factor's money and that her credit at the Kettle is nil, then chains the count shut and strikes the Marrow's name from the book while Sol jams her fingers in the gap.",
-      "Sol offered Quill the mint-gold cache at thirty-eight meters as collateral for six berths and was refused — the book only takes bodies standing in berths — while Mara Vos counted to thirty-eight on the stair below and Dey came up to the box.",
-      "Dey arrives at the warden's box, reads his indenture papers upside down showing he must dive off his debt or be transferred to the Factor within three hours, makes a joke about needing grease, then suffers a violent coughing fit that forces him to hold the rail.",
-      "Sol sends Dey below, trades offers for one berth in her own name, and refuses to tell Quill how many hours she has lost, so Quill takes the key off its nail and says she will read the count out herself.",
-      "Quill unchains the berth book and shows Sol the full count — forty-one names ending with Mara Vos in berth 4-11, paid in mint gold from thirty-eight meters today — confirming there is no berth for Sol as the lock teeth begin sealing the channel for the season."
-    ]
+    "events": []
   }
 }
