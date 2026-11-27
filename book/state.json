@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "at the low gate counter, her withholding of the rig now entered in her own hand"
+      "status": "at the low gate counter, one unfilled line and one toll left in the grate chain, refusing to write a name she wasn't given"
     },
     {
       "name": "Bayo Adisa",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "on the Marrow's deck in the lift-frame, lashed at wrists, hollowed, counting fathoms, asking for rope"
+      "status": "in the lift-frame on the Kettle's floating stage, counted to eighty fathoms, no line in the book and no passage up out of the basin"
     }
   ],
   "threads": [
@@ -80,7 +80,8 @@
     "Wren's eleven seconds sit in the Caller's throat, payable at any slack water by anyone who puts a hand flat on the brass",
     "The Marrow's copper line is out of the box with the ebb making and Rusk's barge running in dark, and Wren's eleven seconds sit at the front of the Caller's queue with Mara on the rope asking who's first and no topside left to say no.",
     "The Caller's timer arm is out of its notch with the governor dead, so it will ring again on its own; Bayo sits at the front of the queue with a whole topside behind him, and every voice it hands back costs the speaker a piece.",
-    "The Stair is closed behind them for the season; the Marrow must reach the low gate before the storm bell shuts it, with Mara hollowed, Nia carrying useless medicine, Teo remembering a whole mother, and Bayo's hands ruined."
+    "The Stair is closed behind them for the season; the Marrow must reach the low gate before the storm bell shuts it, with Mara hollowed, Nia carrying useless medicine, Teo remembering a whole mother, and Bayo's hands ruined.",
+    "the last toll in the chain — when it goes, the grate booms shut and Mara is outside the count for the season"
   ],
   "arcs": [
     {
@@ -270,7 +271,8 @@
       "Nia decides what loving her brother means and kneels to Teo with the truth instead of the mother he remembers — this is Mara, this is what she became, this is why — holding them both as the season bell tolls its last and the channel grate booms shut over the Kettle, sealing them on the high ground with a hollowed mother, a ruined-handed pilot, and a boy who now has to hold his mother's name the way the rest of them do."
     ],
     "events": [
-      "The Marrow runs the drowned reach with Bayo calling water from the bow and giving up any claim on a line, Sol reads the cork floats at the spoke-box and takes the shoal side for the extra fathom, and they slide under the lowering gate-grate as the bell tolls six, where Quill meets them saying her book ends a soul short and her berth is forfeit."
+      "The Marrow runs the drowned reach with Bayo calling water from the bow and giving up any claim on a line, Sol reads the cork floats at the spoke-box and takes the shoal side for the extra fathom, and they slide under the lowering gate-grate as the bell tolls six, where Quill meets them saying her book ends a soul short and her berth is forfeit.",
+      "Quill names the whole crew into the berth book but stops at the last line, refusing to write a name Mara won't give and declaring that no line means Mara stays in the basin until spring, as the eighth toll drops the grate to one notch left."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 98851,
-  "passages": 152,
+  "words": 99466,
+  "passages": 153,
   "arcs": [
     {
       "number": 1,
@@ -201,8 +201,8 @@
       "number": 25,
       "numeral": "XXV",
       "title": "The Count at the Low Gate",
-      "words": 611,
-      "passages": 1
+      "words": 1226,
+      "passages": 2
     }
   ]
 }
