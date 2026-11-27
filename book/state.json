@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Bay 4, Kettering Node, hand on the life pod release"
+      "status": "Bay 4, Kettering Node, standing over an open life pod"
     },
     {
       "name": "Kass",
@@ -24,7 +24,15 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "Bay 4, Kettering Node, pack already on her shoulder"
+      "status": "Bay 4, pack on her shoulder, no longer chewing, looking at the yard lights"
+    },
+    {
+      "name": "the man in the pod",
+      "pronouns": "he/him",
+      "role": "sedated cargo loader, name unknown",
+      "wants": "unknown",
+      "flaw": "unknown",
+      "status": ""
     }
   ],
   "threads": [
@@ -32,7 +40,8 @@
     "The node's dispatch board has been showing rigs that don't exist for weeks.",
     "Miko has bought coast-bound tickets under three different names.",
     "unscheduled medical rig inbound to Bay 4 with no board entry",
-    "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there"
+    "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
+    "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard"
   ],
   "facts": [],
   "arcs": [
@@ -84,7 +93,8 @@
     ],
     "events": [
       "Rhea finishes her shift on ghost train 44, checks her brother Ivo's remaining filter time (61 hours, 400km to Anza Node), exchanges banter with Bex and Miko, then the yard horn announces an unscheduled inbound to Bay 4 with nothing on the dispatch board.",
-      "Rhea examines the cold medical rig alone, finds its cargo falsely logged as ballast with hand-cut and re-stamped seals and diagnostics all green, and just as she reaches for the pod, Miko arrives uninvited and asks what's inside."
+      "Rhea examines the cold medical rig alone, finds its cargo falsely logged as ballast with hand-cut and re-stamped seals and diagnostics all green, and just as she reaches for the pod, Miko arrives uninvited and asks what's inside.",
+      "Rhea cracks the life pod and finds a sedated, nameless cargo loader strapped to the rail by one wrist with a ratchet band stamped Bay 4, Shift 2 — this shift — on a pod with a blank chart and twenty-nine hours of battery."
     ]
   }
 }
