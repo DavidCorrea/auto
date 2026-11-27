@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on comms at console, playing final slate recording, seeking who opened inner seal"
+      "status": "kneeling at the comms console on the Marrow, having heard Salas name Bayo, hand pressed over the slate"
     },
     {
       "name": "Nia Vos",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "at drum with bandaged hands, hauling Nia"
+      "status": "come up topside via the companionway, bandaged hands, hearing himself named on the recording"
     },
     {
       "name": "Mara Vos",
@@ -309,7 +309,8 @@
       "Bayo's burned hands lock on the drum for the final pull, hold-true or cut-clean warring in him, the carabiner screaming on the rail under Nia's whole weight—he holds—then the line goes dead slack, and no one topside can see whether Nia made the surface or the sea kept her."
     ],
     "events": [
-      "Wren plays the final recording on Salas's drowned slate while the winch hauls Nia's unconscious body up the service trunk, seeking answers about who opened the inner seal; the recording opens with static and a male voice."
+      "Wren plays the final recording on Salas's drowned slate while the winch hauls Nia's unconscious body up the service trunk, seeking answers about who opened the inner seal; the recording opens with static and a male voice.",
+      "Salas's second recording names Bayo Adisa as the diver who cut his ascent line at Mercy General fourteen months ago and left him in the pocket at forty-two meters, and Bayo climbs up the companionway into the light as the crew turns to him."
     ]
   }
 }
