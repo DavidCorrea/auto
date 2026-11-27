@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "wheelhouse of the Marrow at the low gate, committed to the eleven-oh-eight run, helm still in her own hands, four more of her missing hours written on her own wall"
+      "status": "has offered Bayo the Marrow's wheel for the twenty minutes of slack and offered to have Quill enter it in the berth book; no answer yet"
     },
     {
       "name": "Dey Okafor",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "holds the deck of the Marrow and Teo’s berth in her hand until he is old enough to answer for himself."
+      "status": "has told Salas to his face that her mother never sang"
     },
     {
       "name": "Ivo Salas",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "struck off the bell and forfeited berth nine-oh-two; no berth, no bell-mark, ships aboard the Marrow as deckhand with no promises."
+      "status": "asked to take the wheel, hasn't answered, holding a coiled line he keeps not dropping"
     },
     {
       "name": "Mara Vos",
@@ -266,7 +266,8 @@
       "Sol refuses to hand over the Marrow or the children, and Rusk plays the card he's been holding to hook her: for months he's watched a light burning and a bell ringing up in Mercy General's high ward, and a bell doesn't ring itself — somebody's alive up there keeping it lit, a body worth saving and worth selling."
     ],
     "events": [
-      "Sol read the season bell, fixed slack water at eleven-oh-eight as the Stair's only window and the crew's last chance before the season turns, put the Marrow on the run with her own hands staying on the helm, and Wren found four earlier slack times on the bulkhead in Sol's handwriting that Sol can't account for."
+      "Sol read the season bell, fixed slack water at eleven-oh-eight as the Stair's only window and the crew's last chance before the season turns, put the Marrow on the run with her own hands staying on the helm, and Wren found four earlier slack times on the bulkhead in Sol's handwriting that Sol can't account for.",
+      "Sol asked Bayo to take the Marrow's wheel for the eleven-oh-eight slack and admitted she can't account for the other slacks on her wall, and before Bayo could answer Salas said Mara's name and insisted she was still singing."
     ]
   }
 }
