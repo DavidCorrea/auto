@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "at the wheel of the Marrow, holding the boat against the surge while Sol negotiates."
+      "status": "at the top of the gate's steel stair, outside the dock-warden's box"
     },
     {
       "name": "Wren Achebe",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "at bow with bandaged hands, calling surge timing"
+      "status": "at the Marrow's wheel below the gate, holding her off the pier"
     },
     {
       "name": "Mara Vos",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "berth four-eleven, Keep nil, hollow, counting from one again on the low gate stair between Salas and Dey."
+      "status": "on the Kettle's low gate stair in a gray blanket, counting upward from one, at forty"
     }
   ],
   "threads": [
@@ -309,7 +309,8 @@
     ],
     "events": [
       "Sol arrives at the dock-warden's box with the Marrow's bond but finds the shutter chained shut, the berth book locked away, the count full, and the storm gate's lock teeth beginning to turn.",
-      "Quill tells Sol through the shutter gap that the Marrow's bond was forfeited when Sol chose the children over the Factor's money and that her credit at the Kettle is nil, then chains the count shut and strikes the Marrow's name from the book while Sol jams her fingers in the gap."
+      "Quill tells Sol through the shutter gap that the Marrow's bond was forfeited when Sol chose the children over the Factor's money and that her credit at the Kettle is nil, then chains the count shut and strikes the Marrow's name from the book while Sol jams her fingers in the gap.",
+      "Sol offered Quill the mint-gold cache at thirty-eight meters as collateral for six berths and was refused — the book only takes bodies standing in berths — while Mara Vos counted to thirty-eight on the stair below and Dey came up to the box."
     ]
   }
 }
