@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "blocking pod cradle with tool cart, committed to keeping the man at Anza"
+      "status": "committed to keeping Marlowe at Anza, entered him as crew on node, needs seal authority countersign within 20 minutes"
     },
     {
       "name": "Kass",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at manifest plate, frozen by rules, unable to act without authorization"
+      "status": "attempting to raise Kettering dispatch via comms, board partially locked but comms open"
     },
     {
       "name": "V. Ospina",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "at his rig on the ore stub, slate updated with deadline, will return at north gate with second signature"
+      "status": "departed Anza in service rig with empty cradle, will return at north gate by 06:00 with second signature"
     },
     {
       "name": "Nour",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "arguing for handover to save node's schedule and resupply, but standing down for now"
+      "status": "arguing for node survival, acknowledges need for seal authority (Ospina's stamp) to clear warrant"
     }
   ],
   "threads": [
@@ -180,7 +180,8 @@
       "Rhea pulls the pod's repeater puck showing 36.4°C as proof the man was alive when transported, but Pell dismisses it because the databus was cut, making the reading a ghost; he refuses the evidence and instead demands Teodoro confirm the cargo from the node's manifest plate.",
       "Teodoro reads the manifest plate aloud, confirming the pod's designation as ballast, and the shop falls silent except for the sound of Ivo's patched respirator.",
       "The man wakes, steps into the shop, learns he was logged as ballast, recognizes his own discharge details, and declares he's not missing — he's already filed.",
-      "Pell gives Anza until the 06:00 shift change to hand over the man or the resupply freeze holds through the next cycle, while Ivo's respirator filter alarm sounds its three-tone warning."
+      "Pell gives Anza until the 06:00 shift change to hand over the man or the resupply freeze holds through the next cycle, while Ivo's respirator filter alarm sounds its three-tone warning.",
+      "Decklan Marlowe walks into the yard and refuses the cradle, declaring himself a living witness; Rhea enters him on the node as crew under her mechanic's authority; Pell marks the refusal and departs for the north gate to return with a second signature at 06:00; an unmarked service rig approaches from the north gate at speed with no transponder."
     ]
   }
 }
