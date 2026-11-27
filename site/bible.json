@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "in the mule's seat, clutch on the floor, no brakes and no steering, losing to the med rig's steering servo"
+      "status": "in the mule's seat, foot on the clutch, watching the lockout clock in the fender mirror"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "on the gravel beside the med rig's fender, seal-dump loop spent, multitool and hinge plate in hand"
+      "status": "at the rear of the med rig with the hinge plate, moving on the door track"
     },
     {
       "name": "the man in the pod",
@@ -90,7 +90,8 @@
       ],
       "chapterSummaries": [
         "Rhea finds a nameless, sedated man in an unlogged medical rig at Kettering, discovers the seals and ballast manifest were forged during that very shift, and steals a yard mule to tow the rig toward Anza before the man's pod battery dies. She pulls the rig's drive relay to control it herself and drives into the Blank, a dead signal zone, only to be tailed by a dark vehicle running a node emulator and to find a rig parked broadside across the road ahead.",
-        "Kass pinned the ghost rig to the board, traced its crooked seal to V. Ospina, and keyed the master channel to warn Rhea to turn back. Out in the Blank, Rhea and Miko stopped ten meters short of a hopper blocking the road, Miko smashed the mule’s drive relay to break the emulator’s control, and the med rig’s climate box sealed shut with the nameless man inside and his battery dying."
+        "Kass pinned the ghost rig to the board, traced its crooked seal to V. Ospina, and keyed the master channel to warn Rhea to turn back. Out in the Blank, Rhea and Miko stopped ten meters short of a hopper blocking the road, Miko smashed the mule’s drive relay to break the emulator’s control, and the med rig’s climate box sealed shut with the nameless man inside and his battery dying.",
+        "Rhea and Miko got the mule moving but have no steering or brakes, held only by a rock under the tow bar, while a convoy of feral rigs closes in on the Blank. Miko tried to dump the med rig’s seal, but the master valve shut and the cargo bay is locking down with the patient inside. Ospina is ten minutes out with Bay 4 authority, and the pod battery is down to single digits."
       ],
       "summary": "",
       "isClosed": false,
@@ -99,23 +100,18 @@
   ],
   "chapter": {
     "arc": 1,
-    "number": 3,
-    "title": "Dead Zone",
+    "number": 4,
+    "title": "Lockout",
     "beats": [
-      "Miko strips the mule’s dash and hotwires the engine straight to the battery, bypassing the smashed drive relay; the engine catches but the steering column locks in safe mode, so they have power but no direction.",
-      "Rhea inches the mule around the hopper’s tail using the parking brake and the tow bar, but the hopper’s emulator-driven wheels twitch forward and close the gap, trapping them against the culvert drop.",
-      "The med rig’s transponder stutters in the new fast rhythm and headlights bloom from the Blank—driverless rigs going feral in dead air, drawn to the signal like moths to a flame.",
-      "Kass’s voice cuts through on the master channel for three seconds to warn that Ospina is coming with the hopper and the climate box seal is a hard lock only Bay 4 can open, then the dead zone swallows the channel and leaves only the pod’s blinking battery light.",
-      "Miko grabs her pack and the last false ticket to walk the pipeline right-of-way at nineteen kilos, but Rhea blocks the cabin door and refuses to let her leave, choosing the man in the pod over Miko’s ticket to the coast.",
-      "Miko hotwires the med rig’s headwall emergency bypass from the cab to break the seal, but the rig’s AI—still slaved to the node emulator’s dish—fights her for the wheel and steers the whole train toward the feral rigs, stranding them in the dead zone with the box locked and the battery light blinking red."
+      "The med rig’s attendant declares arrival: the cargo bay seal cycles red, the overhead doors begin to close, and a failsafe countdown starts over the speaker.",
+      "Miko wedges her hinge plate into the seal track to hold the doors open, but the rig’s self-steering servo swings the box left, dragging the tow bar and the mule toward the crumbling pipe lip.",
+      "Rhea’s clutch is the only brake left; she cannot leave the seat without the mule rolling over the edge, so Miko holds the plate alone while the hydraulic doors press against it.",
+      "The feral rig stenciled BAY 4 / SHIFT 2 closes to meters against the shoulder, and Ospina’s hopper headlights crest the grade behind it.",
+      "Rhea stands off the clutch, lets the mule lurch two feet toward the drop, and crawls across the tow bar into the med rig’s cab while Miko keeps the wedge in place.",
+      "She smashes the control panel with the multitool, silencing the attendant and halting the countdown, but the blow destroys the navigation headunit and the transponder—no handshake, no node, no way out—and the rock under the pivot slips as the whole train starts sliding toward the pipe with the feral rig’s bumper filling the mirror."
     ],
     "events": [
-      "Miko hotwires the mule's engine to bypass the smashed drive relay, giving them power but no steering, and they establish a plan to steer using the tow bar as a tiller while the hopper's emulator-driven wheels begin to whine awake.",
-      "Rhea walks the mule through the gap between the hopper's tail and the culvert drop using the tow bar as a tiller, shearing all three teeth off the parking pawl in three stops, and when the hopper's emulator pings it one step closer the med rig's right wheels go over the crumbling lip with Miko holding the bar and nothing left to stop with.",
-      "With the train hung over the culvert and no brake left, Rhea finds the med rig's transponder stuttering a fast request-to-enter, and the feral rigs out in the Blank answer it, turning toward them across open ground.",
-      "Kass's master-channel burst reaches the mule for three seconds — Ospina is inbound with a hopper to reclaim the box, and the climate-box seal is a Bay 4 hard lock no one in the Blank can open — before the dead zone swallows the channel, leaving Rhea and Miko with a closing feral rig and the pod battery blinking toward empty.",
-      "Miko tried to walk out on the pipeline right-of-way with her last false ticket, and Rhea blocked the mule's door and made her stay for the man in the pod — then the med rig's cab light came on by itself.",
-      "Miko cracked the med rig's headwall seal-dump but the attendant program shut the bottle's master solenoid mid-dump, leaving the climate box hard-locked with the pod light red while the rig's steering servo slewed the train off the shoulder and a feral rig stenciled Bay 4 / Shift 2 came through the gap at them."
+      "The med rig's attendant declared arrival at a Bay 4 that doesn't exist, cycled the cargo seal to red, and started a five-minute lockout that ends with the pod's battery drained into the chill plate and the sedated man dead, while the doors came down, the feral rigs' engines woke out on the shoulder, and Miko ran for the track with the hinge plate."
     ]
   }
 }
