@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 85644,
-  "passages": 133,
+  "words": 86294,
+  "passages": 134,
   "arcs": [
     {
       "number": 1,
@@ -180,8 +180,8 @@
       "number": 22,
       "numeral": "XXII",
       "title": "The Woman Who Stayed",
-      "words": 1828,
-      "passages": 3
+      "words": 2478,
+      "passages": 4
     }
   ]
 }

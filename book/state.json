@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "surfaced into the high ward at 24 m, repeating himself and unaware of it"
+      "status": "in the high ward, memory loss now past knots and names and into faces he has known for weeks"
     },
     {
       "name": "Wren Achebe",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": ""
+      "status": "in the high ward of Mercy General at twenty-four meters, alive and working the Caller, hollowed, knows no one; answers to her name as a job title"
     }
   ],
   "threads": [
@@ -269,7 +269,8 @@
     "events": [
       "Bayo pilots the Marrow through the Rusk-blocked channel gap at slack water using the true line off the customs-house columns, while Rusk swings his barge clear and makes a single call as he settles back across the mouth.",
       "Dey led the swim up Mercy General's flooded stairwell and crossed the Line losing the word bowline, Wren's name, and the reason for the climb, joking it off while Wren watched the slate log him asking the same question twice.",
-      "Dey, Wren, Salas and Nia surface into Mercy General's high ward and find a hand-built Caller still ticking beside a year of stacked tins and the empty cradle, with a blanket-wrapped woman working the bell rope at the far window, her back to them."
+      "Dey, Wren, Salas and Nia surface into Mercy General's high ward and find a hand-built Caller still ticking beside a year of stacked tins and the empty cradle, with a blanket-wrapped woman working the bell rope at the far window, her back to them.",
+      "Mara Vos turns out to be alive but hollowed, keeps the bell and the crank running without pause, and fails to recognize either her daughter or the diver who spent fourteen months giving her his air."
     ]
   }
 }
