@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "under the beam on the Marrow's aft deck, cranking out the read span, thumb in the notch of shears she no longer needs"
+      "status": "aft deck under the beam, eleven seconds spoken and logged, fifty-two minutes unaccounted for, beacon can in hand with under half a charge"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "on his knee under the beam, lamp off, knowing Wren left him and having forbidden her to be kind to him"
+      "status": "aft deck on his knees, has heard the wire once and accepted the plain truth in place of the warm lie"
     },
     {
       "name": "Anselm Rusk",
@@ -69,7 +69,6 @@
   ],
   "threads": [
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
-    "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters."
@@ -221,7 +220,8 @@
       "The winch lands Wren and Salas on the Marrow's deck with both air supplies empty; unable to say why she descended, Wren has Nia read her own logged words back to her and write them under the boat rule, and Salas tells her to open her fist.",
       "Under the sealed beam Wren threaded the spit can's wire into the thumb-crank field head, found her own splice in it, took out the reader's shears with the deck clock at three, and Sol laid the boat rule over her and waited for her to choose.",
       "Wren pockets the shears uncut and cranks the field head, the wire plays an impossible wet throat-clearing that rattles Bayo, then Wren's own warm voice from fourteen months ago begins promising Salas that help is already coming.",
-      "The eleven seconds play out whole and Salas works out from the missing drum that Wren called no one, telling her he'd have waited longer but that her warmth was worse than the truth, while Dey needles her and Quill begins to say on the open channel that she heard it all."
+      "The eleven seconds play out whole and Salas works out from the missing drum that Wren called no one, telling her he'd have waited longer but that her warmth was worse than the truth, while Dey needles her and Quill begins to say on the open channel that she heard it all.",
+      "The wire wipes blank after playing, so Wren says the eleven seconds aloud in plain words and Nia logs them, but no one aboard can account for her missing fifty-two minutes while the can's beacon keeps chirping and the dark hull settles against the rail."
     ]
   }
 }
