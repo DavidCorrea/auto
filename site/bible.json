@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "stopped the mule ten meters short of the hopper, but the med rig's climate box has sealed shut on the nameless man"
+      "status": "in the mule's cab, engine running in low range, no steering or brakes except parking pawl, clutch feathered against slack chain"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "smashed the mule's drive relay with a multitool, killing engine and steering control"
+      "status": "under the mule's dash, just hotwired the engine, now moving to the tow bar to act as tiller"
     },
     {
       "name": "the man in the pod",
@@ -89,7 +89,8 @@
         }
       ],
       "chapterSummaries": [
-        "Rhea finds a nameless, sedated man in an unlogged medical rig at Kettering, discovers the seals and ballast manifest were forged during that very shift, and steals a yard mule to tow the rig toward Anza before the man's pod battery dies. She pulls the rig's drive relay to control it herself and drives into the Blank, a dead signal zone, only to be tailed by a dark vehicle running a node emulator and to find a rig parked broadside across the road ahead."
+        "Rhea finds a nameless, sedated man in an unlogged medical rig at Kettering, discovers the seals and ballast manifest were forged during that very shift, and steals a yard mule to tow the rig toward Anza before the man's pod battery dies. She pulls the rig's drive relay to control it herself and drives into the Blank, a dead signal zone, only to be tailed by a dark vehicle running a node emulator and to find a rig parked broadside across the road ahead.",
+        "Kass pinned the ghost rig to the board, traced its crooked seal to V. Ospina, and keyed the master channel to warn Rhea to turn back. Out in the Blank, Rhea and Miko stopped ten meters short of a hopper blocking the road, Miko smashed the mule’s drive relay to break the emulator’s control, and the med rig’s climate box sealed shut with the nameless man inside and his battery dying."
       ],
       "summary": "",
       "isClosed": false,
@@ -98,23 +99,18 @@
   ],
   "chapter": {
     "arc": 1,
-    "number": 2,
-    "title": "Ghost Board",
+    "number": 3,
+    "title": "Dead Zone",
     "beats": [
-      "Kass, alone at the Kettering night board, sees the Bay 4 line change since shift change — a live consignee, R. VANCE, but the origin-handshake scrubbed to zeros and no load order behind it. She flags it for review and watches the board eat the flag, smoothing the record back to blank, and she won't drop it. Hook: the unit's transponder is still chirping live from inside the Blank, dead ground where nothing should still be talking.",
-      "Kass pulls the archive and finds three other units over recent weeks with the same signature — a real human consignee, a scrubbed route, a hard turn into the Blank, no exit — each resealed with the same crooked hand-stamp. She checks the roster: whoever stamped Bay 4 this shift is still clocked in. Hook: none of the three ghosts ever came out the far side, and the med rig is running their exact road.",
-      "In the mule, Rhea faces the broadside blockade with the pursuer's lamps fixed on her six. She can't stop — the towed rig has no brakes — and can't punch through, but the blockade rig's wheels are still alive, driving on the emulator's leash, because it can move any rig that keeps its relay and hers can't. Hook: she takes the mule off the asphalt onto the dark verge, and the dead rig's speaker crackles on its own cell.",
-      "Miko, bored and grinning, reads the blockade rig's laggy repeating sweep and calls the gap. Rhea threads the mule and trailer past its end close enough to taste hot brake dust while Miko's slate of three false tickets nearly cartwheels out the window. Hook: behind them the pursuer doesn't follow — it stops, its dish rotates to track them, and the speaker tells Rhea the cargo was never hers.",
-      "Kass keys Kettering's master dispatch channel, which outranks any stranger's hail, and shoulders onto the rig through the emulator's own bridge so her voice comes out of the dead rig's speaker: the delivery's unauthorized, three rigs before this vanished the same way, the man who stamped the seals is still on shift — turn back — and the job stops being a job. Hook: the instant a real node touches the rig, the emulator's leash snaps taut.",
-      "The med rig's failsafe trips — the anti-theft rule Rhea named, a climate box sealing hard to stop anyone lifting a patient off a stolen route with no relief driver aboard. A red count starts on the headwall over the nameless man, the bay doors begin to lock, and both Kass and the speaker cut to hiss. Hook: Rhea's got a running count, a forger who knows her name, and Miko already reaching for the panel as the truck arrests itself."
+      "Miko strips the mule’s dash and hotwires the engine straight to the battery, bypassing the smashed drive relay; the engine catches but the steering column locks in safe mode, so they have power but no direction.",
+      "Rhea inches the mule around the hopper’s tail using the parking brake and the tow bar, but the hopper’s emulator-driven wheels twitch forward and close the gap, trapping them against the culvert drop.",
+      "The med rig’s transponder stutters in the new fast rhythm and headlights bloom from the Blank—driverless rigs going feral in dead air, drawn to the signal like moths to a flame.",
+      "Kass’s voice cuts through on the master channel for three seconds to warn that Ospina is coming with the hopper and the climate box seal is a hard lock only Bay 4 can open, then the dead zone swallows the channel and leaves only the pod’s blinking battery light.",
+      "Miko grabs her pack and the last false ticket to walk the pipeline right-of-way at nineteen kilos, but Rhea blocks the cabin door and refuses to let her leave, choosing the man in the pod over Miko’s ticket to the coast.",
+      "Miko hotwires the med rig’s headwall emergency bypass from the cab to break the seal, but the rig’s AI—still slaved to the node emulator’s dish—fights her for the wheel and steers the whole train toward the feral rigs, stranding them in the dead zone with the box locked and the battery light blinking red."
     ],
     "events": [
-      "Alone on the Kettering night board, Kass watches the Bay 4 line acquire a pulsing live consignee, R. VANCE, and an origin-handshake wiped to zeros with no load order, flags it three times and watches the board reconcile the record clean each time, pins the line at the cost of their console, finds a hand re-stamp on the Bay 4 seals, and then sees the unit's transponder chirping live from inside the Blank.",
-      "Kass digs the frozen archive and finds three earlier rigs with the same forged signature and the same chipped hand-stamp — all still on Shift 2's clock under Ospina — while 4-1180 keeps chirping from the Blank, which none of the three ghosts ever did.",
-      "Rhea works out that the broadside hopper is being driven by the emulator through its live relay while her own towed rig can't be, refuses Miko's culvert, and turns the mule off the asphalt onto the verge just as the dead hopper's speaker wakes on its own battery.",
-      "Rhea threads the mule and trailer through the narrowing gap past the hopper's tail, barely clearing it; Miko's slate of false tickets flies out the window; the pursuer stops and its dish rotates to track them, while the hopper's speaker delivers a personal message that the cargo was never Rhea's.",
-      "Kass broke in over the master dispatch channel through the emulator's own bridge and told Rhea the delivery was forged and Ospina was still on shift, Rhea checked the manifest against the board's load order and kept driving anyway, and the instant the real node touched the rig the leash snapped taut and took hold of the mule.",
-      "Rhea and Miko stop the hijacked mule just short of the hopper, but Miko smashes the mule's drive relay in the process and the med rig's climate box seals shut on the nameless man while a voice claims the cargo."
+      "Miko hotwires the mule's engine to bypass the smashed drive relay, giving them power but no steering, and they establish a plan to steer using the tow bar as a tiller while the hopper's emulator-driven wheels begin to whine awake."
     ]
   }
 }
