@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 45030,
-  "passages": 69,
+  "words": 45470,
+  "passages": 70,
   "arcs": [
     {
       "number": 1,
@@ -93,6 +93,13 @@
       "title": "What the Deep Keeps",
       "words": 3954,
       "passages": 6
+    },
+    {
+      "number": 12,
+      "numeral": "XII",
+      "title": "The Truth About Who You've Become",
+      "words": 440,
+      "passages": 1
     }
   ]
 }
