@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "keeps the Marrow and her berth; offered her own bond but was refused because she cannot be held to an hour of her own head; still missing hours."
+      "status": "wheelhouse of the Marrow at the low gate, committed to the eleven-oh-eight run, helm still in her own hands, four more of her missing hours written on her own wall"
     },
     {
       "name": "Dey Okafor",
@@ -245,7 +245,9 @@
           "summary": "They beat the season bell to the low gate and Quill, who cannot lie, writes the true cost into her book at the worst moment, that Wren came back short the eleven seconds and that Salas and Mara came back hollowed, and says out loud that lost memory was never carelessness; Mara is up and breathing but empty with Salas and Nia holding her name and her words for her, and as the storm shuts the channel Teo wakes asking for his mother and Nia has to decide whether to bring a hollowed stranger to a boy who remembers a whole one."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "Wren dredged Salas's drowned slate and found fourteen months of his own voice cracking an air-valve to hand breath to someone in Mercy General's flooded ward, and Nia went white and named the two-syllable word as her mother, Mara Vos. They now know Salas spent his air keeping a woman alive who may still be down there, though he remembers her wrong — singing, which Nia swears Mara never did — and the slate is down to four plays."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 20
@@ -253,23 +255,18 @@
   ],
   "chapter": {
     "arc": 4,
-    "number": 20,
-    "title": "The Name on the Slate",
+    "number": 21,
+    "title": "The Pilot's Price",
     "beats": [
-      "Storm stacking black over the Kettle, Wren bolts Salas's corroded slate — a diver's recorder that logs voice and depth — into her reader, a cradle that plays back what went down with him, and the dead fourteen-month-old thing lights with a charge it shouldn't still hold.",
-      "She plays it and Salas's own ragged voice crawls out of the cradle repeating a two-syllable name, and Salas, standing at her shoulder, says it's the same word the Caller keeps handing him back, a name he can't hang a face on.",
-      "Wren scrubs the timeline and the name isn't random: the slate caught it on every scrubber cycle, hundreds of times across the months, each one landing the instant his air-gauge spiked when he cracked his valve for somebody in the dark.",
-      "Bayo counts the intervals out loud, Dey wants to know who Salas was feeding air to at forty-two meters, and Wren — who stopped editing anything two arcs back — says the slate doesn't lie, someone was down there breathing his air the whole time.",
-      "Nia, quiet in the corner with Teo's berth-card clenched in her fist, hears the name one more time and goes white to the lips, and when Wren asks what's wrong the girl says it flat: that's Mara, that's my mother's name.",
-      "The bench drops silent as it lands — the diver who gave his air hour by hour in the pocket is the man who kept Nia and Teo's mother breathing, and he's standing in the room with no memory of her, while Nia stares up at the stranger and can't decide whether to thank him or knock him down."
+      "Sol reads the timing off the season bell: the Stair seals at the next slack water, hours out, and if they miss it Mercy General stays shut until the season turns; she commits the Marrow to the run and says plainly she'll keep her own hand on the helm, the way she always does.",
+      "With no one but Bayo knowing the drowned channel — struck off the bell, berthless, sailing as a deckhand who promises nothing — Sol has to ask him to take the Stair's piloting out of her hands, the one thing she never gives up.",
+      "Bayo says yes in his warm easy way, swearing he'll walk them down the Stair and back, while Salas — the man whose line Bayo cut clean fourteen months ago — listens to every word and watches Bayo's face not change, because Bayo's already decided he won't be there to hold anything if it goes bad.",
+      "As the Marrow noses toward the channel mouth the crew finds a shape drifting across it: Rusk's barge, dead in the water, no lights, no hand at the wheel, been sitting out in the drowned district waiting on exactly this.",
+      "Rusk hails them and offers the safe path through — his barge's hull for a lee, the district's true markers he's kept in his head all season — for a price he lays out certain Sol will take, because he's read her choice of the children over the money as a bluff he can finally call.",
+      "Sol refuses to hand over the Marrow or the children, and Rusk plays the card he's been holding to hook her: for months he's watched a light burning and a bell ringing up in Mercy General's high ward, and a bell doesn't ring itself — somebody's alive up there keeping it lit, a body worth saving and worth selling."
     ],
     "events": [
-      "Wren bolts Salas's corroded fourteen-month-old slate into her reader and it lights with a charge that shouldn't exist, and the spool starts turning on its own.",
-      "Wren plays Salas's corroded slate and his ragged recorded voice crawls out of the cradle repeating a two-syllable name over the drip and hiss of a shift at forty-one point six meters, and Salas, hand flat in the rust on her bench, says it's the same word the Caller hands back to him at every slack water in his own voice, a name he can't hang a face on.",
-      "Wren scrubs back through fourteen months of slate and finds the two-syllable name isn't random — it recurs hundreds of times across the year, each landing on the instant Salas's air-gauge spiked from cracking his valve to give air away, a draw that leaves the air math impossible.",
-      "Bayo marks the rhythm of the valve-cracks, Dey presses Salas for who he was feeding at forty-two meters, and Wren — explaining she quit editing slates a season back — concludes from the unedited log that a living person shared the flooded pocket and breathed Salas's air for the whole fourteen months.",
-      "Nia listens to the slate's name until she recognizes it, then says flatly that it is her mother's name, Mara Vos, and asks how a stranger came to know it.",
-      "Salas recalls Mara's knife-cut hair, which Nia confirms she cut herself, but when he says Mara sang, Nia flatly denies it — her mother never wasted air on song — and demands Wren keep playing the slate until he remembers her right, while Wren silently counts the four plays left."
+      "Sol read the season bell, fixed slack water at eleven-oh-eight as the Stair's only window and the crew's last chance before the season turns, put the Marrow on the run with her own hands staying on the helm, and Wren found four earlier slack times on the bulkhead in Sol's handwriting that Sol can't account for."
     ]
   }
 }

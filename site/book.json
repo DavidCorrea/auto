@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 79844,
-  "passages": 124,
+  "words": 80526,
+  "passages": 125,
   "arcs": [
     {
       "number": 1,
@@ -168,6 +168,13 @@
       "title": "The Name on the Slate",
       "words": 3681,
       "passages": 6
+    },
+    {
+      "number": 21,
+      "numeral": "XXI",
+      "title": "The Pilot's Price",
+      "words": 682,
+      "passages": 1
     }
   ]
 }
