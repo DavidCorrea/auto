@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 25125,
-  "passages": 39,
+  "words": 25632,
+  "passages": 40,
   "arcs": [
     {
       "number": 1,
@@ -63,8 +63,8 @@
       "number": 7,
       "numeral": "VII",
       "title": "Three names",
-      "words": 303,
-      "passages": 1
+      "words": 810,
+      "passages": 2
     }
   ]
 }
