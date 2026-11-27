@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "clipped to the ascent line, empty can clip, going down forty-one seconds short"
+      "status": "at the pocket door, forty-two meters, memory of last night gone, the Caller spent"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "clipped beside her with the pony bottle on his hip, taking the short end"
+      "status": "beside her on the door, pony bottle on his hip, needle on the red pin"
     },
     {
       "name": "Anselm Rusk",
@@ -71,7 +71,6 @@
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
     "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
-    "Salas says Wren came down the tower's inside stair last night without the Marrow and asks who has her spit can",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters."
   ],
@@ -220,7 +219,8 @@
     "events": [
       "Dey keyed the handset himself and asked the Kettle for the lung rig for the first time in his life, Quill answered with the true price and the true odds, and a barge east of them changed engine note, came about, and started toward the Marrow running no lights.",
       "Sol took over the bag and lit the dark barge closing from the east while Wren and Salas clipped onto the ascent line and worked out aloud that they are forty-one seconds of air short with one pull left in the winch, and Sol ordered the drum to turn.",
-      "Bayo spooled Wren and Salas down the ascent line while Nia finally answered Teo's question over the wire and Bayo laid out the Caller's rules, and then a throat cleared on the comms pair from the surface end with Bayo's thumb off the talk bar."
+      "Bayo spooled Wren and Salas down the ascent line while Nia finally answered Teo's question over the wire and Bayo laid out the Caller's rules, and then a throat cleared on the comms pair from the surface end with Bayo's thumb off the talk bar.",
+      "At the pocket door Salas tells Wren he watched her come down the inside stair last night without a line, leave the spit can on the shelf and go back up without it, and as the water stills the Caller plays her own voice saying her name once and then goes dumb forever, leaving her with the proof and none of the night."
     ]
   }
 }
