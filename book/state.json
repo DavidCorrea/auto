@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at the Kettle's shutter gap, bond declared forfeit, credit nil, her name struck from the berth book, holding the shutter open with her hands"
+      "status": "holding the shutter open with her hands, chain biting her fingers, bond forfeit, credit nil"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "at the top of the gate's steel stair, outside the dock-warden's box"
+      "status": "at the top of the Kettle's stair, indenture papers in hand, coughing from lung damage, three hours to dive off debt or lose freedom"
     },
     {
       "name": "Wren Achebe",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "silent in cabin, berth book open"
+      "status": "standing silent on the stair above Mara, hood up, coil of line in fists, watching"
     },
     {
       "name": "Anselm Rusk",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "book shut, count full, wrote “Lost memory was never carelessness” under her own hand."
+      "status": "behind the shutter, book chained shut, has delivered the indenture terms"
     },
     {
       "name": "Bayo Adisa",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "on the Kettle's low gate stair in a gray blanket, counting upward from one, at forty"
+      "status": "on the stair counting upward, now at forty-three, not stopping"
     }
   ],
   "threads": [
@@ -310,7 +310,8 @@
     "events": [
       "Sol arrives at the dock-warden's box with the Marrow's bond but finds the shutter chained shut, the berth book locked away, the count full, and the storm gate's lock teeth beginning to turn.",
       "Quill tells Sol through the shutter gap that the Marrow's bond was forfeited when Sol chose the children over the Factor's money and that her credit at the Kettle is nil, then chains the count shut and strikes the Marrow's name from the book while Sol jams her fingers in the gap.",
-      "Sol offered Quill the mint-gold cache at thirty-eight meters as collateral for six berths and was refused — the book only takes bodies standing in berths — while Mara Vos counted to thirty-eight on the stair below and Dey came up to the box."
+      "Sol offered Quill the mint-gold cache at thirty-eight meters as collateral for six berths and was refused — the book only takes bodies standing in berths — while Mara Vos counted to thirty-eight on the stair below and Dey came up to the box.",
+      "Dey arrives at the warden's box, reads his indenture papers upside down showing he must dive off his debt or be transferred to the Factor within three hours, makes a joke about needing grease, then suffers a violent coughing fit that forces him to hold the rail."
     ]
   }
 }
