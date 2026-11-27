@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 6096,
-  "passages": 9,
+  "words": 6805,
+  "passages": 10,
   "arcs": [
     {
       "number": 1,
@@ -22,8 +22,8 @@
       "number": 2,
       "numeral": "II",
       "title": "Ghost Board",
-      "words": 1376,
-      "passages": 2
+      "words": 2085,
+      "passages": 3
     }
   ]
 }
