@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 55746,
-  "passages": 88,
+  "words": 56267,
+  "passages": 89,
   "arcs": [
     {
       "number": 1,
@@ -125,8 +125,8 @@
       "number": 15,
       "numeral": "XV",
       "title": "Bayo",
-      "words": 693,
-      "passages": 1
+      "words": 1214,
+      "passages": 2
     }
   ]
 }

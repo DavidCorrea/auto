@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "just up out of the Marrow's bunkroom hatch, on deck"
+      "status": "on deck behind Wren, fifteen minutes of impact-wrench air, watching Bayo"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "at the mooring ring on the low dock, splicing, name unconfirmed"
+      "status": "at the mooring ring, price named, waiting for Wren's answer"
     }
   ],
   "threads": [
@@ -215,7 +215,8 @@
       "Salas climbs the dock ladder, stops in front of Bayo, and asks him his name—and Bayo, who has spent fourteen months making sure that question never came, has to answer or lose the only pilot who can take the Marrow through."
     ],
     "events": [
-      "Wren crossed the Kettle's low dock carrying the signed log, the shears, and the pinging receiver, and found Bayo Adisa splicing a wet hawser at the mooring ring, refusing to confirm his own name, as Ivo Salas came up out of the Marrow's hatch behind her."
+      "Wren crossed the Kettle's low dock carrying the signed log, the shears, and the pinging receiver, and found Bayo Adisa splicing a wet hawser at the mooring ring, refusing to confirm his own name, as Ivo Salas came up out of the Marrow's hatch behind her.",
+      "Bayo Adisa names his price to pilot the Marrow through the Stair: his own berth and Ivo Salas kept out of sight."
     ]
   }
 }
