@@ -117,6 +117,11 @@ async function review(state, book, passage) {
   }
 }
 
+function withSkippedReported(result) {
+  for (const change of result.skipped) console.log(`Skipped a change: ${change}`);
+  return result;
+}
+
 // The arc's author first, then the others as fallbacks.
 const authorsFor = (arcAuthor) => [arcAuthor, ...AUTHORS.filter((model) => model !== arcAuthor)];
 
@@ -129,7 +134,7 @@ async function write(state, book) {
       const written = applyPassage(parsed, state, book);
       const verdict = await review(state, book, parsed.passage);
       if (!verdict.isApproved) throw new RejectedReply(`The editor sent it back: ${verdict.reason}`);
-      return written;
+      return withSkippedReported(written);
     },
     `Writing chapter ${toRoman(state.chapter.number)}, beat ${state.chapter.events.length + 1}`,
   );
@@ -154,7 +159,7 @@ const PLANNERS = {
   }),
   "close-arc": (state, book) => ({
     prompt: arcClosePrompt(state, book),
-    accept: (reply) => applyArcClose(reply, state),
+    accept: (reply) => withSkippedReported(applyArcClose(reply, state)).state,
     what: "Closing the arc",
   }),
 };

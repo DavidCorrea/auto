@@ -16,6 +16,8 @@ export const MAX_BEATS = 8;
 export const MAX_THREADS = 6;
 // A full list on the first turn left writers no room, and the extras were outcomes the arc hadn't reached.
 export const MAX_ARC_THREADS = 3;
+// Facts each arc settles, shown to every later prompt so reveals aren't contradicted or replayed as news.
+export const MAX_FACTS = 40;
 const MAX_TITLE_CHARS = 80;
 const MAX_LINE_CHARS = 600;
 // The whole chapter fits comfortably in today's context windows; beyond this only its end is shown.
@@ -23,7 +25,7 @@ const CHAPTER_CONTEXT_CHARS = 40000;
 
 export class RejectedReply extends Error {}
 
-export const emptyState = () => ({ setting: "", heart: "", cast: [], threads: [], arcs: [], chapter: null });
+export const emptyState = () => ({ setting: "", heart: "", cast: [], threads: [], facts: [], arcs: [], chapter: null });
 
 const currentArc = (state) => state.arcs.at(-1);
 
@@ -118,7 +120,7 @@ function parseCast(text, cast) {
 
 // ---------------------------------------------------------------------------------------------- applying replies
 
-export const ARC_LABELS = ["SETTING", "HEART", "CAST", "ARC TITLE", "ARC GOAL", "CHAPTERS", "THREADS"];
+export const ARC_LABELS = ["SETTING", "HEART", "CAST", "ARC TITLE", "ARC QUESTION", "ARC GOAL", "CHAPTERS", "THREADS"];
 
 export function applyArcPlan(reply, state, author) {
   const sections = parseSections(reply, ARC_LABELS);
@@ -136,6 +138,12 @@ export function applyArcPlan(reply, state, author) {
   if (plan.length < MIN_ARC_CHAPTERS || plan.length > MAX_ARC_CHAPTERS) {
     throw new RejectedReply(`The arc has ${plan.length} chapters; plan ${MIN_ARC_CHAPTERS} to ${MAX_ARC_CHAPTERS}.`);
   }
+  // Two chapters called "Eleven Seconds" in different arcs was a sign the arcs were retelling each other.
+  const usedTitles = new Set(state.arcs.flatMap((earlier) => earlier.plan.map((chapter) => chapter.title.toLowerCase())));
+  for (const { title } of plan) {
+    if (usedTitles.has(title.toLowerCase())) throw new RejectedReply(`The book already has a chapter called "${title}"; every chapter needs its own title.`);
+    usedTitles.add(title.toLowerCase());
+  }
   const arcThreads = listItems(sections.THREADS).map((thread) => checkLine(thread, "A thread"));
   if (arcThreads.length > MAX_ARC_THREADS) throw new RejectedReply(`The arc opens ${arcThreads.length} threads; open at most ${MAX_ARC_THREADS}.`);
   const threads = [...state.threads, ...arcThreads];
@@ -143,6 +151,7 @@ export function applyArcPlan(reply, state, author) {
 
   const arc = {
     title: checkTitle(requireSection(sections, "ARC TITLE"), "arc title"),
+    question: checkLine(requireSection(sections, "ARC QUESTION"), "The arc question"),
     goal: checkLine(requireSection(sections, "ARC GOAL"), "The arc goal"),
     author,
     plan,
@@ -174,7 +183,7 @@ export function applyChapterPlan(reply, state, chapterNumber) {
   };
 }
 
-export const CLOSE_LABELS = ["LAST CHAPTER", "ARC SUMMARY", "STATUS", "RESOLVED"];
+export const CLOSE_LABELS = ["LAST CHAPTER", "ARC SUMMARY", "FACTS", "STATUS", "RESOLVED"];
 
 export function applyArcClose(reply, state) {
   const sections = parseSections(reply, CLOSE_LABELS);
@@ -185,18 +194,31 @@ export function applyArcClose(reply, state) {
     summary: checkLine(requireSection(sections, "ARC SUMMARY"), "The arc summary"),
     isClosed: true,
   };
-  let cast = state.cast;
-  for (const line of listItems(sections.STATUS)) cast = updateStatus(cast, line);
-  return { ...state, cast, threads: removeThreads(state.threads, sections.RESOLVED), arcs: [...state.arcs.slice(0, -1), closed] };
+  const facts = listItems(requireSection(sections, "FACTS")).map((fact) => checkLine(fact, "A fact"));
+  const changes = [
+    ...listItems(sections.STATUS).map((line) => `status: ${line}`),
+    ...(/\d/.test(sections.RESOLVED) ? [`resolved: ${sections.RESOLVED}`] : []),
+  ];
+  const { cast, threads, skipped } = applyChanges(changes, state);
+  return {
+    state: {
+      ...state,
+      cast,
+      threads,
+      facts: [...(state.facts ?? []), ...facts].slice(-MAX_FACTS),
+      arcs: [...state.arcs.slice(0, -1), closed],
+    },
+    skipped,
+  };
 }
 
-// Models often use first names only; one counts when exactly one character has it.
+// Models often use one part of a name ("Salas" for Ivo Salas); it counts when exactly one character has it.
 function findCharacter(cast, name) {
   const wanted = name.trim().toLowerCase();
   const exact = cast.findIndex((character) => character.name.toLowerCase() === wanted);
   if (exact !== -1) return exact;
-  const byFirstName = cast.flatMap((character, index) => (character.name.split(/\s+/)[0].toLowerCase() === wanted ? [index] : []));
-  return byFirstName.length === 1 ? byFirstName[0] : -1;
+  const byPart = cast.flatMap((character, index) => (character.name.toLowerCase().split(/\s+/).includes(wanted) ? [index] : []));
+  return byPart.length === 1 ? byPart[0] : -1;
 }
 
 // "Name: new status"
@@ -244,29 +266,7 @@ export function applyPassage({ passage, happened, changes }, state, book) {
     throw new RejectedReply("The passage repeats text already in the chapter; continue from where it stops instead.");
   }
 
-  let { cast, threads } = state;
-  for (const line of listItems(changes)) {
-    const [kind, ...rest] = line.split(":");
-    const detail = rest.join(":").trim();
-    switch (kind.trim().toLowerCase()) {
-      case "status":
-        cast = updateStatus(cast, detail);
-        break;
-      case "new character":
-        cast = [...cast, parseCharacter(detail, cast)];
-        break;
-      case "resolved":
-        threads = removeThreads(threads, detail);
-        break;
-      case "new thread":
-        threads = [...threads, checkLine(detail, "A thread")];
-        break;
-      default:
-        if (/^none\.?$/i.test(line)) break;
-        throw new RejectedReply(`Changes are "status:", "new character:", "resolved:" or "new thread:" lines; this isn't: ${line}`);
-    }
-  }
-  if (threads.length > MAX_THREADS) throw new RejectedReply(`That makes ${threads.length} open threads; resolve one before opening another.`);
+  const { cast, threads, skipped } = applyChanges(listItems(changes), state);
 
   const { chapter } = state;
   const isNewChapter = book.chapters.length < chapter.number;
@@ -276,7 +276,43 @@ export function applyPassage({ passage, happened, changes }, state, book) {
   return {
     state: { ...state, cast, threads, chapter: { ...chapter, events: [...chapter.events, checkLine(happened, "HAPPENED")] } },
     book: { ...book, chapters },
+    skipped,
   };
+}
+
+// Applies the bookkeeping lines a model proposes. A line that can't be applied is skipped and reported, not
+// fatal: it once failed a third of all turns, throwing away good passages over a side note.
+function applyChanges(lines, state) {
+  let { cast, threads } = state;
+  const skipped = [];
+  for (const line of lines) {
+    const [kind, ...rest] = line.split(":");
+    const detail = rest.join(":").trim();
+    try {
+      switch (kind.trim().toLowerCase()) {
+        case "status":
+          cast = updateStatus(cast, detail);
+          break;
+        case "new character":
+          cast = [...cast, parseCharacter(detail, cast)];
+          break;
+        case "resolved":
+          threads = removeThreads(threads, detail);
+          break;
+        case "new thread":
+          if (threads.length >= MAX_THREADS) throw new RejectedReply(`there are already ${MAX_THREADS} open threads`);
+          threads = [...threads, checkLine(detail, "A thread")];
+          break;
+        default:
+          if (/^none\.?$/i.test(line)) break;
+          throw new RejectedReply('changes are "status:", "new character:", "resolved:" or "new thread:" lines');
+      }
+    } catch (error) {
+      if (!(error instanceof RejectedReply)) throw error;
+      skipped.push(`${line} (${error.message})`);
+    }
+  }
+  return { cast, threads, skipped };
 }
 
 export function parseVerdict(reply) {
@@ -313,6 +349,11 @@ function describeCast(cast) {
 
 const describeThreads = (threads) => (threads.length ? threads.map((thread, index) => `${index + 1}. ${thread}`).join("\n") : "(none)");
 
+function describeFacts(state) {
+  const facts = state.facts ?? [];
+  return facts.length ? `\n## Settled facts: never contradict these, and never reveal them again as news\n${facts.map((fact) => `- ${fact}`).join("\n")}\n` : "";
+}
+
 function describeWorld(state) {
   const pastArcs = state.arcs.filter((arc) => arc.isClosed);
   return `## The world
@@ -326,7 +367,7 @@ ${describeCast(state.cast) || "(none yet)"}
 
 ## Open threads
 ${describeThreads(state.threads)}
-${pastArcs.length ? `\n## Earlier arcs\n${pastArcs.map((arc, index) => `${index + 1}. ${arc.title}: ${arc.summary}`).join("\n")}\n` : ""}`;
+${describeFacts(state)}${pastArcs.length ? `\n## Earlier arcs\n${pastArcs.map((arc, index) => `${index + 1}. ${arc.title}${arc.question ? ` (${arc.question})` : ""}: ${arc.summary}`).join("\n")}\n` : ""}`;
 }
 
 function describeArc(arc) {
@@ -361,12 +402,16 @@ summary must be concrete: who does what, and what changes.
 ${CRAFT}`,
     user: `${isFirstArc ? "The book is empty. Invent its world: set in the future, anywhere you like, with a handful of people worth following." : describeWorld(state)}
 ${!isFirstArc && book.chapters.length ? `## The end of the last chapter\n${lastChapterText(book).slice(-3000)}\n` : ""}
-Plan the ${isFirstArc ? "first" : "next"} arc. ${isFirstArc ? "" : "It follows from what came before; it may bring in new characters and resolve old threads."}
+Plan the ${isFirstArc ? "first" : "next"} arc. ${isFirstArc ? "" : `It follows from what came before and may bring in new characters and resolve old threads, but it must be
+a different kind of story from every earlier arc: a new central question, a new place for its climax, a new
+opponent or pressure. Never rerun an earlier arc's engine, such as another race against the same deadline, another
+trip to the same place, or another recording revealing who did something.`}
 Reply with only this:
 
 ${isFirstArc ? "SETTING: <two or three sentences: where and when, and what life there is like>\nHEART: <one or two sentences: what the book is about at its core, about people, and what is at stake>\n" : ""}CAST:
 ${characterFormat}   ← ${isFirstArc ? "2 to 5 characters with distinct names" : "only new characters, or leave empty"}
 ARC TITLE: <title>
+ARC QUESTION: <the one question this arc answers, in a single line>
 ARC GOAL: <one or two sentences: what this arc is about and how it ends>
 CHAPTERS:
 1. <chapter title>: <one sentence: what happens and what changes>
@@ -416,6 +461,8 @@ Reply with only this:
 
 LAST CHAPTER: <two or three sentences: what happened in the last chapter>
 ARC SUMMARY: <three or four sentences: what happened in the arc, how it ended, and how it changed the people in it>
+FACTS:
+- <3 to 8 facts this arc settled that later arcs must never contradict or reveal again: who did what, who holds what, who is where>
 STATUS:
 - <Name: where they stand now, one line per character whose situation changed>
 RESOLVED: <numbers of the open threads this arc paid off, separated by commas, or "none">`,
@@ -467,6 +514,7 @@ You approve or send back one passage. Send it back only for a real problem:
 - It doesn't carry out its beat, or runs ahead into events of the later beats listed below.
 - It contradicts the cast (names, pronouns, who someone is) or what already happened.
 - It replays something already on the page: the same event, countdown, alarm, threat or line, in new words.
+- It contradicts a settled fact, or reveals one again as if it were news.
 - It goes abstract: mist, voices, symbolism or vague dread instead of people doing concrete things.
 - A technical term that matters goes unexplained, or the stakes are unclear.
 - Nothing changes by the end.
@@ -475,7 +523,7 @@ Style preferences are not reasons. When in doubt, approve.
 ${CRAFT}`,
     user: `## The cast
 ${describeCast(state.cast)}
-
+${describeFacts(state)}
 ## The beat
 ${chapter.beats[chapter.events.length]}
 

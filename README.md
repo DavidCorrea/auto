@@ -7,11 +7,11 @@
 The book is told in **arcs**: complete stories of 3 to 8 chapters, all set in one world. Each arc builds to an ending that resolves its main conflict; the world, its people and its unresolved threads carry on into the next arc. The book never ends, but every story inside it does.
 
 Three roles, each a model call that remembers nothing between turns:
-- **The showrunner** plans. When the book starts it invents the world, the heart of the book and the first cast. At the start of each arc it plans the arc's goal and chapters; at the start of each chapter, 4 to 8 beats, each a concrete event; at the end of an arc, it records what happened and resolves threads.
+- **The showrunner** plans. When the book starts it invents the world, the heart of the book and the first cast. At the start of each arc it plans the arc's goal and chapters; at the start of each chapter, 4 to 8 beats, each a concrete event; at the end of an arc, it records what happened, resolves threads, and lists the facts the arc settled. Each new arc must answer a different central question from every earlier one, because left alone the showrunner retold the same arc (race the storm, dive the same tower, a recording reveals who cut the line) four times in a day.
 - **The author** writes one beat per turn, about 400 to 800 words, seeing the world, the cast, the open threads, the arc's plan, summaries of earlier chapters and arcs, and the whole current chapter. Each arc has its own author model, in rotation, so each story has one voice and the book reads like a shared-world anthology. The contents name each arc's author.
 - **The editor** (the showrunner's model) reads each passage against its beat and sends it back if it misses the beat, contradicts the cast, replays something already on the page, goes abstract, or changes nothing. The author gets one more try.
 
-The story's state is owned by the code, not the models: the world, the heart and every character's name and pronouns are fixed once written. Authors only propose small changes ("status: Noor: hurt", "new character: …", "resolved: 2", "new thread: …"), which the code applies. That replaced a bible every writer rewrote, which drifted until the story lost its premise, its characters' wants and, once, its protagonist's body.
+The story's state is owned by the code, not the models: the world, the heart, every character's name and pronouns, and the settled facts are fixed once written, and every prompt shows the facts so later arcs neither contradict them nor reveal them again as news. Authors only propose small changes ("status: Noor: hurt", "new character: …", "resolved: 2", "new thread: …"), which the code applies; a change it can't apply is skipped and logged rather than costing the passage. That replaced a bible every writer rewrote, which drifted until the story lost its premise, its characters' wants and, once, its protagonist's body.
 
 The instructions ask for clear prose, concrete scenes, characters who want things and keep their bodies, strange things that follow rules with limits and costs, technical terms explained when they first appear, stakes about people rather than paperwork, sass, suspense, and setups that pay off. The world may echo how the book is made (shifts, handoffs, forgetting), but the story is never about writers or drafts: every time it was, it turned abstract.
 
@@ -36,7 +36,7 @@ Besides the editor, a reply is rejected, and sent back with the reason, if:
 - A section is missing or given twice, or the passage contains bookkeeping like "Beat 3:" or "Last page:". Both once got printed in the book.
 - The passage is under 1,200 or over 6,000 characters, or repeats text already in the chapter.
 - A character lacks a want and a flaw, or has a name starting like an existing one's (one cast had Lira, Rylia, Mira and Mara).
-- An arc has fewer than 3 or more than 8 chapters, a chapter fewer than 4 or more than 8 beats, or there would be more than 6 open threads.
+- An arc has fewer than 3 or more than 8 chapters, reuses a chapter title from earlier in the book, or opens more than 3 threads; a chapter has fewer than 4 or more than 8 beats.
 - A title is a placeholder or in all capitals.
 
 ## Models

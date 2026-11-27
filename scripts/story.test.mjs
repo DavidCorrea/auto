@@ -28,6 +28,7 @@ HEART: A sister lying to keep her brother alive, in a station no one is coming f
 CAST:
 ${cast}
 ARC TITLE: ${title}
+ARC QUESTION: Will anyone come for them?
 ARC GOAL: The crew learns no one is coming and saves itself.
 CHAPTERS:
 ${chapters}
@@ -42,6 +43,7 @@ const writeReply = ({ passage = prose("Noor"), happened = "Noor lies to Tavish."
   `PASSAGE:\n${passage}\nHAPPENED: ${happened}\nCHANGES:\n${changes}`;
 
 const emptyBook = { chapters: [] };
+const closeReply = "LAST CHAPTER: They surfaced.\nARC SUMMARY: The crew saved itself.\nFACTS:\n- Dagny cancelled the sub.\n- The crew holds the station.\nSTATUS:\n- Noor Achterberg: on the surface\nRESOLVED: 1";
 
 // A book with an arc planned and its first chapter's beats ready.
 function plannedBook() {
@@ -81,7 +83,7 @@ describe("deciding what to do next", () => {
       for (const seed of ["Ana", "Ben", "Cyd", "Dov"]) progress = writeBeat(progress, `${seed}${chapter}`);
     }
     assert.equal(nextStep(progress.state), "close-arc");
-    const closed = applyArcClose("LAST CHAPTER: They surfaced.\nARC SUMMARY: The crew saved itself.\nSTATUS:\n- Noor: on the surface\nRESOLVED: 1", progress.state);
+    const closed = applyArcClose(closeReply, progress.state).state;
     assert.equal(nextStep(closed), "plan-arc");
     assert.equal(progress.book.chapters.length, 3);
   });
@@ -119,6 +121,22 @@ describe("planning an arc", () => {
 
   test("rejects an arc with too few chapters", () => {
     assert.throws(() => applyArcPlan(firstArcPlan({ chapters: "1. Only: One chapter." }), emptyState(), "a"), /plan 3 to 8/);
+  });
+
+  test("requires the arc's central question", () => {
+    assert.throws(() => applyArcPlan(firstArcPlan().replace(/ARC QUESTION:.*\n/, ""), emptyState(), "a"), /ARC QUESTION/);
+  });
+
+  test("rejects a chapter title an earlier arc already used", () => {
+    const first = applyArcPlan(firstArcPlan(), emptyState(), "one");
+    const cast = "- Dagny Prell | she | chief | wants: the contract | flaw: cold";
+    const chapters = "1. Load: again.\n2. New: y.\n3. Newer: z.";
+    assert.throws(() => applyArcPlan(firstArcPlan({ cast, chapters }), first, "two"), /already has a chapter called "Load"/);
+  });
+
+  test("tells later arcs to be a different kind of story", () => {
+    const first = applyArcPlan(firstArcPlan(), emptyState(), "one");
+    assert.match(arcPlanPrompt(first, emptyBook).user, /a different kind of story from every earlier arc/);
   });
 
   test("rejects a chapter title in capitals", () => {
@@ -192,20 +210,32 @@ describe("writing a beat", () => {
     assert.deepEqual(written.threads, ["Who rang the hull?"]);
   });
 
-  test("never lets a writer rename or drop a character", () => {
+  test("never lets a writer rename a character, and keeps the passage", () => {
     const { state, book } = plannedBook();
-    assert.throws(() => applyPassage(parsePassage(writeReply({ changes: "- rename: Noor: Nora" })), state, book), /Changes are/);
+    const written = applyPassage(parsePassage(writeReply({ changes: "- rename: Noor: Nora" })), state, book);
+    assert.equal(written.state.cast[0].name, "Noor Achterberg");
+    assert.match(written.skipped[0], /rename: Noor: Nora/);
+    assert.equal(written.book.chapters.length, 1);
   });
 
-  test("finds a character by first name", () => {
+  test("finds a character by any part of their name", () => {
     const { state, book } = plannedBook();
-    const written = applyPassage(parsePassage(writeReply({ changes: "- status: Noor: bleeding" })), state, book).state;
-    assert.equal(written.cast[0].status, "bleeding");
+    const written = applyPassage(parsePassage(writeReply({ changes: "- status: Noor: bleeding\n- status: Okonkwo: outside" })), state, book).state;
+    assert.deepEqual(written.cast.map((character) => character.status), ["bleeding", "outside"]);
   });
 
-  test("rejects a status change for someone not in the cast", () => {
+  test("skips a status change for someone not in the cast", () => {
     const { state, book } = plannedBook();
-    assert.throws(() => applyPassage(parsePassage(writeReply({ changes: "- status: Ghost: gone" })), state, book), /someone in the cast/);
+    const { skipped } = applyPassage(parsePassage(writeReply({ changes: "- status: Ghost: gone" })), state, book);
+    assert.match(skipped[0], /someone in the cast/);
+  });
+
+  test("keeps the passage but not a new thread once the list is full", () => {
+    const { state, book } = plannedBook();
+    const crowded = { ...state, threads: ["a", "b", "c", "d", "e", "f"] };
+    const written = applyPassage(parsePassage(writeReply({ changes: "- new thread: g" })), crowded, book);
+    assert.equal(written.state.threads.length, 6);
+    assert.match(written.skipped[0], /already 6 open threads/);
   });
 
   test("rejects passages that are too short or too long", () => {
@@ -235,16 +265,29 @@ describe("writing a beat", () => {
 describe("closing an arc", () => {
   test("records the summary, updates the cast and resolves threads", () => {
     const { state } = plannedBook();
-    const closed = applyArcClose("LAST CHAPTER: They surfaced.\nARC SUMMARY: The crew saved itself.\nSTATUS:\n- Noor Achterberg: on the surface\nRESOLVED: 1", state);
+    const closed = applyArcClose(closeReply, state).state;
     assert.equal(closed.arcs[0].isClosed, true);
     assert.equal(closed.arcs[0].summary, "The crew saved itself.");
     assert.equal(closed.cast[0].status, "on the surface");
     assert.deepEqual(closed.threads, []);
   });
 
-  test("rejects a thread number that doesn't exist", () => {
+  test("records the facts the arc settled, for every later prompt", () => {
     const { state } = plannedBook();
-    assert.throws(() => applyArcClose("LAST CHAPTER: x\nARC SUMMARY: y\nRESOLVED: 4", state), /no open thread 4/);
+    const closed = applyArcClose(closeReply, state).state;
+    assert.deepEqual(closed.facts, ["Dagny cancelled the sub.", "The crew holds the station."]);
+    assert.match(arcPlanPrompt(closed, emptyBook).user, /## Settled facts: never contradict these.*\n- Dagny cancelled the sub\./);
+  });
+
+  test("requires the facts", () => {
+    const { state } = plannedBook();
+    assert.throws(() => applyArcClose("LAST CHAPTER: x\nARC SUMMARY: y", state), /FACTS/);
+  });
+
+  test("skips a thread number that doesn't exist", () => {
+    const { state } = plannedBook();
+    const { skipped } = applyArcClose("LAST CHAPTER: x\nARC SUMMARY: y\nFACTS:\n- z\nRESOLVED: 4", state);
+    assert.match(skipped[0], /no open thread 4/);
   });
 });
 
