@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at shutter, ordered Bayo off the drum but he refused; gate sealing, berths lost, Nia on line"
+      "status": "at shutter, ordering Bayo to hold steady, emergency stop lever in hand"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "lashed to mast step, hollow-lunged, unable to work winch, made choking sound at Bayo's presence"
+      "status": "lashed to mast step, hollow-lunged, unable to work winch, watching Bayo haul"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at comms console, slate covered, having confronted Bayo with the recording"
+      "status": "at comms, calling up the shaft, no response from Nia"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "unconscious at thirty-eight meters on ascent line, cache found but not recovered, scrubber dead since thirty meters, CO2 rising"
+      "status": "unconscious on ascent line at approximately 38 meters, scrubber dead, CO2 rising, being hauled crooked"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "amidships, silent, line on forearm, fixed gaze on Bayo's hands, has not spoken since surfacing"
+      "status": "amidships, line on forearm, silent, watching Bayo's hands"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "at the drum controls, bandaged hands on lever and brake, having claimed the line despite crew's distrust"
+      "status": "at the drum controls, burned hands on lever and brake, hauling Nia under Sol's order"
     },
     {
       "name": "Mara Vos",
@@ -312,7 +312,8 @@
     "events": [
       "Wren plays the final recording on Salas's drowned slate while the winch hauls Nia's unconscious body up the service trunk, seeking answers about who opened the inner seal; the recording opens with static and a male voice.",
       "Salas's second recording names Bayo Adisa as the diver who cut his ascent line at Mercy General fourteen months ago and left him in the pocket at forty-two meters, and Bayo climbs up the companionway into the light as the crew turns to him.",
-      "Bayo Adisa, confronted with Salas's recording naming him as the man who cut Salas's ascent line fourteen months ago, does not deny it; instead he offers to take the drum and haul Nia up as penance, and when the surge hits, his burned hands take the controls because no one else can work the winch."
+      "Bayo Adisa, confronted with Salas's recording naming him as the man who cut Salas's ascent line fourteen months ago, does not deny it; instead he offers to take the drum and haul Nia up as penance, and when the surge hits, his burned hands take the controls because no one else can work the winch.",
+      "Bayo takes the drum controls as the surge hammers the Marrow, hauling Nia's dead weight up the final meters with a crooked, jerking line while Sol orders him to hold steady and Dey watches, unable to breathe well enough to work the winch himself."
     ]
   }
 }
