@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 17704,
-  "passages": 26,
+  "words": 18487,
+  "passages": 27,
   "arcs": [
     {
       "number": 1,
@@ -43,8 +43,8 @@
       "number": 5,
       "numeral": "V",
       "title": "Wrong Patient",
-      "words": 670,
-      "passages": 1
+      "words": 1453,
+      "passages": 2
     }
   ]
 }

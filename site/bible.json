@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "passenger seat of the med rig cab, panel and transponder destroyed, boots on the step over the culvert, train sliding"
+      "status": "stopped on Anza's dead east ore siding, hand on a pod lid that is body-warm"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "riding in the mule's passenger side, headed to Anza blind"
+      "status": "beside the mule at the siding, tickets under three names, unlogged and intending to stay that way"
     },
     {
       "name": "the man in the pod",
@@ -112,7 +112,8 @@
       "Rhea doesn't go with her; she wheels the ruined transponder into Anza's shop, finds Ivo gray-lipped under a respirator with a cracked diaphragm, and stays—fixing what the rigs break, her brother breathing again beside her—while out on Kass's board a fourth missing rig quietly drops off the schedule and Ospina's chipped stamp is still somewhere in the dark."
     ],
     "events": [
-      "Ospina corks the gap with the hopper and stops the feral rig on its stale heading, Rhea drags the box up out of the culvert, then Ospina reveals the hinge plate isn't Bay 4 stock and abandons them to make the oh-six-hundred board, leaving Rhea to drive forty kilometers to Anza blind while Ivo's respirator fails."
+      "Ospina corks the gap with the hopper and stops the feral rig on its stale heading, Rhea drags the box up out of the culvert, then Ospina reveals the hinge plate isn't Bay 4 stock and abandons them to make the oh-six-hundred board, leaving Rhea to drive forty kilometers to Anza blind while Ivo's respirator fails.",
+      "Running the last forty kilometers blind, Rhea discovers the pod's stable readout is a frozen cached page and the cell is barely drawing current, while Miko steers them off Anza's lit main gate to a dead ore siding and admits she's been planning her exit since Kettering."
     ]
   }
 }
