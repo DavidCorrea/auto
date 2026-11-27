@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "high ward, eleven seconds cued and clamped in her palm, Salas's slate dead"
+      "status": "high ward, eleven seconds half-leaked into the Caller's keeping, Salas's slate dead on the cold-case lid"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "half in the water at the ward's edge, looking at the empty cradle with no recognition"
+      "status": "at the bell's edge in Mercy General's high ward, hand withdrawn, berth and coat unearned, now hostile to Wren"
     },
     {
       "name": "Anselm Rusk",
@@ -80,7 +80,8 @@
     "Mara Vos — the two-syllable name on Salas's slate belongs to Nia and Teo's mother, and no one on the Marrow can say how Salas came to be spending his air on her.",
     "Salas's memory of Mara is wrong at the root — he remembers her singing, and Nia swears she never sang because singing is air.",
     "Dey's slate has gaps and repeats in his own voice, heard topside on the wire by Sol and Salas, and he has told no one.",
-    "Every word spoken aloud in the high ward now goes into the Caller, and slack has eight minutes left before the timer rings and a voice has to be given"
+    "Every word spoken aloud in the high ward now goes into the Caller, and slack has eight minutes left before the timer rings and a voice has to be given",
+    "the Caller now holds half a second of Wren's voice (\"up, all of it, up\") that it will keep whether or not it ever pays"
   ],
   "arcs": [
     {
@@ -268,7 +269,8 @@
       "The water at the seaward line stops lying flat and starts to lean, and slack is over. Bayo comes down the wire: squall line eight minutes out, Rusk's barge off the mouth with no lights, running in. Wren pulls the wire out of the radio box so topside stops feeding the bell — and Mara takes the bell rope back up hand over hand, reasonable as weather, saying it has to keep going or it all goes dark and stays dark, while overhead Sol starts counting minutes to the season bell."
     ],
     "events": [
-      "The Caller answered Mara's turn count but not her children's names, so Wren stated that it only trades a whole voice and takes the memory of the giving; Salas's slate died on the cold-case lid, destroying the four remaining plays, and Wren cued her own eleven-second mark as the timer's hammer lifted."
+      "The Caller answered Mara's turn count but not her children's names, so Wren stated that it only trades a whole voice and takes the memory of the giving; Salas's slate died on the cold-case lid, destroying the four remaining plays, and Wren cued her own eleven-second mark as the timer's hammer lifted.",
+      "Salas reached the Caller first and offered his own voice to buy Mara's name back, and Wren stopped him a hand's width short, arguing from the dead log and her own ears that a voice worn to thread is only fragments; he pulled back and accused her of calling his one remaining asset counterfeit."
     ]
   }
 }
