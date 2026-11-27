@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "still blocking Quill, watching the bell frame, undecided"
+      "status": "holds the shears, cites the boat's standing rule"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on the deck mat, laughing, accepting he is the sixth name"
+      "status": "still gray and rattling on the deck mat"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on the Marrow's deck by the harness; has told Sol and the crew plainly she never cut the can loose and has no memory of the descent to 42m, but still can't bring herself to admit out loud that she's scared"
+      "status": "confessed to cutting her own wire, shears taken by Sol"
     },
     {
       "name": "Nia Vos",
@@ -191,7 +191,9 @@
           "summary": "Quill reads what she heard and strikes Bayo off the bell rather than shade it, Bayo signs his berth over to Dey and ships aboard the Marrow as deckhand, the six buy in above the waterline with Teo started on his course in the arcology infirmary, and behind them the channel shuts while the Caller, at slack water, gives back a new name in Salas's voice."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "The Marrow tied up at the Kettle's low gate and dock-warden Quill named the price of six above-waterline berths — six medicine crates and Dey's indenture — as the storm bell began to count and the tide gave them forty minutes. Wren found the spit can gone from her harness with its beacon still pinging from forty-two meters and admitted she has no memory of any descent that could have left it there. Dey, gray and rattling on the deck mat, needled her until she couldn't get the lie out that she wasn't afraid."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 13
@@ -199,23 +201,18 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 13,
-    "title": "The Kettle",
+    "number": 14,
+    "title": "The Wire Only Tells Once",
     "beats": [
-      "The Marrow ties up at the Kettle's low gate with Dey stretched on the deck mat, breathing ragged; dock-warden Pru Quill opens the berth book — the arcology's tally of every seat above the waterline — and reads the count out flat: six berths left before the storm bell shuts the channel, and her own berth is forfeit if she ends the day one name short.",
-      "Quill can't lie or soften a figure, so she names the price to Sol's face — the six medicine crates Sol dragged up, plus one indenture to make the count, Dey's, the very freedom he's been diving to buy back — and Sol moves to cover Dey's ears while Dey, awake, tells her to quit it.",
-      "The bell crew climbs the frame and arms the storm bell, and it strikes its first count out over the water, a number now running down toward the tide that closes the channel for the season; the dock goes quiet under it, and Dey laughs up at the underside of the tarp because of course the one they want is him.",
-      "Nia, understanding she and Teo are counted as cargo too, digs out her paper log — the one no slate can reach — and writes the new reckoning in ink, six crates and one Dey against six names, while Wren drops to her harness to check her rig before the bell finishes.",
-      "Wren's fingers close on an empty clip: the spit can — the hard-shell drop-box a diver cuts loose so the crew still gets his record if he doesn't surface — is gone, and her slate shows its beacon still pinging from forty-two meters, the same shelf where Salas sat fourteen months, drawing on six hours of battery she never spent.",
-      "Wren says it plainly, that she never cut the can loose, that she has no memory of the clip coming open or of any descent that would leave it down there; the beacon keeps blinking its countdown on her slate under the tolling bell, and forty-two meters stops feeling like a place and starts feeling like a bill already come due."
+      "Wren spreads the twin spool (the two reels that catch a descent and its slack) on the deck and threads it through the reader, showing Sol an eleven-second span snipped clean out of the wire with the shears riding in her own pocket — her hand, her tool — and admits the descent that cut was built to hide is fifty-two minutes she can't remember.",
+      "Wren lays down the hard rule of the wire: cut a span and it's gone for good, play a span and it's spent, so the record only ever tells once — and she has one snipped length still unplayed on the master that she hasn't dared thread.",
+      "Sol stops shading her own gaps and sets one rule for the Marrow until the channel shuts — slates run, nobody cuts, nobody goes down alone — and pins Wren to say it back, knowing she's the one who just broke it.",
+      "Nia writes the rule into the paper log where no wire or warden can reach it and reads it back line by line, until Teo asks what happens to a name that's already promised to the berth book.",
+      "Quill comes back over the gunwale with the Kettle clinic's offer: they'll pump the salt out of Dey's lungs for free, but only if he signs himself bond now — and because she can't shade a figure she names the whole price to his face.",
+      "Dey tells Sol to quit hovering, weighs a life working off dock-debt against going gray on the mat, sharp-tongued right up to the edge — then reaches past her for the stylus and says yes, and Quill scores his name into the leather as the bell tolls the tide lower and the beacon spends another minute at forty-two meters."
     ],
     "events": [
-      "Quill names the berth count and the stakes, while Dey lies injured on the mat and Sol vows to buy all six.",
-      "Quill names Dey's indenture as the sixth price, Sol tries to shut him out, and Dey insists on hearing it and claiming his own name.",
-      "The storm bell strikes its first count and Dey laughs, accepting he is the indenture price.",
-      "Nia records the reckoning — six crates and one Dey against six names — in her un-editable paper log while Wren checks her diving rig as the bell strikes two.",
-      "Wren finds her spit can missing from her harness and discovers its beacon still transmitting from forty-two meters, implying an unremembered dive past the memory-loss depth.",
-      "Wren crosses to Sol and says plainly she never cut her spit can loose and has no memory of any descent to forty-two meters, and Dey calls her out for hiding that she's scared as the beacon counts down under the bell."
+      "Wren shows Sol the snipped eleven-second span on the twin spool, admits to fifty-two unremembered minutes, and surrenders the shears into Sol's fist."
     ]
   }
 }

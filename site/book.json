@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 51800,
-  "passages": 81,
+  "words": 52205,
+  "passages": 82,
   "arcs": [
     {
       "number": 1,
@@ -113,6 +113,13 @@
       "title": "The Kettle",
       "words": 3226,
       "passages": 6
+    },
+    {
+      "number": 14,
+      "numeral": "XIV",
+      "title": "The Wire Only Tells Once",
+      "words": 405,
+      "passages": 1
     }
   ]
 }
