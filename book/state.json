@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at shutter, ordering Bayo to hold steady, emergency stop lever in hand"
+      "status": "at helm, committed to staying on Marrow through storm season"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "working drum in hitching shifts, lungs failing, breathing ragged over comms"
+      "status": "on forward breast line, lungs critical but working"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at comms, silent, thumb off third play key, one charge segment left"
+      "status": "at comms, third play unplayed, slate in chest pocket"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on deck, CO2-sick, holding Teo's coat, memory fragmented"
+      "status": "on aft breast line, CO2-sick, memory fragmenting, wearing Teo's coat"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "thirty-eight meters in the service trunk, cut off from the Marrow, comms dead, holding the strongbox"
+      "status": "cut off at 38m in flooding service trunk with strongbox, comms dead"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "stopped the free-spinning drum with his boot and forearms, hands ruined further"
+      "status": "on bow lines, hands severely damaged but holding"
     },
     {
       "name": "Mara Vos",
@@ -72,7 +72,7 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "on gate step, counting upward in lockstep with Salas's depth, reached forty-two"
+      "status": "on gate step counting upward, currently at 48"
     }
   ],
   "threads": [
@@ -80,7 +80,8 @@
     "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
     "Mara is hollow and counting from one, and no one knows what number she will stop at.",
     "Wren's missing fourteen-month memory includes a dive to Mercy General where she ordered Salas's line cut; the third play on the slate may reveal what happened to the cache and why she forgot",
-    "Sol has promised to cut Salas's line at twenty minutes if he isn't back over the rail"
+    "Sol has promised to cut Salas's line at twenty minutes if he isn't back over the rail",
+    "The crew must survive six months on the Marrow in the gate's lee with no berths, no income, and a Factor's debt that may not be dead"
   ],
   "arcs": [
     {
@@ -317,7 +318,8 @@
       "The catch bag holds only nineteen loose coins and Teo's coat, the worn lanyard proving the strongbox tore free on the slack ascent and lies at the bottom of the flooded trunk, so the coin buys two berths for six people and Dey's forty-coin freedom sits at thirty-eight meters while Nia loses her brother's name again minutes after being given it.",
       "Salas overrides the crew's objections and goes down the service trunk on the drum while Dey mans it in hitching shifts, and Wren keeps her thumb off the slate's final play.",
       "Salas descends the service trunk to thirty-eight meters, finding the inner seal breached from inside (not sealed from inside as Mara's recording named it), the strongbox intact on a shelf beside a recently operated hand-cranked cold-box and three hundred twelve tally marks scratched into the wall — evidence someone lived in the trunk for fourteen months and left days ago.",
-      "The surge arrives early and bores the service trunk full; the wire saws through its worn band on the construction joint and parts at forty meters, free-spinning the drum, and Salas is cut off at thirty-eight with the strongbox, comms dead."
+      "The surge arrives early and bores the service trunk full; the wire saws through its worn band on the construction joint and parts at forty meters, free-spinning the drum, and Salas is cut off at thirty-eight with the strongbox, comms dead.",
+      "Sol decides to ride out storm season on the Marrow in the lee of the Kettle gate rather than scatter for berths; the crew lashes the boat down with Bayo's ruined hands and Dey's failing lungs, and they take the first major storm hit holding position."
     ]
   }
 }
