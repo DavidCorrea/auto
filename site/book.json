@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 48574,
-  "passages": 75,
+  "words": 49065,
+  "passages": 76,
   "arcs": [
     {
       "number": 1,
@@ -14,6 +14,12 @@
       "title": "The Pocket at Forty-Two Meters",
       "author": "nemotron-3-ultra-550b-a55b",
       "firstChapter": 7
+    },
+    {
+      "number": 3,
+      "title": "The Wire Only Tells Once",
+      "author": "nemotron-3.5-super-vl",
+      "firstChapter": 13
     }
   ],
   "chapters": [
@@ -100,6 +106,13 @@
       "title": "The Truth About Who You've Become",
       "words": 3544,
       "passages": 6
+    },
+    {
+      "number": 13,
+      "numeral": "XIII",
+      "title": "The Kettle",
+      "words": 491,
+      "passages": 1
     }
   ]
 }
