@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "gray on the Marrow’s deck mat, reaches for air and fails as the bell hits ten"
+      "status": "conscious, breathing only when bagged, lips gray, has refused to say the words that would call the Kettle"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "Marrow's hold, six crates secure, owes Salas a breath of air, in possession of Salas's claim about her unrecorded descent"
+      "status": "on the Marrow's deck in the Stair, bagging Dey by hand, handset clipped back at the console"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "Marrow's hold, free of the crate, pony bottle gauge in the red, thirteen minutes"
+      "status": "kneeling aft of the mast, pony bottle at eleven minutes and in the red"
     },
     {
       "name": "Anselm Rusk",
@@ -218,7 +218,8 @@
     "events": [
       "Bayo guides the Marrow onto the Stair rope, Sol hands the helm to Nia for the first time, and Sol has a memory lapse that Nia notices.",
       "Nia read Sol's own written order back to her when Sol's sentence died mid-command, and Sol let the child's voice stand as hers, taking the Marrow through the second knot with the gate shut and the lung rig out of reach.",
-      "In the rolling hold Wren and Bayo lash the sliding crates back down and haul Salas free a hand's width before the boat rights, and Salas tells Wren he watched her make an unlogged descent and gave her his air."
+      "In the rolling hold Wren and Bayo lash the sliding crates back down and haul Salas free a hand's width before the boat rights, and Salas tells Wren he watched her make an unlogged descent and gave her his air.",
+      "On the Marrow's deck mid-Stair, Wren keeps Dey breathing by hand with the bag-mask and four breaths off Salas's dying pony bottle, tells him plainly the lavage rig is out of reach, and Dey refuses to ask for help."
     ]
   }
 }
