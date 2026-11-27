@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "on the manual ratchet with the drum handle in her hand, counting turns aloud because the counter glass is fogged"
+      "status": "raw left hand, torn thumbnail, drum turning smoothly again, load ascending at ~45-46 turns (uncertain count)"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on deck, breathing deteriorating critically"
+      "status": "on deck at 3 breaths/min with 24-second pauses, critical"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "on the ascent cable at forty-nine meters, crates above, Salas below, bailout gas at 1:35, drum turning"
+      "status": "ascending under cable at ~49m with Salas and two medicine cases, ~1:35 bailout gas when drum went free"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "logging at chart table, Dey at 4 breaths/min with 20-second pauses"
+      "status": "logging at chart table, tracking Dey and ascent"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "knotted and clipped to the ascent cable at forty-nine meters, four gasps a minute, past speaking"
+      "status": "unconscious on ascent cable at 4 gasps/min, rising with load"
     },
     {
       "name": "Anselm Rusk",
@@ -56,7 +56,8 @@
     "Can the Marrow buy berths before the storm turns, with no money, no case, and Teo's medicine nearly gone?",
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
     "Salas now knows Nia — the girl with the pencil on the radio — is the child he sealed in the capsule, which will drive what he spends his last air on.",
-    "the line's splice at forty meters has to be hand-walked past the fairlead with no brake holding, leaving ten seconds of uncontrolled drum during the ascent"
+    "the line's splice at forty meters has to be hand-walked past the fairlead with no brake holding, leaving ten seconds of uncontrolled drum during the ascent",
+    "Sol's uncertain turn count means she doesn't know exact depth remaining or safety margin for the ascent"
   ],
   "arcs": [
     {
@@ -157,7 +158,8 @@
     "events": [
       "Wren wrote her crew's names on her glove, dropped past her suit's forty-two-meter rating onto open-circuit gas with no spare, lost the name Dey near forty-six as the corridor narrowed a hand's width per swell, and found the white cases at forty-nine already dragged out and lashed with her own knot from an hour she can't remember — then the pocket at forty-two blew out and Salas came down the corridor hauling himself toward her along the twine.",
       "Wren receives Salas at the 49-meter dispensary landing, cuts him free from the orange twine connecting him to the ward rail, rigs him to the main ascent cable with a three-turns-and-a-tuck knot (tail long), and confirms he's breathing at four shallow gasps per minute before turning to the medicine cases still on the landing.",
-      "With her bailout gauge down to *01:35*, Wren cuts the carrying lash and rerigs both sealed medicine cases above Salas with rolling hitches and a cross-lash, verifies the four cam latches and the Factor's intact seal wire, measures the swinging load against the stairwell corner as barely clearing, and keys Sol to take up the drum."
+      "With her bailout gauge down to *01:35*, Wren cuts the carrying lash and rerigs both sealed medicine cases above Salas with rolling hitches and a cross-lash, verifies the four cam latches and the Factor's intact seal wire, measures the swinging load against the stairwell corner as barely clearing, and keys Sol to take up the drum.",
+      "Sol manually clears a jammed hand-splice at the fairlead during a ten-second uncontrolled drum run, saving the ascending load but losing precise turn count; Dey drops to three breaths with 24-second pauses on deck."
     ]
   }
 }
