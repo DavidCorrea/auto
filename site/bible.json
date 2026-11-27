@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "on the gravel by the mule, pulled clear by the belt, out from under the leaf"
+      "status": "riding in the mule's passenger side, headed to Anza blind"
     },
     {
       "name": "the man in the pod",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "on the deck plate by the med rig's rear doors, floods on, stamp in one fist"
+      "status": "peeled back toward Kettering alone to make the oh-six-hundred board, still holding the chipped stamp—which they say they found, not used"
     }
   ],
   "threads": [
@@ -91,7 +91,8 @@
       "chapterSummaries": [
         "Rhea finds a nameless, sedated man in an unlogged medical rig at Kettering, discovers the seals and ballast manifest were forged during that very shift, and steals a yard mule to tow the rig toward Anza before the man's pod battery dies. She pulls the rig's drive relay to control it herself and drives into the Blank, a dead signal zone, only to be tailed by a dark vehicle running a node emulator and to find a rig parked broadside across the road ahead.",
         "Kass pinned the ghost rig to the board, traced its crooked seal to V. Ospina, and keyed the master channel to warn Rhea to turn back. Out in the Blank, Rhea and Miko stopped ten meters short of a hopper blocking the road, Miko smashed the mule’s drive relay to break the emulator’s control, and the med rig’s climate box sealed shut with the nameless man inside and his battery dying.",
-        "Rhea and Miko got the mule moving but have no steering or brakes, held only by a rock under the tow bar, while a convoy of feral rigs closes in on the Blank. Miko tried to dump the med rig’s seal, but the master valve shut and the cargo bay is locking down with the patient inside. Ospina is ten minutes out with Bay 4 authority, and the pod battery is down to single digits."
+        "Rhea and Miko got the mule moving but have no steering or brakes, held only by a rock under the tow bar, while a convoy of feral rigs closes in on the Blank. Miko tried to dump the med rig’s seal, but the master valve shut and the cargo bay is locking down with the patient inside. Ospina is ten minutes out with Bay 4 authority, and the pod battery is down to single digits.",
+        "In the Blank, the med rig's lockout countdown threatened to drain the pod's cell into the chill plate and cook the sedated man inside, so Miko jammed a hinge plate into the door track to hold it open while the trailer's steer servo dragged it toward an open culvert. A feral rig stenciled BAY 4 / SHIFT 2 queued behind them and Ospina arrived with seal authority and a chipped stamp; Rhea stalled the mule, smashed the cab panel to kill the lockout, and made them untraceable cargo with one bar of charge—then the tow-bar rock gave, the box tail swung over the pipe, and the feral rig came on."
       ],
       "summary": "",
       "isClosed": false,
@@ -100,23 +101,18 @@
   ],
   "chapter": {
     "arc": 1,
-    "number": 4,
-    "title": "Lockout",
+    "number": 5,
+    "title": "Wrong Patient",
     "beats": [
-      "The med rig’s attendant declares arrival: the cargo bay seal cycles red, the overhead doors begin to close, and a failsafe countdown starts over the speaker.",
-      "Miko wedges her hinge plate into the seal track to hold the doors open, but the rig’s self-steering servo swings the box left, dragging the tow bar and the mule toward the crumbling pipe lip.",
-      "Rhea’s clutch is the only brake left; she cannot leave the seat without the mule rolling over the edge, so Miko holds the plate alone while the hydraulic doors press against it.",
-      "The feral rig stenciled BAY 4 / SHIFT 2 closes to meters against the shoulder, and Ospina’s hopper headlights crest the grade behind it.",
-      "Rhea stands off the clutch, lets the mule lurch two feet toward the drop, and crawls across the tow bar into the med rig’s cab while Miko keeps the wedge in place.",
-      "She smashes the control panel with the multitool, silencing the attendant and halting the countdown, but the blow destroys the navigation headunit and the transponder—no handshake, no node, no way out—and the rock under the pivot slips as the whole train starts sliding toward the pipe with the feral rig’s bumper filling the mirror."
+      "Ospina slews the yard hopper sideways into the gap and the feral rig stops dead on its last trusted heading, nose sensor reading the hopper as an obstruction; Rhea keys the mule alive and drags the box tail up out of the culvert by inches onto solid road, but Ospina—holding the rigs in place—tells her that hinge plate never came from Bay 4 stock and peels back toward Kettering to make the six-hundred board, leaving Rhea to run the last forty kilometers to Anza blind, no transponder to shout her rig's number, with her brother Ivo's respirator failing at the far end.",
+      "On the manual run the pod's dash pip holds one bar while the \"passenger core temperature stable\" line loops the same three digits over and over and the charge drain doesn't match a living man's draw, and Miko keeps steering Rhea off the lit main gate toward a dead freight siding; when Rhea calls it, Miko admits she knows these back roads because she's been planning her way out since Kettering.",
+      "At the dark siding a yard light snaps on and Teodoro comes out with a hand lamp, and—telling everything before he thinks to ask why—confirms Anza never filed a medical handoff and this rig sits on no board at all, a Kettering ghost with nobody expecting a patient; Rhea asks who's in the pod then, and Teodoro says the only way to know is to open it.",
+      "They crack the pod and the nameless man is alive and waking, a cargo loader with yard grease under his nails and no illness in him—the pod's own manifest shows its listed patient was logged out at Kettering hours ago and this man was loaded into the empty box as ballast, not saved as a patient, the whole delivery a lie built on a readout Rhea trusted—and when his head clears he says the last face he saw before the lid came down was a loader resealing all four rigs with a stamp that had a chip out of the corner.",
+      "Every eye goes to Miko, and she lays it out flat: she stowed away in the rig's tool void at Kettering to reach the coast before winter, three tickets under three names, and she can't be logged at Anza without torching the exit she paid for; Rhea, who trusts a truck's readout over a person's word, looks at the lying pod, then at Miko, and tells Teodoro the girl rode in on the axle and cuts her loose toward the oh-four-hundred.",
+      "Rhea doesn't go with her; she wheels the ruined transponder into Anza's shop, finds Ivo gray-lipped under a respirator with a cracked diaphragm, and stays—fixing what the rigs break, her brother breathing again beside her—while out on Kass's board a fourth missing rig quietly drops off the schedule and Ospina's chipped stamp is still somewhere in the dark."
     ],
     "events": [
-      "The med rig's attendant declared arrival at a Bay 4 that doesn't exist, cycled the cargo seal to red, and started a five-minute lockout that ends with the pod's battery drained into the chill plate and the sedated man dead, while the doors came down, the feral rigs' engines woke out on the shoulder, and Miko ran for the track with the hinge plate.",
-      "Miko jams her hinge plate into the left door track and holds the closing doors, but the med rig's steer servo locks to its last heading and swings the box left, dragging the tow bar and mule sideways until the rock under the pivot turns and the rear wheel starts sliding toward the broken pipe lip.",
-      "Miko keeps the bowing hinge plate wedged under the med rig door while Rhea holds the mule with her clutch foot, the lockout countdown hits zero and fails silently, and the train settles another inch toward the pipe with the man in the pod on failing battery power.",
-      "A feral med rig stenciled BAY 4 / SHIFT 2 rolled up and stopped two meters off the mule's flank, sealing the uphill side, and Ospina's hopper crested the grade with the chipped seal stamp in hand, threatening to close the bay on Miko.",
-      "Rhea refuses Ospina's reseal, transfers the train's weight into the driveline and stalls the mule in first gear to buy two feet of margin, then crosses the tow bar, takes the dropped multitool, and gets into the med rig's cab over the downhill step as the plate's note cuts out.",
-      "Rhea smashes the med rig's panel to stop the drain and free Miko, confirming the man's cell rides a separate tow line so his battery survives, but the transponder and map die with the panel and the tow-bar rock slips, sending the train sliding toward the pipe as the feral rig resumes its heading."
+      "Ospina corks the gap with the hopper and stops the feral rig on its stale heading, Rhea drags the box up out of the culvert, then Ospina reveals the hinge plate isn't Bay 4 stock and abandons them to make the oh-six-hundred board, leaving Rhea to drive forty kilometers to Anza blind while Ivo's respirator fails."
     ]
   }
 }
