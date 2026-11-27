@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "in the mule's seat, heel on the clutch, door blocked open, battery readout at six percent"
+      "status": "in the mule's seat, clutch on the floor, no brakes and no steering, losing to the med rig's steering servo"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "back in the mule's cab with the multitool, pack still behind the seat, Sabel Ibarra ticket unspent"
+      "status": "on the gravel beside the med rig's fender, seal-dump loop spent, multitool and hinge plate in hand"
     },
     {
       "name": "the man in the pod",
@@ -114,7 +114,8 @@
       "Rhea walks the mule through the gap between the hopper's tail and the culvert drop using the tow bar as a tiller, shearing all three teeth off the parking pawl in three stops, and when the hopper's emulator pings it one step closer the med rig's right wheels go over the crumbling lip with Miko holding the bar and nothing left to stop with.",
       "With the train hung over the culvert and no brake left, Rhea finds the med rig's transponder stuttering a fast request-to-enter, and the feral rigs out in the Blank answer it, turning toward them across open ground.",
       "Kass's master-channel burst reaches the mule for three seconds — Ospina is inbound with a hopper to reclaim the box, and the climate-box seal is a Bay 4 hard lock no one in the Blank can open — before the dead zone swallows the channel, leaving Rhea and Miko with a closing feral rig and the pod battery blinking toward empty.",
-      "Miko tried to walk out on the pipeline right-of-way with her last false ticket, and Rhea blocked the mule's door and made her stay for the man in the pod — then the med rig's cab light came on by itself."
+      "Miko tried to walk out on the pipeline right-of-way with her last false ticket, and Rhea blocked the mule's door and made her stay for the man in the pod — then the med rig's cab light came on by itself.",
+      "Miko cracked the med rig's headwall seal-dump but the attendant program shut the bottle's master solenoid mid-dump, leaving the climate box hard-locked with the pod light red while the rig's steering servo slewed the train off the shoulder and a feral rig stenciled Bay 4 / Shift 2 came through the gap at them."
     ]
   }
 }
