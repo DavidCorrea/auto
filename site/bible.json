@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "attempting to raise Kettering dispatch via comms, board partially locked but comms open"
+      "status": "at the board, Kettering lines reachable but every call touching Bay 4 is logged by the reclaimer's office before it routes"
     },
     {
       "name": "V. Ospina",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "arguing for node survival, acknowledges need for seal authority (Ospina's stamp) to clear warrant"
+      "status": "off the doorframe, forced the hand-over-or-find-a-seal fork and accused the yard aloud of leaking seals"
     }
   ],
   "threads": [
@@ -181,7 +181,8 @@
       "Rhea pulled the last sealed scrubber cartridge off the dead med rig and seated it into Ivo's empty mask port, setting the rule at ninety minutes with no spare on the node, and Ivo told Marlowe that a ticket name without a signature is just weight that walks.",
       "Miko laid out the escape run — ore stub, tender to Bitter Wells, the 06:40 coast string, a down-line bunk — then named the price: each ticket belongs to a real loader whose line will read absent, and the third, Sabine Cordy, a Bay 4 Shift 2 loader who clocked off at 21:47 and vanished, is already a loose line with a reclamation claim open on it, as something heavy comes up the haul road.",
       "Miko dresses Marlowe as Sabine Cordy and drills the name into him; Rhea runs the substitution through the tender's manifest scanner, which returns clean across the board, but the node's plate still reads \"Designation: ballast\" as Pell's service rig arrives at the north gate.",
-      "Marlowe sets the Sabine Cordy ticket back on the counter and refuses to run under another loader's name, asking instead who at Anza holds a stamp that can put a living man on a board — and Nour answers that the only one in reach is a Kettering Bay 4 Shift 2 loader three hundred kilometers down-line, whose shift ends at 06:00, eleven minutes out."
+      "Marlowe sets the Sabine Cordy ticket back on the counter and refuses to run under another loader's name, asking instead who at Anza holds a stamp that can put a living man on a board — and Nour answers that the only one in reach is a Kettering Bay 4 Shift 2 loader three hundred kilometers down-line, whose shift ends at 06:00, eleven minutes out.",
+      "Nour forces the choice — hand Marlowe to Pell or find a seal — warns that running him only flags Anza and that someone in the yard has been feeding seals down-line, and Teodoro reports every Kettering call about Bay 4 is now logged by the reclaimer's office before it routes."
     ]
   }
 }
