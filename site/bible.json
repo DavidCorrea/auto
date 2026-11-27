@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "mule's cab, nose through the gap, parking pawl sheared, coasting"
+      "status": "mule's cab, train hung over the culvert lip, pawl sheared, reaching for the transponder harness"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the tow bar's rig end, holding the train off the culvert lip by hand"
+      "status": "at the tow bar's rig end, bar propped with the hopper's mudflap and a rock, watching the feral headlights turn off the hardpan"
     },
     {
       "name": "the man in the pod",
@@ -111,7 +111,8 @@
     ],
     "events": [
       "Miko hotwires the mule's engine to bypass the smashed drive relay, giving them power but no steering, and they establish a plan to steer using the tow bar as a tiller while the hopper's emulator-driven wheels begin to whine awake.",
-      "Rhea walks the mule through the gap between the hopper's tail and the culvert drop using the tow bar as a tiller, shearing all three teeth off the parking pawl in three stops, and when the hopper's emulator pings it one step closer the med rig's right wheels go over the crumbling lip with Miko holding the bar and nothing left to stop with."
+      "Rhea walks the mule through the gap between the hopper's tail and the culvert drop using the tow bar as a tiller, shearing all three teeth off the parking pawl in three stops, and when the hopper's emulator pings it one step closer the med rig's right wheels go over the crumbling lip with Miko holding the bar and nothing left to stop with.",
+      "With the train hung over the culvert and no brake left, Rhea finds the med rig's transponder stuttering a fast request-to-enter, and the feral rigs out in the Blank answer it, turning toward them across open ground."
     ]
   }
 }
