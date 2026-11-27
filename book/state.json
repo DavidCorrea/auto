@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the coaming hauling the ascent line tail"
+      "status": "at the low gate counter, entered in the berth book as eleven seconds short, no slate margin left to edit"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "knows now his fourteen-month memory of Mara singing is wrong, and has nothing to say for the first time"
+      "status": "at the lift-frame, hand on the rope, not yet entered in the book"
     },
     {
       "name": "Anselm Rusk",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "at the low gate counter, one unfilled line and one toll left in the grate chain, refusing to write a name she wasn't given"
+      "status": "at the counter with the book up on a crate, Wren's line written, the last toll standing in the hammer"
     },
     {
       "name": "Bayo Adisa",
@@ -272,7 +272,8 @@
     ],
     "events": [
       "The Marrow runs the drowned reach with Bayo calling water from the bow and giving up any claim on a line, Sol reads the cork floats at the spoke-box and takes the shoal side for the extra fathom, and they slide under the lowering gate-grate as the bell tolls six, where Quill meets them saying her book ends a soul short and her berth is forfeit.",
-      "Quill names the whole crew into the berth book but stops at the last line, refusing to write a name Mara won't give and declaring that no line means Mara stays in the basin until spring, as the eighth toll drops the grate to one notch left."
+      "Quill names the whole crew into the berth book but stops at the last line, refusing to write a name Mara won't give and declaring that no line means Mara stays in the basin until spring, as the eighth toll drops the grate to one notch left.",
+      "Quill reads Wren's loss aloud into the berth book — eleven seconds short, freely given — and Wren finds her slate margin empty because she never logged them, with the last toll in the chain lifting and Mara still unnamed."
     ]
   }
 }
