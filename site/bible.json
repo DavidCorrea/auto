@@ -65,6 +65,14 @@
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
       "status": "departed shop with tally card and clipboard, heading to cradle per her word"
+    },
+    {
+      "name": "Doan",
+      "pronouns": "they/them",
+      "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
+      "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
+      "flaw": "never asked what the seals were for",
+      "status": ""
     }
   ],
   "threads": [
@@ -181,7 +189,8 @@
       "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers.",
       "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe.",
       "Nour argues for handing Marlowe over to Pell as cold arithmetic to save Anza's roster, Rhea counters that the signed shortage makes running impossible too, Miko points out they're calculating with Ivo's dwindling air, and Nour pockets the tally card and leaves to deliver Marlowe to Pell at the north gate.",
-      "Pell arrives at 06:00 with a service rig and second signature, begins winching the dead med rig onto his reclamation cradle, and Rhea stands in the winch line's path, stopping the haul by placing her hand on the pod's seal and declaring the cargo a living witness requiring a countersign."
+      "Pell arrives at 06:00 with a service rig and second signature, begins winching the dead med rig onto his reclamation cradle, and Rhea stands in the winch line's path, stopping the haul by placing her hand on the pod's seal and declaring the cargo a living witness requiring a countersign.",
+      "Miko pulls the torn overlap sheet's carbon from the yard-office shift book and reads two names pressed backwards into it — Doan, the relief due in within the hour, and a second name that belongs to no one on Anza's roster."
     ]
   }
 }
