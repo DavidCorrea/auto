@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 47880,
-  "passages": 74,
+  "words": 48574,
+  "passages": 75,
   "arcs": [
     {
       "number": 1,
@@ -98,8 +98,8 @@
       "number": 12,
       "numeral": "XII",
       "title": "The Truth About Who You've Become",
-      "words": 2850,
-      "passages": 5
+      "words": 3544,
+      "passages": 6
     }
   ]
 }
