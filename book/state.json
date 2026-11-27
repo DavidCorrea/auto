@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at Kettering Node, shift ending, holding diagnostic pouch, 61 hours on brother's filters"
+      "status": "Bay 4, Kettering Node, hand on the life pod release"
     },
     {
       "name": "Kass",
@@ -24,14 +24,15 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "in Bay 6 loading ballast, three coast-bound tickets under different names on her slate"
+      "status": "Bay 4, Kettering Node, pack already on her shoulder"
     }
   ],
   "threads": [
     "Rhea's brother is waiting at the next node on a failing respirator.",
     "The node's dispatch board has been showing rigs that don't exist for weeks.",
     "Miko has bought coast-bound tickets under three different names.",
-    "unscheduled medical rig inbound to Bay 4 with no board entry"
+    "unscheduled medical rig inbound to Bay 4 with no board entry",
+    "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there"
   ],
   "facts": [],
   "arcs": [
@@ -82,7 +83,8 @@
       "Thirty kilometers into the Blank, static on every band, Rhea driving by dead reckoning with a cargo that belongs to no one and Bex's warning in her ear, headlights come up behind them running dark and settle in at her exact speed."
     ],
     "events": [
-      "Rhea finishes her shift on ghost train 44, checks her brother Ivo's remaining filter time (61 hours, 400km to Anza Node), exchanges banter with Bex and Miko, then the yard horn announces an unscheduled inbound to Bay 4 with nothing on the dispatch board."
+      "Rhea finishes her shift on ghost train 44, checks her brother Ivo's remaining filter time (61 hours, 400km to Anza Node), exchanges banter with Bex and Miko, then the yard horn announces an unscheduled inbound to Bay 4 with nothing on the dispatch board.",
+      "Rhea examines the cold medical rig alone, finds its cargo falsely logged as ballast with hand-cut and re-stamped seals and diagnostics all green, and just as she reaches for the pod, Miko arrives uninvited and asks what's inside."
     ]
   }
 }
