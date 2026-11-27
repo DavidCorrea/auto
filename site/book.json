@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 70883,
-  "passages": 111,
+  "words": 71595,
+  "passages": 112,
   "arcs": [
     {
       "number": 1,
@@ -153,8 +153,8 @@
       "number": 19,
       "numeral": "XIX",
       "title": "Six Breathing",
-      "words": 629,
-      "passages": 1
+      "words": 1341,
+      "passages": 2
     }
   ]
 }

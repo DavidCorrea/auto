@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "aft deck on his knees, has heard the wire once and accepted the plain truth in place of the warm lie"
+      "status": "on his feet by the winch drum, has Bayo's name and face-less voice fixed together"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "hand on the winch lever, one pull in the pack"
+      "status": "at the Marrow's rail, struck off the bell, berth 902 forfeit, tying knots in the air"
     }
   ],
   "threads": [
@@ -72,7 +72,8 @@
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
-    "Quill will not accept a blank in the bell column and has asked the whole low gate, on the record, who had the bell tonight"
+    "Bayo has no berth and no bell-mark, and only one of each is left to give away",
+    "the sixth crate is aboard Rusk's barge, wet, under a boot"
   ],
   "arcs": [
     {
@@ -221,7 +222,8 @@
       "The six buy in above the waterline at the low gate counter with the storm bell running out its count and Teo started on his course in the arcology infirmary, Wren winding the spent gray spool onto her finger and letting the fifty-two minutes stay gone, while the drum tows Rusk's dark barge out through the Stair and the channel shuts behind them; at slack water the Caller in the tower gives back a voice, and it is Salas's, saying a name that is not his."
     ],
     "events": [
-      "Quill read the eleven seconds and Nia's *not breathing* line into the berth book over the open channel, refused Sol's offer to say it face to face, and then demanded to know, on the record, who had the bell tonight."
+      "Quill read the eleven seconds and Nia's *not breathing* line into the berth book over the open channel, refused Sol's offer to say it face to face, and then demanded to know, on the record, who had the bell tonight.",
+      "Bayo answered the bell column himself with his name, his mark and the cutting of Salas's line, Quill struck him off the bell and forfeited berth 902 aloud, Salas finally had a voice to hang Bayo's name on, and a work lamp lit the sixth crate on the dark barge."
     ]
   }
 }
