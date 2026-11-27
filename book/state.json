@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at 42m in Mercy General tower, suit rated past 30m, orange twine in thigh pocket, slate shows self-cut eleven-second gap and nine unaccounted minutes in deck log, now in contact with Salas"
+      "status": "at 42m in the air pocket, confronted with physical proof of a past visit and promise she doesn't remember"
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "alive in air pocket for 371 days, patched suit, one fin, leg injured, chose no memory logging, knows Wren's name"
+      "status": "alive in the air pocket for 371 days, waiting, having chosen no memory logs, now confirmed as the voice on the backup channel who learned her name from her own message"
     },
     {
       "name": "Anselm Rusk",
@@ -53,7 +53,6 @@
   ],
   "threads": [
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
-    "Why does the voice on the backup channel know Wren's name, which she never gave it?",
     "Can the Marrow buy berths before the storm turns, with no money, no case, and Teo's medicine nearly gone?",
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
     "the orange whipping twine in Wren's thigh pocket — she doesn't know who she left the mark for",
@@ -157,7 +156,8 @@
       "The canister hisses dry, the sound she's been listening for since she got here, and his breathing goes hard and fast and he stops mid-word with his hand still on the twine; Wren thumbs the push-to-talk and asks Sol to have the handle ready before she's asked for it."
     ],
     "events": [
-      "Wren encounters Salas at forty-two meters, reads his wrist slate showing 371 days at depth with zero memory logs, and he gestures for her to follow him to the air pocket."
+      "Wren encounters Salas at forty-two meters, reads his wrist slate showing 371 days at depth with zero memory logs, and he gestures for her to follow him to the air pocket.",
+      "Wren follows Salas into the air pocket at forty-two meters and finds a year's tally marks, empty scrubber canisters, a foam nest, and a message on the bulkhead in her own handwriting — realizing she wrote it on a previous visit, which explains how Salas knows her full name."
     ]
   }
 }
