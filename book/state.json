@@ -72,8 +72,7 @@
     "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering.",
     "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
-    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way",
-    "The channel is shut and Dey is suffocating, leaving the Marrow with no way through the Stair and no time for the lung rig on the power barge"
+    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way"
   ],
   "arcs": [
     {
@@ -216,7 +215,8 @@
       "Wren's receiver goes quiet: the spit can's beacon that has pinged from forty-two meters for hours stops mid-pulse, and when she checks it the battery still has hours left, so it isn't the can dying but something down there reaching it, and she can't say what or who."
     ],
     "events": [
-      "Bayo guides the Marrow onto the Stair rope, Sol hands the helm to Nia for the first time, and Sol has a memory lapse that Nia notices."
+      "Bayo guides the Marrow onto the Stair rope, Sol hands the helm to Nia for the first time, and Sol has a memory lapse that Nia notices.",
+      "Nia read Sol's own written order back to her when Sol's sentence died mid-command, and Sol let the child's voice stand as hers, taking the Marrow through the second knot with the gate shut and the lung rig out of reach."
     ]
   }
 }
