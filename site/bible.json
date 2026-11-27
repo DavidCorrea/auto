@@ -32,7 +32,7 @@
       "role": "sedated cargo loader, name unknown",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": ""
+      "status": "conscious on Anza ore siding, unnamed, grease under his nails, no illness, shoulder hurt from a bracket"
     },
     {
       "name": "Teodoro",
@@ -54,10 +54,10 @@
   "threads": [
     "Rhea's brother is waiting at the next node on a failing respirator.",
     "Miko has bought coast-bound tickets under three different names.",
-    "unscheduled medical rig inbound to Bay 4 with no board entry",
     "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
     "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
-    "Ospina is still clocked in and badge-read at the Bay 4 door eleven minutes ago, with the chipped stamp that resealed all four rigs"
+    "Ospina is still clocked in and badge-read at the Bay 4 door eleven minutes ago, with the chipped stamp that resealed all four rigs",
+    "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard"
   ],
   "facts": [],
   "arcs": [
@@ -114,7 +114,8 @@
     "events": [
       "Ospina corks the gap with the hopper and stops the feral rig on its stale heading, Rhea drags the box up out of the culvert, then Ospina reveals the hinge plate isn't Bay 4 stock and abandons them to make the oh-six-hundred board, leaving Rhea to drive forty kilometers to Anza blind while Ivo's respirator fails.",
       "Running the last forty kilometers blind, Rhea discovers the pod's stable readout is a frozen cached page and the cell is barely drawing current, while Miko steers them off Anza's lit main gate to a dead ore siding and admits she's been planning her exit since Kettering.",
-      "At the dark ore siding Anza operator Teodoro arrives with a hand lamp and reveals that no medical handoff was ever filed and the rig sits on no board at all, then tells Rhea the only way to know who's in the pod is to break its seal and open it—and the man inside knocks."
+      "At the dark ore siding Anza operator Teodoro arrives with a hand lamp and reveals that no medical handoff was ever filed and the rig sits on no board at all, then tells Rhea the only way to know who's in the pod is to break its seal and open it—and the man inside knocks.",
+      "They break the pod's seal and find a big, healthy cargo loader waking inside, his own manifest card showing he was discharged from Kettering med hours earlier and loaded as ballast into a box nobody would open—and he describes a loader with a chipped-corner stamp resealing all four rigs while watching him."
     ]
   }
 }
