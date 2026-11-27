@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on the Marrow's deck mat, no longer taking air, the bag failing, lung rig still minutes east"
+      "status": "on the deck mat, not breathing, Sol's hand on his chest."
     },
     {
       "name": "Wren Achebe",
@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "Paid in medicine crates and departed east, the Factor’s debt collected."
+      "status": "aboard the Marrow, boot on the sixth crate, demanding the Marrow itself."
     },
     {
       "name": "Pru Quill",
@@ -72,8 +72,7 @@
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
-    "Bayo has no berth and no bell-mark, and only one of each is left to give away",
-    "the sixth crate is aboard Rusk's barge, wet, under a boot"
+    "Bayo has no berth and no bell-mark, and only one of each is left to give away"
   ],
   "arcs": [
     {
@@ -223,7 +222,8 @@
     ],
     "events": [
       "Quill read the eleven seconds and Nia's *not breathing* line into the berth book over the open channel, refused Sol's offer to say it face to face, and then demanded to know, on the record, who had the bell tonight.",
-      "Bayo answered the bell column himself with his name, his mark and the cutting of Salas's line, Quill struck him off the bell and forfeited berth 902 aloud, Salas finally had a voice to hang Bayo's name on, and a work lamp lit the sixth crate on the dark barge."
+      "Bayo answered the bell column himself with his name, his mark and the cutting of Salas's line, Quill struck him off the bell and forfeited berth 902 aloud, Salas finally had a voice to hang Bayo's name on, and a work lamp lit the sixth crate on the dark barge.",
+      "Rusk boards the Marrow with the sixth medicine crate and demands the boat—hull, drum, and bell—in exchange, threatening to wait out Sol's bluff while Dey lies unresponsive."
     ]
   }
 }
