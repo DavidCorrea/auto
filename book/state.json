@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "at thirty-eight meters in service trunk, found strongbox and evidence of recent habitation, comms open"
+      "status": "thirty-eight meters in the service trunk, cut off from the Marrow, comms dead, holding the strongbox"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "holding brake with burned hands, forearms creaking"
+      "status": "stopped the free-spinning drum with his boot and forearms, hands ruined further"
     },
     {
       "name": "Mara Vos",
@@ -316,7 +316,8 @@
       "Salas cuts Nia free during a surge slam and shoves her to the surface; the crew hauls her aboard CO2-sick and gray, and she cannot remember she dove for her brother Teo until Sol tells her, the Line having taken that memory as payment.",
       "The catch bag holds only nineteen loose coins and Teo's coat, the worn lanyard proving the strongbox tore free on the slack ascent and lies at the bottom of the flooded trunk, so the coin buys two berths for six people and Dey's forty-coin freedom sits at thirty-eight meters while Nia loses her brother's name again minutes after being given it.",
       "Salas overrides the crew's objections and goes down the service trunk on the drum while Dey mans it in hitching shifts, and Wren keeps her thumb off the slate's final play.",
-      "Salas descends the service trunk to thirty-eight meters, finding the inner seal breached from inside (not sealed from inside as Mara's recording named it), the strongbox intact on a shelf beside a recently operated hand-cranked cold-box and three hundred twelve tally marks scratched into the wall — evidence someone lived in the trunk for fourteen months and left days ago."
+      "Salas descends the service trunk to thirty-eight meters, finding the inner seal breached from inside (not sealed from inside as Mara's recording named it), the strongbox intact on a shelf beside a recently operated hand-cranked cold-box and three hundred twelve tally marks scratched into the wall — evidence someone lived in the trunk for fourteen months and left days ago.",
+      "The surge arrives early and bores the service trunk full; the wire saws through its worn band on the construction joint and parts at forty meters, free-spinning the drum, and Salas is cut off at thirty-eight with the strongbox, comms dead."
     ]
   }
 }
