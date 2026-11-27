@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 83816,
-  "passages": 130,
+  "words": 84235,
+  "passages": 131,
   "arcs": [
     {
       "number": 1,
@@ -175,6 +175,13 @@
       "title": "The Pilot's Price",
       "words": 3972,
       "passages": 6
+    },
+    {
+      "number": 22,
+      "numeral": "XXII",
+      "title": "The Woman Who Stayed",
+      "words": 419,
+      "passages": 1
     }
   ]
 }

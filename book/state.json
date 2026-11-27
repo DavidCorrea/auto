@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "has accepted Bayo's piloting with conditions (his voice, her hands, Quill to write it), but remains watchful"
+      "status": "kept hands on spoke-box, set course for Mercy General's drowned flank; hides memory loss, remains watchful of Bayo"
     },
     {
       "name": "Dey Okafor",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "watching Bayo with full awareness of their history, confirming Bayo's face shows no change"
+      "status": "standing aft by the winch drum, watched Bayo confirm face shows no change"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "has agreed to pilot the Marrow through the Stair at eleven-oh-eight slack water, but has internally decided he will not be there to hold the line if things go wrong"
+      "status": "at the wheel, piloted the Marrow through the Stair gap; still internally resolved not to hold the line if things go wrong"
     },
     {
       "name": "Mara Vos",
@@ -245,7 +245,8 @@
         }
       ],
       "chapterSummaries": [
-        "Wren dredged Salas's drowned slate and found fourteen months of his own voice cracking an air-valve to hand breath to someone in Mercy General's flooded ward, and Nia went white and named the two-syllable word as her mother, Mara Vos. They now know Salas spent his air keeping a woman alive who may still be down there, though he remembers her wrong — singing, which Nia swears Mara never did — and the slate is down to four plays."
+        "Wren dredged Salas's drowned slate and found fourteen months of his own voice cracking an air-valve to hand breath to someone in Mercy General's flooded ward, and Nia went white and named the two-syllable word as her mother, Mara Vos. They now know Salas spent his air keeping a woman alive who may still be down there, though he remembers her wrong — singing, which Nia swears Mara never did — and the slate is down to four plays.",
+        "The Marrow slipped the low gate and ran north to find Rusk's dead barge swung across the only gap in the Stair, with Rusk himself in the water holding the channel shut by a lanyard while he offered Sol berths for the children or the boat. Sol refused him aloud, and he revealed he'd watched a lamp and a hand bell burning in Mercy General's high ward for five months — proof Mara is a body to save — then read the tide and waited. The Marrow sat at the channel mouth with the ebb beginning, a real hand bell rang two notes across the water, and Salas rose off the winch drum."
       ],
       "summary": "",
       "isClosed": false,
@@ -254,23 +255,18 @@
   ],
   "chapter": {
     "arc": 4,
-    "number": 21,
-    "title": "The Pilot's Price",
+    "number": 22,
+    "title": "The Woman Who Stayed",
     "beats": [
-      "Sol reads the timing off the season bell: the Stair seals at the next slack water, hours out, and if they miss it Mercy General stays shut until the season turns; she commits the Marrow to the run and says plainly she'll keep her own hand on the helm, the way she always does.",
-      "With no one but Bayo knowing the drowned channel — struck off the bell, berthless, sailing as a deckhand who promises nothing — Sol has to ask him to take the Stair's piloting out of her hands, the one thing she never gives up.",
-      "Bayo says yes in his warm easy way, swearing he'll walk them down the Stair and back, while Salas — the man whose line Bayo cut clean fourteen months ago — listens to every word and watches Bayo's face not change, because Bayo's already decided he won't be there to hold anything if it goes bad.",
-      "As the Marrow noses toward the channel mouth the crew finds a shape drifting across it: Rusk's barge, dead in the water, no lights, no hand at the wheel, been sitting out in the drowned district waiting on exactly this.",
-      "Rusk hails them and offers the safe path through — his barge's hull for a lee, the district's true markers he's kept in his head all season — for a price he lays out certain Sol will take, because he's read her choice of the children over the money as a bluff he can finally call.",
-      "Sol refuses to hand over the Marrow or the children, and Rusk plays the card he's been holding to hook her: for months he's watched a light burning and a bell ringing up in Mercy General's high ward, and a bell doesn't ring itself — somebody's alive up there keeping it lit, a body worth saving and worth selling."
+      "At eleven-oh-eight the ebb leans hard and Rusk has to swing his barge clear or lose it to the turn; Bayo takes the wheel with Sol at his shoulder and calls the true line off the customs-house columns instead of Rusk's poles standing forty meters wrong, and the Marrow threads the gap close enough to touch the ferry ribs — Rusk lets them through and settles the barge back across the mouth behind them, calling that he'll sit right there, patient as the tide, for when they come up heavy.",
+      "Tied to Mercy General's drowned flank, Dey insists on leading the swim up the flooded stairwell to prove free crew can still do the work; Sol lets him go first and Wren follows, and somewhere in the flooded floors below the Line — the depth where memory quits and never comes back — Dey loses the word for the knot in his hand, then Wren's name for a breath, then the reason he's climbing; he jokes it off and says nothing, but Wren, who reads what a diver's slate drops, watches him ask her the same question twice and not know he's repeating himself.",
+      "They break out of the water into the high ward's air pocket — rows of drowned beds, the empty cradle where the cold-case sat before the Marrow raised it, a year of tin cans, and a rig somebody built by hand in the wet: a hand bell, a lamp cell drinking off the ward's solar skin (the light-panels still stuck to the roof), cable spliced by a person with no help and no light — the Caller, still ticking; and at the far window, a woman's back, one hand on the bell rope.",
+      "The woman turns and she is alive, breathing on her own, and hollowed — fourteen months eaten out from behind her eyes — and she keeps working the bell and the crank without stopping, because stopping is how it all dies; Nia says \"Mama,\" holds up the crank handle worn bright by her own child's hand a year gone, and Mara looks into her daughter's face and finds nothing there that lands, while Salas, who has spent his air fourteen months calling this woman's name, watches her fail to know him either.",
+      "Reading the splices and the cell, Wren pieces out what Mara did: she fed the Caller her own voice hour after hour, and the bell keeps the memory of every voice it takes, so fourteen months spent keeping two children cold has cost her nearly all of herself; even Dey, coming apart at the edges, manages a crack about dying rich, and Nia won't let go of the crank — and then the water outside quits moving, slack, and the Caller rings itself, once.",
+      "At slack the Caller gives a voice back and it is not Mara's — it is Salas's own ragged cadence saying \"Mara,\" off the little slate in Wren's hands and out of the bell in the same breath, and Salas hears himself say the word and still cannot place it, while Mara turns toward the sound with the first flicker of anything, not recognition but the shape of a job half-remembered; Wren sees the slate has plays left and understands, cold, that the bell will trade — and the chapter lands on Nia holding her hollow mother's hand as the Caller draws breath for the next voice."
     ],
     "events": [
-      "Sol read the season bell, fixed slack water at eleven-oh-eight as the Stair's only window and the crew's last chance before the season turns, put the Marrow on the run with her own hands staying on the helm, and Wren found four earlier slack times on the bulkhead in Sol's handwriting that Sol can't account for.",
-      "Sol asked Bayo to take the Marrow's wheel for the eleven-oh-eight slack and admitted she can't account for the other slacks on her wall, and before Bayo could answer Salas said Mara's name and insisted she was still singing.",
-      "Bayo agrees to pilot the Marrow through the Stair at slack water, making warm promises he doesn't intend to keep while Salas watches, remembering Bayo cut his ascent line fourteen months ago.",
-      "Running for the Stair at slack, the Marrow finds Rusk's barge lying dark and engine-dead broadside across the only gap in the channel, no one at its jammed wheel, held there by a taut cable running down into the flooded street — and something white turning over at the end of it.",
-      "Rusk surfaced from the water where he'd been holding the Stair shut by a cable, offered Sol safe passage and cleared highland berths on his hull using the district's true markers, and named his price — the two children or the Marrow itself — certain Sol would take it.",
-      "Sol refuses Rusk's price to his face and he tells her plainly he has sat six weeks on the closed Stair waiting for the one boat desperate enough to buy his water, then hooks her by describing a hooded lamp and a hand bell kept running five months in Mercy General's fourteenth-floor ward — and the bell sounds twice across the water while Nia's grip whitens and Salas stands up."
+      "Bayo pilots the Marrow through the Rusk-blocked channel gap at slack water using the true line off the customs-house columns, while Rusk swings his barge clear and makes a single call as he settles back across the mouth."
     ]
   }
 }
