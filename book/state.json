@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "aboard with both cases, three turns light on an unknown margin, the cut seal crimp in her pocket"
+      "status": "at the wheelhouse with the cut seal crimp in her pocket, unmentioned, and the honest turn count in the log."
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "on deck at three breaths a minute, pauses now twenty-six seconds"
+      "status": "on deck at three breaths a minute with the pauses lengthening, Nia keeping the count; Wren no longer knows him."
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "at the Marrow's rail, bailout gas at zero, still missing the hour below"
+      "status": "on the Marrow's deck, bailout at zero, Dey's name gone out of her, her own erased hour still sealed under her key and left shut; has quit editing slates."
     },
     {
       "name": "Nia Vos",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "aboard the Marrow, unconscious, on the impact wrench's air bottle at four gasps a minute"
+      "status": "breathing on the impact wrench's air bottle at four gasps a minute, Nia's pencil in his fist."
     },
     {
       "name": "Anselm Rusk",
@@ -54,9 +54,7 @@
   "threads": [
     "Storm season will drown the Marrow’s mooring unless they buy berths on the high ground.",
     "Can the Marrow buy berths before the storm turns, with no money, no case, and Teo's medicine nearly gone?",
-    "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
-    "Salas now knows Nia — the girl with the pencil on the radio — is the child he sealed in the capsule, which will drive what he spends his last air on.",
-    "Sol's uncertain turn count means she doesn't know exact depth remaining or safety margin for the ascent"
+    "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased."
   ],
   "arcs": [
     {
@@ -159,7 +157,8 @@
       "Wren receives Salas at the 49-meter dispensary landing, cuts him free from the orange twine connecting him to the ward rail, rigs him to the main ascent cable with a three-turns-and-a-tuck knot (tail long), and confirms he's breathing at four shallow gasps per minute before turning to the medicine cases still on the landing.",
       "With her bailout gauge down to *01:35*, Wren cuts the carrying lash and rerigs both sealed medicine cases above Salas with rolling hitches and a cross-lash, verifies the four cam latches and the Factor's intact seal wire, measures the swinging load against the stairwell corner as barely clearing, and keys Sol to take up the drum.",
       "Sol manually clears a jammed hand-splice at the fairlead during a ten-second uncontrolled drum run, saving the ascending load but losing precise turn count; Dey drops to three breaths with 24-second pauses on deck.",
-      "The load breaks surface and Sol hauls the cases and Salas aboard, puts the impact wrench's air bottle on him, reads the drum three turns light, and pockets the case's cut seal crimp while Wren reaches the rail on empty gas as the storm eases toward first light."
+      "The load breaks surface and Sol hauls the cases and Salas aboard, puts the impact wrench's air bottle on him, reads the drum three turns light, and pockets the case's cut seal crimp while Wren reaches the rail on empty gas as the storm eases toward first light.",
+      "Wren came over the rail not knowing who Dey was, heard from Nia why the girl was crying, watched Sol put the true turn count in the log, swore off editing for good, and then a lamp-less barge was sighted standing off in the easing east."
     ]
   }
 }
