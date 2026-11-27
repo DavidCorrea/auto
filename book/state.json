@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "unconscious on deck, breathing deteriorating"
+      "status": "on deck, breathing deteriorating critically"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "dispensary landing, 49m, bailout gas, under four minutes, no spare"
+      "status": "at 49 meters on dispensary landing, bailout gas ~4 min, Salas rigged on ascent cable, preparing to lash medicine cases"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "at chart table logging, detected Dey's breathing change (shallow, long pauses)"
+      "status": "logging at chart table, Dey at 4 breaths/min with 20-second pauses"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "in the flooded corridor at the head of the stairs, 42m, off the rail, pulling himself down toward the landing"
+      "status": "unconscious/hypoxic on ascent cable at 49m, breathing ~4 gasps/min, rigged with three-turns-and-a-tuck knot tail long"
     },
     {
       "name": "Anselm Rusk",
@@ -155,7 +155,8 @@
       "Wren climbs over the rail and asks Nia why she is crying, but she has no answer—the last hour below, the promise, and the descent itself are cut from her own slate, and she does not remember why the girl on deck is crying."
     ],
     "events": [
-      "Wren wrote her crew's names on her glove, dropped past her suit's forty-two-meter rating onto open-circuit gas with no spare, lost the name Dey near forty-six as the corridor narrowed a hand's width per swell, and found the white cases at forty-nine already dragged out and lashed with her own knot from an hour she can't remember — then the pocket at forty-two blew out and Salas came down the corridor hauling himself toward her along the twine."
+      "Wren wrote her crew's names on her glove, dropped past her suit's forty-two-meter rating onto open-circuit gas with no spare, lost the name Dey near forty-six as the corridor narrowed a hand's width per swell, and found the white cases at forty-nine already dragged out and lashed with her own knot from an hour she can't remember — then the pocket at forty-two blew out and Salas came down the corridor hauling himself toward her along the twine.",
+      "Wren receives Salas at the 49-meter dispensary landing, cuts him free from the orange twine connecting him to the ward rail, rigs him to the main ascent cable with a three-turns-and-a-tuck knot (tail long), and confirms he's breathing at four shallow gasps per minute before turning to the medicine cases still on the landing."
     ]
   }
 }
