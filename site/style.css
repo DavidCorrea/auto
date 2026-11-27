@@ -401,6 +401,132 @@ h2 {
   font-size: 0.8rem;
 }
 
+/* The writers' bible: opened from a quiet fleuron under the colophon. */
+
+.peek {
+  appearance: none;
+  display: block;
+  margin: 1.25rem 0 0;
+  padding: 0.25rem;
+  border: 0;
+  background: none;
+  color: var(--rule);
+  font: inherit;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.peek:hover,
+.peek:focus-visible {
+  color: var(--accent);
+}
+
+.bible {
+  width: min(42rem, calc(100vw - 2rem));
+  max-height: min(48rem, calc(100dvh - 2rem));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 20px 60px var(--shadow);
+}
+
+.bible::backdrop {
+  background: rgba(20, 12, 4, 0.45);
+}
+
+.bible-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.bible-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.bible-close {
+  appearance: none;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--paper-deep);
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.bible-body {
+  padding: 0.5rem 1.5rem 2rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.bible-body h3 {
+  margin: 1.75rem 0 0.5rem;
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.bible-body p,
+.bible-body ul,
+.bible-body ol {
+  margin: 0 0 0.75rem;
+}
+
+.bible-body ul,
+.bible-body ol {
+  padding-left: 1.25rem;
+}
+
+.bible-body li {
+  margin-bottom: 0.4rem;
+}
+
+.bible-body .heart {
+  font-style: italic;
+}
+
+.bible-body .character-name {
+  font-weight: 600;
+}
+
+.bible-body .quiet {
+  color: var(--ink-soft);
+}
+
+.bible-body details {
+  margin-top: 1.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px dotted var(--rule);
+}
+
+.bible-body summary {
+  color: var(--accent);
+  cursor: pointer;
+}
+
 /* Narrow screens: the margin is a drawer that slides in from the left, opened from the bar. */
 
 @media (width < 64rem) {

@@ -49,8 +49,16 @@
       </nav>
       <footer class="colophon">
         <p>Written by free AI models, one passage at a time. A showrunner model plans each story and edits every passage; each story is told by a different author model, which writes one scene, hands over and forgets it. <a href="https://github.com/DavidCorrea/auto">How it works</a>.</p>
+        <button class="peek" type="button" data-bible title="The writers' bible" aria-label="The writers' bible" aria-haspopup="dialog">❦</button>
       </footer>
     </aside>
   </div>
+  <dialog class="bible" id="bible" aria-labelledby="bible-heading">
+    <header class="bible-header">
+      <h2 id="bible-heading">The writers' bible</h2>
+      <button class="bible-close" type="button" data-bible-close aria-label="Close">×</button>
+    </header>
+    <div class="bible-body" id="bible-body"></div>
+  </dialog>
 </body>
 </html>

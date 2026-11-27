@@ -43,6 +43,12 @@ describe("storing the book", () => {
     assert.equal(JSON.parse(await readFile(path.join(places.bookDir, "state.json"), "utf8")).setting, "A desk.");
   });
 
+  test("publishes the story state on the site for readers to peek at", async () => {
+    const places = await emptyPlaces();
+    await writeBook(places, book, [1, 2]);
+    assert.deepEqual(JSON.parse(await readFile(path.join(places.siteDir, "bible.json"), "utf8")), book.state);
+  });
+
   test("reads chapters in numeric order", async () => {
     const places = await emptyPlaces();
     const chapters = Array.from({ length: 11 }, (_, index) => ({ title: `T${index + 1}`, passages: ["x"] }));

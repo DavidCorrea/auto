@@ -83,6 +83,8 @@ export async function writeBook({ bookDir, siteDir }, book, changedChapterNumber
   }
   await writeFile(path.join(siteDir, "book.json"), toJson(bookIndex(book)));
   await writeFile(path.join(bookDir, "state.json"), toJson(book.state));
+  // Readers can peek at the story's bible from the site; it holds nothing the writers' prompts don't.
+  await writeFile(path.join(siteDir, "bible.json"), toJson(book.state));
 }
 
 // "baidu/ernie-5.5-flash-preview:free" reads as "ernie-5.5-flash-preview" on the site.

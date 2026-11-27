@@ -235,6 +235,75 @@ function start() {
     if (event.matches) closeMenu();
   });
 
+  // The writers' bible: the story's state as the showrunner and authors see it, fetched fresh on every open.
+  const bibleDialog = document.getElementById("bible");
+  const bibleBody = document.getElementById("bible-body");
+  const authorName = (model) => model.replace(/^.*\//, "").replace(/:free$/, "");
+  const section = (title, children) => [element("h3", { text: title }), ...children];
+  const list = (tag, items) => element(tag, {}, items.map((item) => (item instanceof Node ? element("li", {}, [item]) : element("li", { text: item }))));
+
+  function renderBible(state) {
+    const arcs = state.arcs ?? [];
+    const current = arcs.at(-1);
+    const cast = (state.cast ?? []).map((character) =>
+      element("li", {}, [
+        element("span", { className: "character-name", text: character.name }),
+        ` (${character.pronouns}), ${character.role}. Wants: ${character.wants}. Flaw: ${character.flaw}.`,
+        ...(character.status ? [element("br"), element("span", { className: "quiet", text: `Now: ${character.status}` })] : []),
+      ]),
+    );
+    const pastArcs = arcs.filter((arc) => arc.isClosed);
+    const spoilers = current && !current.isClosed
+      ? [
+          element("details", {}, [
+            element("summary", { text: "Spoilers: what's planned next" }),
+            ...section(`This story: ${current.title}`, [
+              element("p", { className: "quiet", text: `Told by ${authorName(current.author)}. ${current.question ?? ""}` }),
+              element("p", { text: current.goal }),
+              list("ol", current.plan.map((chapter) => `${chapter.title}: ${chapter.summary}`)),
+            ]),
+            ...(state.chapter?.arc === arcs.length
+              ? section(`Chapter ${state.chapter.number}: ${state.chapter.title}`, [
+                  list("ol", state.chapter.beats.map((beat, index) => `${index < state.chapter.events.length ? "✓ " : ""}${beat}`)),
+                ])
+              : []),
+          ]),
+        ]
+      : [];
+    return [
+      ...section("The world", [element("p", { text: state.setting })]),
+      ...section("The heart", [element("p", { className: "heart", text: state.heart })]),
+      ...section("Who's who", [element("ul", {}, cast)]),
+      ...section("Open threads", [state.threads?.length ? list("ol", state.threads) : element("p", { className: "quiet", text: "None right now." })]),
+      ...(state.facts?.length ? section("Settled", [list("ul", state.facts)]) : []),
+      ...(pastArcs.length
+        ? section("Stories so far", [list("ol", pastArcs.map((arc) => `${arc.title} (told by ${authorName(arc.author)}): ${arc.summary}`))])
+        : []),
+      ...spoilers,
+    ];
+  }
+
+  async function openBible() {
+    bibleBody.replaceChildren(element("p", { className: "quiet", text: "Opening the bible…" }));
+    bibleDialog.showModal();
+    try {
+      const state = await fetchJson("bible.json");
+      bibleBody.replaceChildren(...(state?.setting ? renderBible(state) : [element("p", { className: "quiet", text: "Nothing written down yet." })]));
+    } catch (error) {
+      bibleBody.replaceChildren(element("p", { className: "quiet", text: `The bible couldn't be loaded. ${error.message}` }));
+    }
+  }
+
+  document.querySelector("[data-bible]").addEventListener("click", () => {
+    closeMenu();
+    openBible();
+  });
+  document.querySelector("[data-bible-close]").addEventListener("click", () => bibleDialog.close());
+  // A click on the dimmed area outside the dialog lands on the dialog element itself.
+  bibleDialog.addEventListener("click", (event) => {
+    if (event.target === bibleDialog) bibleDialog.close();
+  });
+
   // The book's title in the shell opens the latest chapter, whichever that is by now.
   document.addEventListener("click", (event) => {
     const target = event.target.closest("[data-chapter], [data-latest]");
