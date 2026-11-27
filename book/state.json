@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at tender cab, scanner shows READY, plate unchanged"
+      "status": "Anza relay shop, standing at the plate, her condition entry lit and PENDING COUNTERSIGN; Ivo's cartridge at 00:64:02"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "Anza relay shop counter, three unused coast tickets in the folder"
+      "status": "folder back in her coat, hand on the seal locker latch"
     },
     {
       "name": "the man in the pod",
@@ -182,7 +182,8 @@
       "Miko laid out the escape run — ore stub, tender to Bitter Wells, the 06:40 coast string, a down-line bunk — then named the price: each ticket belongs to a real loader whose line will read absent, and the third, Sabine Cordy, a Bay 4 Shift 2 loader who clocked off at 21:47 and vanished, is already a loose line with a reclamation claim open on it, as something heavy comes up the haul road.",
       "Miko dresses Marlowe as Sabine Cordy and drills the name into him; Rhea runs the substitution through the tender's manifest scanner, which returns clean across the board, but the node's plate still reads \"Designation: ballast\" as Pell's service rig arrives at the north gate.",
       "Marlowe sets the Sabine Cordy ticket back on the counter and refuses to run under another loader's name, asking instead who at Anza holds a stamp that can put a living man on a board — and Nour answers that the only one in reach is a Kettering Bay 4 Shift 2 loader three hundred kilometers down-line, whose shift ends at 06:00, eleven minutes out.",
-      "Nour forces the choice — hand Marlowe to Pell or find a seal — warns that running him only flags Anza and that someone in the yard has been feeding seals down-line, and Teodoro reports every Kettering call about Bay 4 is now logged by the reclaimer's office before it routes."
+      "Nour forces the choice — hand Marlowe to Pell or find a seal — warns that running him only flags Anza and that someone in the yard has been feeding seals down-line, and Teodoro reports every Kettering call about Bay 4 is now logged by the reclaimer's office before it routes.",
+      "Rhea refused to run Marlowe, entered him on the node's plate as alive and not weight under mechanic's authority — which the plate accepted as PENDING COUNTERSIGN — and then the seal locker's shift-change inventory ping announced a count far short of its tally card in front of the whole room."
     ]
   }
 }
