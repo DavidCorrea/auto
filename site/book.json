@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 4141,
-  "passages": 6,
+  "words": 4720,
+  "passages": 7,
   "arcs": [
     {
       "number": 1,
@@ -15,8 +15,8 @@
       "number": 1,
       "numeral": "I",
       "title": "Empty Rig",
-      "words": 4141,
-      "passages": 6
+      "words": 4720,
+      "passages": 7
     }
   ]
 }

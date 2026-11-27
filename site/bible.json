@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "mule cab, thirty kilometers of dead ground ahead, refusing to stop"
+      "status": "driving the mule through the Blank with Miko, towing the medical rig, being pursued by unknown vehicle with node emulator, approaching blocked highway"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "shotgun seat of the mule, pack still made, tickets unspent"
+      "status": "shotgun seat, pack made, three false tickets on slate, witnessing the pursuit and blockade"
     },
     {
       "name": "the man in the pod",
@@ -105,7 +105,8 @@
       "Rhea cracks the life pod and finds a sedated, nameless cargo loader strapped to the rail by one wrist with a ratchet band stamped Bay 4, Shift 2 — this shift — on a pod with a blank chart and twenty-nine hours of battery.",
       "Bex explains the quarantine — pod vented at 0600, man dumped nameless at the clinic, rig stripped — and that whoever signs owns the load, so Rhea pulls the yard mule on a dead job number and the board names her the rig's consignee.",
       "Rhea hitches the mule to the medical rig, and when the rig's autopilot refuses the tow for lack of a route handshake she pulls the drive relay to take the wheel herself, losing her diagnostics while Miko talks her way into the shotgun seat.",
-      "Rhea and Miko slipped out of Kettering at shift change, Rhea learned from Teodoro that Ivo is holding but a nameless man already called Anza hunting her, and at the edge of the Blank the rig's transponder answered an unlicensed hail from ahead with \"relief driver acknowledged, hold position.\""
+      "Rhea and Miko slipped out of Kettering at shift change, Rhea learned from Teodoro that Ivo is holding but a nameless man already called Anza hunting her, and at the edge of the Blank the rig's transponder answered an unlicensed hail from ahead with \"relief driver acknowledged, hold position.\"",
+      "Rhea and Miko are followed through the Blank by a dark-running vehicle matching their speed exactly; the follower claims to be a relief driver via CB, knows details about the cargo and Rhea, warns of a washout ahead, and they spot a node emulator mast on the pursuer's roof — then they see a rig parked broadside across the highway blocking their path."
     ]
   }
 }
