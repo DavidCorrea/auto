@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": ""
+      "status": "Kettering night board, own console surrendered to hold a pinned line on Unit 4-1180, mic in hand"
     },
     {
       "name": "Miko",
@@ -80,7 +80,9 @@
           "summary": "They reach the next node and the patient is already gone, and Miko reveals she stowed away to the coast, so Rhea lets her go and stays at the new node anyway."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "Rhea finds a nameless, sedated man in an unlogged medical rig at Kettering, discovers the seals and ballast manifest were forged during that very shift, and steals a yard mule to tow the rig toward Anza before the man's pod battery dies. She pulls the rig's drive relay to control it herself and drives into the Blank, a dead signal zone, only to be tailed by a dark vehicle running a node emulator and to find a rig parked broadside across the road ahead."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 1
@@ -88,25 +90,18 @@
   ],
   "chapter": {
     "arc": 1,
-    "number": 1,
-    "title": "Empty Rig",
+    "number": 2,
+    "title": "Ghost Board",
     "beats": [
-      "End of shift at Kettering Node: Rhea swaps a brake relay on ghost train 44 while Bex the yard boss rides her about paperwork and Miko loads ballast two bays down; Rhea counts her brother Ivo's filter cartridges—61 hours of clean air left, 400 kilometers to Anza Node—when the yard horn calls an inbound into Bay 4 with nothing on the board.",
-      "Rhea walks Bay 4 alone and finds a medical rig (a self-driving truck with a climate box and a life pod in the back) parked cold, no consignee, cargo logged as nine hundred kilos of ballast, seals cut and re-stamped by hand; her handheld diagnostics come back green across the board, which is exactly why she believes it, and Miko shows up uninvited, chewing, asking what's in the box.",
-      "Rhea cracks the pod and finds a man breathing under a fogged lid, sedated, name tape cut off his coverall, a cargo-loader's patch on the shoulder, no chart in the pod's memory; his wrist is strapped to the rail with a loader's cargo band, and the pod's own battery reads twenty-nine hours.",
-      "Rhea tries to do it clean and take him to Bex, who tells her an unclaimed load gets quarantined: pod vented at 0600, man dumped at the clinic with no name, rig impounded and stripped for parts, and anyone who signs for it owns it; Rhea requisitions the mule (a diesel-electric yard tractor, the only thing at the node that still has a steering wheel) under a job number that closed last spring.",
-      "Rhea hooks up: pintle and air lines to the mule, and the rig's autopilot refuses the tow because it has no route handshake—the ping that tells a rig which node owns it—so she pulls the drive relay and takes the wheel herself for four hundred kilometers, while Miko volunteers for the shotgun seat a half second too fast, pack already made, three names on her loader's slate.",
-      "They roll out through the gate at shift change with the med rig dark behind them; Rhea raises Anza and Teodoro tells her Ivo is holding, bellows unit steady, and that somebody from the yard already came asking after her; at the last pucks (solar transponders that tell a rig where it is) before the Blank, the rig's transponder answers a hail from ahead, inside dead ground where nothing is licensed to transmit.",
-      "Thirty kilometers into the Blank, static on every band, Rhea driving by dead reckoning with a cargo that belongs to no one and Bex's warning in her ear, headlights come up behind them running dark and settle in at her exact speed."
+      "Kass, alone at the Kettering night board, sees the Bay 4 line change since shift change — a live consignee, R. VANCE, but the origin-handshake scrubbed to zeros and no load order behind it. She flags it for review and watches the board eat the flag, smoothing the record back to blank, and she won't drop it. Hook: the unit's transponder is still chirping live from inside the Blank, dead ground where nothing should still be talking.",
+      "Kass pulls the archive and finds three other units over recent weeks with the same signature — a real human consignee, a scrubbed route, a hard turn into the Blank, no exit — each resealed with the same crooked hand-stamp. She checks the roster: whoever stamped Bay 4 this shift is still clocked in. Hook: none of the three ghosts ever came out the far side, and the med rig is running their exact road.",
+      "In the mule, Rhea faces the broadside blockade with the pursuer's lamps fixed on her six. She can't stop — the towed rig has no brakes — and can't punch through, but the blockade rig's wheels are still alive, driving on the emulator's leash, because it can move any rig that keeps its relay and hers can't. Hook: she takes the mule off the asphalt onto the dark verge, and the dead rig's speaker crackles on its own cell.",
+      "Miko, bored and grinning, reads the blockade rig's laggy repeating sweep and calls the gap. Rhea threads the mule and trailer past its end close enough to taste hot brake dust while Miko's slate of three false tickets nearly cartwheels out the window. Hook: behind them the pursuer doesn't follow — it stops, its dish rotates to track them, and the speaker tells Rhea the cargo was never hers.",
+      "Kass keys Kettering's master dispatch channel, which outranks any stranger's hail, and shoulders onto the rig through the emulator's own bridge so her voice comes out of the dead rig's speaker: the delivery's unauthorized, three rigs before this vanished the same way, the man who stamped the seals is still on shift — turn back — and the job stops being a job. Hook: the instant a real node touches the rig, the emulator's leash snaps taut.",
+      "The med rig's failsafe trips — the anti-theft rule Rhea named, a climate box sealing hard to stop anyone lifting a patient off a stolen route with no relief driver aboard. A red count starts on the headwall over the nameless man, the bay doors begin to lock, and both Kass and the speaker cut to hiss. Hook: Rhea's got a running count, a forger who knows her name, and Miko already reaching for the panel as the truck arrests itself."
     ],
     "events": [
-      "Rhea finishes her shift on ghost train 44, checks her brother Ivo's remaining filter time (61 hours, 400km to Anza Node), exchanges banter with Bex and Miko, then the yard horn announces an unscheduled inbound to Bay 4 with nothing on the dispatch board.",
-      "Rhea examines the cold medical rig alone, finds its cargo falsely logged as ballast with hand-cut and re-stamped seals and diagnostics all green, and just as she reaches for the pod, Miko arrives uninvited and asks what's inside.",
-      "Rhea cracks the life pod and finds a sedated, nameless cargo loader strapped to the rail by one wrist with a ratchet band stamped Bay 4, Shift 2 — this shift — on a pod with a blank chart and twenty-nine hours of battery.",
-      "Bex explains the quarantine — pod vented at 0600, man dumped nameless at the clinic, rig stripped — and that whoever signs owns the load, so Rhea pulls the yard mule on a dead job number and the board names her the rig's consignee.",
-      "Rhea hitches the mule to the medical rig, and when the rig's autopilot refuses the tow for lack of a route handshake she pulls the drive relay to take the wheel herself, losing her diagnostics while Miko talks her way into the shotgun seat.",
-      "Rhea and Miko slipped out of Kettering at shift change, Rhea learned from Teodoro that Ivo is holding but a nameless man already called Anza hunting her, and at the edge of the Blank the rig's transponder answered an unlicensed hail from ahead with \"relief driver acknowledged, hold position.\"",
-      "Rhea and Miko are followed through the Blank by a dark-running vehicle matching their speed exactly; the follower claims to be a relief driver via CB, knows details about the cargo and Rhea, warns of a washout ahead, and they spot a node emulator mast on the pursuer's roof — then they see a rig parked broadside across the highway blocking their path."
+      "Alone on the Kettering night board, Kass watches the Bay 4 line acquire a pulsing live consignee, R. VANCE, and an origin-handshake wiped to zeros with no load order, flags it three times and watches the board reconcile the record clean each time, pins the line at the cost of their console, finds a hand re-stamp on the Bay 4 seals, and then sees the unit's transponder chirping live from inside the Blank."
     ]
   }
 }
