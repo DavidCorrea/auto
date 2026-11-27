@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "not breathing, Sol's hand on his chest"
+      "status": "breathing on his own, six breaths, aft deck of the Marrow, indenture still standing in the berth book"
     },
     {
       "name": "Wren Achebe",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "holding the berth book and stylus, waiting for acceptance of six crates plus Dey's indenture within forty minutes"
+      "status": "at the low gate counter, her withholding of the rig now entered in her own hand"
     },
     {
       "name": "Bayo Adisa",
@@ -72,7 +72,8 @@
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
-    "Bayo has no berth and no bell-mark, and only one of each is left to give away"
+    "Bayo has no berth and no bell-mark, and only one of each is left to give away",
+    "the *Tally*'s engine won't catch, the drum has one pull left, and the channel is shutting"
   ],
   "arcs": [
     {
@@ -225,7 +226,8 @@
       "Bayo answered the bell column himself with his name, his mark and the cutting of Salas's line, Quill struck him off the bell and forfeited berth 902 aloud, Salas finally had a voice to hang Bayo's name on, and a work lamp lit the sixth crate on the dark barge.",
       "Rusk boards the Marrow with the sixth medicine crate and demands the boat—hull, drum, and bell—in exchange, threatening to wait out Sol's bluff while Dey lies unresponsive.",
       "Sol admitted her missing eight hours forty on the open channel, handed Nia the deck, and offered her own bond in Dey's place; Quill refused it as worthless without a hull, Rusk laughed and put his knife under the Marrow's mooring line to claim her as derelict at slack water.",
-      "Wren trades the winch's last pull and Bayo's piloting for the sixth crate, Quill logs the trade and kills the derelict claim on the record, the crate goes up into the count, and Dey stops breathing."
+      "Wren trades the winch's last pull and Bayo's piloting for the sixth crate, Quill logs the trade and kills the derelict claim on the record, the crate goes up into the count, and Dey stops breathing.",
+      "Quill admitted on the open channel that the lung lavage rig had sat under her own tarp at the low gate since the bell struck ten, held back because a bond requires a mark and Dey's line was empty; the power barge brought it in lit, Dey took six breaths on his own, no one thanked Bayo, and the *Tally*'s engine turned once and failed to catch."
     ]
   }
 }
