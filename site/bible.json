@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "inside the med rig's cab, passenger side, panel in front of her, multitool in hand; mule stalled in first with the rock under the tow bar pivot"
+      "status": "passenger seat of the med rig cab, panel and transponder destroyed, boots on the step over the culvert, train sliding"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the rear of the box, shoulder under the left leaf, hinge plate holed and gone silent"
+      "status": "on the gravel by the mule, pulled clear by the belt, out from under the leaf"
     },
     {
       "name": "the man in the pod",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "on the gravel by the mule, floods on the door track, told to pull Miko out by the belt"
+      "status": "on the deck plate by the med rig's rear doors, floods on, stamp in one fist"
     }
   ],
   "threads": [
@@ -115,7 +115,8 @@
       "Miko jams her hinge plate into the left door track and holds the closing doors, but the med rig's steer servo locks to its last heading and swings the box left, dragging the tow bar and mule sideways until the rock under the pivot turns and the rear wheel starts sliding toward the broken pipe lip.",
       "Miko keeps the bowing hinge plate wedged under the med rig door while Rhea holds the mule with her clutch foot, the lockout countdown hits zero and fails silently, and the train settles another inch toward the pipe with the man in the pod on failing battery power.",
       "A feral med rig stenciled BAY 4 / SHIFT 2 rolled up and stopped two meters off the mule's flank, sealing the uphill side, and Ospina's hopper crested the grade with the chipped seal stamp in hand, threatening to close the bay on Miko.",
-      "Rhea refuses Ospina's reseal, transfers the train's weight into the driveline and stalls the mule in first gear to buy two feet of margin, then crosses the tow bar, takes the dropped multitool, and gets into the med rig's cab over the downhill step as the plate's note cuts out."
+      "Rhea refuses Ospina's reseal, transfers the train's weight into the driveline and stalls the mule in first gear to buy two feet of margin, then crosses the tow bar, takes the dropped multitool, and gets into the med rig's cab over the downhill step as the plate's note cuts out.",
+      "Rhea smashes the med rig's panel to stop the drain and free Miko, confirming the man's cell rides a separate tow line so his battery survives, but the transponder and map die with the panel and the tow-bar rock slips, sending the train sliding toward the pipe as the feral rig resumes its heading."
     ]
   }
 }

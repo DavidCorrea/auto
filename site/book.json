@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 16254,
-  "passages": 24,
+  "words": 17034,
+  "passages": 25,
   "arcs": [
     {
       "number": 1,
@@ -36,8 +36,8 @@
       "number": 4,
       "numeral": "IV",
       "title": "Lockout",
-      "words": 3369,
-      "passages": 5
+      "words": 4149,
+      "passages": 6
     }
   ]
 }
