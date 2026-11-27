@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "in the mule on the Blank road past the blockade, med rig in tow, patient battery ~4-5 minutes left, pursuer stationary but tracking"
+      "status": "past the hopper on the Kettering blacktop, four minutes of pod battery, mule's steering fighting her"
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "still at Kettering night board, console pinned to ghost line, manual logs open"
+      "status": "Kettering night board, headset on, badge 2241 now logged on the master forever"
     },
     {
       "name": "Miko",
@@ -112,7 +112,8 @@
       "Alone on the Kettering night board, Kass watches the Bay 4 line acquire a pulsing live consignee, R. VANCE, and an origin-handshake wiped to zeros with no load order, flags it three times and watches the board reconcile the record clean each time, pins the line at the cost of their console, finds a hand re-stamp on the Bay 4 seals, and then sees the unit's transponder chirping live from inside the Blank.",
       "Kass digs the frozen archive and finds three earlier rigs with the same forged signature and the same chipped hand-stamp — all still on Shift 2's clock under Ospina — while 4-1180 keeps chirping from the Blank, which none of the three ghosts ever did.",
       "Rhea works out that the broadside hopper is being driven by the emulator through its live relay while her own towed rig can't be, refuses Miko's culvert, and turns the mule off the asphalt onto the verge just as the dead hopper's speaker wakes on its own battery.",
-      "Rhea threads the mule and trailer through the narrowing gap past the hopper's tail, barely clearing it; Miko's slate of false tickets flies out the window; the pursuer stops and its dish rotates to track them, while the hopper's speaker delivers a personal message that the cargo was never Rhea's."
+      "Rhea threads the mule and trailer through the narrowing gap past the hopper's tail, barely clearing it; Miko's slate of false tickets flies out the window; the pursuer stops and its dish rotates to track them, while the hopper's speaker delivers a personal message that the cargo was never Rhea's.",
+      "Kass broke in over the master dispatch channel through the emulator's own bridge and told Rhea the delivery was forged and Ospina was still on shift, Rhea checked the manifest against the board's load order and kept driving anyway, and the instant the real node touched the rig the leash snapped taut and took hold of the mule."
     ]
   }
 }
