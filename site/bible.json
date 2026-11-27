@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at the bench with Ivo's cartridge at 00:63:18, PENDING COUNTERSIGN still open"
+      "status": "at the bench, cartridge at 00:63:12, PENDING COUNTERSIGN still open, refuses to accept the handover"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "flat bar in hand, standing at the open locker with 61 seals visible on pins built for 124"
+      "status": "at the open seal locker, flat bar in hand, opposed to the handover"
     },
     {
       "name": "the man in the pod",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "holding the tally card, senior-loader initials visible on the crossed numbers, facing the consequences of her signed consignments"
+      "status": "at the shop door, tally card pocketed, moving to hand Marlowe over to Pell at the north gate"
     }
   ],
   "threads": [
@@ -179,7 +179,8 @@
     ],
     "events": [
       "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers.",
-      "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe."
+      "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe.",
+      "Nour argues for handing Marlowe over to Pell as cold arithmetic to save Anza's roster, Rhea counters that the signed shortage makes running impossible too, Miko points out they're calculating with Ivo's dwindling air, and Nour pockets the tally card and leaves to deliver Marlowe to Pell at the north gate."
     ]
   }
 }
