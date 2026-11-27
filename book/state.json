@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "holding shears then passing them to Wren, enforcing boat rule, admitting memory gaps, demanding Wren fetch Nia"
+      "status": "has relinquished the helm to Nia and just suffered a noticeable memory gap"
     },
     {
       "name": "Dey Okafor",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "keeper of the paper log; recorded Teo's unanswered question in the margin"
+      "status": "at the helm of the Marrow, steering by Bayo's voice and the paper log"
     },
     {
       "name": "Ivo Salas",
@@ -196,7 +196,8 @@
       ],
       "chapterSummaries": [
         "The Marrow tied up at the Kettle's low gate and dock-warden Quill named the price of six above-waterline berths — six medicine crates and Dey's indenture — as the storm bell began to count and the tide gave them forty minutes. Wren found the spit can gone from her harness with its beacon still pinging from forty-two meters and admitted she has no memory of any descent that could have left it there. Dey, gray and rattling on the deck mat, needled her until she couldn't get the lie out that she wasn't afraid.",
-        "Wren showed Sol the hand-cut eleven-second span in her own wire and admitted the fifty-two missing minutes; Sol laid down the boat rule—slates run, nobody cuts, nobody goes down alone—and Nia wrote it in the paper log with Wren's signature. Quill then offered Dey free lung lavage only if he signed his indenture into the berth book; Dey said yes with his own mouth, and Quill warned the lung rig is committed to the power barge at the east mole until the bell hits ten. Wren still holds the shears and the unthreaded second cut, while the can's beacon runs down at forty-two meters."
+        "Wren showed Sol the hand-cut eleven-second span in her own wire and admitted the fifty-two missing minutes; Sol laid down the boat rule—slates run, nobody cuts, nobody goes down alone—and Nia wrote it in the paper log with Wren's signature. Quill then offered Dey free lung lavage only if he signed his indenture into the berth book; Dey said yes with his own mouth, and Quill warned the lung rig is committed to the power barge at the east mole until the bell hits ten. Wren still holds the shears and the unthreaded second cut, while the can's beacon runs down at forty-two meters.",
+        "On the low dock, Wren cornered Bayo Adisa and he admitted he cut Ivo Salas's ascent line fourteen months ago and signed him off as lost; when Salas crossed to him and asked his name, the old diver felt nothing at all, the depth having taken Bayo's face from him. Bayo agreed to pilot the Stair for a signed berth and Salas kept below decks. Then the bell struck ten, the channel shut, and Dey's hand came up off the blanket, reaching for air."
       ],
       "summary": "",
       "isClosed": false,
@@ -205,23 +206,17 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 15,
-    "title": "Bayo",
+    "number": 16,
+    "title": "The Stair",
     "beats": [
-      "Wren crosses the low dock with the signed log and the shears, hunting the only pilot who will take the Marrow through the Stair: Bayo Adisa, bell-tender, tying orange splice-knots into a wet line at the mooring ring.",
-      "Bayo greets Wren with an easy promise to get the Marrow through and names his price: keep his berth and keep his face out of Ivo Salas's sight; he explains the Stair as a flooded service channel where the tide and a rope are the only way through.",
-      "From the Marrow rail, Salas looks straight down at Bayo and feels nothing at all—no face, no name, no fear—while Bayo's hands keep tying the same orange splice-knot twice.",
-      "Wren pulls Bayo behind the bell housing and demands to know why he flinched at Salas's name; Bayo admits, flat and too fast, that fourteen months ago he cut Salas's ascent line clean and filed the report that wrote the old diver off as lost.",
-      "Wren tells him the Marrow leaves at the bell whether he is aboard or not, and Bayo agrees to pilot the Stair only if Salas stays below until they are through, then goes back to his knots to buy time.",
-      "Salas climbs the dock ladder, stops in front of Bayo, and asks him his name—and Bayo, who has spent fourteen months making sure that question never came, has to answer or lose the only pilot who can take the Marrow through."
+      "Bayo runs the Marrow onto the Stair rope and kills the motor, and in the black channel with the tide already pulling and the gate shut behind them, Sol lifts Nia onto the helm seat and folds the paper log open across her knees — the first time she has ever handed the wheel to anyone — as the drowned towers close overhead and the rope goes taut.",
+      "Nia steers by Bayo's voice and the orange knots he counts along the rope by feel, and mid-order Sol stops dead, the rest of the sentence simply gone from her; Nia reads Sol's own last written order back to her off the log page, and Sol has to hear her command in a child's voice and let it stand.",
+      "The tide turns mean and the Marrow rolls hard, and in the hold the lashed medicine crates tear loose and slide with Salas trapped below with them; Wren and Bayo fight the load back down as a crate nearly goes over the side and the berths with it, hauling Salas clear by a hand's width before the boat rights.",
+      "Topside Dey stops breathing right — the wet rattle quits, he goes still, then drags in a wrong, whistling breath — and with the lung rig stranded on the power barge and the channel shut, Wren works him over on the deck mat with nothing that will fix him, his name sitting in Quill's book and his indenture riding on him living.",
+      "Wren's receiver goes quiet: the spit can's beacon that has pinged from forty-two meters for hours stops mid-pulse, and when she checks it the battery still has hours left, so it isn't the can dying but something down there reaching it, and she can't say what or who."
     ],
     "events": [
-      "Wren crossed the Kettle's low dock carrying the signed log, the shears, and the pinging receiver, and found Bayo Adisa splicing a wet hawser at the mooring ring, refusing to confirm his own name, as Ivo Salas came up out of the Marrow's hatch behind her.",
-      "Bayo Adisa names his price to pilot the Marrow through the Stair: his own berth and Ivo Salas kept out of sight.",
-      "Salas looks at Bayo from the Marrow rail and feels no recognition at all, while Bayo, braced for a reckoning that never comes, gives himself away by tying the same orange splice-knot twice under Wren's eye.",
-      "Wren confronts Bayo behind the bell housing, he admits he cut Salas's ascent line and wrote him off as lost, and Wren demands to know if he can still pilot before the channel closes.",
-      "Wren forces the deadline—the Marrow leaves at the bell with or without him—and Bayo gives his answer, agreeing to pilot the Stair on the condition Salas stays below decks, then sits back to tie knots and stalls, buying time he doesn't have.",
-      "Salas comes down from the Marrow rail, asks Bayo his name, Bayo answers but Salas doesn’t recognize him, the bell strikes ten and the channel shuts just as Dey stops breathing on the deck."
+      "Bayo guides the Marrow onto the Stair rope, Sol hands the helm to Nia for the first time, and Sol has a memory lapse that Nia notices."
     ]
   }
 }
