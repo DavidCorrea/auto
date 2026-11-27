@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at the bench, cartridge at 00:63:12, PENDING COUNTERSIGN still open, refuses to accept the handover"
+      "status": "standing at med rig's flank in work lights, hand on seal K-7745, blocking reclamation"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the open seal locker, flat bar in hand, opposed to the handover"
+      "status": "at seal locker in shop with flat bar"
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "holding the dispatch line and pod plate, confirming the match"
+      "status": "in shop doorway with dispatch line and pod plate"
     },
     {
       "name": "V. Ospina",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "departed Anza in service rig with empty cradle, will return at north gate by 06:00 with second signature"
+      "status": "at Anza ore stub with service rig, med rig loaded on cradle, winch stopped by Rhea's intervention"
     },
     {
       "name": "Nour",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at the shop door, tally card pocketed, moving to hand Marlowe over to Pell at the north gate"
+      "status": "departed shop with tally card and clipboard, heading to cradle per her word"
     }
   ],
   "threads": [
@@ -180,7 +180,8 @@
     "events": [
       "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers.",
       "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe.",
-      "Nour argues for handing Marlowe over to Pell as cold arithmetic to save Anza's roster, Rhea counters that the signed shortage makes running impossible too, Miko points out they're calculating with Ivo's dwindling air, and Nour pockets the tally card and leaves to deliver Marlowe to Pell at the north gate."
+      "Nour argues for handing Marlowe over to Pell as cold arithmetic to save Anza's roster, Rhea counters that the signed shortage makes running impossible too, Miko points out they're calculating with Ivo's dwindling air, and Nour pockets the tally card and leaves to deliver Marlowe to Pell at the north gate.",
+      "Pell arrives at 06:00 with a service rig and second signature, begins winching the dead med rig onto his reclamation cradle, and Rhea stands in the winch line's path, stopping the haul by placing her hand on the pod's seal and declaring the cargo a living witness requiring a countersign."
     ]
   }
 }
