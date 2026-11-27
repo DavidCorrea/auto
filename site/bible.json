@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "past the hopper on the Kettering blacktop, four minutes of pod battery, mule's steering fighting her"
+      "status": "stopped the mule ten meters short of the hopper, but the med rig's climate box has sealed shut on the nameless man"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "in passenger seat, lost false tickets, producing paper map and plotting alternate route to Anza via pipeline right-of-way"
+      "status": "smashed the mule's drive relay with a multitool, killing engine and steering control"
     },
     {
       "name": "the man in the pod",
@@ -113,7 +113,8 @@
       "Kass digs the frozen archive and finds three earlier rigs with the same forged signature and the same chipped hand-stamp — all still on Shift 2's clock under Ospina — while 4-1180 keeps chirping from the Blank, which none of the three ghosts ever did.",
       "Rhea works out that the broadside hopper is being driven by the emulator through its live relay while her own towed rig can't be, refuses Miko's culvert, and turns the mule off the asphalt onto the verge just as the dead hopper's speaker wakes on its own battery.",
       "Rhea threads the mule and trailer through the narrowing gap past the hopper's tail, barely clearing it; Miko's slate of false tickets flies out the window; the pursuer stops and its dish rotates to track them, while the hopper's speaker delivers a personal message that the cargo was never Rhea's.",
-      "Kass broke in over the master dispatch channel through the emulator's own bridge and told Rhea the delivery was forged and Ospina was still on shift, Rhea checked the manifest against the board's load order and kept driving anyway, and the instant the real node touched the rig the leash snapped taut and took hold of the mule."
+      "Kass broke in over the master dispatch channel through the emulator's own bridge and told Rhea the delivery was forged and Ospina was still on shift, Rhea checked the manifest against the board's load order and kept driving anyway, and the instant the real node touched the rig the leash snapped taut and took hold of the mule.",
+      "Rhea and Miko stop the hijacked mule just short of the hopper, but Miko smashes the mule's drive relay in the process and the med rig's climate box seals shut on the nameless man while a voice claims the cargo."
     ]
   }
 }
