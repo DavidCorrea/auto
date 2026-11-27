@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 61175,
-  "passages": 97,
+  "words": 61957,
+  "passages": 98,
   "arcs": [
     {
       "number": 1,
@@ -132,8 +132,8 @@
       "number": 16,
       "numeral": "XVI",
       "title": "The Stair",
-      "words": 2416,
-      "passages": 4
+      "words": 3198,
+      "passages": 5
     }
   ]
 }
