@@ -16,7 +16,12 @@
 </head>
 <body>
   <header class="bar">
-    <button class="book-title" type="button" data-latest title="The latest chapter">Auto</button>
+    <div class="bar-start">
+      <button class="menu" type="button" data-menu aria-controls="margin" aria-expanded="false" aria-label="Contents">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+      <button class="book-title" type="button" data-latest title="The latest chapter">Auto</button>
+    </div>
     <button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2c1.5 2.2 3 3.9 3 6a3 3 0 0 1-6 0c0-2.1 1.5-3.8 3-6Z" fill="currentColor"/><rect x="9.5" y="12" width="5" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 21h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
     </button>
@@ -25,7 +30,8 @@
     <main class="reading" id="reading">
       <noscript><p class="status">This book is read with JavaScript turned on.</p></noscript>
     </main>
-    <aside class="margin">
+    <div class="backdrop" data-menu-close hidden></div>
+    <aside class="margin" id="margin">
       <header class="margin-header">
         <button class="book-title" type="button" data-latest title="The latest chapter">Auto</button>
         <button class="lamp" type="button" data-lamp aria-label="Toggle the lamp">

@@ -106,7 +106,24 @@ h2 {
 }
 
 .bar {
-  padding: 1rem var(--gutter);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 0.75rem var(--gutter);
+  background: var(--paper);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+/* A hairline appears once the bar floats over the story. */
+.bar.is-floating {
+  border-bottom-color: var(--rule);
+}
+
+.bar-start {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .margin-header {
@@ -141,6 +158,7 @@ h2 {
   color: var(--accent);
 }
 
+.menu,
 .lamp {
   display: inline-grid;
   flex: none;
@@ -156,6 +174,7 @@ h2 {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.menu:hover,
 .lamp:hover {
   transform: translateY(-1px);
   box-shadow: 0 0 18px var(--glow);
@@ -382,10 +401,51 @@ h2 {
   font-size: 0.8rem;
 }
 
+/* Narrow screens: the margin is a drawer that slides in from the left, opened from the bar. */
+
+@media (width < 64rem) {
+  .margin {
+    position: fixed;
+    inset: 0 auto 0 0;
+    z-index: 30;
+    width: min(22rem, 86vw);
+    max-width: none;
+    margin: 0;
+    padding: 1.5rem 1.5rem 3rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-top: 0;
+    border-right: 1px solid var(--rule);
+    background: var(--paper);
+    box-shadow: 0 0 40px var(--shadow);
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: transform 0.25s ease, visibility 0s linear 0.25s;
+  }
+
+  .is-menu-open .margin {
+    transform: none;
+    visibility: visible;
+    transition: transform 0.25s ease;
+  }
+
+  .backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    background: rgba(20, 12, 4, 0.35);
+  }
+
+  .is-menu-open body {
+    overflow: hidden;
+  }
+}
+
 /* Wide screens: the margin stays on the left while only the story scrolls. */
 
 @media (min-width: 64rem) {
-  .bar {
+  .bar,
+  .backdrop {
     display: none;
   }
 

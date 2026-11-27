@@ -201,10 +201,45 @@ function start() {
     show(number);
   }
 
+  // On narrow screens the margin (about, contents, colophon) is a drawer opened from the bar.
+  const menuButton = document.querySelector("[data-menu]");
+  const backdrop = document.querySelector("[data-menu-close]");
+  const isMenuOpen = () => document.documentElement.classList.contains("is-menu-open");
+
+  function setMenuOpen(isOpen) {
+    document.documentElement.classList.toggle("is-menu-open", isOpen);
+    menuButton.setAttribute("aria-expanded", String(isOpen));
+    backdrop.hidden = !isOpen;
+    // Keeps keyboard and screen reader users inside the drawer while it covers the story.
+    reading.inert = isOpen;
+    if (isOpen) {
+      const current = document.querySelector("#contents [aria-current]");
+      current?.scrollIntoView({ block: "center" });
+      (current ?? document.getElementById("margin").querySelector("button, a"))?.focus({ preventScroll: true });
+    }
+  }
+
+  function closeMenu({ returnFocus = false } = {}) {
+    if (!isMenuOpen()) return;
+    setMenuOpen(false);
+    if (returnFocus) menuButton.focus();
+  }
+
+  menuButton.addEventListener("click", () => setMenuOpen(!isMenuOpen()));
+  backdrop.addEventListener("click", () => closeMenu({ returnFocus: true }));
+  addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu({ returnFocus: true });
+  });
+  // Widening the window turns the drawer back into the sidebar.
+  matchMedia("(width >= 64rem)").addEventListener("change", (event) => {
+    if (event.matches) closeMenu();
+  });
+
   // The book's title in the shell opens the latest chapter, whichever that is by now.
   document.addEventListener("click", (event) => {
     const target = event.target.closest("[data-chapter], [data-latest]");
     if (!target) return;
+    closeMenu();
     navigate(target.dataset.chapter ? Number(target.dataset.chapter) : book.chapters.length);
   });
 
@@ -212,10 +247,12 @@ function start() {
     if (event.state?.chapter) show(event.state.chapter);
   });
 
+  const bar = document.querySelector(".bar");
   let isSavingPlace = false;
   addEventListener(
     "scroll",
     () => {
+      bar.classList.toggle("is-floating", scrollY > 0);
       if (isSavingPlace || shownChapter === null) return;
       isSavingPlace = true;
       setTimeout(() => {
