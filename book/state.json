@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at the warden's shutter, hand flat on sill, bond forfeit, no berth, crew scattered below with Dey's indenture due in three hours and the channel sealing"
+      "status": "at the warden’s shutter above, warns Dey not to take the line, then closes the shutter"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "present on the stair with failing lungs"
+      "status": "on the wet step beneath the warden’s box, lungs failing from his last dive, ordered to work off his debt or go to the Factor’s keeping"
     },
     {
       "name": "Wren Achebe",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "standing at the service trunk hatch, realizing the gold is still underwater"
+      "status": "claims the service trunk dive to thirty-eight meters, stepping toward the hatch with Dey holding her wrist"
     },
     {
       "name": "Ivo Salas",
@@ -310,7 +310,8 @@
     ],
     "events": [
       "The Kettle’s gate seals shut while Nia counts Teo’s remaining medicine and resolves to dive the service trunk herself as Dey approaches on the stair.",
-      "Nia connects Mara’s spoken “thirty-eight” to the sealed service trunk below Mercy General and realizes the mint gold Quill recorded for Mara’s berth is still sitting under the Line at that depth."
+      "Nia connects Mara’s spoken “thirty-eight” to the sealed service trunk below Mercy General and realizes the mint gold Quill recorded for Mara’s berth is still sitting under the Line at that depth.",
+      "Dey arrives with ruined lungs and Quill’s order that he must dive off his indenture or be taken by the Factor, but he cannot physically make the descent, so Nia resolves to take the line herself despite her scrubber being half-spent."
     ]
   }
 }
