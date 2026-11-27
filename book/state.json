@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at Anza relay shop, staying with Ivo, transponder smashed and rig untraceable."
+      "status": "at the ore stub with Teodoro, breaker bar in hand, facing Pell; Ivo's filter alarm due at 06:00"
     },
     {
       "name": "Kass",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at Anza relay with an open box, broken seal, and a hole in his seal stock he can’t explain."
+      "status": "at the ore stub with tablet and work light, manifest open"
     },
     {
       "name": "V. Ospina",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": ""
+      "status": "arrived on ore stub in unmarked service rig, empty cradle on deck, asking who signs for ballast"
     },
     {
       "name": "Nour",
@@ -174,6 +174,8 @@
       "Pell moves to load the box; Rhea puts herself and a tool cart between him and the cradle, Nour argues that Anza eats through winter only on the line's good schedule and that one stranger isn't worth a node's shifts, and Pell — unbothered, writing on his slate — gives them the clock: handover by the 06:00 shift change or the freeze holds through the next resupply cycle; in the shop, Ivo's respirator starts its filter alarm, three short tones, counting down hours he doesn't have.",
       "The man walks out of the shop on his own feet into the yard, stands in front of both crews in the cold, refuses the cradle and asks Anza to put him somewhere he can be counted instead of carried — and Rhea, for the first time in her life, takes a person's word over a diagnostic and says the node keeps him; Pell marks the refusal on his slate, tells them he'll be back before the shift turns with a second signature, and down the stub, past the ore bins, a set of headlights comes on with no transponder behind them."
     ],
-    "events": []
+    "events": [
+      "A reclaimer named Pell arrives at the unlit ore stub in an unmarked heavy service rig carrying an empty cradle, and asks who signs for ballast at Anza while Rhea and Teodoro are cutting the med rig's pod cradle free."
+    ]
   }
 }
