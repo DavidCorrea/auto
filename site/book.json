@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 38917,
-  "passages": 60,
+  "words": 39707,
+  "passages": 61,
   "arcs": [
     {
       "number": 1,
@@ -84,8 +84,8 @@
       "number": 10,
       "numeral": "X",
       "title": "The Man Who Kept the Air",
-      "words": 2765,
-      "passages": 5
+      "words": 3555,
+      "passages": 6
     }
   ]
 }
