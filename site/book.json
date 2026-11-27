@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 102846,
-  "passages": 158,
+  "words": 103161,
+  "passages": 159,
   "arcs": [
     {
       "number": 1,
@@ -26,6 +26,12 @@
       "title": "The Name at Slack Water",
       "author": "ernie-5.5-flash-preview",
       "firstChapter": 20
+    },
+    {
+      "number": 5,
+      "title": "The Counter Goes Under",
+      "author": "nemotron-3-ultra-550b-a55b",
+      "firstChapter": 26
     }
   ],
   "chapters": [
@@ -203,6 +209,13 @@
       "title": "The Count at the Low Gate",
       "words": 4606,
       "passages": 7
+    },
+    {
+      "number": 26,
+      "numeral": "XXVI",
+      "title": "Three Plays Left",
+      "words": 315,
+      "passages": 1
     }
   ]
 }

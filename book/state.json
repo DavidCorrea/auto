@@ -8,7 +8,7 @@
       "role": "captain of the salvage boat the Marrow",
       "wants": "enough money to buy her crew berths on the highland arcology before storm season drowns their mooring",
       "flaw": "hides how much of her memory she's already lost and won't hand anyone the helm.",
-      "status": "at the helm, brought the Marrow through the gap, kept the boat"
+      "status": "in cabin doorway, Marrow, captain, orders the slate played"
     },
     {
       "name": "Dey Okafor",
@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "at the drum, brake smoking"
+      "status": "in companionway, lungs rattling, indentured, scrubber given to Teo"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "eleven seconds gone, slate margin empty, the Caller's note identified as the only thing Salas ever heard"
+      "status": "cabin, Marrow, holding Salas's slate with three plays remaining, eleven seconds missing from memory"
     },
     {
       "name": "Nia Vos",
@@ -32,7 +32,7 @@
       "role": "a girl surviving alone in the drowned hospital tower",
       "wants": "to keep her little brother Teo alive on the last of his medicine",
       "flaw": "trusts no one and has run the cold-box by hand for a year rather than ask for help, nearly dead herself.",
-      "status": "on the Marrow's rail, holding the last medicine wand warm against her ribs (now orange/useless), Teo asleep below"
+      "status": "in cabin, holding Teo, watching the slate"
     },
     {
       "name": "Ivo Salas",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "name restored to the berth book (struck fourteen months ago when his cut line came up without him); Keep logged nil (surfaced hollow); still silent at the lift-frame"
+      "status": "in cabin, hollow, silent, berth book open, pen frozen"
     },
     {
       "name": "Anselm Rusk",
@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "gone down with his barge in the channel, refused rescue"
+      "status": "dead, gone down with his lightless barge in the channel after refusing a free line."
     },
     {
       "name": "Pru Quill",
@@ -56,7 +56,7 @@
       "role": "dock-warden of the Kettle, the arcology's low gate, keeper of the berth book",
       "wants": "to fill her book before the storm bell shuts the channel, because her own berth is forfeit if she ends one short",
       "flaw": "cannot lie, not once, so she names the true price of things at the worst possible moment, and having never been below the Line she thinks lost memory is just carelessness.",
-      "status": "count full and book shut, last toll still standing in the notch"
+      "status": "book shut, count full, wrote “Lost memory was never carelessness” under her own hand."
     },
     {
       "name": "Bayo Adisa",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "in the Marrow's bow inside the low gate, hands ruined, calling water only"
+      "status": "at hatch, bandaged hands, calling surge timing to deck"
     },
     {
       "name": "Mara Vos",
@@ -72,15 +72,13 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "untied from the lift-frame, on the stage, starting up the low gate stair between Salas and Dey, counted back to one"
+      "status": "berth four-eleven, Keep nil, hollow, counting from one again on the low gate stair between Salas and Dey."
     }
   ],
   "threads": [
-    "Wren's eleven seconds sit in the Caller's throat, payable at any slack water by anyone who puts a hand flat on the brass",
-    "The Marrow's copper line is out of the box with the ebb making and Rusk's barge running in dark, and Wren's eleven seconds sit at the front of the Caller's queue with Mara on the rope asking who's first and no topside left to say no.",
-    "The Caller's timer arm is out of its notch with the governor dead, so it will ring again on its own; Bayo sits at the front of the queue with a whole topside behind him, and every voice it hands back costs the speaker a piece.",
-    "The Stair is closed behind them for the season; the Marrow must reach the low gate before the storm bell shuts it, with Mara hollowed, Nia carrying useless medicine, Teo remembering a whole mother, and Bayo's hands ruined.",
-    "Teo still has two notes of a song his mother never sang, and Mara answers them; Nia has to decide whether the two notes are all the mother he gets."
+    "Wren carries Salas's drowned slate with three plays left, and she has not yet played the third.",
+    "Dey remains indentured despite carrying a berth, and his papers come due before storm season locks the channel.",
+    "Mara is hollow and counting from one, and no one knows what number she will stop at."
   ],
   "arcs": [
     {
@@ -249,34 +247,63 @@
         "The Marrow slipped the low gate and ran north to find Rusk's dead barge swung across the only gap in the Stair, with Rusk himself in the water holding the channel shut by a lanyard while he offered Sol berths for the children or the boat. Sol refused him aloud, and he revealed he'd watched a lamp and a hand bell burning in Mercy General's high ward for five months — proof Mara is a body to save — then read the tide and waited. The Marrow sat at the channel mouth with the ebb beginning, a real hand bell rang two notes across the water, and Salas rose off the winch drum.",
         "The Marrow slipped the Stair past Rusk's swinging barge and moored at Mercy General's drowned flank, where Wren and Dey crossed the Line into a thick-aired high ward and found Mara Vos alive at the crank, hollowed, greeting her own daughter like one more interesting object. At slack the Caller rang itself and gave back Salas's voice saying \"Mara,\" and Wren worked out that the bell keeps every voice spoken in that air and eats the part of the speaker that made it. Mara now insists she must give it a voice, Wren has a palm over Dey's mouth, and the timer's hammer is lifting.",
         "Wren paid her eleven seconds into the Caller with her palm flat on the brass and lost the reason she had kept them; the bell gave back Mara's last clear voice naming Nia and Teo and telling them to keep the lid shut, then rang out of turn and said Wren's name, and Mara admitted she is the voice that has been calling Wren up from every dive. The governor died, Teo's medicine drawer came off green and started up through yellow, the ebb began pulling at the seaward gap, and Mara took the bell rope back up and asked who was first.",
-        "The squall tore the ward door off and the dead-governed Caller rang itself over the open copper, so Wren cut the line and ran hollowed Mara up the shaft in the lift-frame. Rusk rammed the Marrow with his powerless barge and offered Sol berths for the children in trade for the woman and the boat; Sol refused a third time, Bayo held the burning ascent line and called the gap, and Rusk went down rather than take a free line. The Marrow shot the gap as the port marker died and the Stair sealed — Mara counting fathoms, Nia holding the last useless wand, Teo asleep below."
+        "The squall tore the ward door off and the dead-governed Caller rang itself over the open copper, so Wren cut the line and ran hollowed Mara up the shaft in the lift-frame. Rusk rammed the Marrow with his powerless barge and offered Sol berths for the children in trade for the woman and the boat; Sol refused a third time, Bayo held the burning ascent line and called the gap, and Rusk went down rather than take a free line. The Marrow shot the gap as the port marker died and the Stair sealed — Mara counting fathoms, Nia holding the last useless wand, Teo asleep below.",
+        "The Marrow reaches the low gate before the season bell seals the Stair, but Warden Quill demands Mara speak her own name before any body rises. Mara says “Mara Vos,” claims berth four-eleven despite being hollow, and the crew carries her up the stair as the grate slams shut and the channel closes for spring."
       ],
+      "summary": "The crew ran the drowned Stair to Mercy General and found Mara Vos alive but hollowed after fourteen months tending the Caller and cold-case. Wren traded her eleven seconds to recover Mara’s voice, learning Mara was the deep call that had haunted her, while Salas’s name was restored to the berth book though he surfaced hollow. At the gate Quill could not lie or round the count, so Nia forced Teo to face his mother’s emptiness; Mara spoke her name, secured a dry berth, and the storm closed the Stair over them with Mara beginning to count from one again.",
+      "isClosed": true,
+      "firstChapter": 20
+    },
+    {
+      "title": "The Counter Goes Under",
+      "goal": "The crew races the rising tide to turn Salas's drowned slate into salvage deep enough to buy their berths and Dey's freedom before the low gate seals for the season; it ends when Sol tells the truth about her missing hour and the crew chooses to stay together on the Marrow rather than scatter for high ground.",
+      "author": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "plan": [
+        {
+          "title": "Three Plays Left",
+          "summary": "Wren plays the first of three recordings on Salas's drowned slate and hears Mara Vos directing divers to a second sealed pocket below the pharmacy at Mercy General; Sol decides they must dive it before the surge closes the Stair, and the second play begins with Wren's own voice speaking words she does not remember."
+        },
+        {
+          "title": "Keep Nil",
+          "summary": "Sol takes the Marrow's bond to Pru Quill at the Kettle low gate, but Quill's book is shut, her count is full, and she cannot lie: Sol's bond is lost, her credit is nil, and Dey's indenture papers fall due by the next tide; Dey is ordered to dive off his debt or be taken off the boat, and Quill shows Sol that berth four-eleven is held by Mara Vos, leaving no berth for the captain."
+        },
+        {
+          "title": "The Count",
+          "summary": "Nia sits with Mara at berth four-eleven as Mara counts upward from one and speaks thirty-eight meters, the depth of the service trunk where she sealed a cache before going hollow; Nia resolves to dive it herself with the scrubber because Dey's lungs will not clear, and the scrubber canister dies at thirty meters."
+        },
+        {
+          "title": "The Second Play",
+          "summary": "Wren plays the second recording and hears Salas's voice from fourteen months ago accusing Bayo Adisa of cutting his line; Bayo arrives at the companionway with bandaged hands, and Salas, silent for months, speaks Bayo's name over the ship's comms."
+        },
+        {
+          "title": "Until Spring",
+          "summary": "Sol lashes the Marrow in the lee of the gate and sends Nia down the service trunk while Dey tends the drum and Salas follows on the line; Nia reaches thirty-eight meters and finds Mara's cache—pre-drown currency and a child's coat—worth berths but not enough for Dey's freedom, and the surge arrives early, flooding the trunk and snapping the line at forty meters."
+        },
+        {
+          "title": "Berth Four-Eleven",
+          "summary": "Dey hauls Nia to the surface while Salas fights his own way out through the trunk's service seal and surfaces hollow but alive; the pooled currency buys four berths and burns Dey's indenture, but not enough for every highland berth, so Sol tells the crew the truth about the missing hour and they vote to stay on the Marrow together through storm season, while Mara reaches one hundred in her count and stops."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 20
+      "firstChapter": 26
     }
   ],
   "chapter": {
-    "arc": 4,
-    "number": 25,
-    "title": "The Count at the Low Gate",
+    "arc": 5,
+    "number": 26,
+    "title": "Three Plays Left",
     "beats": [
-      "The Marrow runs the drowned reach for the Kettle's low gate with the squall at her back, Bayo calling the channel from the bow on hands too burned to grip a line and Sol reading the flat cork floats at the spoke-box; they slide under the lowering gate-grate as the season bell begins to toll, and Quill, who cannot lie, meets them at the counter already saying the true thing — her berth book is one soul short, and her own berth is forfeit if it ends that way.",
-      "Quill starts the count and it snags on the woman in the lift-frame: she cannot write a name Mara will not give, and Mara only asks, pleasant as weather, for rope and keeps counting fathoms, so Quill says flatly that no name means no line and she will not invent one, while above them the grate drops a notch on the next toll.",
-      "To fill the line Quill must record what each diver carried up, and being unable to soften anything she says it in front of the whole deck: Wren Achebe came back short eleven seconds — and Wren, who has spent her life editing slates to spare people exactly this, hears her own loss made permanent by a woman who can't round it down, and reaches for a slate with nothing left to write in the margin.",
-      "Logging Salas and Mara as divers who surfaced hollow breaks Quill's old certainty; a woman who never went below the Line and called lost memory carelessness looks at the two empty people in front of her and says it aloud, into her own book, that lost memory was never carelessness — then asks Mara, on the record, for the name.",
-      "Neither the woman nor the record can supply it, so Salas and Nia hold Mara's name for her between them — Mara Vos, the diver who stayed to keep the Caller and the cold-case lit — and give Quill her line while Mara repeats it after them like a word in a language she used to speak, and Salas, silent all night, says nothing because for once he has nothing to add.",
-      "The cabin hatch opens and Teo comes up twelve years old and certain, asking for his mum and the song she sang, remembering a whole warm woman — and the woman on the deck is hollow and does not know him, the orange wand against Nia's ribs gone useless and the only medicine left, and Nia's face does the thing it does when it is doing the most.",
-      "Nia decides what loving her brother means and kneels to Teo with the truth instead of the mother he remembers — this is Mara, this is what she became, this is why — holding them both as the season bell tolls its last and the channel grate booms shut over the Kettle, sealing them on the high ground with a hollowed mother, a ruined-handed pilot, and a boy who now has to hold his mother's name the way the rest of them do."
+      "With the Marrow lashed in the lee of the Kettle, the storm bell already ringing and the low gate due to seal at the next tide, Wren sits in the cramped cabin turning Salas's drowned slate over in her hands while the hollow old diver watches her, silent; she warns the crew the recorder's works are full of saltwater and it holds only three plays left, then thumbs the first one alive.",
+      "The first play opens on a diver's-eye view of black water, and out of the static comes Mara Vos's voice—the same voice that once called Wren's name up from the deep—calmly directing divers past the pharmacy pocket to a second seal beneath it, below the Line, and calling out a depth that silences even Sol.",
+      "The play runs dry with two left, and while Salas says nothing Wren rebuilds what she can and lays it out: the second pocket sits under the pharmacy at Mercy General, deeper than any of them have ever worked, and Sol says the number aloud—enough salvage down there to buy every berth and burn Dey's indenture clean.",
+      "Sol gives the order to dive the second pocket now, before the surge floods the Stair and the gate seals the channel for the season, and the crew rounds on her: Dey's lungs won't clear, Salas is hollow, and Nia is the only one aboard small enough to fit the service trunk.",
+      "The crew rigs the drum and argues over who goes down while Bayo calls the surge from the bow, warning it's running early and the bell won't wait; Sol refuses to say how she knows the pocket is real and won't hand the helm to anyone, and Dey's indenture papers sit on the chart table with the tide already turning against them.",
+      "A swell slams the Marrow hard enough to knock the slate from Wren's hand, and when she catches it the second play has already started—and the voice coming out of Salas's recorder, low and clear over the storm, is Wren's own, speaking words she has no memory of ever saying."
     ],
     "events": [
-      "The Marrow runs the drowned reach with Bayo calling water from the bow and giving up any claim on a line, Sol reads the cork floats at the spoke-box and takes the shoal side for the extra fathom, and they slide under the lowering gate-grate as the bell tolls six, where Quill meets them saying her book ends a soul short and her berth is forfeit.",
-      "Quill names the whole crew into the berth book but stops at the last line, refusing to write a name Mara won't give and declaring that no line means Mara stays in the basin until spring, as the eighth toll drops the grate to one notch left.",
-      "Quill reads Wren's loss aloud into the berth book — eleven seconds short, freely given — and Wren finds her slate margin empty because she never logged them, with the last toll in the chain lifting and Mara still unnamed.",
-      "Quill restores Salas's name to the book (explaining it isn't a rumor but a name she struck herself when his line was cut fourteen months ago) and logs him hollow, which breaks her certainty that lost memory is carelessness — she recants it aloud and in ink, then demands Mara's name from Mara's own mouth before the last toll.",
-      "Nia and Wren get Mara to say her own name — Wren playing the slate and showing the \"song\" was only the Caller's note carrying to Salas at depth — and Quill writes Mara Vos in with Keep nil and berth four-eleven, closing her count, then calls for Teo just as the cabin hatch lifts.",
-      "Teo climbed out of the cabin and ran to the hollowed Mara, who counted and asked him if the rope was his, then called her mother's wrongness out to Nia.",
-      "Nia kneels to Teo and gives him the truth instead of his mother — her name, what she spent and what it cost — and makes him carry that name and the dead wand up the stair as the last toll booms the grate shut and the surge starts over Quill's counter."
+      "Wren warns the crew that Salas's drowned slate holds only three plays left, thumbs the first actuator, and the cabin fills with static as everyone leans in to listen."
     ]
   }
 }
