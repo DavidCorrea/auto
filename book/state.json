@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "indentured to the Kettle, name scored in the berth book, still gray and untreated"
+      "status": "gray on the Marrow’s deck mat, reaches for air and fails as the bell hits ten"
     },
     {
       "name": "Wren Achebe",
@@ -40,7 +40,7 @@
       "role": "an old diver trapped in an air pocket at forty-two meters in the salvage tower",
       "wants": "one ride up on the winch",
       "flaw": "lends out the air he needs himself and trusts a stranger's promise",
-      "status": "already topside at the Marrow rail, watching them, still unable to recognize Bayo's face."
+      "status": "below decks, air gauge in red, roughly thirteen minutes left"
     },
     {
       "name": "Anselm Rusk",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "gave his answer and agreed to pilot the Stair if Salas stays below decks until they're through; stalling at his knots on the crate, not yet moving"
+      "status": "aboard the Marrow, Salas stowed below, identity spoken but unrecognized, piloting deal intact"
     }
   ],
   "threads": [
@@ -72,7 +72,8 @@
     "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering.",
     "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
     "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
-    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way"
+    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way",
+    "The channel is shut and Dey is suffocating, leaving the Marrow with no way through the Stair and no time for the lung rig on the power barge"
   ],
   "arcs": [
     {
@@ -219,7 +220,8 @@
       "Bayo Adisa names his price to pilot the Marrow through the Stair: his own berth and Ivo Salas kept out of sight.",
       "Salas looks at Bayo from the Marrow rail and feels no recognition at all, while Bayo, braced for a reckoning that never comes, gives himself away by tying the same orange splice-knot twice under Wren's eye.",
       "Wren confronts Bayo behind the bell housing, he admits he cut Salas's ascent line and wrote him off as lost, and Wren demands to know if he can still pilot before the channel closes.",
-      "Wren forces the deadline—the Marrow leaves at the bell with or without him—and Bayo gives his answer, agreeing to pilot the Stair on the condition Salas stays below decks, then sits back to tie knots and stalls, buying time he doesn't have."
+      "Wren forces the deadline—the Marrow leaves at the bell with or without him—and Bayo gives his answer, agreeing to pilot the Stair on the condition Salas stays below decks, then sits back to tie knots and stalls, buying time he doesn't have.",
+      "Salas comes down from the Marrow rail, asks Bayo his name, Bayo answers but Salas doesn’t recognize him, the bell strikes ten and the channel shuts just as Dey stops breathing on the deck."
     ]
   }
 }
