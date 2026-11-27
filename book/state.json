@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "folder back in her coat, hand on the seal locker latch"
+      "status": "at the open seal locker with flat bar in hand, having exposed the shortage publicly"
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at the board, Kettering lines reachable but every call touching Bay 4 is logged by the reclaimer's office before it routes"
+      "status": "holding the dispatch line, turning to the pod's plate to verify the seal numbers"
     },
     {
       "name": "V. Ospina",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "off the doorframe, forced the hand-over-or-find-a-seal fork and accused the yard aloud of leaking seals"
+      "status": "holding the tally card, senior-loader initials visible on the crossed numbers, facing the consequences of her signed consignments"
     }
   ],
   "threads": [
@@ -156,7 +156,8 @@
         }
       ],
       "chapterSummaries": [
-        "Pell's warrant-token froze Anza's board and resupply, and Teodoro confirmed the pod's plate line by line — Bay 4, Shift 2, 412 kilos, ballast — before the man walked in and asked what ballast meant. He gave his name as Decklan Marlowe, Rhea entered him as crew on mechanic's authority with twenty minutes to the 06:00 shift change, and Pell left for the north gate with a promise of a second signature. A heavy unmarked service rig is now coming in hot up the haul road, no transponder, no ID."
+        "Pell's warrant-token froze Anza's board and resupply, and Teodoro confirmed the pod's plate line by line — Bay 4, Shift 2, 412 kilos, ballast — before the man walked in and asked what ballast meant. He gave his name as Decklan Marlowe, Rhea entered him as crew on mechanic's authority with twenty minutes to the 06:00 shift change, and Pell left for the north gate with a promise of a second signature. A heavy unmarked service rig is now coming in hot up the haul road, no transponder, no ID.",
+        "With four minutes until Pell's countersign and Ivo's cartridge at 00:64:02, Miko laid out a clean coast run under three bought names, and Marlowe put all three tickets back on the counter — the third belonged to a Bay 4 loader already filed as a discrepancy, so the run would only carry him into a closed claim. Rhea wrote him onto the node plate as crew, alive, not weight, opening a PENDING COUNTERSIGN field nobody at Anza can fill. Then the seal locker ran its shift-change inventory, counted far short of its tally card out loud in front of the whole shop, and Miko put her hand on the latch."
       ],
       "summary": "",
       "isClosed": false,
@@ -165,25 +166,19 @@
   ],
   "chapter": {
     "arc": 2,
-    "number": 7,
-    "title": "Three names",
+    "number": 8,
+    "title": "Half-empty locker",
     "beats": [
-      "The rig brakes hard on the stub and Miko drops out of the cab of a coast-string tender — a small runabout that meets the long-haul string at the junction — transponder pulled, same trick Rhea used on the med rig. She's got a folder of three coast tickets, three names, and no apology. She counts the people at the counter, sees a strapped shoulder that isn't Ivo's, and asks which one of them needs to stop being who they are.",
-      "Rhea buys Ivo time by pulling the scrubber cartridge out of the dead med rig in the back bay (it will never run again; the cartridge is the only part worth keeping) and seats it in Ivo's mask, establishing the rule out loud: a cartridge is about ninety minutes of diaphragm, and there is no second one on the node. Ivo, lucid between wheezes, tells Marlowe that a name off a ticket is still weight — you just get delivered somewhere with nobody to sign for you.",
-      "Miko walks the run through step by step so everyone can see it: the ore stub on foot, the tender to the junction, the 06:40 coast string out of Bitter Wells, a loader's bunk down-line. Then the price: every name on a ticket belongs to a real loader who will be asked why they weren't at their post, and the third name came off a woman who already no-showed a Kettering board — the exact kind of loose line a reclaimer gets paid to close.",
-      "Miko makes Marlowe into the name — loader's jacket over the Kettering coveralls, scraped jaw wiped, the name drilled into him twice — and Rhea does what she always does and asks the machine: she puts the substitution to the tender's manifest scanner, which reads the folder and chirps that the swap will scan clean. The tender flashes READY. Behind Rhea the node's plate still glows *Designation: ballast.*",
-      "Marlowe answers to the name once, twice, then takes the ticket out of Miko's hand and gives it back. He says he's spent one shift as dirt and isn't going to spend the rest of his life as somebody else's dirt, and asks instead who at this node has a stamp that can put a living man on a board. Hook: Nour says the only stamp in reach belongs to a loader three hundred kilometers down the line, and the shift that owns it ends tonight.",
-      "Nour forces the fork with node math, not mercy: running him does not unfreeze the board, and once the line reads Anza as hiding cargo there is no window next cycle either — so it's hand him over or find a seal, and either way somebody at Anza has to answer for the seals that have been leaving this yard. Teodoro, trying Kettering dispatch, reports that every call about Bay 4 tonight is being logged by the reclaimer's office before it routes.",
-      "Rhea hands the folder back to Miko and turns on her own habit: every machine agreed with every other machine all the way down the line — plate, repeater, scanner — and every one of them was wrong, so she isn't helping the paper travel. She takes the plate stylus and adds a line under mechanic's authority — *Marlowe, Decklan. Alive. Not weight* — which the plate accepts and flags PENDING COUNTERSIGN. Then the seal locker on the shop wall chirps its scheduled inventory ping, and the count comes back short of the tally card."
+      "Miko pries the locker's bar-and-cam latch with a loader's flat bar while Nour tells her what that costs. Inside, sixty-one numbered lead-and-wire seals — crimps that close a bay hasp, each number written to the tally card — hang on pins built for a hundred twenty-four. The locker logs a badge at the latch only, and during the five-minute shift overlap the key hangs on the yard hook, so half the stock walked and the log swears nobody came. A dispatch line signed down-line to Kettering is folded in the door slot, and Teodoro is already reaching for the pod's plate.",
+      "Teodoro reads the seal numbers off the plate he confirmed an hour ago against Anza's dispatch line, and they match, number for number: the node's own stock crimped the lid Marlowe woke up under. Marlowe says Anza's hospitality has improved since the last time. Nour takes the card out of Miko's hand and finds her own senior-loader signature at the bottom — senior signs every consignment, and she never counted what she was signing.",
+      "Nour turns with the card in her fist and argues hand-over as arithmetic, not cowardice: a signed shortage, a frozen warrant, a med rig with its transponder cut out and a man breathing on the couch is enough to flag Anza into a thin-roster winter, and Pell goes home satisfied if the node gives him the box and the paper together. Rhea says the card is why running fails too. Miko says they are all doing sums with Ivo's air. Nour pockets the card and goes for the door.",
+      "Pell hits the north gate at 06:00 with his second signature and doesn't wait to be handed anything. He backs the service rig to the ore stub, chains the dead med rig's tie-downs and starts winching it toward the empty cradle — reclamation takes the pod sealed, lid unopened, and all he needs is the box on his deck. The drag comes up through the shop floor, Ivo's lamp reads 00:52, and Rhea walks out into the work lights and stands in the winch line's path.",
+      "Miko goes to the yard office for the overlap sheet, the two-ply form that names who was on the floor during the five unlogged minutes. Last night's white sheet is torn out of the book, but the carbon underneath still holds the writing backwards and holds two names, and one of them belongs to somebody due through the shop door within the hour.",
+      "Anza's Shift 2 relief clocks in with the locker key still on their wrist cord, sees the open locker and the bare pins and doesn't bother asking. Shown the carbon, they admit the seals went down-line as consumables against resupply credit — the arrangement that kept this node's roster fat through two lean cycles. Nour goes quiet in a way worse than shouting. The loader says they knew only one hand at the far end, and says the name. Marlowe's scraped jaw stops working.",
+      "Nour closes the locker herself, takes the card and the carbon, and walks out past Rhea into the work lights, hailing Pell on the open yard channel where his desk hears every word: Anza will hand over the ballast and its own shortage together. Pell answers that he'll take the box and the paper, and wants the loader who signed that dispatch walked to his cradle too. Behind Nour, the relief slips back toward the stub track with the key in their fist."
     ],
     "events": [
-      "Miko arrives at Anza in a coast-string tender with transponder removed, carrying three coast tickets under three names, and confronts the room — including the strapped-shoulder man on Teodoro's couch — asking who needs to stop being who they are.",
-      "Rhea pulled the last sealed scrubber cartridge off the dead med rig and seated it into Ivo's empty mask port, setting the rule at ninety minutes with no spare on the node, and Ivo told Marlowe that a ticket name without a signature is just weight that walks.",
-      "Miko laid out the escape run — ore stub, tender to Bitter Wells, the 06:40 coast string, a down-line bunk — then named the price: each ticket belongs to a real loader whose line will read absent, and the third, Sabine Cordy, a Bay 4 Shift 2 loader who clocked off at 21:47 and vanished, is already a loose line with a reclamation claim open on it, as something heavy comes up the haul road.",
-      "Miko dresses Marlowe as Sabine Cordy and drills the name into him; Rhea runs the substitution through the tender's manifest scanner, which returns clean across the board, but the node's plate still reads \"Designation: ballast\" as Pell's service rig arrives at the north gate.",
-      "Marlowe sets the Sabine Cordy ticket back on the counter and refuses to run under another loader's name, asking instead who at Anza holds a stamp that can put a living man on a board — and Nour answers that the only one in reach is a Kettering Bay 4 Shift 2 loader three hundred kilometers down-line, whose shift ends at 06:00, eleven minutes out.",
-      "Nour forces the choice — hand Marlowe to Pell or find a seal — warns that running him only flags Anza and that someone in the yard has been feeding seals down-line, and Teodoro reports every Kettering call about Bay 4 is now logged by the reclaimer's office before it routes.",
-      "Rhea refused to run Marlowe, entered him on the node's plate as alive and not weight under mechanic's authority — which the plate accepted as PENDING COUNTERSIGN — and then the seal locker's shift-change inventory ping announced a count far short of its tally card in front of the whole room."
+      "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers."
     ]
   }
 }
