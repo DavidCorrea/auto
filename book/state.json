@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "in the mule's seat, right foot on the clutch, rear tire over the pipe lip, uphill escape blocked by the feral rig"
+      "status": "inside the med rig's cab, passenger side, panel in front of her, multitool in hand; mule stalled in first with the rock under the tow bar pivot"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the rear of the med rig, shoulder under the left door leaf, plate bowing, arm free, nowhere to go if the bay seals"
+      "status": "at the rear of the box, shoulder under the left leaf, hinge plate holed and gone silent"
     },
     {
       "name": "the man in the pod",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "standing on the running board of a yard hopper at the shoulder, chipped stamp in hand, offering to reseal the bay"
+      "status": "on the gravel by the mule, floods on the door track, told to pull Miko out by the belt"
     }
   ],
   "threads": [
@@ -114,7 +114,8 @@
       "The med rig's attendant declared arrival at a Bay 4 that doesn't exist, cycled the cargo seal to red, and started a five-minute lockout that ends with the pod's battery drained into the chill plate and the sedated man dead, while the doors came down, the feral rigs' engines woke out on the shoulder, and Miko ran for the track with the hinge plate.",
       "Miko jams her hinge plate into the left door track and holds the closing doors, but the med rig's steer servo locks to its last heading and swings the box left, dragging the tow bar and mule sideways until the rock under the pivot turns and the rear wheel starts sliding toward the broken pipe lip.",
       "Miko keeps the bowing hinge plate wedged under the med rig door while Rhea holds the mule with her clutch foot, the lockout countdown hits zero and fails silently, and the train settles another inch toward the pipe with the man in the pod on failing battery power.",
-      "A feral med rig stenciled BAY 4 / SHIFT 2 rolled up and stopped two meters off the mule's flank, sealing the uphill side, and Ospina's hopper crested the grade with the chipped seal stamp in hand, threatening to close the bay on Miko."
+      "A feral med rig stenciled BAY 4 / SHIFT 2 rolled up and stopped two meters off the mule's flank, sealing the uphill side, and Ospina's hopper crested the grade with the chipped seal stamp in hand, threatening to close the bay on Miko.",
+      "Rhea refuses Ospina's reseal, transfers the train's weight into the driveline and stalls the mule in first gear to buy two feet of margin, then crosses the tow bar, takes the dropped multitool, and gets into the med rig's cab over the downhill step as the plate's note cuts out."
     ]
   }
 }
