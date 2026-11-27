@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "offered free lung lavage by Quill in exchange for signing indenture to the Kettle; choice pending as the storm bell counts down"
+      "status": "indentured to the Kettle, name scored in the berth book, still gray and untreated"
     },
     {
       "name": "Wren Achebe",
@@ -71,7 +71,8 @@
     "The eleven-second cut in Wren's own record was made by her own hand last night, and she has no memory of making it or of the descent it erased.",
     "Teo told Nia \"you own mine\" and Nia answered by checking the cold-box instead of answering.",
     "Wren's missing spit can is transmitting from forty-two meters, suggesting she made an unrecorded descent past the depth where memory begins to fail",
-    "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts"
+    "Teo's question — what happens to Dey's name once the berth book has it — must be answered before the channel shuts",
+    "The Kettle's lung rig is on the power barge at the east mole, committed there until the bell hits ten, by which time the Marrow will be under way"
   ],
   "arcs": [
     {
@@ -217,7 +218,8 @@
       "Wren explains the iron rule of the dive wire and reveals a second, unplayed snipped span on the master record that she has been afraid to thread.",
       "Sol admits her own memory gaps, enforces the Marrow’s wire rule, makes Wren repeat it aloud, passes the shears back to her, and orders her to fetch Nia and the paper log before playing the eleven-second span.",
       "Nia writes Sol's rule into the paper log and reads it back line by line while Wren signs her own name under it, and Teo asks what happens to Dey's name once it's promised to the berth book — a question nobody answers — as Quill arrives with the book already open.",
-      "Quill offers Dey free lung treatment at the Kettle clinic in exchange for signing himself into indenture, and because she cannot lie, she names the full cost—his name in the berth book, dock-debt, and belonging to the Kettle—then leaves the stylus on the deck for him."
+      "Quill offers Dey free lung treatment at the Kettle clinic in exchange for signing himself into indenture, and because she cannot lie, she names the full cost—his name in the berth book, dock-debt, and belonging to the Kettle—then leaves the stylus on the deck for him.",
+      "Dey told Sol to stop hovering, weighed certain dock-debt against drowning gray, took the stylus past her arm and signed himself bond to the Kettle, and Quill scored his name into the leather and said aloud, at full volume, that he chose it."
     ]
   }
 }
