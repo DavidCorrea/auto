@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "aft deck of the Marrow, indenture struck out of the book, holder of berth 902 with Bayo's forfeit in the margin, six breaths on his own"
+      "status": "berth 902 assigned and answered for, indenture struck, free, six breaths on his own, being carried up the gate steps"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "aft deck at the drum housing, the last pull promised away, gray spool in her fist"
+      "status": "holds a berth, eleven seconds in her own voice, fifty-two minutes gone for good, gray spool spent in her pocket"
     },
     {
       "name": "Nia Vos",
@@ -48,7 +48,7 @@
       "role": "the Factor's collector, skipper of a barge that runs with no lights",
       "wants": "to bring the Factor the cold-case's value or the Marrow itself before the storm turns, because his own berth rides on the debt he's owed",
       "flaw": "certain every person has a price, so he keeps reading Sol's choice of the children over the money as a bluff he can call.",
-      "status": "back aboard his own barge *Tally*, bow line fast to the Marrow's stern bitt, taking his own wheel with no pilot and no berth"
+      "status": "towed out through the Stair aboard his own dead barge, berth 414 forfeit, gone into the dark"
     },
     {
       "name": "Pru Quill",
@@ -64,7 +64,7 @@
       "role": "the arcology's bell-tender and the only pilot who knows the drowned channel the crews call the Stair",
       "wants": "to keep his berth and never let Ivo Salas see his face",
       "flaw": "makes warm promises he has no intention of keeping, and cuts a line clean rather than say out loud that he can't hold it.",
-      "status": "aboard the Marrow as deckhand, no berth, no bell-mark"
+      "status": "deckhand aboard the Marrow, no berth and no bell-mark, holds nothing"
     }
   ],
   "threads": [
@@ -72,7 +72,8 @@
     "A barge running dark has come about east of the Marrow in the storm eye and is closing on them.",
     "A voice that is neither Bayo's nor the spit can's cleared its throat over the Marrow's comms pair from the surface end of the ascent line while Wren hung at thirty-one meters.",
     "Bayo has no berth and no bell-mark, and only one of each is left to give away",
-    "six berths, seven people aboard, and the seventh holds nothing"
+    "six berths, seven people aboard, and the seventh holds nothing",
+    "the Caller gave back Ivo Salas's voice at slack water saying a name that is not his, which he does not recognize and neither does anyone on the steps"
   ],
   "arcs": [
     {
@@ -227,7 +228,8 @@
       "Sol admitted her missing eight hours forty on the open channel, handed Nia the deck, and offered her own bond in Dey's place; Quill refused it as worthless without a hull, Rusk laughed and put his knife under the Marrow's mooring line to claim her as derelict at slack water.",
       "Wren trades the winch's last pull and Bayo's piloting for the sixth crate, Quill logs the trade and kills the derelict claim on the record, the crate goes up into the count, and Dey stops breathing.",
       "Quill admitted on the open channel that the lung lavage rig had sat under her own tarp at the low gate since the bell struck ten, held back because a bond requires a mark and Dey's line was empty; the power barge brought it in lit, Dey took six breaths on his own, no one thanked Bayo, and the *Tally*'s engine turned once and failed to catch.",
-      "Bayo declines and directs his forfeited berth 902 to Dey, Quill values the berth above the bond and strikes Dey's indenture so Dey speaks his own name free, Teo learns the book keeps a name rather than lending it, Rusk goes back over the rail to take his own dead barge's wheel, Bayo ships aboard the Marrow as an unmarked deckhand under Nia's deck, and Quill counts seven people aboard against six berths as the drum takes the strain."
+      "Bayo declines and directs his forfeited berth 902 to Dey, Quill values the berth above the bond and strikes Dey's indenture so Dey speaks his own name free, Teo learns the book keeps a name rather than lending it, Rusk goes back over the rail to take his own dead barge's wheel, Bayo ships aboard the Marrow as an unmarked deckhand under Nia's deck, and Quill counts seven people aboard against six berths as the drum takes the strain.",
+      "The six buy their berths at the low gate counter and Teo starts his course in the infirmary while the drum tows Rusk's dark barge out through the Stair and the channel shuts, and at slack water the Caller gives back a voice in Salas's own, saying a name that is not his."
     ]
   }
 }
