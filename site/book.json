@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 120071,
-  "passages": 187,
+  "words": 120771,
+  "passages": 188,
   "arcs": [
     {
       "number": 1,
@@ -242,8 +242,8 @@
       "number": 30,
       "numeral": "XXX",
       "title": "Until Spring",
-      "words": 2883,
-      "passages": 4
+      "words": 3583,
+      "passages": 5
     }
   ]
 }
