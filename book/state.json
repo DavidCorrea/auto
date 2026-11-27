@@ -16,7 +16,7 @@
       "role": "newest diver, indentured to the crew",
       "wants": "one big score to buy back his freedom",
       "flaw": "dives too deep to prove himself and won't call for help until it's far too late.",
-      "status": "in the high ward, memory loss now past knots and names and into faces he has known for weeks"
+      "status": "at the seaward waterline, repeating himself, silenced by Wren's hand"
     },
     {
       "name": "Wren Achebe",
@@ -24,7 +24,7 @@
       "role": "the reader, the topside tech who rebuilds divers' lost hours from their slate recorders",
       "wants": "to keep Dey from ending up hollowed out like Sol",
       "flaw": "quietly edits the slates to spare people what they did, a lie she's built her whole job on.",
-      "status": "in the high ward, has read the Caller's rig and now understands it holds every voice fed to it, gives one back only at slack, and takes the memory of the giver as its cost"
+      "status": "high ward of Mercy General, at slack, standing between Mara and Nia, hand over Dey's mouth, Salas's slate stowed with three plays left"
     },
     {
       "name": "Nia Vos",
@@ -72,16 +72,16 @@
       "role": "a diver who sealed her children in Mercy General's cold-case and stayed behind to keep the Caller lit",
       "wants": "to keep Nia and Teo breathing and the bell's one voice alive until someone came for them",
       "flaw": "gives away her air, her hours, and finally her own name, and can't stop giving even when it empties her",
-      "status": "in the high ward of Mercy General at twenty-four meters, alive and working the Caller, hollowed, knows no one; answers to her name as a job title"
+      "status": "high ward, hollowed, waiting at slack to give the Caller a voice, her daughter's hand in hers"
     }
   ],
   "threads": [
-    "Whose is the two-syllable name the Caller keeps giving back in Salas's voice, a word Salas himself can't place?",
     "Wren's fifty-two minutes are still gone and the Caller holds her own voice, so what did she leave down there, and what was it for?",
     "Mara Vos — the two-syllable name on Salas's slate belongs to Nia and Teo's mother, and no one on the Marrow can say how Salas came to be spending his air on her.",
     "The slate's cell holds four plays left; when the windows go dark the log is gone for good, and Nia has just spent one of them on her mother's hair.",
     "Salas's memory of Mara is wrong at the root — he remembers her singing, and Nia swears she never sang because singing is air.",
-    "Dey's slate has gaps and repeats in his own voice, heard topside on the wire by Sol and Salas, and he has told no one."
+    "Dey's slate has gaps and repeats in his own voice, heard topside on the wire by Sol and Salas, and he has told no one.",
+    "Every word spoken aloud in the high ward now goes into the Caller, and slack has eight minutes left before the timer rings and a voice has to be given"
   ],
   "arcs": [
     {
@@ -271,7 +271,8 @@
       "Dey led the swim up Mercy General's flooded stairwell and crossed the Line losing the word bowline, Wren's name, and the reason for the climb, joking it off while Wren watched the slate log him asking the same question twice.",
       "Dey, Wren, Salas and Nia surface into Mercy General's high ward and find a hand-built Caller still ticking beside a year of stacked tins and the empty cradle, with a blanket-wrapped woman working the bell rope at the far window, her back to them.",
       "Mara Vos turns out to be alive but hollowed, keeps the bell and the crank running without pause, and fails to recognize either her daughter or the diver who spent fourteen months giving her his air.",
-      "Wren reads the Caller's rig and works out that Mara has been feeding it her own voice hour by hour to keep her children cold, hollowing herself out in the process, and at slack the bell rings itself once."
+      "Wren reads the Caller's rig and works out that Mara has been feeding it her own voice hour by hour to keep her children cold, hollowing herself out in the process, and at slack the bell rings itself once.",
+      "At slack the Caller gave back Salas's own voice saying \"Mara\" out of the bell and off his slate in Wren's hand at the same breath, dropping the slate to three plays, and when Mara said the bell still needed a voice given, Wren blocked her, silenced Dey before he could offer his, ruled that every word spoken in the ward now goes into the Caller, and Nia took her hollow mother's hand as the timer's hammer lifted."
     ]
   }
 }
