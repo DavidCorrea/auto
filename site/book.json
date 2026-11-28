@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 38341,
-  "passages": 61,
+  "words": 39073,
+  "passages": 62,
   "arcs": [
     {
       "number": 1,
@@ -84,8 +84,8 @@
       "number": 10,
       "numeral": "X",
       "title": "Living witness",
-      "words": 1608,
-      "passages": 3
+      "words": 2340,
+      "passages": 4
     }
   ]
 }
