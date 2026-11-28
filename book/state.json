@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "boarding pedal-rail PR-ANZA-03 for return to Anza, turnaround bell tolling"
+      "status": "on pedal-rail PR-ANZA-03 at Culvert Nine, bearing seized, turnaround bell tolling"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at Culvert Nine storeroom, holding half-torn J. Renner ticket, realizing the name connects to Anza's overlap log"
+      "status": "at Culvert Nine jaw, one bought-name ticket (J. Renner) pocketed, one clean ticket torn and offered as payment for unload"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "holding storeroom authority, trade offer on table (one coast ticket for unload), eleven cans still cycling"
+      "status": "at storeroom door with child, hand knife ready, offering unload for one coast ticket"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "standing down on cargo seizure, but stowaway sheet for M. Varel active until bell"
+      "status": "holding M. Varel stowaway sheet active, clipboard ready"
     },
     {
       "name": "Wren",
@@ -363,7 +363,8 @@
       "chapterSummaries": [
         "Kass found a dropped coast ticket under the bought name J. Renner in the dust at Anza's ore stub, and Doan confirmed a woman in a coast coat had run down a rolling blank rig, swung into the crew box, and hung a lit hand lamp in the window. Kass chalked the pedal-rail PR-ANZA-03 out of the shed as live to Culvert Nine and rode north after her, legs burning, bearing whining, the shift bell at 18:00 as the turnaround deadline. The rig is still two hours ahead with Anza's eleven warm canisters and the lamp burning.",
         "The pedal-rail's bearing seized and Kass coasted into Culvert Nine, where Saul pinned her in a work light as a thief until Odessa Brill chalked her onto the jaw plate and set the rule: the throat opens on a matched seal or not at all, cargo sits while food moves, no canister gets skimmed. When Kass offered her own labor, the blank rig dumped its brakes and rolled into the dead spur, its forward canister ticking toward a cold-cycle seal no reader can open. Miko is still up there, lamp dark.",
-        "Miko rode the blank rig into Culvert Nine's dead spur and flooded the jaw's reader with the hand lamp, but its blank plates matched no seal, so the eleven warm canisters began a cold-cycle lockout, clamp rings biting down the line one by one. Odessa Brill refused to open her storeroom — the throat opens on a matched crescent seal or not at all, and her door plate is blank — while a child inside kept asking if the food had come. Miko laid one bought-name coast ticket, J. Renner, flat on the blank plate as the forward canister's collar took its third bite."
+        "Miko rode the blank rig into Culvert Nine's dead spur and flooded the jaw's reader with the hand lamp, but its blank plates matched no seal, so the eleven warm canisters began a cold-cycle lockout, clamp rings biting down the line one by one. Odessa Brill refused to open her storeroom — the throat opens on a matched crescent seal or not at all, and her door plate is blank — while a child inside kept asking if the food had come. Miko laid one bought-name coast ticket, J. Renner, flat on the blank plate as the forward canister's collar took its third bite.",
+        "Saul corded Miko's wrist and wrote her up as M. Varel, but Brill read the eleven chipped crescents with her thumbnail and called the load Anza's payment, not stolen cargo. Her price: one coast ticket buys unload rights, or the door stays shut. Saul cut Miko loose and stood down on the load, then said the M. Varel sheet rides north at the bell unless a clean name answers for her. Kass is in the pedal-rail saddle with the bell tolling, and Miko's thumb is on the half-torn J. Renner ticket — the name she signed Anza's overlap log with."
       ],
       "summary": "",
       "isClosed": false,
@@ -372,23 +373,19 @@
   ],
   "chapter": {
     "arc": 5,
-    "number": 27,
-    "title": "Storeroom Disagreement",
+    "number": 28,
+    "title": "Jaw Green",
     "beats": [
-      "Saul steps off the jaw plate, loops a reclamation cord around Miko's wrist, and logs her as stowaway-thief M. Varel with the load seized to Kettering review; Miko doesn't fight the cord, only watches the storeroom door and tells Saul a sealed can rides north as dead weight. Hook: the storeroom's lock throws and the door swings open.",
-      "Brill comes out of her storeroom for the first time, a hollow-cheeked child and her crew crowding the lit doorway behind her, the chalk of forty names and three crosses on the wall; she walks the canister line reading the Bay 4 Shift 2 stamps by hand and counts eleven against the eleven Nour struck short. Hook: she stops at the bitten forward canister and says flatly these are Anza's payment, not stolen cargo.",
-      "The disagreement breaks open: Saul holds Rule thirteen — unlogged rig, unsealed load, no manifest, seize it — while Brill holds the storeroom's own count and her authority over her own throat, and Kass limps in with Nour's face-out tally card as the physical match, two authorities claiming one jaw. Hook: Brill names her price — the throat opens for a trade and nothing else.",
-      "Brill lays out the trade: one coast ticket buys unload rights, the cans come in warm, her crew eats, the run logs under her own name and the skim-fault becomes hers to carry; she'll take no labor, no promise, no paper. Saul objects that a ticket is no seal and the reader already logged the load pending review. Hook: Brill orders Saul off her plate — this is her storeroom and her rule here.",
-      "The storeroom having disagreed, Saul's thief-frame breaks; they cut the cord from Miko's wrist and stand down on the cargo, but warn that M. Varel still rides the stowaway sheet north at the bell unless a clean name answers for her. Hook: up the line the 18:00 bell begins to toll — Kass's turnaround — and they're already turning toward the pedal-rail.",
-      "Miko stands in the open storeroom light with the child watching, the ticking cans and the bitten hoop at her back, Saul's sheet and Kass's bell behind her; she draws the J. Renner ticket and sees it's no stamp to lay on steel but a passage to tear — one bought name for eleven cans and forty mouths. Hook: her thumb finds the card's edge to rip, and stops."
+      "Kass, one boot on the rail frame, says the name out loud: J. Renner is on Anza's overlap log under Teodoro's countersign, so its halves on Brill's blank plate staple Culvert Nine to Nour's eleven short strikes in a document a desk can read. Miko folds J. Renner back into her coat, pulls the second ticket instead — a name that never touched paper anywhere — and tears it clean across the watermark in front of Saul, Brill, and the child with the bowl.",
+      "Brill takes the halves, kneels at the blank door plate, and cuts the receiving mark into plate stock with a hand knife: three strokes and C9 in the hollow, the same cut as the mark on Kass's tally card. She holds her plate against the card in the work light so Saul can see the match, the throat grinds open on the first matched crescent the yard has seen since the pumps died, and her crew starts walking ten warm cans down the roller deck. The eleventh sits at the end, sealed black at the collar, and Brill calls for the reclamation torch off the jaw carriage.",
+      "The torch opens the sealed can badly: the gasket cures into the cut, half the protein comes out scorched and slack, and Brill takes the loss in front of everybody, saying the skim-fault is hers now and she'll carry it to whatever desk is standing in the spring. The child eats first, out of the lidless bowl, and the crew eats standing up in the cold slab of storeroom light while Saul writes *torch, one can, spoiled* in graphite and hates every letter.",
+      "Mid-unload, one of Brill's crew tilts a can and takes a scoop with a thumbnail before the deck rollers have it; the receiving jaw faults on the skim, the throat shudders and starts closing on the last can in the seat, and the clamp ring bites the deck rail. Miko jams a pry bar in the throat and holds it while Brill makes the woman put the scoop back and the fault lamp goes dark; Saul watches his own rule nearly kill the delivery and a station rule save it, and says nothing.",
+      "At the storeroom board, Miko writes her real name in chalk under the forty and Brill marks her as station loader, stamping her a badge off a sawn can lid. She countersigns the sheet as the clean name; Saul scratches out M. Varel, writes the real one, folds the sheet into the clipboard, and the turnaround bell up the ridge finishes its last stroke and stops.",
+      "Miko packs Kass's bearing with tallow and graphite off the storeroom shelf and cuts a washer from a can lid for the housing, then tells her the truth: it will cook again past the second culvert and Kass walks the last stretch on a leg that already has opinions. Brill strikes all eleven notches full on the tally card and cuts C9 in steel beside them; Kass chalks the blank rig on the jaw plate as Anza salvage, unclaimed, and Miko hangs the hand lamp on a nail inside the storeroom door before the pedal-rail pulls out north.",
+      "Miko tears both remaining tickets across the watermark and feeds the halves to the storeroom stove, J. Renner last — then remembers out loud that Teodoro's log at Anza still carries that name and nobody up there knows it's ash. Down the ore line, past the dead spur, a headlight comes on and starts toward Culvert Nine, and the storeroom's dead reader clicks once, wakes, and logs the salvage under Anza's name in a queue that opens at Kettering at oh-eight-hundred."
     ],
     "events": [
-      "Saul cords Miko's wrist and logs her as stowaway-thief M. Varel with the eleven cans seized for Kettering review, while Miko watches the storeroom door and warns that the forward canister's fourth bite has cured it shut as dead weight, until the storeroom's bolts draw back and the door swings open.",
-      "Odessa Brill emerges from her storeroom with a child and crew behind her, walks the line of eleven canisters reading the Bay 4 Shift 2 stamps by hand, confirms all eleven match Nour's short strikes, and declares them Anza's payment — not stolen cargo — stopping at the cold-sealed forward canister to state the jaw opens on a trade or not at all.",
-      "Saul reasserted Rule thirteen against Brill's authority over her own storeroom, Kass produced Nour's tally card whose receiving mark matched Brill's own hand-cut crescent, and Brill declared the throat opens only on a trade.",
-      "Brill lays out the trade terms — one coast ticket for unload rights, cans logged under her name, skim-fault hers — and orders Saul off her plate, declaring her storeroom's rule supersedes Rule thirteen.",
-      "Saul cuts Miko's reclamation cord and stands down on the cargo, but warns the stowaway sheet for M. Varel goes north at the 18:00 bell unless a clean name answers for her; Kass turns toward the pedal-rail as the bell tolls.",
-      "Miko begins to tear her J. Renner coast ticket to pay Brill's price but stops when she realizes the bought name on the ticket matches the name she used on Anza's overlap log — a name now live in Anza's reader and traceable to Kettering's desk."
+      "Kass names J. Renner as the link between Anza's overlap log and Nour's eleven short strikes; Miko folds that ticket away and tears a clean, unregistered coast ticket across the watermark in front of Saul, Brill, and the child, choosing to pay Brill's price with a name that never touched paper."
     ]
   }
 }
