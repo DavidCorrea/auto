@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "still cargo, chalked number 127 on Dray's scale, clock running to the second bell, now knowing she can spend her own living name at Amil's bench."
+      "status": "nameless cargo on Dray’s deck, chalked one-twenty-seven on her shoulder, offered as the price"
     },
     {
       "name": "the man in the pod",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "rig starting at Marrow Cut, plate 4217 still dark"
+      "status": "at Culvert Nine jaw with Miko on deck, names his price for plate 4217"
     },
     {
       "name": "Tobin",
@@ -461,7 +461,8 @@
     ],
     "events": [
       "Rhea arrives at Marrow Cut with Teodoro's order for Culvert Nine's canisters, refuses Dray's demand to trade a name for them, and drives back down the spur as Dray's rig starts behind her and her transponder faults red.",
-      "Rhea arrives at Culvert Nine’s jaw with Teodoro’s order, but Brill refuses to open it without a name written on the tally steel, and Dray’s rig arrives behind Rhea to trap her."
+      "Rhea arrives at Culvert Nine’s jaw with Teodoro’s order, but Brill refuses to open it without a name written on the tally steel, and Dray’s rig arrives behind Rhea to trap her.",
+      "Dray states his price cold—plate 4217 stays a parts pile unless a living name is wired to it before Saul and Brill—and offers nameless Miko as that name."
     ]
   }
 }
