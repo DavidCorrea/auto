@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at board, tally card in jacket"
+      "status": "at Anza's board, tally card left face-out on the board ledge, doubled shift with no relief and no end time"
     },
     {
       "name": "Doan",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "at ore stub, wrist looped in locker cord"
+      "status": "at the ore stub, wrist still looped in the locker cord, no relief posted"
     }
   ],
   "threads": [
@@ -188,7 +188,8 @@
       "Cross-cut landing: at Kettering, Kass watches a fresh line wink off the master board with no alarm and no scrub line; at Anza, Decklan Marlowe says aloud whose hands held the lid — a man already gone dark down the line."
     ],
     "events": [
-      "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line."
+      "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line.",
+      "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's."
     ]
   }
 }
