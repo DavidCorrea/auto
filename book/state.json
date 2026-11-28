@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Culvert Nine's jaw on the ties, bad leg out straight, must ride the pedal-rail back before the 18:00 bell or lose the Anza bunk"
+      "status": "bad leg on rail, Nour's tally card in possession, 18:00 bell deadline approaching"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "corded at Culvert Nine's jaw, logged as stowaway-thief under the name M. Varel, load seized pending Kettering review"
+      "status": "corded at wrist, J. Renner ticket on blank plate, two more tickets in coat, watching storeroom"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "behind locked storeroom door, chalk at forty names with three crosses, child asking for food"
+      "status": "at Culvert Nine jaw plate, storeroom door open, authority asserted over throat, forty names and three crosses on wall behind her"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "off the jaw plate, standing on Rule thirteen, pencil record made, still holding the cord"
+      "status": "reclamation cord on Miko's wrist, Rule thirteen cited but overridden by storeroom authority, clipboard in hand"
     },
     {
       "name": "Wren",
@@ -383,7 +383,8 @@
       "Miko stands in the open storeroom light with the child watching, the ticking cans and the bitten hoop at her back, Saul's sheet and Kass's bell behind her; she draws the J. Renner ticket and sees it's no stamp to lay on steel but a passage to tear — one bought name for eleven cans and forty mouths. Hook: her thumb finds the card's edge to rip, and stops."
     ],
     "events": [
-      "Saul cords Miko's wrist and logs her as stowaway-thief M. Varel with the eleven cans seized for Kettering review, while Miko watches the storeroom door and warns that the forward canister's fourth bite has cured it shut as dead weight, until the storeroom's bolts draw back and the door swings open."
+      "Saul cords Miko's wrist and logs her as stowaway-thief M. Varel with the eleven cans seized for Kettering review, while Miko watches the storeroom door and warns that the forward canister's fourth bite has cured it shut as dead weight, until the storeroom's bolts draw back and the door swings open.",
+      "Odessa Brill emerges from her storeroom with a child and crew behind her, walks the line of eleven canisters reading the Bay 4 Shift 2 stamps by hand, confirms all eleven match Nour's short strikes, and declares them Anza's payment — not stolen cargo — stopping at the cold-sealed forward canister to state the jaw opens on a trade or not at all."
     ]
   }
 }
