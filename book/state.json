@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Ivo's bedside, hand on the compressor cord, awaiting Rhea's signature"
+      "status": "at relay bunk holding Marlowe’s unlogged statement, just learned a reclamation unit is en route to seize Marlowe before morning"
     }
   ],
   "threads": [
@@ -96,7 +96,8 @@
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Who the second person at Bay 4 was — the taped-glove hands that counted Marlowe down to the lid while Voss stamped.",
     "Whether the still-active hands claim can reclaim Marlowe even after Anza lists him as crew.",
-    "Fenn's standing offer—compressor priority restored the same hour Rhea signs Marlowe over"
+    "Fenn's standing offer—compressor priority restored the same hour Rhea signs Marlowe over",
+    "A reclamation unit has been authorized for physical recovery of Marlowe before morning, forcing Fenn, Kass, and Anza to act faster than the desk’s schedule."
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -251,7 +252,8 @@
     "events": [
       "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter.",
       "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm.",
-      "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over."
+      "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over.",
+      "Fenn interviews Marlowe at the relay bunk; Marlowe identifies Voss as the stamper and a separate taped-knuckle second person as the one who counted aloud and held the lid; the handheld registers the active hands claim, but Fenn refuses to log the testimony, then receives a restricted burst that a reclamation unit has been authorized to physically recover Marlowe before morning."
     ]
   }
 }
