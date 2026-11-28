@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at board edge, publicly calculating Ivo's remaining air time from four cartridges"
+      "status": "at Ivo's bedside in the relay shop, hand-pumping the respirator, weighing Fenn's offer"
     },
     {
       "name": "Kass",
@@ -88,14 +88,15 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Anza board, has cut ore stub trace heating and put the relay shop on a two-hour brown-out cycle"
+      "status": "at Ivo's bedside, hand on the compressor cord, awaiting Rhea's signature"
     }
   ],
   "threads": [
     "Miko has bought coast-bound tickets under three different names.",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Who the second person at Bay 4 was — the taped-glove hands that counted Marlowe down to the lid while Voss stamped.",
-    "Whether the still-active hands claim can reclaim Marlowe even after Anza lists him as crew."
+    "Whether the still-active hands claim can reclaim Marlowe even after Anza lists him as crew.",
+    "Fenn's standing offer—compressor priority restored the same hour Rhea signs Marlowe over"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -249,7 +250,8 @@
     ],
     "events": [
       "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter.",
-      "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm."
+      "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm.",
+      "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over."
     ]
   }
 }
