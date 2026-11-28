@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at post 71, abandoned dead rig's dish and shout, reports ghost rig running ore line"
+      "status": "Culvert Nine back room door with Ospina, channel open to Anza board"
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "booted and heading out of Anza on foot down-line to seal recovered cargo; will be absent from their Kettering bench when the review opens at 08:00"
+      "status": "Culvert Nine pump hall, seal authority live but carrying a fresh dirty mark from an uncountered press"
     },
     {
       "name": "Pell",
@@ -261,7 +261,8 @@
     ],
     "events": [
       "Kass and Ospina try to flag a plate-less ghost train on the 7-K grade, fail, and are met by a Culvert Nine lookout who reveals Brill's crew has been drawing Anza's skimmed rations off the station totalizer all night.",
-      "Inside the dead pump station Kass and Ospina find Anza's eleven seals stacked under the Br-4 receiving mark, including the six cases of Ivo's scrubbers, and Brill states her rule that nothing leaves without a trade while a reseal rig works in the back room."
+      "Inside the dead pump station Kass and Ospina find Anza's eleven seals stacked under the Br-4 receiving mark, including the six cases of Ivo's scrubbers, and Brill states her rule that nothing leaves without a trade while a reseal rig works in the back room.",
+      "The crew demanded the scrubbers, Ospina pressed their live seal authority onto a cornmeal crate and Anza's board rejected it for want of the Bay 4 counter — logging a dirty mark on their flagged authority before the 08:00 review — and Brill, done arguing, led them to the back room door, where the reseal rig's noise cut out."
     ]
   }
 }
