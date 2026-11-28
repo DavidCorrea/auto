@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at Ivo's bedside, Marlowe entered as crew on mechanic's authority"
+      "status": "at board edge, threatens kindling if Ivo's compressor is cut"
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "stalled in 7-K in the lane, dish folded, named-rider channel down to a carrier-wave ping; watched Calder Voss's Bay 4 / Shift 2 line drop off Kettering's master board with no alarm or scrub line."
+      "status": "stalled in 7-K lane with dish folded, named-rider channel down to carrier-wave ping; watched Calder Voss drop from Kettering's master board."
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at overlap locker, log folded and pocketed with coast tickets, ready to act"
+      "status": "at overlap locker, log folded and pocketed with coast tickets, ready to act."
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "logging Calder Voss into board notes, reading clearances dropping (now at five)"
+      "status": "Anza relay operator, logging Calder Voss into board notes, clearances dropping, offering Marlowe the relay bunk."
     },
     {
       "name": "V. Ospina",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "at bench, chipped die set down, recognized Calder Voss as Bay 4 Shift 2 peer with clean authority, review pending at Kettering desk"
+      "status": "at bench, chipped die set down, own seal authority flagged for review at Kettering desk after countersigning Marlowe."
     },
     {
       "name": "Pell",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "departed north with empty pod; \"hands\" claim still active"
+      "status": "departed north with empty pod; \"hands\" claim still active; Anza flagged contested."
     },
     {
       "name": "Nour",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at board chair, confessed Calder Voss's name and her complicity, tally card face-out on ledge"
+      "status": "at board chair, tally card face-out, silence broken only by defiance"
     },
     {
       "name": "Doan",
@@ -72,16 +72,30 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "at ore stub, clearance withdrawn, wrist still looped in locker cord, overlap key dead, shaken by the name"
+      "status": "at ore stub, clearance withdrawn, wrist still looped in locker cord, overlap key dead, shaken by the name."
+    },
+    {
+      "name": "Odessa Brill",
+      "pronouns": "she/her",
+      "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
+      "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
+      "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
+      "status": ""
+    },
+    {
+      "name": "Fenn",
+      "pronouns": "they/them",
+      "role": "line-trust officer sent to settle Anza's red file",
+      "wants": "to close the file clean by the desk's rules so their own clearance stays good",
+      "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
+      "status": "at Anza board, serve order posted for first light"
     }
   ],
   "threads": [
     "Miko has bought coast-bound tickets under three different names.",
-    "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
-    "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
-    "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard",
-    "The named far-end contact is someone Marlowe knows, connecting him directly to the forger arrangement",
-    "Calder Voss has erased himself off Kettering's master board — no alarm, no scrub line, gone dark on a ghost key — leaving him unreachable for the hands claim before Kettering's 08:00 desk can act on Ospina's review."
+    "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
+    "Who the second person at Bay 4 was — the taped-glove hands that counted Marlowe down to the lid while Voss stamped.",
+    "Whether the still-active hands claim can reclaim Marlowe even after Anza lists him as crew."
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -91,7 +105,15 @@
     "A second person was present at Bay 4 when the loader was boxed, holding the lid and counting down aloud while the forger stamped.",
     "Kass logged four ghost rigs at Kettering, and one vanished from the master board at 04:51 with no alarm or scrub line.",
     "Ivo’s respirator diaphragm was patched with a disc of heavy glove rubber; he is breathing at Anza relay shop.",
-    "The pod’s databus was cut, so its repeater held a false “36.4 degrees” last-good reading while the box was cold."
+    "The pod’s databus was cut, so its repeater held a false “36.4 degrees” last-good reading while the box was cold.",
+    "Marlowe gave his name aloud and is entered on Anza's plate as living crew, countersigned by Ospina's live seal authority; Pell's claim is void but the separate \"hands\" claim remains active.",
+    "Calder Voss is the Bay 4 Shift 2 forger who resealed four rigs, counted Marlowe into the pod, and vanished from Kettering's master board at 06:14 with no alarm or scrub line.",
+    "Ospina holds the chipped seal die taken from the tool void and used their own live seal authority to countersign Marlowe; that authority is flagged for review at Kettering's morning desk.",
+    "Nour's tally card, face-out on Anza's board ledge, records eleven seals short across four down-line runs, all stamped Bay 4 Shift 2 with the same receiving mark.",
+    "Doan's overlap key is dead, their clearance was withdrawn, and they remain at the ore stub with wrist looped in locker cord.",
+    "Miko holds the overlap log and three coast tickets under different names.",
+    "Teodoro logged Calder Voss into Anza's board notes as far-end contact, forger, resealer, and active hands claim.",
+    "Anza's trust score is red; resupply is frozen and multiple shift clearances have been withdrawn."
   ],
   "arcs": [
     {
@@ -168,32 +190,65 @@
         "With four minutes until Pell's countersign and Ivo's cartridge at 00:64:02, Miko laid out a clean coast run under three bought names, and Marlowe put all three tickets back on the counter — the third belonged to a Bay 4 loader already filed as a discrepancy, so the run would only carry him into a closed claim. Rhea wrote him onto the node plate as crew, alive, not weight, opening a PENDING COUNTERSIGN field nobody at Anza can fill. Then the seal locker ran its shift-change inventory, counted far short of its tally card out loud in front of the whole shop, and Miko put her hand on the latch.",
         "Miko pried open the seal locker and showed the shop that Anza's own seals had crimped Marlowe into the pod, with Nour's signature authorizing the shortfall. Nour answered by confessing the whole seal-for-resupply deal over open channel, and Pell used it to demand the hands too, not just the box. Doan ran for the stub switch, Miko gave chase, and Ivo's cartridge dropped to 00:47.",
         "At Kettering, Kass and V. Ospina traced the vanished rigs to standing reclamation claims keyed under Kass's badge and learned that a living witness countersigned by a live seal authority cannot be hauled as weight. The Bay 4 forger walked out on a ghost key, so Ospina took the chipped seal die and service rig 7-K toward Anza with Kass as named rider—until Pell's unmarked rig blocked the lane.",
-        "At Anza's board, Ospina struck the chipped die so its corner matched the ballast plate, flipping Marlowe's entry to countersigned living witness and getting their own Bay 4 authority flagged for review. Marlowe said his name aloud; Pell's claim went void, he released resupply and left for his rig, warning the separate \"hands\" claim still stands. Ivo caught his new breath on twelve. Doan remains at the stub, wrist looped in the locker cord."
+        "At Anza's board, Ospina struck the chipped die so its corner matched the ballast plate, flipping Marlowe's entry to countersigned living witness and getting their own Bay 4 authority flagged for review. Marlowe said his name aloud; Pell's claim went void, he released resupply and left for his rig, warning the separate \"hands\" claim still stands. Ivo caught his new breath on twelve. Doan remains at the stub, wrist looped in the locker cord.",
+        "Pell departed north with the empty pod as Anza's trust score cratered and the board stripped clearances one by one. Marlowe identified the voice that counted him into the lid as Calder Voss, Bay 4 Shift 2—the forger who resealed the rigs and Nour's far-end contact—and Voss then vanished from Kettering's master board without alarm or scrub line. Ospina's live seal authority now sits under review at Kettering's morning desk, Anza has no relief posted and resupply is frozen, and Marlowe sleeps on a relay bunk with a splinted shoulder while the node waits to see if its witness survives the dawn."
       ],
+      "summary": "Pell's reclaimer froze Anza's board to reclaim Marlowe as ballast, but Ospina countersigned him as a living witness, voiding the claim and forcing Pell north with an empty pod. Anza paid for sheltering him: clearances were stripped, resupply frozen, and Nour's seal-for-resupply deal exposed. Marlowe has a name, bunk, and splinted shoulder, but Calder Voss—the forger who counted him down—vanished from Kettering's board, leaving Ospina's authority and Anza's survival hanging on a morning desk that may not answer.",
+      "isClosed": true,
+      "firstChapter": 6
+    },
+    {
+      "title": "Eleven Seals Short",
+      "question": "Can a frozen node feed itself through the winter without un-erasing the man who vanished with its food?",
+      "goal": "Cut off by a red trust score and out of resupply, Anza must recover the eleven seals' worth of cargo skimmed off its down-line and decide whether to trade away the living witness to do it, rather than let the node starve. It ends when the crew cleans the record by re-listing Calder Voss to release the food, so the node eats and the forger is caught by the very un-erasing that frees the cargo, at the cost of Marlowe's freedom and Ospina's flagged authority.",
+      "author": "nvidia/nemotron-3.5-super-vl:free",
+      "plan": [
+        {
+          "title": "Red",
+          "summary": "When Fenn reaches Anza with the desk's terms — resupply stays frozen unless the node produces the forger or surrenders the living witness — Kass refuses to drop the thread and reads the receiving mark on Nour's tally card as a down-line stop where an erased man would still have to eat."
+        },
+        {
+          "title": "The Tally Card",
+          "summary": "Nour breaks her silence to admit the mark is Culvert Nine, where she let the seals be diverted, and Doan agrees to walk a crew down the disused resupply route unlogged while Miko — her coast tickets worthless behind a red node — buys aboard on a stolen name, leaving Rhea at Ivo's four-cartridge bedside as the others commit to recovering cargo instead of giving up Marlowe."
+        },
+        {
+          "title": "Culvert Nine",
+          "summary": "Inside the dead pump station the crew finds Brill hoarding the cargo for her own winter and Voss running the skim from her back room, and Voss explains the food can't be cleaned without re-listing his erased name — which would snap every fraud flag back onto him — so he'll trade it only for the one living witness who can identify him."
+        },
+        {
+          "title": "The Taped Knuckle",
+          "summary": "Confronted with Marlowe's description over the channel, Voss admits he stamped the reseals and processed Marlowe into the pod but says the taped-glove hands that counted him to the lid were never his, and Brill — hearing him shrug off the counter as \"the other one, not my problem\" — turns and agrees to release the cargo if the record can be cleaned without feeding anyone to it."
+        },
+        {
+          "title": "The Receiving Authority",
+          "summary": "Hauling the food home doesn't thaw a frozen line, so Marlowe, memory whole, chooses to sign as the living receiving witness — binding himself to the node and its still-active hands claim — while Teodoro re-lists Voss as the resealing authority to complete the chain, un-erasing the forger and snapping his flags back the instant the seals go clean."
+        },
+        {
+          "title": "What the Node Eats",
+          "summary": "The re-listing holds — Fenn serves Voss for the reseal fraud, resupply flows and Anza will eat, Marlowe has a listed bunk and a claim he can't shake, and Ospina walks into the Kettering review with the node behind them — until Voss, hauled off, tells Fenn the counter at Bay 4 was the other one and Miko, three coast tickets folded in her coat, remembers a shape she passed in the tool void."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 6
+      "firstChapter": 12
     }
   ],
   "chapter": {
-    "arc": 2,
-    "number": 11,
-    "title": "Contested",
+    "arc": 3,
+    "number": 12,
+    "title": "Red",
     "beats": [
-      "Pell's cradle rig takes the empty ballast pod, and at the north gate he flags Anza contested; Teodoro reads the board back in plain terms — resupply re-keys slow, the shift queue starts thinning — while the winter diesel line goes amber again for a whole new reason.",
-      "Loader shift lines begin dropping off Anza's board for want of a node the line trusts, and Nour, who argued for handing the man over to keep Anza fat, says out loud that the node is paying for the choice she lost.",
-      "Teodoro gives Marlowe a bunk at the relay and splints the shoulder, a plain, bickering beat of belonging; Ospina notes their review is already sitting at Kettering's desk, and Miko's three coast tickets are still folded in her coat.",
-      "Miko corners Doan at the overlap locker and forces the overlap log open; it ties Anza's seal runs to one Bay 4 hand on the Kettering end, and Doan still won't give the name while the roster dies around them.",
-      "Memory climbing back up the haul road, Marlowe tells the room the voice that counted him down was his own far-end contact, the loader he signed cargo to and trusted — the same hand that resealed the rigs — and Nour finally says the name she wouldn't give Pell.",
-      "Cross-cut landing: at Kettering, Kass watches a fresh line wink off the master board with no alarm and no scrub line; at Anza, Decklan Marlowe says aloud whose hands held the lid — a man already gone dark down the line."
+      "Fenn's scrub-white rig cranks into Anza's yard with a claim-serve mast folded on the roof, and he stands at the board in front of both shifts and reads the desk's terms out loud: the node produces the forger, or the node hands over the living witness, or the resupply stays frozen through winter.",
+      "Fenn starts shedding load instead of waiting: he pulls heat off the ore stub and drops the relay shop onto a brown-out rota, which puts Ivo's respirator compressor on a two-hour cycle, and Rhea does the arithmetic on four cartridges out loud where everyone can hear it.",
+      "Rhea takes Fenn to Ivo's bedside and puts the dead med rig's databus trace in front of him — the cut line, the repeater holding a false 36.4 while the box went cold — and Fenn tells her a machine's memory is not a person's word, then offers to restore the compressor's priority the same hour she signs the witness over.",
+      "Fenn goes to the relay bunk with a handheld and interviews Marlowe, who gives him the taped knuckle, the count to the lid, and the smell inside the box, sass intact; the handheld chimes the still-active hands claim, and Fenn declines to log any of it as testimony.",
+      "Kass, stalled in the 7-K lane with the dish folded and the named-rider channel down to a carrier ping, hand-cranks the mast into Anza's side-lobe and burns the rig's capacitor bank for exactly one ping — long enough to ask Teodoro to read him Nour's tally card.",
+      "At Anza's board, Kass works the receiving mark with Nour and Teodoro while Fenn listens: a down-line tap meters water by bodies standing at it, not names on a plate, so a stop can draw a full ration for a man nobody lists — and the mark on the card resolves to a dead pump station off the resupply route entirely.",
+      "Teodoro pulls the stop's meter and reads it out live — a full ration drawn at 06:14 this morning, the same minute Voss dropped off Kettering's board — and Fenn, who cannot leave a discrepancy unclosed, seals Nour's tally card into his rig and posts a serve order on the witness for first light."
     ],
     "events": [
-      "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line.",
-      "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's.",
-      "Teodoro gives Marlowe the relay bunk and splints his shoulder while Ospina, holding the found chipped die as evidence, reveals the countersign ran on their own seal authority — now flagged to Kettering's morning desk — leaving about a hundred and ten minutes before the review can void it, and Miko moves off the tool rack toward Doan.",
-      "Miko pulled Anza's overlap log out of the locker door pocket and Ospina read eleven short seal runs all received by one Bay 4 Shift 2 hand mark, but Doan refused to give the name and their own clearance died on the board along with six others.",
-      "Marlowe reveals from memory that the voice counting him into the pod was his trusted far-end contact at Kettering Bay 4 Shift 2 — Calder Voss, the same loader who resealed the rigs and ran the seal-for-resupply arrangement — and Nour confirms the name she withheld from Pell.",
-      "At Kettering, Kass watches Calder Voss's Bay 4 / Shift 2 line wink off the master board with no alarm and no scrub line, while at Anza a fully-remembering Marlowe adds the new detail of the practiced, taped-knuckle hands that held the lid — landing on the fact that the forger has already gone dark and unreachable before any claim can be served."
+      "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter."
     ]
   }
 }

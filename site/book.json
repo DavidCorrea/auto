@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 44290,
-  "passages": 70,
+  "words": 44830,
+  "passages": 71,
   "arcs": [
     {
       "number": 1,
@@ -14,6 +14,12 @@
       "title": "Countersign",
       "author": "nemotron-3-ultra-550b-a55b",
       "firstChapter": 6
+    },
+    {
+      "number": 3,
+      "title": "Eleven Seals Short",
+      "author": "nemotron-3.5-super-vl",
+      "firstChapter": 12
     }
   ],
   "chapters": [
@@ -93,6 +99,13 @@
       "title": "Contested",
       "words": 3818,
       "passages": 6
+    },
+    {
+      "number": 12,
+      "numeral": "XII",
+      "title": "Red",
+      "words": 540,
+      "passages": 1
     }
   ]
 }
