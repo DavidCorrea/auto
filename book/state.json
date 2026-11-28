@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "at Anza ore siding on foot, chipped die in pocket, approaching relay shop"
+      "status": "in the relay shop doorway, die in coat pocket"
     },
     {
       "name": "Pell",
@@ -187,7 +187,8 @@
       "Marlowe looks at the plate, memory returns with the weight of the word ballast, and he says \"Decklan Marlowe\" aloud; the board writes a person where the ghost number was, and Pell's token cannot erase him—the standing order binds him to carry a witness as crew, so he backs out to his empty cradle rig with the die still in Ospina's hand."
     ],
     "events": [
-      "Ospina forces service rig 7-K past Pell's blocking cradle rig into Anza's ore siding, clipping it in the process, while Kass maintains the named-rider channel until the comms dish auto-folds; Pell pursues on foot as Ospina walks toward the relay shop with the chipped seal die, finding Teodoro in the doorway and Rhea at the med rig's flank with Marlowe."
+      "Ospina forces service rig 7-K past Pell's blocking cradle rig into Anza's ore siding, clipping it in the process, while Kass maintains the named-rider channel until the comms dish auto-folds; Pell pursues on foot as Ospina walks toward the relay shop with the chipped seal die, finding Teodoro in the doorway and Rhea at the med rig's flank with Marlowe.",
+      "Teodoro counted Ivo's scrubber down to eleven seconds while Rhea tried and failed to fill the board's PENDING COUNTERSIGN field with mechanic's authority, until Ospina walked into the shop naming themselves as the Bay 4 seal authority."
     ]
   }
 }
