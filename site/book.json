@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 100836,
-  "passages": 157,
+  "words": 101209,
+  "passages": 158,
   "arcs": [
     {
       "number": 1,
@@ -202,6 +202,13 @@
       "title": "Dropped Name",
       "words": 2764,
       "passages": 5
+    },
+    {
+      "number": 25,
+      "numeral": "XXV",
+      "title": "Pump Station",
+      "words": 373,
+      "passages": 1
     }
   ]
 }

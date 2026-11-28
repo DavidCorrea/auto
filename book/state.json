@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "on pedal-rail PR-ANZA-03 northbound on ore line, closing gap on blank rig, legs burning, bearing whining, shift bell deadline at 18:00"
+      "status": "at Culvert Nine receiving jaw, pedal-rail seized and smoking, legs cramping, blank rig stopped on ridge with lamp lit and unseen occupant inside"
     },
     {
       "name": "Miko",
@@ -360,7 +360,9 @@
           "summary": "Miko tears up one bought-name ticket and hands it to Brill; the jaw accepts, the eleven canisters are unloaded into Culvert Nine's storeroom, and Brill opens one canister to feed her crew. Miko writes her real name on Culvert Nine's board as a loader and stays, tearing up her remaining tickets; Kass rides the pedal-rail back to Anza with Nour's tally card cleared. Change: Culvert Nine is fed; Miko gives up coast passage for a bunk; the blank rig is logged as Anza salvage."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "Kass found a dropped coast ticket under the bought name J. Renner in the dust at Anza's ore stub, and Doan confirmed a woman in a coast coat had run down a rolling blank rig, swung into the crew box, and hung a lit hand lamp in the window. Kass chalked the pedal-rail PR-ANZA-03 out of the shed as live to Culvert Nine and rode north after her, legs burning, bearing whining, the shift bell at 18:00 as the turnaround deadline. The rig is still two hours ahead with Anza's eleven warm canisters and the lamp burning."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 24
@@ -368,21 +370,19 @@
   ],
   "chapter": {
     "arc": 5,
-    "number": 24,
-    "title": "Dropped Name",
+    "number": 25,
+    "title": "Pump Station",
     "beats": [
-      "Dawn at Anza's ore stub, the blank rig a shrinking hand-lamp coal on the northbound line; Kass works the empty siding and finds a coast ticket pressed flat in the rail dust, folded to a bought name she doesn't know—but the graphite thumbprint on the corner and the coat-pocket crease are Miko's. If the ticket's here, its owner isn't.",
-      "Kass checks Anza's resupply board: Miko's real name is chalked fifth line under the restored green chain, but the shift formed and left with her slot scraped empty, and below it Saul's pencil still proposes \"Culvert Nine.\" She looks from the empty slot to the penciled dead station and knows where the eleven warm canisters are headed—and that the rig is hours ahead of her.",
-      "Doan, still stuck at the stub with a dead key and a cut cord, tells her what they saw: a woman in a coast coat swung up into the rig's crew box as it pulled and hung a hand lamp burning in the window, and Doan never asked who—\"nobody asks, out here.\" Someone's alive on that rig, riding north unlogged.",
-      "Kass hauls the ore line's pedal-rail—a railcar you move by pumping two sets of pedals, nothing to break but yourself—out of its shed, signing it loose against her own thin badge and a promise to bring it back before the shift bell; the chain's dry and a bearing shrieks while she oils it in the dust, knowing that past the first node there's no one left to call.",
-      "Pumping into the Blank, legs burning, Kass catches the hand lamp bobbing on the crew box ahead; when the rig eases across a switch she sees, lit from inside the window, a woman's shape keeping the flame steady—Miko, riding the unclaimed rig north with Anza's food and two tickets left. Kass leans on the pedals and closes the gap, Anza at her back for good."
+      "Kass coasts the last half mile into Culvert Nine on dead legs as the bearing finally seizes and smokes; the dead pump station resolves out of the alkali haze — dry intake pipes, a rusted settling tank, and the receiving jaw sitting shut, a hydraulic clamp-and-weigh throat built to match a canister's seal stamp against a manifest before it opens the storeroom door. On the ridge above, the blank rig sits stopped with its lamp still lit and no one climbing down.",
+      "Saul comes out of the pump house with a hand-cranked work lamp, spins it up until the reflector throws a hard white circle on Kass's chest, and calls her a thief before she gets a boot off the crossbar, reciting the station rule: outsiders get chalked once under the station name or they get nothing, and there is no third mark.",
+      "Kass offers her badge, K-774, Anza dispatcher's chain live as of 08:00, and Saul laughs at her; paper doesn't pump, a badge from a live node is worth exactly nothing at a pencil mark, and then Kass makes it worse by handing over the J. Renner ticket, which Saul reads as proof of theft, since the name on it isn't hers and the graphite thumbprint is.",
+      "Odessa Brill comes up out of the storeroom ramp with a canister tally slate and a wedge of bread in her fist, looks at the ticket, then at Kass's boots, and explains the rule she lives by: any canister opened at her jaw faults the throat, the clamp locks the whole run until Kettering sends a reader, and Kettering is six weeks north of caring — so nobody skims, including her.",
+      "Brill takes a stick of chalk and marks Kass under the station name on the jaw plate, which makes her a person and not authority; she then refuses every offer Kass makes, because she wants no manifests, no badges, and no promises, only something she can weigh, and she asks flatly what Kass is willing to put on that plate.",
+      "Kass claims the eleven canisters are already Anza's payment, struck full at Anza's own jaw, and Brill walks her to the reader: unkeyed, no receiving mark, eleven warm cans on plates nobody claims, which the storeroom counts as cargo and not as food — and behind the storeroom door, forty winter mouths on a chalk count of her own.",
+      "The rig's brakes let go on the ridge and it rolls free down the grade toward the switch, the first canister starting to tick as its cold-cycle lockout counts down, and up in the crew box window the hand lamp goes out."
     ],
     "events": [
-      "Kass finds Miko's dropped coast ticket at Anza's ore stub, confirming Miko rode the blank rig north, and prepares to pursue on the pedal-rail.",
-      "Kass reads the resupply board, finds Miko's name on the shift roster with her slot scraped empty, sees Saul's penciled proposal for Culvert Nine, and realizes the blank rig with eleven canisters is hours ahead on the ore line.",
-      "Doan followed Kass into the relay shop and told her they'd watched a woman in a coast coat run and swing up into the blank rig's crew box and hang a burning hand lamp in the window as it pulled north — without asking who — confirming someone rides the rig alive and unlogged.",
-      "Kass readies the pedal-rail, oils its dry chain and screaming bearing, signs it out against their badge with a promised return before shift bell, changes Culvert Nine's status from PROPOSED to LIVE on the log, and pedals north onto the ore line toward the blank rig and Miko.",
-      "Kass pedals the pedal-rail north into the Blank, gaining on the blank rig and confirming Miko is alive in the crew box window, keeping a hand lamp steady as the rig rolls toward Culvert Nine."
+      "Kass coasts into Culvert Nine on a seized pedal-rail and finds the blank rig stopped on the ridge with its lamp lit and an unseen presence shifting inside the crew box."
     ]
   }
 }
