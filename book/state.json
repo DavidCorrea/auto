@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Weir switch post, cartridge spent, Ivo on Anza's shop bottle"
+      "status": "driving flatbed down spur toward Culvert Nine's jaw with Teodoro's order, transponder blinking red"
     },
     {
       "name": "Kass",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "at Culvert Nine’s door plate, recognizes plate 4217 as Rig Seven from his own book, dark eleven months, now logged against Culvert Nine’s cans; won’t cross the door plate or crack the book but declares the rule stands."
+      "status": "rig starting at Marrow Cut, plate 4217 still dark"
     },
     {
       "name": "Tobin",
@@ -439,7 +439,8 @@
       "chapterSummaries": [
         "Dray stopped forty meters short of Culvert Nine's door plate, set his lamp on the dirt, and said he'd wait as long as his fuel held — three weeks. Through Saul he laid out the yard's rule: a rig lives only while a living name is wired to its crew plate; a blank rig is a parts pile. He refused Brill's own name as spent, and she called nobody out to the steel. The spoiled can began sweating on the clamp pin, and Dray admitted he'd known Culvert Nine's count for a year and a half, because something has been reading her jaw into the ore line's queue.",
         "Brill paid Orlin Dray the jaw crank and two good cans, but he took them and gave nothing back — his bargain was for a name, and no name had been said. Miko offered her badge and Brill shut her down, then Kass limped up on a cooked bearing, showed Nour's tally card, and read a rescinded Anza clearance struck through the blank rig's ground-off plate at 04:51 — the same minute a rig vanished from Kettering's board. Culvert Nine's dead reader clattered a second time, logging eleven cans against a plate number in the four thousands, and Dray said, \"Say that number again.\"",
-        "Miko staked her way off the Interior on the name J. Renner, but when Dray wired Anza, Teodoro answered before he was asked why and confirmed Renner had chalked off the overlap log and gone north three weeks ago — dead for plate purposes. Dray chalked Miko off Culvert Nine's tally, lifted badge C9-047 onto the dead-name manifest, and Brill rubbed Miko's inked name off the storeroom steel; with no name and no badge, Miko climbed onto Dray's running board as cargo and rode north toward Marrow Cut, leaving the blank rig and its eleven cans locked in the jaw."
+        "Miko staked her way off the Interior on the name J. Renner, but when Dray wired Anza, Teodoro answered before he was asked why and confirmed Renner had chalked off the overlap log and gone north three weeks ago — dead for plate purposes. Dray chalked Miko off Culvert Nine's tally, lifted badge C9-047 onto the dead-name manifest, and Brill rubbed Miko's inked name off the storeroom steel; with no name and no badge, Miko climbed onto Dray's running board as cargo and rode north toward Marrow Cut, leaving the blank rig and its eleven cans locked in the jaw.",
+        "Nameless after Brill rubbed her off the storeroom steel and Dray lifted badge C9-047 onto the dead-name manifest, Miko rode Dray's rig to Marrow Cut and was chalked one-twenty-seven on his scale. In the shed she found eleven off-board rigs and forty riders wired to plates, watched Amil cut a borrowed name and lose a letter of their own, and heard Dray's plan to buy Culvert Nine's crew one can at a time before he rolled back down the line. Then a headlight came up the spur and filled the door."
       ],
       "summary": "",
       "isClosed": false,
@@ -448,23 +449,18 @@
   ],
   "chapter": {
     "arc": 6,
-    "number": 32,
-    "title": "Eleven Rigs Asleep",
+    "number": 33,
+    "title": "Brill Pays",
     "beats": [
-      "Dray's rig crosses into Marrow Cut and halts at the yard's door plate, where Miko — carrying no name — is weighed like freight and logged by the number the scale gives, told she draws water at the yard's short rate and gets read out at the plate by the second bell or goes on the shelf with the sleepers; ahead, the shed's roll door climbs on eleven dark shapes.",
-      "Inside the shed Miko counts eleven off-board rigs, transponders pulled, no board to answer to, and Dray walks her past forty riders each with a steel crew plate wired shut to the sternum — the plate carries a rig's living name, and a name wired to steel keeps a rig running while a blank plate is a parts pile; one sleeper's plate-wire hangs cut and loose, a rig that plainly isn't sleeping.",
-      "Miko falls in beside Tobin, seventeen, plate wired at the sternum, who hands her one false name and then a second when she won't buy the first, and Dray, flat as ever, says the boy gives a name to anyone who asks so no one can ever write him down — the exact freedom Tobin wants and can't get; low, Tobin asks Miko whether she's carrying a name she can spare.",
-      "At the end bench the plate-cutter Amil Sorge frees a name from a rider's plate the moment it's said aloud before two witnesses, and a single stamped letter lifts off Amil's own blank plate — one fewer in the only name they have left to remember; Miko watches the rule work and take its price, and Amil looks up at her and Tobin, waiting on a name to be spoken.",
-      "Dray brings Miko to the yard's working page — Culvert Nine's count of eleven at the top, Brill's name above her crew's names ranked beneath — and lays out the plan: roll back down the ore line and buy Brill's people one can at a time, a can for a name, because Brill can't hand over stock without a trade and can't refuse one either, and the whole ore line knows it; he taps the closed book of plates and says he'll read 4217 at the door the day someone gives him a living name and two witnesses, not before.",
-      "The turn lands on Miko as cargo with a clock running: the only lever in this yard is a living name said aloud before two witnesses, which she has just watched Amil cut, and Dray swings his lamp back toward the ore line to go buy Brill's crew — as a second headlight comes down the spur behind them, aimed at the open shed."
+      "The headlight resolves into Rhea's flatbed grinding up to Marrow Cut's door plate; she steps down with Teodoro's written order for Anza's eleven canisters, and Dray, planted on his own concrete, tells her the cans sit locked in Culvert Nine's jaw and he means to buy them with a name — but Rhea doesn't trade, she trusts the reader's log that calls them Anza salvage, and swings back onto the flatbed to beat him down the spur.",
+      "At Culvert Nine's jaw Rhea slaps the order on the plate and tells Brill to crank it open and load the eleven cans — ten good, one spoiled — on the log's authority; Brill, who can't hand over a thing without a trade, plants herself against the jaw and names the only price she takes, setting the record against the trade.",
+      "Dray's rig rolls back down with Miko on the deck, still chalked one-twenty-seven and nameless, and in front of Rhea, Saul, and Brill he says the price out loud: a can for a name, and Rig Seven — Plate 4217, dark eleven months — stays a parts pile unless a living name is wired to its plate before two witnesses.",
+      "Brill caves to the trade she can't refuse, unlocks her own storeroom, and loads Dray's deck with the ten good cans, the spoiled one sweating on its pin, and the last of her skim — a whole crew's winter — to buy one name out of Dray's book, leaving her shelves bare.",
+      "Saul counts the empty shelves aloud and tells Brill flat what her crew eats a month on — nothing, unless the rig earns it back before the cold — and Brill doesn't pull a single can back off the deck.",
+      "As Dray's rig turns north for Marrow Cut and Amil's bench, Miko watches Culvert Nine's stripped storeroom drop behind and knows the whole lever now — a living name said before two witnesses and the knife does the rest — and the only names left to spend are still breathing, hers among them, with the second bell not yet rung."
     ],
     "events": [
-      "Miko arrives at Marrow Cut's door plate with no name or badge, is weighed and logged by scale number one-twenty-seven under the yard's short rate, and is given until the second bell to be read out at a crew plate or be shelved with the sleepers as Dray's roll door reveals eleven dark, off-board rigs inside the shed.",
-      "Miko enters Marrow Cut's shed, sees eleven off-board rigs and forty wired riders, and finds one rider whose plate-wire is cut and who is still awake.",
-      "Tobin offered Miko two dead men's names for free and explained why nobody can write him down; Dray confirmed the boy has been seventeen for three years, and Tobin quietly asked whether Miko has a name to spare.",
-      "Miko and Tobin watch Amil Sorge cut the false name Corwin Adley at the end bench, costing Amil another letter from their own blank plate, and Miko is forced to speak her real name before two witnesses.",
-      "Dray shows Miko the yard's working page, reveals his plan to trade cans for Brill's crew names at Culvert Nine, and ties plate 4217 to a living name spoken before two witnesses.",
-      "Miko realizes her only lever is spending her own living name aloud before two witnesses before the second bell, but as Dray turns to leave for the ore line to buy Brill's crew, a second headlight climbs the spur aimed at the open shed."
+      "Rhea arrives at Marrow Cut with Teodoro's order for Culvert Nine's canisters, refuses Dray's demand to trade a name for them, and drives back down the spur as Dray's rig starts behind her and her transponder faults red."
     ]
   }
 }

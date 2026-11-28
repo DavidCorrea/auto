@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 129135,
-  "passages": 208,
+  "words": 129554,
+  "passages": 209,
   "arcs": [
     {
       "number": 1,
@@ -264,6 +264,13 @@
       "title": "Eleven Rigs Asleep",
       "words": 3014,
       "passages": 6
+    },
+    {
+      "number": 33,
+      "numeral": "XXXIII",
+      "title": "Brill Pays",
+      "words": 419,
+      "passages": 1
     }
   ]
 }
