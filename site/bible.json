@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Weir switch stand, holding Ivo's last cartridge, minutes running"
+      "status": "Weir switch stand trestle, yard handset held out to Wren, spare cartridge clock running in her coat pocket"
     },
     {
       "name": "Kass",
@@ -337,7 +337,8 @@
       "Wren turns her ruined hand and her back on the coast lights, keys the yard set, and asks Teodoro to put her real name on Anza's shop roster instead of a bay number; the slate's fields stay empty, the Kettering man caps his sealed tube and steps back, and Anza answers just as Rhea's cartridge runs out of minutes."
     ],
     "events": [
-      "Wren claimed the lid-hand aloud and Coombs's slate spent its first field on her, reading the Bay 4 seal record and playing back her own \"three, two,\" while the remand man Bale waited for a yes or a no and the slate's second field woke asking for the next body."
+      "Wren claimed the lid-hand aloud and Coombs's slate spent its first field on her, reading the Bay 4 seal record and playing back her own \"three, two,\" while the remand man Bale waited for a yes or a no and the slate's second field woke asking for the next body.",
+      "Rhea breaks her own rule and trusts a person's word over a machine's reading, proving over the yard handset to Wren, Bale, and Coombs that the 36.4 death reading came off a pod repeater fed by a cut databus, while Teodoro reads Marlowe off Anza's live plate as living crew in the next room — and Kettering's File 2244 is still rolling."
     ]
   }
 }
