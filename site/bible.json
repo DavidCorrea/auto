@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Weir switch stand trestle, yard handset held out to Wren, spare cartridge clock running in her coat pocket"
+      "status": "Weir trestle, nine minutes of scrubber left on the last cartridge"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "Weir switch stand, two usable coast tickets left, Reyes burned"
+      "status": "switch plate at the Weir coast side, two live tickets (Sela Marchetti, Hollis Teague) pocketed, has not boarded"
     },
     {
       "name": "the man in the pod",
@@ -340,7 +340,8 @@
       "Wren claimed the lid-hand aloud and Coombs's slate spent its first field on her, reading the Bay 4 seal record and playing back her own \"three, two,\" while the remand man Bale waited for a yes or a no and the slate's second field woke asking for the next body.",
       "Rhea breaks her own rule and trusts a person's word over a machine's reading, proving over the yard handset to Wren, Bale, and Coombs that the 36.4 death reading came off a pod repeater fed by a cut databus, while Teodoro reads Marlowe off Anza's live plate as living crew in the next room — and Kettering's File 2244 is still rolling.",
       "Wren spoke her count into the yard handset — \"three,\" then \"two\" — and found nothing after it, because a lid-hand's count always stops at two, while in Anza a man set down his cup and started toward the speaker.",
-      "Marlowe's live voice comes down the copper and refuses Wren's count, telling her the only thing she did wrong was do it badly and that a zero needs a body he won't provide, so the count holds at two while he's standing, then he goes to fetch his cup."
+      "Marlowe's live voice comes down the copper and refuses Wren's count, telling her the only thing she did wrong was do it badly and that a zero needs a body he won't provide, so the count holds at two while he's standing, then he goes to fetch his cup.",
+      "Coombs reveals the coast reads every boarding body at the gate and the blank-plated rig waiting under the green lamps is his own unlogged fleet, so Miko walks to the edge with her two live names, refuses the board, and stays on the switch plate while Rhea's cartridge burns down to nine minutes and Bale's desk puts him on hold until the hour."
     ]
   }
 }
