@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 124792,
-  "passages": 200,
+  "words": 125342,
+  "passages": 201,
   "arcs": [
     {
       "number": 1,
@@ -255,8 +255,8 @@
       "number": 31,
       "numeral": "XXXI",
       "title": "Nothing Left to Tell",
-      "words": 1761,
-      "passages": 4
+      "words": 2311,
+      "passages": 5
     }
   ]
 }

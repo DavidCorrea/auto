@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "on the ore twenty-two meters from Dray's running board, bad knee, pedal-rail abandoned at the second culvert"
+      "status": "steps off the grade, limps closer, and tells Brill the tally still says eleven short regardless of Miko's name being wiped."
     },
     {
       "name": "Miko",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "holds Nour's tally card in her pocket, still refusing to open the jaw."
+      "status": "refuses to spend any stock on Miko, reinforces that her storeroom feeds only names on steel."
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at Culvert Nine jaw, operating the come-along, warning Dray that pencil names don’t hold wire."
+      "status": "confirms badge C9-047 is on the manifest sheet with the dead names, notes a name in pencil won't hold wire or ink."
     },
     {
       "name": "Wren",
@@ -461,7 +461,8 @@
       "Miko reads plate 4217 off the reader again and Dray recognizes it as one of his own dark rigs, realizing someone is running Culvert Nine’s cans to a plate that should be asleep in his shed.",
       "Miko offers J. Renner, a name live on Anza's overlap log, as the living name Dray requires for his crew plate, and Dray agrees to verify it through reader two.",
       "Dray wires J. Renner into Anza’s reader two and Teodoro reveals Renner cleared north weeks ago and is chalked off, leaving Miko’s cut with no living name behind it, while Teodoro never asks who is calling.",
-      "Dray enforces his rule to the letter, chalking Miko off Culvert Nine’s tally and lifting her C9-047 badge off her coat, leaving her without plate or authority."
+      "Dray enforces his rule to the letter, chalking Miko off Culvert Nine’s tally and lifting her C9-047 badge off her coat, leaving her without plate or authority.",
+      "Brill erases Miko's name from Culvert Nine's storeroom board while Saul confirms chalk won't hold wire, Kass points out Brill's crew still owes the eleven short seals regardless, and Dray denies Miko a seat, leaving her without badge, plate, board, or food."
     ]
   }
 }
