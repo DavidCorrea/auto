@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 83141,
-  "passages": 131,
+  "words": 83736,
+  "passages": 132,
   "arcs": [
     {
       "number": 1,
@@ -168,6 +168,13 @@
       "title": "The Warm Cage",
       "words": 4687,
       "passages": 6
+    },
+    {
+      "number": 21,
+      "numeral": "XXI",
+      "title": "Down the Ore Line",
+      "words": 595,
+      "passages": 1
     }
   ]
 }
