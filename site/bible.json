@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Anza relay shop, told Coombs to his face he's answerable to nobody"
+      "status": "Anza relay shop, with the palm-cut glove pinned, Nour's tally card and the open overlap log side by side, and the chip match made but not read out"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "Weir coast switch plate, one boot on the coast side, has not boarded"
+      "status": "Anza relay shop, three coast tickets unspent in her inside pocket, written on the chalk board as a resupply hand"
     },
     {
       "name": "the man in the pod",
@@ -341,7 +341,8 @@
     ],
     "events": [
       "Coombs's tender brakes at Anza's ore stub beside the already-parked blank-plated rig, Doan refuses to give the open slate a name or a walk, Wren counts eleven decked canisters, and the rig's brakes creep loose on their own.",
-      "In the relay shop Nour wiped the bay number off the chalk shift board and handed Wren the stub; Wren wrote her own name left-handed, Marlowe countersigned it aloud, Ivo learned the glove patch in his bottle came off Wren's hand, and the bell rang with her name up the line as crew while Kettering's hold still called her cargo."
+      "In the relay shop Nour wiped the bay number off the chalk shift board and handed Wren the stub; Wren wrote her own name left-handed, Marlowe countersigned it aloud, Ivo learned the glove patch in his bottle came off Wren's hand, and the bell rang with her name up the line as crew while Kettering's hold still called her cargo.",
+      "Miko handed Kass the overlap log, pocketed her three unspent coast tickets and signed onto the resupply shift, and Kass matched the chipped crescent on the log's seals to Nour's tally card and to the die still in Ospina's coat at Kettering."
     ]
   }
 }
