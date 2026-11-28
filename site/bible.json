@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "in 7-K cab, named-rider channel reduced to carrier-wave ping after dish fold"
+      "status": "stalled in 7-K in the lane, dish folded, named-rider channel down to a carrier-wave ping; watched Calder Voss's Bay 4 / Shift 2 line drop off Kettering's master board with no alarm or scrub line."
     },
     {
       "name": "Miko",
@@ -80,7 +80,8 @@
     "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
     "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
     "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard",
-    "The named far-end contact is someone Marlowe knows, connecting him directly to the forger arrangement"
+    "The named far-end contact is someone Marlowe knows, connecting him directly to the forger arrangement",
+    "Calder Voss has erased himself off Kettering's master board — no alarm, no scrub line, gone dark on a ghost key — leaving him unreachable for the hands claim before Kettering's 08:00 desk can act on Ospina's review."
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -191,7 +192,8 @@
       "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's.",
       "Teodoro gives Marlowe the relay bunk and splints his shoulder while Ospina, holding the found chipped die as evidence, reveals the countersign ran on their own seal authority — now flagged to Kettering's morning desk — leaving about a hundred and ten minutes before the review can void it, and Miko moves off the tool rack toward Doan.",
       "Miko pulled Anza's overlap log out of the locker door pocket and Ospina read eleven short seal runs all received by one Bay 4 Shift 2 hand mark, but Doan refused to give the name and their own clearance died on the board along with six others.",
-      "Marlowe reveals from memory that the voice counting him into the pod was his trusted far-end contact at Kettering Bay 4 Shift 2 — Calder Voss, the same loader who resealed the rigs and ran the seal-for-resupply arrangement — and Nour confirms the name she withheld from Pell."
+      "Marlowe reveals from memory that the voice counting him into the pod was his trusted far-end contact at Kettering Bay 4 Shift 2 — Calder Voss, the same loader who resealed the rigs and ran the seal-for-resupply arrangement — and Nour confirms the name she withheld from Pell.",
+      "At Kettering, Kass watches Calder Voss's Bay 4 / Shift 2 line wink off the master board with no alarm and no scrub line, while at Anza a fully-remembering Marlowe adds the new detail of the practiced, taped-knuckle hands that held the lid — landing on the fact that the forger has already gone dark and unreachable before any claim can be served."
     ]
   }
 }
