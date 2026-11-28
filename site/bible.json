@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Holding the taped work glove with the cut-out disc inside her coat at Anza; knows Miko shared the tool void with a second, unlogged person."
+      "status": "at ore stub, confirmed ghost fleet exists, radioed Teodoro with finding"
     },
     {
       "name": "Miko",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "at Anza's ore stub, clearance still withdrawn, standing between Coombs and the dark siding, now listed by the slate as live roster"
+      "status": "at ore stub, clearance still withdrawn, wrist looped in locker cord, assisted inspection"
     },
     {
       "name": "Odessa Brill",
@@ -329,7 +329,8 @@
     "events": [
       "Teodoro read the morning desk's hold order aloud — Wren remanded to the coast with the collecting tender already logged, File 2244's physical recovery for Marlowe due at the shift bell, and Anza's green chain holding only if she's surrendered — and the plate's countersign field came up already filled with Marlowe's badge.",
       "Coombs offered Wren a warm bunk, a logged wage and the permanent erasure of her proof, and she refused to be bought, telling him to take her on the book's line as the hands and not the stamp.",
-      "Coombs offers Miko the warm logged bunk, Miko does the arithmetic out loud — three bought names buy no meals and a green board only means the trains run — and asks him plainly who pays her wage, learning it comes out of Anza's own hundred-and-ten ration-day line, then asks what it costs him if she walks at the Weir and watches him strip off a glove."
+      "Coombs offers Miko the warm logged bunk, Miko does the arithmetic out loud — three bought names buy no meals and a green board only means the trains run — and asks him plainly who pays her wage, learning it comes out of Anza's own hundred-and-ten ration-day line, then asks what it costs him if she walks at the Weir and watches him strip off a glove.",
+      "Kass and Doan inspect Coombs's tender at the ore stub and discover it has no transponder, a factory-blank mount, and a cleanly cut harness identical to the four ghost rigs that vanished from Kettering's master board — confirming a fleet of unlogged rigs operating off every book."
     ]
   }
 }
