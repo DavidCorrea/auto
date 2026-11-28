@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "confirmed absent from resupply shift, likely aboard blank rig northbound"
+      "status": "aboard the blank rig's crew box, northbound unlogged, confirmed alive (hand lamp burning), two coast tickets left"
     },
     {
       "name": "the man in the pod",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "cut free from the cord, clearance withdrawn, no working key, standing at the ore stub with nothing to seal."
+      "status": "Anza relay shop, no working key, clearance withdrawn, cord cut, told Kass what they saw"
     },
     {
       "name": "Odessa Brill",
@@ -379,7 +379,8 @@
     ],
     "events": [
       "Kass finds Miko's dropped coast ticket at Anza's ore stub, confirming Miko rode the blank rig north, and prepares to pursue on the pedal-rail.",
-      "Kass reads the resupply board, finds Miko's name on the shift roster with her slot scraped empty, sees Saul's penciled proposal for Culvert Nine, and realizes the blank rig with eleven canisters is hours ahead on the ore line."
+      "Kass reads the resupply board, finds Miko's name on the shift roster with her slot scraped empty, sees Saul's penciled proposal for Culvert Nine, and realizes the blank rig with eleven canisters is hours ahead on the ore line.",
+      "Doan followed Kass into the relay shop and told her they'd watched a woman in a coast coat run and swing up into the blank rig's crew box and hang a burning hand lamp in the window as it pulled north — without asking who — confirming someone rides the rig alive and unlogged."
     ]
   }
 }
