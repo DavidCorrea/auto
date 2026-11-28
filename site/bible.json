@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Anza relay shop board, holding Miko's dropped ticket, preparing to head north"
+      "status": "on pedal-rail PR-ANZA-03 northbound on ore line toward Culvert Nine, Culvert Nine status changed to LIVE on shed log"
     },
     {
       "name": "Miko",
@@ -380,7 +380,8 @@
     "events": [
       "Kass finds Miko's dropped coast ticket at Anza's ore stub, confirming Miko rode the blank rig north, and prepares to pursue on the pedal-rail.",
       "Kass reads the resupply board, finds Miko's name on the shift roster with her slot scraped empty, sees Saul's penciled proposal for Culvert Nine, and realizes the blank rig with eleven canisters is hours ahead on the ore line.",
-      "Doan followed Kass into the relay shop and told her they'd watched a woman in a coast coat run and swing up into the blank rig's crew box and hang a burning hand lamp in the window as it pulled north — without asking who — confirming someone rides the rig alive and unlogged."
+      "Doan followed Kass into the relay shop and told her they'd watched a woman in a coast coat run and swing up into the blank rig's crew box and hang a burning hand lamp in the window as it pulled north — without asking who — confirming someone rides the rig alive and unlogged.",
+      "Kass readies the pedal-rail, oils its dry chain and screaming bearing, signs it out against their badge with a promised return before shift bell, changes Culvert Nine's status from PROPOSED to LIVE on the log, and pedals north onto the ore line toward the blank rig and Miko."
     ]
   }
 }

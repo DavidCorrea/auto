@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 99608,
-  "passages": 155,
+  "words": 100141,
+  "passages": 156,
   "arcs": [
     {
       "number": 1,
@@ -200,8 +200,8 @@
       "number": 24,
       "numeral": "XXIV",
       "title": "Dropped Name",
-      "words": 1536,
-      "passages": 3
+      "words": 2069,
+      "passages": 4
     }
   ]
 }
