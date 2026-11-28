@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Kettering night board desk, badge 2241 still keyed to channel 12-K, sixteen minutes to the 06:00 board"
+      "status": "Kettering night board desk, badge off the reader, thirteen minutes to the 06:00 board"
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "at the Kettering clock post, 05:44, stamp still in pocket, not clocked, exposed to the room"
+      "status": "Kettering night board floor, 05:47, badge on Kass's desk, stamp still in pocket, hand still in pocket"
     },
     {
       "name": "Pell",
@@ -186,7 +186,8 @@
       "Ospina climbs into a line service rig with the chipped stamp and the standing order, Kass rides as named rider so badge 2241 finally travels with a witness instead of a claim, and the rig pulls out hard for Anza as the board sheds another ghost number behind them, running against the last of Ivo's cartridge."
     ],
     "events": [
-      "Kass failed to scrub badge 2241 from the channel where the fourth rig died, cornered Ospina at the Kettering clock post over the four crimped rigs and their unlogged exit from Anza, and Ospina's refusal to be drawn in ended when the board announced a live seal-authority die on the floor, in front of the whole room."
+      "Kass failed to scrub badge 2241 from the channel where the fourth rig died, cornered Ospina at the Kettering clock post over the four crimped rigs and their unlogged exit from Anza, and Ospina's refusal to be drawn in ended when the board announced a live seal-authority die on the floor, in front of the whole room.",
+      "Kass and Ospina pull the four vanished rigs side by side and find each was written off as derelict under a standing reclamation claim keyed with Kass's own badge 2241, while a fifth open claim targets the unlogged med rig at Anza and has already been signed for there by Shift One."
     ]
   }
 }
