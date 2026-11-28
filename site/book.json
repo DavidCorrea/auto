@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 36733,
-  "passages": 58,
+  "words": 37125,
+  "passages": 59,
   "arcs": [
     {
       "number": 1,
@@ -79,6 +79,13 @@
       "title": "The stamp that found itself",
       "words": 4077,
       "passages": 6
+    },
+    {
+      "number": 10,
+      "numeral": "X",
+      "title": "Living witness",
+      "words": 392,
+      "passages": 1
     }
   ]
 }

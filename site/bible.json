@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "still at the med rig's flank, hand on seal K-7745, winch stopped"
+      "status": "at med rig's flank, hand on seal K-7745, Marlowe on lower step"
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "riding as named rider in service rig 7-K en route to Anza, badge 2241 flagged by the line desk with four open claims."
+      "status": "in 7-K cab, named-rider channel reduced to carrier-wave ping after dish fold"
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "driving 7-K with the chipped die, Pell’s unmarked service rig blocking the lane ahead."
+      "status": "at Anza ore siding on foot, chipped die in pocket, approaching relay shop"
     },
     {
       "name": "Pell",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "at his cradle pendant, med rig loaded, demanding both signers"
+      "status": "pursuing on foot into siding after Ospina"
     },
     {
       "name": "Nour",
@@ -166,7 +166,8 @@
       "chapterSummaries": [
         "Pell's warrant-token froze Anza's board and resupply, and Teodoro confirmed the pod's plate line by line — Bay 4, Shift 2, 412 kilos, ballast — before the man walked in and asked what ballast meant. He gave his name as Decklan Marlowe, Rhea entered him as crew on mechanic's authority with twenty minutes to the 06:00 shift change, and Pell left for the north gate with a promise of a second signature. A heavy unmarked service rig is now coming in hot up the haul road, no transponder, no ID.",
         "With four minutes until Pell's countersign and Ivo's cartridge at 00:64:02, Miko laid out a clean coast run under three bought names, and Marlowe put all three tickets back on the counter — the third belonged to a Bay 4 loader already filed as a discrepancy, so the run would only carry him into a closed claim. Rhea wrote him onto the node plate as crew, alive, not weight, opening a PENDING COUNTERSIGN field nobody at Anza can fill. Then the seal locker ran its shift-change inventory, counted far short of its tally card out loud in front of the whole shop, and Miko put her hand on the latch.",
-        "Miko pried open the seal locker and showed the shop that Anza's own seals had crimped Marlowe into the pod, with Nour's signature authorizing the shortfall. Nour answered by confessing the whole seal-for-resupply deal over open channel, and Pell used it to demand the hands too, not just the box. Doan ran for the stub switch, Miko gave chase, and Ivo's cartridge dropped to 00:47."
+        "Miko pried open the seal locker and showed the shop that Anza's own seals had crimped Marlowe into the pod, with Nour's signature authorizing the shortfall. Nour answered by confessing the whole seal-for-resupply deal over open channel, and Pell used it to demand the hands too, not just the box. Doan ran for the stub switch, Miko gave chase, and Ivo's cartridge dropped to 00:47.",
+        "At Kettering, Kass and V. Ospina traced the vanished rigs to standing reclamation claims keyed under Kass's badge and learned that a living witness countersigned by a live seal authority cannot be hauled as weight. The Bay 4 forger walked out on a ghost key, so Ospina took the chipped seal die and service rig 7-K toward Anza with Kass as named rider—until Pell's unmarked rig blocked the lane."
       ],
       "summary": "",
       "isClosed": false,
@@ -175,23 +176,18 @@
   ],
   "chapter": {
     "arc": 2,
-    "number": 9,
-    "title": "The stamp that found itself",
+    "number": 10,
+    "title": "Living witness",
     "beats": [
-      "At the Kettering night board, Kass can't scrub their own badge — 2241, logged on the channel where the fourth ghost rig died at 04:51 — when Ospina walks in to clock the 06:00 board with the chipped seal stamp still in their pocket, and Kass corners the one Bay 4 Shift 2 seal authority who left Anza unlogged while Ospina makes it clear they want no part of it.",
-      "Pulling the four vanished rigs up side by side, they find none of them crashed or scrubbed — each was written off as derelict under a standing line-reclamation claim that dispatches a reclaimer to haul dead cargo — and every claim carries badge 2241, a number Kass never keyed; the fifth claim is already filed and open, destination Anza, target the unlogged med rig.",
-      "Ospina goes cold over the tool void where they found the stamp — a rig bay right here in the Kettering yard, which means the loader who resealed all four boxes never left — and a Bay 4 loader signs out and drifts past the board, the shift horn swallowing Ospina's half-raised hand, so the forger walks off knowing the stamp has surfaced.",
-      "Hunting the one thing that kills a claim, they turn up the standing order: a reclaimer can only close a discrepancy while the cargo reads as dead weight, and a person entered on the node board and countersigned by a live seal-authority stamp can't be reclaimed but must be carried as crew — though a false or missing stamp voids it, and the only true stamp within five hundred klicks is the chipped one in Ospina's hand.",
-      "Ospina refuses, since signing puts their name on the Anza consignment and admits they stood at the box when they only found the crimper and never used it, until Kass says the quiet part out loud — it's the same tool that sealed Marlowe in, and the only thing that can write him back out as a man — and Ospina pockets it and asks which rig runs fastest to Anza.",
-      "Ospina climbs into a line service rig with the chipped stamp and the standing order, Kass rides as named rider so badge 2241 finally travels with a witness instead of a claim, and the rig pulls out hard for Anza as the board sheds another ghost number behind them, running against the last of Ivo's cartridge."
+      "Ospina puts 7-K onto the drainage shoulder, clips Pell's cradle rig, and slides into Anza's unlit ore siding; Kass keeps the named-rider channel alive while the dish screams a near-end warning and Pell turns to follow.",
+      "In the relay shop, Teodoro holds Ivo's cartridge at 00:41 while Rhea pulls Marlowe from the med rig flank to the node board; the crew entry is there, but the PENDING COUNTERSIGN field blinks because no seal authority will touch it.",
+      "Miko catches Doan at the stub switch, uses the wrist cord left on the locker handle to open the overlap locker, and finds the seal tray empty except for tags stamped Bay 4—proof Anza has been feeding seals down the line.",
+      "Pell arrives in the shop doorway with his warrant-token keyed, freezes the board and resupply, and demands both signers: Rhea for the crew entry and Ospina for the seal authority.",
+      "Rhea signs on mechanic's authority, then Ospina sets the chipped die in their signing hand and strikes the seal field; the board reads the corner pattern, matches it to the ballast plate, and flips the entry to COUNTERSIGNED—LIVING WITNESS.",
+      "Marlowe looks at the plate, memory returns with the weight of the word ballast, and he says \"Decklan Marlowe\" aloud; the board writes a person where the ghost number was, and Pell's token cannot erase him—the standing order binds him to carry a witness as crew, so he backs out to his empty cradle rig with the die still in Ospina's hand."
     ],
     "events": [
-      "Kass failed to scrub badge 2241 from the channel where the fourth rig died, cornered Ospina at the Kettering clock post over the four crimped rigs and their unlogged exit from Anza, and Ospina's refusal to be drawn in ended when the board announced a live seal-authority die on the floor, in front of the whole room.",
-      "Kass and Ospina pull the four vanished rigs side by side and find each was written off as derelict under a standing reclamation claim keyed with Kass's own badge 2241, while a fifth open claim targets the unlogged med rig at Anza and has already been signed for there by Shift One.",
-      "Ospina traced the chipped die to a tool void in LK-4402, parked in Bay 3 of the Kettering yard, so the forger who resealed all four rigs never left the building — and when Ospina half-raised a hand the 05:47 horn swallowed it, the forger clocked the pocket through the glass and signed out with no badge presented, walking for Bay 3 to strip the void.",
-      "Kass pulled the standing reclamation order and found that a crew entry countersigned by a live seal-authority die can't be hauled as ballast, then pulled the die register and learned the only true stamp within five hundred klicks is the chipped die in Ospina's pocket — the same die whose last impression is the ballast plate on the med rig, and whose countersign binds its holder to the consignment.",
-      "Ospina refuses to countersign until Kass makes clear the chipped die is the only tool that can undo what it did; Ospina names service rig 7-K in bay six, Kass keys it out on badge 2241, and both run for the north yard as the board files a new claim on the rig where the die was found.",
-      "Kass and Ospina flee Kettering in service rig 7-K with Kass as named rider, but the line desk flags badge 2241 and Pell’s unmarked rig blocks the haul road ahead."
+      "Ospina forces service rig 7-K past Pell's blocking cradle rig into Anza's ore siding, clipping it in the process, while Kass maintains the named-rider channel until the comms dish auto-folds; Pell pursues on foot as Ospina walks toward the relay shop with the chipped seal die, finding Teodoro in the doorway and Rhea at the med rig's flank with Marlowe."
     ]
   }
 }
