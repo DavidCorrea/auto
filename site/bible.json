@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at Anza relay shop, Ivo down to two restarts"
+      "status": "at Anza relay shop, hand-pumping Ivo, two cartridges left, stopped asking anyone to trade Marlowe."
     },
     {
       "name": "Kass",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Culvert Nine pump hall, boxed in by their own rule, clearance still at 07:59, unable to serve Marlowe without voiding the clean chain"
+      "status": "at Culvert Nine pump hall, clearance turned at 08:00, unable to serve Marlowe without voiding clean chain."
     },
     {
       "name": "Saul",
@@ -267,7 +267,8 @@
       "Fenn arrives at Culvert Nine before eight, ignores the recovered cargo, and reiterates the desk's ultimatum: produce Voss as a listed forger or hand over Marlowe within four minutes before their clearance turns and the reclamation unit takes both.",
       "Kass, Miko, and Brill establish that badge 2244 is a dead credential with no living person behind it, forcing the crew to clean the chain without naming the taped-glove counter before Fenn’s clearance turns at 08:00.",
       "Ospina and Kass work out for the room that a reseal chain only reads clean on a living named receiving witness, not a flagged ring, and that the only such man who can identify the seals is Marlowe — at the cost of binding him to the node and keeping the hands claim alive — then turn to the channel and find Marlowe awake and listening.",
-      "Fenn moves to void the plan by refusing Marlowe as a contested authority, but Ospina turns the desk's own rule against them — serving Marlowe empties the receiving jaw and keeps the file red, so the spotless close Fenn wants requires leaving the one clean name alone."
+      "Fenn moves to void the plan by refusing Marlowe as a contested authority, but Ospina turns the desk's own rule against them — serving Marlowe empties the receiving jaw and keeps the file red, so the spotless close Fenn wants requires leaving the one clean name alone.",
+      "Marlowe signs himself in over the channel as the living receiving witness, binding himself to Anza and keeping the hands claim alive, while Fenn's clearance turns at eight and leaves the chain half-closed with no sender strike."
     ]
   }
 }
