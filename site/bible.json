@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Her brother Ivo is on mains power at Anza relay shop; she refused Fenn's trade and kept pumping until compressor priority returned."
+      "status": "Anza relay shop back room doorway; holds the living proof that breaks Wren's confession and has not given it to her yet"
     },
     {
       "name": "Kass",
@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "still bound at reader two in the Anza relay shop, her confession contradicted by the plate, not yet shown the living man"
+      "status": "still bound in the relay shop, reciting 36.4 to reader two, not yet shown the living man"
     },
     {
       "name": "Coombs",
@@ -112,7 +112,7 @@
       "role": "a coast puller — hauls runners (people who walked off their shift contracts) back onto the winter rosters",
       "wants": "to get his runners logged and fed before the cold takes them, the way it took the ones he couldn't catch",
       "flaw": "sure a warm logged cage beats a free cold ditch, and can't believe anyone would choose the ditch",
-      "status": "Anza relay shop, slate pocketed, tender rolling at the bell, no offer on the table"
+      "status": "in the doorway, tender rolling at the bell, waiting on Wren's decision"
     }
   ],
   "threads": [
@@ -330,7 +330,8 @@
       "Reader two matched Wren's hands to the glove and read her as \"Bay four, shift two, lid-hand,\" logging one body where the 21:47 seal recorded two, which pushed a live entry to the plate and brought Kettering's morning desk onto the comms asking who wrote it.",
       "Rhea proves with her caliper and her chipped gasket punch that the disc patching Ivo's diaphragm was cut from Wren's glove palm, and demands to know how that glove rode the dead med rig's tool void from Kettering to Anza.",
       "Wren flatly confesses she held the Bay 4 lid and stopped her count at \"three, two\" before the stamp fell, gives the false 36.4 last-good reading as proof the man died, and refuses to call it anything but her own handiwork — then Kettering's morning desk opens the channel to order Anza to hold her, with the node's green resupply chain named as the price.",
-      "Rhea refuses Wren's confession and reads Anza's living-crew plate at reader two, finding Marlowe — the man Wren counted — logged as living crew under a live seal, aboard two days, while Wren still doesn't believe it."
+      "Rhea refuses Wren's confession and reads Anza's living-crew plate at reader two, finding Marlowe — the man Wren counted — logged as living crew under a live seal, aboard two days, while Wren still doesn't believe it.",
+      "Rhea finds Marlowe awake and breathing in the back room, learns he remembers Wren stopping her count at two and refuses to sign himself off the plate, then sees Kettering's morning desk has written a new line into Anza's empty name slot."
     ]
   }
 }
