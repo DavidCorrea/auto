@@ -306,7 +306,8 @@
         }
       ],
       "chapterSummaries": [
-        "A driverless tender with no transponder rolled onto Anza's ore stub, and the coast puller Coombs used a proving slate — a reader that IDs a body by its walk and voice — to name two people off no roster: Miko under her bought name Dalia Reyes, and a tape-knuckled woman from the dark. She gave herself up to keep him from proving more, on condition he never say the sealed man's name; Coombs bound her wrists in seal tape and filed her as Bay 4's lid-hand, and Nour's board lit with a crew of six, one carrying a bay number where a name goes."
+        "A driverless tender with no transponder rolled onto Anza's ore stub, and the coast puller Coombs used a proving slate — a reader that IDs a body by its walk and voice — to name two people off no roster: Miko under her bought name Dalia Reyes, and a tape-knuckled woman from the dark. She gave herself up to keep him from proving more, on condition he never say the sealed man's name; Coombs bound her wrists in seal tape and filed her as Bay 4's lid-hand, and Nour's board lit with a crew of six, one carrying a bay number where a name goes.",
+        "Reader two matched Wren's taped knuckles to the palm-cut glove and wrote her on the living plate as Bay Four's lid-hand, while Rhea proved the disc keeping Ivo's respirator alive came out of that same glove. Wren admitted counting \"three, two\" over the sealed man but never said one; Rhea, trusting the glass, read Marlowe off the plate as living crew, breathing in the next room. Then Kettering's desk called to confirm Anza holds her, Coombs's tender pulls at the bell, and a line the desk itself wrote has appeared on Anza's plate."
       ],
       "summary": "",
       "isClosed": false,
@@ -315,23 +316,18 @@
   ],
   "chapter": {
     "arc": 4,
-    "number": 19,
-    "title": "Glove Rubber",
+    "number": 20,
+    "title": "The Warm Cage",
     "beats": [
-      "In the relay shop, Rhea talks Coombs into a short hold on his tender (the ore line's iced and the board won't clear a crew it can't name) and brings the bound Wren inside, where Ivo is breathing on mains compressor power and Teodoro is watching his board; Kass lays the gray work glove on the bench — tape across one knuckle, a clean disc cut from the palm — and Teodoro warns that reader two reads people, not cargo, and whatever it names goes onto the living plate where a morning desk can read it.",
-      "Teodoro puts the glove under reader two, then Wren's own taped knuckles beside it; the reader matches the two sets of hands and reads out \"Bay four, shift two, lid-hand\" — the same hands logged at the 21:47 seal — and flags the disc-shaped hole punched clean out of the palm.",
-      "Rhea works out what the hole means: the disc patching Ivo's respirator diaphragm (the flexible membrane that pumps air, here patched with a coin of heavy glove rubber) was cut from this glove's own palm, so the woman swearing she sealed a man to death is the reason Rhea's brother is still breathing — and Rhea wants to know how Wren's glove came to ride the dead med rig's tool void down the ore line.",
-      "Wren answers flat and doesn't dress it up: she held the lid square at Bay four and counted the seals aloud so the box and the book agreed, and at 21:47 she counted a man under it — \"three, two\" — and couldn't finish; she gives the reading back as fact, that he went cold at 36.4 and was gone, and calls herself the hand that killed him.",
-      "Rhea, who trusts a machine's readout over any living mouth, doesn't argue the point — she turns to the shop's living-crew plate at reader two and reads it, and the man Wren counted, Marlowe, is entered as living crew, countersigned under a live seal, aboard two days, with no hedge anywhere on the line.",
-      "Rhea steps into the next room and finds the proof breathing — Marlowe, awake on Teodoro's couch behind the cathode, shoulder splinted, memory crawling back — the living man who pulls the whole confession apart, so Rhea now holds the one fact that could end Wren's guilt while Wren sits bound and headed for the Weir, not knowing it; Coombs, genial in the doorway, says the tender pulls the moment she's decided."
+      "Teodoro reads the line the morning desk wrote onto Anza's plate: a hold order remanding the live lid-hand to the coast, plus notice that File 2244's physical recovery for badge 2244 is moving — deadline pinned to the shift bell, so Anza's green chain holds only if she's surrendered.",
+      "Coombs lays his clean mercy on Wren in the lamplight — a hot coast bunk, a logged wage, the count wiped off every book, no one the wiser — genial as a stove, and Wren gives him back only that it's what's in the book and she's the hands, not the stamp.",
+      "Coombs turns the same offer on Miko when she drifts in off the ore stub, and Miko, fanning her three bought names and three coast tickets, does the arithmetic out loud — paper names don't buy meals and a green board only means the trains run — and for once asks him a real question about the wage instead of a lie.",
+      "At the ore stub Kass opens the tender's belly with Doan and finds it carries no transponder and posts to no master board, and under the floor the same blank mount and cut harness as the four rigs that vanished off Kettering — one of a fleet that lives off every book.",
+      "Wren stops reciting 36.4 and asks Rhea for the one thing running can't give her: to be taken to the man she counted while he's still breathing — the machine-truster now the one who has to weigh a face against a plate.",
+      "Rhea walks Wren the two paces to the back-room door with the cathode light bleeding under it, while Coombs fills the shop behind them to say the tender's warm and the desk's clock is running — whoever walks back out of that room is who rolls at the bell."
     ],
     "events": [
-      "Rhea negotiates a short hold on Coombs's tender at the iced ore stub, brings Wren into the relay shop where Ivo breathes on mains compressor power, and Teodoro activates reader two — warning that whatever it names goes onto the living plate readable by Kettering's morning desk — while Kass presents the taped work glove with a disc cut from its palm.",
-      "Reader two matched Wren's hands to the glove and read her as \"Bay four, shift two, lid-hand,\" logging one body where the 21:47 seal recorded two, which pushed a live entry to the plate and brought Kettering's morning desk onto the comms asking who wrote it.",
-      "Rhea proves with her caliper and her chipped gasket punch that the disc patching Ivo's diaphragm was cut from Wren's glove palm, and demands to know how that glove rode the dead med rig's tool void from Kettering to Anza.",
-      "Wren flatly confesses she held the Bay 4 lid and stopped her count at \"three, two\" before the stamp fell, gives the false 36.4 last-good reading as proof the man died, and refuses to call it anything but her own handiwork — then Kettering's morning desk opens the channel to order Anza to hold her, with the node's green resupply chain named as the price.",
-      "Rhea refuses Wren's confession and reads Anza's living-crew plate at reader two, finding Marlowe — the man Wren counted — logged as living crew under a live seal, aboard two days, while Wren still doesn't believe it.",
-      "Rhea finds Marlowe awake and breathing in the back room, learns he remembers Wren stopping her count at two and refuses to sign himself off the plate, then sees Kettering's morning desk has written a new line into Anza's empty name slot."
+      "Teodoro read the morning desk's hold order aloud — Wren remanded to the coast with the collecting tender already logged, File 2244's physical recovery for Marlowe due at the shift bell, and Anza's green chain holding only if she's surrendered — and the plate's countersign field came up already filled with Marlowe's badge."
     ]
   }
 }
