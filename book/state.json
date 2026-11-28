@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Weir trestle, nine minutes of scrubber left on the last cartridge"
+      "status": "Weir switch post, cartridge spent, Ivo on Anza's shop bottle"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "switch plate at the Weir coast side, two live tickets (Sela Marchetti, Hollis Teague) pocketed, has not boarded"
+      "status": "Weir coast switch plate, one boot on the coast side, has not boarded"
     },
     {
       "name": "the man in the pod",
@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "Weir switch stand trestle, thumb off the yard bar, count ended at two"
+      "status": "Weir switch post at the trestle, back to the coast, thumb off the yard bar, listed by name on Anza's shop roster"
     },
     {
       "name": "Coombs",
@@ -120,16 +120,16 @@
       "role": "Kettering desk remand officer",
       "wants": "to confirm the lid-hand record and execute the coast-roster hold before the hour",
       "flaw": "treats a confirmed record as a true one",
-      "status": ""
+      "status": "Weir trestle, tube capped, stepped back out of the lamplight, carrying the slate record up to Kettering's morning desk himself"
     }
   ],
   "threads": [
     "Miko has bought coast-bound tickets under three different names.",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
-    "Who the second person at Bay 4 was — the taped-glove hands that counted Marlowe down to the lid while Voss stamped.",
     "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk",
     "Miko holds three coast tickets under three names and a green board means the coast trains are running — will she actually go?",
-    "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes."
+    "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
+    "Wren's name went onto Anza's roster countersigned under Ospina's flagged seal authority, and Kettering's morning desk has not answered it"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -341,7 +341,8 @@
       "Rhea breaks her own rule and trusts a person's word over a machine's reading, proving over the yard handset to Wren, Bale, and Coombs that the 36.4 death reading came off a pod repeater fed by a cut databus, while Teodoro reads Marlowe off Anza's live plate as living crew in the next room — and Kettering's File 2244 is still rolling.",
       "Wren spoke her count into the yard handset — \"three,\" then \"two\" — and found nothing after it, because a lid-hand's count always stops at two, while in Anza a man set down his cup and started toward the speaker.",
       "Marlowe's live voice comes down the copper and refuses Wren's count, telling her the only thing she did wrong was do it badly and that a zero needs a body he won't provide, so the count holds at two while he's standing, then he goes to fetch his cup.",
-      "Coombs reveals the coast reads every boarding body at the gate and the blank-plated rig waiting under the green lamps is his own unlogged fleet, so Miko walks to the edge with her two live names, refuses the board, and stays on the switch plate while Rhea's cartridge burns down to nine minutes and Bale's desk puts him on hold until the hour."
+      "Coombs reveals the coast reads every boarding body at the gate and the blank-plated rig waiting under the green lamps is his own unlogged fleet, so Miko walks to the edge with her two live names, refuses the board, and stays on the switch plate while Rhea's cartridge burns down to nine minutes and Bale's desk puts him on hold until the hour.",
+      "Wren turns her back on the coast lamps and has Teodoro key her real name, Wren Cardoso, onto Anza's shop roster over the copper, which puts her off Coombs's slate and makes Bale cap his tube and step back, just as Rhea's cartridge dies and Ivo goes onto the patched glove-rubber bottle."
     ]
   }
 }

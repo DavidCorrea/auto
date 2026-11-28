@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 91404,
-  "passages": 143,
+  "words": 92219,
+  "passages": 144,
   "arcs": [
     {
       "number": 1,
@@ -180,8 +180,8 @@
       "number": 22,
       "numeral": "XXII",
       "title": "The Count Ends at Two",
-      "words": 3331,
-      "passages": 5
+      "words": 4146,
+      "passages": 6
     }
   ]
 }
