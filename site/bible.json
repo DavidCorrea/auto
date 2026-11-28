@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at the overlap locker, holding the overlap log open on eleven short seal runs"
+      "status": "at overlap locker, log folded and pocketed with coast tickets, ready to act"
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "reading board to shop, dispatch line open"
+      "status": "logging Calder Voss into board notes, reading clearances dropping (now at five)"
     },
     {
       "name": "V. Ospina",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "found die held as evidence; own seal authority flagged for review, sitting at Kettering's morning desk (opens ~08:00)"
+      "status": "at bench, chipped die set down, recognized Calder Voss as Bay 4 Shift 2 peer with clean authority, review pending at Kettering desk"
     },
     {
       "name": "Pell",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at Anza's board, tally card left face-out on the board ledge, doubled shift with no relief and no end time"
+      "status": "at board chair, confessed Calder Voss's name and her complicity, tally card face-out on ledge"
     },
     {
       "name": "Doan",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "at the ore stub, clearance withdrawn, overlap key dead, still refusing the name"
+      "status": "at ore stub, clearance withdrawn, wrist still looped in locker cord, overlap key dead, shaken by the name"
     }
   ],
   "threads": [
@@ -80,7 +80,6 @@
     "someone cut and hand-re-stamped the rig's seals and filed a false ballast manifest — that forger is still out there",
     "the cargo band is stenciled Bay 4 / Shift 2 — the shift ending tonight — so whoever loaded him is still in the yard",
     "the loader who resealed all four rigs and stood watching the man before the lid came down is the forger, and is still in the Kettering yard",
-    "Whose were the second pair of hands that held the lid and counted the man down into the box?",
     "The named far-end contact is someone Marlowe knows, connecting him directly to the forger arrangement"
   ],
   "facts": [
@@ -191,7 +190,8 @@
       "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line.",
       "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's.",
       "Teodoro gives Marlowe the relay bunk and splints his shoulder while Ospina, holding the found chipped die as evidence, reveals the countersign ran on their own seal authority — now flagged to Kettering's morning desk — leaving about a hundred and ten minutes before the review can void it, and Miko moves off the tool rack toward Doan.",
-      "Miko pulled Anza's overlap log out of the locker door pocket and Ospina read eleven short seal runs all received by one Bay 4 Shift 2 hand mark, but Doan refused to give the name and their own clearance died on the board along with six others."
+      "Miko pulled Anza's overlap log out of the locker door pocket and Ospina read eleven short seal runs all received by one Bay 4 Shift 2 hand mark, but Doan refused to give the name and their own clearance died on the board along with six others.",
+      "Marlowe reveals from memory that the voice counting him into the pod was his trusted far-end contact at Kettering Bay 4 Shift 2 — Calder Voss, the same loader who resealed the rigs and ran the seal-for-resupply arrangement — and Nour confirms the name she withheld from Pell."
     ]
   }
 }
