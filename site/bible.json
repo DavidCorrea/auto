@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "crew fed from ten good cans and one spoiled; C9 cut in door plate and tally; jaw fault tripped and reset, skim-fault hers to carry."
+      "status": "at Culvert Nine door plate, holding the crank, demanding ten canisters and threatening to call Kettering before oh-eight-hundred"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at door plate, logging Dray's arrival and claim, pencil ready"
+      "status": "at Culvert Nine door plate, reported the blank rig is Anza salvage with no living names wired"
     },
     {
       "name": "Wren",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "at Culvert Nine door plate, rig idle, hand lamp burning on ground, declares he will wait indefinitely"
+      "status": "waiting at his rig short of the door plate, lamp burning, refusing to cross"
     },
     {
       "name": "Tobin",
@@ -455,7 +455,8 @@
       "Dray leaves his lamp burning between the two rigs and tells her the door plate stays closed until the second name is written, landing Brill on a salvage claim she cannot cash and a standoff she cannot outwait."
     ],
     "events": [
-      "Orlin Dray arrives at Culvert Nine in an unmarked rig, kills the engine short of the door plate, sets his hand lamp on the ground, and tells lookout Saul he will wait as long as his fuel holds with no schedule to leave."
+      "Orlin Dray arrives at Culvert Nine in an unmarked rig, kills the engine short of the door plate, sets his hand lamp on the ground, and tells lookout Saul he will wait as long as his fuel holds with no schedule to leave.",
+      "Saul reads the blank rig's crew plate as Anza salvage with no living names wired—news to Brill—while Brill steps out with the crank demanding ten canisters before the lockout and threatens to call Kettering before oh-eight-hundred."
     ]
   }
 }

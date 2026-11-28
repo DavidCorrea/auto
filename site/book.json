@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 116286,
-  "passages": 184,
+  "words": 116645,
+  "passages": 185,
   "arcs": [
     {
       "number": 1,
@@ -241,8 +241,8 @@
       "number": 29,
       "numeral": "XXIX",
       "title": "A Man with No Clock",
-      "words": 273,
-      "passages": 1
+      "words": 632,
+      "passages": 2
     }
   ]
 }
