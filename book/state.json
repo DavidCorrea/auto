@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "bad leg, Nour's tally card on deck, caught between authorities"
+      "status": "leaving Culvert Nine on pedal-rail PR-ANZA-03, 18:00 bell tolling, turnaround deadline active"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "corded, holding two coast tickets, watching Brill"
+      "status": "free of cord, standing in storeroom light with two coast tickets, child and crew watching"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "asserting full authority over Culvert Nine's throat, trade offered"
+      "status": "holding storeroom authority, trade offer on table (one coast ticket for unload), eleven cans still cycling"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "standing on jaw plate with clipboard, reclamation cord still on Miko, refusing to yield but losing the argument"
+      "status": "Culvert Nine jaw plate, cord cut, stowaway sheet active for M. Varel, heading to pedal-rail with Kass"
     },
     {
       "name": "Wren",
@@ -386,7 +386,8 @@
       "Saul cords Miko's wrist and logs her as stowaway-thief M. Varel with the eleven cans seized for Kettering review, while Miko watches the storeroom door and warns that the forward canister's fourth bite has cured it shut as dead weight, until the storeroom's bolts draw back and the door swings open.",
       "Odessa Brill emerges from her storeroom with a child and crew behind her, walks the line of eleven canisters reading the Bay 4 Shift 2 stamps by hand, confirms all eleven match Nour's short strikes, and declares them Anza's payment — not stolen cargo — stopping at the cold-sealed forward canister to state the jaw opens on a trade or not at all.",
       "Saul reasserted Rule thirteen against Brill's authority over her own storeroom, Kass produced Nour's tally card whose receiving mark matched Brill's own hand-cut crescent, and Brill declared the throat opens only on a trade.",
-      "Brill lays out the trade terms — one coast ticket for unload rights, cans logged under her name, skim-fault hers — and orders Saul off her plate, declaring her storeroom's rule supersedes Rule thirteen."
+      "Brill lays out the trade terms — one coast ticket for unload rights, cans logged under her name, skim-fault hers — and orders Saul off her plate, declaring her storeroom's rule supersedes Rule thirteen.",
+      "Saul cuts Miko's reclamation cord and stands down on the cargo, but warns the stowaway sheet for M. Varel goes north at the 18:00 bell unless a clean name answers for her; Kass turns toward the pedal-rail as the bell tolls."
     ]
   }
 }
