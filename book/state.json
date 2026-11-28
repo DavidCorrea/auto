@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Anza relay shop, hand-pumping Ivo, three restarts left"
+      "status": "at Anza relay shop, Ivo down to two restarts"
     },
     {
       "name": "Kass",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "Culvert Nine, glove off, live flagged ring pledged to close the receiver side"
+      "status": "live ring active, crimping the crescent die against Voss's strike"
     },
     {
       "name": "Pell",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "Culvert Nine pump house door with the tally clipboard, counting stock off the totalizer"
+      "status": "paused at chalk line, pencil stopped, headlights approaching"
     }
   ],
   "threads": [
@@ -267,7 +267,8 @@
       "Voss confesses on the open channel to resealing the eleven at 05:52 and sealing Marlowe in as ballast at 21:47, Teodoro reads it back twice into Anza's board log, and Voss realizes he's just spent the one clean morning his erasing bought him.",
       "Voss admits the counter was relief-overflow badge 2244, paid in freight with no name, and Teodoro finds the badge is flagged for closure in the same 08:00 review that will decide Ospina's ring.",
       "Brill made Marlowe repeat the count, told the room how a desk man with a full clipboard took four of her crates against line paper she chewed and swallowed, and learned that her clipboard man's tape was on the left hand while Marlowe's lid counter's was on the right.",
-      "Brill broke her rule and set her terms — the eleven seals move only against a chain that closes clean, scrubbers first, if someone names badge 2244 aloud before Fenn arrives — Marlowe answered Voss's last attempt to file him as ballast with a name, a bunk and a count, and Ospina bound Voss by his own crimp rule while Kass held out a hand for Miko's overlap log."
+      "Brill broke her rule and set her terms — the eleven seals move only against a chain that closes clean, scrubbers first, if someone names badge 2244 aloud before Fenn arrives — Marlowe answered Voss's last attempt to file him as ballast with a name, a bunk and a count, and Ospina bound Voss by his own crimp rule while Kass held out a hand for Miko's overlap log.",
+      "Ospina forces Voss to crimp a case under the chipped crescent die and their live ring, the reader window goes amber, and Saul starts loading the six scrubber cases just as Fenn's headlights appear on the ore grade twenty minutes early."
     ]
   }
 }
