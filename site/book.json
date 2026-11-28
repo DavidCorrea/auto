@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 61325,
-  "passages": 98,
+  "words": 61820,
+  "passages": 99,
   "arcs": [
     {
       "number": 1,
@@ -132,8 +132,8 @@
       "number": 16,
       "numeral": "XVI",
       "title": "The Receiving Authority",
-      "words": 423,
-      "passages": 1
+      "words": 918,
+      "passages": 2
     }
   ]
 }

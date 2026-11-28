@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Culvert Nine pump hall, serve order active, clearance turns at 08:00"
+      "status": "outside Culvert Nine in their rig, one minute until their clearance turns and they can call the reclamation unit."
     },
     {
       "name": "Saul",
@@ -264,7 +264,8 @@
       "The un-erasing bites the instant the seals read clean: Voss's reseal-fraud flags snap back onto the board every desk reads at eight, plain as a strike, and the forger is caught by the very act that freed the cargo. Fenn turns from the man he can no longer take to the name he now has to serve."
     ],
     "events": [
-      "Fenn arrives at Culvert Nine before eight, ignores the recovered cargo, and reiterates the desk's ultimatum: produce Voss as a listed forger or hand over Marlowe within four minutes before their clearance turns and the reclamation unit takes both."
+      "Fenn arrives at Culvert Nine before eight, ignores the recovered cargo, and reiterates the desk's ultimatum: produce Voss as a listed forger or hand over Marlowe within four minutes before their clearance turns and the reclamation unit takes both.",
+      "Kass, Miko, and Brill establish that badge 2244 is a dead credential with no living person behind it, forcing the crew to clean the chain without naming the taped-glove counter before Fenn’s clearance turns at 08:00."
     ]
   }
 }
