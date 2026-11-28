@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 123031,
-  "passages": 196,
+  "words": 123540,
+  "passages": 197,
   "arcs": [
     {
       "number": 1,
@@ -250,6 +250,13 @@
       "title": "The Crank, Then the Cans",
       "words": 3880,
       "passages": 7
+    },
+    {
+      "number": 31,
+      "numeral": "XXXI",
+      "title": "Nothing Left to Tell",
+      "words": 509,
+      "passages": 1
     }
   ]
 }

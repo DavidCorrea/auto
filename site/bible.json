@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "on his running board at Culvert Nine's door plate, book back inside his coat, crank in pocket, work lamp off"
+      "status": "at Culvert Nine’s door plate, recognizes plate 4217 as Rig Seven from his own book, dark eleven months, now logged against Culvert Nine’s cans; won’t cross the door plate or crack the book but declares the rule stands."
     },
     {
       "name": "Tobin",
@@ -437,7 +437,8 @@
         }
       ],
       "chapterSummaries": [
-        "Dray stopped forty meters short of Culvert Nine's door plate, set his lamp on the dirt, and said he'd wait as long as his fuel held — three weeks. Through Saul he laid out the yard's rule: a rig lives only while a living name is wired to its crew plate; a blank rig is a parts pile. He refused Brill's own name as spent, and she called nobody out to the steel. The spoiled can began sweating on the clamp pin, and Dray admitted he'd known Culvert Nine's count for a year and a half, because something has been reading her jaw into the ore line's queue."
+        "Dray stopped forty meters short of Culvert Nine's door plate, set his lamp on the dirt, and said he'd wait as long as his fuel held — three weeks. Through Saul he laid out the yard's rule: a rig lives only while a living name is wired to its crew plate; a blank rig is a parts pile. He refused Brill's own name as spent, and she called nobody out to the steel. The spoiled can began sweating on the clamp pin, and Dray admitted he'd known Culvert Nine's count for a year and a half, because something has been reading her jaw into the ore line's queue.",
+        "Brill paid Orlin Dray the jaw crank and two good cans, but he took them and gave nothing back — his bargain was for a name, and no name had been said. Miko offered her badge and Brill shut her down, then Kass limped up on a cooked bearing, showed Nour's tally card, and read a rescinded Anza clearance struck through the blank rig's ground-off plate at 04:51 — the same minute a rig vanished from Kettering's board. Culvert Nine's dead reader clattered a second time, logging eleven cans against a plate number in the four thousands, and Dray said, \"Say that number again.\""
       ],
       "summary": "",
       "isClosed": false,
@@ -446,25 +447,18 @@
   ],
   "chapter": {
     "arc": 6,
-    "number": 30,
-    "title": "The Crank, Then the Cans",
+    "number": 31,
+    "title": "Nothing Left to Tell",
     "beats": [
-      "Brill gives up the crank rather than call another name: she slides it down the ore dirt with her boot, Dray picks it up and puts it inside his coat without crossing the plate, and the jaw pin stays shut.",
-      "With the pin already broken loose and the shop come-along rigged to the gate, Saul and Miko draw two good cans by hand and roll them to Dray's running board; he straps them down, hands nothing back, and says a trade taken isn't a bargain kept — his bargain was struck for a name.",
-      "Miko pulls badge C9-047 off her coat and offers it to end it; Brill clamps a glove over her mouth and tells her the badge was bought with tickets burned in Brill's own stove, so it isn't Miko's to spend, and Saul adds that a name in pencil won't hold a wire.",
-      "Kass comes down the grade from the second culvert on foot, dragging the pedal-rail behind them, bearing cooked black, knee gone, and trades insults with Miko before putting Nour's tally card in Brill's hand — eleven notched full, C9 cut in steel.",
-      "Dray starts working Kass instead of Brill: a dispatcher who doesn't eat out of her pot is exactly the witness he needs, and he offers to let them read his book if they'll stand on the steel and hear a name — Kass, who can't drop a thread, starts asking him about eleven rigs and a spliced queue instead of answering.",
-      "Kass crosses to the blank rig, wipes grease off the crew plate with a cuff, and finds a yard scrub-mark over an Anza clearance stamped and then struck through: rescinded, rescission logged at 04:51, witness line blank.",
-      "Kass reads it out flat — the same minute a rig vanished off Kettering's board — and says whoever signed that rescission is the one reading Culvert Nine's jaw into the queue, and Dray, keeping his letter exactly, opens his book for the first time and asks her to spell it."
+      "Miko reads the four-thousands plate number off the reader's curl a second time and Dray goes still — he knows it on sight: a plate out of his own book, one of the eleven rigs asleep in his shed, a plate that's supposed to be dark. Somebody's been running Culvert Nine's cans to it. He won't cross the door plate and won't crack the book, but he says the rule again — a living name on his steel, two witnesses, then every page opens — and lets it sit there that the same hand that cut Kass's line at 04:51 is feeding one of his own rigs. (Hook: Dray's forty riders just became part of the count.)",
+      "Miko sees her angle and takes it: Dray wants a name, she wants off the Interior before winter, so she steps to the edge of his lamplight and offers to sell him one — J. Renner, a loader live on Anza's overlap log (the shift-handover record), a name she'll put on his crew plate for a cut of her own. A cut is Dray's price, eleven cans, a living name wired to a dead rig's plate so the rig runs again. Dray, who takes a name at its word, says he'll check it. (Hook: he reaches into the crew box for the reader.)",
+      "Dray wires Anza's reader two — the relay terminal at Anza — and reads J. Renner into it, asking if the name is live and free to wire. Teodoro, at the relay shop with Ivo breathing on the mains beside him, answers the question asked and then everything else too, because he tells you all he knows before he asks why you want it: J. Renner cleared north weeks back on the green coast train, chalked off, gone — no living hand left to put on a plate. (Hook: the name Miko staked her cut on is empty, and Teodoro never even asks who's on the other end.)",
+      "Dray keeps his letter to the letter. A name with no body behind it can't hold a plate, so the cut isn't made — and Miko staked Culvert Nine's whole count on the try. He chalks Miko Keres off the tally and lifts the can-lid badge C9-047 off her coat, the bit of authority that lets a loader open the jaw, because a chalked name doesn't get to carry it. (Hook: badge gone, name struck — Miko is nobody on the line.)",
+      "Brill doesn't lift a hand to stop him. She trusts a full storeroom over any person's word, and a storeroom can't feed a name that isn't on it, so she won't spend one can to keep Miko — she takes a rag to her own storeroom board and wipes the ink off Miko's name while Saul says a name in pencil won't hold a wire, and this one won't even hold ink. (Hook: nothing left at Culvert Nine will feed Miko now.)",
+      "With no board that will feed her and no badge to her name, Miko climbs up onto Dray's running-board deck and eats out of his crew box, because it's the only food left in reach. Dray lets her — a chalked-off name is cargo, and cargo he hauls — and Kass watches the woman who wanted off the Interior get carried deeper in as Dray's rig turns toward Marrow Cut with the four-thousands number still unread in his coat."
     ],
     "events": [
-      "Brill loosened the jaw's clamp pin so nothing was being handed over, slid the crank down the dirt to Dray, who pocketed it without crossing the door plate while the jaw stayed locked, and ordered two good cans rolled out — then the spoiled can shifted and started to go.",
-      "Saul and Miko winch two good cans off the clamped jaw and roll them to Dray’s running board, where he straps them down himself, pays nothing back, and insists his bargain was for a name.",
-      "Miko offers her station badge to Dray to open the jaw, but Brill silences her and Saul warns that a penciled name won’t hold a wire, leaving the jaw shut and the spoiled can still dripping.",
-      "Kass limps down the grade on foot with a cooked bearing, trades insults with Miko, presses Nour's eleven-notched tally card into Brill's hand, and forces Dray to shift his attention from Brill to them.",
-      "Kass presses Dray on the eleven off-board rigs and the spliced queue feeding Culvert Nine's logs to Kettering; Dray refuses to name the reader, keeps his book closed, and repeats that the yard doesn't move without a name spelled on the page — Kass refuses to give one.",
-      "Kass laid the hand lamp flat against the blank rig's crew plate and read a ground-off Anza clearance struck through by rescission at 04:51 with the witness line empty.",
-      "Kass reads the blank rig's rescission aloud as the 04:51 Kettering board disappearance and names the unknown scriber as the hand feeding Culvert Nine's jaw into the queue; Dray opens his plate book to show eleven pages with two blank witness columns each, refuses to write anything without a name spoken on his steel, kills his work lamp, and Culvert Nine's dead reader prints a second entry claiming eleven cans against an unknown plate number Dray recognizes."
+      "Miko reads plate 4217 off the reader again and Dray recognizes it as one of his own dark rigs, realizing someone is running Culvert Nine’s cans to a plate that should be asleep in his shed."
     ]
   }
 }
