@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "nameless cargo on Dray’s deck, chalked one-twenty-seven on her shoulder, offered as the price"
+      "status": "Dray's deck, chalked one-twenty-seven, nameless, bound for Marrow Cut"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "refuses to spend any stock on Miko, reinforces that her storeroom feeds only names on steel."
+      "status": "Culvert Nine storeroom, shelves bare, crew's winter spent, Joss Hallen wired to Plate 4217"
     },
     {
       "name": "Fenn",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "at Culvert Nine jaw with Miko on deck, names his price for plate 4217"
+      "status": "Culvert Nine jaw, Rig Seven wired, rigs able to move, cans loaded aboard"
     },
     {
       "name": "Tobin",
@@ -462,7 +462,8 @@
     "events": [
       "Rhea arrives at Marrow Cut with Teodoro's order for Culvert Nine's canisters, refuses Dray's demand to trade a name for them, and drives back down the spur as Dray's rig starts behind her and her transponder faults red.",
       "Rhea arrives at Culvert Nine’s jaw with Teodoro’s order, but Brill refuses to open it without a name written on the tally steel, and Dray’s rig arrives behind Rhea to trap her.",
-      "Dray states his price cold—plate 4217 stays a parts pile unless a living name is wired to it before Saul and Brill—and offers nameless Miko as that name."
+      "Dray states his price cold—plate 4217 stays a parts pile unless a living name is wired to it before Saul and Brill—and offers nameless Miko as that name.",
+      "Brill names Joss Hallen to be wired to Plate 4217, then loads Dray's deck with ten good cans, the spoiled can, and her last skim, leaving her storeroom shelves bare as a live ping from Kettering closes in."
     ]
   }
 }

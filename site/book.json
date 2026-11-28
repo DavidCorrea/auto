@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 130381,
-  "passages": 211,
+  "words": 130809,
+  "passages": 212,
   "arcs": [
     {
       "number": 1,
@@ -269,8 +269,8 @@
       "number": 33,
       "numeral": "XXXIII",
       "title": "Brill Pays",
-      "words": 1246,
-      "passages": 3
+      "words": 1674,
+      "passages": 4
     }
   ]
 }
