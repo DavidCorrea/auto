@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "driving flatbed down spur toward Culvert Nine's jaw with Teodoro's order, transponder blinking red"
+      "status": "blocked at Culvert Nine’s jaw by Brill’s refusal, with Dray’s rig arrived behind her"
     },
     {
       "name": "Kass",
@@ -460,7 +460,8 @@
       "As Dray's rig turns north for Marrow Cut and Amil's bench, Miko watches Culvert Nine's stripped storeroom drop behind and knows the whole lever now — a living name said before two witnesses and the knife does the rest — and the only names left to spend are still breathing, hers among them, with the second bell not yet rung."
     ],
     "events": [
-      "Rhea arrives at Marrow Cut with Teodoro's order for Culvert Nine's canisters, refuses Dray's demand to trade a name for them, and drives back down the spur as Dray's rig starts behind her and her transponder faults red."
+      "Rhea arrives at Marrow Cut with Teodoro's order for Culvert Nine's canisters, refuses Dray's demand to trade a name for them, and drives back down the spur as Dray's rig starts behind her and her transponder faults red.",
+      "Rhea arrives at Culvert Nine’s jaw with Teodoro’s order, but Brill refuses to open it without a name written on the tally steel, and Dray’s rig arrives behind Rhea to trap her."
     ]
   }
 }
