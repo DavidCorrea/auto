@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Culvert Nine receiving jaw, pedal-rail seized and smoking, legs cramping, blank rig stopped on ridge with lamp lit and unseen occupant inside"
+      "status": "at Culvert Nine receiving jaw, pedal-rail seized and smoking, legs cramping, held at lamp-point by Saul, blank rig's lamp burning on ridge above"
     },
     {
       "name": "Miko",
@@ -382,7 +382,8 @@
       "The rig's brakes let go on the ridge and it rolls free down the grade toward the switch, the first canister starting to tick as its cold-cycle lockout counts down, and up in the crew box window the hand lamp goes out."
     ],
     "events": [
-      "Kass coasts into Culvert Nine on a seized pedal-rail and finds the blank rig stopped on the ridge with its lamp lit and an unseen presence shifting inside the crew box."
+      "Kass coasts into Culvert Nine on a seized pedal-rail and finds the blank rig stopped on the ridge with its lamp lit and an unseen presence shifting inside the crew box.",
+      "Saul emerges from the pump house, spins up a work lamp onto Kass, and recites Culvert Nine's rule: outsiders get one chalk mark under the station name or nothing, no third mark, no appeal."
     ]
   }
 }
