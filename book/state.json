@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "keyed Culvert Nine meter, brown-out cut board power before reading returned"
+      "status": "at Anza board ledge; has read back the runs and pressed Nour to walk the route to Culvert Nine"
     },
     {
       "name": "V. Ospina",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at Anza board, tally card surrendered into Fenn’s seal"
+      "status": "at Anza board ledge; has mapped the four diverted runs and admitted Brill holds scrubbers needed by Rhea's brother Ivo"
     },
     {
       "name": "Doan",
@@ -230,7 +230,9 @@
           "summary": "The re-listing holds — Fenn serves Voss for the reseal fraud, resupply flows and Anza will eat, Marlowe has a listed bunk and a claim he can't shake, and Ospina walks into the Kettering review with the node behind them — until Voss, hauled off, tells Fenn the counter at Bay 4 was the other one and Miko, three coast tickets folded in her coat, remembers a shape she passed in the tool void."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "Fenn reached Anza with the desk's terms — produce Voss or hand over the living witness by first light — then put the relay shop on a brown-out rota that leaves Ivo one cartridge, with a standing offer of full-time compressor power the hour Rhea signs Marlowe over. Kass burned the last charge in a dead rig at post 71 to make Teodoro read Culvert Nine off Nour's tally card, and the old pump loop showed a body fed there at 05:57 and again at 06:14. Fenn sealed the card into the rig's document drawer, posted the serve order on Marlowe's bunk, and got word that a reclamation unit is due at 04:40."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 12
@@ -238,25 +240,19 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 12,
-    "title": "Red",
+    "number": 13,
+    "title": "The Tally Card",
     "beats": [
-      "Fenn's scrub-white rig cranks into Anza's yard with a claim-serve mast folded on the roof, and he stands at the board in front of both shifts and reads the desk's terms out loud: the node produces the forger, or the node hands over the living witness, or the resupply stays frozen through winter.",
-      "Fenn starts shedding load instead of waiting: he pulls heat off the ore stub and drops the relay shop onto a brown-out rota, which puts Ivo's respirator compressor on a two-hour cycle, and Rhea does the arithmetic on four cartridges out loud where everyone can hear it.",
-      "Rhea takes Fenn to Ivo's bedside and puts the dead med rig's databus trace in front of him — the cut line, the repeater holding a false 36.4 while the box went cold — and Fenn tells her a machine's memory is not a person's word, then offers to restore the compressor's priority the same hour she signs the witness over.",
-      "Fenn goes to the relay bunk with a handheld and interviews Marlowe, who gives him the taped knuckle, the count to the lid, and the smell inside the box, sass intact; the handheld chimes the still-active hands claim, and Fenn declines to log any of it as testimony.",
-      "Kass, stalled in the 7-K lane with the dish folded and the named-rider channel down to a carrier ping, hand-cranks the mast into Anza's side-lobe and burns the rig's capacitor bank for exactly one ping — long enough to ask Teodoro to read him Nour's tally card.",
-      "At Anza's board, Kass works the receiving mark with Nour and Teodoro while Fenn listens: a down-line tap meters water by bodies standing at it, not names on a plate, so a stop can draw a full ration for a man nobody lists — and the mark on the card resolves to a dead pump station off the resupply route entirely.",
-      "Teodoro pulls the stop's meter and reads it out live — a full ration drawn at 06:14 this morning, the same minute Voss dropped off Kettering's board — and Fenn, who cannot leave a discrepancy unclosed, seals Nour's tally card into his rig and posts a serve order on the witness for first light."
+      "With the card sealed away as evidence, Nour rebuilds the four down-line runs from memory in grease pencil on the board ledge while Teodoro reads each line back before asking her why, and the last line isn't food at all: six cases of respirator scrubbers, the same canisters caged under Ivo's cot, riding in Odessa Brill's hoard at the end of the ore line.",
+      "Rhea tells Fenn to their face that the offer can rot, teaches Teodoro the bulb — three hard pushes, watch the chest lift, stop before the eyes go — and chalks a 5 on the shop wall for restarts left; the compressor spools up on the cycle, eats a quarter cartridge sealing against the glove-rubber patch, and she wipes the 5 out and writes 4.",
+      "Ospina pockets the chipped die and says they'll walk down-line to seal whatever comes back, knowing the Kettering review of their flagged authority opens at 08:00 and a loader not standing at their bench when it opens reads as flight; Fenn tells them the flag becomes a warrant instead of a review, and Ospina goes to find their boots anyway.",
+      "Doan cuts the locker cord off their wrist with a seal knife, agrees to guide the crew down the disused resupply route on foot and unlogged now that Fenn's cut has frozen the ore chute and nothing can haul regardless, and names their price: no plates, no names, and everybody pushes the hand cart — then mentions that the only clearance still live on Anza's board belongs to the Shift 2 loader who never showed up, and a no-show's name stays good until morning reconciliation.",
+      "Miko tries to cash one of her three coast tickets at the ore siding and finds out paper passage is worth nothing off a red plate — no carrier will sign a rider the desk is reading — so she buys aboard wearing the no-show's name out of the overlap log, and the board takes it, then pings twice: that body is already listed as aboard, so Anza's plate now carries one woman in two places until the morning count.",
+      "At the ore stub the crew loads the cart off the plate — Nour, Doan, Ospina with the die, Miko under a dead shift's name — and detour up the 7-K to post 71, where Kass leaves the dead rig and its folded dish and its one remaining shout behind because a thread is worth more than an antenna, and reports from memory that one of the four ghost rigs is running the ore line tonight and does not stop for people.",
+      "The reclamation unit rolls in at 04:12, twenty-eight minutes early, and Fenn meets it at the gate with the sealed tally card and puts their own name on Marlowe's bunk door as line-trust custody — the first dirty mark on a spotless record — while Marlowe, who could walk out to the rig and end it, stays on the cot and gives Teodoro his Bay 4 shift numbers instead; on the pump loop the culvert totalizer ticks over half a ration, and someone is already walking the route ahead of them."
     ],
     "events": [
-      "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter.",
-      "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm.",
-      "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over.",
-      "Fenn interviews Marlowe at the relay bunk; Marlowe identifies Voss as the stamper and a separate taped-knuckle second person as the one who counted aloud and held the lid; the handheld registers the active hands claim, but Fenn refuses to log the testimony, then receives a restricted burst that a reclamation unit has been authorized to physically recover Marlowe before morning.",
-      "Stranded with a dead rig, Kass burned their capacitor bank's last charge to punch a single ping through the antenna's side-lobe to Anza and asked Teodoro to read the receiving mark on Nour's tally card.",
-      "Teodoro reads Nour's tally mark as Culvert Nine, a dead pump station where an unlisted body like Marlowe can draw rations, then keys the meter just as the brown-out cuts the board's power.",
-      "Teodoro read Culvert Nine’s meter live and found a full ration drawn at 06:14, the minute Voss vanished, so Fenn sealed Nour’s tally card into the rig and posted a first-light serve order on Marlowe—then learned the reclamation unit arrives two hours earlier."
+      "Nour reconstructs the four diverted down-line runs on the board ledge and reveals to Teodoro that six cases of respirator scrubbers—the kind under Rhea's brother Ivo's cot—are in Odessa Brill's hoard at Culvert Nine."
     ]
   }
 }
