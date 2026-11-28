@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 105873,
-  "passages": 166,
+  "words": 106774,
+  "passages": 167,
   "arcs": [
     {
       "number": 1,
@@ -214,8 +214,8 @@
       "number": 26,
       "numeral": "XXVI",
       "title": "Hand Lamp",
-      "words": 892,
-      "passages": 2
+      "words": 1793,
+      "passages": 3
     }
   ]
 }
