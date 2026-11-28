@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at tool rack, three coast tickets in coat"
+      "status": "at the overlap locker, holding the overlap log open on eleven short seal runs"
     },
     {
       "name": "the man in the pod",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "at the ore stub, wrist still looped in the locker cord, no relief posted"
+      "status": "at the ore stub, clearance withdrawn, overlap key dead, still refusing the name"
     }
   ],
   "threads": [
@@ -190,7 +190,8 @@
     "events": [
       "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line.",
       "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's.",
-      "Teodoro gives Marlowe the relay bunk and splints his shoulder while Ospina, holding the found chipped die as evidence, reveals the countersign ran on their own seal authority — now flagged to Kettering's morning desk — leaving about a hundred and ten minutes before the review can void it, and Miko moves off the tool rack toward Doan."
+      "Teodoro gives Marlowe the relay bunk and splints his shoulder while Ospina, holding the found chipped die as evidence, reveals the countersign ran on their own seal authority — now flagged to Kettering's morning desk — leaving about a hundred and ten minutes before the review can void it, and Miko moves off the tool rack toward Doan.",
+      "Miko pulled Anza's overlap log out of the locker door pocket and Ospina read eleven short seal runs all received by one Bay 4 Shift 2 hand mark, but Doan refused to give the name and their own clearance died on the board along with six others."
     ]
   }
 }
