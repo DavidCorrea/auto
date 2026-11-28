@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 116013,
-  "passages": 183,
+  "words": 116286,
+  "passages": 184,
   "arcs": [
     {
       "number": 1,
@@ -32,6 +32,12 @@
       "title": "The Jaw at Culvert Nine",
       "author": "nemotron-3-ultra-550b-a55b",
       "firstChapter": 24
+    },
+    {
+      "number": 6,
+      "title": "The Book at Marrow Cut",
+      "author": "nemotron-3.5-super-vl",
+      "firstChapter": 29
     }
   ],
   "chapters": [
@@ -230,6 +236,13 @@
       "title": "Jaw Green",
       "words": 3748,
       "passages": 7
+    },
+    {
+      "number": 29,
+      "numeral": "XXIX",
+      "title": "A Man with No Clock",
+      "words": 273,
+      "passages": 1
     }
   ]
 }

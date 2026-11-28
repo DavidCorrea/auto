@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "on pedal-rail PR-ANZA-03 riding north toward Anza with a repaired but temporary bearing, Nour's tally card cleared with eleven full notches and C9 cut in steel"
+      "status": "riding PR-ANZA-03 north toward Anza with bearing singing and Nour’s cleared tally card; bad knee, rail due to fail past the second culvert."
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at jaw's edge, hands in pockets, watching the spoiled canister drip"
+      "status": "station loader at Culvert Nine, badge C9-047, all coast tickets burned, hand lamp hung in the storeroom for the next unload."
     },
     {
       "name": "the man in the pod",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "confessed to striking eleven short canisters full; her draw-line key is dead, the overlap locker is dead, and forty names remain on her chalk under an amber chain."
+      "status": "Anza tally card notched eleven full with C9 cut in steel, now carried north by Kass."
     },
     {
       "name": "Doan",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "Culvert Nine storeroom, crew fed from ten good cans and one spoiled, tally card settled, jaw plate marked C9, hand lamp hung for future unloads"
+      "status": "crew fed from ten good cans and one spoiled; C9 cut in door plate and tally; jaw fault tripped and reset, skim-fault hers to carry."
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "Culvert Nine, scratched out M. Varel, wrote Miko Keres on manifest sheet, folded it closed"
+      "status": "at door plate, logging Dray's arrival and claim, pencil ready"
     },
     {
       "name": "Wren",
@@ -121,6 +121,30 @@
       "wants": "to confirm the lid-hand record and execute the coast-roster hold before the hour",
       "flaw": "treats a confirmed record as a true one",
       "status": "Anza relay shop, riding the tender north with Wren to see the record read"
+    },
+    {
+      "name": "Orlin Dray",
+      "pronouns": "he/him",
+      "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
+      "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
+      "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
+      "status": "at Culvert Nine door plate, rig idle, hand lamp burning on ground, declares he will wait indefinitely"
+    },
+    {
+      "name": "Tobin",
+      "pronouns": "he/him",
+      "role": "yard rider, seventeen, plate wired shut at the sternum",
+      "wants": "a name on a board that isn't in Dray's book",
+      "flaw": "gives a false name to anyone who asks, so no one can ever write him down",
+      "status": ""
+    },
+    {
+      "name": "Amil Sorge",
+      "pronouns": "they/them",
+      "role": "Marrow Cut's plate-cutter, own plate blank",
+      "wants": "to remember the name they cut off their own chest",
+      "flaw": "must cut any name spoken aloud before them with two witnesses, and every cut takes another letter of their own name with it",
+      "status": ""
     }
   ],
   "threads": [
@@ -128,8 +152,8 @@
     "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Kass's pedal-rail bearing will cook again past the second culvert, forcing them to walk the final stretch to Anza on a bad knee",
-    "The storeroom's dead reader will wake at oh-eight-hundred and log the salvage under Anza's name in a queue that opens at Kettering",
-    "A headlight is coming down the ore line toward Culvert Nine, not slowing for spur or jaw, while the storeroom's reader logs Anza salvage into Kettering's oh-eight-hundred queue — who is in the rig and what it wants must pay off."
+    "A headlight is coming down the ore line toward Culvert Nine, not slowing for spur or jaw, while the storeroom's reader logs Anza salvage into Kettering's oh-eight-hundred queue — who is in the rig and what it wants must pay off.",
+    "Culvert Nine's dead reader is pushing seasons of unclaimed salvage into Kettering's oh-eight-hundred queue over a wire no one at Culvert Nine ever cut — who is sitting at the other end of it?"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -163,7 +187,13 @@
     "V. Ospina arrived at Anza carrying File 2244 and wearing a red-blinking seal authority ring, seeking to remand Marlowe as cargo; Kettering's morning desk refused the hold and issued Wren a summons to appear at oh-eight-hundred instead.",
     "Marlowe remains listed as living crew on Anza's plate with badge 2244, refuses to countersign himself off, and shares a shop bunk with Wren under an unfinished count.",
     "Miko still holds three coast tickets under bought names but wrote herself onto Anza's resupply shift under her real name and declined the green coast train.",
-    "A blank-plated rig departed Anza's ore stub northbound with eleven warm canisters and a hand lamp burning in its crew box; no transponder, no board, and no one claims it."
+    "A blank-plated rig departed Anza's ore stub northbound with eleven warm canisters and a hand lamp burning in its crew box; no transponder, no board, and no one claims it.",
+    "Miko Keres wrote her real name on Culvert Nine’s storeroom board and is its station loader, badge C9-047, after burning her last two coast tickets in the stove.",
+    "Odessa Brill cut C9 into Culvert Nine’s door plate and tally steel, matching Nour’s eleven short seals and notching all eleven strikes full at Culvert Nine.",
+    "Ten canisters were received good and one spoiled; the blank rig remains locked in Culvert Nine’s jaw as unclaimed Anza salvage with its hand lamp burning.",
+    "Culvert Nine’s dead reader woke and logged the blank rig, eleven canisters received C9, and Anza salvage into Kettering’s oh-eight-hundred queue on a wire no one at Culvert Nine had cut.",
+    "Saul erased “M. Varel” and rewrote “Miko Keres” on the manifest sheet, leaving it clipped to the board.",
+    "Kass repaired PR-ANZA-03’s bearing with graphite, tallow, and a C9-047 washer; Miko says it will cook again past the second culvert."
   ],
   "arcs": [
     {
@@ -364,34 +394,68 @@
         "Kass found a dropped coast ticket under the bought name J. Renner in the dust at Anza's ore stub, and Doan confirmed a woman in a coast coat had run down a rolling blank rig, swung into the crew box, and hung a lit hand lamp in the window. Kass chalked the pedal-rail PR-ANZA-03 out of the shed as live to Culvert Nine and rode north after her, legs burning, bearing whining, the shift bell at 18:00 as the turnaround deadline. The rig is still two hours ahead with Anza's eleven warm canisters and the lamp burning.",
         "The pedal-rail's bearing seized and Kass coasted into Culvert Nine, where Saul pinned her in a work light as a thief until Odessa Brill chalked her onto the jaw plate and set the rule: the throat opens on a matched seal or not at all, cargo sits while food moves, no canister gets skimmed. When Kass offered her own labor, the blank rig dumped its brakes and rolled into the dead spur, its forward canister ticking toward a cold-cycle seal no reader can open. Miko is still up there, lamp dark.",
         "Miko rode the blank rig into Culvert Nine's dead spur and flooded the jaw's reader with the hand lamp, but its blank plates matched no seal, so the eleven warm canisters began a cold-cycle lockout, clamp rings biting down the line one by one. Odessa Brill refused to open her storeroom — the throat opens on a matched crescent seal or not at all, and her door plate is blank — while a child inside kept asking if the food had come. Miko laid one bought-name coast ticket, J. Renner, flat on the blank plate as the forward canister's collar took its third bite.",
-        "Saul corded Miko's wrist and wrote her up as M. Varel, but Brill read the eleven chipped crescents with her thumbnail and called the load Anza's payment, not stolen cargo. Her price: one coast ticket buys unload rights, or the door stays shut. Saul cut Miko loose and stood down on the load, then said the M. Varel sheet rides north at the bell unless a clean name answers for her. Kass is in the pedal-rail saddle with the bell tolling, and Miko's thumb is on the half-torn J. Renner ticket — the name she signed Anza's overlap log with."
+        "Saul corded Miko's wrist and wrote her up as M. Varel, but Brill read the eleven chipped crescents with her thumbnail and called the load Anza's payment, not stolen cargo. Her price: one coast ticket buys unload rights, or the door stays shut. Saul cut Miko loose and stood down on the load, then said the M. Varel sheet rides north at the bell unless a clean name answers for her. Kass is in the pedal-rail saddle with the bell tolling, and Miko's thumb is on the half-torn J. Renner ticket — the name she signed Anza's overlap log with.",
+        "Miko burned her last two coast tickets and wrote her real name on Culvert Nine’s board, becoming station loader with badge C9-047 while Odessa Brill cut C9 into the door plate and tally steel and unloaded ten good canisters and one spoiled. Kass declared J. Renner’s name from Anza’s overlap log, then rode PR-ANZA-03 back north after Miko repaired its bearing with graphite, tallow, and a C9-047 washer. The dead reader woke, logged the blank rig as unclaimed Anza salvage into Kettering’s oh-eight-hundred queue, and a headlight appeared down the ore line without slowing."
       ],
+      "summary": "Kass followed Miko down the ore line on a failing pedal-rail to Culvert Nine, where Odessa Brill’s jaw required a matched seal to unload Anza’s eleven canisters. Miko burned her last coast tickets to buy unload rights, stayed as Culvert Nine’s station loader under badge C9-047, and let Saul rewrite the manifest under her real name. Kass rode back with Nour’s tally card notched full and C9 cut in steel, chalking the blank rig as Anza salvage just as Culvert Nine’s dead reader woke and pushed the log into Kettering’s queue beneath an approaching headlight.",
+      "isClosed": true,
+      "firstChapter": 24
+    },
+    {
+      "title": "The Book at Marrow Cut",
+      "question": "When the only thing keeping forty people fed is a book nobody can be cut out of, what will Culvert Nine spend to cut one name free?",
+      "goal": "The headlight belongs to Orlin Dray, who claims the blank rig in Culvert Nine's jaw and the two riders it came in with, and who feeds his yard by buying living names for crew plates at eleven cans a cut. It ends with Brill spending her own crew's winter to buy one cut, Kass writing herself into Dray's book as his dispatcher so the stolen rigs run on a schedule instead of a scrub, and Miko alive at Culvert Nine in pencil.",
+      "author": "nvidia/nemotron-3.5-super-vl:free",
+      "plan": [
+        {
+          "title": "A Man with No Clock",
+          "summary": "Dray stops his rig short of Culvert Nine's door plate, won't cross it, sets his hand lamp on the ground and says he'll wait as long as it takes because he has fuel and no schedule — and Brill, who can't hand anything over without a trade, gets the yard's rules instead of a fight: a rig lives while a living name is wired to its crew plate, a rig brought in blank is a parts pile, and the rig in her jaw is his and two names short."
+        },
+        {
+          "title": "The Crank, Then the Cans",
+          "summary": "Brill pays Dray the jaw-crank and then two of her ten good cans and he pockets both and gives nothing back, because a trade taken isn't a bargain kept and his bargain was for a name; Miko offers badge C9-047 to end it and Brill shuts her mouth for her, and Kass walks up the grade on a bearing cooked past the second culvert with Nour's card in her shirt and reads a rescinded Anza clearance under the scrub-mark on the blank rig's plate."
+        },
+        {
+          "title": "Nothing Left to Tell",
+          "summary": "Miko tries to buy a cut with J. Renner, live on Anza's overlap log, and Dray — who takes a name at its word — wires Anza's reader two to check it, so Teodoro tells him the truth before he's asked why, and Dray chalks Miko off Culvert Nine's tally and lifts the can-lid badge off her coat, leaving her to climb onto his deck to eat while Brill lets her go because a full storeroom can't feed a name that isn't on it."
+        },
+        {
+          "title": "Eleven Rigs Asleep",
+          "summary": "Inside Marrow Cut's shed Miko finds eleven off-board rigs, forty riders with wired plates, and Amil Sorge cutting a name free and losing a letter of their own for it, and Dray shows her the page where he means to buy Culvert Nine's crew one can at a time, because Brill cannot refuse a trade and everybody on the ore line knows it."
+        },
+        {
+          "title": "Brill Pays",
+          "summary": "Rhea comes down the line with a flatbed and Teodoro's order for Anza's eleven canisters, trusting the cargo log over Brill's word until Dray's rig rolls back with Miko on the deck and the price said out loud in front of witnesses — then Brill opens her own storeroom and loads ten good cans, the spoiled one, and the last of her skim to buy one name out of the book, and Saul tells her what her crew will be eating in a month."
+        },
+        {
+          "title": "Two Witnesses",
+          "summary": "In the shed Miko speaks Tobin's name aloud with Kass and Saul standing as witnesses, Amil cuts the plate wire and forgets another letter, and Tobin walks out past the door plate with two days of water and no board at all — after which Dray, keeping his letter exactly, tells Miko the yard still has no dispatcher and the blank rig still has no plate, so nothing in his shed moves until somebody writes a name in his book."
+        },
+        {
+          "title": "Pencil",
+          "summary": "Kass writes herself into Dray's book as Marrow Cut's dispatcher, trades the badge-stealing for a schedule of the yard's own, and sends the re-plated rig north to Anza with ten good canisters while Saul writes Miko Keres back onto Culvert Nine's storeroom board in pencil and Miko hangs the hand lamp in the crew box — and then a headlight swings into the shed and Ospina steps down with File 2244 in one hand, the chipped crescent die in the other, and a red ring blinking on their thumb."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 24
+      "firstChapter": 29
     }
   ],
   "chapter": {
-    "arc": 5,
-    "number": 28,
-    "title": "Jaw Green",
+    "arc": 6,
+    "number": 29,
+    "title": "A Man with No Clock",
     "beats": [
-      "Kass, one boot on the rail frame, says the name out loud: J. Renner is on Anza's overlap log under Teodoro's countersign, so its halves on Brill's blank plate staple Culvert Nine to Nour's eleven short strikes in a document a desk can read. Miko folds J. Renner back into her coat, pulls the second ticket instead — a name that never touched paper anywhere — and tears it clean across the watermark in front of Saul, Brill, and the child with the bowl.",
-      "Brill takes the halves, kneels at the blank door plate, and cuts the receiving mark into plate stock with a hand knife: three strokes and C9 in the hollow, the same cut as the mark on Kass's tally card. She holds her plate against the card in the work light so Saul can see the match, the throat grinds open on the first matched crescent the yard has seen since the pumps died, and her crew starts walking ten warm cans down the roller deck. The eleventh sits at the end, sealed black at the collar, and Brill calls for the reclamation torch off the jaw carriage.",
-      "The torch opens the sealed can badly: the gasket cures into the cut, half the protein comes out scorched and slack, and Brill takes the loss in front of everybody, saying the skim-fault is hers now and she'll carry it to whatever desk is standing in the spring. The child eats first, out of the lidless bowl, and the crew eats standing up in the cold slab of storeroom light while Saul writes *torch, one can, spoiled* in graphite and hates every letter.",
-      "Mid-unload, one of Brill's crew tilts a can and takes a scoop with a thumbnail before the deck rollers have it; the receiving jaw faults on the skim, the throat shudders and starts closing on the last can in the seat, and the clamp ring bites the deck rail. Miko jams a pry bar in the throat and holds it while Brill makes the woman put the scoop back and the fault lamp goes dark; Saul watches his own rule nearly kill the delivery and a station rule save it, and says nothing.",
-      "At the storeroom board, Miko writes her real name in chalk under the forty and Brill marks her as station loader, stamping her a badge off a sawn can lid. She countersigns the sheet as the clean name; Saul scratches out M. Varel, writes the real one, folds the sheet into the clipboard, and the turnaround bell up the ridge finishes its last stroke and stops.",
-      "Miko packs Kass's bearing with tallow and graphite off the storeroom shelf and cuts a washer from a can lid for the housing, then tells her the truth: it will cook again past the second culvert and Kass walks the last stretch on a leg that already has opinions. Brill strikes all eleven notches full on the tally card and cuts C9 in steel beside them; Kass chalks the blank rig on the jaw plate as Anza salvage, unclaimed, and Miko hangs the hand lamp on a nail inside the storeroom door before the pedal-rail pulls out north.",
-      "Miko tears both remaining tickets across the watermark and feeds the halves to the storeroom stove, J. Renner last — then remembers out loud that Teodoro's log at Anza still carries that name and nobody up there knows it's ash. Down the ore line, past the dead spur, a headlight comes on and starts toward Culvert Nine, and the storeroom's dead reader clicks once, wakes, and logs the salvage under Anza's name in a queue that opens at Kettering at oh-eight-hundred."
+      "Dray kills his rig short of Culvert Nine's door plate, sets his hand lamp on the dirt, and tells Saul he will wait as long as his fuel holds because he runs on no schedule.",
+      "Saul reads the blank rig's plate in the jaw and finds it logged only as Anza salvage with no living names wired to it, while Brill steps out with the crank demanding the ten canisters before they spoil.",
+      "Brill offers a can-for-cans trade across the plate, and Dray names his price: two living names wired to crew plates before the jaw turns, because a rig brought in blank is a parts pile and this rig is his.",
+      "Saul reads Marrow Cut's book aloud—a rig lives while a living name is wired to its crew plate, and no name means no movement—so Brill understands Dray is not buying fuel; he is buying bodies.",
+      "Brill offers her own crew's name to close the bargain and Dray refuses, saying his rig is two names short and he will not take hers, leaving her with a locked jaw and nothing she can hand over without a trade.",
+      "Dray leaves his lamp burning between the two rigs and tells her the door plate stays closed until the second name is written, landing Brill on a salvage claim she cannot cash and a standoff she cannot outwait."
     ],
     "events": [
-      "Kass names J. Renner as the link between Anza's overlap log and Nour's eleven short strikes; Miko folds that ticket away and tears a clean, unregistered coast ticket across the watermark in front of Saul, Brill, and the child, choosing to pay Brill's price with a name that never touched paper.",
-      "Brill cuts receiving mark C9 into the blank door plate, matches it to Kass's tally card, the jaw opens and ten canisters unload while the eleventh remains cold-cycle sealed black, and Brill calls for the reclamation torch off the jaw carriage.",
-      "Brill torches the eleventh canister but the cured gasket fuses into the cut, scorching half the protein; she takes the loss as her own skim-fault, feeds the child first from the ruined can, and her crew eats standing in the cold light while Saul records \"torch, one can, spoiled\" with visible hatred.",
-      "As the tenth can was carried in, a crew woman skimmed a racked can and the jaw faulted, its throat closing on the man in the gap until Miko jammed a pry bar and Brill forced the scoop back; Saul watched, wrote nothing, and left the M. Varel sheet folded.",
-      "Miko writes her real name on Culvert Nine's board, receives a can-lid badge as station loader, Saul erases M. Varel and writes Miko Keres on the manifest sheet, and the turnaround bell finishes its last stroke.",
-      "Miko repairs Kass's pedal-rail bearing with tallow, graphite, and a washer cut from a can lid, warning it will fail past the second culvert; Brill strikes all eleven notches full on the tally card and cuts C9 in steel beside them; Kass chalks the blank rig as Anza salvage on the jaw plate; Miko hangs the hand lamp inside the storeroom door; Kass rides the pedal-rail north toward Anza.",
-      "Miko burns her last two coast tickets — the third already traded for the unload — J. Renner last, realizing Anza's live log still carries that name; the storeroom's long-dead reader wakes and logs the salvage under Anza's name into a queue opening at Kettering at oh-eight-hundred, as a headlight comes on down the ore line toward Culvert Nine."
+      "Orlin Dray arrives at Culvert Nine in an unmarked rig, kills the engine short of the door plate, sets his hand lamp on the ground, and tells lookout Saul he will wait as long as his fuel holds with no schedule to leave."
     ]
   }
 }
