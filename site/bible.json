@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at med rig's flank, hand on seal K-7745, Marlowe on lower step"
+      "status": "at Ivo's bedside, Marlowe entered as crew on mechanic's authority"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "holding the carbon copy, facing Doan's challenge"
+      "status": "at tool rack, three coast tickets in coat"
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "in shop doorway with dispatch line and pod plate"
+      "status": "reading board to shop, dispatch line open"
     },
     {
       "name": "V. Ospina",
@@ -56,7 +56,7 @@
       "role": "line reclamation agent",
       "wants": "close the derelict discrepancy and haul the pod back before it becomes a story anyone can read",
       "flaw": "reads people as manifest lines and can't believe cargo talks back until the rule he himself invokes binds him",
-      "status": "backs out to his empty cradle rig and leaves Anza; resupply hold released; still carries the separate Bay 4 / Shift 2 \"hands\" claim (the pair who held the lid and counted)."
+      "status": "departed north with empty pod; \"hands\" claim still active"
     },
     {
       "name": "Nour",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at the ore stub in the work lights, tally card and carbon in her jacket, on the record to the line's desk"
+      "status": "at board, tally card in jacket"
     },
     {
       "name": "Doan",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "at the ore stub / overlap locker, wrist still looped in the locker cord, has not run."
+      "status": "at ore stub, wrist looped in locker cord"
     }
   ],
   "threads": [
@@ -167,7 +167,8 @@
         "Pell's warrant-token froze Anza's board and resupply, and Teodoro confirmed the pod's plate line by line — Bay 4, Shift 2, 412 kilos, ballast — before the man walked in and asked what ballast meant. He gave his name as Decklan Marlowe, Rhea entered him as crew on mechanic's authority with twenty minutes to the 06:00 shift change, and Pell left for the north gate with a promise of a second signature. A heavy unmarked service rig is now coming in hot up the haul road, no transponder, no ID.",
         "With four minutes until Pell's countersign and Ivo's cartridge at 00:64:02, Miko laid out a clean coast run under three bought names, and Marlowe put all three tickets back on the counter — the third belonged to a Bay 4 loader already filed as a discrepancy, so the run would only carry him into a closed claim. Rhea wrote him onto the node plate as crew, alive, not weight, opening a PENDING COUNTERSIGN field nobody at Anza can fill. Then the seal locker ran its shift-change inventory, counted far short of its tally card out loud in front of the whole shop, and Miko put her hand on the latch.",
         "Miko pried open the seal locker and showed the shop that Anza's own seals had crimped Marlowe into the pod, with Nour's signature authorizing the shortfall. Nour answered by confessing the whole seal-for-resupply deal over open channel, and Pell used it to demand the hands too, not just the box. Doan ran for the stub switch, Miko gave chase, and Ivo's cartridge dropped to 00:47.",
-        "At Kettering, Kass and V. Ospina traced the vanished rigs to standing reclamation claims keyed under Kass's badge and learned that a living witness countersigned by a live seal authority cannot be hauled as weight. The Bay 4 forger walked out on a ghost key, so Ospina took the chipped seal die and service rig 7-K toward Anza with Kass as named rider—until Pell's unmarked rig blocked the lane."
+        "At Kettering, Kass and V. Ospina traced the vanished rigs to standing reclamation claims keyed under Kass's badge and learned that a living witness countersigned by a live seal authority cannot be hauled as weight. The Bay 4 forger walked out on a ghost key, so Ospina took the chipped seal die and service rig 7-K toward Anza with Kass as named rider—until Pell's unmarked rig blocked the lane.",
+        "At Anza's board, Ospina struck the chipped die so its corner matched the ballast plate, flipping Marlowe's entry to countersigned living witness and getting their own Bay 4 authority flagged for review. Marlowe said his name aloud; Pell's claim went void, he released resupply and left for his rig, warning the separate \"hands\" claim still stands. Ivo caught his new breath on twelve. Doan remains at the stub, wrist looped in the locker cord."
       ],
       "summary": "",
       "isClosed": false,
@@ -176,23 +177,18 @@
   ],
   "chapter": {
     "arc": 2,
-    "number": 10,
-    "title": "Living witness",
+    "number": 11,
+    "title": "Contested",
     "beats": [
-      "Ospina puts 7-K onto the drainage shoulder, clips Pell's cradle rig, and slides into Anza's unlit ore siding; Kass keeps the named-rider channel alive while the dish screams a near-end warning and Pell turns to follow.",
-      "In the relay shop, Teodoro holds Ivo's cartridge at 00:41 while Rhea pulls Marlowe from the med rig flank to the node board; the crew entry is there, but the PENDING COUNTERSIGN field blinks because no seal authority will touch it.",
-      "Miko catches Doan at the stub switch, uses the wrist cord left on the locker handle to open the overlap locker, and finds the seal tray empty except for tags stamped Bay 4—proof Anza has been feeding seals down the line.",
-      "Pell arrives in the shop doorway with his warrant-token keyed, freezes the board and resupply, and demands both signers: Rhea for the crew entry and Ospina for the seal authority.",
-      "Rhea signs on mechanic's authority, then Ospina sets the chipped die in their signing hand and strikes the seal field; the board reads the corner pattern, matches it to the ballast plate, and flips the entry to COUNTERSIGNED—LIVING WITNESS.",
-      "Marlowe looks at the plate, memory returns with the weight of the word ballast, and he says \"Decklan Marlowe\" aloud; the board writes a person where the ghost number was, and Pell's token cannot erase him—the standing order binds him to carry a witness as crew, so he backs out to his empty cradle rig with the die still in Ospina's hand."
+      "Pell's cradle rig takes the empty ballast pod, and at the north gate he flags Anza contested; Teodoro reads the board back in plain terms — resupply re-keys slow, the shift queue starts thinning — while the winter diesel line goes amber again for a whole new reason.",
+      "Loader shift lines begin dropping off Anza's board for want of a node the line trusts, and Nour, who argued for handing the man over to keep Anza fat, says out loud that the node is paying for the choice she lost.",
+      "Teodoro gives Marlowe a bunk at the relay and splints the shoulder, a plain, bickering beat of belonging; Ospina notes their review is already sitting at Kettering's desk, and Miko's three coast tickets are still folded in her coat.",
+      "Miko corners Doan at the overlap locker and forces the overlap log open; it ties Anza's seal runs to one Bay 4 hand on the Kettering end, and Doan still won't give the name while the roster dies around them.",
+      "Memory climbing back up the haul road, Marlowe tells the room the voice that counted him down was his own far-end contact, the loader he signed cargo to and trusted — the same hand that resealed the rigs — and Nour finally says the name she wouldn't give Pell.",
+      "Cross-cut landing: at Kettering, Kass watches a fresh line wink off the master board with no alarm and no scrub line; at Anza, Decklan Marlowe says aloud whose hands held the lid — a man already gone dark down the line."
     ],
     "events": [
-      "Ospina forces service rig 7-K past Pell's blocking cradle rig into Anza's ore siding, clipping it in the process, while Kass maintains the named-rider channel until the comms dish auto-folds; Pell pursues on foot as Ospina walks toward the relay shop with the chipped seal die, finding Teodoro in the doorway and Rhea at the med rig's flank with Marlowe.",
-      "Teodoro counted Ivo's scrubber down to eleven seconds while Rhea tried and failed to fill the board's PENDING COUNTERSIGN field with mechanic's authority, until Ospina walked into the shop naming themselves as the Bay 4 seal authority.",
-      "Miko catches Doan at the stub switch, uses the wrist cord to force the overlap locker open, and finds the seal tray empty except for two Bay 4 tags — proving Anza has been shipping thirty-eight seals down the line as part of a resupply arrangement.",
-      "Pell seated his warrant-token in the Anza board, froze the node's resupply until the 06:00 scrub, named the lid-holding hands as his next claim, and demanded both marks — Rhea on the crew entry, Ospina on the seal field — while calling for Ospina's die as evidence.",
-      "Rhea signed the crew entry on mechanic's authority, then Ospina struck the chipped die into the seal field and matched it to the ballast plate instead of the registry, flipping Marlowe's entry to COUNTERSIGNED—LIVING WITNESS at the cost of their own seal authority being suspended and referred to the line's desk, and the board opened a new field demanding a spoken name with four seconds left on Ivo's cartridge.",
-      "Marlowe spoke his name aloud, the board entered him as a countersigned living witness who cannot be hauled, and Pell — bound by his own standing order — released the resupply hold and backed out to his empty cradle rig, leaving the die with Ospina and the \"hands\" claim open."
+      "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line."
     ]
   }
 }
