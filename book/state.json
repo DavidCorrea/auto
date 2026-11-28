@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "jaw remains clamped, crank surrendered, two good cans lost, spoiled can still dripping on the pin"
+      "status": "at Culvert Nine door plate, physically restraining Miko, refusing to let the badge be spent."
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at Culvert Nine door plate, reported the blank rig is Anza salvage with no living names wired"
+      "status": "at Culvert Nine jaw, operating the come-along, warning Dray that pencil names don’t hold wire."
     },
     {
       "name": "Wren",
@@ -459,7 +459,8 @@
     ],
     "events": [
       "Brill loosened the jaw's clamp pin so nothing was being handed over, slid the crank down the dirt to Dray, who pocketed it without crossing the door plate while the jaw stayed locked, and ordered two good cans rolled out — then the spoiled can shifted and started to go.",
-      "Saul and Miko winch two good cans off the clamped jaw and roll them to Dray’s running board, where he straps them down himself, pays nothing back, and insists his bargain was for a name."
+      "Saul and Miko winch two good cans off the clamped jaw and roll them to Dray’s running board, where he straps them down himself, pays nothing back, and insists his bargain was for a name.",
+      "Miko offers her station badge to Dray to open the jaw, but Brill silences her and Saul warns that a penciled name won’t hold a wire, leaving the jaw shut and the spoiled can still dripping."
     ]
   }
 }
