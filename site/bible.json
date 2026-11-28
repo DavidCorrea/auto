@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Kettering night board, badge 2241 logged forever, four ghost rigs tracked with one gone at 04:51."
+      "status": "Kettering night board desk, badge 2241 still keyed to channel 12-K, sixteen minutes to the 06:00 board"
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "peeled back toward Kettering alone to make the oh-six-hundred board, still holding the chipped stamp—which they say they found, not used"
+      "status": "at the Kettering clock post, 05:44, stamp still in pocket, not clocked, exposed to the room"
     },
     {
       "name": "Pell",
@@ -165,7 +165,8 @@
       ],
       "chapterSummaries": [
         "Pell's warrant-token froze Anza's board and resupply, and Teodoro confirmed the pod's plate line by line — Bay 4, Shift 2, 412 kilos, ballast — before the man walked in and asked what ballast meant. He gave his name as Decklan Marlowe, Rhea entered him as crew on mechanic's authority with twenty minutes to the 06:00 shift change, and Pell left for the north gate with a promise of a second signature. A heavy unmarked service rig is now coming in hot up the haul road, no transponder, no ID.",
-        "With four minutes until Pell's countersign and Ivo's cartridge at 00:64:02, Miko laid out a clean coast run under three bought names, and Marlowe put all three tickets back on the counter — the third belonged to a Bay 4 loader already filed as a discrepancy, so the run would only carry him into a closed claim. Rhea wrote him onto the node plate as crew, alive, not weight, opening a PENDING COUNTERSIGN field nobody at Anza can fill. Then the seal locker ran its shift-change inventory, counted far short of its tally card out loud in front of the whole shop, and Miko put her hand on the latch."
+        "With four minutes until Pell's countersign and Ivo's cartridge at 00:64:02, Miko laid out a clean coast run under three bought names, and Marlowe put all three tickets back on the counter — the third belonged to a Bay 4 loader already filed as a discrepancy, so the run would only carry him into a closed claim. Rhea wrote him onto the node plate as crew, alive, not weight, opening a PENDING COUNTERSIGN field nobody at Anza can fill. Then the seal locker ran its shift-change inventory, counted far short of its tally card out loud in front of the whole shop, and Miko put her hand on the latch.",
+        "Miko pried open the seal locker and showed the shop that Anza's own seals had crimped Marlowe into the pod, with Nour's signature authorizing the shortfall. Nour answered by confessing the whole seal-for-resupply deal over open channel, and Pell used it to demand the hands too, not just the box. Doan ran for the stub switch, Miko gave chase, and Ivo's cartridge dropped to 00:47."
       ],
       "summary": "",
       "isClosed": false,
@@ -174,25 +175,18 @@
   ],
   "chapter": {
     "arc": 2,
-    "number": 8,
-    "title": "Half-empty locker",
+    "number": 9,
+    "title": "The stamp that found itself",
     "beats": [
-      "Miko pries the locker's bar-and-cam latch with a loader's flat bar while Nour tells her what that costs. Inside, sixty-one numbered lead-and-wire seals — crimps that close a bay hasp, each number written to the tally card — hang on pins built for a hundred twenty-four. The locker logs a badge at the latch only, and during the five-minute shift overlap the key hangs on the yard hook, so half the stock walked and the log swears nobody came. A dispatch line signed down-line to Kettering is folded in the door slot, and Teodoro is already reaching for the pod's plate.",
-      "Teodoro reads the seal numbers off the plate he confirmed an hour ago against Anza's dispatch line, and they match, number for number: the node's own stock crimped the lid Marlowe woke up under. Marlowe says Anza's hospitality has improved since the last time. Nour takes the card out of Miko's hand and finds her own senior-loader signature at the bottom — senior signs every consignment, and she never counted what she was signing.",
-      "Nour turns with the card in her fist and argues hand-over as arithmetic, not cowardice: a signed shortage, a frozen warrant, a med rig with its transponder cut out and a man breathing on the couch is enough to flag Anza into a thin-roster winter, and Pell goes home satisfied if the node gives him the box and the paper together. Rhea says the card is why running fails too. Miko says they are all doing sums with Ivo's air. Nour pockets the card and goes for the door.",
-      "Pell hits the north gate at 06:00 with his second signature and doesn't wait to be handed anything. He backs the service rig to the ore stub, chains the dead med rig's tie-downs and starts winching it toward the empty cradle — reclamation takes the pod sealed, lid unopened, and all he needs is the box on his deck. The drag comes up through the shop floor, Ivo's lamp reads 00:52, and Rhea walks out into the work lights and stands in the winch line's path.",
-      "Miko goes to the yard office for the overlap sheet, the two-ply form that names who was on the floor during the five unlogged minutes. Last night's white sheet is torn out of the book, but the carbon underneath still holds the writing backwards and holds two names, and one of them belongs to somebody due through the shop door within the hour.",
-      "Anza's Shift 2 relief clocks in with the locker key still on their wrist cord, sees the open locker and the bare pins and doesn't bother asking. Shown the carbon, they admit the seals went down-line as consumables against resupply credit — the arrangement that kept this node's roster fat through two lean cycles. Nour goes quiet in a way worse than shouting. The loader says they knew only one hand at the far end, and says the name. Marlowe's scraped jaw stops working.",
-      "Nour closes the locker herself, takes the card and the carbon, and walks out past Rhea into the work lights, hailing Pell on the open yard channel where his desk hears every word: Anza will hand over the ballast and its own shortage together. Pell answers that he'll take the box and the paper, and wants the loader who signed that dispatch walked to his cradle too. Behind Nour, the relief slips back toward the stub track with the key in their fist."
+      "At the Kettering night board, Kass can't scrub their own badge — 2241, logged on the channel where the fourth ghost rig died at 04:51 — when Ospina walks in to clock the 06:00 board with the chipped seal stamp still in their pocket, and Kass corners the one Bay 4 Shift 2 seal authority who left Anza unlogged while Ospina makes it clear they want no part of it.",
+      "Pulling the four vanished rigs up side by side, they find none of them crashed or scrubbed — each was written off as derelict under a standing line-reclamation claim that dispatches a reclaimer to haul dead cargo — and every claim carries badge 2241, a number Kass never keyed; the fifth claim is already filed and open, destination Anza, target the unlogged med rig.",
+      "Ospina goes cold over the tool void where they found the stamp — a rig bay right here in the Kettering yard, which means the loader who resealed all four boxes never left — and a Bay 4 loader signs out and drifts past the board, the shift horn swallowing Ospina's half-raised hand, so the forger walks off knowing the stamp has surfaced.",
+      "Hunting the one thing that kills a claim, they turn up the standing order: a reclaimer can only close a discrepancy while the cargo reads as dead weight, and a person entered on the node board and countersigned by a live seal-authority stamp can't be reclaimed but must be carried as crew — though a false or missing stamp voids it, and the only true stamp within five hundred klicks is the chipped one in Ospina's hand.",
+      "Ospina refuses, since signing puts their name on the Anza consignment and admits they stood at the box when they only found the crimper and never used it, until Kass says the quiet part out loud — it's the same tool that sealed Marlowe in, and the only thing that can write him back out as a man — and Ospina pockets it and asks which rig runs fastest to Anza.",
+      "Ospina climbs into a line service rig with the chipped stamp and the standing order, Kass rides as named rider so badge 2241 finally travels with a witness instead of a claim, and the rig pulls out hard for Anza as the board sheds another ghost number behind them, running against the last of Ivo's cartridge."
     ],
     "events": [
-      "Miko forced the seal locker open, revealing a shortage of sixty-three seals; Teodoro took the dispatch line from the door slot and turned to the pod's plate to match the numbers.",
-      "Teodoro confirms the pod's seal numbers match Anza's missing stock; Nour finds her own senior-loader signature on the tally card for consignments she never verified, realizing she authorized the seals that boxed Marlowe.",
-      "Nour argues for handing Marlowe over to Pell as cold arithmetic to save Anza's roster, Rhea counters that the signed shortage makes running impossible too, Miko points out they're calculating with Ivo's dwindling air, and Nour pockets the tally card and leaves to deliver Marlowe to Pell at the north gate.",
-      "Pell arrives at 06:00 with a service rig and second signature, begins winching the dead med rig onto his reclamation cradle, and Rhea stands in the winch line's path, stopping the haul by placing her hand on the pod's seal and declaring the cargo a living witness requiring a countersign.",
-      "Miko pulls the torn overlap sheet's carbon from the yard-office shift book and reads two names pressed backwards into it — Doan, the relief due in within the hour, and a second name that belongs to no one on Anza's roster.",
-      "Doan arrives for Shift 2 with the locker key, confirms the missing seals were traded down-line as consumables for resupply credit, and names the single far-end contact — a name Marlowe recognizes with visible shock.",
-      "Nour closed the locker herself, pocketed the tally card and the carbon, and put Anza's seal shortage and the live ballast on record on open channel two, and Pell answered that he would take the box, the paper, and both signers walked to his cradle — while Doan slipped out the side door toward the stub switch with the locker key."
+      "Kass failed to scrub badge 2241 from the channel where the fourth rig died, cornered Ospina at the Kettering clock post over the four crimped rigs and their unlogged exit from Anza, and Ospina's refusal to be drawn in ended when the board announced a live seal-authority die on the floor, in front of the whole room."
     ]
   }
 }

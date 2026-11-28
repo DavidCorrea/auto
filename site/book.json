@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 32656,
-  "passages": 52,
+  "words": 33266,
+  "passages": 53,
   "arcs": [
     {
       "number": 1,
@@ -72,6 +72,13 @@
       "title": "Half-empty locker",
       "words": 4065,
       "passages": 7
+    },
+    {
+      "number": 9,
+      "numeral": "IX",
+      "title": "The stamp that found itself",
+      "words": 610,
+      "passages": 1
     }
   ]
 }
