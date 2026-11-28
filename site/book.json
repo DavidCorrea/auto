@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 114287,
-  "passages": 180,
+  "words": 114751,
+  "passages": 181,
   "arcs": [
     {
       "number": 1,
@@ -228,8 +228,8 @@
       "number": 28,
       "numeral": "XXVIII",
       "title": "Jaw Green",
-      "words": 2022,
-      "passages": 4
+      "words": 2486,
+      "passages": 5
     }
   ]
 }
