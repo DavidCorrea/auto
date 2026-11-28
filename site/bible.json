@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "inside Anza relay shop with the draw-line key, Ivo's last cartridge, door sealed"
+      "status": "Anza ore stub holding the dead draw-line key, her skim read out in front of the puller and the remand officer"
     },
     {
       "name": "Doan",
@@ -72,7 +72,7 @@
       "role": "Anza cargo loader, Shift 2 relief, holds the overlap locker key",
       "wants": "keep the down-line seal-for-resupply arrangement running so Anza's roster stays fat",
       "flaw": "never asked what the seals were for",
-      "status": "Anza ore stub, at the shadow rig's warm step, wrist still looped in locker cord, refused the slate"
+      "status": "Anza ore stub, cut free of the cord, no clearance, no seal stock left at the node"
     },
     {
       "name": "Odessa Brill",
@@ -342,7 +342,8 @@
     "events": [
       "Coombs's tender brakes at Anza's ore stub beside the already-parked blank-plated rig, Doan refuses to give the open slate a name or a walk, Wren counts eleven decked canisters, and the rig's brakes creep loose on their own.",
       "In the relay shop Nour wiped the bay number off the chalk shift board and handed Wren the stub; Wren wrote her own name left-handed, Marlowe countersigned it aloud, Ivo learned the glove patch in his bottle came off Wren's hand, and the bell rang with her name up the line as crew while Kettering's hold still called her cargo.",
-      "Miko handed Kass the overlap log, pocketed her three unspent coast tickets and signed onto the resupply shift, and Kass matched the chipped crescent on the log's seals to Nour's tally card and to the die still in Ospina's coat at Kettering."
+      "Miko handed Kass the overlap log, pocketed her three unspent coast tickets and signed onto the resupply shift, and Kass matched the chipped crescent on the log's seals to Nour's tally card and to the die still in Ospina's coat at Kettering.",
+      "With the overlap log read against Nour's tally card, Nour admits her own receiving jaw struck eleven short canisters full and refuses to cut Doan loose because the looped wrist is the interlock keeping the seal locker and resupply alive; Wren cuts the cord with the seal knife, the locker dies in Nour's fist, and Rhea hears something on the ore line she can't name."
     ]
   }
 }
