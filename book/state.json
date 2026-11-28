@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "line dead, capacitor bank spent, stranded at post 71"
+      "status": "at post 71, abandoned dead rig's dish and shout, reports ghost rig running ore line"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "listed as Kael Renner aboard an ore-line rig and still listed as Miko Takeda on Anza's plate, duplicate body pending morning count, back at ore stub with hand-cart crew"
+      "status": "listed twice on Anza's plate, pushing cart down-line"
     },
     {
       "name": "the man in the pod",
@@ -256,7 +256,8 @@
       "Rhea rejects Fenn’s compressor offer, teaches Teodoro the three-push bulb technique, counts down to four restarts as the cartridge gauge falls.",
       "Ospina pockets the chipped die, declares they'll walk down-line to seal Anza's recovered cargo, hears Fenn warn that being absent from Kettering's bench at the 08:00 review turns their flag into a warrant, and goes for their boots anyway.",
       "Doan frees their wrist from the locker cord, agrees to guide the crew unlogged down the disused route for a price, and names the Shift 2 no-show Kael Renner as the only live clearance left on Anza's board until 08:00 reconciliation.",
-      "Miko tries to cash a coast ticket at the ore siding but is turned away because Anza's red plate blocks all riders, so she boards under Kael Renner's no-show clearance from the overlap log; the slip prints and the board pings twice with her duplicate listing while she remains on the platform and returns to the crew at the ore stub."
+      "Miko tries to cash a coast ticket at the ore siding but is turned away because Anza's red plate blocks all riders, so she boards under Kael Renner's no-show clearance from the overlap log; the slip prints and the board pings twice with her duplicate listing while she remains on the platform and returns to the crew at the ore stub.",
+      "The crew pushes the hand cart up the disused 7-K road to post 71, where Kass abandons the dish and flare to chase the thread and warns them that an unstopping ghost rig is running the ore line tonight as the rail hums beneath them."
     ]
   }
 }
