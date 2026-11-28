@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Culvert Nine, marked as person under station name, offering loader labor to unload eleven canisters before cold-cycle lockout"
+      "status": "at Culvert Nine jaw, empty-handed, watching the rig settle in the siding with lockout ticking"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "confirmed aboard blank rig's crew box at Culvert Nine approach, unlogged, two coast tickets remaining, hand lamp burning in window"
+      "status": "inside blank rig's crew box at end of spur, not yet descended, holding two coast tickets"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "holding jaw authority, forty crew behind storeroom door, three dead this morning, demanding weight not promises"
+      "status": "at jaw plate, refusing all offers except weight she can count, forty crew behind storeroom door"
     },
     {
       "name": "Fenn",
@@ -387,7 +387,8 @@
       "Kass offers her Anza dispatcher badge but Saul dismisses it as worthless at a pencil-marked station; Kass then hands over the J. Renner coast ticket she found, which Saul reads as proof of theft since the bought name doesn't match Kass but the graphite thumbprint does.",
       "Odessa Brill came up from the storeroom, dismissed Kass's badge and the bought-name ticket, and laid down her rule that any canister opened at her jaw faults the throat and locks the ore run until a Kettering reader arrives six weeks from never.",
       "Brill marks Kass as a person on the jaw plate under Culvert Nine's name, refuses all of Kass's offers (canisters, badges, promises), and demands something she can weigh; Kass offers herself — her shift, her hands, her loader skills — as weight; the blank rig's hand lamp goes out on the ridge.",
-      "Brill walks Kass to the reader, which rejects Nour's tally and counts the blank-plated canisters as unopenable cargo rather than food, then reveals the forty mouths she counts at every bell and refuses every weight Kass offers, leaving Kass to realize the only thing she can trade isn't hers."
+      "Brill walks Kass to the reader, which rejects Nour's tally and counts the blank-plated canisters as unopenable cargo rather than food, then reveals the forty mouths she counts at every bell and refuses every weight Kass offers, leaving Kass to realize the only thing she can trade isn't hers.",
+      "The blank rig's brakes release and it rolls down the grade into the siding, stopping at the end bumper; the forward canister begins its cold-cycle lockout tick, and Miko remains inside the crew box without coming down."
     ]
   }
 }
