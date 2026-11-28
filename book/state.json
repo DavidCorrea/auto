@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "Disclosed Ivo and Rhea to badge 2244 at reader two; assigned Marlowe shop-hand duty in the spare bunk behind the cathode."
+      "status": "activated reader two, warned consequences of living plate entry"
     },
     {
       "name": "V. Ospina",
@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "Anza ore stub, wrists bound in seal tape, boarding Coombs's tender under Bay 4 lid-hand with no name filed; count stopped at one"
+      "status": "in relay shop, wrists bound in seal tape, about to be read by reader two"
     },
     {
       "name": "Coombs",
@@ -112,7 +112,7 @@
       "role": "a coast puller — hauls runners (people who walked off their shift contracts) back onto the winter rosters",
       "wants": "to get his runners logged and fed before the cold takes them, the way it took the ones he couldn't catch",
       "flaw": "sure a warm logged cage beats a free cold ditch, and can't believe anyone would choose the ditch",
-      "status": ""
+      "status": "agreed to hold tender at ore stub pending reader two result"
     }
   ],
   "threads": [
@@ -305,7 +305,9 @@
           "summary": "Back at Anza Wren writes her own name on the shift board and takes the shop bunk beside Marlowe with the unfinished count between them, Coombs — who can't pull a working hand off a roster — rolls his tender out empty, Miko pockets her three names for the next green board and the coast train she's already watching, and Ospina's authority ring is still blinking red at a morning desk that hasn't answered."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "A driverless tender with no transponder rolled onto Anza's ore stub, and the coast puller Coombs used a proving slate — a reader that IDs a body by its walk and voice — to name two people off no roster: Miko under her bought name Dalia Reyes, and a tape-knuckled woman from the dark. She gave herself up to keep him from proving more, on condition he never say the sealed man's name; Coombs bound her wrists in seal tape and filed her as Bay 4's lid-hand, and Nour's board lit with a crew of six, one carrying a bay number where a name goes."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 18
@@ -313,23 +315,18 @@
   ],
   "chapter": {
     "arc": 4,
-    "number": 18,
-    "title": "The Slate Sings",
+    "number": 19,
+    "title": "Glove Rubber",
     "beats": [
-      "At Anza's unlit ore stub, Doan — wrist still looped in dead locker cord — watches a driverless tender roll in with no transponder light and no line on any board; it stops without a chime, won't answer the yard channel, and reader two stays blank where a rig should post itself.",
-      "Coombs climbs down genial and sweeps the yard with a proving slate — a reader that matches a body's walk and voice to every roster the coast keeps — naming a passing loader aloud correct, then explaining its limits (it has to see and hear you move, and only says back what's already written somewhere) as he turns it toward the dark siding.",
-      "The slate chimes and sings Miko's newest fake name as she crosses into the lamplight — a name on no Anza roster but one the coast filed — and Miko deflects with sass while Coombs floats his soft pitch of a hot bunk and a logged wage; she stalls him, and the slate chimes a second time at empty dark.",
-      "Rhea comes out to the stub over the rig that could haul Miko off, Kass a step behind with the taped glove inside her coat, and Coombs tells them the slate isn't finished — there's a second unlisted body it's been reading in the dark, and he can prove a lot more than a bought name.",
-      "The slate sings the tape-knuckled woman and matches her walk to a filed record — the lid-hand at Bay 4 who counted a lid down over a man — and the count in Wren's head spikes as the whole yard goes still on who she is.",
-      "Before Coombs can say the man's name or the seal, Wren steps out of the dark and gives herself up — cutting him off, holding out her wrists to stop him proving the one thing she can't stand to hear said out loud."
+      "In the relay shop, Rhea talks Coombs into a short hold on his tender (the ore line's iced and the board won't clear a crew it can't name) and brings the bound Wren inside, where Ivo is breathing on mains compressor power and Teodoro is watching his board; Kass lays the gray work glove on the bench — tape across one knuckle, a clean disc cut from the palm — and Teodoro warns that reader two reads people, not cargo, and whatever it names goes onto the living plate where a morning desk can read it.",
+      "Teodoro puts the glove under reader two, then Wren's own taped knuckles beside it; the reader matches the two sets of hands and reads out \"Bay four, shift two, lid-hand\" — the same hands logged at the 21:47 seal — and flags the disc-shaped hole punched clean out of the palm.",
+      "Rhea works out what the hole means: the disc patching Ivo's respirator diaphragm (the flexible membrane that pumps air, here patched with a coin of heavy glove rubber) was cut from this glove's own palm, so the woman swearing she sealed a man to death is the reason Rhea's brother is still breathing — and Rhea wants to know how Wren's glove came to ride the dead med rig's tool void down the ore line.",
+      "Wren answers flat and doesn't dress it up: she held the lid square at Bay four and counted the seals aloud so the box and the book agreed, and at 21:47 she counted a man under it — \"three, two\" — and couldn't finish; she gives the reading back as fact, that he went cold at 36.4 and was gone, and calls herself the hand that killed him.",
+      "Rhea, who trusts a machine's readout over any living mouth, doesn't argue the point — she turns to the shop's living-crew plate at reader two and reads it, and the man Wren counted, Marlowe, is entered as living crew, countersigned under a live seal, aboard two days, with no hedge anywhere on the line.",
+      "Rhea steps into the next room and finds the proof breathing — Marlowe, awake on Teodoro's couch behind the cathode, shoulder splinted, memory crawling back — the living man who pulls the whole confession apart, so Rhea now holds the one fact that could end Wren's guilt while Wren sits bound and headed for the Weir, not knowing it; Coombs, genial in the doorway, says the tender pulls the moment she's decided."
     ],
     "events": [
-      "At Anza's unlit ore stub, Doan — wrist still corded to the dead overlap locker key — watches a driverless tender roll in dark with no transponder and no berth chime, gets no answer on the yard channel and no post at the stub reader, warns off by Nour, and then sees the tender's hatch unseal and a step drop onto the frost.",
-      "Coombs climbed down genially, proved the slate correct on a passing loader, explained that it only sings what's already written and only for bodies that move and speak, then swept it into the dark siding and called out to whoever was counting there.",
-      "The slate sang Miko's bought coast name and berth, she clocked Coombs recycling his bunk speech and pushed him to the logged-wage verse, then stalled him in the lamplight to keep the glass off the dark until it chimed a second time at an empty gap.",
-      "Rhea plugs into the tender and reads it built dark out of Kettering, refuses to let Coombs haul Miko off before she says what rode the tool void, Kass asks who wrote the second body's walk, and Coombs says the slate has a second unlisted body it can prove far more about than a bought name.",
-      "Coombs proves the second unlisted body is the Bay 4 lid-hand who counted a lid down over a man at 21:47, and Wren's count starts running aloud out of the dark while the whole yard freezes.",
-      "Wren walked into the lamplight, gave the slate her walk and her voice, refused to let Coombs say the sealed man's name, and surrendered on the single condition that he never say it — and Coombs filed her into the coast book, making her readable at Kettering's morning desk as Anza's board grew an unnamed crew of six."
+      "Rhea negotiates a short hold on Coombs's tender at the iced ore stub, brings Wren into the relay shop where Ivo breathes on mains compressor power, and Teodoro activates reader two — warning that whatever it names goes onto the living plate readable by Kettering's morning desk — while Kass presents the taped work glove with a disc cut from its palm."
     ]
   }
 }
