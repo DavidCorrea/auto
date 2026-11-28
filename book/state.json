@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at spur end, pedal-rail bearing seized, rode in coasting, holding position under Saul's work light"
+      "status": "witnessing at spur end, pedal-rail bearing seized"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "on the dead spur at Culvert Nine, hand lamp lit, two coast tickets in coat, facing ticking canister lockout"
+      "status": "at Culvert Nine jaw plate, unlogged, two coast tickets in coat, eleven canisters ticking toward cold-cycle lockout on dead spur"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "at jaw plate, refusing all offers except weight she can count, forty crew behind storeroom door"
+      "status": "holding jaw shut, forty crew in storeroom, crescent mark not on door plate"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "Culvert Nine lookout, enforcing station rule, holds Kass's confiscated coast ticket, awaiting chalk mark"
+      "status": "enforcing station rule, logged Miko as stowaway, cargo seized pending trust review"
     },
     {
       "name": "Wren",
@@ -382,7 +382,8 @@
       "Miko draws a coast ticket into the last red light, the graphite name that buys her off the Interior before winter, and holds it against the dark door plate without tearing it or handing it over, just measuring the trade as the deck ticks behind her; the forward canister's clamp ring takes its first hard bite and begins to seize, and Miko still hasn't decided."
     ],
     "events": [
-      "Miko relights the hand lamp, climbs down from the blank rig's crew box onto the dead spur, trades barbed relief with Kass, and states she didn't ride sixty miles for the coast as the forward canister ticks toward cold-cycle lockout."
+      "Miko relights the hand lamp, climbs down from the blank rig's crew box onto the dead spur, trades barbed relief with Kass, and states she didn't ride sixty miles for the coast as the forward canister ticks toward cold-cycle lockout.",
+      "Miko confronts Saul and Brill at the jaw plate, reciting the eleven short seals from Kettering Bay 4 that match Anza's resupply payment to Culvert Nine, but Saul logs her as a stowaway and Brill confirms the crescent mark needed to open the throat isn't cut into her door plate."
     ]
   }
 }
