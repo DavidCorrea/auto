@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at pallet jack, six cases loaded, five remaining, clock visible"
+      "status": "at Culvert Nine, present for the trade"
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "Culvert Nine reader cradle, ring seated, authority still flagged red for Kettering review"
+      "status": "at Culvert Nine, authority ring seated in reader cradle flagged red, holding chipped crescent die"
     },
     {
       "name": "Pell",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "watching, arms folded, lamp light on face"
+      "status": "at Culvert Nine chalk line, station now proposed as listed resupply stop on Anza's board, pencil mark made, unscheduled headlights approaching"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at chalk line, pencil frozen on clipboard"
+      "status": "at Culvert Nine chalk line, pencil tip snapped, clipboard in hand, alert to approaching vehicle"
     }
   ],
   "threads": [
@@ -265,7 +265,8 @@
       "At Anza's ore siding Miko stands by the dead med rig with three coast tickets folded in her coat and tells Kass that behind the scrubber canisters in the tool void there was a shape folded smaller than her, breathing that wasn't hers, tape on the knuckles, gone out the siding ahead of her while she was still counting tickets — and Kass asks her why she waited two days to mention it."
     ],
     "events": [
-      "A taped-glove figure calling itself badge 2244 quotes the collection rule at reader two, demands to know who patched Ivo's diaphragm, and walks out up the ore stub, leaving the shop unable to explain how he knew."
+      "A taped-glove figure calling itself badge 2244 quotes the collection rule at reader two, demands to know who patched Ivo's diaphragm, and walks out up the ore stub, leaving the shop unable to explain how he knew.",
+      "Saul writes Culvert Nine as a proposed resupply stop on their clipboard at Brill's demand, she accepts the trade but warns of consequences, and an unscheduled locomotive's headlights appear outside the pump hall."
     ]
   }
 }
