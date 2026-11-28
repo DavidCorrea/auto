@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "stalled at post 71 in the 7-K lane, rig dead, capacitor bank spent, channel holding open for one exchange with Anza"
+      "status": "line dead, capacitor bank spent, stranded at post 71"
     },
     {
       "name": "Miko",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "Anza relay operator, logging Calder Voss into board notes, clearances dropping, offering Marlowe the relay bunk."
+      "status": "keyed Culvert Nine meter, brown-out cut board power before reading returned"
     },
     {
       "name": "V. Ospina",
@@ -254,7 +254,8 @@
       "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm.",
       "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over.",
       "Fenn interviews Marlowe at the relay bunk; Marlowe identifies Voss as the stamper and a separate taped-knuckle second person as the one who counted aloud and held the lid; the handheld registers the active hands claim, but Fenn refuses to log the testimony, then receives a restricted burst that a reclamation unit has been authorized to physically recover Marlowe before morning.",
-      "Stranded with a dead rig, Kass burned their capacitor bank's last charge to punch a single ping through the antenna's side-lobe to Anza and asked Teodoro to read the receiving mark on Nour's tally card."
+      "Stranded with a dead rig, Kass burned their capacitor bank's last charge to punch a single ping through the antenna's side-lobe to Anza and asked Teodoro to read the receiving mark on Nour's tally card.",
+      "Teodoro reads Nour's tally mark as Culvert Nine, a dead pump station where an unlisted body like Marlowe can draw rations, then keys the meter just as the brown-out cuts the board's power."
     ]
   }
 }
