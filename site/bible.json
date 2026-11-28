@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "on pedal-rail PR-ANZA-03 at Culvert Nine, bearing seized, turnaround bell tolling"
+      "status": "in pedal-rail saddle, bearing shot, watching unload with tally card matched"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at Culvert Nine jaw, one bought-name ticket (J. Renner) pocketed, one clean ticket torn and offered as payment for unload"
+      "status": "at edge of work light, J. Renner ticket in coat pocket, watching"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "at storeroom door with child, hand knife ready, offering unload for one coast ticket"
+      "status": "at storeroom door, receiving mark cut, jaw open, crew unloading ten canisters, eleventh sealed black awaiting torch"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "holding M. Varel stowaway sheet active, clipboard ready"
+      "status": "clipboard ready, pencil hovering, witnessed matched crescent"
     },
     {
       "name": "Wren",
@@ -385,7 +385,8 @@
       "Miko tears both remaining tickets across the watermark and feeds the halves to the storeroom stove, J. Renner last — then remembers out loud that Teodoro's log at Anza still carries that name and nobody up there knows it's ash. Down the ore line, past the dead spur, a headlight comes on and starts toward Culvert Nine, and the storeroom's dead reader clicks once, wakes, and logs the salvage under Anza's name in a queue that opens at Kettering at oh-eight-hundred."
     ],
     "events": [
-      "Kass names J. Renner as the link between Anza's overlap log and Nour's eleven short strikes; Miko folds that ticket away and tears a clean, unregistered coast ticket across the watermark in front of Saul, Brill, and the child, choosing to pay Brill's price with a name that never touched paper."
+      "Kass names J. Renner as the link between Anza's overlap log and Nour's eleven short strikes; Miko folds that ticket away and tears a clean, unregistered coast ticket across the watermark in front of Saul, Brill, and the child, choosing to pay Brill's price with a name that never touched paper.",
+      "Brill cuts receiving mark C9 into the blank door plate, matches it to Kass's tally card, the jaw opens and ten canisters unload while the eleventh remains cold-cycle sealed black, and Brill calls for the reclamation torch off the jaw carriage."
     ]
   }
 }
