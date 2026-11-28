@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 119704,
-  "passages": 190,
+  "words": 120134,
+  "passages": 191,
   "arcs": [
     {
       "number": 1,
@@ -248,8 +248,8 @@
       "number": 30,
       "numeral": "XXX",
       "title": "The Crank, Then the Cans",
-      "words": 553,
-      "passages": 1
+      "words": 983,
+      "passages": 2
     }
   ]
 }

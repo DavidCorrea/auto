@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "on Culvert Nine's door plate, crank in hand, eighty-six minutes on the clamp, claim uncashable and no crew willing to walk out"
+      "status": "jaw remains clamped, crank surrendered, two good cans lost, spoiled can still dripping on the pin"
     },
     {
       "name": "Fenn",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "on his running board short of the plate, lamp burning, book unopened, waiting"
+      "status": "standing on his running board with two strapped cans, crank in coat, refusing to open the jaw until someone names themselves"
     },
     {
       "name": "Tobin",
@@ -458,7 +458,8 @@
       "Kass reads it out flat — the same minute a rig vanished off Kettering's board — and says whoever signed that rescission is the one reading Culvert Nine's jaw into the queue, and Dray, keeping his letter exactly, opens his book for the first time and asks her to spell it."
     ],
     "events": [
-      "Brill loosened the jaw's clamp pin so nothing was being handed over, slid the crank down the dirt to Dray, who pocketed it without crossing the door plate while the jaw stayed locked, and ordered two good cans rolled out — then the spoiled can shifted and started to go."
+      "Brill loosened the jaw's clamp pin so nothing was being handed over, slid the crank down the dirt to Dray, who pocketed it without crossing the door plate while the jaw stayed locked, and ordered two good cans rolled out — then the spoiled can shifted and started to go.",
+      "Saul and Miko winch two good cans off the clamped jaw and roll them to Dray’s running board, where he straps them down himself, pays nothing back, and insists his bargain was for a name."
     ]
   }
 }
