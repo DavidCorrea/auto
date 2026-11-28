@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 66673,
-  "passages": 107,
+  "words": 67347,
+  "passages": 108,
   "arcs": [
     {
       "number": 1,
@@ -139,8 +139,8 @@
       "number": 17,
       "numeral": "XVII",
       "title": "What the Node Eats",
-      "words": 1121,
-      "passages": 2
+      "words": 1795,
+      "passages": 3
     }
   ]
 }

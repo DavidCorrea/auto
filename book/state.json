@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "hand-pumping Ivo with two cartridges left, suspects the stranger has been inside the shop"
+      "status": "Anza relay shop, hand off the pump, watching the gauge, refusing to thank whoever restored the power"
     },
     {
       "name": "Kass",
@@ -104,8 +104,8 @@
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Who the second person at Bay 4 was — the taped-glove hands that counted Marlowe down to the lid while Voss stamped.",
     "Whether the still-active hands claim can reclaim Marlowe even after Anza lists him as crew.",
-    "Fenn's standing offer—compressor priority restored the same hour Rhea signs Marlowe over",
-    "A reclamation unit has been authorized for physical recovery of Marlowe before morning, forcing Fenn, Kass, and Anza to act faster than the desk’s schedule."
+    "A reclamation unit has been authorized for physical recovery of Marlowe before morning, forcing Fenn, Kass, and Anza to act faster than the desk’s schedule.",
+    "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -266,7 +266,8 @@
     ],
     "events": [
       "A taped-glove figure calling itself badge 2244 quotes the collection rule at reader two, demands to know who patched Ivo's diaphragm, and walks out up the ore stub, leaving the shop unable to explain how he knew.",
-      "Saul writes Culvert Nine as a proposed resupply stop on their clipboard at Brill's demand, she accepts the trade but warns of consequences, and an unscheduled locomotive's headlights appear outside the pump hall."
+      "Saul writes Culvert Nine as a proposed resupply stop on their clipboard at Brill's demand, she accepts the trade but warns of consequences, and an unscheduled locomotive's headlights appear outside the pump hall.",
+      "The six scrubber cases reached Anza on the 7-K, Rhea cut a fresh cartridge into Ivo's respirator and took her hand off the pump for the first time in two days, and compressor priority came back on a filing made from Culvert Nine without the trade she'd refused."
     ]
   }
 }
