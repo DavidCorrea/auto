@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Kettering night board desk, own badge face up beside the reader, LK-4402 open on the second screen from the left"
+      "status": "night board desk terminal, standing order RL-0900 open, own badge face up"
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "Kettering yard floor at 05:47, chipped die in their pocket, hand down, watching Bay 3"
+      "status": "Kettering night board, west wall, hand back in pocket, die unregistered"
     },
     {
       "name": "Pell",
@@ -188,7 +188,8 @@
     "events": [
       "Kass failed to scrub badge 2241 from the channel where the fourth rig died, cornered Ospina at the Kettering clock post over the four crimped rigs and their unlogged exit from Anza, and Ospina's refusal to be drawn in ended when the board announced a live seal-authority die on the floor, in front of the whole room.",
       "Kass and Ospina pull the four vanished rigs side by side and find each was written off as derelict under a standing reclamation claim keyed with Kass's own badge 2241, while a fifth open claim targets the unlogged med rig at Anza and has already been signed for there by Shift One.",
-      "Ospina traced the chipped die to a tool void in LK-4402, parked in Bay 3 of the Kettering yard, so the forger who resealed all four rigs never left the building — and when Ospina half-raised a hand the 05:47 horn swallowed it, the forger clocked the pocket through the glass and signed out with no badge presented, walking for Bay 3 to strip the void."
+      "Ospina traced the chipped die to a tool void in LK-4402, parked in Bay 3 of the Kettering yard, so the forger who resealed all four rigs never left the building — and when Ospina half-raised a hand the 05:47 horn swallowed it, the forger clocked the pocket through the glass and signed out with no badge presented, walking for Bay 3 to strip the void.",
+      "Kass pulled the standing reclamation order and found that a crew entry countersigned by a live seal-authority die can't be hauled as ballast, then pulled the die register and learned the only true stamp within five hundred klicks is the chipped die in Ospina's pocket — the same die whose last impression is the ballast plate on the med rig, and whose countersign binds its holder to the consignment."
     ]
   }
 }
