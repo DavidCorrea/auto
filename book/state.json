@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "pedal-rail saddle, bearing cooked, tally card with eleven notches struck and C9 cut in steel"
+      "status": "on pedal-rail PR-ANZA-03 riding north toward Anza with a repaired but temporary bearing, Nour's tally card cleared with eleven full notches and C9 cut in steel"
     },
     {
       "name": "Miko",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "storeroom door, accepting skim-fault on record, crew fed from ten good cans and one spoiled"
+      "status": "Culvert Nine storeroom, crew fed from ten good cans and one spoiled, tally card settled, jaw plate marked C9, hand lamp hung for future unloads"
     },
     {
       "name": "Fenn",
@@ -127,9 +127,9 @@
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
-    "A blank-plated rig departed Anza's ore stub northbound with eleven warm canisters and a hand lamp burning; no one claims it.",
-    "Odessa Brill marked Culvert Nine under her own name and will not allow any canister to be skimmed; the receiving jaw faults if one is.",
-    "Miko still holds three coast tickets under bought names and wrote herself onto Anza's resupply shift under her real name, declining the green coast train."
+    "Miko still holds three coast tickets under bought names and wrote herself onto Anza's resupply shift under her real name, declining the green coast train.",
+    "Kass's pedal-rail bearing will cook again past the second culvert, forcing them to walk the final stretch to Anza on a bad knee",
+    "The storeroom's dead reader will wake at oh-eight-hundred and log the salvage under Anza's name in a queue that opens at Kettering"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -389,7 +389,8 @@
       "Brill cuts receiving mark C9 into the blank door plate, matches it to Kass's tally card, the jaw opens and ten canisters unload while the eleventh remains cold-cycle sealed black, and Brill calls for the reclamation torch off the jaw carriage.",
       "Brill torches the eleventh canister but the cured gasket fuses into the cut, scorching half the protein; she takes the loss as her own skim-fault, feeds the child first from the ruined can, and her crew eats standing in the cold light while Saul records \"torch, one can, spoiled\" with visible hatred.",
       "As the tenth can was carried in, a crew woman skimmed a racked can and the jaw faulted, its throat closing on the man in the gap until Miko jammed a pry bar and Brill forced the scoop back; Saul watched, wrote nothing, and left the M. Varel sheet folded.",
-      "Miko writes her real name on Culvert Nine's board, receives a can-lid badge as station loader, Saul erases M. Varel and writes Miko Keres on the manifest sheet, and the turnaround bell finishes its last stroke."
+      "Miko writes her real name on Culvert Nine's board, receives a can-lid badge as station loader, Saul erases M. Varel and writes Miko Keres on the manifest sheet, and the turnaround bell finishes its last stroke.",
+      "Miko repairs Kass's pedal-rail bearing with tallow, graphite, and a washer cut from a can lid, warning it will fail past the second culvert; Brill strikes all eleven notches full on the tally card and cuts C9 in steel beside them; Kass chalks the blank rig as Anza salvage on the jaw plate; Miko hangs the hand lamp inside the storeroom door; Kass rides the pedal-rail north toward Anza."
     ]
   }
 }
