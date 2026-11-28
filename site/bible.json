@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Anza relay shop back room doorway; holds the living proof that breaks Wren's confession and has not given it to her yet"
+      "status": "relay shop at Anza, cartridge handed to Nour, no longer watching Ivo's draw herself"
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at ore stub, confirmed ghost fleet exists, radioed Teodoro with finding"
+      "status": "Anza relay shop, told Coombs to his face he's answerable to nobody"
     },
     {
       "name": "Miko",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at Anza board ledge; has mapped the four diverted runs and admitted Brill holds scrubbers needed by Rhea's brother Ivo"
+      "status": "Anza board ledge, holding the spare respirator cartridge and the draw line"
     },
     {
       "name": "Doan",
@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "on the relay shop floor at Anza, still bound and reciting, refuses Coombs's remand bargain"
+      "status": "relay shop floor at Anza, bound, count stopped, asking to be taken in to Marlowe before the bell"
     },
     {
       "name": "Coombs",
@@ -330,7 +330,8 @@
       "Teodoro read the morning desk's hold order aloud — Wren remanded to the coast with the collecting tender already logged, File 2244's physical recovery for Marlowe due at the shift bell, and Anza's green chain holding only if she's surrendered — and the plate's countersign field came up already filled with Marlowe's badge.",
       "Coombs offered Wren a warm bunk, a logged wage and the permanent erasure of her proof, and she refused to be bought, telling him to take her on the book's line as the hands and not the stamp.",
       "Coombs offers Miko the warm logged bunk, Miko does the arithmetic out loud — three bought names buy no meals and a green board only means the trains run — and asks him plainly who pays her wage, learning it comes out of Anza's own hundred-and-ten ration-day line, then asks what it costs him if she walks at the Weir and watches him strip off a glove.",
-      "Kass and Doan inspect Coombs's tender at the ore stub and discover it has no transponder, a factory-blank mount, and a cleanly cut harness identical to the four ghost rigs that vanished from Kettering's master board — confirming a fleet of unlogged rigs operating off every book."
+      "Kass and Doan inspect Coombs's tender at the ore stub and discover it has no transponder, a factory-blank mount, and a cleanly cut harness identical to the four ghost rigs that vanished from Kettering's master board — confirming a fleet of unlogged rigs operating off every book.",
+      "Wren stops her count and asks Rhea to walk her to Marlowe and vouch with her own eyes rather than the plate, while Coombs warns that a stale voice line means the officer with the hat comes instead and Rhea hands Ivo's cartridge watch to Nour."
     ]
   }
 }
