@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 110574,
-  "passages": 173,
+  "words": 111121,
+  "passages": 174,
   "arcs": [
     {
       "number": 1,
@@ -221,8 +221,8 @@
       "number": 27,
       "numeral": "XXVII",
       "title": "Storeroom Disagreement",
-      "words": 2122,
-      "passages": 3
+      "words": 2669,
+      "passages": 4
     }
   ]
 }
