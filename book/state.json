@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "relay shop, ring holding steady red, every seal it lays now in review"
+      "status": "Anza relay shop, ring blinking red again, own clearance review still pending"
     },
     {
       "name": "Pell",
@@ -112,7 +112,7 @@
       "role": "a coast puller — hauls runners (people who walked off their shift contracts) back onto the winter rosters",
       "wants": "to get his runners logged and fed before the cold takes them, the way it took the ones he couldn't catch",
       "flaw": "sure a warm logged cage beats a free cold ditch, and can't believe anyone would choose the ditch",
-      "status": "Weir switch stand, slate face-up with two blanks, tender rolling at Wren's word"
+      "status": "Anza relay shop, coast roster hold refused, slate turned face-down"
     },
     {
       "name": "Adisa Bale",
@@ -120,7 +120,7 @@
       "role": "Kettering desk remand officer",
       "wants": "to confirm the lid-hand record and execute the coast-roster hold before the hour",
       "flaw": "treats a confirmed record as a true one",
-      "status": "Anza ore stub, capped Weir confirm tube in hand, meeting Ospina"
+      "status": "Anza relay shop, riding the tender north with Wren to see the record read"
     }
   ],
   "threads": [
@@ -129,7 +129,7 @@
     "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk",
     "Miko holds three coast tickets under three names and a green board means the coast trains are running — will she actually go?",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
-    "Wren's name went onto Anza's roster countersigned under Ospina's flagged seal authority, and Kettering's morning desk has not answered it"
+    "Wren's oh-eight-hundred summons at Kettering — her word in a room that trusts paper over people must clear or sink the eleven seals and Anza's whole chain"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -345,7 +345,8 @@
       "Miko handed Kass the overlap log, pocketed her three unspent coast tickets and signed onto the resupply shift, and Kass matched the chipped crescent on the log's seals to Nour's tally card and to the die still in Ospina's coat at Kettering.",
       "With the overlap log read against Nour's tally card, Nour admits her own receiving jaw struck eleven short canisters full and refuses to cut Doan loose because the looped wrist is the interlock keeping the seal locker and resupply alive; Wren cuts the cord with the seal knife, the locker dies in Nour's fist, and Rhea hears something on the ore line she can't name.",
       "Ospina's posted rig 4409 set its brakes at Anza's ore stub and Ospina stepped down with File 2244 open for Marlowe's physical recovery before the shift bell, explaining that their red-ringed seal authority still works but drags every name it touches into review, and Bale came out of the lamplight with his capped Weir confirm to meet them.",
-      "At reader two Wren gave her statement in her own voice — the man was warm, swearing, lid down at 21:44 — Marlowe refused the zero and printed his thumb beside her, and Ospina countersigned File 2244 on the red ring, writing Wren Cardoso into the file and turning Anza's resupply chain amber pending review."
+      "At reader two Wren gave her statement in her own voice — the man was warm, swearing, lid down at 21:44 — Marlowe refused the zero and printed his thumb beside her, and Ospina countersigned File 2244 on the red ring, writing Wren Cardoso into the file and turning Anza's resupply chain amber pending review.",
+      "The morning desk answers over Teodoro's grille — Marlowe stays at Anza as a witness with his recovery refused, the coast roster hold on Wren is refused, and Wren Cardoso is summoned to present her lid-hand statement at Kettering at oh-eight-hundred, leaving her bunk by the compressor warm for exactly one shift while Ospina's review and red ring stay open."
     ]
   }
 }
