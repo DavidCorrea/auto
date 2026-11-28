@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "in pedal-rail saddle, bearing shot, watching unload with tally card matched"
+      "status": "pedal-rail saddle, bearing cooked, tally card with eleven notches struck and C9 cut in steel"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at edge of work light, J. Renner ticket in coat pocket, watching"
+      "status": "at jaw's edge, hands in pockets, watching the spoiled canister drip"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "at storeroom door, receiving mark cut, jaw open, crew unloading ten canisters, eleventh sealed black awaiting torch"
+      "status": "storeroom door, accepting skim-fault on record, crew fed from ten good cans and one spoiled"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "clipboard ready, pencil hovering, witnessed matched crescent"
+      "status": "clipboard in hand, M. Varel sheet folded unwritten, recorded torch loss under protest"
     },
     {
       "name": "Wren",
@@ -386,7 +386,8 @@
     ],
     "events": [
       "Kass names J. Renner as the link between Anza's overlap log and Nour's eleven short strikes; Miko folds that ticket away and tears a clean, unregistered coast ticket across the watermark in front of Saul, Brill, and the child, choosing to pay Brill's price with a name that never touched paper.",
-      "Brill cuts receiving mark C9 into the blank door plate, matches it to Kass's tally card, the jaw opens and ten canisters unload while the eleventh remains cold-cycle sealed black, and Brill calls for the reclamation torch off the jaw carriage."
+      "Brill cuts receiving mark C9 into the blank door plate, matches it to Kass's tally card, the jaw opens and ten canisters unload while the eleventh remains cold-cycle sealed black, and Brill calls for the reclamation torch off the jaw carriage.",
+      "Brill torches the eleventh canister but the cured gasket fuses into the cut, scorching half the protein; she takes the loss as her own skim-fault, feeds the child first from the ruined can, and her crew eats standing in the cold light while Saul records \"torch, one can, spoiled\" with visible hatred."
     ]
   }
 }
