@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "on foot at Culvert Nine, bad knee, pedal-rail dragged behind, tally card handed to Brill, now addressing Dray."
+      "status": "on the ore twenty-two meters from Dray's running board, bad knee, pedal-rail abandoned at the second culvert"
     },
     {
       "name": "Miko",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "standing on his running board with two strapped cans, crank in coat, refusing to open the jaw until someone names themselves"
+      "status": "on his running board at Culvert Nine's door plate, book back inside his coat, crank in pocket, work lamp off"
     },
     {
       "name": "Tobin",
@@ -152,8 +152,8 @@
     "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Kass's pedal-rail bearing will cook again past the second culvert, forcing them to walk the final stretch to Anza on a bad knee",
-    "A headlight is coming down the ore line toward Culvert Nine, not slowing for spur or jaw, while the storeroom's reader logs Anza salvage into Kettering's oh-eight-hundred queue — who is in the rig and what it wants must pay off.",
-    "Culvert Nine's dead reader is pushing seasons of unclaimed salvage into Kettering's oh-eight-hundred queue over a wire no one at Culvert Nine ever cut — who is sitting at the other end of it?"
+    "Culvert Nine's dead reader is pushing seasons of unclaimed salvage into Kettering's oh-eight-hundred queue over a wire no one at Culvert Nine ever cut — who is sitting at the other end of it?",
+    "The plate number in the four thousands that Culvert Nine's reader logged eleven cans against, which Dray knows on sight"
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -463,7 +463,8 @@
       "Miko offers her station badge to Dray to open the jaw, but Brill silences her and Saul warns that a penciled name won’t hold a wire, leaving the jaw shut and the spoiled can still dripping.",
       "Kass limps down the grade on foot with a cooked bearing, trades insults with Miko, presses Nour's eleven-notched tally card into Brill's hand, and forces Dray to shift his attention from Brill to them.",
       "Kass presses Dray on the eleven off-board rigs and the spliced queue feeding Culvert Nine's logs to Kettering; Dray refuses to name the reader, keeps his book closed, and repeats that the yard doesn't move without a name spelled on the page — Kass refuses to give one.",
-      "Kass laid the hand lamp flat against the blank rig's crew plate and read a ground-off Anza clearance struck through by rescission at 04:51 with the witness line empty."
+      "Kass laid the hand lamp flat against the blank rig's crew plate and read a ground-off Anza clearance struck through by rescission at 04:51 with the witness line empty.",
+      "Kass reads the blank rig's rescission aloud as the 04:51 Kettering board disappearance and names the unknown scriber as the hand feeding Culvert Nine's jaw into the queue; Dray opens his plate book to show eleven pages with two blank witness columns each, refuses to write anything without a name spoken on his steel, kills his work lamp, and Culvert Nine's dead reader prints a second entry claiming eleven cans against an unknown plate number Dray recognizes."
     ]
   }
 }
