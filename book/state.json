@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "bad leg on rail, Nour's tally card in possession, 18:00 bell deadline approaching"
+      "status": "on the ties at Culvert Nine's canister line, bad leg out, Nour's tally card laid face-out as the physical match, no authority of their own"
     },
     {
       "name": "Miko",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "reclamation cord on Miko's wrist, Rule thirteen cited but overridden by storeroom authority, clipboard in hand"
+      "status": "on the jaw plate at Culvert Nine, clipboard up, holding Rule thirteen against Brill's claim, cord still on Miko's wrist"
     },
     {
       "name": "Wren",
@@ -384,7 +384,8 @@
     ],
     "events": [
       "Saul cords Miko's wrist and logs her as stowaway-thief M. Varel with the eleven cans seized for Kettering review, while Miko watches the storeroom door and warns that the forward canister's fourth bite has cured it shut as dead weight, until the storeroom's bolts draw back and the door swings open.",
-      "Odessa Brill emerges from her storeroom with a child and crew behind her, walks the line of eleven canisters reading the Bay 4 Shift 2 stamps by hand, confirms all eleven match Nour's short strikes, and declares them Anza's payment — not stolen cargo — stopping at the cold-sealed forward canister to state the jaw opens on a trade or not at all."
+      "Odessa Brill emerges from her storeroom with a child and crew behind her, walks the line of eleven canisters reading the Bay 4 Shift 2 stamps by hand, confirms all eleven match Nour's short strikes, and declares them Anza's payment — not stolen cargo — stopping at the cold-sealed forward canister to state the jaw opens on a trade or not at all.",
+      "Saul reasserted Rule thirteen against Brill's authority over her own storeroom, Kass produced Nour's tally card whose receiving mark matched Brill's own hand-cut crescent, and Brill declared the throat opens only on a trade."
     ]
   }
 }
