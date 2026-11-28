@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at Ivo's bedside in the relay shop, hand-pumping the respirator, weighing Fenn's offer"
+      "status": "at relay shop, refuses to sign Marlowe over, hand-pumping Ivo with four restarts left in the cartridge."
     },
     {
       "name": "Kass",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at Anza board ledge; has read back the runs and pressed Nour to walk the route to Culvert Nine"
+      "status": "at Ivo’s cot, learning to hand-pump the respirator."
     },
     {
       "name": "V. Ospina",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Anza board, Nour’s tally card sealed in rig, serve order posted for first light"
+      "status": "leaves Anza after warning that the warrant serves at first light whether Rhea signs or not."
     }
   ],
   "threads": [
@@ -252,7 +252,8 @@
       "The reclamation unit rolls in at 04:12, twenty-eight minutes early, and Fenn meets it at the gate with the sealed tally card and puts their own name on Marlowe's bunk door as line-trust custody — the first dirty mark on a spotless record — while Marlowe, who could walk out to the rig and end it, stays on the cot and gives Teodoro his Bay 4 shift numbers instead; on the pump loop the culvert totalizer ticks over half a ration, and someone is already walking the route ahead of them."
     ],
     "events": [
-      "Nour reconstructs the four diverted down-line runs on the board ledge and reveals to Teodoro that six cases of respirator scrubbers—the kind under Rhea's brother Ivo's cot—are in Odessa Brill's hoard at Culvert Nine."
+      "Nour reconstructs the four diverted down-line runs on the board ledge and reveals to Teodoro that six cases of respirator scrubbers—the kind under Rhea's brother Ivo's cot—are in Odessa Brill's hoard at Culvert Nine.",
+      "Rhea rejects Fenn’s compressor offer, teaches Teodoro the three-push bulb technique, counts down to four restarts as the cartridge gauge falls."
     ]
   }
 }
