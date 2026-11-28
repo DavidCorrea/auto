@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at relay shop, refuses to sign Marlowe over, hand-pumping Ivo with four restarts left in the cartridge."
+      "status": "Anza relay shop at the pump bulb, four restarts left in Ivo's cartridge"
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Culvert Nine back room door with Ospina, channel open to Anza board"
+      "status": "Culvert Nine back room, refusing the trade on the open channel, waiting on the sender strike"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "listed twice on Anza's plate, pushing cart down-line"
+      "status": "Culvert Nine back room, silent, hand flat on the overlap log"
     },
     {
       "name": "the man in the pod",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "Culvert Nine back room, still carrying the dirty mark on their flagged authority, facing Voss"
+      "status": "Culvert Nine back room, puck in hand, receiving counter offered and given"
     },
     {
       "name": "Pell",
@@ -240,7 +240,8 @@
       ],
       "chapterSummaries": [
         "Fenn reached Anza with the desk's terms — produce Voss or hand over the living witness by first light — then put the relay shop on a brown-out rota that leaves Ivo one cartridge, with a standing offer of full-time compressor power the hour Rhea signs Marlowe over. Kass burned the last charge in a dead rig at post 71 to make Teodoro read Culvert Nine off Nour's tally card, and the old pump loop showed a body fed there at 05:57 and again at 06:14. Fenn sealed the card into the rig's document drawer, posted the serve order on Marlowe's bunk, and got word that a reclamation unit is due at 04:40.",
-        "On the Tally Card, Nour named Culvert Nine as the skim's drop — including the six cases of scrubbers Ivo needs — while Rhea refused Fenn's trade and counted Ivo to four restarts. Ospina left their Kettering bench to seal cargo down-line, Doan gave the crew the no-show name Kael Renner, the crew pushed onto the 7-K. At post 71 Kass warned a plateless ghost train is coming that won't stop for people. Fenn blocked the reclamation unit by taking Marlowe into custody; Marlowe named a third badge, 2244, whose taped gloves counted him into the lid; a figure walks the route ahead of the cart."
+        "On the Tally Card, Nour named Culvert Nine as the skim's drop — including the six cases of scrubbers Ivo needs — while Rhea refused Fenn's trade and counted Ivo to four restarts. Ospina left their Kettering bench to seal cargo down-line, Doan gave the crew the no-show name Kael Renner, the crew pushed onto the 7-K. At post 71 Kass warned a plateless ghost train is coming that won't stop for people. Fenn blocked the reclamation unit by taking Marlowe into custody; Marlowe named a third badge, 2244, whose taped gloves counted him into the lid; a figure walks the route ahead of the cart.",
+        "At Culvert Nine, Kass and Ospina found Anza's eleven seals stacked on Brill's floor, Brill refusing a sack without a trade. Ospina pressed their live Bay 4 ring into a reader and took a red counter on a flagged authority with no sender behind it. Brill walked them to the back room, where Calder Voss—self-erased from Kettering's board—named his price: Marlowe. Marlowe, on the set, told Kass to hand him over; Fenn is twenty minutes out and first light is on the grade."
       ],
       "summary": "",
       "isClosed": false,
@@ -249,23 +250,19 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 14,
-    "title": "Culvert Nine",
+    "number": 15,
+    "title": "The Taped Knuckle",
     "beats": [
-      "On the 7-K grade the ghost train comes down the ore line dark and stripped of any plate; Kass tries the old flag with the cart and their bodies on the rail, but it barely checks and doesn't stop for people, so they drag the cart into the cut and let it scream past — then the walking dot from the movement trace steps onto the road, a sharp-tongued Culvert Nine lookout who counts them, notes the empty cart, and says Brill's crew has been drawing rations off the totalizer all night while Anza starves.",
-      "Inside the dead pump station the crew finds the hoard stacked under the Br-4 receiving mark — the cornmeal, fuse wire, canned milk, and the six cases of scrubbers — and Brill appears to state her rule flat: she trusts a full storeroom over any person's promise, and her people eat through winter off this pile or they don't eat, so nothing leaves without a trade.",
-      "The crew pushes for the scrubbers with Ivo down to four restarts, and to prove the food can be made legal Ospina presses their live seal authority onto a crate — but Anza's red plate rejects it, a clean ring on stolen goods with no Bay 4 counter behind it, and Brill, done arguing, walks them toward the back room to take it up with the man who made it hot.",
-      "In the back room they find Calder Voss — badge 2209, the forger who resealed the rigs and erased himself off Kettering's board — running the skim off a reseal rig and the receiving die, calm and transactional at the sight of the crew, unbothered that Fenn wants him and Marlowe named him; he says he can make all eleven seals clean, but doing it costs him the one thing he un-listed himself to keep.",
-      "Voss lays out the chain: the seals can only be cleaned by re-listing his erased name on the board as the resealing authority to close the counter, and the instant they go clean every fraud flag he shed snaps back onto him in the room — Ospina's receiving seal can't stand in for the Bay 4 counter, so feeding Anza means putting Voss back on the board to go down with it, unless he'll take another price.",
-      "Voss names that price — the one living witness who can identify him, Marlowe — hand the man over to the still-active hands claim and he re-lists himself and the food goes home legal, or withhold him and the cargo stays hot, Anza starves, and Ivo burns his last restart; the crew came to recover the skim without giving Marlowe up, the only currency Voss will take is Marlowe, and as the channel to Anza crackles open and first light closes in, the choice can't be walked away from."
+      "Kass refuses the trade on the open channel and Marlowe answers that it's his body and he outranks a dispatcher on it; Rhea cuts in over the pump bulb at Anza relay shop, tells Kass to take the deal and bring the cartridges, and Kass stalls her by having Ospina tilt a case puck into Brill's lamp and read the sender face before anybody signs anything.",
+      "The crimp is cut with a chipped crescent, not Voss's square brass die, and when Ospina sets the chipped die out of their coat pocket beside his the marks match — two dies sealed those eleven cases, and the second one has been riding in an Anza coat since Kettering; Voss stops being weather long enough to ask where they got it, and Miko keeps one hand flat on the overlap log and says nothing.",
+      "Kass plays Marlowe's description down the line — tape wound over the right knuckles, a clean voice counting the lid down aloud — and Voss admits on the open set that he resealed the eleven at 05:52, sealed the loader in at 21:47, and signed the pod out as ballast; Teodoro reads it back twice for the board log while Voss works out he just spent the one clean morning he erased himself to buy.",
+      "Voss shrugs the counter off as \"the other one, not my problem,\" then gives the rule: a sender crimp only closes against a live receiving ring, and the counter that night was hired hands off the Kettering morning desk's relief overflow, badge 2244, paid in freight, no name asked and none offered; Teodoro runs 2244 and finds it sealed inside the same 08:00 review that will decide Ospina's ring.",
+      "Brill hears taped knuckles and a clean voice, sets her lamp on the bench, and has Marlowe say the count again over the set; she tells the room about the four crates a man with a full clipboard took off her floor against a promise on line paper, the paper she ate, and asks Ospina out loud whether the tape was on the hand that held the lid or the hand that held the clipboard.",
+      "Brill voids her own rule for the first time — nothing for a man, nothing for a promise, but the eleven seals walk against a chain that closes clean, scrubbers first, if someone hands her the name behind 2244 — and Voss, whose only stock was his own arrest, tries to read Marlowe as a manifest line one last time, hears a man answer with a name, a bunk and a count, and gets told by Ospina that his own trade binds him now: any half he crimps tonight hangs the taped hands with him.",
+      "Voss reaches for the lever and Ospina seats the chipped die in the cradle first, so the fresh half crimps under the crescent and the reader window goes amber off a live ring; Brill walks to the chalk line and tells Saul to load the six cases by the grate, Rhea counts Ivo down to two restarts, and Saul's pencil stops — headlights on the ore grade, one set, steady, Fenn twenty minutes early with the only clearance on this line that turns before eight."
     ],
     "events": [
-      "Kass and Ospina try to flag a plate-less ghost train on the 7-K grade, fail, and are met by a Culvert Nine lookout who reveals Brill's crew has been drawing Anza's skimmed rations off the station totalizer all night.",
-      "Inside the dead pump station Kass and Ospina find Anza's eleven seals stacked under the Br-4 receiving mark, including the six cases of Ivo's scrubbers, and Brill states her rule that nothing leaves without a trade while a reseal rig works in the back room.",
-      "The crew demanded the scrubbers, Ospina pressed their live seal authority onto a cornmeal crate and Anza's board rejected it for want of the Bay 4 counter — logging a dirty mark on their flagged authority before the 08:00 review — and Brill, done arguing, led them to the back room door, where the reseal rig's noise cut out.",
-      "In the back room the crew finds Calder Voss (badge 2209) running the skim off a reseal rig and the receiving die; calm and unbothered that Fenn wants him and Marlowe named him, he says he can make all eleven seals clean but only by paying with the one thing he erased himself to keep.",
-      "Voss explains that cleaning the eleven seals means re-listing his erased name, badge 2209, as the Bay 4 resealing counter, which snaps every fraud flag back onto him the instant the food turns legal, and he hints he'll only close the chain for a different price they're already carrying.",
-      "Voss demands Marlowe in exchange for re-listing badge 2209 and cleaning the eleven seals, Teodoro opens the channel to Anza where Marlowe volunteers to be surrendered, and Fenn announces the reclamation unit is twenty minutes out, forcing an immediate choice."
+      "Kass refused Voss's trade on the open channel, overruled Marlowe's claim on his own body and Rhea's demand from Ivo's bedside, and traded Ospina's receiving counter for a look at a case, which Ospina tilted into Brill's lamp until the sender strike came up and they told Kass to hold the trade."
     ]
   }
 }
