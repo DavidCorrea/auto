@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Culvert Nine jaw, left leg injured from come-along snap, pedal-rail PR-ANZA-03 at spur end, bearing still seized"
+      "status": "at Culvert Nine jaw, left leg injured, watching lockout spread"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "at Culvert Nine jaw, hand lamp in hand, two coast tickets zipped in coat, rig logged as cargo in throat, second canister beginning lockout tick"
+      "status": "at Culvert Nine jaw, two coast tickets in coat, lockout spreading across canisters 1-5"
     },
     {
       "name": "the man in the pod",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "in storeroom behind viewing slit, not watching, forty names on chalk with three crosses"
+      "status": "in storeroom behind viewing slit, 40 names on chalk (3 crosses), refuses trade, holds to matched-seal rule"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at jaw plate with clipboard, Miko logged as stowaway, cargo seized pending trust review"
+      "status": "at jaw plate with clipboard, Miko logged as stowaway, third coast ticket in possession"
     },
     {
       "name": "Wren",
@@ -384,7 +384,8 @@
     "events": [
       "Miko relights the hand lamp, climbs down from the blank rig's crew box onto the dead spur, trades barbed relief with Kass, and states she didn't ride sixty miles for the coast as the forward canister ticks toward cold-cycle lockout.",
       "Miko confronts Saul and Brill at the jaw plate, reciting the eleven short seals from Kettering Bay 4 that match Anza's resupply payment to Culvert Nine, but Saul logs her as a stowaway and Brill confirms the crescent mark needed to open the throat isn't cut into her door plate.",
-      "Miko and Kass manually switch the blank rig from the dead spur into the jaw throat using a come-along, but the dead bearing nearly breaks Kass's leg; Miko floods the reader with the hand lamp, but the reader finds no seal on the blank plates and logs the eleven canisters as unsealed cargo instead of Anza's resupply payment."
+      "Miko and Kass manually switch the blank rig from the dead spur into the jaw throat using a come-along, but the dead bearing nearly breaks Kass's leg; Miko floods the reader with the hand lamp, but the reader finds no seal on the blank plates and logs the eleven canisters as unsealed cargo instead of Anza's resupply payment.",
+      "Brill refuses to open the jaw without a matched crescent seal, stating a broken seal would fault the throat and pin the run to spring; the cold-cycle lockout spreads to the fifth canister while Miko holds two coast tickets and Kass watches injured."
     ]
   }
 }
