@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "on Culvert Nine's door plate, crank in hand, jaw locked, offer refused"
+      "status": "on Culvert Nine's door plate, crank in hand, eighty-six minutes on the clamp, claim uncashable and no crew willing to walk out"
     },
     {
       "name": "Fenn",
@@ -128,7 +128,7 @@
       "role": "spur master of Marrow Cut, keeper of the yard's book of plates",
       "wants": "keep eleven off-board rigs and the forty riders wired to their plates alive through the line shutdown",
       "flaw": "holds a bargain to the exact letter it was struck in, even when the letter is the thing that will kill the person it was struck about",
-      "status": "waiting at his rig short of the door plate, lamp burning, refusing to cross"
+      "status": "on his running board short of the plate, lamp burning, book unopened, waiting"
     },
     {
       "name": "Tobin",
@@ -459,7 +459,8 @@
       "Saul reads the blank rig's crew plate as Anza salvage with no living names wired—news to Brill—while Brill steps out with the crank demanding ten canisters before the lockout and threatens to call Kettering before oh-eight-hundred.",
       "Brill offered the crank and all eleven canisters across the door plate, and Dray refused, naming his price as two living names wired and witnessed to the blank rig's crew plate before the jaw turns again.",
       "Saul reads Marrow Cut's rule aloud and Brill realizes Dray is buying bodies, not fuel, while Saul warns that calling Kettering will mark the rig derelict.",
-      "Brill offered her own name to close Dray's bargain, and Dray refused it as spent and only half of the two names he needs, leaving her with a locked jaw, a sweating spoiled can, and ninety minutes before the clamp faults."
+      "Brill offered her own name to close Dray's bargain, and Dray refused it as spent and only half of the two names he needs, leaving her with a locked jaw, a sweating spoiled can, and ninety minutes before the clamp faults.",
+      "Dray refused Brill's crew and her own name, declared Culvert Nine's door plate shut until the second name is written in his book, and revealed he has been hearing Culvert Nine's jaw log over the spliced ore-line wire — so he wants whoever is reading it out loud, not her canisters."
     ]
   }
 }
