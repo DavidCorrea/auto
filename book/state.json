@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "Culvert Nine back room, hand off the overlap log and in her coat pocket, silent"
+      "status": "Culvert Nine pump hall door, running six scrubber cases up the ore line on the 7-K, logged"
     },
     {
       "name": "the man in the pod",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "at reader cradle, flagged live ring still hot, red counter blinking"
+      "status": "Culvert Nine reader cradle, ring seated, authority still flagged red for Kettering review"
     },
     {
       "name": "Pell",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Culvert Nine pump hall, clearance turned at 08:00, unable to serve Marlowe without voiding clean chain."
+      "status": "Culvert Nine chalk line, clearance turned, serve order unserved"
     },
     {
       "name": "Saul",
@@ -269,7 +269,8 @@
       "Ospina and Kass work out for the room that a reseal chain only reads clean on a living named receiving witness, not a flagged ring, and that the only such man who can identify the seals is Marlowe — at the cost of binding him to the node and keeping the hands claim alive — then turn to the channel and find Marlowe awake and listening.",
       "Fenn moves to void the plan by refusing Marlowe as a contested authority, but Ospina turns the desk's own rule against them — serving Marlowe empties the receiving jaw and keeps the file red, so the spotless close Fenn wants requires leaving the one clean name alone.",
       "Marlowe signs himself in over the channel as the living receiving witness, binding himself to Anza and keeping the hands claim alive, while Fenn's clearance turns at eight and leaves the chain half-closed with no sender strike.",
-      "To give the orphaned sender strike authority to stand on, Teodoro re-lists Calder Voss as resealing authority on Anza's board, and the instant Voss's erased name climbs back up, a light wakes at Kettering's morning desk."
+      "To give the orphaned sender strike authority to stand on, Teodoro re-lists Calder Voss as resealing authority on Anza's board, and the instant Voss's erased name climbs back up, a light wakes at Kettering's morning desk.",
+      "Ospina seated the ferrule and the reader went green, Saul walked the six scrubber cases out for Anza while Fenn stood at the chalk line and let them go, the price of Marlowe's bunk was named out loud but not counted, and then Teodoro reported that badge 2244 had acknowledged the still-active hands claim from a reader inside Anza relay shop."
     ]
   }
 }
