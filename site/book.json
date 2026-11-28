@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 88073,
-  "passages": 138,
+  "words": 88643,
+  "passages": 139,
   "arcs": [
     {
       "number": 1,
@@ -175,6 +175,13 @@
       "title": "Down the Ore Line",
       "words": 4932,
       "passages": 7
+    },
+    {
+      "number": 22,
+      "numeral": "XXII",
+      "title": "The Count Ends at Two",
+      "words": 570,
+      "passages": 1
     }
   ]
 }

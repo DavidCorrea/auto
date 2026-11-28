@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "Weir switch stand, wrists bare, palm torn open, count still at two, deciding"
+      "status": "Weir trestle, claimed lid-hand on the record, first field of Coombs's slate spent on her"
     },
     {
       "name": "Coombs",
@@ -113,6 +113,14 @@
       "wants": "to get his runners logged and fed before the cold takes them, the way it took the ones he couldn't catch",
       "flaw": "sure a warm logged cage beats a free cold ditch, and can't believe anyone would choose the ditch",
       "status": "Weir switch stand, slate face-up with two blanks, tender rolling at Wren's word"
+    },
+    {
+      "name": "Adisa Bale",
+      "pronouns": "he/him",
+      "role": "Kettering desk remand officer",
+      "wants": "to confirm the lid-hand record and execute the coast-roster hold before the hour",
+      "flaw": "treats a confirmed record as a true one",
+      "status": ""
     }
   ],
   "threads": [
@@ -308,7 +316,8 @@
       "chapterSummaries": [
         "A driverless tender with no transponder rolled onto Anza's ore stub, and the coast puller Coombs used a proving slate — a reader that IDs a body by its walk and voice — to name two people off no roster: Miko under her bought name Dalia Reyes, and a tape-knuckled woman from the dark. She gave herself up to keep him from proving more, on condition he never say the sealed man's name; Coombs bound her wrists in seal tape and filed her as Bay 4's lid-hand, and Nour's board lit with a crew of six, one carrying a bay number where a name goes.",
         "Reader two matched Wren's taped knuckles to the palm-cut glove and wrote her on the living plate as Bay Four's lid-hand, while Rhea proved the disc keeping Ivo's respirator alive came out of that same glove. Wren admitted counting \"three, two\" over the sealed man but never said one; Rhea, trusting the glass, read Marlowe off the plate as living crew, breathing in the next room. Then Kettering's desk called to confirm Anza holds her, Coombs's tender pulls at the bell, and a line the desk itself wrote has appeared on Anza's plate.",
-        "Teodoro read out a Kettering hold order remanding Wren to the coast roster, countersigned with Marlowe's badge 2244 and due at the bell, with Anza's food chain holding only while it executes. Wren refused Coombs's warm logged bunk and the slate that would erase her count, and asked Rhea to stand as her eyes instead of her glass; Rhea cut her wrists free, confirmed the man in the chair was alive, and Wren stepped over the sill with two numbers unsaid. Then the tender cranked itself over, empty, thirty-one minutes out."
+        "Teodoro read out a Kettering hold order remanding Wren to the coast roster, countersigned with Marlowe's badge 2244 and due at the bell, with Anza's food chain holding only while it executes. Wren refused Coombs's warm logged bunk and the slate that would erase her count, and asked Rhea to stand as her eyes instead of her glass; Rhea cut her wrists free, confirmed the man in the chair was alive, and Wren stepped over the sill with two numbers unsaid. Then the tender cranked itself over, empty, thirty-one minutes out.",
+        "The tender ran the iced ore line to the Weir, where Wren hand-cranked the reseal brakes on the dry spillway trestle and tore her palm open while a second blank-plated rig shadowed them the whole way. It stopped at the coast switch under a green board; Coombs laid his proving slate face-up with two empty name fields and offered the logged mercy once more, and a Kettering man on a roster climbed down from the shadow rig with a sealed file tube and asked which of them was the lid-hand."
       ],
       "summary": "",
       "isClosed": false,
@@ -317,25 +326,18 @@
   ],
   "chapter": {
     "arc": 4,
-    "number": 21,
-    "title": "Down the Ore Line",
+    "number": 22,
+    "title": "The Count Ends at Two",
     "beats": [
-      "In the back room Wren gets out \"three\" and \"two\" and stops dead there, and Marlowe, gray and half-under, gives her nothing to land on — only tells her the water cup is on the floor where a man with one arm can reach it — until Coombs calls the remand from the doorway and says it doesn't execute at a node at all, only where a coast roster line can take a body off him, which is the switch stand at the Weir.",
-      "Out on the ore stub Rhea runs the seal tape back around Wren's wrists for the walk out and pockets the cut length with the receiving mark still on it, Teodoro lets the slate carry \"Bay 4 lid-hand\" — hands with a bay number standing in where a badge goes, good only as far as the switch — Nour takes the draw line and the last spare cartridge for Ivo, and Miko climbs onto the warm shelf because the Weir is the coast switch and she fully intends to be off the rig there.",
-      "Under way, Coombs shows them the shelf over the motor box with the coolant loop running through it and lays out the rig's one rule — it reads the road ahead, starts when the line reads clear, and stops for nothing that isn't rail — while Miko cuts the factory-blank transponder plate out of its mount with Rhea's seam knife and pockets it as something a fence at Culvert Nine would trade for, and Rhea finds the hand crank for the reseal brake, the wedge that bites the rail when there's no air left to do it.",
-      "On the flat the tender's brakes glaze over and the board calls pressure nominal while Wren says the reseal's iced shut; she hand-cranks forty-two turns counted out loud with Miko leaning her whole weight on the wedge pin, Rhea reseals it with a strip of gasket tape off her own coil, and the stop costs eleven minutes of bell and leaves Rhea standing there having watched the glass be wrong and the woman be right.",
-      "Headlights come up the ore line behind them, an unposted rig running dark on the same blank mount, and it won't answer the radio; Kass breaks in to say the fleet is real and bigger than five, that the morning desk has answered and released the remand early, and that File 2244 is rolling for Marlowe — then the grade drops away and the trestle comes out of the dark with ice sheeting both rails.",
-      "The tender stalls on the trestle over the dry spillway and starts to slide, the board still reading nominal; Rhea cuts Wren's wrists free without being asked, Coombs offers to take the crank himself so her proof stays clean and she refuses him, Miko sets her shoulder to the pin, and Wren counts the turns out loud with the drop under the deck and tears open the palm that gave Ivo's respirator its diaphragm before the wedge bites and holds.",
-      "They coast down to the Weir switch with the coast line burning across the cut, and Coombs sets the slate face-up on the switch stand with its two blanks still empty and tells Wren the tender rolls the second she's decided, not one minute past — while behind them the dark rig glides up to the switch with no running lights at all, and a man in a hat comes down the ladder with a file tube under his arm."
+      "Wren claims the lid-hand, and Coombs's proving slate wakes at her voice and reads the Bay 4 seal record aloud — she held the lid and counted a man down into a box whose repeater logged him dead at 36.4 degrees — while the Kettering man asks her, pleasant, to confirm it, and she doesn't say no.",
+      "Rhea, eleven years a believer in the glass over any mouth, is the one who breaks it: the pod's databus was cut, so the repeater only ever held a false last-good 36.4 while the box ran cold, and she keys the yard handset to Anza and has Teodoro read Marlowe off the live plate as living crew, splinted and breathing in the next room.",
+      "Wren takes the handset and finally says her count into it — three, two — the numbers she's carried four hundred kilometers, said now to a man she knows is alive, and she reaches for whatever comes after two and finds there's nothing there, there never was.",
+      "Marlowe refuses to let it land: he's not down, he's shop crew with a cup to fetch and a bunk that's his, and the only thing she did wrong was do it bad, so the count ends at two and won't fall to zero while he's still standing.",
+      "The net pulls tight — the slate still face-up with two empty fields, the coast lining up on the hour, the remand man waiting to execute, File 2244 rolling at Marlowe's node, and Ivo's cartridge burning toward minute forty in Rhea's coat — and Miko carries her two live tickets to the edge of the coast lamps and stops there, not stepping onto the green board.",
+      "Wren turns her ruined hand and her back on the coast lights, keys the yard set, and asks Teodoro to put her real name on Anza's shop roster instead of a bay number; the slate's fields stay empty, the Kettering man caps his sealed tube and steps back, and Anza answers just as Rhea's cartridge runs out of minutes."
     ],
     "events": [
-      "Wren says \"three, two\" to Marlowe and stalls, but he doesn't remember or care and only asks for water, until Coombs reveals the remand can't execute at a node and only settles at the coast switch stand at the Weir, where the tender is headed.",
-      "On the ore stub Rhea re-tapes Wren's wrists and pockets the cut length with the Bay 4 receiving mark, Teodoro confirms the slate's \"lid-hand\" entry is good only as far as the switch, Nour takes the draw key and Ivo's last cartridge back into the sealed shop, and Miko climbs onto the warm shelf intending to leave at the Weir before the tender rolls and Coombs's slate notes something in the dark.",
-      "Under way on the ore line Coombs lays out the tender's one rule — it reads only rail, and stops for nothing else — while Miko cuts the factory-blank transponder plate out of the dash and pockets it as trade goods for Culvert Nine, and Rhea finds the hand-cranked reseal wedge that bites the rail when the air is gone, which Wren says takes forty-two turns.",
-      "On the downhill the tender's glazed brakes fail with the gauge still reading pressure nominal until Wren hand-cranks the iced reseal to forty-two with Miko on the pin and Rhea taping the housing, and Rhea starts asking whether the tender's rail-reader plate is steel or composite.",
-      "A blank-mounted rig appeared behind the tender without answering radio, Kass reported the remand released early and File 2244 rolling for Marlowe, and the tender reached an iced trestle.",
-      "The tender stalled and slid backward on the iced trestle with the board still reading nominal until Wren — cut free by Rhea, refusing Coombs's offer to take the turns himself — cranked the reseal wedge forty-two times with Miko on the pin and tore open her palm, and the wedge bit and held.",
-      "The tender coasts off the trestle to the Weir switch, where Coombs lays the slate with two empty name fields and gives Wren until the top of the hour, Miko burns one of her three names, and the dark rig delivers a man in a hat with a sealed Kettering file tube whom the slate will not sing for."
+      "Wren claimed the lid-hand aloud and Coombs's slate spent its first field on her, reading the Bay 4 seal record and playing back her own \"three, two,\" while the remand man Bale waited for a yes or a no and the slate's second field woke asking for the next body."
     ]
   }
 }
