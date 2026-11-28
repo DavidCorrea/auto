@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 70924,
-  "passages": 114,
+  "words": 71622,
+  "passages": 115,
   "arcs": [
     {
       "number": 1,
@@ -152,8 +152,8 @@
       "number": 18,
       "numeral": "XVIII",
       "title": "The Slate Sings",
-      "words": 710,
-      "passages": 1
+      "words": 1408,
+      "passages": 2
     }
   ]
 }
