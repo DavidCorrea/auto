@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "hand off pump, Ivo running on mains power"
+      "status": "Her brother Ivo is on mains power at Anza relay shop; she refused Fenn's trade and kept pumping until compressor priority returned."
     },
     {
       "name": "Kass",
@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Anza's ore siding, carrying the taped glove inside their coat"
+      "status": "Holding the taped work glove with the cut-out disc inside her coat at Anza; knows Miko shared the tool void with a second, unlogged person."
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "Anza's unlit ore siding, tickets in her coat, story finally told"
+      "status": "Unloading scrubbers at Anza's unlit ore siding with three coast tickets in her coat; admitted she was not alone in the med rig's tool void."
     },
     {
       "name": "the man in the pod",
@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at reader two, has disclosed Ivo's condition and Rhea's identity to badge 2244"
+      "status": "Disclosed Ivo and Rhea to badge 2244 at reader two; assigned Marlowe shop-hand duty in the spare bunk behind the cathode."
     },
     {
       "name": "V. Ospina",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "at Kettering morning desk, authority flagged for hearing, holding chipped crescent, racing back to Anza to stop Marlowe's physical recovery"
+      "status": "Left Kettering morning desk with flagged authority and the chipped crescent die; walking toward a rig as File 2244 blinks red for Marlowe's recovery."
     },
     {
       "name": "Pell",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "at Culvert Nine chalk line, station now proposed as listed resupply stop on Anza's board, pencil mark made, unscheduled headlights approaching"
+      "status": "Culvert Nine is penciled on Anza's board as a proposed resupply stop; she made her mark under the station name and will not allow any canister to be skimmed."
     },
     {
       "name": "Fenn",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "Kettering's yard, bay three, notebook in hand, no name for the counter and a recovery rig already gone down-line"
+      "status": "At Kettering bay three with Voss and Ospina; filed compressor priority from Culvert Nine's reader and holds File 2244 for Marlowe's physical recovery."
     },
     {
       "name": "Saul",
@@ -96,16 +96,32 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at Culvert Nine chalk line, pencil tip snapped, clipboard in hand, alert to approaching vehicle"
+      "status": "Wrote Culvert Nine in pencil on the chalk-line clipboard; it is only a proposal until an Anza reader keys it live."
+    },
+    {
+      "name": "Wren",
+      "pronouns": "she/her",
+      "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
+      "wants": "to put down the count running in her head and stop being no one",
+      "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
+      "status": ""
+    },
+    {
+      "name": "Coombs",
+      "pronouns": "he/him",
+      "role": "a coast puller — hauls runners (people who walked off their shift contracts) back onto the winter rosters",
+      "wants": "to get his runners logged and fed before the cold takes them, the way it took the ones he couldn't catch",
+      "flaw": "sure a warm logged cage beats a free cold ditch, and can't believe anyone would choose the ditch",
+      "status": ""
     }
   ],
   "threads": [
     "Miko has bought coast-bound tickets under three different names.",
     "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes.",
     "Who the second person at Bay 4 was — the taped-glove hands that counted Marlowe down to the lid while Voss stamped.",
-    "Whether the still-active hands claim can reclaim Marlowe even after Anza lists him as crew.",
-    "A reclamation unit has been authorized for physical recovery of Marlowe before morning, forcing Fenn, Kass, and Anza to act faster than the desk’s schedule.",
-    "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk"
+    "Fenn filed compressor priority from Culvert Nine's reader without the trade Rhea refused — she says whoever did it explains it at the desk",
+    "Miko holds three coast tickets under three names and a green board means the coast trains are running — will she actually go?",
+    "Whether Kettering's morning desk will clear V. Ospina's flagged seal authority before the review closes."
   ],
   "facts": [
     "The man in the pod is a Kettering Bay 4 loader discharged at 21:47, sealed inside as ballast, and is now awake on Teodoro’s couch at Anza with a hurt shoulder.",
@@ -123,7 +139,15 @@
     "Doan's overlap key is dead, their clearance was withdrawn, and they remain at the ore stub with wrist looped in locker cord.",
     "Miko holds the overlap log and three coast tickets under different names.",
     "Teodoro logged Calder Voss into Anza's board notes as far-end contact, forger, resealer, and active hands claim.",
-    "Anza's trust score is red; resupply is frozen and multiple shift clearances have been withdrawn."
+    "Anza's trust score is red; resupply is frozen and multiple shift clearances have been withdrawn.",
+    "Teodoro re-listed Calder Voss as resealing authority at reader two, restoring Anza's green chain and resupply while snapping every fraud flag Voss had wiped back onto his own name at 08:00.",
+    "Marlowe remains listed as living crew on Anza's plate with a live hands claim acknowledged under badge 2244; Teodoro assigned him shop-hand duty and he refuses to countersign himself off.",
+    "Fenn took Calder Voss into custody at Kettering bay three; Voss admitted the eleven reseals but stated the taped-glove counter at Bay 4 was not him.",
+    "Culvert Nine was written by Saul in pencil onto Anza's board as a proposed listed resupply stop; Brill marked under her own name, and the receiving jaw will fault if any canister is skimmed.",
+    "V. Ospina holds the chipped crescent die from Kettering's tool void; their live seal authority remains flagged for Kettering morning desk review.",
+    "File 2244 was opened for the physical recovery of Marlowe from Anza before the next shift bell; Ospina left the desk walking toward a rig as her authority ring blinked red.",
+    "Kass now holds a heavy gray work glove with tape across one knuckle and a cleanly cut disc missing from the palm; Miko confirmed a second person rode in the med rig's tool void from Kettering to Anza and was counting numbers in the dark.",
+    "Ivo is breathing on Anza mains compressor power at the relay shop after Rhea installed the final cartridge; his diaphragm remains patched with a disc of heavy glove rubber."
   ],
   "arcs": [
     {
@@ -243,36 +267,64 @@
         "On the Tally Card, Nour named Culvert Nine as the skim's drop — including the six cases of scrubbers Ivo needs — while Rhea refused Fenn's trade and counted Ivo to four restarts. Ospina left their Kettering bench to seal cargo down-line, Doan gave the crew the no-show name Kael Renner, the crew pushed onto the 7-K. At post 71 Kass warned a plateless ghost train is coming that won't stop for people. Fenn blocked the reclamation unit by taking Marlowe into custody; Marlowe named a third badge, 2244, whose taped gloves counted him into the lid; a figure walks the route ahead of the cart.",
         "At Culvert Nine, Kass and Ospina found Anza's eleven seals stacked on Brill's floor, Brill refusing a sack without a trade. Ospina pressed their live Bay 4 ring into a reader and took a red counter on a flagged authority with no sender behind it. Brill walked them to the back room, where Calder Voss—self-erased from Kettering's board—named his price: Marlowe. Marlowe, on the set, told Kass to hand him over; Fenn is twenty minutes out and first light is on the grade.",
         "At Culvert Nine the crew matched Anza's eleven skimmed seals to two dies — Voss's square brass stamp and the chipped crescent Ospina found in Kettering's tool void — and Voss admitted on an open channel to resealing the cases and boxing Marlowe in as ballast, while denying he was the taped-hand man who counted him under the lid. Ospina closed their flagged live ring against Voss's crimp to start a clean chain, Brill broke her rule to move the scrubbers first, and Fenn's rig came up the grade twenty minutes early with Ivo down to two restarts.",
-        "Marlowe signed himself onto the receiving jaw over the open channel, taking the eleven scrubber seals and the claim riding him, and Teodoro re-listed Calder Voss as resealing authority so the sender jaw would hold — which dragged every fraud flag Voss had wiped back onto his own name at 08:00 exactly. The chain went green, Saul chalked eleven clean, and Fenn folded the serve order and took Voss instead of the man on Anza's plate. Then reader two in Teodoro's shop wrote the hands claim as acknowledged, live, badge 2244, four feet from Marlowe's couch."
+        "Marlowe signed himself onto the receiving jaw over the open channel, taking the eleven scrubber seals and the claim riding him, and Teodoro re-listed Calder Voss as resealing authority so the sender jaw would hold — which dragged every fraud flag Voss had wiped back onto his own name at 08:00 exactly. The chain went green, Saul chalked eleven clean, and Fenn folded the serve order and took Voss instead of the man on Anza's plate. Then reader two in Teodoro's shop wrote the hands claim as acknowledged, live, badge 2244, four feet from Marlowe's couch.",
+        "Ivo's respirator switches to Anza mains power as the 7-K delivers cartridges; Marlowe wakes, refuses to sign himself off the plate, and takes a bunk as shop hand under a live badge-2244 claim; meanwhile Kass pulls a taped work glove from Miko, proving a second person rode the tool void, as unscheduled headlights approach Anza down the grade."
       ],
+      "summary": "Resupplied by re-listing Calder Voss, which restored Anza's green chain but snapped his fraud flags back and woke File 2244 for Marlowe's recovery. Voss named a taped-glove counter who was not him; Marlowe chose to stay listed rather than sign off; Kass holds the glove proving a second stowaway rode the tool void. Anza will eat through winter, but an unlisted vehicle approaches and Marlowe cannot be taken before the next bell.",
+      "isClosed": true,
+      "firstChapter": 12
+    },
+    {
+      "title": "Second Hands",
+      "question": "The woman who cut a disc from her own glove to keep Rhea's brother breathing also counted Marlowe into the box — does Rhea trust her word, or the slate that can prove she's a killer?",
+      "goal": "Rhea must decide whether the stowaway who saved Ivo and sealed Marlowe runs clean or stays, while a genial puller offers everyone the warm logged safety of surrender. It ends at the Weir, where Wren reclaims her own name, learns the man she counted is alive, and chooses to stay and work beside him instead of running.",
+      "author": "baidu/ernie-5.5-flash-preview:free",
+      "plan": [
+        {
+          "title": "The Slate Sings",
+          "summary": "A driverless tender that posts to no board rolls to Anza's ore stub, and Coombs reads the yard with a proving slate — a reader that names an unlisted body by its walk and voice — until it sings two names that aren't on the roster, Miko's newest fake and the tape-knuckled woman, who steps out of the dark and gives herself up rather than let him say what else he can prove."
+        },
+        {
+          "title": "Glove Rubber",
+          "summary": "In the relay shop Teodoro places the taped knuckles at reader two as Wren's, and Rhea learns the disc keeping Ivo's respirator alive was cut from Wren's own palm even as Wren admits she counted \"three, two\" over the man in the pod — until Rhea checks the plate and finds the man she counted listed as living crew, two days in the next room."
+        },
+        {
+          "title": "The Warm Cage",
+          "summary": "Coombs lays the same clean mercy on both women — a hot bunk, a logged wage, the count wiped, no one the wiser — and Miko, whose three paper names won't feed her, actually listens, while Kass finds the tender is one of a fleet of unlogged rigs that never post to the master board, and Wren asks Rhea for the one thing running can't give her: to be taken to the man she counted while he's still breathing."
+        },
+        {
+          "title": "Down the Ore Line",
+          "summary": "The four ride Coombs's tender to the Weir, the dry spillway where runners switch to the coast line, and when ice stalls the rig on the trestle over the drop only Wren knows how to hand-crank the reseal brakes she once counted shut — and with the coast lights burning across the cut, Coombs tells her the tender pulls out the moment she's decided."
+        },
+        {
+          "title": "The Count Ends at Two",
+          "summary": "At the Weir Coombs's slate proves Wren sealed a man who \"died\" at 36.4, until Rhea — who trusts a machine's reading over a person's word — is the one to show the reading was a false last-good off a cut databus and the man is breathing on Anza's plate, and when Wren says her count to Marlowe's face he refuses to let it land on zero while he's still standing, so she turns from the coast lights and asks Teodoro over the radio to put her real name on the shop roster."
+        },
+        {
+          "title": "Shop Hands",
+          "summary": "Back at Anza Wren writes her own name on the shift board and takes the shop bunk beside Marlowe with the unfinished count between them, Coombs — who can't pull a working hand off a roster — rolls his tender out empty, Miko pockets her three names for the next green board and the coast train she's already watching, and Ospina's authority ring is still blinking red at a morning desk that hasn't answered."
+        }
+      ],
+      "chapterSummaries": [],
       "summary": "",
       "isClosed": false,
-      "firstChapter": 12
+      "firstChapter": 18
     }
   ],
   "chapter": {
-    "arc": 3,
-    "number": 17,
-    "title": "What the Node Eats",
+    "arc": 4,
+    "number": 18,
+    "title": "The Slate Sings",
     "beats": [
-      "In Teodoro's relay shop the 2244 figure stands at reader two with tape across the knuckles of one glove and gives no name; Teodoro, answering before he thinks to ask why, says Ivo has two cartridges left and six on the 7-K, and the figure says the collection rule out loud — a claim can be acknowledged by any reader, but a listed man is only released off the plate by his own receiving countersign — then asks who patched the diaphragm with glove rubber and walks out up the ore stub, leaving Rhea still pumping and nobody in the shop able to say how a stranger knew.",
-      "At Culvert Nine, Brill names her price for the last five cases: Culvert Nine listed on Anza's board as a resupply stop, which makes her station a name a reader can find, and Saul writes it on the clipboard in pencil while explaining that a green chain counts every case, so she cannot skim one canister for her own crew — Brill's people now eat only if Anza's board stays clean, and she takes the chalk anyway.",
-      "The six cases come up the ore line on the 7-K and Rhea cuts a wax-paper cartridge into Ivo's respirator housing, the machine takes the load, and she takes her hand off the pump for the first time in two days; then the shop lights steady as compressor priority comes back on from a filing Fenn made at Culvert Nine's reader without being asked, and Rhea says nothing about it, only that whoever did it can explain it at the desk.",
-      "Marlowe asks Teodoro for his own release off the plate and gets the same rule the taped glove quoted — his countersign is the only key, and he will not turn it — so he stays listed, claims the shop's spare bunk, and gets put on Teodoro's board as shop hand; the claim line under his name reads acknowledged, live, and he tells the room a bunk he can't leave is still better than a box he can't shout out of.",
-      "Fenn's rig runs north with Voss cuffled in the back and Ospina in the cab, ring still blinking its red counter, and Voss asks Ospina what the Bay 4 counter looked like; Ospina says they never saw a body, only the chipped crescent in the tool void and a voice counting, and Voss shuts up and watches the Blank go by while the cab board shows a second file opening at the morning desk with no name in the field.",
-      "At Kettering's morning desk Ospina lays down the green chain print, Saul's chalk tally, and the crescent, and the desk turns Anza green and releases resupply with Ospina's own authority left flagged for a hearing — the node eats and Ospina walks out with their hand still dirty; on the board behind them the desk posts the 2244 file open and authorizes physical recovery of the listed man at Anza before the next shift bell.",
-      "In Fenn's yard at Kettering, Voss is hauled out of the rig and tells Fenn that the hands at the Bay 4 lid were never his, that the other one counted Marlowe under and walked off the roster, and that the other one went south in something with a tool void — Fenn, writing it down, says the desk will want a body and not a rumor, and Voss says then ask the loader who rode in the dark what she passed.",
-      "At Anza's ore siding Miko stands by the dead med rig with three coast tickets folded in her coat and tells Kass that behind the scrubber canisters in the tool void there was a shape folded smaller than her, breathing that wasn't hers, tape on the knuckles, gone out the siding ahead of her while she was still counting tickets — and Kass asks her why she waited two days to mention it."
+      "At Anza's unlit ore stub, Doan — wrist still looped in dead locker cord — watches a driverless tender roll in with no transponder light and no line on any board; it stops without a chime, won't answer the yard channel, and reader two stays blank where a rig should post itself.",
+      "Coombs climbs down genial and sweeps the yard with a proving slate — a reader that matches a body's walk and voice to every roster the coast keeps — naming a passing loader aloud correct, then explaining its limits (it has to see and hear you move, and only says back what's already written somewhere) as he turns it toward the dark siding.",
+      "The slate chimes and sings Miko's newest fake name as she crosses into the lamplight — a name on no Anza roster but one the coast filed — and Miko deflects with sass while Coombs floats his soft pitch of a hot bunk and a logged wage; she stalls him, and the slate chimes a second time at empty dark.",
+      "Rhea comes out to the stub over the rig that could haul Miko off, Kass a step behind with the taped glove inside her coat, and Coombs tells them the slate isn't finished — there's a second unlisted body it's been reading in the dark, and he can prove a lot more than a bought name.",
+      "The slate sings the tape-knuckled woman and matches her walk to a filed record — the lid-hand at Bay 4 who counted a lid down over a man — and the count in Wren's head spikes as the whole yard goes still on who she is.",
+      "Before Coombs can say the man's name or the seal, Wren steps out of the dark and gives herself up — cutting him off, holding out her wrists to stop him proving the one thing she can't stand to hear said out loud."
     ],
     "events": [
-      "A taped-glove figure calling itself badge 2244 quotes the collection rule at reader two, demands to know who patched Ivo's diaphragm, and walks out up the ore stub, leaving the shop unable to explain how he knew.",
-      "Saul writes Culvert Nine as a proposed resupply stop on their clipboard at Brill's demand, she accepts the trade but warns of consequences, and an unscheduled locomotive's headlights appear outside the pump hall.",
-      "The six scrubber cases reached Anza on the 7-K, Rhea cut a fresh cartridge into Ivo's respirator and took her hand off the pump for the first time in two days, and compressor priority came back on a filing made from Culvert Nine without the trade she'd refused.",
-      "Marlowe refuses to countersign himself off Anza's plate, accepts a shop hand bunk, and the reader two prints his claim as acknowledged live by badge 2244 just as an unannounced vehicle arrives outside.",
-      "Fenn drives Voss and Ospina north toward Kettering while Ospina's flagged authority ring blinks and the cab board reveals an unnamed second file at the morning desk.",
-      "Ospina secures Anza's resupply at Kettering's morning desk but learns the desk has authorized physical recovery of Marlowe from Anza before the next shift bell.",
-      "In Fenn's yard at Kettering, Voss puts the Bay 4 lid count on the record as someone else's, says the counter was never on any roster and left on an outbound with a tool void, and tells Fenn to ask the loader who rode in the dark what she passed — while an unnamed reclamation rig rolls out the south gate for Anza before the shift bell.",
-      "At Anza's unlit ore siding Miko tells Kass about the taped-knuckle shape that rode the tool void from Kettering counting down in the dark, and produces its discarded glove with a disc cut from the palm — then an unscheduled recovery rig comes down the ore line toward them."
+      "At Anza's unlit ore stub, Doan — wrist still corded to the dead overlap locker key — watches a driverless tender roll in dark with no transponder and no berth chime, gets no answer on the yard channel and no post at the stub reader, warns off by Nour, and then sees the tender's hatch unseal and a step drop onto the frost."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 70214,
-  "passages": 113,
+  "words": 70924,
+  "passages": 114,
   "arcs": [
     {
       "number": 1,
@@ -20,6 +20,12 @@
       "title": "Eleven Seals Short",
       "author": "nemotron-3.5-super-vl",
       "firstChapter": 12
+    },
+    {
+      "number": 4,
+      "title": "Second Hands",
+      "author": "ernie-5.5-flash-preview",
+      "firstChapter": 18
     }
   ],
   "chapters": [
@@ -141,6 +147,13 @@
       "title": "What the Node Eats",
       "words": 4662,
       "passages": 8
+    },
+    {
+      "number": 18,
+      "numeral": "XVIII",
+      "title": "The Slate Sings",
+      "words": 710,
+      "passages": 1
     }
   ]
 }
