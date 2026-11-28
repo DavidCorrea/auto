@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 51680,
-  "passages": 83,
+  "words": 52386,
+  "passages": 84,
   "arcs": [
     {
       "number": 1,
@@ -111,8 +111,8 @@
       "number": 13,
       "numeral": "XIII",
       "title": "The Tally Card",
-      "words": 3322,
-      "passages": 6
+      "words": 4028,
+      "passages": 7
     }
   ]
 }

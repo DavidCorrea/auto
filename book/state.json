@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "at Ivo’s cot, learning to hand-pump the respirator."
+      "status": "at Marlowe's cot at Anza taking the numbers; Rhea now hand-pumping Ivo."
     },
     {
       "name": "V. Ospina",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "leaves Anza after warning that the warrant serves at first light whether Rhea signs or not."
+      "status": "at Anza, Marlowe's bunk door; holds Marlowe in line-trust custody, first dirty mark on record; reclamation unit blocked and rolled off."
     }
   ],
   "threads": [
@@ -257,7 +257,8 @@
       "Ospina pockets the chipped die, declares they'll walk down-line to seal Anza's recovered cargo, hears Fenn warn that being absent from Kettering's bench at the 08:00 review turns their flag into a warrant, and goes for their boots anyway.",
       "Doan frees their wrist from the locker cord, agrees to guide the crew unlogged down the disused route for a price, and names the Shift 2 no-show Kael Renner as the only live clearance left on Anza's board until 08:00 reconciliation.",
       "Miko tries to cash a coast ticket at the ore siding but is turned away because Anza's red plate blocks all riders, so she boards under Kael Renner's no-show clearance from the overlap log; the slip prints and the board pings twice with her duplicate listing while she remains on the platform and returns to the crew at the ore stub.",
-      "The crew pushes the hand cart up the disused 7-K road to post 71, where Kass abandons the dish and flare to chase the thread and warns them that an unstopping ghost rig is running the ore line tonight as the rail hums beneath them."
+      "The crew pushes the hand cart up the disused 7-K road to post 71, where Kass abandons the dish and flare to chase the thread and warns them that an unstopping ghost rig is running the ore line tonight as the rail hums beneath them.",
+      "At Anza the reclamation unit arrives early under the still-active hands claim, but Fenn smudges a nine-year spotless record by taking Marlowe into line-trust custody, and Marlowe stays on the cot to give Teodoro Bay 4 numbers pointing at an unaccounted \"other one\" while the pump loop shows Culvert Nine drawing live and a body already walking toward the crew."
     ]
   }
 }
