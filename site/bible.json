@@ -40,7 +40,7 @@
       "role": "Anza relay operator",
       "wants": "keep Ivo breathing and his board clean",
       "flaw": "tells you everything he knows before he asks why you want it",
-      "status": "Anza's chain dropped from green to amber after Ospina's seal; reader two pending and the desk queue ahead of him."
+      "status": "at Anza relay shop, reader two, disclosed Renner’s status and Anza’s board contents without asking the caller’s identity"
     },
     {
       "name": "V. Ospina",
@@ -459,7 +459,8 @@
     ],
     "events": [
       "Miko reads plate 4217 off the reader again and Dray recognizes it as one of his own dark rigs, realizing someone is running Culvert Nine’s cans to a plate that should be asleep in his shed.",
-      "Miko offers J. Renner, a name live on Anza's overlap log, as the living name Dray requires for his crew plate, and Dray agrees to verify it through reader two."
+      "Miko offers J. Renner, a name live on Anza's overlap log, as the living name Dray requires for his crew plate, and Dray agrees to verify it through reader two.",
+      "Dray wires J. Renner into Anza’s reader two and Teodoro reveals Renner cleared north weeks ago and is chalked off, leaving Miko’s cut with no living name behind it, while Teodoro never asks who is calling."
     ]
   }
 }
