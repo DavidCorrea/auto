@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "at board chair, tally card face-out, silence broken only by defiance"
+      "status": "at Anza board, tally card surrendered into Fenn’s seal"
     },
     {
       "name": "Doan",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at relay bunk holding Marlowe’s unlogged statement, just learned a reclamation unit is en route to seize Marlowe before morning"
+      "status": "at Anza board, Nour’s tally card sealed in rig, serve order posted for first light"
     }
   ],
   "threads": [
@@ -255,7 +255,8 @@
       "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over.",
       "Fenn interviews Marlowe at the relay bunk; Marlowe identifies Voss as the stamper and a separate taped-knuckle second person as the one who counted aloud and held the lid; the handheld registers the active hands claim, but Fenn refuses to log the testimony, then receives a restricted burst that a reclamation unit has been authorized to physically recover Marlowe before morning.",
       "Stranded with a dead rig, Kass burned their capacitor bank's last charge to punch a single ping through the antenna's side-lobe to Anza and asked Teodoro to read the receiving mark on Nour's tally card.",
-      "Teodoro reads Nour's tally mark as Culvert Nine, a dead pump station where an unlisted body like Marlowe can draw rations, then keys the meter just as the brown-out cuts the board's power."
+      "Teodoro reads Nour's tally mark as Culvert Nine, a dead pump station where an unlisted body like Marlowe can draw rations, then keys the meter just as the brown-out cuts the board's power.",
+      "Teodoro read Culvert Nine’s meter live and found a full ration drawn at 06:14, the minute Voss vanished, so Fenn sealed Nour’s tally card into the rig and posted a first-light serve order on Marlowe—then learned the reclamation unit arrives two hours earlier."
     ]
   }
 }
