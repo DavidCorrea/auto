@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "on dead spur at Culvert Nine, holding first coast ticket (J. Renner) halfway out of pocket, lockout spreading to eighth canister"
+      "status": "corded at Culvert Nine's jaw, logged as stowaway-thief under the name M. Varel, load seized pending Kettering review"
     },
     {
       "name": "the man in the pod",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": "at jaw plate with clipboard, Miko logged as stowaway, third coast ticket in possession"
+      "status": "off the jaw plate, standing on Rule thirteen, pencil record made, still holding the cord"
     },
     {
       "name": "Wren",
@@ -362,7 +362,8 @@
       ],
       "chapterSummaries": [
         "Kass found a dropped coast ticket under the bought name J. Renner in the dust at Anza's ore stub, and Doan confirmed a woman in a coast coat had run down a rolling blank rig, swung into the crew box, and hung a lit hand lamp in the window. Kass chalked the pedal-rail PR-ANZA-03 out of the shed as live to Culvert Nine and rode north after her, legs burning, bearing whining, the shift bell at 18:00 as the turnaround deadline. The rig is still two hours ahead with Anza's eleven warm canisters and the lamp burning.",
-        "The pedal-rail's bearing seized and Kass coasted into Culvert Nine, where Saul pinned her in a work light as a thief until Odessa Brill chalked her onto the jaw plate and set the rule: the throat opens on a matched seal or not at all, cargo sits while food moves, no canister gets skimmed. When Kass offered her own labor, the blank rig dumped its brakes and rolled into the dead spur, its forward canister ticking toward a cold-cycle seal no reader can open. Miko is still up there, lamp dark."
+        "The pedal-rail's bearing seized and Kass coasted into Culvert Nine, where Saul pinned her in a work light as a thief until Odessa Brill chalked her onto the jaw plate and set the rule: the throat opens on a matched seal or not at all, cargo sits while food moves, no canister gets skimmed. When Kass offered her own labor, the blank rig dumped its brakes and rolled into the dead spur, its forward canister ticking toward a cold-cycle seal no reader can open. Miko is still up there, lamp dark.",
+        "Miko rode the blank rig into Culvert Nine's dead spur and flooded the jaw's reader with the hand lamp, but its blank plates matched no seal, so the eleven warm canisters began a cold-cycle lockout, clamp rings biting down the line one by one. Odessa Brill refused to open her storeroom — the throat opens on a matched crescent seal or not at all, and her door plate is blank — while a child inside kept asking if the food had come. Miko laid one bought-name coast ticket, J. Renner, flat on the blank plate as the forward canister's collar took its third bite."
       ],
       "summary": "",
       "isClosed": false,
@@ -371,23 +372,18 @@
   ],
   "chapter": {
     "arc": 5,
-    "number": 26,
-    "title": "Hand Lamp",
+    "number": 27,
+    "title": "Storeroom Disagreement",
     "beats": [
-      "Miko pinches the hand lamp back alight and climbs down from the crew box onto the dead spur — stiff, gray with dust, alive, two coast tickets still zipped in her coat — and she and Kass trade sharp relief dressed up as insults; then Miko turns to the ticking deck and says she didn't ride sixty miles for the coast.",
-      "Miko tells Brill and Saul her real errand: she's been trailing eleven short seals out of Kettering's Bay 4, struck under a crescent receiving mark, and they end here, so the cans are Anza's resupply payment struck full, not stolen cargo; Saul brands her a stowaway thief by station rule and she fires back the count she's carried in her head, then names the crescent that should open the throat — and it isn't cut into Brill's door plate.",
-      "To seat the load, Miko and Kass throw the switch back and walk the rig off the spur into the jaw with a come-along and their shoulders, the dead bearing dragging and the mass nearly taking Kass's legs, while Miko floods the reader with the hand lamp; the glass wakes amber, hunts the blank plates for a stamp to bite, finds nothing, and drops dark — the throat logs the load as cargo.",
-      "Brill counts her chalk aloud through the storeroom door — forty names, three of them crosses now, a child asking whether the food is here — and says flatly that a sealed can is dead weight she can't spoon into anyone, and she won't crack one to peek because the throat would fault and pin the whole run to spring; behind her the second canister picks up the tick, the lockout spreading in waves the way she warned.",
-      "Miko does the arithmetic out loud — two tickets in her coat, a third bought name in Saul's pocket, and eleven cans she chased to the end of the line now freezing for want of one matched mark — while Kass watches, knowing the only weight Brill will take is the coast passage Miko's been hoarding, and that it was never Kass's to spend.",
-      "Miko draws a coast ticket into the last red light, the graphite name that buys her off the Interior before winter, and holds it against the dark door plate without tearing it or handing it over, just measuring the trade as the deck ticks behind her; the forward canister's clamp ring takes its first hard bite and begins to seize, and Miko still hasn't decided."
+      "Saul steps off the jaw plate, loops a reclamation cord around Miko's wrist, and logs her as stowaway-thief M. Varel with the load seized to Kettering review; Miko doesn't fight the cord, only watches the storeroom door and tells Saul a sealed can rides north as dead weight. Hook: the storeroom's lock throws and the door swings open.",
+      "Brill comes out of her storeroom for the first time, a hollow-cheeked child and her crew crowding the lit doorway behind her, the chalk of forty names and three crosses on the wall; she walks the canister line reading the Bay 4 Shift 2 stamps by hand and counts eleven against the eleven Nour struck short. Hook: she stops at the bitten forward canister and says flatly these are Anza's payment, not stolen cargo.",
+      "The disagreement breaks open: Saul holds Rule thirteen — unlogged rig, unsealed load, no manifest, seize it — while Brill holds the storeroom's own count and her authority over her own throat, and Kass limps in with Nour's face-out tally card as the physical match, two authorities claiming one jaw. Hook: Brill names her price — the throat opens for a trade and nothing else.",
+      "Brill lays out the trade: one coast ticket buys unload rights, the cans come in warm, her crew eats, the run logs under her own name and the skim-fault becomes hers to carry; she'll take no labor, no promise, no paper. Saul objects that a ticket is no seal and the reader already logged the load pending review. Hook: Brill orders Saul off her plate — this is her storeroom and her rule here.",
+      "The storeroom having disagreed, Saul's thief-frame breaks; they cut the cord from Miko's wrist and stand down on the cargo, but warn that M. Varel still rides the stowaway sheet north at the bell unless a clean name answers for her. Hook: up the line the 18:00 bell begins to toll — Kass's turnaround — and they're already turning toward the pedal-rail.",
+      "Miko stands in the open storeroom light with the child watching, the ticking cans and the bitten hoop at her back, Saul's sheet and Kass's bell behind her; she draws the J. Renner ticket and sees it's no stamp to lay on steel but a passage to tear — one bought name for eleven cans and forty mouths. Hook: her thumb finds the card's edge to rip, and stops."
     ],
     "events": [
-      "Miko relights the hand lamp, climbs down from the blank rig's crew box onto the dead spur, trades barbed relief with Kass, and states she didn't ride sixty miles for the coast as the forward canister ticks toward cold-cycle lockout.",
-      "Miko confronts Saul and Brill at the jaw plate, reciting the eleven short seals from Kettering Bay 4 that match Anza's resupply payment to Culvert Nine, but Saul logs her as a stowaway and Brill confirms the crescent mark needed to open the throat isn't cut into her door plate.",
-      "Miko and Kass manually switch the blank rig from the dead spur into the jaw throat using a come-along, but the dead bearing nearly breaks Kass's leg; Miko floods the reader with the hand lamp, but the reader finds no seal on the blank plates and logs the eleven canisters as unsealed cargo instead of Anza's resupply payment.",
-      "Brill refuses to open the jaw without a matched crescent seal, stating a broken seal would fault the throat and pin the run to spring; the cold-cycle lockout spreads to the fifth canister while Miko holds two coast tickets and Kass watches injured.",
-      "Miko counts out the arithmetic aloud — three coast tickets, eleven sealing canisters, forty hungry names — while Kass watches, refusing to intervene, as the lockout wave accelerates and Miko pulls the first ticket from her pocket.",
-      "Miko holds her J. Renner coast ticket against Culvert Nine's blank door plate, measuring the trade while the forward canister's clamp ring bites down and Saul reveals the logged name M. Varel is now attached to an open stowaway charge, cutting that passage's value — and she still hasn't decided."
+      "Saul cords Miko's wrist and logs her as stowaway-thief M. Varel with the eleven cans seized for Kettering review, while Miko watches the storeroom door and warns that the forward canister's fourth bite has cured it shut as dead weight, until the storeroom's bolts draw back and the door swings open."
     ]
   }
 }
