@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 101464,
-  "passages": 159,
+  "words": 102114,
+  "passages": 160,
   "arcs": [
     {
       "number": 1,
@@ -207,8 +207,8 @@
       "number": 25,
       "numeral": "XXV",
       "title": "Pump Station",
-      "words": 628,
-      "passages": 2
+      "words": 1278,
+      "passages": 3
     }
   ]
 }
