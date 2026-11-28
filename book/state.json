@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": ""
+      "status": "Culvert Nine pump hall, states her rule and refuses to release any stock without a trade"
     },
     {
       "name": "Fenn",
@@ -96,7 +96,7 @@
       "role": "Culvert Nine lookout",
       "wants": "keep Brill's stockpile secured for winter",
       "flaw": "treats every outsider as a thief until the storeroom disagrees",
-      "status": ""
+      "status": "Culvert Nine pump house door with the tally clipboard, counting stock off the totalizer"
     }
   ],
   "threads": [
@@ -260,7 +260,8 @@
       "Voss names that price — the one living witness who can identify him, Marlowe — hand the man over to the still-active hands claim and he re-lists himself and the food goes home legal, or withhold him and the cargo stays hot, Anza starves, and Ivo burns his last restart; the crew came to recover the skim without giving Marlowe up, the only currency Voss will take is Marlowe, and as the channel to Anza crackles open and first light closes in, the choice can't be walked away from."
     ],
     "events": [
-      "Kass and Ospina try to flag a plate-less ghost train on the 7-K grade, fail, and are met by a Culvert Nine lookout who reveals Brill's crew has been drawing Anza's skimmed rations off the station totalizer all night."
+      "Kass and Ospina try to flag a plate-less ghost train on the 7-K grade, fail, and are met by a Culvert Nine lookout who reveals Brill's crew has been drawing Anza's skimmed rations off the station totalizer all night.",
+      "Inside the dead pump station Kass and Ospina find Anza's eleven seals stacked under the Br-4 receiving mark, including the six cases of Ivo's scrubbers, and Brill states her rule that nothing leaves without a trade while a reseal rig works in the back room."
     ]
   }
 }
