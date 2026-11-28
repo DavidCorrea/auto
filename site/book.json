@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 58998,
-  "passages": 94,
+  "words": 59766,
+  "passages": 95,
   "arcs": [
     {
       "number": 1,
@@ -125,8 +125,8 @@
       "number": 15,
       "numeral": "XV",
       "title": "The Taped Knuckle",
-      "words": 2655,
-      "passages": 4
+      "words": 3423,
+      "passages": 5
     }
   ]
 }
