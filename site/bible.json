@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "Kettering north yard, badge 2241 in hand, en route to service rig 7-K as named rider"
+      "status": "riding as named rider in service rig 7-K en route to Anza, badge 2241 flagged by the line desk with four open claims."
     },
     {
       "name": "Miko",
@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "Kettering north yard, bay six, chipped die in pocket, en route to service rig 7-K"
+      "status": "driving 7-K with the chipped die, Pell’s unmarked service rig blocking the lane ahead."
     },
     {
       "name": "Pell",
@@ -190,7 +190,8 @@
       "Kass and Ospina pull the four vanished rigs side by side and find each was written off as derelict under a standing reclamation claim keyed with Kass's own badge 2241, while a fifth open claim targets the unlogged med rig at Anza and has already been signed for there by Shift One.",
       "Ospina traced the chipped die to a tool void in LK-4402, parked in Bay 3 of the Kettering yard, so the forger who resealed all four rigs never left the building — and when Ospina half-raised a hand the 05:47 horn swallowed it, the forger clocked the pocket through the glass and signed out with no badge presented, walking for Bay 3 to strip the void.",
       "Kass pulled the standing reclamation order and found that a crew entry countersigned by a live seal-authority die can't be hauled as ballast, then pulled the die register and learned the only true stamp within five hundred klicks is the chipped die in Ospina's pocket — the same die whose last impression is the ballast plate on the med rig, and whose countersign binds its holder to the consignment.",
-      "Ospina refuses to countersign until Kass makes clear the chipped die is the only tool that can undo what it did; Ospina names service rig 7-K in bay six, Kass keys it out on badge 2241, and both run for the north yard as the board files a new claim on the rig where the die was found."
+      "Ospina refuses to countersign until Kass makes clear the chipped die is the only tool that can undo what it did; Ospina names service rig 7-K in bay six, Kass keys it out on badge 2241, and both run for the north yard as the board files a new claim on the rig where the die was found.",
+      "Kass and Ospina flee Kettering in service rig 7-K with Kass as named rider, but the line desk flags badge 2241 and Pell’s unmarked rig blocks the haul road ahead."
     ]
   }
 }
