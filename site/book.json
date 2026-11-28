@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 54364,
-  "passages": 87,
+  "words": 54993,
+  "passages": 88,
   "arcs": [
     {
       "number": 1,
@@ -118,8 +118,8 @@
       "number": 14,
       "numeral": "XIV",
       "title": "Culvert Nine",
-      "words": 1978,
-      "passages": 3
+      "words": 2607,
+      "passages": 4
     }
   ]
 }
