@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Culvert Nine jaw, empty-handed, watching the rig settle in the siding with lockout ticking"
+      "status": "at spur end, pedal-rail bearing seized, rode in coasting, holding position under Saul's work light"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "inside blank rig's crew box at end of spur, not yet descended, holding two coast tickets"
+      "status": "on the dead spur at Culvert Nine, hand lamp lit, two coast tickets in coat, facing ticking canister lockout"
     },
     {
       "name": "the man in the pod",
@@ -361,7 +361,8 @@
         }
       ],
       "chapterSummaries": [
-        "Kass found a dropped coast ticket under the bought name J. Renner in the dust at Anza's ore stub, and Doan confirmed a woman in a coast coat had run down a rolling blank rig, swung into the crew box, and hung a lit hand lamp in the window. Kass chalked the pedal-rail PR-ANZA-03 out of the shed as live to Culvert Nine and rode north after her, legs burning, bearing whining, the shift bell at 18:00 as the turnaround deadline. The rig is still two hours ahead with Anza's eleven warm canisters and the lamp burning."
+        "Kass found a dropped coast ticket under the bought name J. Renner in the dust at Anza's ore stub, and Doan confirmed a woman in a coast coat had run down a rolling blank rig, swung into the crew box, and hung a lit hand lamp in the window. Kass chalked the pedal-rail PR-ANZA-03 out of the shed as live to Culvert Nine and rode north after her, legs burning, bearing whining, the shift bell at 18:00 as the turnaround deadline. The rig is still two hours ahead with Anza's eleven warm canisters and the lamp burning.",
+        "The pedal-rail's bearing seized and Kass coasted into Culvert Nine, where Saul pinned her in a work light as a thief until Odessa Brill chalked her onto the jaw plate and set the rule: the throat opens on a matched seal or not at all, cargo sits while food moves, no canister gets skimmed. When Kass offered her own labor, the blank rig dumped its brakes and rolled into the dead spur, its forward canister ticking toward a cold-cycle seal no reader can open. Miko is still up there, lamp dark."
       ],
       "summary": "",
       "isClosed": false,
@@ -370,25 +371,18 @@
   ],
   "chapter": {
     "arc": 5,
-    "number": 25,
-    "title": "Pump Station",
+    "number": 26,
+    "title": "Hand Lamp",
     "beats": [
-      "Kass coasts the last half mile into Culvert Nine on dead legs as the bearing finally seizes and smokes; the dead pump station resolves out of the alkali haze — dry intake pipes, a rusted settling tank, and the receiving jaw sitting shut, a hydraulic clamp-and-weigh throat built to match a canister's seal stamp against a manifest before it opens the storeroom door. On the ridge above, the blank rig sits stopped with its lamp still lit and no one climbing down.",
-      "Saul comes out of the pump house with a hand-cranked work lamp, spins it up until the reflector throws a hard white circle on Kass's chest, and calls her a thief before she gets a boot off the crossbar, reciting the station rule: outsiders get chalked once under the station name or they get nothing, and there is no third mark.",
-      "Kass offers her badge, K-774, Anza dispatcher's chain live as of 08:00, and Saul laughs at her; paper doesn't pump, a badge from a live node is worth exactly nothing at a pencil mark, and then Kass makes it worse by handing over the J. Renner ticket, which Saul reads as proof of theft, since the name on it isn't hers and the graphite thumbprint is.",
-      "Odessa Brill comes up out of the storeroom ramp with a canister tally slate and a wedge of bread in her fist, looks at the ticket, then at Kass's boots, and explains the rule she lives by: any canister opened at her jaw faults the throat, the clamp locks the whole run until Kettering sends a reader, and Kettering is six weeks north of caring — so nobody skims, including her.",
-      "Brill takes a stick of chalk and marks Kass under the station name on the jaw plate, which makes her a person and not authority; she then refuses every offer Kass makes, because she wants no manifests, no badges, and no promises, only something she can weigh, and she asks flatly what Kass is willing to put on that plate.",
-      "Kass claims the eleven canisters are already Anza's payment, struck full at Anza's own jaw, and Brill walks her to the reader: unkeyed, no receiving mark, eleven warm cans on plates nobody claims, which the storeroom counts as cargo and not as food — and behind the storeroom door, forty winter mouths on a chalk count of her own.",
-      "The rig's brakes let go on the ridge and it rolls free down the grade toward the switch, the first canister starting to tick as its cold-cycle lockout counts down, and up in the crew box window the hand lamp goes out."
+      "Miko pinches the hand lamp back alight and climbs down from the crew box onto the dead spur — stiff, gray with dust, alive, two coast tickets still zipped in her coat — and she and Kass trade sharp relief dressed up as insults; then Miko turns to the ticking deck and says she didn't ride sixty miles for the coast.",
+      "Miko tells Brill and Saul her real errand: she's been trailing eleven short seals out of Kettering's Bay 4, struck under a crescent receiving mark, and they end here, so the cans are Anza's resupply payment struck full, not stolen cargo; Saul brands her a stowaway thief by station rule and she fires back the count she's carried in her head, then names the crescent that should open the throat — and it isn't cut into Brill's door plate.",
+      "To seat the load, Miko and Kass throw the switch back and walk the rig off the spur into the jaw with a come-along and their shoulders, the dead bearing dragging and the mass nearly taking Kass's legs, while Miko floods the reader with the hand lamp; the glass wakes amber, hunts the blank plates for a stamp to bite, finds nothing, and drops dark — the throat logs the load as cargo.",
+      "Brill counts her chalk aloud through the storeroom door — forty names, three of them crosses now, a child asking whether the food is here — and says flatly that a sealed can is dead weight she can't spoon into anyone, and she won't crack one to peek because the throat would fault and pin the whole run to spring; behind her the second canister picks up the tick, the lockout spreading in waves the way she warned.",
+      "Miko does the arithmetic out loud — two tickets in her coat, a third bought name in Saul's pocket, and eleven cans she chased to the end of the line now freezing for want of one matched mark — while Kass watches, knowing the only weight Brill will take is the coast passage Miko's been hoarding, and that it was never Kass's to spend.",
+      "Miko draws a coast ticket into the last red light, the graphite name that buys her off the Interior before winter, and holds it against the dark door plate without tearing it or handing it over, just measuring the trade as the deck ticks behind her; the forward canister's clamp ring takes its first hard bite and begins to seize, and Miko still hasn't decided."
     ],
     "events": [
-      "Kass coasts into Culvert Nine on a seized pedal-rail and finds the blank rig stopped on the ridge with its lamp lit and an unseen presence shifting inside the crew box.",
-      "Saul emerges from the pump house, spins up a work lamp onto Kass, and recites Culvert Nine's rule: outsiders get one chalk mark under the station name or nothing, no third mark, no appeal.",
-      "Kass offers her Anza dispatcher badge but Saul dismisses it as worthless at a pencil-marked station; Kass then hands over the J. Renner coast ticket she found, which Saul reads as proof of theft since the bought name doesn't match Kass but the graphite thumbprint does.",
-      "Odessa Brill came up from the storeroom, dismissed Kass's badge and the bought-name ticket, and laid down her rule that any canister opened at her jaw faults the throat and locks the ore run until a Kettering reader arrives six weeks from never.",
-      "Brill marks Kass as a person on the jaw plate under Culvert Nine's name, refuses all of Kass's offers (canisters, badges, promises), and demands something she can weigh; Kass offers herself — her shift, her hands, her loader skills — as weight; the blank rig's hand lamp goes out on the ridge.",
-      "Brill walks Kass to the reader, which rejects Nour's tally and counts the blank-plated canisters as unopenable cargo rather than food, then reveals the forty mouths she counts at every bell and refuses every weight Kass offers, leaving Kass to realize the only thing she can trade isn't hers.",
-      "The blank rig's brakes release and it rolls down the grade into the siding, stopping at the end bumper; the forward canister begins its cold-cycle lockout tick, and Miko remains inside the crew box without coming down."
+      "Miko relights the hand lamp, climbs down from the blank rig's crew box onto the dead spur, trades barbed relief with Kass, and states she didn't ride sixty miles for the coast as the forward canister ticks toward cold-cycle lockout."
     ]
   }
 }
