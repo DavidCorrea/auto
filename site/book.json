@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 41582,
-  "passages": 66,
+  "words": 42309,
+  "passages": 67,
   "arcs": [
     {
       "number": 1,
@@ -91,8 +91,8 @@
       "number": 11,
       "numeral": "XI",
       "title": "Contested",
-      "words": 1110,
-      "passages": 2
+      "words": 1837,
+      "passages": 3
     }
   ]
 }

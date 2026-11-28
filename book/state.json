@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "at Anza's shop board, keeps the chipped die (Pell ceded it), seal authority suspended pending review at the Kettering line's desk."
+      "status": "found die held as evidence; own seal authority flagged for review, sitting at Kettering's morning desk (opens ~08:00)"
     },
     {
       "name": "Pell",
@@ -189,7 +189,8 @@
     ],
     "events": [
       "Pell departs with the empty pod and flags Anza contested at the north gate; Teodoro reads the board aloud as resupply slows, the shift queue begins thinning, and the winter diesel line goes amber — marking the node untrusted by the line.",
-      "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's."
+      "Anza's shift lines drop off the board one by one as the line pulls clearances, leaving Ojo and others unpayable and the remaining shop short on filters, water and Ivo's cartridges, and Nour says aloud that the node is paying for the choice she lost, then leaves her tally card face-out on the board ledge as the 06:00 bell rings with no relief posted for either her line or Doan's.",
+      "Teodoro gives Marlowe the relay bunk and splints his shoulder while Ospina, holding the found chipped die as evidence, reveals the countersign ran on their own seal authority — now flagged to Kettering's morning desk — leaving about a hundred and ten minutes before the review can void it, and Miko moves off the tool rack toward Doan."
     ]
   }
 }
