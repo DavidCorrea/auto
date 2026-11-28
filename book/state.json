@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "stalled in 7-K lane with dish folded, named-rider channel down to carrier-wave ping; watched Calder Voss drop from Kettering's master board."
+      "status": "stalled at post 71 in the 7-K lane, rig dead, capacitor bank spent, channel holding open for one exchange with Anza"
     },
     {
       "name": "Miko",
@@ -253,7 +253,8 @@
       "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter.",
       "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm.",
       "At Ivo's bedside Rhea shows Fenn the dead med rig's cut databus trace and its false 36.4 reading; Fenn rejects machine memory as a person's word and offers to restore the respirator compressor the hour she signs Marlowe over.",
-      "Fenn interviews Marlowe at the relay bunk; Marlowe identifies Voss as the stamper and a separate taped-knuckle second person as the one who counted aloud and held the lid; the handheld registers the active hands claim, but Fenn refuses to log the testimony, then receives a restricted burst that a reclamation unit has been authorized to physically recover Marlowe before morning."
+      "Fenn interviews Marlowe at the relay bunk; Marlowe identifies Voss as the stamper and a separate taped-knuckle second person as the one who counted aloud and held the lid; the handheld registers the active hands claim, but Fenn refuses to log the testimony, then receives a restricted burst that a reclamation unit has been authorized to physically recover Marlowe before morning.",
+      "Stranded with a dead rig, Kass burned their capacitor bank's last charge to punch a single ping through the antenna's side-lobe to Anza and asked Teodoro to read the receiving mark on Nour's tally card."
     ]
   }
 }
