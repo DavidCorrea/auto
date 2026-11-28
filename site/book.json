@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 87292,
-  "passages": 137,
+  "words": 88073,
+  "passages": 138,
   "arcs": [
     {
       "number": 1,
@@ -173,8 +173,8 @@
       "number": 21,
       "numeral": "XXI",
       "title": "Down the Ore Line",
-      "words": 4151,
-      "passages": 6
+      "words": 4932,
+      "passages": 7
     }
   ]
 }

@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "aboard Coombs's tender on the ore stub, heading for the Weir switch, cut seal tape in pocket"
+      "status": "Weir switch stand, holding Ivo's last cartridge, minutes running"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "aboard the tender on the motor-box shelf, three names and tickets intact, intends to leave at the Weir"
+      "status": "Weir switch stand, two usable coast tickets left, Reyes burned"
     },
     {
       "name": "the man in the pod",
@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "stopped on the Weir trestle, wrists bare, right palm torn open, reseal wedge holding"
+      "status": "Weir switch stand, wrists bare, palm torn open, count still at two, deciding"
     },
     {
       "name": "Coombs",
@@ -112,7 +112,7 @@
       "role": "a coast puller — hauls runners (people who walked off their shift contracts) back onto the winter rosters",
       "wants": "to get his runners logged and fed before the cold takes them, the way it took the ones he couldn't catch",
       "flaw": "sure a warm logged cage beats a free cold ditch, and can't believe anyone would choose the ditch",
-      "status": "in the doorway, tender rolling at the bell, waiting on Wren's decision"
+      "status": "Weir switch stand, slate face-up with two blanks, tender rolling at Wren's word"
     }
   ],
   "threads": [
@@ -334,7 +334,8 @@
       "Under way on the ore line Coombs lays out the tender's one rule — it reads only rail, and stops for nothing else — while Miko cuts the factory-blank transponder plate out of the dash and pockets it as trade goods for Culvert Nine, and Rhea finds the hand-cranked reseal wedge that bites the rail when the air is gone, which Wren says takes forty-two turns.",
       "On the downhill the tender's glazed brakes fail with the gauge still reading pressure nominal until Wren hand-cranks the iced reseal to forty-two with Miko on the pin and Rhea taping the housing, and Rhea starts asking whether the tender's rail-reader plate is steel or composite.",
       "A blank-mounted rig appeared behind the tender without answering radio, Kass reported the remand released early and File 2244 rolling for Marlowe, and the tender reached an iced trestle.",
-      "The tender stalled and slid backward on the iced trestle with the board still reading nominal until Wren — cut free by Rhea, refusing Coombs's offer to take the turns himself — cranked the reseal wedge forty-two times with Miko on the pin and tore open her palm, and the wedge bit and held."
+      "The tender stalled and slid backward on the iced trestle with the board still reading nominal until Wren — cut free by Rhea, refusing Coombs's offer to take the turns himself — cranked the reseal wedge forty-two times with Miko on the pin and tore open her palm, and the wedge bit and held.",
+      "The tender coasts off the trestle to the Weir switch, where Coombs lays the slate with two empty name fields and gives Wren until the top of the hour, Miko burns one of her three names, and the dark rig delivers a man in a hat with a sealed Kettering file tube whom the slate will not sing for."
     ]
   }
 }
