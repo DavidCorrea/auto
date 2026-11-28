@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "at board edge, threatens kindling if Ivo's compressor is cut"
+      "status": "at board edge, publicly calculating Ivo's remaining air time from four cartridges"
     },
     {
       "name": "Kass",
@@ -88,7 +88,7 @@
       "role": "line-trust officer sent to settle Anza's red file",
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
-      "status": "at Anza board, serve order posted for first light"
+      "status": "at Anza board, has cut ore stub trace heating and put the relay shop on a two-hour brown-out cycle"
     }
   ],
   "threads": [
@@ -248,7 +248,8 @@
       "Teodoro pulls the stop's meter and reads it out live — a full ration drawn at 06:14 this morning, the same minute Voss dropped off Kettering's board — and Fenn, who cannot leave a discrepancy unclosed, seals Nour's tally card into his rig and posts a serve order on the witness for first light."
     ],
     "events": [
-      "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter."
+      "Fenn arrives at Anza in a scrub-white trust rig and reads the desk's ultimatum: produce Calder Voss, surrender Marlowe, or watch the node's resupply stay frozen through winter.",
+      "Fenn cuts ore stub trace heating and puts the relay shop on a brown-out rota, and Rhea does the math out loud—twenty-four hours of scrubber time stretched to forty-eight calendar hours, but reduced to six effective hours by cold-start vacuum loss on the patched diaphragm."
     ]
   }
 }
