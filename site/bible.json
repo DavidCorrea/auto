@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "back-room door frame as Wren's eye-witness, cut seal tape in her pocket, thirty-one minutes to the bell"
+      "status": "aboard Coombs's tender on the ore stub, heading for the Weir switch, cut seal tape in pocket"
     },
     {
       "name": "Kass",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "relay shop, still undecided on Coombs's bunk, three names unsurrendered"
+      "status": "aboard the tender on the motor-box shelf, three names and tickets intact, intends to leave at the Weir"
     },
     {
       "name": "the man in the pod",
@@ -64,7 +64,7 @@
       "role": "senior Anza loader, Shift 1",
       "wants": "keep Anza on the line's good schedule so the node eats through winter",
       "flaw": "calls keeping her head down wisdom",
-      "status": "Anza board ledge, holding the spare respirator cartridge and the draw line"
+      "status": "inside Anza relay shop with the draw-line key, Ivo's last cartridge, door sealed"
     },
     {
       "name": "Doan",
@@ -104,7 +104,7 @@
       "role": "Anza's unlisted second stowaway; former Bay 4 \"lid-hand\" who held crates shut and counted seals aloud",
       "wants": "to put down the count running in her head and stop being no one",
       "flaw": "certain she sealed a man to death, so she'd rather be nobody than be the person who did it",
-      "status": "Anza back room, cut free, got out \"three, two\" to Marlowe and stopped; he neither remembers nor blames her."
+      "status": "aboard the tender, wrists re-taped, slate entry \"Bay Four lid-hand\" live to the switch only"
     },
     {
       "name": "Coombs",
@@ -329,7 +329,8 @@
       "They coast down to the Weir switch with the coast line burning across the cut, and Coombs sets the slate face-up on the switch stand with its two blanks still empty and tells Wren the tender rolls the second she's decided, not one minute past — while behind them the dark rig glides up to the switch with no running lights at all, and a man in a hat comes down the ladder with a file tube under his arm."
     ],
     "events": [
-      "Wren says \"three, two\" to Marlowe and stalls, but he doesn't remember or care and only asks for water, until Coombs reveals the remand can't execute at a node and only settles at the coast switch stand at the Weir, where the tender is headed."
+      "Wren says \"three, two\" to Marlowe and stalls, but he doesn't remember or care and only asks for water, until Coombs reveals the remand can't execute at a node and only settles at the coast switch stand at the Weir, where the tender is headed.",
+      "On the ore stub Rhea re-tapes Wren's wrists and pockets the cut length with the Bay 4 receiving mark, Teodoro confirms the slate's \"lid-hand\" entry is good only as far as the switch, Nour takes the draw key and Ivo's last cartridge back into the sealed shop, and Miko climbs onto the warm shelf intending to leave at the Weir before the tender rolls and Coombs's slate notes something in the dark."
     ]
   }
 }
