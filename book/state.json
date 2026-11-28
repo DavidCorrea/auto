@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "at Culvert Nine receiving jaw, held at lamp-point by Saul, badge dismissed, J. Renner ticket confiscated, legs cramping, pedal-rail seized"
+      "status": "at Culvert Nine, marked as person under station name, offering loader labor to unload eleven canisters before cold-cycle lockout"
     },
     {
       "name": "Miko",
@@ -80,7 +80,7 @@
       "role": "receiver and fence at Culvert Nine, a dead pump station down the ore line",
       "wants": "to feed her own crew through winter off the stockpile she skimmed, without her station becoming a name anyone can read",
       "flaw": "burned once, she now trusts a full storeroom over any person's promise and can't hand anything over without a trade",
-      "status": "Culvert Nine is penciled on Anza's board as a proposed resupply stop; she made her mark under the station name and will not allow any canister to be skimmed."
+      "status": "holding jaw authority, forty crew behind storeroom door, three dead this morning, demanding weight not promises"
     },
     {
       "name": "Fenn",
@@ -385,7 +385,8 @@
       "Kass coasts into Culvert Nine on a seized pedal-rail and finds the blank rig stopped on the ridge with its lamp lit and an unseen presence shifting inside the crew box.",
       "Saul emerges from the pump house, spins up a work lamp onto Kass, and recites Culvert Nine's rule: outsiders get one chalk mark under the station name or nothing, no third mark, no appeal.",
       "Kass offers her Anza dispatcher badge but Saul dismisses it as worthless at a pencil-marked station; Kass then hands over the J. Renner coast ticket she found, which Saul reads as proof of theft since the bought name doesn't match Kass but the graphite thumbprint does.",
-      "Odessa Brill came up from the storeroom, dismissed Kass's badge and the bought-name ticket, and laid down her rule that any canister opened at her jaw faults the throat and locks the ore run until a Kettering reader arrives six weeks from never."
+      "Odessa Brill came up from the storeroom, dismissed Kass's badge and the bought-name ticket, and laid down her rule that any canister opened at her jaw faults the throat and locks the ore run until a Kettering reader arrives six weeks from never.",
+      "Brill marks Kass as a person on the jaw plate under Culvert Nine's name, refuses all of Kass's offers (canisters, badges, promises), and demands something she can weigh; Kass offers herself — her shift, her hands, her loader skills — as weight; the blank rig's hand lamp goes out on the ridge."
     ]
   }
 }
