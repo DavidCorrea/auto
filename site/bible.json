@@ -89,6 +89,14 @@
       "wants": "to close the file clean by the desk's rules so their own clearance stays good",
       "flaw": "believes a spotless record is the same as a fed node, and will let people freeze to keep the board clean",
       "status": "at Anza, Marlowe's bunk door; holds Marlowe in line-trust custody, first dirty mark on record; reclamation unit blocked and rolled off."
+    },
+    {
+      "name": "Saul",
+      "pronouns": "they/them",
+      "role": "Culvert Nine lookout",
+      "wants": "keep Brill's stockpile secured for winter",
+      "flaw": "treats every outsider as a thief until the storeroom disagrees",
+      "status": ""
     }
   ],
   "threads": [
@@ -231,7 +239,8 @@
         }
       ],
       "chapterSummaries": [
-        "Fenn reached Anza with the desk's terms — produce Voss or hand over the living witness by first light — then put the relay shop on a brown-out rota that leaves Ivo one cartridge, with a standing offer of full-time compressor power the hour Rhea signs Marlowe over. Kass burned the last charge in a dead rig at post 71 to make Teodoro read Culvert Nine off Nour's tally card, and the old pump loop showed a body fed there at 05:57 and again at 06:14. Fenn sealed the card into the rig's document drawer, posted the serve order on Marlowe's bunk, and got word that a reclamation unit is due at 04:40."
+        "Fenn reached Anza with the desk's terms — produce Voss or hand over the living witness by first light — then put the relay shop on a brown-out rota that leaves Ivo one cartridge, with a standing offer of full-time compressor power the hour Rhea signs Marlowe over. Kass burned the last charge in a dead rig at post 71 to make Teodoro read Culvert Nine off Nour's tally card, and the old pump loop showed a body fed there at 05:57 and again at 06:14. Fenn sealed the card into the rig's document drawer, posted the serve order on Marlowe's bunk, and got word that a reclamation unit is due at 04:40.",
+        "On the Tally Card, Nour named Culvert Nine as the skim's drop — including the six cases of scrubbers Ivo needs — while Rhea refused Fenn's trade and counted Ivo to four restarts. Ospina left their Kettering bench to seal cargo down-line, Doan gave the crew the no-show name Kael Renner, the crew pushed onto the 7-K. At post 71 Kass warned a plateless ghost train is coming that won't stop for people. Fenn blocked the reclamation unit by taking Marlowe into custody; Marlowe named a third badge, 2244, whose taped gloves counted him into the lid; a figure walks the route ahead of the cart."
       ],
       "summary": "",
       "isClosed": false,
@@ -240,25 +249,18 @@
   ],
   "chapter": {
     "arc": 3,
-    "number": 13,
-    "title": "The Tally Card",
+    "number": 14,
+    "title": "Culvert Nine",
     "beats": [
-      "With the card sealed away as evidence, Nour rebuilds the four down-line runs from memory in grease pencil on the board ledge while Teodoro reads each line back before asking her why, and the last line isn't food at all: six cases of respirator scrubbers, the same canisters caged under Ivo's cot, riding in Odessa Brill's hoard at the end of the ore line.",
-      "Rhea tells Fenn to their face that the offer can rot, teaches Teodoro the bulb — three hard pushes, watch the chest lift, stop before the eyes go — and chalks a 5 on the shop wall for restarts left; the compressor spools up on the cycle, eats a quarter cartridge sealing against the glove-rubber patch, and she wipes the 5 out and writes 4.",
-      "Ospina pockets the chipped die and says they'll walk down-line to seal whatever comes back, knowing the Kettering review of their flagged authority opens at 08:00 and a loader not standing at their bench when it opens reads as flight; Fenn tells them the flag becomes a warrant instead of a review, and Ospina goes to find their boots anyway.",
-      "Doan cuts the locker cord off their wrist with a seal knife, agrees to guide the crew down the disused resupply route on foot and unlogged now that Fenn's cut has frozen the ore chute and nothing can haul regardless, and names their price: no plates, no names, and everybody pushes the hand cart — then mentions that the only clearance still live on Anza's board belongs to the Shift 2 loader who never showed up, and a no-show's name stays good until morning reconciliation.",
-      "Miko tries to cash one of her three coast tickets at the ore siding and finds out paper passage is worth nothing off a red plate — no carrier will sign a rider the desk is reading — so she buys aboard wearing the no-show's name out of the overlap log, and the board takes it, then pings twice: that body is already listed as aboard, so Anza's plate now carries one woman in two places until the morning count.",
-      "At the ore stub the crew loads the cart off the plate — Nour, Doan, Ospina with the die, Miko under a dead shift's name — and detour up the 7-K to post 71, where Kass leaves the dead rig and its folded dish and its one remaining shout behind because a thread is worth more than an antenna, and reports from memory that one of the four ghost rigs is running the ore line tonight and does not stop for people.",
-      "The reclamation unit rolls in at 04:12, twenty-eight minutes early, and Fenn meets it at the gate with the sealed tally card and puts their own name on Marlowe's bunk door as line-trust custody — the first dirty mark on a spotless record — while Marlowe, who could walk out to the rig and end it, stays on the cot and gives Teodoro his Bay 4 shift numbers instead; on the pump loop the culvert totalizer ticks over half a ration, and someone is already walking the route ahead of them."
+      "On the 7-K grade the ghost train comes down the ore line dark and stripped of any plate; Kass tries the old flag with the cart and their bodies on the rail, but it barely checks and doesn't stop for people, so they drag the cart into the cut and let it scream past — then the walking dot from the movement trace steps onto the road, a sharp-tongued Culvert Nine lookout who counts them, notes the empty cart, and says Brill's crew has been drawing rations off the totalizer all night while Anza starves.",
+      "Inside the dead pump station the crew finds the hoard stacked under the Br-4 receiving mark — the cornmeal, fuse wire, canned milk, and the six cases of scrubbers — and Brill appears to state her rule flat: she trusts a full storeroom over any person's promise, and her people eat through winter off this pile or they don't eat, so nothing leaves without a trade.",
+      "The crew pushes for the scrubbers with Ivo down to four restarts, and to prove the food can be made legal Ospina presses their live seal authority onto a crate — but Anza's red plate rejects it, a clean ring on stolen goods with no Bay 4 counter behind it, and Brill, done arguing, walks them toward the back room to take it up with the man who made it hot.",
+      "In the back room they find Calder Voss — badge 2209, the forger who resealed the rigs and erased himself off Kettering's board — running the skim off a reseal rig and the receiving die, calm and transactional at the sight of the crew, unbothered that Fenn wants him and Marlowe named him; he says he can make all eleven seals clean, but doing it costs him the one thing he un-listed himself to keep.",
+      "Voss lays out the chain: the seals can only be cleaned by re-listing his erased name on the board as the resealing authority to close the counter, and the instant they go clean every fraud flag he shed snaps back onto him in the room — Ospina's receiving seal can't stand in for the Bay 4 counter, so feeding Anza means putting Voss back on the board to go down with it, unless he'll take another price.",
+      "Voss names that price — the one living witness who can identify him, Marlowe — hand the man over to the still-active hands claim and he re-lists himself and the food goes home legal, or withhold him and the cargo stays hot, Anza starves, and Ivo burns his last restart; the crew came to recover the skim without giving Marlowe up, the only currency Voss will take is Marlowe, and as the channel to Anza crackles open and first light closes in, the choice can't be walked away from."
     ],
     "events": [
-      "Nour reconstructs the four diverted down-line runs on the board ledge and reveals to Teodoro that six cases of respirator scrubbers—the kind under Rhea's brother Ivo's cot—are in Odessa Brill's hoard at Culvert Nine.",
-      "Rhea rejects Fenn’s compressor offer, teaches Teodoro the three-push bulb technique, counts down to four restarts as the cartridge gauge falls.",
-      "Ospina pockets the chipped die, declares they'll walk down-line to seal Anza's recovered cargo, hears Fenn warn that being absent from Kettering's bench at the 08:00 review turns their flag into a warrant, and goes for their boots anyway.",
-      "Doan frees their wrist from the locker cord, agrees to guide the crew unlogged down the disused route for a price, and names the Shift 2 no-show Kael Renner as the only live clearance left on Anza's board until 08:00 reconciliation.",
-      "Miko tries to cash a coast ticket at the ore siding but is turned away because Anza's red plate blocks all riders, so she boards under Kael Renner's no-show clearance from the overlap log; the slip prints and the board pings twice with her duplicate listing while she remains on the platform and returns to the crew at the ore stub.",
-      "The crew pushes the hand cart up the disused 7-K road to post 71, where Kass abandons the dish and flare to chase the thread and warns them that an unstopping ghost rig is running the ore line tonight as the rail hums beneath them.",
-      "At Anza the reclamation unit arrives early under the still-active hands claim, but Fenn smudges a nine-year spotless record by taking Marlowe into line-trust custody, and Marlowe stays on the cot to give Teodoro Bay 4 numbers pointing at an unaccounted \"other one\" while the pump loop shows Culvert Nine drawing live and a body already walking toward the crew."
+      "Kass and Ospina try to flag a plate-less ghost train on the 7-K grade, fail, and are met by a Culvert Nine lookout who reveals Brill's crew has been drawing Anza's skimmed rations off the station totalizer all night."
     ]
   }
 }
