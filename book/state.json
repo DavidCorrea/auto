@@ -16,7 +16,7 @@
       "role": "node dispatcher",
       "wants": "find out why rigs keep disappearing from the schedule",
       "flaw": "won't drop a thread even when it puts people at risk",
-      "status": "on the ore line, pursuing the blank rig via pedal-rail, carrying Miko's dropped ticket and Nour's tally card"
+      "status": "at Anza relay shop board, holding Miko's dropped ticket, preparing to head north"
     },
     {
       "name": "Miko",
@@ -24,7 +24,7 @@
       "role": "cargo loader",
       "wants": "buy her way off the Interior before winter",
       "flaw": "takes stupid risks when she's bored",
-      "status": "confirmed aboard the blank rig northbound, unlogged, with two coast tickets remaining"
+      "status": "confirmed absent from resupply shift, likely aboard blank rig northbound"
     },
     {
       "name": "the man in the pod",
@@ -378,7 +378,8 @@
       "Pumping into the Blank, legs burning, Kass catches the hand lamp bobbing on the crew box ahead; when the rig eases across a switch she sees, lit from inside the window, a woman's shape keeping the flame steady—Miko, riding the unclaimed rig north with Anza's food and two tickets left. Kass leans on the pedals and closes the gap, Anza at her back for good."
     ],
     "events": [
-      "Kass finds Miko's dropped coast ticket at Anza's ore stub, confirming Miko rode the blank rig north, and prepares to pursue on the pedal-rail."
+      "Kass finds Miko's dropped coast ticket at Anza's ore stub, confirming Miko rode the blank rig north, and prepares to pursue on the pedal-rail.",
+      "Kass reads the resupply board, finds Miko's name on the shift roster with her slot scraped empty, sees Saul's penciled proposal for Culvert Nine, and realizes the blank rig with eleven canisters is hours ahead on the ore line."
     ]
   }
 }
