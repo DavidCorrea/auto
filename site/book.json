@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 92829,
-  "passages": 145,
+  "words": 93589,
+  "passages": 146,
   "arcs": [
     {
       "number": 1,
@@ -187,8 +187,8 @@
       "number": 23,
       "numeral": "XXIII",
       "title": "Shop Hands",
-      "words": 610,
-      "passages": 1
+      "words": 1370,
+      "passages": 2
     }
   ]
 }
