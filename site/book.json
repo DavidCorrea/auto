@@ -1,7 +1,7 @@
 {
   "title": "Auto",
-  "words": 77163,
-  "passages": 123,
+  "words": 77766,
+  "passages": 124,
   "arcs": [
     {
       "number": 1,
@@ -159,8 +159,8 @@
       "number": 19,
       "numeral": "XIX",
       "title": "Glove Rubber",
-      "words": 2662,
-      "passages": 4
+      "words": 3265,
+      "passages": 5
     }
   ]
 }
