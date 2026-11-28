@@ -48,7 +48,7 @@
       "role": "cargo loader, Bay 4 seal authority, Shift 2",
       "wants": "unknown",
       "flaw": "unknown",
-      "status": "holding File 2244 and the chipped crescent die, authority flagged and blinking red, seal logged into a separate open review at Kettering."
+      "status": "not present; last at Kettering bay three (unchanged)"
     },
     {
       "name": "Pell",
@@ -436,7 +436,9 @@
           "summary": "Kass writes herself into Dray's book as Marrow Cut's dispatcher, trades the badge-stealing for a schedule of the yard's own, and sends the re-plated rig north to Anza with ten good canisters while Saul writes Miko Keres back onto Culvert Nine's storeroom board in pencil and Miko hangs the hand lamp in the crew box — and then a headlight swings into the shed and Ospina steps down with File 2244 in one hand, the chipped crescent die in the other, and a red ring blinking on their thumb."
         }
       ],
-      "chapterSummaries": [],
+      "chapterSummaries": [
+        "Dray stopped forty meters short of Culvert Nine's door plate, set his lamp on the dirt, and said he'd wait as long as his fuel held — three weeks. Through Saul he laid out the yard's rule: a rig lives only while a living name is wired to its crew plate; a blank rig is a parts pile. He refused Brill's own name as spent, and she called nobody out to the steel. The spoiled can began sweating on the clamp pin, and Dray admitted he'd known Culvert Nine's count for a year and a half, because something has been reading her jaw into the ore line's queue."
+      ],
       "summary": "",
       "isClosed": false,
       "firstChapter": 29
@@ -444,23 +446,19 @@
   ],
   "chapter": {
     "arc": 6,
-    "number": 29,
-    "title": "A Man with No Clock",
+    "number": 30,
+    "title": "The Crank, Then the Cans",
     "beats": [
-      "Dray kills his rig short of Culvert Nine's door plate, sets his hand lamp on the dirt, and tells Saul he will wait as long as his fuel holds because he runs on no schedule.",
-      "Saul reads the blank rig's plate in the jaw and finds it logged only as Anza salvage with no living names wired to it, while Brill steps out with the crank demanding the ten canisters before they spoil.",
-      "Brill offers a can-for-cans trade across the plate, and Dray names his price: two living names wired to crew plates before the jaw turns, because a rig brought in blank is a parts pile and this rig is his.",
-      "Saul reads Marrow Cut's book aloud—a rig lives while a living name is wired to its crew plate, and no name means no movement—so Brill understands Dray is not buying fuel; he is buying bodies.",
-      "Brill offers her own crew's name to close the bargain and Dray refuses, saying his rig is two names short and he will not take hers, leaving her with a locked jaw and nothing she can hand over without a trade.",
-      "Dray leaves his lamp burning between the two rigs and tells her the door plate stays closed until the second name is written, landing Brill on a salvage claim she cannot cash and a standoff she cannot outwait."
+      "Brill gives up the crank rather than call another name: she slides it down the ore dirt with her boot, Dray picks it up and puts it inside his coat without crossing the plate, and the jaw pin stays shut.",
+      "With the pin already broken loose and the shop come-along rigged to the gate, Saul and Miko draw two good cans by hand and roll them to Dray's running board; he straps them down, hands nothing back, and says a trade taken isn't a bargain kept — his bargain was struck for a name.",
+      "Miko pulls badge C9-047 off her coat and offers it to end it; Brill clamps a glove over her mouth and tells her the badge was bought with tickets burned in Brill's own stove, so it isn't Miko's to spend, and Saul adds that a name in pencil won't hold a wire.",
+      "Kass comes down the grade from the second culvert on foot, dragging the pedal-rail behind them, bearing cooked black, knee gone, and trades insults with Miko before putting Nour's tally card in Brill's hand — eleven notched full, C9 cut in steel.",
+      "Dray starts working Kass instead of Brill: a dispatcher who doesn't eat out of her pot is exactly the witness he needs, and he offers to let them read his book if they'll stand on the steel and hear a name — Kass, who can't drop a thread, starts asking him about eleven rigs and a spliced queue instead of answering.",
+      "Kass crosses to the blank rig, wipes grease off the crew plate with a cuff, and finds a yard scrub-mark over an Anza clearance stamped and then struck through: rescinded, rescission logged at 04:51, witness line blank.",
+      "Kass reads it out flat — the same minute a rig vanished off Kettering's board — and says whoever signed that rescission is the one reading Culvert Nine's jaw into the queue, and Dray, keeping his letter exactly, opens his book for the first time and asks her to spell it."
     ],
     "events": [
-      "Orlin Dray arrives at Culvert Nine in an unmarked rig, kills the engine short of the door plate, sets his hand lamp on the ground, and tells lookout Saul he will wait as long as his fuel holds with no schedule to leave.",
-      "Saul reads the blank rig's crew plate as Anza salvage with no living names wired—news to Brill—while Brill steps out with the crank demanding ten canisters before the lockout and threatens to call Kettering before oh-eight-hundred.",
-      "Brill offered the crank and all eleven canisters across the door plate, and Dray refused, naming his price as two living names wired and witnessed to the blank rig's crew plate before the jaw turns again.",
-      "Saul reads Marrow Cut's rule aloud and Brill realizes Dray is buying bodies, not fuel, while Saul warns that calling Kettering will mark the rig derelict.",
-      "Brill offered her own name to close Dray's bargain, and Dray refused it as spent and only half of the two names he needs, leaving her with a locked jaw, a sweating spoiled can, and ninety minutes before the clamp faults.",
-      "Dray refused Brill's crew and her own name, declared Culvert Nine's door plate shut until the second name is written in his book, and revealed he has been hearing Culvert Nine's jaw log over the spliced ore-line wire — so he wants whoever is reading it out loud, not her canisters."
+      "Brill loosened the jaw's clamp pin so nothing was being handed over, slid the crank down the dirt to Dray, who pocketed it without crossing the door plate while the jaw stayed locked, and ordered two good cans rolled out — then the spoiled can shifted and started to go."
     ]
   }
 }
