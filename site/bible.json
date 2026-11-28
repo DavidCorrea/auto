@@ -8,7 +8,7 @@
       "role": "relay mechanic",
       "wants": "get her brother to the next node before his respirator gives out",
       "flaw": "trusts a truck's diagnostics more than a person's word",
-      "status": "Anza relay shop, hand off the pump, watching the gauge, refusing to thank whoever restored the power"
+      "status": "hand off pump, Ivo running on mains power"
     },
     {
       "name": "Kass",
@@ -267,7 +267,8 @@
     "events": [
       "A taped-glove figure calling itself badge 2244 quotes the collection rule at reader two, demands to know who patched Ivo's diaphragm, and walks out up the ore stub, leaving the shop unable to explain how he knew.",
       "Saul writes Culvert Nine as a proposed resupply stop on their clipboard at Brill's demand, she accepts the trade but warns of consequences, and an unscheduled locomotive's headlights appear outside the pump hall.",
-      "The six scrubber cases reached Anza on the 7-K, Rhea cut a fresh cartridge into Ivo's respirator and took her hand off the pump for the first time in two days, and compressor priority came back on a filing made from Culvert Nine without the trade she'd refused."
+      "The six scrubber cases reached Anza on the 7-K, Rhea cut a fresh cartridge into Ivo's respirator and took her hand off the pump for the first time in two days, and compressor priority came back on a filing made from Culvert Nine without the trade she'd refused.",
+      "Marlowe refuses to countersign himself off Anza's plate, accepts a shop hand bunk, and the reader two prints his claim as acknowledged live by badge 2244 just as an unannounced vehicle arrives outside."
     ]
   }
 }
